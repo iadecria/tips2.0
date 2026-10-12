@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-11",
+  "snapshotId": "FAS_GEMINI_2026-10-11_V2_GLOBAL",
+  "status": "SETTLED",
+  "coverage": "Global — Premier League, LaLiga, Serie A Itália, Ligue 1, Bundesliga, Liga Portugal, Brasileirão Série A e Série B",
+  "sorosTicket": {
+    "day": 2,
+    "stake": 18.40,
+    "multiplier": 2.02,
+    "potentialReturn": 37.17,
+    "actualReturn": 37.17,
+    "status": "GREEN",
+    "notes": "Blindagem de Elite: Benfica em casa (@1.19) + Rennes em casa (@1.44) + Bahia 1X na Fonte Nova (@1.18)",
+    "selections": [
+      {
+        "match": "Benfica x Vitória de Guimarães",
+        "competition": "Liga Portugal (14:00 BRT)",
+        "market": "Benfica Vence (Moneyline / Casa)",
+        "odd": 1.19,
+        "score": "2x0",
+        "status": "HIT"
+      },
+      {
+        "match": "Rennes x Auxerre",
+        "competition": "Ligue 1 (12:15 BRT)",
+        "market": "Rennes Vence (Moneyline / Casa)",
+        "odd": 1.44,
+        "score": "4x1",
+        "status": "HIT"
+      },
+      {
+        "match": "Bahia x Mirassol",
+        "competition": "Brasileirão Série A (19:30 BRT)",
+        "market": "Dupla Chance (Bahia ou Empate / 1X)",
+        "odd": 1.18,
+        "score": "1x0",
+        "status": "HIT"
+      }
+    ]
+  },
+  "modularTickets": [
+    {
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle — Âncoras Globais de Elite)",
+      "type": "SAFE",
+      "overallStatus": "GREEN_TOTAL",
+      "stopPoints": [
+        {
+          "level": "STOP POINT 1 (Tripla Âncora de Elite Europeia + Brasil)",
+          "multiplier": 2.02,
+          "legs": [
+            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
+            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
+            "Bahia ou Empate (1X @1.18) [1x0] ➔ HIT"
+          ],
+          "status": "GREEN"
+        },
+        {
+          "level": "STOP POINT 2 (Quádrupla Blindada + LaLiga)",
+          "multiplier": 2.27,
+          "legs": [
+            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
+            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
+            "Bahia ou Empate (1X @1.18) [1x0] ➔ HIT",
+            "Real Betis ou Empate (1X @1.12) [5x2] ➔ HIT"
+          ],
+          "status": "GREEN"
+        },
+        {
+          "level": "STOP POINT 3 (Múltipla Completa Top 5 Blindada)",
+          "multiplier": 2.54,
+          "legs": [
+            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
+            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
+            "Bahia ou Empate (1X @1.18) [1x0] ➔ HIT",
+            "Real Betis ou Empate (1X @1.12) [5x2] ➔ HIT",
+            "Flamengo ou Empate (1X @1.12) [1x0] ➔ HIT"
+          ],
+          "status": "GREEN"
+        }
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 2 — SAFE+ (Secas de Elite Europeia & Brasil)",
+      "type": "SAFE+",
+      "overallStatus": "GREEN_TOTAL",
+      "stopPoints": [
+        {
+          "level": "STOP POINT 1 (Tripla de Ouro Europeia)",
+          "multiplier": 2.58,
+          "legs": [
+            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
+            "Real Betis Vence (ML @1.51) [5x2] ➔ HIT",
+            "Rennes Vence (ML @1.44) [4x1] ➔ HIT"
+          ],
+          "status": "GREEN"
+        },
+        {
+          "level": "STOP POINT 2 (Quádrupla Forte com Palmeiras)",
+          "multiplier": 4.33,
+          "legs": [
+            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
+            "Real Betis Vence (ML @1.51) [5x2] ➔ HIT",
+            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
+            "Palmeiras Vence (ML @1.68) [4x1] ➔ HIT"
+          ],
+          "status": "GREEN"
+        },
+        {
+          "level": "STOP POINT 3 (Quíntupla Completa SAFE+)",
+          "multiplier": 6.36,
+          "legs": [
+            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
+            "Real Betis Vence (ML @1.51) [5x2] ➔ HIT",
+            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
+            "Palmeiras Vence (ML @1.68) [4x1] ➔ HIT",
+            "Flamengo Vence (ML @1.47) [1x0] ➔ HIT"
+          ],
+          "status": "GREEN"
+        }
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 3 — SUPER CLÁSSICOS & ATAQUE (PRA CIMA)",
+      "type": "ATTACK",
+      "multiplier": 7.42,
+      "legs": [
+        "Liverpool x Man City: Ambos Marcam - Sim (@1.55) [0x3] ➔ MISS",
+        "Flamengo x Fluminense: Flamengo 2+ Gols (@1.65) [1x0] ➔ MISS",
+        "Palmeiras x Corinthians: Palmeiras Vence (@1.68) [4x1] ➔ HIT",
+        "Cagliari x Juventus: Juventus Vence (@1.54) [1x1] ➔ MISS"
+      ],
+      "status": "RED"
+    },
+    {
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima da Rodada)",
+      "type": "APOSENTAR_O_NETO",
+      "multiplier": 52.80,
+      "legs": [
+        "Liverpool x Man City: Mais de 2.5 Gols & Ambos Marcam (@1.85) [0x3] ➔ MISS",
+        "Benfica Vence & Over 1.5 (@1.35) [2x0] ➔ HIT",
+        "Rennes Vence (@1.44) [4x1] ➔ HIT",
+        "Real Betis Vence (@1.51) [5x2] ➔ HIT",
+        "Palmeiras Vence (@1.68) [4x1] ➔ HIT",
+        "Bahia Vence (@1.73) [1x0] ➔ HIT",
+        "Gre-Nal: Empate Seco (@3.30) [1x1] ➔ HIT"
+      ],
+      "status": "RED"
+    }
+  ]
+}

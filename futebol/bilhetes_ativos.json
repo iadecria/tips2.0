@@ -1,40 +1,35 @@
 {
-  "date": "2026-10-11",
-  "snapshotId": "FAS_GEMINI_2026-10-11_V2_GLOBAL",
-  "status": "SETTLED",
-  "coverage": "Global — Premier League, LaLiga, Serie A Itália, Ligue 1, Bundesliga, Liga Portugal, Brasileirão Série A e Série B",
+  "date": "2026-10-12",
+  "snapshotId": "FAS_GEMINI_2026-10-12_V1_GLOBAL",
+  "status": "PENDING",
+  "coverage": "Global — Premier League, LaLiga, Serie A, Liga Portugal, Brasileirão Série A e Série B",
   "sorosTicket": {
-    "day": 2,
-    "stake": 18.40,
-    "multiplier": 2.02,
-    "potentialReturn": 37.17,
-    "actualReturn": 37.17,
-    "status": "GREEN",
-    "notes": "Blindagem de Elite: Benfica em casa (@1.19) + Rennes em casa (@1.44) + Bahia 1X na Fonte Nova (@1.18)",
+    "day": 3,
+    "stake": 37.17,
+    "multiplier": 2.00,
+    "potentialReturn": 74.34,
+    "notes": "Blindagem de Elite: Atalanta no Gewiss Stadium (@1.54) + Criciúma 1X no Heriberto Hülse (@1.05) + Fortaleza 1X no Castelão (@1.24)",
     "selections": [
       {
-        "match": "Benfica x Vitória de Guimarães",
-        "competition": "Liga Portugal (14:00 BRT)",
-        "market": "Benfica Vence (Moneyline / Casa)",
-        "odd": 1.19,
-        "score": "2x0",
-        "status": "HIT"
+        "match": "Atalanta BC x Venezia",
+        "competition": "Serie A (13:30 BRT)",
+        "market": "Atalanta Vence (Moneyline / Casa)",
+        "odd": 1.54,
+        "status": "PENDING"
       },
       {
-        "match": "Rennes x Auxerre",
-        "competition": "Ligue 1 (12:15 BRT)",
-        "market": "Rennes Vence (Moneyline / Casa)",
-        "odd": 1.44,
-        "score": "4x1",
-        "status": "HIT"
+        "match": "Criciúma x América Mineiro",
+        "competition": "Brasileirão Série B (19:30 BRT)",
+        "market": "Dupla Chance (Criciúma ou Empate / 1X)",
+        "odd": 1.05,
+        "status": "PENDING"
       },
       {
-        "match": "Bahia x Mirassol",
-        "competition": "Brasileirão Série A (19:30 BRT)",
-        "market": "Dupla Chance (Bahia ou Empate / 1X)",
-        "odd": 1.18,
-        "score": "1x0",
-        "status": "HIT"
+        "match": "Fortaleza x CRB",
+        "competition": "Brasileirão Série B (16:00 BRT)",
+        "market": "Dupla Chance (Fortaleza ou Empate / 1X)",
+        "odd": 1.24,
+        "status": "PENDING"
       }
     ]
   },
@@ -42,109 +37,104 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle — Âncoras Globais de Elite)",
       "type": "SAFE",
-      "overallStatus": "GREEN_TOTAL",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Tripla Âncora de Elite Europeia + Brasil)",
-          "multiplier": 2.02,
+          "multiplier": 2.00,
           "legs": [
-            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
-            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
-            "Bahia ou Empate (1X @1.18) [1x0] ➔ HIT"
+            "Atalanta Vence (ML @1.54)",
+            "Criciúma ou Empate (1X @1.05)",
+            "Fortaleza ou Empate (1X @1.24)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Blindada + LaLiga)",
-          "multiplier": 2.27,
+          "level": "STOP POINT 2 (Quádrupla Blindada + Série A Furacão X2)",
+          "multiplier": 2.57,
           "legs": [
-            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
-            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
-            "Bahia ou Empate (1X @1.18) [1x0] ➔ HIT",
-            "Real Betis ou Empate (1X @1.12) [5x2] ➔ HIT"
+            "Atalanta Vence (ML @1.54)",
+            "Criciúma ou Empate (1X @1.05)",
+            "Fortaleza ou Empate (1X @1.24)",
+            "Athletico-PR ou Empate (X2 @1.28)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa Top 5 Blindada)",
-          "multiplier": 2.54,
+          "multiplier": 3.13,
           "legs": [
-            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
-            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
-            "Bahia ou Empate (1X @1.18) [1x0] ➔ HIT",
-            "Real Betis ou Empate (1X @1.12) [5x2] ➔ HIT",
-            "Flamengo ou Empate (1X @1.12) [1x0] ➔ HIT"
+            "Atalanta Vence (ML @1.54)",
+            "Criciúma ou Empate (1X @1.05)",
+            "Fortaleza ou Empate (1X @1.24)",
+            "Athletico-PR ou Empate (X2 @1.28)",
+            "Torino x Udinese: Menos de 3.5 Gols (@1.22)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Secas de Elite Europeia & Brasil)",
       "type": "SAFE+",
-      "overallStatus": "GREEN_TOTAL",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Tripla de Ouro Europeia)",
-          "multiplier": 2.58,
+          "level": "STOP POINT 1 (Dupla de Ouro Europeia + Brasil)",
+          "multiplier": 2.03,
           "legs": [
-            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
-            "Real Betis Vence (ML @1.51) [5x2] ➔ HIT",
-            "Rennes Vence (ML @1.44) [4x1] ➔ HIT"
+            "Atalanta Vence (ML @1.54)",
+            "Criciúma Vence (ML @1.32)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte com Palmeiras)",
-          "multiplier": 4.33,
+          "level": "STOP POINT 2 (Tripla Forte com Famalicão)",
+          "multiplier": 3.82,
           "legs": [
-            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
-            "Real Betis Vence (ML @1.51) [5x2] ➔ HIT",
-            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
-            "Palmeiras Vence (ML @1.68) [4x1] ➔ HIT"
+            "Atalanta Vence (ML @1.54)",
+            "Criciúma Vence (ML @1.32)",
+            "Famalicão Vence (ML @1.88)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Quíntupla Completa SAFE+)",
-          "multiplier": 6.36,
+          "level": "STOP POINT 3 (Quádrupla Completa SAFE+)",
+          "multiplier": 7.56,
           "legs": [
-            "Benfica Vence (ML @1.19) [2x0] ➔ HIT",
-            "Real Betis Vence (ML @1.51) [5x2] ➔ HIT",
-            "Rennes Vence (ML @1.44) [4x1] ➔ HIT",
-            "Palmeiras Vence (ML @1.68) [4x1] ➔ HIT",
-            "Flamengo Vence (ML @1.47) [1x0] ➔ HIT"
+            "Atalanta Vence (ML @1.54)",
+            "Criciúma Vence (ML @1.32)",
+            "Famalicão Vence (ML @1.88)",
+            "Athletico-PR Vence (ML @1.98)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER CLÁSSICOS & ATAQUE (PRA CIMA)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
       "type": "ATTACK",
-      "multiplier": 7.42,
+      "multiplier": 12.80,
       "legs": [
-        "Liverpool x Man City: Ambos Marcam - Sim (@1.55) [0x3] ➔ MISS",
-        "Flamengo x Fluminense: Flamengo 2+ Gols (@1.65) [1x0] ➔ MISS",
-        "Palmeiras x Corinthians: Palmeiras Vence (@1.68) [4x1] ➔ HIT",
-        "Cagliari x Juventus: Juventus Vence (@1.54) [1x1] ➔ MISS"
+        "Atalanta Vence + Mais de 1.5 Gols (@1.80)",
+        "Famalicão Vence (@1.88)",
+        "Athletico-PR Vence (@1.98)",
+        "Fortaleza Vence (@1.91)"
       ],
-      "status": "RED"
+      "status": "PENDING"
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima da Rodada)",
       "type": "APOSENTAR_O_NETO",
-      "multiplier": 52.80,
+      "multiplier": 105.00,
       "legs": [
-        "Liverpool x Man City: Mais de 2.5 Gols & Ambos Marcam (@1.85) [0x3] ➔ MISS",
-        "Benfica Vence & Over 1.5 (@1.35) [2x0] ➔ HIT",
-        "Rennes Vence (@1.44) [4x1] ➔ HIT",
-        "Real Betis Vence (@1.51) [5x2] ➔ HIT",
-        "Palmeiras Vence (@1.68) [4x1] ➔ HIT",
-        "Bahia Vence (@1.73) [1x0] ➔ HIT",
-        "Gre-Nal: Empate Seco (@3.30) [1x1] ➔ HIT"
+        "Atalanta Vence + Mais de 2.5 Gols (@2.20)",
+        "Criciúma Vence + Menos de 3.5 Gols (@1.85)",
+        "Famalicão Vence (@1.88)",
+        "Athletico-PR Vence (@1.98)",
+        "Fortaleza Vence (@1.91)",
+        "Coventry x Newcastle: Newcastle Vence (@2.23)",
+        "Bragantino x Cruzeiro: Ambos Marcam - Sim (@1.80)"
       ],
-      "status": "RED"
+      "status": "PENDING"
     }
   ]
 }

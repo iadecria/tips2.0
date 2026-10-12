@@ -37,6 +37,15 @@
       "potentialReturn": 37.17,
       "status": "HIT",
       "actualReturn": 37.17
+    },
+    {
+      "day": 3,
+      "date": "2026-10-12",
+      "stakeIn": 37.17,
+      "selection": "Atalanta x Venezia (Atalanta Vence / ML @1.54) + Criciúma x América-MG (Criciúma ou Empate / 1X @1.05) + Fortaleza x CRB (Fortaleza ou Empate / 1X @1.24)",
+      "odd": 2.00,
+      "potentialReturn": 74.34,
+      "status": "PENDING"
     }
   ]
 }

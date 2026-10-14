@@ -1,11 +1,11 @@
 {
   "date": "2026-10-14",
-  "snapshotId": "FAS_GEMINI_2026-10-14_V1_GLOBAL",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-14_V1",
   "status": "PENDING",
-  "coverage": "Global — UEFA Champions League Matchday 2",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Todas as Melhores Opções da Champions)",
     "type": "FILE_DO_DIA",
+    "sport": "Futebol",
     "multiplierGlobal": 3.67,
     "philosophy": "Reunião de todas as melhores oportunidades de altíssima convicção da rodada, disponíveis em versão Global e divididas por Turno de Horário.",
     "timeClusters": [
@@ -86,29 +86,15 @@
   "sorosTicket": {
     "day": 1,
     "stake": 10.00,
-    "multiplier": 1.81,
-    "potentialReturn": 18.10,
+    "multiplier": 1.28,
+    "potentialReturn": 12.80,
     "status": "PENDING",
-    "notes": "Espelho estrito do Stop Point 1 da Múltipla 1: Liverpool Over 1.5 (@1.20) + Aston Villa 1X (@1.18) + Real Madrid X2 (@1.28)",
+    "notes": "Novo Modelo Sniper (Menos Jogos, Máxima Assertividade, Odd > 1.25): Real Madrid ou Empate (X2 @1.28) [Stadio Olimpico]",
     "selections": [
-      {
-        "match": "LASK Linz x Liverpool",
-        "competition": "UEFA Champions League (13:45 BRT)",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
-        "match": "Aston Villa x Fenerbahçe",
-        "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Aston Villa ou Empate (1X)",
-        "odd": 1.18,
-        "status": "PENDING"
-      },
       {
         "match": "AS Roma x Real Madrid",
         "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Real Madrid ou Empate (X2)",
+        "market": "Real Madrid ou Empate (Dupla Chance X2)",
         "odd": 1.28,
         "status": "PENDING"
       }
@@ -191,5 +177,161 @@
       ],
       "status": "PENDING"
     }
-  ]
+  ],
+  "basquete": {
+    "coverage": "NBA Preseason (14/10/2026)",
+    "sorosTicket": {
+      "day": 1,
+      "stake": 10.00,
+      "multiplier": 1.33,
+      "potentialReturn": 13.30,
+      "status": "PENDING",
+      "notes": "Sniper do Basquete: Boston Celtics Acima de 111.5 Pontos (@1.33) [TD Garden]",
+      "selections": [
+        {
+          "match": "Charlotte Hornets @ Boston Celtics",
+          "competition": "NBA Preseason (20:30 BRT)",
+          "market": "Boston Celtics ➔ Acima de 111.5 Pontos",
+          "odd": 1.33,
+          "status": "PENDING"
+        }
+      ]
+    },
+    "supremoTicket": {
+      "name": "⭐ BILHETE SUPREMO — O FILÉ DA NOITE (NBA)",
+      "type": "FILE_DA_NOITE",
+      "multiplierGlobal": 4.34,
+      "philosophy": "Reunião de todas as melhores opções de altíssima convicção da NBA com foco em Pontos do Time e Spreads Elásticos.",
+      "timeClusters": [
+        {
+          "clusterName": "🌆 TURNO 1 — PRIME TIME (20:30 - 21:10 BRT)",
+          "multiplier": 2.44,
+          "notes": "Jogos da Costa Leste e Centro. Liquidação antes das 23:30.",
+          "legs": [
+            "Brooklyn Nets @ Miami Heat: Mais de 223.5 Pontos (@1.36)",
+            "Charlotte Hornets @ Boston Celtics: Celtics Acima de 111.5 Pontos (@1.33)",
+            "Phoenix Suns @ San Antonio Spurs: Spurs Acima de 109.5 Pontos (@1.35)"
+          ]
+        },
+        {
+          "clusterName": "🌙 TURNO 2 — LATE NIGHT (23:30 BRT)",
+          "multiplier": 1.82,
+          "notes": "Jogo de Los Angeles. Liquida na madrugada.",
+          "legs": [
+            "Denver Nuggets @ LA Clippers: Denver Nuggets +7.5 Handicap (@1.35)",
+            "Denver Nuggets @ LA Clippers: Mais de 216.5 Pontos Totais (@1.35)"
+          ]
+        }
+      ],
+      "selections": [
+        {
+          "match": "Brooklyn Nets @ Miami Heat (20:30 BRT)",
+          "cluster": "Turno 1",
+          "market": "Mais de 223.5 Pontos Totais",
+          "odd": 1.36,
+          "status": "PENDING"
+        },
+        {
+          "match": "Charlotte Hornets @ Boston Celtics (20:30 BRT)",
+          "cluster": "Turno 1",
+          "market": "Boston Celtics Acima de 111.5 Pontos",
+          "odd": 1.33,
+          "status": "PENDING"
+        },
+        {
+          "match": "Phoenix Suns @ San Antonio Spurs (21:10 BRT)",
+          "cluster": "Turno 1",
+          "market": "San Antonio Spurs Acima de 109.5 Pontos",
+          "odd": 1.35,
+          "status": "PENDING"
+        },
+        {
+          "match": "Chicago Bulls @ Milwaukee Bucks (21:00 BRT)",
+          "cluster": "Turno 1",
+          "market": "Milwaukee Bucks Acima de 110.5 Pontos",
+          "odd": 1.32,
+          "status": "PENDING"
+        },
+        {
+          "match": "Denver Nuggets @ LA Clippers (23:30 BRT)",
+          "cluster": "Turno 2",
+          "market": "Denver Nuggets +7.5 Handicap",
+          "odd": 1.35,
+          "status": "PENDING"
+        }
+      ]
+    },
+    "modularTickets": [
+      {
+        "name": "MÚLTIPLA 1 — SAFE BASQUETE",
+        "type": "SAFE",
+        "stopPoints": [
+          {
+            "level": "STOP POINT 1 (Dupla Âncora Pontos do Time)",
+            "multiplier": 1.81,
+            "legs": [
+              "Hornets @ Celtics: Celtics Acima de 111.5 Pontos (@1.33)",
+              "Nets @ Heat: Mais de 223.5 Pontos (@1.36)"
+            ],
+            "status": "PENDING"
+          },
+          {
+            "level": "STOP POINT 2 (Tripla Blindada NBA)",
+            "multiplier": 2.44,
+            "legs": [
+              "Hornets @ Celtics: Celtics Acima de 111.5 Pontos (@1.33)",
+              "Nets @ Heat: Mais de 223.5 Pontos (@1.36)",
+              "Suns @ Spurs: Spurs Acima de 109.5 Pontos (@1.35)"
+            ],
+            "status": "PENDING"
+          },
+          {
+            "level": "STOP POINT 3 (Quádrupla Completa NBA)",
+            "multiplier": 3.29,
+            "legs": [
+              "Hornets @ Celtics: Celtics Acima de 111.5 Pontos (@1.33)",
+              "Nets @ Heat: Mais de 223.5 Pontos (@1.36)",
+              "Suns @ Spurs: Spurs Acima de 109.5 Pontos (@1.35)",
+              "Nuggets @ Clippers: Denver Nuggets +7.5 Handicap (@1.35)"
+            ],
+            "status": "PENDING"
+          }
+        ]
+      },
+      {
+        "name": "MÚLTIPLA 2 — SAFE+ BASQUETE",
+        "type": "SAFE+",
+        "multiplier": 3.15,
+        "legs": [
+          "Brooklyn Nets @ Miami Heat: Miami Heat Acima de 117.5 Pontos (@1.72)",
+          "Charlotte Hornets @ Boston Celtics: Boston Celtics -7.5 Handicap (@1.83)"
+        ],
+        "status": "PENDING"
+      },
+      {
+        "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE",
+        "type": "ATTACK",
+        "multiplier": 11.43,
+        "legs": [
+          "Phoenix Suns @ San Antonio Spurs: Spurs Vence + Mais de 224.5 Pontos (@2.80)",
+          "Denver Nuggets @ LA Clippers: Denver Nuggets Vence Seco (@2.15)",
+          "Chicago Bulls @ Milwaukee Bucks: Milwaukee Bucks -8.5 Handicap (@1.90)"
+        ],
+        "status": "PENDING"
+      },
+      {
+        "name": "MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE",
+        "type": "APOSENTAR_O_NETO",
+        "multiplier": 84.50,
+        "legs": [
+          "Celtics -11.5 Handicap (@2.40)",
+          "Heat -10.5 Handicap (@2.20)",
+          "Spurs Vence + Over 224.5 (@2.80)",
+          "Nuggets Vence Seco (@2.15)",
+          "Bucks -8.5 Handicap (@1.90)"
+        ],
+        "status": "PENDING"
+      }
+    ]
+  }
 }

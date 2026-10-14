@@ -1,82 +1,84 @@
-# FAS ELITE DASHBOARD — PROMPT MESTRE PARA O V0.DEV (PROMPT MASTER PLAN)
+# FAS ELITE — PROMPT MASTER PLAN EXECUTIVO PARA O V0.DEV
 
-> **Instruções de Uso no v0:** Copie o texto abaixo e cole diretamente na caixa de criação do **v0.dev** para gerar o frontend completo da sua plataforma de tips e análise esportiva.
+> **Como usar no v0:** Copie todo o conteúdo abaixo e cole no chat do seu projeto no **[v0.dev](https://v0.dev)**. Ele vai instruir a IA a estruturar o sistema completo, com sincronização em tempo real, gráficos, relatórios e a nova Escada Oficial de Bilhetes.
 
 ---
 
 ```markdown
-Crie uma aplicação web moderna, responsiva e profissional chamada "FAS Elite — Sports Analytics & Ticket Engine" (Futebol & Basquete), inspirada nos dashboards analíticos da Bloomberg e plataformas de trading esportivo de alto padrão.
+Você é o engenheiro frontend sênior responsável pela plataforma "FAS ELITE — Sports Analytics & Trading Desk" (Next.js 14, TailwindCSS, Shadcn UI, Lucide Icons, Recharts).
 
-### 🎨 DESIGN SYSTEM & ESTÉTICA
-- Tema escuro padrão (Dark Mode nativo esportivo: background slate-950, cards slate-900/slate-850 com bordas sutis slate-800, textos claros com hierarquia nítida).
-- Destaques em cores semânticas vibrantes:
-  - 🟢 GREEN / Lucro: Emerald-500 / Emerald-400
-  - 🔴 RED / Perda: Rose-500
-  - 🟡 PENDING / Em Aberto: Amber-400
-  - 🔵 SAFE / Destaque: Indigo-400 / Sky-400
-  - 🟣 SUPREMO / Ouro: Violet-400 / Amber-300
-- Fontes modernas (Inter ou Outfit), micro-interações suaves, badges de odds estilizados e botões de cópia rápida de boletim.
+Vamos refinar e elevar o dashboard para o padrão executivo final, integrando a Escada Oficial de Níveis, Sincronização Automática via GitHub e Central de Relatórios/Gráficos.
 
 ---
 
-### 📱 ESTRUTURA E MÓDULOS PRINCIPAIS
-
-#### 1. Header & Controles Globais
-- Logo "FAS ELITE" com badge de versão "V5.0 Multi-Sport".
-- Seletor de Esporte (Toggle Tabs): [ ⚽ Futebol ] | [ 🏀 Basquete (NBA / FIBA) ].
-- Seletor de Data com calendário e badges de status da rodada (ex: "Champions League — 14/10" ou "NBA Preseason").
-- Resumo do Dia no topo: Total de Bilhetes Ativos, ROI Projetado, e Status da Banca.
-
-#### 2. Central de Bilhetes — Seção Principal
-Crie abas ou grids para os bilhetes oficiais:
-
-* ⭐ **CARD DE DESTAQUE: BILHETE SUPREMO (O FILÉ DO DIA / DA NOITE)**
-  - O bilhete principal da tela, com borda dourada/violeta brilhante.
-  - Seletor de visualização interno com 3 botões/tabs:
-    - [ Global (Todas as Melhores) ]
-    - [ 🥪 Turno 1 (Ex: 13:45 BRT - Almoço) ]
-    - [ 🌆 Turno 2 (Ex: 16:00 BRT - Tarde/Noite) ]
-  - Exibe a lista de seleções com: Horário, Jogo, Competição, Mercado, Odd individual e Badge de Status (Pendente / Green / Red).
-  - Multiplicador total acumulado com cálculo automático de retorno potencial para R$ 50 e R$ 100.
-  - Botão "Copiar Bilhete Formatado para WhatsApp/Telegram".
-
-* 🥇 **TIER 1 — MÚLTIPLA 1: SAFE (Carro-Chefe)**
-  - Card interativo com abas de **STOP POINTS**:
-    - **Stop Point 1 (Âncora Máxima — Odd 1.70 a 1.85)**
-    - **Stop Point 2 (Blindagem — Odd 2.00 a 2.20)**
-    - **Stop Point 3 (Completa — Odd 2.50+)**
-  - O usuário clica no Stop Point desejado e a lista de jogos/cotação atualiza instantaneamente.
-
-* 🥈 **TIER 2 & 3 — CARDS SECUNDÁRIOS EM GRID:**
-  - **Múltipla 2: SAFE+** (Odd 2.50 a 3.50 — Alavancagem balanceada).
-  - **Múltipla 3: SUPER ATAQUE** (Odd 6.00 a 12.00 — Retorno agressivo).
-  - **Múltipla 4: APOSENTAR O NETO** (Odd 50.00+ — Bingão recreativo).
-
-#### 3. Módulo Exclusivo: DESAFIO SOROS 30 DIAS
-- Barra de Progresso visual interativa (Dia 1 a 30) mostrando a trajetória da banca.
-- Card com o dia atual:
-  - Entrada do Dia (Stake em R$).
-  - Odd da Entrada (Espelho do Stop Point 1).
-  - Retorno Esperado.
-  - Próximo Alvo.
-- Histórico em formato de timeline com status de cada dia anterior (GREEN / RED) e o motivo da liquidação.
-
-#### 4. Módulo de Conferência & Liquidação (CONFERE / AUDITORIA)
-- Painel colapsável ou aba dedicada onde o usuário pode:
-  - Ver os resultados finais de cada partida da rodada.
-  - Clicar em "Liquidar Rodada" para ver quais pernas deram Green ou Red automaticamente.
-  - Campo de texto para importar/colar o JSON do dia (`bilhetes_ativos.json`) ou exportar o relatório auditado em Markdown.
+### 1. 🎨 IDENTIDADE VISUAL & AMBIENTE (BLOOMBERG HUD DESK)
+- Tema escuro imersivo (Slate-950 puro, cards em Slate-900 com bordas suaves Slate-800/60).
+- Cores Semânticas de Alta Precisão:
+  - 🟢 GREEN: Emerald-400 / Emerald-500
+  - 🔴 RED: Rose-500
+  - 🟡 PENDING: Amber-400
+  - 🟣 SUPREMO (Ouro/Filé): Violet-400 / Amber-400
+  - 🔵 SAFE / Âncora: Sky-400 / Indigo-400
+- Microinterações suaves, badges com pill design e números em fonte tabular/mono para alinhamento financeiro impecável.
 
 ---
 
-### 📦 MOCK DATA INICIAL (JSON EMBUTIDO PARA DEMONSTRAÇÃO)
-Deixe o dashboard já carregado com os dados reais da Champions League de 14/10/2026:
-- **Bilhete Supremo Global:** 7 jogos (@3.67).
-- **Bilhete Supremo Turno 1 (13:45):** LASK x Liverpool (Over 1.5) + Feyenoord x Como (Over 1.5) = @1.46.
-- **Bilhete Supremo Turno 2 (16:00):** Aston Villa 1X + Real Madrid X2 + City x PSG Over 1.5 + Bodø/Dortmund Over 1.5 + Stuttgart Over 0.5 = @2.51.
-- **Múltipla 1 SAFE:** Stop Points 1 (@1.81), 2 (@2.14) e 3 (@2.52).
-- **Desafio Soros:** Dia 1 (R$ 10,00 @1.81).
-- **Dados do Basquete (NBA):** Indiana Pacers +8.5 / Over 105.5 pts, Warriors x Lakers Over 218.5 pts.
+### 2. ⚡ SINCRONIZAÇÃO DE DADOS & PERSISTÊNCIA (ZERO COMPLEXIDADE)
+Implemente a camada de dados no `localStorage` com duas vias de atualização:
+1. **Botão 'Sincronizar GitHub' (1 Clique no Header):**
+   - Faz um `fetch()` direto do repositório público raw:
+     `https://raw.githubusercontent.com/iadecria/tips/main/futebol/bilhetes_ativos.json`
+   - Atualiza o estado do dashboard instantaneamente sem precisar recarregar a página.
+   - Mostra toast notification de sucesso: "Dados sincronizados com o repositório oficial!".
+2. **Modal 'Importar / Editar JSON':**
+   - Modal acessível pelo ícone de engrenagem/código no header onde o usuário pode visualizar, colar ou editar manualmente o JSON do dia e salvar no `localStorage`.
 
-Construa com componentes Tailwind limpos, Shadcn UI (Tabs, Dialog, Card, Badge, Progress, Button, Tooltip) e layout responsivo mobile-first.
+---
+
+### 3. 🏛️ A ESCADA OFICIAL DE BILHETES (ORGANIZAÇÃO EM ABAS/SEÇÕES)
+
+O layout deve organizar os bilhetes exatamente na hierarquia de assertividade:
+
+#### 🎯 NÍVEL 0 — DESAFIO SOROS (O Sniper Sagrado)
+- Card compacto com borda destacada e barra de progresso visual do Dia 1 ao 30.
+- Regra de ouro: Apenas 1 ou no máximo 2 jogos de convicção absoluta (Odd @1.25 a @1.45).
+- Exibe: Dia Atual, Stake de Entrada (R$), Odd Sniper, Retorno Potencial e Histórico de Dias Anteriores (badges clicáveis Green/Red).
+
+#### ⭐ NÍVEL 1 — BILHETE SUPREMO (O Filé do Dia / Da Noite)
+- O card de destaque principal com seletor interno de abas:
+  - `[ 🌐 Global (Todas as Melhores) ]`
+  - `[ 🥪 Turno 1 (Almoço / Prime Time) ]` ➔ Liquidação rápida antecipada.
+  - `[ 🌆 Turno 2 (Tarde / Late Night) ]` ➔ Jogos complementares.
+- Barra de Progresso visual animada de acertos (ex: 2/7 Batendo ➔ barra em Emerald preenchendo).
+- Botão "Copiar Boletim" no rodapé para formatar o texto com emojis e copiar para WhatsApp/Telegram.
+- Simulador de Stake interativo (input de valor em R$ recalculando o retorno na hora).
+
+#### 🥇 NÍVEL 2 — MÚLTIPLA 1: SAFE (Carro-Chefe / 70% da Banca)
+- Card com abas interativas dos Stop Points:
+  - `[ 🟢 Stop Point 1 (Âncora Máxima @1.60 a @1.85) ]`
+  - `[ 🟡 Stop Point 2 (Blindagem @1.85 a @2.15) ]`
+  - `[ 🔴 Stop Point 3 (Completa @2.20 a @2.60) ]`
+- Alternar o stop point altera instantaneamente a lista de jogos e a cotação final.
+
+#### 🥈 NÍVEL 3, 4 E 5 — GRADES SECUNDÁRIAS (GRID DE 3 COLUNAS)
+- **Múltipla 2: SAFE+** (Odd 2.50 a 3.50 — Alavancagem balanceada).
+- **Múltipla 3: SUPER ATAQUE** (Odd 6.00 a 12.00 — Retorno agressivo com handicaps).
+- **Múltipla 4: APOSENTAR O NETO** (Odd 50.00 a 150.00+ — Bingão recreativo de moeda de troco).
+
+---
+
+### 4. 📊 NOVA ABA: 'RELATÓRIOS & PERFORMANCE'
+Crie uma aba de navegação superior chamada "Relatórios":
+- **Gráfico de Evolução Patrimonial (LineChart - Recharts):** Curva de crescimento da banca dia a dia com tooltip financeiro.
+- **Gráfico de Taxa de Acerto (PieChart / Donut):** Distribuição percentual de Greens vs Reds.
+- **Tabela de Histórico de Rodadas Anteriores:** Lista com data, evento, cotação, status de liquidação e lucro/prejuízo registrado.
+
+---
+
+### 5. 🏀 COMPATIBILIDADE MULTI-ESPORTE (FUTEBOL & BASQUETE)
+- No topo, o toggle `[ ⚽ Futebol (Champions League) ] | [ 🏀 Basquete (NBA / FIBA) ]` deve alternar o conteúdo:
+  - **Futebol:** Exibe os jogos da Champions League (LASK, Liverpool, Aston Villa, Real Madrid, City, PSG).
+  - **Basquete:** Exibe a rodada da NBA Preseason com foco obrigatório em **Pontos do Time (Team Total Over)** (Celtics Over 111.5, Spurs Over 109.5) e **Spreads Positivos Elásticos** (Nuggets +7.5).
+
+Construa uma interface fluida, sem erros de tipagem, utilizando componentes Shadcn nativos (Tabs, Card, Badge, Progress, Dialog, Button, Tooltip, Input).
 ```

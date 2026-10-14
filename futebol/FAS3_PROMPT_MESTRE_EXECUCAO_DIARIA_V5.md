@@ -53,12 +53,21 @@ Verifique identidade, competição, data, duplicatas e se o histórico não
 contém o próprio fixture. Não misture amistosos silenciosamente.
 Conflito não resolvido reduz DQ ou gera INSUFFICIENT_DATA.
 
-# 4. DISCOVERY
+# 4. DISCOVERY OBRIGATÓRIO (CATÁLOGO GLOBAL)
 
-Priorize grandes ligas europeias, Champions, Europa, Conference,
-qualificatórias UEFA, Brasileirão A, Copa do Brasil, Libertadores,
-Sul-Americana e copas relevantes. Exclua jogos já iniciados, salvo
-pedido explícito.
+O escaneamento diário do FAS 3 DEVE cobrir obrigatoriamente todas as 10 grandes ligas ativas:
+1. 🇬🇧 **Premier League** (Inglaterra)
+2. 🇪🇸 **La Liga** (Espanha)
+3. 🇮🇹 **Serie A** (Itália)
+4. 🇩🇪 **Bundesliga** (Alemanha)
+5. 🇫🇷 **Ligue 1** (França)
+6. 🇵🇹 **Liga Portugal** (Portugal)
+7. 🇧🇷 **Brasileirão Série A** (Brasil)
+8. 🇧🇷 **Brasileirão Série B** (Brasil)
+9. 🏆 **UEFA Champions League / Europa / Conference League**
+10. 🌍 **UEFA Nations League / Libertadores / Sul-Americana / Eliminatórias**
+
+É **expressamente proibido** restringir a varredura apenas ao futebol nacional ou ignorar as potências europeias quando houver rodada em andamento. Exclua apenas jogos já iniciados, salvo pedido explícito.
 
 ## 📋 DISCOVERY DO DIA
 
@@ -120,11 +129,45 @@ Escalação, rotação, lesões, suspensões, calendário, motivação e mando.
 
 Liste explicitamente tudo que enfraquece as hipóteses.
 
-### 🎯 Market Generator
+### 🎯 Market Generator & Matriz Obrigatória de Mercados
 
-Avalie quando aplicável: Team1+, Team2+, O1.5, O2.5, U3.5, U2.5, BTTS,
-DNB, dupla chance, moneyline, Asian Handicap, gols HT e alternativas
-coerentes.
+No FAS Football, a avaliação de mercados DEVE obedecer rigorosamente à **Matriz Oficial de Qualificação de Mercados** por ordem decrescente de estabilidade e imunidade à variância:
+
+1. 🥇 **#1 Over 0.5 Gols HT (Gol no 1º Tempo):**
+   - Em partidas com favoritos agressivos, a taxa histórica de gol antes dos 45' excede 80%. Liquidou na primeira metade, elimina todo o risco de segundo tempo.
+2. 🥈 **#2 Team Total Over 0.5 / 1.0 (Gol da Equipe / Favorito):**
+   - **MANDATÓRIO AVALIAR:** O time precisa apenas marcar seu gol tradicional. Imune a derrotas atípicas (como 3x4) ou gols sofridos de pênalti/bola parada.
+3. 🥉 **#3 Over 1.5 Gols Geral (FT):**
+   - Não depende do vencedor. Cobre múltiplos cenários de placar (1x1, 2x0, 0x2, 2x1, 3x0).
+4. 🏅 **#4 Escanteios (Over 7.5 / 8.5 Cantos Totais ou Cantos da Equipe):**
+   - **Independe da bola entrar.** Ideal para favoritos contra blocos baixos e retrancas onde a finalização é bloqueada para escanteio.
+5. 🎖️ **#5 Dupla Chance (1X / X2) e Empate Anula (DNB / AH 0.0):**
+   - Elimina o impacto estatístico do empate (~28% dos jogos).
+6. ⛔ **#6 Trava Rígida de Vitória Seca (Moneyline 1X2):**
+   - **CONDICIONAL E CONTROLADA:** É EXPRESSAMENTE PROIBIDO utilizar vitória seca como âncora única da SAFE em partidas fora de casa sem cobertura de Dupla Chance ou sem respaldo de mando de campo comprovadamente avassalador.
+
+---
+
+### 🏛️ HIERARQUIA OFICIAL DE BILHETES DIÁRIOS (FUTEBOL)
+
+* ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (Seleção Ouro / Convicção Absoluta):**
+  - **Conceito:** Não importa a odd individual e não importa a quantidade de seleções. O único critério é **reunir simplesmente TODAS as melhores opções de altíssima convicção da rodada**.
+  - Se o dia tiver 3 opções indiscutíveis, leva 3. Se tiver 6 ou 7 opções claras, junta todas as 6 ou 7.
+  - Zero pressão por atingir uma cotação meta; o multiplicador final é consequência pura da soma das melhores probabilidades do dia (foco em Dupla Chance 1X/X2, Over 1.5 Gols, Gols do Time e Cantos).
+  - ⏰ **REGRA DE DESMEMBRAMENTO POR JANELAS DE HORÁRIO (TIME CLUSTERS):**
+    - Quando as partidas da rodada estiverem distribuídas em blocos de horários distintos (ex: Turno 1 / Almoço às 13:45 BRT vs Turno 2 / Tarde às 16:00 BRT):
+    - O sistema **DEVE obrigatoriamente manter o Bilhete Supremo Global** E **gerar os Bilhetes Supremos por Turno (Janela 1 e Janela 2)**.
+    - **Objetivo Estratégico:** Liquidação antecipada (encerrar o bilhete do 1º turno antes do início dos jogos do 2º turno) e viabilizar o reinvestimento seguro dos lucros obtidos na primeira metade do dia.
+* 🥇 **TIER 1 — MÚLTIPLA 1: SAFE (Carro-Chefe / 70% da Gestão Diária):**
+  - **Stop Point 1 (A Âncora Máxima — Odd 1.55 a 1.75):** Apenas 2 ou 3 seleções formadas exclusivamente pelos itens #1 a #5 da matriz (Gols HT, Over Gols, Cantos e Dupla Chance).
+  - **Stop Point 2 (A Blindagem — Odd 1.80 a 2.10):** Adiciona 1 seleção de alta proteção.
+  - **Regra Sagrada do Desafio Soros:** O Soros **DEVE obrigatoriamente espelhar o Stop Point 1 ou 2 da Múltipla 1**. Jamais empilhar vitórias secas sem proteção.
+* 🥈 **TIER 2 — MÚLTIPLA 2: SAFE+ (Alavancagem Balanceada / 20% da Banca):**
+  - Odd 2.00 a 3.50 combinando vitória com linha correlacionada (Time Vence + Mais de 1.5 Gols ou Team Over 1.5).
+* 🥉 **TIER 3 — MÚLTIPLA 3: SUPER ATAQUE (5% a 8% da Banca):**
+  - Odd 6.00 a 12.00 com Handicaps Asiáticos (-1.5) e Ambos Marcam.
+* 🎯 **TIER 4 — MÚLTIPLA 4: APOSENTAR O NETO (1% a 2% da Banca):**
+  - Odd 50x a 100x+ recreativa.
 
   Mercado     FAS Proteção   Risco   Evidência   Destino
   --------- ----- ---------- ------- ----------- ---------

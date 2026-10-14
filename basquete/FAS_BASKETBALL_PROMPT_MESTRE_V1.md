@@ -233,26 +233,50 @@ Liste explicitamente tudo que enfraquece as hipóteses.
 Investigue somente mercados que possam ser sustentados pelos dados
 disponíveis.
 
-# 9. MARKET GENERATOR
+# 9. MARKET GENERATOR & MATRIZ OBRIGATÓRIA DE MERCADOS
 
-Mercados principais:
+No FAS Basketball, os mercados NÃO possuem o mesmo peso nem a mesma estabilidade. A avaliação de cada partida elegível DEVE investigar e classificar as oportunidades seguindo rigorosamente a **Matriz Oficial de Qualificação de Mercados**:
 
--   Moneyline
--   Spread / Handicap
--   Game Total Over
--   Game Total Under
--   Team Total Over
--   Team Total Under
--   1st Half Moneyline
--   1st Half Spread
--   1st Half Total
+### 🏆 RANKING DE MERCADOS DO BASQUETE (Do mais estável ao mais volátil)
 
-Mercados de jogadores somente se houver dados, disponibilidade e
-contexto suficientemente confiáveis. Props não devem dominar a V1.
+1. 🥇 **#1 Spreads Positivos Elásticos / Alternativos (+6.5 a +12.5):**
+   - **A âncora máxima de segurança do basquete.** Absorve oscilações de clutch time, desvantagens curtas e noites medianas de arremesso. Mesmo se a equipe for derrotada por margem estreita, o bilhete dá GREEN.
+2. 🥈 **#2 Totais Alternativos Protegidos (Over Rebaixado em 8-12 pts / Under Elevado):**
+   - Comprar pontos em relação à linha cheia de abertura (ex: linha 228.5 ➔ operar Over 218.5/219.5). Amortece quartos frios e ritmo atípico.
+3. 🥉 **#3 Total de Pontos do Time / Team Total Over Protegido (OBRIGATÓRIO AVALIAR):**
+   - **MERCADO FUNDAMENTAL E MANDATÓRIO EM TODA ANÁLISE:** Focar estritamente na capacidade ofensiva de uma equipe sem depender de quem vence a partida. Utilizar as linhas alternativas de pontos da equipe (rebaixadas de 4 a 8 pontos abaixo da projeção principal) explorando equipes de alto *Pace* (ritmo) e eficiência ofensiva contra defesas em rotação ou cansaço de back-to-back.
+4. 🏅 **#4 Mercados de 1º Tempo (1H Spread Positivo / 1H Team Total / 1H Over Seguro):**
+   - Rotações titulares preservadas, intensidade máxima e ausência de *garbage time*.
+5. ⚠️ **#5 Moneyline Seca (Vencedor do Jogo):**
+   - **CONDICIONAL E CONTROLADA:** É PROIBIDO utilizar vitória seca como âncora de bilhete SAFE em jogos fora de casa, quadra neutra festiva, ou quando houver incerteza médica/descanso (*load management*).
+6. 💣 **#6 Spreads Negativos Altos (-6.5 a -12.5) e Props de Jogadores:**
+   - Exclusivos para ATTACK / PRA CIMA devido ao risco extremo de *garbage time* (titulares saindo de quadra no 4Q e reservas cedendo corridas no placar).
 
-Não escolha mercado primeiro e procure justificativa depois.
+---
 
-**Dados → hipótese → mercado.**
+### 🏛️ HIERARQUIA OFICIAL DE BILHETES DIÁRIOS (BASQUETE)
+
+Toda rodada deve organizar as seleções em Tiers com papéis de banca rigorosamente definidos:
+
+* ⭐ **BILHETE SUPREMO — O FILÉ DA NOITE (Seleção Ouro do Basquete / Convicção Absoluta):**
+  - **Conceito:** Não importa a odd individual e não importa a quantidade de seleções. O objetivo é reunir **simplesmente TODAS as melhores opções de altíssima convicção da noite**.
+  - Reúne os melhores Spreads Positivos Elásticos, Totais Rebaixados com Gordura e Pontos do Time (Team Total) sem restrição de quantidade fixa.
+  - ⏰ **REGRA DE DESMEMBRAMENTO POR JANELAS DE HORÁRIO (TIME CLUSTERS):**
+    - Quando os jogos da noite estiverem distribuídos em horários escalonados (ex: Turno 1 / Prime Time às 20:00/21:00 BRT na Costa Leste vs Turno 2 / Late Night às 23:00/Madrugada na Costa Oeste):
+    - O sistema **DEVE manter o Bilhete Supremo Global da Noite** E **oferecer o desmembramento por Janela de Horário (Turno 1 e Turno 2)**.
+    - **Objetivo Estratégico:** Permitir que o apostador liquide seus ganhos antes de dormir, sem ficar com banca travada até a madrugada.
+* 🥇 **TIER 1 — MÚLTIPLA 1: SAFE (Carro-Chefe / 70% da Gestão Diária):**
+  - **Stop Point 1 (A Âncora Máxima — Odd 1.60 a 1.85):** Apenas 2 ou 3 seleções formadas exclusivamente por **Spreads Positivos Alternativos**, **Totais Rebaixados** ou **Pontos do Time Protegidos (Team Total Over)**.
+  - **Stop Point 2 (A Blindagem — Odd 2.00 a 2.50):** Adiciona 1 seleção complementar com margem de segurança elástica.
+  - **Regra do Desafio Soros:** O Soros de Basquete **DEVE obrigatoriamente espelhar o Stop Point 1 ou 2 da Múltipla 1**.
+* 🥈 **TIER 2 — MÚLTIPLA 2: SAFE+ (Alavancagem Balanceada / 20% da Banca):**
+  - Odd 2.20 a 3.50 utilizando as linhas principais de mercado sustentadas por forte assimetria de matchup.
+* 🥉 **TIER 3 — MÚLTIPLA 3: SUPER ATAQUE (5% a 8% da Banca):**
+  - Odd 5.00 a 10.00 explorando Moneylines de zebras táticas em back-to-back e spreads negativos de equipes em ritmo avassalador.
+* 🎯 **TIER 4 — MÚLTIPLA 4: APOSENTAR O NETO (1% a 2% da Banca):**
+  - Bilhete longo de alta alavancagem recreativa (Odd 30x a 100x+).
+
+Dados → hipótese → mercado prioritário da matriz.
 
 # 10. FAS SCORE
 
@@ -317,6 +341,10 @@ SAFE = 0 é resultado válido.
 5. **Trava de Volatilidade de Elenco (Lineup Volatility Protocol):**
    - Linhas de Over Alto (> 175-180 pontos na WNBA ou > 225 na NBA) só podem receber selo SAFE se 100% dos principais pontuadores estiverem confirmados.
    - É proibido conceder SAFE com `DQ MEDIUM` ou `DQ LOW` em partidas de ligas secundárias ou torneios curtos internacionais (TIER_C).
+
+6. **Filtro Anti-Narrativa de Playoffs (Momentum Gate):**
+   - É **EXPRESSAMENTE PROIBIDO** justificar uma entrada (especialmente em `SAFE`) baseando-se apenas na narrativa do "desespero" de uma equipe (ex: "é a atual campeã e precisa vencer para não ser varrida em casa").
+   - O momentum da série (quem venceu os jogos anteriores, vantagem tática, controle de rebotes) e os dados de matchups têm precedência ABSOLUTA sobre a camisa. Se a zebra lidera a série por 2-0 e possui *game state* dominante, qualquer aposta de favoritismo no time desesperado é tratada como `PRA CIMA` (Attack) ou ignorada, nunca `SAFE`.
 
 # 12. SAFE+ --- UM DEGRAU ACIMA
 

@@ -1,138 +1,193 @@
 {
-  "date": "2026-10-12",
-  "snapshotId": "FAS_GEMINI_2026-10-12_V1_GLOBAL",
+  "date": "2026-10-14",
+  "snapshotId": "FAS_GEMINI_2026-10-14_V1_GLOBAL",
   "status": "PENDING",
-  "coverage": "Global — Premier League, LaLiga, Serie A, Liga Portugal, Brasileirão Série A e Série B",
-  "sorosTicket": {
-    "day": 3,
-    "stake": 37.17,
-    "multiplier": 2.00,
-    "potentialReturn": 74.34,
-    "notes": "Blindagem de Elite: Atalanta no Gewiss Stadium (@1.54) + Criciúma 1X no Heriberto Hülse (@1.05) + Fortaleza 1X no Castelão (@1.24)",
+  "coverage": "Global — UEFA Champions League Matchday 2",
+  "supremoTicket": {
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Todas as Melhores Opções da Champions)",
+    "type": "FILE_DO_DIA",
+    "multiplierGlobal": 3.67,
+    "philosophy": "Reunião de todas as melhores oportunidades de altíssima convicção da rodada, disponíveis em versão Global e divididas por Turno de Horário.",
+    "timeClusters": [
+      {
+        "clusterName": "🥪 TURNO 1 — ALMOÇO (13:45 BRT)",
+        "multiplier": 1.46,
+        "notes": "Liquidação rápida às 15:45. Permite reinvestir o lucro no Turno 2.",
+        "legs": [
+          "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
+          "Feyenoord x Como: Mais de 1.5 Gols (@1.22)"
+        ]
+      },
+      {
+        "clusterName": "🌆 TURNO 2 — TARDE / PRINCIPAL (16:00 BRT)",
+        "multiplier": 2.51,
+        "notes": "Os 5 jogos de alta convicção das 16:00 reunidos em um único bilhete.",
+        "legs": [
+          "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
+          "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)",
+          "Manchester City x PSG: Mais de 1.5 Gols (@1.18)",
+          "Bodø/Glimt x Borussia Dortmund: Mais de 1.5 Gols (@1.18)",
+          "Slovan Bratislava x VfB Stuttgart: Stuttgart 1+ Gol (@1.12)"
+        ]
+      }
+    ],
     "selections": [
       {
-        "match": "Atalanta BC x Venezia",
-        "competition": "Serie A (13:30 BRT)",
-        "market": "Atalanta Vence (Moneyline / Casa)",
-        "odd": 1.54,
+        "match": "LASK Linz x Liverpool (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.20,
         "status": "PENDING"
       },
       {
-        "match": "Criciúma x América Mineiro",
-        "competition": "Brasileirão Série B (19:30 BRT)",
-        "market": "Dupla Chance (Criciúma ou Empate / 1X)",
-        "odd": 1.05,
+        "match": "Feyenoord x Como (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.22,
         "status": "PENDING"
       },
       {
-        "match": "Fortaleza x CRB",
-        "competition": "Brasileirão Série B (16:00 BRT)",
-        "market": "Dupla Chance (Fortaleza ou Empate / 1X)",
-        "odd": 1.24,
+        "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Aston Villa ou Empate (Dupla Chance 1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "AS Roma x Real Madrid (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Real Madrid ou Empate (Dupla Chance X2)",
+        "odd": 1.28,
+        "status": "PENDING"
+      },
+      {
+        "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Bodø/Glimt x Borussia Dortmund (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Slovan Bratislava x VfB Stuttgart (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "VfB Stuttgart 1+ Gol (Team Over 0.5)",
+        "odd": 1.12,
+        "status": "PENDING"
+      }
+    ]
+  },
+  "sorosTicket": {
+    "day": 1,
+    "stake": 10.00,
+    "multiplier": 1.81,
+    "potentialReturn": 18.10,
+    "status": "PENDING",
+    "notes": "Espelho estrito do Stop Point 1 da Múltipla 1: Liverpool Over 1.5 (@1.20) + Aston Villa 1X (@1.18) + Real Madrid X2 (@1.28)",
+    "selections": [
+      {
+        "match": "LASK Linz x Liverpool",
+        "competition": "UEFA Champions League (13:45 BRT)",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "Aston Villa x Fenerbahçe",
+        "competition": "UEFA Champions League (16:00 BRT)",
+        "market": "Aston Villa ou Empate (1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "AS Roma x Real Madrid",
+        "competition": "UEFA Champions League (16:00 BRT)",
+        "market": "Real Madrid ou Empate (X2)",
+        "odd": 1.28,
         "status": "PENDING"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle — Âncoras Globais de Elite)",
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle)",
       "type": "SAFE",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Tripla Âncora de Elite Europeia + Brasil)",
-          "multiplier": 2.00,
+          "level": "STOP POINT 1 (Tripla Âncora Blindada)",
+          "multiplier": 1.81,
           "legs": [
-            "Atalanta Vence (ML @1.54)",
-            "Criciúma ou Empate (1X @1.05)",
-            "Fortaleza ou Empate (1X @1.24)"
+            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
+            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
+            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Blindada + Série A Furacão X2)",
-          "multiplier": 2.57,
+          "level": "STOP POINT 2 (Quádrupla Forte com Gols de City x PSG)",
+          "multiplier": 2.14,
           "legs": [
-            "Atalanta Vence (ML @1.54)",
-            "Criciúma ou Empate (1X @1.05)",
-            "Fortaleza ou Empate (1X @1.24)",
-            "Athletico-PR ou Empate (X2 @1.28)"
+            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
+            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
+            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)",
+            "Man City x PSG: Mais de 1.5 Gols (@1.18)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa Top 5 Blindada)",
-          "multiplier": 3.13,
+          "level": "STOP POINT 3 (Múltipla Completa Top 5 Champions)",
+          "multiplier": 2.52,
           "legs": [
-            "Atalanta Vence (ML @1.54)",
-            "Criciúma ou Empate (1X @1.05)",
-            "Fortaleza ou Empate (1X @1.24)",
-            "Athletico-PR ou Empate (X2 @1.28)",
-            "Torino x Udinese: Menos de 3.5 Gols (@1.22)"
+            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
+            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
+            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)",
+            "Man City x PSG: Mais de 1.5 Gols (@1.18)",
+            "Bodø/Glimt x Dortmund: Mais de 1.5 Gols (@1.18)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Secas de Elite Europeia & Brasil)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada)",
       "type": "SAFE+",
-      "stopPoints": [
-        {
-          "level": "STOP POINT 1 (Dupla de Ouro Europeia + Brasil)",
-          "multiplier": 2.03,
-          "legs": [
-            "Atalanta Vence (ML @1.54)",
-            "Criciúma Vence (ML @1.32)"
-          ],
-          "status": "PENDING"
-        },
-        {
-          "level": "STOP POINT 2 (Tripla Forte com Famalicão)",
-          "multiplier": 3.82,
-          "legs": [
-            "Atalanta Vence (ML @1.54)",
-            "Criciúma Vence (ML @1.32)",
-            "Famalicão Vence (ML @1.88)"
-          ],
-          "status": "PENDING"
-        },
-        {
-          "level": "STOP POINT 3 (Quádrupla Completa SAFE+)",
-          "multiplier": 7.56,
-          "legs": [
-            "Atalanta Vence (ML @1.54)",
-            "Criciúma Vence (ML @1.32)",
-            "Famalicão Vence (ML @1.88)",
-            "Athletico-PR Vence (ML @1.98)"
-          ],
-          "status": "PENDING"
-        }
-      ]
-    },
-    {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
-      "type": "ATTACK",
-      "multiplier": 12.80,
+      "multiplier": 3.40,
       "legs": [
-        "Atalanta Vence + Mais de 1.5 Gols (@1.80)",
-        "Famalicão Vence (@1.88)",
-        "Athletico-PR Vence (@1.98)",
-        "Fortaleza Vence (@1.91)"
+        "Aston Villa x Fenerbahçe: Aston Villa Vence (@1.62)",
+        "Man City x PSG: Ambos Marcam - Sim (@1.48)",
+        "LASK Linz x Liverpool: Liverpool Vence + Mais de 1.5 Gols (@1.42)"
       ],
       "status": "PENDING"
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima da Rodada)",
-      "type": "APOSENTAR_O_NETO",
-      "multiplier": 105.00,
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
+      "type": "ATTACK",
+      "multiplier": 12.27,
       "legs": [
-        "Atalanta Vence + Mais de 2.5 Gols (@2.20)",
-        "Criciúma Vence + Menos de 3.5 Gols (@1.85)",
-        "Famalicão Vence (@1.88)",
-        "Athletico-PR Vence (@1.98)",
-        "Fortaleza Vence (@1.91)",
-        "Coventry x Newcastle: Newcastle Vence (@2.23)",
-        "Bragantino x Cruzeiro: Ambos Marcam - Sim (@1.80)"
+        "Man City x PSG: Ambos Marcam + Mais de 2.5 Gols (@1.80)",
+        "AS Roma x Real Madrid: Real Madrid Vence + Ambos Marcam (@3.10)",
+        "Bodø/Glimt x Dortmund: Mais de 3.5 Gols (@2.20)"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima da Champions League)",
+      "type": "APOSENTAR_O_NETO",
+      "multiplier": 151.80,
+      "legs": [
+        "LASK x Liverpool: Liverpool -1.5 Handicap Asiático (@1.72)",
+        "Aston Villa x Fenerbahçe: Aston Villa Vence + Mais de 2.5 Gols (@2.30)",
+        "Man City x PSG: Ambos Marcam + Mais de 3.5 Gols (@2.55)",
+        "AS Roma x Real Madrid: Real Madrid Vence + Ambos Marcam (@3.10)",
+        "Bodø/Glimt x Dortmund: Ambos Marcam + Mais de 2.5 Gols (@1.75)",
+        "Slovan Bratislava x Stuttgart: Stuttgart Vence + Mais de 2.5 Gols (@1.85)",
+        "Feyenoord x Como: Ambos Marcam - Sim (@1.52)"
       ],
       "status": "PENDING"
     }

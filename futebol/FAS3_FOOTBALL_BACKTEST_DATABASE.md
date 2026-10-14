@@ -114,18 +114,18 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 ### A. Performance por Seleções Individuais (Singles)
 | Categoria | Total Registrado | HIT | MISS | VOID | Win Rate (%) |
 |---|---|---|---|---|---|
-| **SAFE** | 25 | 21 | 4 | 0 | **84.0%** |
-| **SAFE+** | 23 | 14 | 9 | 0 | **60.9%** |
-| **ATTACK (PRA CIMA)** | 23 | 13 | 10 | 0 | **56.5%** |
-| **Total Geral Singles** | 71 | 48 | 23 | 0 | **67.6%** |
+| **SAFE** | 33 | 28 | 5 | 0 | **84.8%** |
+| **SAFE+** | 31 | 18 | 13 | 0 | **58.1%** |
+| **ATTACK (PRA CIMA)** | 31 | 16 | 15 | 0 | **51.6%** |
+| **Total Geral Singles** | 95 | 62 | 33 | 0 | **65.3%** |
 
 ### B. Performance por Múltiplas / Bilhetes Combinados (Parlays)
 | Bilhete / Múltipla | Total Disputado | GREEN (HIT) | RED (MISS) | Taxa de Acerto (%) |
 |---|---|---|---|---|
-| **Bilhete SAFE** | 4 | 2 | 2 | **50.0%** (3/5 em 22/09, 3/4 em 23/09, **4/4 GREEN em 24/09**, **5/5 GREEN TOTAL em 11/10**) |
-| **Bilhete SAFE+** | 4 | 1 | 3 | **25.0%** (1/3 em 22/09, 3/4 em 23/09, 2/4 em 24/09, **5/5 GREEN HISTÓRICO em 11/10 [@6.36]**) |
-| **Bilhete ATTACK (Tripla Core)** | 4 | 1 | 3 | **25.0%** (3/3 em 22/09, 1/3 em 23/09, 2/3 em 24/09, 1/4 em 11/10) |
-| **Bilhete APOSENTAR O NETO** | 4 | 0 | 4 | **0.0%** (6/7 acertos em 11/10 com Gre-Nal Empate @3.30) |
+| **Bilhete SAFE** | 5 | 3 | 2 | **60.0%** (3/5 em 22/09, 3/4 em 23/09, **4/4 GREEN em 24/09**, **5/5 GREEN TOTAL em 11/10**, **5/5 GREEN TOTAL em 12/10 [@3.13]**) |
+| **Bilhete SAFE+** | 5 | 1 | 4 | **20.0%** (1/3 em 22/09, 3/4 em 23/09, 2/4 em 24/09, **5/5 GREEN HISTÓRICO em 11/10 [@6.36]**, 3/4 em 12/10 [Stop Point 1 GREEN @2.03]) |
+| **Bilhete ATTACK (Tripla Core)** | 5 | 1 | 4 | **20.0%** (3/3 em 22/09, 1/3 em 23/09, 2/3 em 24/09, 1/4 em 11/10, 2/4 em 12/10) |
+| **Bilhete APOSENTAR O NETO** | 5 | 0 | 5 | **0.0%** (6/7 acertos em 11/10 com Gre-Nal @3.30, 4/7 acertos em 12/10) |
 
 ---
 
@@ -811,7 +811,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Horário de Registro:** 00:52:00 BRT
 - **Cutoff:** 2026-10-12T13:00:00-03:00
 - **Contexto da Data:** Segunda-feira de futebol global com fechamento da rodada nas grandes ligas europeias (Serie A com Atalanta no Gewiss Stadium, LaLiga com Sevilla e Premier League com Newcastle), além de rodada intensa no Brasil com jogos decisivos do Brasileirão Série A e Série B (Fortaleza, Criciúma, Furacão e Bragantino em campo).
-- **Status de Liquidação:** `PENDING`
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura (Global: Europa + Brasil)
 - Encontrados: 12 (Premier League, LaLiga, Serie A, Liga Portugal, Brasileirão A e B)
@@ -820,138 +820,144 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - Descartados: 4 (Grêmio Novorizontino x Ponte Preta com odds extremas de @1.06/@25.00 sem linhas equilibradas; Botafogo-SP x Ceará e Coritiba x Botafogo por paridade extrema e dispersão de volume).
 - Destaques Mundiais: Atalanta em Bérgamo contra Venezia, Criciúma recebendo América-MG, Fortaleza contra CRB e Athletico-PR visitando a Chapecoense.
 
-#### 2. Grade de Fixtures, Análise e Teses Pre-Match (Consenso Multi-IA)
+#### 2. Grade de Fixtures, Resultados e Liquidação
 
-1. **Atalanta BC × Venezia** (Serie A - Gewiss Stadium - 13:30 BRT)
-   - *Tese Multi-IA:* A maior âncora estrutural do futebol europeu nesta segunda-feira (GenSpark 95, ChatGPT 94). A Atalanta em Bérgamo mantém volume ofensivo superior a 2.1 xG por partida; o Venezia sofre na recomposição defensiva longe de Veneza.
-   - **SAFE:** Atalanta Vence (Moneyline) (FAS 96 | DQ HIGH | VERY_HIGH | Risco LOW | Odd @1.54)
-   - **SAFE+:** Atalanta Vence + Mais de 1.5 Gols (FAS 89 | Odd @1.80)
-   - **ATTACK:** Atalanta Vence + Mais de 2.5 Gols (FAS 83 | Odd @2.20)
-   - **Status:** `PENDING`
+1. **Atalanta BC 3 × 1 Venezia** (Serie A - Gewiss Stadium - 13:30 BRT)
+   - *Resultado Oficial:* 3 x 1 (Total de gols: 4 | Krstovic 28', 64', Kessié 41' / Hainaut 87')
+   - **SAFE:** Atalanta Vence (Moneyline @1.54) ➔ ✅ **HIT** (Atalanta 3x1)
+   - **SAFE+:** Atalanta Vence + Mais de 1.5 Gols (@1.80) ➔ ✅ **HIT** (3x1, total de 4 gols)
+   - **ATTACK:** Atalanta Vence + Mais de 2.5 Gols (@2.20) ➔ ✅ **HIT** (3x1, total de 4 gols)
 
-2. **Criciúma × América Mineiro** (Brasileirão Série B - Heriberto Hülse - 19:30 BRT)
-   - *Tese Multi-IA:* O Criciúma no Majestoso impõe marcação alta e pressão territorial; o América-MG vive crise técnica e desfalques expressivos na zaga. O mandante tem forte favoritismo com odd justa protegida.
-   - **SAFE:** Criciúma ou Empate (Dupla Chance 1X) (FAS 97 | DQ HIGH | VERY_HIGH | Risco ULTRA_LOW | Odd @1.05)
-   - **SAFE+:** Criciúma Vence (Moneyline) (FAS 91 | DQ HIGH | Risco LOW | Odd @1.32)
-   - **ATTACK:** Criciúma Vence + Menos de 3.5 Gols (FAS 84 | Odd @1.85)
-   - **Status:** `PENDING`
+2. **Criciúma 1 × 0 América Mineiro** (Brasileirão Série B - Heriberto Hülse - 19:30 BRT)
+   - *Resultado Oficial:* 1 x 0 (Total de gols: 1 | César Martins aos 52' 2T)
+   - **SAFE:** Criciúma ou Empate (Dupla Chance 1X @1.05) ➔ ✅ **HIT** (Criciúma 1x0)
+   - **SAFE+:** Criciúma Vence (Moneyline @1.32) ➔ ✅ **HIT** (Criciúma venceu por 1x0)
+   - **ATTACK:** Criciúma Vence + Menos de 3.5 Gols (@1.85) ➔ ✅ **HIT** (1x0, 1 gol <= 3.5)
 
-3. **Fortaleza × CRB** (Brasileirão Série B - Arena Castelão - 16:00 BRT)
-   - *Tese Multi-IA:* Fortaleza diante de sua torcida no Castelão tem aproveitamento consistente. O CRB joga de forma reativa mas tem baixa taxa de conversão como visitante. Blindagem 1X com alta margem de segurança.
-   - **SAFE:** Fortaleza ou Empate (Dupla Chance 1X) (FAS 92 | DQ HIGH | VERY_HIGH | Risco LOW | Odd @1.24)
-   - **SAFE+:** Fortaleza Vence (Moneyline) (FAS 84 | Odd @1.91)
-   - **ATTACK:** Fortaleza Vence + Menos de 3.5 Gols (FAS 79 | Odd @2.40)
-   - **Status:** `PENDING`
+3. **Fortaleza 2 × 2 CRB** (Brasileirão Série B - Arena Castelão - 16:00 BRT)
+   - *Resultado Oficial:* 2 x 2 (Total de gols: 4)
+   - **SAFE:** Fortaleza ou Empate (Dupla Chance 1X @1.24) ➔ ✅ **HIT** (Empate em 2x2 confirma 1X)
+   - **SAFE+:** Fortaleza Vence (Moneyline @1.91) ➔ ❌ **MISS** (Empate em 2x2)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Fortaleza dominou as ações e esteve à frente no Castelão, mas cedeu o empate na reta final após falha na bola parada defensiva).
+   - **ATTACK:** Fortaleza Vence + Menos de 3.5 Gols (@2.40) ➔ ❌ **MISS** (Total 4 gols > 3.5)
+     - *Miss Audit:* `STATISTICAL_VARIANCE`
 
-4. **Chapecoense × Athletico Paranaense** (Brasileirão Série A - Arena Condá - 19:30 BRT)
-   - *Tese Multi-IA:* O Furacão tem elenco superior e melhor transição com velocidade nas pontas. A Chapecoense em Chapecó luta para pontuar mas cede espaços na intermediária. A proteção X2 blinda contra empate.
-   - **SAFE:** Athletico-PR ou Empate (Dupla Chance X2) (FAS 91 | DQ HIGH | Risco LOW | Odd @1.28)
-   - **SAFE+:** Athletico-PR Vence (Moneyline) (FAS 83 | Odd @1.98)
-   - **ATTACK:** Athletico-PR Vence + Menos de 3.5 Gols (FAS 78 | Odd @2.45)
-   - **Status:** `PENDING`
+4. **Chapecoense 1 × 4 Athletico Paranaense** (Brasileirão Série A - Arena Condá - 19:30 BRT)
+   - *Resultado Oficial:* 1 x 4 (Total de gols: 5 | Kevin Viveros 2x, Leozinho, Luiz Gustavo / Perotti)
+   - **SAFE:** Athletico-PR ou Empate (Dupla Chance X2 @1.28) ➔ ✅ **HIT** (Furacão goleou por 1x4)
+   - **SAFE+:** Athletico-PR Vence (Moneyline @1.98) ➔ ✅ **HIT** (Athletico venceu por 1x4)
+   - **ATTACK:** Athletico-PR Vence + Menos de 3.5 Gols (@2.45) ➔ ❌ **MISS** (Total 5 gols > 3.5)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Atuação de gala ofensiva do Furacão que superou o teto previsto de gols).
 
-5. **Famalicão × Alverca** (Liga Portugal - Estádio Municipal de Famalicão - 16:15 BRT)
-   - *Tese Multi-IA:* Famalicão bem estruturado taticamente em casa contra o recém-promovido Alverca, que tem dificuldades de contenção contra equipes da primeira metade da tabela portuguesa.
-   - **SAFE:** Famalicão ou Empate (Dupla Chance 1X) (FAS 92 | DQ HIGH | Risco LOW | Odd @1.21)
-   - **SAFE+:** Famalicão Vence (Moneyline) (FAS 85 | Odd @1.88)
-   - **ATTACK:** Famalicão Vence + Menos de 3.5 Gols (FAS 79 | Odd @2.35)
-   - **Status:** `PENDING`
+5. **Famalicão 1 × 4 FC Alverca** (Liga Portugal - Estádio Municipal de Famalicão - 16:15 BRT)
+   - *Resultado Oficial:* 1 x 4 (Total de gols: 5)
+   - **SAFE:** Famalicão ou Empate (Dupla Chance 1X @1.21) ➔ ❌ **MISS** (Alverca venceu por 1x4)
+     - *Miss Audit:* `BAD_SELECTION / STATISTICAL_VARIANCE` (Zebra histórica fora de casa com colapso defensivo completo do Famalicão e expulsão no início do 2º tempo).
+   - **SAFE+:** Famalicão Vence (Moneyline @1.88) ➔ ❌ **MISS** (1x4)
+     - *Miss Audit:* `BAD_SELECTION`
+   - **ATTACK:** Famalicão Vence + Menos de 3.5 Gols (@2.35) ➔ ❌ **MISS** (1x4)
+     - *Miss Audit:* `BAD_SELECTION`
 
-6. **Torino × Udinese** (Serie A - Stadio Olimpico Grande Torino - 15:45 BRT)
-   - *Tese Multi-IA:* Duelo clássico do norte italiano caracterizado por forte encaixe tático, bloco médio e baixa média de finalizações. Linhas de under são estruturais.
-   - **SAFE:** Menos de 3.5 Gols (FAS 94 | DQ HIGH | Risco LOW | Odd @1.22)
-   - **SAFE+:** Menos de 2.5 Gols (FAS 86 | Odd @1.73)
-   - **ATTACK:** Empate ou Torino + Menos de 2.5 Gols (FAS 80 | Odd @2.10)
-   - **Status:** `PENDING`
+6. **Torino 2 × 1 Udinese** (Serie A - Stadio Olimpico Grande Torino - 15:45 BRT)
+   - *Resultado Oficial:* 2 x 1 (Total de gols: 3 | Daniel Bragança 44', Sanabria 71' / Lucca 83')
+   - **SAFE:** Menos de 3.5 Gols (@1.22) ➔ ✅ **HIT** (Total 3 gols <= 3.5)
+   - **SAFE+:** Menos de 2.5 Gols (@1.73) ➔ ❌ **MISS** (Total 3 gols > 2.5)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Gol aos 83' da Udinese extrapolou o Under 2.5, mas manteve a blindagem do Under 3.5 SAFE).
+   - **ATTACK:** Empate ou Torino + Menos de 2.5 Gols (@2.10) ➔ ❌ **MISS**
+     - *Miss Audit:* `STATISTICAL_VARIANCE`
 
-7. **Coventry City × Newcastle United** (Premier League - Coventry Building Society Arena - 16:00 BRT)
-   - *Tese Multi-IA:* O Newcastle tem maior poder de fogo com Isak e Gordon; Coventry em casa é aguerrido e costuma propor jogo, abrindo o confronto para gols.
-   - **SAFE:** Mais de 1.5 Gols (FAS 93 | DQ HIGH | Risco LOW | Odd @1.22)
-   - **SAFE+:** Newcastle ou Empate (Dupla Chance X2) (FAS 88 | Odd @1.38)
-   - **ATTACK:** Newcastle Vence (Moneyline) (FAS 82 | Odd @2.23)
-   - **Status:** `PENDING`
+7. **Coventry City 4 × 1 Newcastle United** (Premier League - Coventry Building Society Arena - 16:00 BRT)
+   - *Resultado Oficial:* 4 x 1 (Total de gols: 5 | Jack Rudoni, Sidiki Chérif, Ellis Simms, Stephen Mfuni / Sven Botman)
+   - **SAFE:** Mais de 1.5 Gols (@1.22) ➔ ✅ **HIT** (Total 5 gols >= 1.5)
+   - **SAFE+:** Newcastle ou Empate (Dupla Chance X2 @1.38) ➔ ❌ **MISS** (Coventry 4x1)
+     - *Miss Audit:* `BAD_SELECTION / LINEUP_CHANGE` (Apagão defensivo do Newcastle com rotação no meio-campo e falhas individuais na recomposição).
+   - **ATTACK:** Newcastle Vence (Moneyline @2.23) ➔ ❌ **MISS** (Coventry 4x1)
+     - *Miss Audit:* `BAD_SELECTION`
 
-8. **Red Bull Bragantino × Cruzeiro** (Brasileirão Série A - Nabizão - 21:00 BRT)
-   - *Tese Multi-IA:* Confronto dinâmico em Bragança Paulista. Massa Bruta com ritmo intenso em casa e Cruzeiro letal no contra-ataque. Alta propensão para movimentação de placar.
-   - **SAFE:** Mais de 1.5 Gols (FAS 91 | DQ HIGH | Risco LOW | Odd @1.24)
-   - **SAFE+:** Ambos Marcam - Sim (FAS 85 | Odd @1.80)
-   - **ATTACK:** Bragantino ou Empate + Ambos Marcam (FAS 78 | Odd @2.25)
-   - **Status:** `PENDING`
+8. **Red Bull Bragantino 4 × 2 Cruzeiro** (Brasileirão Série A - Nabizão - 21:00 BRT)
+   - *Resultado Oficial:* 4 x 2 (Total de gols: 6 | Lucas Barbosa, Kaio Jorge GC, Eric Ramires, Herrera / Zé Lucas, Matheus Henrique)
+   - **SAFE:** Mais de 1.5 Gols (@1.24) ➔ ✅ **HIT** (Total 6 gols >= 1.5)
+   - **SAFE+:** Ambos Marcam - Sim (@1.80) ➔ ✅ **HIT** (Bragantino 4, Cruzeiro 2)
+   - **ATTACK:** Bragantino ou Empate + Ambos Marcam (@2.25) ➔ ✅ **HIT** (Bragantino venceu e ambas marcaram)
 
 ---
 
 #### 3. 👴 APOSENTAR O NETO — Principais Linhas (Scanner Global 12/10)
 
 **Atalanta BC × Venezia**
-- 🔥🔥🔥 Atalanta Vence (ML @1.54) — 96
-- 🔥🔥 Atalanta ou Empate (1X @1.14) — 99
-- 🔥 Atalanta Vence + Mais de 1.5 Gols (@1.80) — 89
-- 🟢 Atalanta 2+ Gols (Team Over 1.5 @1.62) — 91
+- 🔥🔥🔥 Atalanta Vence (ML @1.54) — 96 ➔ ✅ **HIT** (3x1)
+- 🔥🔥 Atalanta ou Empate (1X @1.14) — 99 ➔ ✅ **HIT** (3x1)
+- 🔥 Atalanta Vence + Mais de 1.5 Gols (@1.80) — 89 ➔ ✅ **HIT** (3x1)
+- 🟢 Atalanta 2+ Gols (Team Over 1.5 @1.62) — 91 ➔ ✅ **HIT** (3 gols)
 
 **Criciúma × América Mineiro**
-- 🔥🔥🔥 Criciúma ou Empate (1X @1.05) — 98
-- 🔥🔥 Criciúma Vence (ML @1.32) — 91
-- 🔥 Criciúma Vence + Menos de 3.5 Gols (@1.85) — 84
+- 🔥🔥🔥 Criciúma ou Empate (1X @1.05) — 98 ➔ ✅ **HIT** (1x0)
+- 🔥🔥 Criciúma Vence (ML @1.32) — 91 ➔ ✅ **HIT** (1x0)
+- 🔥 Criciúma Vence + Menos de 3.5 Gols (@1.85) — 84 ➔ ✅ **HIT** (1x0)
 
 **Fortaleza × CRB**
-- 🔥🔥🔥 Fortaleza ou Empate (1X @1.24) — 93
-- 🔥🔥 Fortaleza Vence (ML @1.91) — 84
-- 🔥 Menos de 3.5 Gols (@1.22) — 90
+- 🔥🔥🔥 Fortaleza ou Empate (1X @1.24) — 93 ➔ ✅ **HIT** (2x2)
+- 🔥🔥 Fortaleza Vence (ML @1.91) — 84 ➔ ❌ **MISS** (2x2)
+- 🔥 Menos de 3.5 Gols (@1.22) — 90 ➔ ❌ **MISS** (4 gols)
 
 **Chapecoense × Athletico Paranaense**
-- 🔥🔥🔥 Athletico-PR ou Empate (X2 @1.28) — 92
-- 🔥🔥 Athletico-PR Vence (ML @1.98) — 83
-- 🔥 Menos de 3.5 Gols (@1.26) — 89
+- 🔥🔥🔥 Athletico-PR ou Empate (X2 @1.28) — 92 ➔ ✅ **HIT** (1x4)
+- 🔥🔥 Athletico-PR Vence (ML @1.98) — 83 ➔ ✅ **HIT** (1x4)
+- 🔥 Menos de 3.5 Gols (@1.26) — 89 ➔ ❌ **MISS** (5 gols)
 
 **Torino × Udinese**
-- 🔥🔥🔥 Menos de 3.5 Gols (@1.22) — 94
-- 🔥🔥 Menos de 2.5 Gols (@1.73) — 86
+- 🔥🔥🔥 Menos de 3.5 Gols (@1.22) — 94 ➔ ✅ **HIT** (2x1)
+- 🔥🔥 Menos de 2.5 Gols (@1.73) — 86 ➔ ❌ **MISS** (3 gols)
 
 ---
 
 #### 4. Bilhetes Combinados / Múltiplas do Dia (Arquitetura Modular Rankeada V2.0 Global)
 
 *   🎫 **MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle — Âncoras Globais de Elite):**
-    *   🥇 **#1 [ÂNCORA PRIMÁRIA]:** Atalanta BC × Venezia ➔ Atalanta Vence (ML @1.54)
-    *   🥈 **#2 [ÂNCORA SECUNDÁRIA]:** Criciúma × América-MG ➔ Criciúma ou Empate (1X @1.05)
-    *   🥉 **#3 [ÂNCORA TERCIÁRIA]:** Fortaleza × CRB ➔ Fortaleza ou Empate (1X @1.24)
-    *   🟢 **STOP POINT 1 ➔ TRIPLA ÂNCORA DE ELITE (Top 1 + Top 2 + Top 3):** *(Odd combinada: **@2.00** | Gewiss Stadium em festa + caldeirões do futebol brasileiro protegidos)*.
-    *   🏅 **#4 [EXPANSÃO QUÁDRUPLA]:** Chapecoense × Athletico-PR ➔ Athletico-PR ou Empate (X2 @1.28)
-    *   🟡 **STOP POINT 2 ➔ QUÁDRUPLA EQUILIBRADA:** *(Odd combinada: **@2.57**)*.
-    *   🏅 **#5 [EXPANSÃO COMPLETA]:** Torino × Udinese ➔ Menos de 3.5 Gols (@1.22)
-    *   🔴 **STOP POINT 3 ➔ MÚLTIPLA COMPLETA (Top 5 Blindada):** *(Odd combinada: **@3.13**)*.
-    *   **Status:** `PENDING`
+    *   🥇 **#1 [ÂNCORA PRIMÁRIA]:** Atalanta BC × Venezia ➔ Atalanta Vence (ML @1.54) ➔ ✅ **HIT** (3x1)
+    *   🥈 **#2 [ÂNCORA SECUNDÁRIA]:** Criciúma × América-MG ➔ Criciúma ou Empate (1X @1.05) ➔ ✅ **HIT** (1x0)
+    *   🥉 **#3 [ÂNCORA TERCIÁRIA]:** Fortaleza × CRB ➔ Fortaleza ou Empate (1X @1.24) ➔ ✅ **HIT** (2x2)
+    *   🟢 **STOP POINT 1 ➔ TRIPLA ÂNCORA DE ELITE (Top 1 + Top 2 + Top 3):** ✅ **GREEN TOTAL (3/3 - 100% DE APROVEITAMENTO)!** 🎯🎯🎯 *(Odd cravada: **@2.00**)*.
+    *   🏅 **#4 [EXPANSÃO QUÁDRUPLA]:** Chapecoense × Athletico-PR ➔ Athletico-PR ou Empate (X2 @1.28) ➔ ✅ **HIT** (1x4)
+    *   🟡 **STOP POINT 2 ➔ QUÁDRUPLA EQUILIBRADA:** ✅ **GREEN TOTAL (4/4 - 100% DE APROVEITAMENTO)!** 🎯🎯🎯 *(Odd cravada: **@2.57**)*.
+    *   🏅 **#5 [EXPANSÃO COMPLETA]:** Torino × Udinese ➔ Menos de 3.5 Gols (@1.22) ➔ ✅ **HIT** (2x1)
+    *   🔴 **STOP POINT 3 ➔ MÚLTIPLA COMPLETA (Top 5 Blindada):** ✅ **GREEN TOTAL (5/5 - 100% DE APROVEITAMENTO)!** 🎯🎯🎯🎯🎯 *(Odd cravada: **@3.13**)*.
+    *   **Resultado da Múltipla SAFE:** ✅ **GREEN TOTAL ABSOLUTO EM TODOS OS STOP POINTS (@3.13)!** 🏆
 
 *   🎫 **MÚLTIPLA 2 — SAFE+ (Secas de Elite Europeia & Brasil):**
-    *   🥇 #1 Atalanta Vence (ML @1.54)
-    *   🥈 #2 Criciúma Vence (ML @1.32)
-    *   🟢 **STOP POINT 1 ➔ Dupla de Ouro Europeia + Brasil:** *(Odd combinada: **@2.03**)*
-    *   🥉 #3 Famalicão Vence (ML @1.88)
-    *   🟡 **STOP POINT 2 ➔ Tripla Forte:** *(Odd combinada: **@3.82**)*
-    *   🏅 #4 Athletico-PR Vence (ML @1.98)
-    *   🔴 **STOP POINT 3 ➔ Quádrupla Completa SAFE+:** *(Odd combinada: **@7.56**)*
-    *   **Status:** `PENDING`
+    *   🥇 **#1:** Atalanta Vence (ML @1.54) ➔ ✅ **HIT** (3x1)
+    *   🥈 **#2:** Criciúma Vence (ML @1.32) ➔ ✅ **HIT** (1x0)
+    *   🟢 **STOP POINT 1 ➔ Dupla de Ouro Europeia + Brasil:** ✅ **GREEN TOTAL (2/2)!** 🎯🎯 *(Odd cravada: **@2.03**)*.
+    *   🥉 **#3:** Famalicão Vence (ML @1.88) ➔ ❌ **MISS** (1x4)
+    *   🟡 **STOP POINT 2 ➔ Tripla Forte:** ❌ **RED** (2 acertos, 1 erro — derrubada pelo Famalicão).
+    *   🏅 **#4:** Athletico-PR Vence (ML @1.98) ➔ ✅ **HIT** (1x4)
+    *   🔴 **STOP POINT 3 ➔ Quádrupla Completa SAFE+:** ❌ **RED** (3 acertos, 1 erro).
+    *   **Resultado da Múltipla SAFE+:** ✅ **STOP POINT 1 GREEN (@2.03)** / Expansões RED.
 
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA):**
-    *   Atalanta BC × Venezia: Atalanta Vence + Mais de 1.5 Gols (@1.80)
-    *   Famalicão × Alverca: Famalicão Vence (@1.88)
-    *   Chapecoense × Athletico-PR: Athletico-PR Vence (@1.98)
-    *   Fortaleza × CRB: Fortaleza Vence (@1.91)
-    *   **Multiplicador:** **@12.80**
-    *   **Status:** `PENDING`
+    *   Atalanta BC × Venezia: Atalanta Vence + Mais de 1.5 Gols (@1.80) ➔ ✅ **HIT** (3x1)
+    *   Famalicão × Alverca: Famalicão Vence (@1.88) ➔ ❌ **MISS** (1x4)
+    *   Chapecoense × Athletico-PR: Athletico-PR Vence (@1.98) ➔ ✅ **HIT** (1x4)
+    *   Fortaleza × CRB: Fortaleza Vence (@1.91) ➔ ❌ **MISS** (2x2)
+    *   **Resultado da Múltipla ATTACK:** ❌ **RED** (2 acertos, 2 erros).
 
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima da Rodada):**
-    *   Atalanta Vence + Mais de 2.5 Gols (@2.20) + Criciúma Vence + Menos de 3.5 Gols (@1.85) + Famalicão Vence (@1.88) + Athletico-PR Vence (@1.98) + Fortaleza Vence (@1.91) + Newcastle Vence (@2.23) + Bragantino x Cruzeiro: Ambos Marcam (@1.80).
-    *   **Multiplicador Acumulado:** **@105.00**
-    *   **Status:** `PENDING`
+    *   Atalanta Vence + Mais de 2.5 Gols (@2.20) ➔ ✅ **HIT** (3x1)
+    *   Criciúma Vence + Menos de 3.5 Gols (@1.85) ➔ ✅ **HIT** (1x0)
+    *   Famalicão Vence (@1.88) ➔ ❌ **MISS** (1x4)
+    *   Athletico-PR Vence (@1.98) ➔ ✅ **HIT** (1x4)
+    *   Fortaleza Vence (@1.91) ➔ ❌ **MISS** (2x2)
+    *   Newcastle Vence (@2.23) ➔ ❌ **MISS** (1x4)
+    *   Bragantino × Cruzeiro: Ambos Marcam (@1.80) ➔ ✅ **HIT** (4x2)
+    *   **Resultado do Bilhete:** ❌ **RED** (4 acertos, 3 erros).
 
 ---
 
-#### 5. ⏰ Protocolo de Lembrete T-60min
-*   **Primeiro Bloco (13:30 BRT):** Atalanta x Venezia ➔ Lembrete às **12:30 BRT**.
-*   **Segundo Bloco (15:45 a 16:15 BRT):** Torino x Udinese, Coventry x Newcastle, Fortaleza x CRB e Famalicão x Alverca ➔ Lembrete às **14:45 BRT**.
-*   **Terceiro Bloco (19:30 BRT):** Criciúma x América-MG e Chapecoense x Athletico-PR ➔ Lembrete às **18:30 BRT**.
-*   **Quarto Bloco (21:00 BRT):** Red Bull Bragantino x Cruzeiro ➔ Lembrete às **20:00 BRT**.
+#### 5. ⏰ Auditoria do Protocolo T-60min
+*   **Primeiro Bloco (13:30 BRT):** Atalanta confirmou força máxima ofensiva com Krstovic e Kessié no onze inicial; Venezia com bloco baixo.
+*   **Segundo Bloco (15:45 a 16:15 BRT):** Torino e Udinese com linhas titulares esperadas; Famalicão escalou time titular habitual, mas sofreu expulsão e desmoronou taticamente.
+*   **Terceiro Bloco (16:00 e 19:30 BRT):** Fortaleza e CRB com escalações principais; Criciúma forte no Majestoso e Furacão com Viveros decisivo em Chapecó.
+*   **Quarto Bloco (21:00 BRT):** Red Bull Bragantino e Cruzeiro escalaram seus principais atacantes, confirmando a tese de alto volume ofensivo.
 
 ---
 
@@ -960,12 +966,190 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 *   **Banca Operacional Inicial:** **R$ 37,17** (Total acumulado após os GREENS nos Dias 1 e 2)
 *   **Entrada de Hoje:** **R$ 37,17** (Reinvestimento integral)
 *   **Seleção Oficial do Soros (Tripla Âncora de Elite Global — Abismo Técnico & Blindagem):** 
-    *   1️⃣ **Atalanta BC × Venezia:** Atalanta Vence (Odd Pinnacle: @1.54) [Gewiss Stadium]
-    *   2️⃣ **Criciúma × América Mineiro:** Criciúma ou Empate (1X) (Odd Pinnacle: @1.05) [Heriberto Hülse]
-    *   3️⃣ **Fortaleza × CRB:** Fortaleza ou Empate (1X) (Odd Pinnacle: @1.24) [Arena Castelão]
+    *   1️⃣ **Atalanta BC × Venezia:** Atalanta Vence (Odd Pinnacle: @1.54) [Gewiss Stadium] ➔ ✅ **HIT** (3x1)
+    *   2️⃣ **Criciúma × América Mineiro:** Criciúma ou Empate (1X) (Odd Pinnacle: @1.05) [Heriberto Hülse] ➔ ✅ **HIT** (1x0)
+    *   3️⃣ **Fortaleza × CRB:** Fortaleza ou Empate (1X) (Odd Pinnacle: @1.24) [Arena Castelão] ➔ ✅ **HIT** (2x2)
 *   **Multiplicador Acumulado:** **@2.00** (1.54 × 1.05 × 1.24)
-*   **Retorno Estimado para o Dia 4:** **R$ 74,34**
+*   **Retorno Obtido:** **R$ 74,34**
+*   **Resultado do Dia 3:** ✅ **GREEN TOTAL (3/3 - 100% DE ACERTO)!** 🎯🎯🎯
+*   **Status de Liquidação:** **LIQUIDADO / APROVADO**
+*   **Próximo Passo:** Avança com banca cheia para o **DIA 4 DE 30** com entrada de **R$ 74,34**!
+
+---
+
+### [2026-10-13] — RODADA DIÁRIA (FUTEBOL)
+
+- **Snapshot ID:** `FAS_GEMINI_2026-10-13_V1_GLOBAL`
+- **Data do Registro:** 2026-10-13
+- **Horário de Registro:** 00:55:00 BRT
+- **Cutoff:** 2026-10-13T13:45:00-03:00
+- **Contexto da Data:** Terça-feira de gala do futebol mundial com a abertura da 3ª rodada da Fase de Liga da UEFA Champions League (Arsenal, Inter de Milão, Barcelona, Bayern de Munique, Atlético de Madrid, Manchester United, RB Leipzig e PSV em campo), além de confronto isolado decisivo pela Série B do Brasileirão (Athletic Club x Londrina).
+- **Status de Liquidação:** `PENDING`
+
+#### 1. Discovery e Cobertura (Global: UEFA Champions League + Brasil)
+- Encontrados: 18 (9 Champions League, 1 Série B, 8 EFL Championship)
+- Elegíveis: 9
+- Analisados: 9
+- Descartados: 9 (Sabah FK x Slavia Praha com paridade extrema e baixa liquidez; 8 jogos da EFL Championship por rotação no meio de semana e alta dispersão estatística).
+- Destaques Mundiais: Arsenal recebendo o Lille no Emirates, Inter de Milão acolhendo o Club Brugge no San Siro, Barcelona de Flick em Istambul contra o Galatasaray, Bayern visitando o Viking na Noruega e o choque entre Atlético de Madrid e Manchester United no Metropolitano.
+
+#### 2. Grade de Fixtures, Análise e Teses Pre-Match (Consenso Multi-IA)
+
+1. **Arsenal × Lille** (UEFA Champions League - Emirates Stadium - 16:00 BRT)
+   - *Tese Multi-IA:* Âncora estrutural de elite europeia (GenSpark 97, ChatGPT 96). O Arsenal de Arteta no Emirates ostenta solidez defensiva primorosa e xG superior a 2.4 por jogo; o Lille chega fragilizado fora de casa e sofre em transição rápida.
+   - **SAFE:** Arsenal Vence (Moneyline @1.21) (FAS 97 | DQ HIGH | VERY_HIGH | Risco ULTRA_LOW)
+   - **SAFE+:** Arsenal Vence + Mais de 1.5 Gols (@1.42) (FAS 90)
+   - **ATTACK:** Arsenal -1.5 Handicap Asiático (@1.65) (FAS 84)
+   - **Status:** `PENDING`
+
+2. **Inter Milan × Club Brugge** (UEFA Champions League - San Siro - 16:00 BRT)
+   - *Tese Multi-IA:* A Inter de Simone Inzaghi domina os confrontos no San Siro com encaixe tático maduro, forte controle de posse e a dupla Lautaro/Thuram. O Brugge atua com linhas expostas na Champions.
+   - **SAFE:** Inter Milan Vence (Moneyline @1.26) (FAS 96 | DQ HIGH | VERY_HIGH | Risco ULTRA_LOW)
+   - **SAFE+:** Inter Milan 2+ Gols (Team Over 1.5 @1.42) (FAS 89)
+   - **ATTACK:** Inter Milan Vence sem Sofrer Gols (@1.92) (FAS 82)
+   - **Status:** `PENDING`
+
+3. **Galatasaray × Barcelona** (UEFA Champions League - RAMS Park - 16:00 BRT)
+   - *Tese Multi-IA:* O Barcelona de Hansi Flick impõe pressão sufocante em bloco alto e média superior a 3.1 gols marcados por jogo. Embora o caldeirão turco seja ruidoso, o abismo técnico e a transição ofensiva culé pesam decisivamente.
+   - **SAFE:** Barcelona ou Empate (Dupla Chance X2 @1.08) (FAS 96 | DQ HIGH | VERY_HIGH | Risco ULTRA_LOW)
+   - **SAFE+:** Barcelona Vence (Moneyline @1.27) (FAS 92)
+   - **ATTACK:** Barcelona Vence + Mais de 2.5 Gols (@1.68) (FAS 85)
+   - **Status:** `PENDING`
+
+4. **Viking FK × Bayern Munich** (UEFA Champions League - SR-Bank Arena - 16:00 BRT)
+   - *Tese Multi-IA:* Abismo técnico monumental na rodada. O Bayern de Kompany/Kane tem volume ofensivo esmagador contra uma equipe norueguesa debutante na fase principal da Champions.
+   - **SAFE:** Bayern Munich Vence (Moneyline @1.09) (FAS 99 | DQ HIGH | VERY_HIGH | Risco ZERO_SURPRISE)
+   - **SAFE+:** Bayern Munich 2+ Gols (Team Over 1.5 @1.22) (FAS 94)
+   - **ATTACK:** Bayern Munich -2.0 Handicap Asiático (@1.65) (FAS 86)
+   - **Status:** `PENDING`
+
+5. **Atlético Madrid × Manchester United** (UEFA Champions League - Metropolitano - 16:00 BRT)
+   - *Tese Multi-IA:* Clássico europeu de grande intensidade no Metropolitano. Simeone prepara forte encaixe de bloco médio e contenção física; o United oscila fora de Old Trafford sob pressão de torcida hostil.
+   - **SAFE:** Atlético Madrid ou Empate (Dupla Chance 1X @1.30) (FAS 92 | DQ HIGH | Risco LOW)
+   - **SAFE+:** Menos de 3.5 Gols (@1.33) (FAS 88)
+   - **ATTACK:** Atlético Madrid Vence (@1.93) (FAS 80)
+   - **Status:** `PENDING`
+
+6. **RB Leipzig × PSV Eindhoven** (UEFA Champions League - Red Bull Arena - 16:00 BRT)
+   - *Tese Multi-IA:* Duelo de alta voltagem ofensiva entre duas equipes com DNA de ataque veloz e vertical. O Leipzig em casa tem ligeiro favoritismo, mas a vocação natural do confronto aponta para movimentação de placar.
+   - **SAFE:** RB Leipzig ou Empate (Dupla Chance 1X @1.27) (FAS 91 | DQ HIGH | Risco LOW)
+   - **SAFE+:** Mais de 2.5 Gols (@1.52) (FAS 88)
+   - **ATTACK:** RB Leipzig Vence + Ambos Marcam (@2.85) (FAS 79)
+   - **Status:** `PENDING`
+
+7. **Villarreal × Napoli** (UEFA Champions League - Estádio de la Cerámica - 16:00 BRT)
+   - *Tese Multi-IA:* Confronto entre a organização ofensiva do Submarino Amarelo e a combatividade do Napoli de Conte. Ambas as equipes têm vocação atacante e fragilidades laterais exploráveis.
+   - **SAFE:** Mais de 1.5 Gols (@1.24) (FAS 92 | DQ HIGH | Risco LOW)
+   - **SAFE+:** Villarreal ou Empate (Dupla Chance 1X @1.37) (FAS 86)
+   - **ATTACK:** Ambos Marcam - Sim (@1.65) (FAS 82)
+   - **Status:** `PENDING`
+
+8. **RC Lens × Sporting Lisbon** (UEFA Champions League - Stade Bollaert-Delelis - 13:45 BRT)
+   - *Tese Multi-IA:* Jogo de abertura da Champions com forte disputa tática no meio-campo. O Lens fecha linhas com rigor e o Sporting aposta na contenção posicional longe de Alvalade.
+   - **SAFE:** Menos de 3.5 Gols (@1.32) (FAS 90 | DQ HIGH | Risco LOW)
+   - **SAFE+:** Sporting ou Empate (Dupla Chance X2 @1.55) (FAS 84)
+   - **ATTACK:** Menos de 2.5 Gols (@1.90) (FAS 78)
+   - **Status:** `PENDING`
+
+9. **Athletic Club (MG) × Londrina** (Brasileirão Série B - Joaquim Portugal - 19:30 BRT)
+   - *Tese Multi-IA:* O Athletic em São João del-Rei costuma sufocar o adversário com gramado rápido e pressão no 1º tempo. O Londrina joga por uma bola defensiva.
+   - **SAFE:** Athletic Club ou Empate (Dupla Chance 1X @1.32) (FAS 90 | DQ HIGH | Risco LOW)
+   - **SAFE+:** Menos de 2.5 Gols (@1.62) (FAS 85)
+   - **ATTACK:** Athletic Club Vence + Menos de 3.5 Gols (@2.45) (FAS 78)
+   - **Status:** `PENDING`
+
+---
+
+#### 3. 👴 APOSENTAR O NETO — Principais Linhas (Scanner Champions League 13/10)
+
+**Arsenal × Lille**
+- 🔥🔥🔥 Arsenal Vence (ML @1.21) — 97
+- 🔥🔥 Arsenal ou Empate (1X @1.03) — 99
+- 🔥 Arsenal Vence + Mais de 1.5 Gols (@1.42) — 90
+- 🟢 Arsenal 2+ Gols (Team Over 1.5 @1.35) — 92
+
+**Inter Milan × Club Brugge**
+- 🔥🔥🔥 Inter Milan Vence (ML @1.26) — 96
+- 🔥🔥 Inter Milan ou Empate (1X @1.05) — 99
+- 🔥 Inter Milan 2+ Gols (Team Over 1.5 @1.42) — 89
+- 🟢 Inter Milan Clean Sheet (@1.92) — 82
+
+**Galatasaray × Barcelona**
+- 🔥🔥🔥 Barcelona ou Empate (X2 @1.08) — 96
+- 🔥🔥 Barcelona Vence (ML @1.27) — 92
+- 🔥 Barcelona Vence + Mais de 2.5 Gols (@1.68) — 85
+
+**Viking FK × Bayern Munich**
+- 🔥🔥🔥 Bayern Munich Vence (ML @1.09) — 99
+- 🔥🔥 Bayern Munich 2+ Gols (@1.22) — 94
+- 🔥 Bayern Munich -2.0 Handicap (@1.65) — 86
+
+**Atlético Madrid × Manchester United**
+- 🔥🔥🔥 Atlético Madrid ou Empate (1X @1.30) — 92
+- 🔥🔥 Menos de 3.5 Gols (@1.33) — 88
+- 🔥 Atlético Madrid Vence (ML @1.93) — 80
+
+---
+
+#### 4. Bilhetes Combinados / Múltiplas do Dia (Arquitetura Modular Rankeada V2.0 Champions League)
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle — Âncoras Globais da Champions League):**
+    *   🥇 **#1 [ÂNCORA PRIMÁRIA]:** Arsenal × Lille ➔ Arsenal Vence (ML @1.21)
+    *   🥈 **#2 [ÂNCORA SECUNDÁRIA]:** Inter Milan × Club Brugge ➔ Inter Milan Vence (ML @1.26)
+    *   🥉 **#3 [ÂNCORA TERCIÁRIA]:** Viking FK × Bayern Munich ➔ Bayern Munich Vence (ML @1.09)
+    *   🟢 **STOP POINT 1 ➔ TRIPLA ÂNCORA DOS GIGANTES DA EUROPA:** *(Odd combinada: **@1.66** | Emirates + San Siro + abismo do Bayern na Noruega)*.
+    *   🏅 **#4 [EXPANSÃO QUÁDRUPLA]:** Galatasaray × Barcelona ➔ Barcelona ou Empate (X2 @1.08)
+    *   🟡 **STOP POINT 2 ➔ QUÁDRUPLA BLINDADA CHAMPIONS LEAGUE:** *(Odd combinada: **@1.79**)*.
+    *   🏅 **#5 [EXPANSÃO COMPLETA]:** Atlético Madrid × Man United ➔ Atlético Madrid ou Empate (1X @1.30)
+    *   🔴 **STOP POINT 3 ➔ MÚLTIPLA COMPLETA TOP 5 CHAMPIONS:** *(Odd combinada: **@2.33**)*.
+    *   **Status:** `PENDING`
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (Secas de Elite Europeia):**
+    *   🥇 #1 Arsenal Vence + Mais de 1.5 Gols (@1.42)
+    *   🥈 #2 Barcelona Vence (ML @1.27)
+    *   🟢 **STOP POINT 1 ➔ Dupla de Ouro Champions League:** *(Odd combinada: **@1.80**)*
+    *   🥉 #3 Inter Milan 2+ Gols (Team Over 1.5 @1.42)
+    *   🟡 **STOP POINT 2 ➔ Tripla Forte:** *(Odd combinada: **@2.56**)*
+    *   🏅 #4 RB Leipzig ou Empate + Mais de 1.5 Gols (@1.48)
+    *   🔴 **STOP POINT 3 ➔ Quádrupla Completa SAFE+:** *(Odd combinada: **@3.79**)*
+    *   **Status:** `PENDING`
+
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA):**
+    *   Arsenal × Lille: Arsenal -1.5 Handicap Asiático (@1.65)
+    *   Galatasaray × Barcelona: Barcelona Vence + Mais de 2.5 Gols (@1.68)
+    *   Inter Milan × Club Brugge: Inter Vence sem Sofrer Gols (@1.92)
+    *   Atlético Madrid × Man United: Atlético Madrid Vence (@1.93)
+    *   **Multiplicador:** **@10.27**
+    *   **Status:** `PENDING`
+
+*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima da Champions League):**
+    *   Arsenal -1.5 (@1.65) + Bayern -2.0 (@1.65) + Barcelona Vence & Over 2.5 (@1.68) + Inter Vence to Nil (@1.92) + Atlético Madrid Vence (@1.93) + RB Leipzig Vence & BTTS (@2.85) + Villarreal x Napoli: Ambos Marcam (@1.65).
+    *   **Multiplicador Acumulado:** **@86.50**
+    *   **Status:** `PENDING`
+
+---
+
+#### 5. ⏰ Protocolo de Lembrete T-60min
+*   **Primeiro Bloco (13:45 BRT):** RC Lens x Sporting Lisbon ➔ Lembrete às **12:45 BRT**.
+*   **Segundo Bloco (16:00 BRT):** Arsenal x Lille, Inter x Brugge, Galatasaray x Barcelona, Viking x Bayern, Atlético x Man Utd, Leipzig x PSV e Villarreal x Napoli ➔ Lembrete às **15:00 BRT**.
+*   **Terceiro Bloco (19:30 BRT):** Athletic Club x Londrina ➔ Lembrete às **18:30 BRT**.
+
+---
+
+#### 6. 🔥 DESAFIO SOROS FAS 30 DIAS — REGISTRO OFICIAL (MULTI-IA REFINED)
+*   **Dia da Jornada:** **DIA 4 DE 30**
+*   **Banca Operacional Inicial:** **R$ 74,34** (Total acumulado após os GREENS nos Dias 1, 2 e 3)
+*   **Entrada de Hoje:** **R$ 74,34** (Reinvestimento integral)
+*   **Seleção Oficial do Soros (Quádrupla Blindada dos Gigantes da Champions League):** 
+    *   1️⃣ **Arsenal × Lille:** Arsenal Vence (Odd Pinnacle: @1.21) [Emirates Stadium]
+    *   2️⃣ **Inter Milan × Club Brugge:** Inter Milan Vence (Odd Pinnacle: @1.26) [San Siro]
+    *   3️⃣ **Galatasaray × Barcelona:** Barcelona Vence (Odd Pinnacle: @1.27) [RAMS Park]
+    *   4️⃣ **Viking FK × Bayern Munich:** Bayern Munich Vence (Odd Pinnacle: @1.09) [SR-Bank Arena]
+*   **Multiplicador Acumulado:** **@2.11** (1.21 × 1.26 × 1.27 × 1.09)
+*   **Retorno Estimado para o Dia 5:** **R$ 156,86**
 *   **Status de Liquidação:** `PENDING`
+
+
 
 
 

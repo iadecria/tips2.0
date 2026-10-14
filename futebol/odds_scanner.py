@@ -110,25 +110,25 @@ def print_soros_slip():
     with open(state_file, "r", encoding="utf-8") as f:
         state = json.load(f)
         
-    day = state.get("currentDay", 3)
-    stake = state.get("currentStake", 37.17)
+    day = state.get("currentDay", 1)
+    stake = state.get("currentStake", 10.00)
     target_days = state.get("targetDays", 30)
     
-    # Seleção do Soros Oficial 12/10: Atalanta ML (@1.54) + Criciúma 1X (@1.05) + Fortaleza 1X (@1.24) = @2.00
-    mult = 1.54 * 1.05 * 1.24  # @2.00 na Pinnacle
+    # Seleção do Soros Oficial 14/10 (Espelho Stop Point 1): Liverpool Over 1.5 (@1.20) + Aston Villa 1X (@1.18) + Real Madrid X2 (@1.28) = @1.81
+    mult = 1.20 * 1.18 * 1.28  # @1.81 na Pinnacle
     ret = stake * mult
     
     print("\n" + "="*55)
-    print(f"🔥 DESAFIO SOROS FAS 30 DIAS — DIA {day} DE {target_days} (ELITE GLOBAL)")
+    print(f"🔥 DESAFIO SOROS FAS 30 DIAS — DIA {day} DE {target_days} (UEFA CHAMPIONS LEAGUE)")
     print("="*55)
-    print(f"💵 Entrada de Hoje: R$ {stake:.2f} (Lucro acumulado dos Dias 1 e 2)")
+    print(f"💵 Entrada de Hoje: R$ {stake:.2f} (Gestão de Reinício Dia 1)")
     print(f"🎯 Cotação da Tripla Blindada: @{mult:.2f} (Pinnacle)")
     print(f"💰 Retorno Estimado se Bater: R$ {ret:.2f}")
     print(f"🚀 Próximo Passo: Se GREEN, os R$ {ret:.2f} serão a entrada do DIA {day + 1}!")
-    print("\n📌 Seleções Obrigatórias do Soros (Máxima Proteção & Abismo Técnico):")
-    print("   1️⃣ Atalanta x Venezia ➔ Atalanta Vence (Odd @1.54) [Gewiss Stadium]")
-    print("   2️⃣ Criciúma x América Mineiro ➔ Criciúma ou Empate (1X) (Odd @1.05) [Heriberto Hülse]")
-    print("   3️⃣ Fortaleza x CRB ➔ Fortaleza ou Empate (1X) (Odd @1.24) [Castelão]")
+    print("\n📌 Seleções Obrigatórias do Soros (Espelho Stop Point 1 SAFE):")
+    print("   1️⃣ LASK Linz x Liverpool ➔ Mais de 1.5 Gols (Odd @1.20) [Raiffeisen Arena]")
+    print("   2️⃣ Aston Villa x Fenerbahçe ➔ Aston Villa ou Empate (1X @1.18) [Villa Park]")
+    print("   3️⃣ AS Roma x Real Madrid ➔ Real Madrid ou Empate (X2 @1.28) [Stadio Olimpico]")
     print(f"   👉 Na Pinnacle: Adicione as três seleções, vá na aba ACUMULADA e confirme com R$ {stake:.2f}!")
     print("="*55)
 
@@ -136,89 +136,131 @@ if __name__ == "__main__":
     if "--scan" in sys.argv:
         scan_all_major_leagues(hours_ahead=36)
 
-    # Boletim Especial Pinnacle para a Rodada de 12/10 (Consenso Multi-IA Global)
+    # Boletim Especial Pinnacle para a Rodada de 14/10 (UEFA Champions League - FAS 3 V5.0)
     pinnacle_tickets = [
         {
-            "title": "BILHETE 1: TRIPLA ÂNCORA DE ELITE (SAFE - Europa & Brasil)",
-            "multiplier": 1.54 * 1.05 * 1.24,  # @2.00
+            "title": "⭐ BILHETE SUPREMO: O FILÉ DO DIA (Todas as Melhores Opções da Champions League)",
+            "multiplier": 1.20 * 1.18 * 1.28 * 1.18 * 1.18 * 1.12 * 1.22,  # @3.67
             "legs": [
                 {
-                    "match": "Atalanta BC x Venezia (Serie A - 13:30 BRT)",
-                    "market_group": "Resultado da Partida / Linha de Dinheiro (1X2)",
-                    "selection": "Atalanta Vence (Casa / 1)",
-                    "odd": 1.54
+                    "match": "LASK Linz x Liverpool (13:45 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.20
                 },
                 {
-                    "match": "Criciúma x América Mineiro (Série B - 19:30 BRT)",
-                    "market_group": "Dupla Chance (1X2)",
-                    "selection": "Criciúma ou Empate (1X)",
-                    "odd": 1.05
+                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
+                    "market_group": "Dupla Chance",
+                    "selection": "Aston Villa ou Empate (1X)",
+                    "odd": 1.18
                 },
                 {
-                    "match": "Fortaleza x CRB (Série B - 16:00 BRT)",
-                    "market_group": "Dupla Chance (1X2)",
-                    "selection": "Fortaleza ou Empate (1X)",
-                    "odd": 1.24
+                    "match": "AS Roma x Real Madrid (16:00 BRT)",
+                    "market_group": "Dupla Chance",
+                    "selection": "Real Madrid ou Empate (X2)",
+                    "odd": 1.28
+                },
+                {
+                    "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.18
+                },
+                {
+                    "match": "Bodø/Glimt x Borussia Dortmund (16:00 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.18
+                },
+                {
+                    "match": "Slovan Bratislava x VfB Stuttgart (16:00 BRT)",
+                    "market_group": "Total de Gols da Equipe",
+                    "selection": "VfB Stuttgart 1+ Gol (Team Over 0.5)",
+                    "odd": 1.12
+                },
+                {
+                    "match": "Feyenoord x Como (13:45 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.22
                 }
             ]
         },
         {
-            "title": "BILHETE 2: QUÁDRUPLA EQUILIBRADA (SAFE + Série A Furacão X2)",
-            "multiplier": 1.54 * 1.05 * 1.24 * 1.28,  # @2.57
+            "title": "BILHETE 1: TRIPLA ÂNCORA BLINDADA (SAFE - Champions League)",
+            "multiplier": 1.20 * 1.18 * 1.28,  # @1.81
             "legs": [
                 {
-                    "match": "Atalanta BC x Venezia (13:30 BRT)",
-                    "market_group": "Resultado da Partida (1X2)",
-                    "selection": "Atalanta Vence",
-                    "odd": 1.54
+                    "match": "LASK Linz x Liverpool (13:45 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.20
                 },
                 {
-                    "match": "Criciúma x América Mineiro (19:30 BRT)",
-                    "market_group": "Dupla Chance (1X2)",
-                    "selection": "Criciúma ou Empate (1X)",
-                    "odd": 1.05
+                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
+                    "market_group": "Dupla Chance",
+                    "selection": "Aston Villa ou Empate (1X)",
+                    "odd": 1.18
                 },
                 {
-                    "match": "Fortaleza x CRB (16:00 BRT)",
-                    "market_group": "Dupla Chance (1X2)",
-                    "selection": "Fortaleza ou Empate (1X)",
-                    "odd": 1.24
-                },
-                {
-                    "match": "Chapecoense x Athletico Paranaense (19:30 BRT)",
-                    "market_group": "Dupla Chance (1X2)",
-                    "selection": "Athletico-PR ou Empate (X2)",
+                    "match": "AS Roma x Real Madrid (16:00 BRT)",
+                    "market_group": "Dupla Chance",
+                    "selection": "Real Madrid ou Empate (X2)",
                     "odd": 1.28
                 }
             ]
         },
         {
-            "title": "BILHETE 3: SUPER CLÁSSICOS & ATAQUE (ATTACK / PRA CIMA)",
-            "multiplier": 1.80 * 1.88 * 1.98 * 1.91,  # ~12.80
+            "title": "BILHETE 2: QUÁDRUPLA FORTE COM GOLS DA CHAMPIONS (SAFE + Man City x PSG Over 1.5)",
+            "multiplier": 1.20 * 1.18 * 1.28 * 1.18,  # @2.14
             "legs": [
                 {
-                    "match": "Atalanta BC x Venezia (Serie A - 13:30 BRT)",
+                    "match": "LASK Linz x Liverpool (13:45 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.20
+                },
+                {
+                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
+                    "market_group": "Dupla Chance",
+                    "selection": "Aston Villa ou Empate (1X)",
+                    "odd": 1.18
+                },
+                {
+                    "match": "AS Roma x Real Madrid (16:00 BRT)",
+                    "market_group": "Dupla Chance",
+                    "selection": "Real Madrid ou Empate (X2)",
+                    "odd": 1.28
+                },
+                {
+                    "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
+                    "market_group": "Total de Gols",
+                    "selection": "Mais de 1.5 Gols",
+                    "odd": 1.18
+                }
+            ]
+        },
+        {
+            "title": "BILHETE 3: SUPER CLÁSSICOS & ATAQUE (ATTACK / PRA CIMA)",
+            "multiplier": 1.62 * 1.48 * 1.42,  # ~3.40
+            "legs": [
+                {
+                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
+                    "market_group": "Resultado da Partida (1X2)",
+                    "selection": "Aston Villa Vence",
+                    "odd": 1.62
+                },
+                {
+                    "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
+                    "market_group": "Ambos os Times Marcam",
+                    "selection": "Ambos Marcam - Sim",
+                    "odd": 1.48
+                },
+                {
+                    "match": "LASK Linz x Liverpool (13:45 BRT)",
                     "market_group": "Resultado e Total",
-                    "selection": "Atalanta Vence + Mais de 1.5 Gols",
-                    "odd": 1.80
-                },
-                {
-                    "match": "Famalicão x Alverca (Liga Portugal - 16:15 BRT)",
-                    "market_group": "Resultado da Partida (1X2)",
-                    "selection": "Famalicão Vence",
-                    "odd": 1.88
-                },
-                {
-                    "match": "Chapecoense x Athletico-PR (19:30 BRT)",
-                    "market_group": "Resultado da Partida (1X2)",
-                    "selection": "Athletico-PR Vence",
-                    "odd": 1.98
-                },
-                {
-                    "match": "Fortaleza x CRB (16:00 BRT)",
-                    "market_group": "Resultado da Partida (1X2)",
-                    "selection": "Fortaleza Vence",
-                    "odd": 1.91
+                    "selection": "Liverpool Vence + Mais de 1.5 Gols",
+                    "odd": 1.42
                 }
             ]
         }

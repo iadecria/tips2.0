@@ -239,18 +239,20 @@ No FAS Basketball, os mercados NÃO possuem o mesmo peso nem a mesma estabilidad
 
 ### 🏆 RANKING DE MERCADOS DO BASQUETE (Do mais estável ao mais volátil)
 
-1. 🥇 **#1 Spreads Positivos Elásticos / Alternativos (+6.5 a +12.5):**
-   - **A âncora máxima de segurança do basquete.** Absorve oscilações de clutch time, desvantagens curtas e noites medianas de arremesso. Mesmo se a equipe for derrotada por margem estreita, o bilhete dá GREEN.
-2. 🥈 **#2 Totais Alternativos Protegidos (Over Rebaixado em 8-12 pts / Under Elevado):**
-   - Comprar pontos em relação à linha cheia de abertura (ex: linha 228.5 ➔ operar Over 218.5/219.5). Amortece quartos frios e ritmo atípico.
-3. 🥉 **#3 Total de Pontos do Time / Team Total Over Protegido (OBRIGATÓRIO AVALIAR):**
-   - **MERCADO FUNDAMENTAL E MANDATÓRIO EM TODA ANÁLISE:** Focar estritamente na capacidade ofensiva de uma equipe sem depender de quem vence a partida. Utilizar as linhas alternativas de pontos da equipe (rebaixadas de 4 a 8 pontos abaixo da projeção principal) explorando equipes de alto *Pace* (ritmo) e eficiência ofensiva contra defesas em rotação ou cansaço de back-to-back.
-4. 🏅 **#4 Mercados de 1º Tempo (1H Spread Positivo / 1H Team Total / 1H Over Seguro):**
+1. 🥇 **#1 Total de Pontos do Time / Team Total Over Protegido (PRIORIDADE OPERACIONAL MÁXIMA):**
+   - **DIRETRIZ DE EXECUÇÃO EM BOOKMAKERS (REGRA TEAM TOTAL FIRST):** A experiência prática em casas de apostas (Pinnacle, Melbet, 1xBet, Betano, Bet365) demonstra que o mercado de **Total Cheio do Jogo (Game Total)** frequentemente corta o catálogo inferior (ex: abrindo no mínimo em Over 230.5 e omitindo linhas seguras como Over 223.5). Em contrapartida, as abas de **Total 1 (Casa) e Total 2 (Fora)** mantêm degraus profundos e altamente vantajosos (ex: Celtics Over 108.5 @1.33 ou Heat Over 112.5 @1.375).
+   - **Vantagem Estatística:** Isola a capacidade ofensiva e o *Pace* de equipes de elite sem depender do desempenho ou de apagões ofensivos do adversário. É a âncora mais estável para bilhetes acumulados e de turno.
+2. 🥈 **#2 Spreads Positivos Elásticos / Alternativos (+6.5 a +12.5):**
+   - **A âncora de segurança contra zebras.** Absorve oscilações de clutch time, desvantagens curtas e noites medianas de arremesso. Mesmo se a equipe for derrotada por margem estreita, o bilhete dá GREEN.
+3. 🥉 **#3 Super Favoritos em Casa (V1) e Dupla Chance (1X no Tempo Regulamentar):**
+   - Aplicável exclusivamente para mandantes com probabilidade estimada > 80% e abismo técnico no matchup (ex: Spurs @1.26 contra Suns alternativo). O 1X no tempo normal protege contra prorrogações atípicas.
+4. 🏅 **#4 Totais Alternativos Protegidos do Jogo (Over Rebaixado em 8-12 pts / Under Elevado):**
+   - Só deve ser selecionado se a casa de apostas mantiver disponível a linha com no mínimo 8 a 10 pontos de desconto em relação à linha de fechamento. Caso a casa corte o catálogo, a regra obriga a migração imediata para o *Team Total*.
+5. ⚠️ **#5 Mercados de 1º Tempo (1H Spread Positivo / 1H Team Total):**
    - Rotações titulares preservadas, intensidade máxima e ausência de *garbage time*.
-5. ⚠️ **#5 Moneyline Seca (Vencedor do Jogo):**
-   - **CONDICIONAL E CONTROLADA:** É PROIBIDO utilizar vitória seca como âncora de bilhete SAFE em jogos fora de casa, quadra neutra festiva, ou quando houver incerteza médica/descanso (*load management*).
-6. 💣 **#6 Spreads Negativos Altos (-6.5 a -12.5) e Props de Jogadores:**
-   - Exclusivos para ATTACK / PRA CIMA devido ao risco extremo de *garbage time* (titulares saindo de quadra no 4Q e reservas cedendo corridas no placar).
+6. ⛔ **#6 Moneyline Seca Fora de Casa e Spreads Negativos Altos (-6.5 a -12.5):**
+   - **PROIBIDOS NA SAFE:** Risco extremo de rotação/poupança de titulares (ex: tropeço dos Bucks diante dos Bulls em pré-temporada) e corridas de reservas no 4º quarto. Exclusivos para ATTACK / APOSENTAR O NETO.
+
 
 ---
 

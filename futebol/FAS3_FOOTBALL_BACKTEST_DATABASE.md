@@ -1138,16 +1138,85 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 #### 6. 🔥 DESAFIO SOROS FAS 30 DIAS — REGISTRO OFICIAL (MULTI-IA REFINED)
 *   **Dia da Jornada:** **DIA 4 DE 30**
-*   **Banca Operacional Inicial:** **R$ 74,34** (Total acumulado após os GREENS nos Dias 1, 2 e 3)
-*   **Entrada de Hoje:** **R$ 74,34** (Reinvestimento integral)
-*   **Seleção Oficial do Soros (Quádrupla Blindada dos Gigantes da Champions League):** 
-    *   1️⃣ **Arsenal × Lille:** Arsenal Vence (Odd Pinnacle: @1.21) [Emirates Stadium]
-    *   2️⃣ **Inter Milan × Club Brugge:** Inter Milan Vence (Odd Pinnacle: @1.26) [San Siro]
-    *   3️⃣ **Galatasaray × Barcelona:** Barcelona Vence (Odd Pinnacle: @1.27) [RAMS Park]
-    *   4️⃣ **Viking FK × Bayern Munich:** Bayern Munich Vence (Odd Pinnacle: @1.09) [SR-Bank Arena]
-*   **Multiplicador Acumulado:** **@2.11** (1.21 × 1.26 × 1.27 × 1.09)
-*   **Retorno Estimado para o Dia 5:** **R$ 156,86**
-*   **Status de Liquidação:** `PENDING`
+*   **Banca Operacional Inicial:** **R$ 74,34**
+*   **Entrada:** **R$ 74,34**
+*   **Seleção Oficial do Soros:** 
+    *   Arsenal × Lille: Arsenal Vence (@1.21) ➔ ✅ **HIT** (3x0)
+    *   Inter Milan × Club Brugge: Inter Vence (@1.26) ➔ ❌ **MISS** (3x4)
+    *   Galatasaray × Barcelona: Barcelona Vence (@1.27) ➔ ✅ **HIT** (0x3)
+    *   Viking FK × Bayern Munich: Bayern Vence (@1.09) ➔ ✅ **HIT** (0x4)
+*   **Multiplicador:** @2.11
+*   **Resultado do Dia 4:** ❌ **RED / RESET** (Zebra europeia: derrota da Inter de Milão em casa por 3x4).
+*   **Ação:** Reinício no Dia 1 em 14/10 com nova recarga de stake inicial (R$ 10,00).
+
+---
+
+### [2026-10-14] — RODADA DIÁRIA (UEFA CHAMPIONS LEAGUE — FASE DE LIGA)
+
+- **Snapshot ID:** `FAS_GEMINI_2026-10-14_V1_GLOBAL`
+- **Data do Registro:** 2026-10-14
+- **Cutoff:** 2026-10-14T13:45:00-03:00
+- **Contexto da Data:** Sequência eletrizante da 3ª rodada da Fase de Liga da UEFA Champions League. Confrontos de peso com Liverpool, Real Madrid, Aston Villa, PSG, Man City, Dortmund e Stuttgart.
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (GREEN MONSTRUOSO NO SOROS E SAFE+)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 7 fixtures
+- Gols Marcados na Rodada: Chuva histórica de 32 gols em 7 jogos!
+
+#### 2. Grade de Fixtures, Resultados e Liquidação
+
+1. **LASK Linz 3 × 6 Liverpool** (13:45 BRT)
+   - *Resultado Oficial:* 3 x 6 (Total: 9 gols)
+   - **SAFE:** Mais de 1.5 Gols (@1.20) ➔ ✅ **HIT** (9 gols)
+   - **SAFE+:** Liverpool Vence + Mais de 1.5 Gols (@1.42) ➔ ✅ **HIT** (3x6)
+   - **ATTACK:** Liverpool -1.5 Handicap Asiático (@1.72) ➔ ✅ **HIT** (Vitória por 3 gols)
+
+2. **Feyenoord 3 × 2 Como** (13:45 BRT)
+   - *Resultado Oficial:* 3 x 2 (Total: 5 gols)
+   - **SAFE:** Mais de 1.5 Gols (@1.22) ➔ ✅ **HIT** (5 gols)
+   - **SAFE+ / ATTACK:** Ambos Marcam - Sim (@1.52) ➔ ✅ **HIT** (3x2)
+
+3. **Aston Villa 6 × 0 Fenerbahçe** (Villa Park - 16:00 BRT)
+   - *Resultado Oficial:* 6 x 0 (Total: 6 gols)
+   - **SAFE:** Aston Villa ou Empate (1X @1.18) ➔ ✅ **HIT** (6x0)
+   - **SAFE+:** Aston Villa Vence (@1.62) ➔ ✅ **HIT** (Goleada 6x0)
+   - **ATTACK:** Aston Villa Vence + Mais de 2.5 Gols (@2.30) ➔ ✅ **HIT**
+
+4. **AS Roma 3 × 4 Real Madrid** (Stadio Olimpico - 16:00 BRT)
+   - *Resultado Oficial:* 3 x 4 (Total: 7 gols)
+   - **SAFE (Sniper Soros):** Real Madrid ou Empate (Dupla Chance X2 @1.28) ➔ ✅ **HIT** (Virada épica no final!)
+   - **SAFE+ / ATTACK:** Real Madrid Vence + Ambos Marcam (@3.10) ➔ ✅ **HIT** (3x4 cravado!)
+
+5. **Manchester City 2 × 4 Paris Saint-Germain** (Etihad Stadium - 16:00 BRT)
+   - *Resultado Oficial:* 2 x 4 (Total: 6 gols)
+   - **SAFE:** Mais de 1.5 Gols (@1.18) ➔ ✅ **HIT** (6 gols)
+   - **SAFE+:** Ambos Marcam - Sim (@1.48) ➔ ✅ **HIT** (2x4)
+   - **ATTACK:** Ambos Marcam + Mais de 2.5 Gols (@1.80) ➔ ✅ **HIT**
+
+6. **Slovan Bratislava 0 × 3 VfB Stuttgart** (16:00 BRT)
+   - *Resultado Oficial:* 0 x 3 (Total: 3 gols)
+   - **SAFE:** Stuttgart 1+ Gol (Team Over 0.5 @1.12) ➔ ✅ **HIT** (Stuttgart marcou 3)
+   - **SAFE+:** Stuttgart Vence + Mais de 2.5 Gols (@1.85) ➔ ✅ **HIT** (0x3)
+
+7. **Bodø/Glimt 1 × 0 Borussia Dortmund** (16:00 BRT)
+   - *Resultado Oficial:* 1 x 0 (Total: 1 gol)
+   - **SAFE:** Mais de 1.5 Gols (@1.18) ➔ ❌ **MISS** (Travou em 1x0 com zaga do Dortmund ineficiente)
+
+#### 3. Auditoria dos Bilhetes / Múltiplas Combinadas
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Formato Modular com Stop Points):**
+    *   🟢 **STOP POINT 1 ➔ TRIPLA ÂNCORA BLINDADA (@1.81):** ✅ **GREEN TOTAL (3/3)!** *(LASK Over 1.5 + Villa 1X + Real Madrid X2).*
+    *   🟡 **STOP POINT 2 ➔ QUÁDRUPLA FORTE (@2.14):** ✅ **GREEN TOTAL (4/4)!** *(Adicionou Man City x PSG Over 1.5).*
+    *   🔴 **STOP POINT 3 ➔ MÚLTIPLA COMPLETA (@2.52):** ❌ RED (Derrubada exclusivamente pelo 1x0 de Bodø/Dortmund).
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@3.40):**
+    *   Aston Villa Vence (@1.62) + Man City x PSG BTTS (@1.48) + Liverpool Vence & Over 1.5 (@1.42)
+    *   **Resultado:** ✅ **GREEN MONSTRUOSO HISTÓRICO TOTAL (@3.40)!** 🎯🎯🎯
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 1 (NOVO MODELO SNIPER):**
+    *   **Entrada:** R$ 10,00
+    *   **Seleção:** AS Roma × Real Madrid ➔ Real Madrid ou Empate (X2 @1.28)
+    *   **Resultado:** ✅ **GREEN TOTAL (3x4 Real Madrid)!**
+    *   **Retorno:** R$ 12,80. Avança para o **DIA 2 DE 30** com **R$ 12,80**!
+
 
 
 

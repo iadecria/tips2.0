@@ -390,4 +390,54 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
 *   **Bilhete Tripla SAFE+:** ✅ **GREEN**
 *   *A proibição de spreads negativos e a priorização de handicaps positivos na EuroLeague provou ser a melhor salvaguarda contra zebras.*
 
+---
+
+### [2026-10-14] — RODADA DIÁRIA (NBA PRESEASON — VALIDAÇÃO TEAM TOTAL V2.5)
+
+- **Snapshot ID:** `FAS_BASKETBALL_2026-10-14_V1`
+- **Data do Registro:** 2026-10-14
+- **Horário de Registro:** 20:15:00 BRT
+- **Cutoff:** 2026-10-14T20:30:00-03:00
+- **Contexto da Data:** Super rodada da NBA Preseason com 5 jogos na grade (Hornets @ Celtics, Nets @ Heat, Bulls @ Bucks, Suns @ Spurs, Nuggets @ Clippers). 
+- **Inovação Metodológica Testada em Produção:** Regra **Team Total First** na Melbet após constatação de corte de catálogo em Game Totals (rebaixamento de linhas no Total 1 e Total 2).
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (100% GREEN NO TURNO 1)**
+
+#### 1. Discovery e Cobertura
+- Encontrados: 5
+- Elegíveis: 4 (Hornets @ Celtics, Nets @ Heat, Suns @ Spurs, Nuggets @ Clippers)
+- Descartados / Vetados na SAFE: 1 (Bulls @ Bucks — vetado devido ao risco de rotação profunda de pré-temporada; decisão acertadíssima, pois os Bucks perderam por 104x125).
+
+#### 2. Grade de Fixtures, Resultados e Liquidação
+
+1. **Charlotte Hornets 93 × 114 Boston Celtics** (TD Garden - 20:30 BRT)
+   - *Resultado Oficial:* 93 × 114 (Total: 207 pontos | Celtics: 114 pontos)
+   - **SAFE (Original):** Boston Celtics Acima de 111.5 Pontos (@1.33) ➔ ✅ **HIT** (Celtics marcou 114)
+   - **SAFE (Melbet V2.5 - Total 2):** Boston Celtics Acima de 108.5 Pontos (@1.33) ➔ ✅ **HIT** (Celtics marcou 114 com 5.5 pontos de folga!)
+
+2. **Brooklyn Nets 128 × 144 Miami Heat** (Kaseya Center - 20:30 BRT)
+   - *Resultado Oficial:* 128 × 144 (Total: 272 pontos | Heat: 144 pontos)
+   - **SAFE (Original Game Total):** Mais de 223.5 Pontos Totais (@1.36) ➔ ✅ **HIT** (272 pontos totais!)
+   - **SAFE (Melbet V2.5 - Total 2):** Miami Heat Acima de 112.5 Pontos (@1.375) ➔ ✅ **HIT** (Heat pulverizou a linha marcando 144 pontos!)
+   - **SAFE+ / Dupla Chance:** Miami Heat 1X no tempo normal (@1.39) ➔ ✅ **HIT** (Heat venceu por 144x128)
+
+3. **Phoenix Suns 103 × 123 San Antonio Spurs** (Frost Bank Center - 21:00 BRT)
+   - *Resultado Oficial:* 103 × 123 (Total: 226 pontos | Spurs: 123 pontos)
+   - **SAFE (Original):** San Antonio Spurs Acima de 109.5 Pontos (@1.35) ➔ ✅ **HIT** (Spurs marcou 123 pontos!)
+   - **SAFE (Melbet V2.5):** San Antonio Spurs Vence - V1 (@1.26) ➔ ✅ **HIT** (Spurs venceu com folga por 20 pontos de vantagem)
+
+4. **Chicago Bulls 125 × 104 Milwaukee Bucks** (Fiserv Forum - 21:00 BRT)
+   - *Auditoria de Veto:* Vetado da tripla de confiança devido ao risco de poupança dos titulares dos Bucks. Bulls venceu por 125x104 confirmando o acerto cirúrgico do filtro de proteção.
+
+#### 3. Auditoria dos Bilhetes / Turnos do Basquete
+
+*   🎟️ **TURNO 1 — PRIME TIME (Celtics + Heat + Spurs):**
+    *   Hornets @ Celtics: Celtics Over 108.5 / 111.5 (@1.33) ➔ ✅ **HIT** (114 pts)
+    *   Nets @ Heat: Heat Over 112.5 (@1.375) / 1X (@1.39) ➔ ✅ **HIT** (144 pts)
+    *   Suns @ Spurs: Spurs Vence V1 (@1.26) / Over 109.5 (@1.35) ➔ ✅ **HIT** (123 pts)
+    *   **Resultado do Turno 1:** ✅ **GREEN TOTAL ABSOLUTO!** Multiplicador de **@2.30 a @2.50** liquidado e colocado no bolso antes de dormir! 🎯🎯🎯
+
+*   🎟️ **DUPLA ÂNCORA BLINDADA (Stop Point 1):**
+    *   Celtics Over 108.5 (@1.33) + Heat Over 112.5 (@1.375) ➔ ✅ **GREEN TOTAL (@1.83)!** 🎯🎯
+
+
 

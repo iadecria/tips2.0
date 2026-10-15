@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
   "snapshotId": "FAS_MULTI_SPORT_2026-10-14_V1",
-  "status": "PENDING",
+  "status": "LIQUIDATED",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Todas as Melhores Opções da Champions)",
     "type": "FILE_DO_DIA",
@@ -12,22 +12,24 @@
       {
         "clusterName": "🥪 TURNO 1 — ALMOÇO (13:45 BRT)",
         "multiplier": 1.46,
-        "notes": "Liquidação rápida às 15:45. Permite reinvestir o lucro no Turno 2.",
+        "status": "HIT",
+        "notes": "GREEN TOTAL! LASK 3x6 Liverpool e Feyenoord 3x2 Como superaram com folga a linha de 1.5 gols.",
         "legs": [
-          "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
-          "Feyenoord x Como: Mais de 1.5 Gols (@1.22)"
+          "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20) ➔ ✅ HIT (3x6)",
+          "Feyenoord x Como: Mais de 1.5 Gols (@1.22) ➔ ✅ HIT (3x2)"
         ]
       },
       {
         "clusterName": "🌆 TURNO 2 — TARDE / PRINCIPAL (16:00 BRT)",
         "multiplier": 2.51,
-        "notes": "Os 5 jogos de alta convicção das 16:00 reunidos em um único bilhete.",
+        "status": "PARTIAL",
+        "notes": "4 de 5 acertos! Aston Villa 6x0, Roma 3x4 Real Madrid, City 2x4 PSG e Stuttgart 3x0 bateram lindo.",
         "legs": [
-          "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
-          "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)",
-          "Manchester City x PSG: Mais de 1.5 Gols (@1.18)",
-          "Bodø/Glimt x Borussia Dortmund: Mais de 1.5 Gols (@1.18)",
-          "Slovan Bratislava x VfB Stuttgart: Stuttgart 1+ Gol (@1.12)"
+          "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18) ➔ ✅ HIT (6x0)",
+          "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28) ➔ ✅ HIT (3x4)",
+          "Manchester City x PSG: Mais de 1.5 Gols (@1.18) ➔ ✅ HIT (2x4)",
+          "Bodø/Glimt x Borussia Dortmund: Mais de 1.5 Gols (@1.18) ➔ ❌ MISS (1x0)",
+          "Slovan Bratislava x VfB Stuttgart: Stuttgart 1+ Gol (@1.12) ➔ ✅ HIT (0x3)"
         ]
       }
     ],
@@ -37,49 +39,49 @@
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.20,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Feyenoord x Como (13:45 BRT)",
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Aston Villa ou Empate (Dupla Chance 1X)",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "AS Roma x Real Madrid (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Real Madrid ou Empate (Dupla Chance X2)",
         "odd": 1.28,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Bodø/Glimt x Borussia Dortmund (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "MISS"
       },
       {
         "match": "Slovan Bratislava x VfB Stuttgart (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "VfB Stuttgart 1+ Gol (Team Over 0.5)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -88,15 +90,16 @@
     "stake": 10.00,
     "multiplier": 1.28,
     "potentialReturn": 12.80,
-    "status": "PENDING",
-    "notes": "Novo Modelo Sniper (Menos Jogos, Máxima Assertividade, Odd > 1.25): Real Madrid ou Empate (X2 @1.28) [Stadio Olimpico]",
+    "actualReturn": 12.80,
+    "status": "HIT",
+    "notes": "GREEN MONSTRUOSO! Real Madrid virou para 4x3 contra a Roma no Stadio Olimpico com gols no final!",
     "selections": [
       {
         "match": "AS Roma x Real Madrid",
         "competition": "UEFA Champions League (16:00 BRT)",
         "market": "Real Madrid ou Empate (Dupla Chance X2)",
         "odd": 1.28,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -109,34 +112,34 @@
           "level": "STOP POINT 1 (Tripla Âncora Blindada)",
           "multiplier": 1.81,
           "legs": [
-            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
-            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
-            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)"
+            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20) ➔ ✅ HIT (3x6)",
+            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18) ➔ ✅ HIT (6x0)",
+            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28) ➔ ✅ HIT (3x4)"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "level": "STOP POINT 2 (Quádrupla Forte com Gols de City x PSG)",
           "multiplier": 2.14,
           "legs": [
-            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
-            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
-            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)",
-            "Man City x PSG: Mais de 1.5 Gols (@1.18)"
+            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20) ➔ ✅ HIT (3x6)",
+            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18) ➔ ✅ HIT (6x0)",
+            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28) ➔ ✅ HIT (3x4)",
+            "Man City x PSG: Mais de 1.5 Gols (@1.18) ➔ ✅ HIT (2x4)"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa Top 5 Champions)",
           "multiplier": 2.52,
           "legs": [
-            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20)",
-            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18)",
-            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28)",
-            "Man City x PSG: Mais de 1.5 Gols (@1.18)",
-            "Bodø/Glimt x Dortmund: Mais de 1.5 Gols (@1.18)"
+            "LASK Linz x Liverpool: Mais de 1.5 Gols (@1.20) ➔ ✅ HIT",
+            "Aston Villa x Fenerbahçe: Aston Villa ou Empate (1X @1.18) ➔ ✅ HIT",
+            "AS Roma x Real Madrid: Real Madrid ou Empate (X2 @1.28) ➔ ✅ HIT",
+            "Man City x PSG: Mais de 1.5 Gols (@1.18) ➔ ✅ HIT",
+            "Bodø/Glimt x Dortmund: Mais de 1.5 Gols (@1.18) ➔ ❌ MISS"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         }
       ]
     },
@@ -145,11 +148,11 @@
       "type": "SAFE+",
       "multiplier": 3.40,
       "legs": [
-        "Aston Villa x Fenerbahçe: Aston Villa Vence (@1.62)",
-        "Man City x PSG: Ambos Marcam - Sim (@1.48)",
-        "LASK Linz x Liverpool: Liverpool Vence + Mais de 1.5 Gols (@1.42)"
+        "Aston Villa x Fenerbahçe: Aston Villa Vence (@1.62) ➔ ✅ HIT (6x0)",
+        "Man City x PSG: Ambos Marcam - Sim (@1.48) ➔ ✅ HIT (2x4)",
+        "LASK Linz x Liverpool: Liverpool Vence + Mais de 1.5 Gols (@1.42) ➔ ✅ HIT (3x6)"
       ],
-      "status": "PENDING"
+      "status": "HIT"
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
@@ -191,9 +194,9 @@
         {
           "match": "Charlotte Hornets @ Boston Celtics",
           "competition": "NBA Preseason (20:30 BRT)",
-          "market": "Boston Celtics ➔ Acima de 111.5 Pontos",
+          "market": "Boston Celtics ➔ Acima de 111.5 Pontos (Melbet: 108.5)",
           "odd": 1.33,
-          "status": "PENDING"
+          "status": "HIT"
         }
       ]
     },
@@ -206,17 +209,19 @@
         {
           "clusterName": "🌆 TURNO 1 — PRIME TIME (20:30 - 21:10 BRT)",
           "multiplier": 2.44,
-          "notes": "Jogos da Costa Leste e Centro. Liquidação antes das 23:30.",
+          "status": "HIT",
+          "notes": "100% GREEN! Celtics 114 pts, Heat 144 pts e Spurs 123 pts liquidaram a tripla com enorme folga!",
           "legs": [
-            "Brooklyn Nets @ Miami Heat: Mais de 223.5 Pontos (@1.36)",
-            "Charlotte Hornets @ Boston Celtics: Celtics Acima de 111.5 Pontos (@1.33)",
-            "Phoenix Suns @ San Antonio Spurs: Spurs Acima de 109.5 Pontos (@1.35)"
+            "Brooklyn Nets @ Miami Heat: Heat Over 112.5 (@1.375) / Over 223.5 (@1.36) ➔ ✅ HIT (128x144 = 272 pts)",
+            "Charlotte Hornets @ Boston Celtics: Celtics Acima de 108.5/111.5 (@1.33) ➔ ✅ HIT (114 pts)",
+            "Phoenix Suns @ San Antonio Spurs: Spurs V1 (@1.26) / Acima de 109.5 (@1.35) ➔ ✅ HIT (123 pts)"
           ]
         },
         {
           "clusterName": "🌙 TURNO 2 — LATE NIGHT (23:30 BRT)",
           "multiplier": 1.82,
-          "notes": "Jogo de Los Angeles. Liquida na madrugada.",
+          "status": "PENDING",
+          "notes": "Jogo de Los Angeles. Em apuração final de súmula.",
           "legs": [
             "Denver Nuggets @ LA Clippers: Denver Nuggets +7.5 Handicap (@1.35)",
             "Denver Nuggets @ LA Clippers: Mais de 216.5 Pontos Totais (@1.35)"
@@ -227,30 +232,30 @@
         {
           "match": "Brooklyn Nets @ Miami Heat (20:30 BRT)",
           "cluster": "Turno 1",
-          "market": "Mais de 223.5 Pontos Totais",
+          "market": "Mais de 223.5 Pontos Totais (ou Heat Over 112.5)",
           "odd": 1.36,
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "match": "Charlotte Hornets @ Boston Celtics (20:30 BRT)",
           "cluster": "Turno 1",
-          "market": "Boston Celtics Acima de 111.5 Pontos",
+          "market": "Boston Celtics Acima de 111.5 Pontos (Melbet: 108.5)",
           "odd": 1.33,
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "match": "Phoenix Suns @ San Antonio Spurs (21:10 BRT)",
           "cluster": "Turno 1",
-          "market": "San Antonio Spurs Acima de 109.5 Pontos",
+          "market": "San Antonio Spurs Acima de 109.5 Pontos (ou V1)",
           "odd": 1.35,
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "match": "Chicago Bulls @ Milwaukee Bucks (21:00 BRT)",
           "cluster": "Turno 1",
-          "market": "Milwaukee Bucks Acima de 110.5 Pontos",
+          "market": "VETADO PRE-MATCH (Risco de Poupança Titular)",
           "odd": 1.32,
-          "status": "PENDING"
+          "status": "VOID"
         },
         {
           "match": "Denver Nuggets @ LA Clippers (23:30 BRT)",
@@ -270,10 +275,10 @@
             "level": "STOP POINT 1 (Dupla Âncora Pontos do Time)",
             "multiplier": 1.81,
             "legs": [
-              "Hornets @ Celtics: Celtics Acima de 111.5 Pontos (@1.33)",
-              "Nets @ Heat: Mais de 223.5 Pontos (@1.36)"
+              "Hornets @ Celtics: Celtics Acima de 108.5/111.5 Pontos (@1.33) ➔ ✅ HIT",
+              "Nets @ Heat: Heat Acima de 112.5 / Total Over 223.5 (@1.36) ➔ ✅ HIT"
             ],
-            "status": "PENDING"
+            "status": "HIT"
           },
           {
             "level": "STOP POINT 2 (Tripla Blindada NBA)",

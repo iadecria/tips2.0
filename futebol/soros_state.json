@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 74.34,
-  "currentDay": 4,
+  "currentStake": 12.80,
+  "currentDay": 2,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -55,7 +55,19 @@
       "selection": "Arsenal x Lille (Arsenal Vence / ML @1.21) + Inter Milan x Club Brugge (Inter Vence / ML @1.26) + Galatasaray x Barcelona (Barcelona Vence / ML @1.27) + Viking x Bayern Munich (Bayern Vence / ML @1.09)",
       "odd": 2.11,
       "potentialReturn": 156.86,
-      "status": "PENDING"
+      "status": "MISS",
+      "missReason": "Zebra europeia: derrota da Inter de Milão em pleno San Siro para o Club Brugge por 3x4"
+    },
+    {
+      "day": 1,
+      "date": "2026-10-14",
+      "stakeIn": 10.00,
+      "selection": "AS Roma x Real Madrid (Real Madrid ou Empate / X2 @1.28)",
+      "odd": 1.28,
+      "potentialReturn": 12.80,
+      "status": "HIT",
+      "actualReturn": 12.80
     }
   ]
 }
+

@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 12.80,
-  "currentDay": 2,
+  "currentStake": 17.02,
+  "currentDay": 3,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -67,6 +67,16 @@
       "potentialReturn": 12.80,
       "status": "HIT",
       "actualReturn": 12.80
+    },
+    {
+      "day": 2,
+      "date": "2026-10-15",
+      "stakeIn": 12.80,
+      "selection": "Lech Poznań x Bayer Leverkusen (Bayer Leverkusen Vence / ML @1.33)",
+      "odd": 1.33,
+      "potentialReturn": 17.02,
+      "status": "HIT",
+      "actualReturn": 17.02
     }
   ]
 }

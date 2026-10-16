@@ -1217,6 +1217,113 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
     *   **Resultado:** ✅ **GREEN TOTAL (3x4 Real Madrid)!**
     *   **Retorno:** R$ 12,80. Avança para o **DIA 2 DE 30** com **R$ 12,80**!
 
+---
+
+### [2026-10-15] — RODADA DIÁRIA (UEFA EUROPA LEAGUE & COPA LIBERTADORES)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-15_V1`
+- **Data do Registro:** 2026-10-15
+- **Cutoff:** 2026-10-15T13:45:00-03:00
+- **Contexto da Data:** Super quinta-feira com 2ª rodada da Fase de Liga da UEFA Europa League e jogo de ida da Semifinal da Copa Libertadores da América em La Plata (Estudiantes x Flamengo).
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (GREEN MONSTRO NO SUPREMO @5.43, SAFE 5/5, SAFE+ E SOROS DIA 2)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 9 fixtures (8 Europa/Libertadores + 1 Saudi Pro League)
+- Jogos Adiados: 1 (Al Ahli x Al Nassr foi adiado por motivos de espaço aéreo regional e remarcado para março de 2027 ➔ Status VOID @1.00)
+
+#### 2. Grade de Fixtures, Resultados e Liquidação
+
+1. **Lech Poznań 0 × 4 Bayer Leverkusen** (Poznań Stadium - 13:45 BRT)
+   - *Resultado Oficial:* 0 x 4 (Total: 4 gols)
+   - **SAFE (Sniper Soros):** Bayer Leverkusen Vence (@1.33) ➔ ✅ **HIT** (Goleada 0x4)
+   - **SAFE+:** Bayer Leverkusen -1.0 Handicap (@1.52) ➔ ✅ **HIT** (Vitória por 4 gols)
+   - **ATTACK:** Bayer Leverkusen Vence + Mais de 2.5 Gols (@1.85) ➔ ✅ **HIT** (0x4)
+   - **APOSENTAR O NETO:** Leverkusen -1.5 AH (@1.85) ➔ ✅ **HIT** (0x4)
+
+2. **RB Salzburg 0 × 4 AC Milan** (Red Bull Arena - 13:45 BRT)
+   - *Resultado Oficial:* 0 x 4 (Total: 4 gols)
+   - **SAFE:** Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (4 gols >= 1.5)
+   - **APOSENTAR O NETO:** Milan Vence + Ambos Marcam (@3.30) ➔ ❌ **MISS** (Milan venceu 0x4; Salzburg zerou)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Milan foi cirúrgico com hat-trick de Cissè e anulou completamente as chegadas do Salzburg).
+
+3. **AZ Alkmaar 2 × 1 Hapoel Be'er Sheva** (AFAS Stadion - 13:45 BRT)
+   - *Resultado Oficial:* 2 x 1 (Total: 3 gols)
+   - **SAFE:** AZ Alkmaar Vence (@1.28) ➔ ✅ **HIT** (2x1 com gol da vitória aos 77')
+
+4. **Benfica 4 × 1 Celtic** (Estádio da Luz - 16:00 BRT)
+   - *Resultado Oficial:* 4 x 1 (Total: 5 gols)
+   - **SAFE:** Benfica Vence (@1.36) ➔ ✅ **HIT** (Goleada 4x1)
+   - **SAFE+:** Benfica Vence + Mais de 1.5 Gols (@1.60) ➔ ✅ **HIT** (4x1)
+   - **ATTACK:** Benfica Vence + Ambos Marcam (@3.10) ➔ ✅ **HIT** (4x1 cravado!)
+   - **APOSENTAR O NETO:** Benfica Vence + Mais de 2.5 Gols (@2.05) ➔ ✅ **HIT** (4x1)
+
+5. **Celta de Vigo 1 × 2 Juventus** (Balaídos - 16:00 BRT)
+   - *Resultado Oficial:* 1 x 2 (Total: 3 gols)
+   - **SAFE:** Juventus ou Empate (Dupla Chance X2 @1.26) ➔ ✅ **HIT** (Virada da Juve 1x2 nos acréscimos aos 91' com Kolo Muani!)
+   - **APOSENTAR O NETO:** Juventus Vence (@2.15) ➔ ✅ **HIT** (1x2 cravado!)
+
+6. **Bournemouth 3 × 0 Sturm Graz** (Vitality Stadium - 16:00 BRT)
+   - *Resultado Oficial:* 3 x 0 (Total: 3 gols)
+   - **SAFE:** Bournemouth Vence (@1.35) ➔ ✅ **HIT** (3x0)
+   - **APOSENTAR O NETO:** Bournemouth -1.5 AH (@1.95) ➔ ✅ **HIT** (Vitória por 3 gols)
+
+7. **Hoffenheim 2 × 3 Beşiktaş** (PreZero Arena - 16:00 BRT)
+   - *Resultado Oficial:* 2 x 3 (Total: 5 gols)
+   - **SAFE:** Mais de 1.5 Gols no Jogo (@1.18) ➔ ✅ **HIT** (Chuva de 5 gols)
+
+8. **Al Ahli x Al Nassr** (King Abdullah Sports City)
+   - *Status Oficial:* **ADIADO** por motivos de segurança e espaço aéreo na região.
+   - **Liquidação:** ⚪ **VOID / ANULADO (@1.00)**
+
+9. **Estudiantes 0 × 0 Flamengo** (Estádio UNO - La Plata - 21:30 BRT)
+   - *Resultado Oficial:* 0 x 0 (Total: 0 gols)
+   - **SAFE (Bilhete Supremo):** Flamengo ou Empate (Dupla Chance X2 @1.30) ➔ ✅ **HIT** (0x0 garante X2)
+   - **SAFE (Bilhete Supremo):** Menos de 3.5 Gols (@1.22) ➔ ✅ **HIT** (0 gols <= 3.5)
+   - **ATTACK:** Flamengo Vence (@2.25) ➔ ❌ **MISS** (0x0)
+     - *Miss Audit:* `STATISTICAL_VARIANCE / MISSING_CONTEXT` (Estudiantes exerceu forte pressão e o Flamengo priorizou solidez defensiva, sem finalizar a gol, assegurando empate de ida).
+   - **APOSENTAR O NETO:** Flamengo Vence + Menos de 3.5 Gols (@2.70) ➔ ❌ **MISS** (0x0)
+
+#### 3. Auditoria dos Bilhetes / Múltiplas Combinadas
+
+*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@5.43):**
+    *   🥪 **Turno 1 — Almoço (13:45 BRT) (@2.04):**
+        *   Lech Poznań x Leverkusen: Leverkusen Vence ➔ ✅ HIT (0x4)
+        *   Salzburg x Milan: Over 1.5 Gols ➔ ✅ HIT (0x4)
+        *   AZ Alkmaar x Hapoel: AZ Alkmaar Vence ➔ ✅ HIT (2x1)
+        *   *Resultado:* ✅ **GREEN TOTAL (@2.04)!**
+    *   🌆 **Turno 2 — Tarde / Principal (16:00 BRT) (@2.73):**
+        *   Benfica x Celtic: Benfica Vence ➔ ✅ HIT (4x1)
+        *   Celta x Juventus: Juventus ou Empate (X2) ➔ ✅ HIT (1x2)
+        *   Bournemouth x Sturm Graz: Bournemouth Vence ➔ ✅ HIT (3x0)
+        *   Hoffenheim x Beşiktaş: Over 1.5 Gols ➔ ✅ HIT (2x3)
+        *   *Resultado:* ✅ **GREEN TOTAL HISTÓRICO (@2.73)!**
+    *   🌙 **Turno 3 — Noite / Libertadores (21:30 BRT) (@1.58):**
+        *   Estudiantes x Flamengo: Flamengo ou Empate (X2) ➔ ✅ HIT (0x0)
+        *   Estudiantes x Flamengo: Menos de 3.5 Gols ➔ ✅ HIT (0x0)
+        *   *Resultado:* ✅ **GREEN TOTAL (@1.58)!**
+    *   🏆 **RESULTADO GLOBAL DO BILHETE SUPREMO (@5.43):**
+        *   **9 DE 9 SELEÇÕES ACERTADAS (100% GREEN ABSOLUTO)!** 🎯🎯🎯
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Formato Modular com Stop Points):**
+    *   🟢 **STOP POINT 1 ➔ TRIPLA ÂNCORA BLINDADA (@1.88):** ✅ **GREEN TOTAL (3/3)!**
+    *   🟡 **STOP POINT 2 ➔ QUÁDRUPLA FORTE (@2.55):** ✅ **GREEN TOTAL (4/4)!**
+    *   🔴 **STOP POINT 3 ➔ MÚLTIPLA COMPLETA (@3.21):** ✅ **GREEN TOTAL HISTÓRICO (5/5)!** 🎯🎯🎯
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@3.65 nominal / @2.43 recalculado):**
+    *   Benfica Vence + Over 1.5 (@1.60) ✅ HIT + Leverkusen -1.0 AH (@1.52) ✅ HIT + Al Ahli x Al Nassr BTTS (@1.50) ⚪ VOID
+    *   **Resultado:** ✅ **GREEN TOTAL RECALCULADO (@2.43)!** 🎯
+
+*   🎫 **MÚLTIPLA 3 — ATTACK (@12.90):**
+    *   Leverkusen Vence & Over 2.5 (✅) + Benfica Vence & BTTS (@3.10 ✅) + Flamengo Vence (❌ 0x0).
+    *   **Resultado:** ❌ **RED** (2 acertos pesados, derrubada pelo 0x0 na Argentina).
+
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 2 (SNIPER):**
+    *   **Entrada:** R$ 12,80
+    *   **Seleção:** Lech Poznań × Bayer Leverkusen ➔ Bayer Leverkusen Vence (@1.33)
+    *   **Resultado:** ✅ **GREEN TOTAL (0x4 Leverkusen)!**
+    *   **Retorno:** R$ 17,02. Avança consagrado para o **DIA 3 DE 30** com **R$ 17,02**!
+
+
 
 
 

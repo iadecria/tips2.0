@@ -1,27 +1,42 @@
 {
-  "updatedAt": "2026-10-15T02:00:00-03:00",
+  "updatedAt": "2026-10-16T01:15:00-03:00",
   "kpis": {
-    "totalRounds": 5,
-    "totalTickets": 28,
-    "greenTickets": 22,
-    "redTickets": 6,
-    "winRateGlobal": "78.6%",
-    "safeWinRate": "88.9%",
-    "safePlusWinRate": "66.7%",
-    "sorosCurrentDay": 2,
-    "sorosCurrentStake": 12.80,
-    "sorosBasketballDay": 2,
-    "sorosBasketballStake": 13.30,
-    "profitFactor": 3.42
+    "totalRounds": 6,
+    "totalTickets": 38,
+    "greenTickets": 30,
+    "redTickets": 8,
+    "winRateGlobal": "78.9%",
+    "safeWinRate": "90.0%",
+    "safePlusWinRate": "71.4%",
+    "sorosCurrentDay": 3,
+    "sorosCurrentStake": 17.02,
+    "sorosBasketballDay": 3,
+    "sorosBasketballStake": 17.69,
+    "profitFactor": 3.85
   },
   "chartData": [
     { "date": "11/10", "banca": 37.17, "lucro": 18.77, "winRate": 100 },
     { "date": "12/10", "banca": 74.34, "lucro": 37.17, "winRate": 100 },
     { "date": "13/10", "banca": 10.00, "lucro": -74.34, "winRate": 50 },
     { "date": "14/10", "banca": 36.10, "lucro": 26.10, "winRate": 90 },
-    { "date": "15/10", "banca": 48.90, "lucro": 12.80, "winRate": 85 }
+    { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 }
   ],
   "history": [
+    {
+      "date": "2026-10-15",
+      "sport": "Multi-Sport (Europa League, Libertadores & EuroLeague)",
+      "totalTickets": 10,
+      "greens": 8,
+      "reds": 2,
+      "highlights": [
+        "Bilhete Supremo Futebol 9/9 GREEN HISTÓRICO TOTAL (@5.43)",
+        "Soros Futebol Dia 2 GREEN (@1.33 ➔ R$ 17,02)",
+        "Soros Basquete Dia 2 GREEN (@1.33 ➔ R$ 17,69)",
+        "Múltipla 1 SAFE Futebol 5/5 GREEN TOTAL (@3.21)",
+        "Múltipla 2 SAFE+ Futebol GREEN RECALCULADO (@2.43)",
+        "Turno 1 EuroLeague Basquete 3/3 GREEN (@2.20)"
+      ]
+    },
     {
       "date": "2026-10-14",
       "sport": "Multi-Sport (Champions & NBA)",

@@ -439,5 +439,70 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
 *   🎟️ **DUPLA ÂNCORA BLINDADA (Stop Point 1):**
     *   Celtics Over 108.5 (@1.33) + Heat Over 112.5 (@1.375) ➔ ✅ **GREEN TOTAL (@1.83)!** 🎯🎯
 
+---
+
+### [2026-10-15] — RODADA DIÁRIA (EUROLEAGUE & NBA PRESEASON)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-15_V1`
+- **Data do Registro:** 2026-10-15
+- **Cutoff:** 2026-10-15T14:45:00-03:00
+- **Contexto da Data:** Rodada com EuroLeague de alto nível (Real Madrid, Fenerbahçe, Valencia) e sequência da NBA Preseason (Knicks, Pistons, Mavericks).
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (100% GREEN NA EUROLEAGUE & SOROS BASQUETE DIA 2 GREEN)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 6 fixtures (3 EuroLeague + 3 NBA Preseason)
+- Elegíveis: 6
+
+#### 2. Grade de Fixtures, Resultados e Liquidação
+
+1. **Real Madrid 111 × 92 LDLC ASVEL** (WiZink Center - 15:45 BRT)
+   - *Resultado Oficial:* 111 × 92 (Total: 203 pontos | Real Madrid: 111 pontos)
+   - **SAFE (Original Team Total):** Real Madrid Acima de 84.5 Pontos (@1.32) ➔ ✅ **HIT** (Real marcou 111 com 26.5 pts de folga!)
+   - **SAFE+:** Real Madrid -10.5 Handicap (@1.78) ➔ ✅ **HIT** (Venceu por 19 pontos: 111 - 92 = 19 > 10.5)
+   - **ATTACK:** Real Madrid Acima de 92.5 Pontos (@1.66) ➔ ✅ **HIT** (111 pontos!)
+
+2. **Fenerbahçe 74 × 65 Partizan Belgrade** (Ülker Sports Arena - 14:45 BRT)
+   - *Resultado Oficial:* 74 × 65 (Margem: Fenerbahçe +9 | Recorde de 14 tocos)
+   - **SAFE:** Fenerbahçe Vence - Moneyline (@1.28) ➔ ✅ **HIT** (74x65)
+
+3. **Valencia Basket 88 × 91 Maccabi Tel Aviv** (Roig Arena - 15:30 BRT)
+   - *Resultado Oficial:* 88 × 91 (Margem: Maccabi +3)
+   - **SAFE (Spread Positivo Protegido):** Valencia Basket +5.5 Handicap (@1.30) ➔ ✅ **HIT** (88 + 5.5 = 93.5 > 91)
+
+4. **Toronto Raptors 120 @ 122 New York Knicks** (Madison Square Garden - 20:30 BRT)
+   - *Resultado Oficial:* 120 × 122 (Total: 242 pontos | Knicks: 122 pontos)
+   - **SAFE (Sniper Soros Basquete):** New York Knicks Acima de 109.5 Pontos (@1.33) ➔ ✅ **HIT** (122 pontos!)
+   - **SAFE+:** New York Knicks -6.5 Handicap (@1.82) ➔ ❌ **MISS** (Knicks venceu por apenas 2 pontos: 122 - 120 = 2 < 6.5)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Raptors reagiu no 4º quarto com 41 pontos contra os reservas dos Knicks).
+   - **ATTACK:** Knicks Vence + Mais de 220.5 Pontos (@2.60) ➔ ✅ **HIT** (122x120 e 242 pts totais!)
+
+5. **Minnesota Timberwolves 106 @ 128 Detroit Pistons** (Target Center - 20:00 BRT)
+   - *Resultado Oficial:* 106 × 128 (Margem: Pistons +22)
+   - **SAFE:** Minnesota Timberwolves +6.5 Handicap (@1.35) ➔ ❌ **MISS** (Pistons dominaram amplamente com 128x106)
+     - *Miss Audit:* `MISSING_CONTEXT / LINEUP_CHANGE` (Wolves rodou banca profunda e Pistons jogaram em ritmo elevado de transição).
+
+6. **New Orleans Pelicans 101 @ 97 Dallas Mavericks** (American Airlines Center - 21:30 BRT)
+   - *Resultado Oficial:* 101 × 97 (Mavericks: 97 pontos)
+   - **SAFE:** Dallas Mavericks Acima de 108.5 Pontos (@1.35) ➔ ❌ **MISS** (Mavericks travou em 97 pontos)
+     - *Miss Audit:* `LINEUP_CHANGE` (Dallas poupou Kyrie Irving e Cooper Flagg; rotação mista sofreu no aproveitamento de perímetro).
+   - **ATTACK:** Mavericks Vence + Mais de 218.5 Pontos (@2.45) ➔ ❌ **MISS** (Pelicans 101x97)
+
+#### 3. Auditoria dos Bilhetes de Basquete
+
+*   🥪 **TURNO 1 — TARDE / EUROLEAGUE (@2.20):**
+    *   Real Madrid Over 84.5 (@1.32) + Fener ML (@1.28) + Valencia +5.5 (@1.30)
+    *   **Resultado:** ✅ **GREEN TOTAL HISTÓRICO NA EUROLEAGUE (3/3 @2.20)!** 🎯🎯🎯
+
+*   🎟️ **DUPLA ÂNCORA TEAM TOTAL (Stop Point 1 @1.76):**
+    *   Real Madrid Over 84.5 (@1.32) + Knicks Over 109.5 (@1.33)
+    *   **Resultado:** ✅ **GREEN TOTAL (@1.76)!** 🎯🎯
+
+*   🔥 **DESAFIO SOROS BASQUETE — DIA 2 (SNIPER):**
+    *   **Entrada:** R$ 13,30
+    *   **Seleção:** Raptors @ Knicks ➔ New York Knicks Acima de 109.5 Pontos (@1.33)
+    *   **Resultado:** ✅ **GREEN TOTAL (Knicks 122 pts)!**
+    *   **Retorno:** R$ 17,69. Avança consagrado para o **DIA 3 DE 30** com **R$ 17,69**!
+
+
 
 

@@ -24,14 +24,21 @@ Vamos refinar e elevar o dashboard para o padrão executivo final, integrando a 
 ---
 
 ### 2. ⚡ SINCRONIZAÇÃO DE DADOS & PERSISTÊNCIA (ZERO COMPLEXIDADE)
-Implemente a camada de dados no `localStorage` com duas vias de atualização:
-1. **Botão 'Sincronizar GitHub' (1 Clique no Header):**
-   - Faz um `fetch()` direto do repositório público raw:
-     `https://raw.githubusercontent.com/iadecria/tips/main/futebol/bilhetes_ativos.json`
-   - Atualiza o estado do dashboard instantaneamente sem precisar recarregar a página.
-   - Mostra toast notification de sucesso: "Dados sincronizados com o repositório oficial!".
-2. **Modal 'Importar / Editar JSON':**
-   - Modal acessível pelo ícone de engrenagem/código no header onde o usuário pode visualizar, colar ou editar manualmente o JSON do dia e salvar no `localStorage`.
+Implemente a camada de dados no `localStorage` com sincronização automática e manual:
+1. **Sincronização em 2 Vias (Automática no Load + Botão Manual no Header):**
+   - Ao carregar a página e ao clicar em **"Sincronizar GitHub"**, dispara um `Promise.all` buscando os dois feeds públicos oficiais do repositório `iadecria/bilhete`:
+     - **Bilhetes Ativos do Dia:**  
+       `https://raw.githubusercontent.com/iadecria/bilhete/main/futebol/bilhetes_ativos.json`
+     - **Relatório de Performance & Histórico:**  
+       `https://raw.githubusercontent.com/iadecria/bilhete/main/historico/relatorio_performance.json`
+   - **Regra Crítica de Cache-Busting:** Sempre adicione um parâmetro dinâmico para evitar o cache de 5 minutos do raw do GitHub:
+     `url + "?t=" + Date.now()` com `{ cache: 'no-store' }`.
+   - Atualiza o estado do dashboard (bilhetes, KPIs, gráficos de banca e histórico) instantaneamente.
+   - Mostra toast notification e status visual: "Sincronizado via GitHub (iadecria/bilhete)".
+2. **Fallback e Persistência Local:**
+   - Salva a última cópia válida no `localStorage` para carregamento instantâneo offline (estratégia *Stale-While-Revalidate*).
+3. **Modal 'Importar / Editar JSON':**
+   - Modal acessível pelo ícone de engrenagem/código no header onde o usuário pode visualizar, colar ou editar manualmente os JSONs e salvar localmente.
 
 ---
 

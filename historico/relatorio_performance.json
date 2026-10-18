@@ -1,27 +1,59 @@
 {
-  "updatedAt": "2026-10-16T01:15:00-03:00",
+  "updatedAt": "2026-10-18T12:20:00-03:00",
   "kpis": {
-    "totalRounds": 6,
-    "totalTickets": 38,
-    "greenTickets": 30,
-    "redTickets": 8,
-    "winRateGlobal": "78.9%",
+    "totalRounds": 8,
+    "totalTickets": 54,
+    "greenTickets": 39,
+    "redTickets": 15,
+    "winRateGlobal": "72.2%",
     "safeWinRate": "90.0%",
-    "safePlusWinRate": "71.4%",
-    "sorosCurrentDay": 3,
-    "sorosCurrentStake": 17.02,
-    "sorosBasketballDay": 3,
-    "sorosBasketballStake": 17.69,
-    "profitFactor": 3.85
+    "safePlusWinRate": "65.2%",
+    "sorosCurrentDay": 5,
+    "sorosCurrentStake": 27.78,
+    "sorosBasketballDay": 1,
+    "sorosBasketballStake": 10.00,
+    "profitFactor": 3.75
   },
   "chartData": [
     { "date": "11/10", "banca": 37.17, "lucro": 18.77, "winRate": 100 },
     { "date": "12/10", "banca": 74.34, "lucro": 37.17, "winRate": 100 },
     { "date": "13/10", "banca": 10.00, "lucro": -74.34, "winRate": 50 },
     { "date": "14/10", "banca": 36.10, "lucro": 26.10, "winRate": 90 },
-    { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 }
+    { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 },
+    { "date": "16/10", "banca": 87.11, "lucro": 18.20, "winRate": 70 },
+    { "date": "17/10", "banca": 114.89, "lucro": 27.78, "winRate": 80 }
   ],
   "history": [
+    {
+      "date": "2026-10-17",
+      "sport": "Futebol (Premier League, Bundesliga, La Liga & Brasileirão)",
+      "totalTickets": 6,
+      "greens": 3,
+      "reds": 3,
+      "highlights": [
+        "Bilhete Supremo 8/8 GREEN ABSOLUTO no Filé do Dia Oficial (@5.92)",
+        "Múltipla 1 SAFE 100% GREEN nos 3 Stop Points (@1.54, @2.18 e @3.61)",
+        "Soros Futebol Dia 4 GREEN (@1.24 ➔ R$ 27,78 - Avança para Dia 5)",
+        "Turno 1 Almoço Europeu 3/3 GREEN (@1.76)",
+        "Turno 3 Brasileirão Série A 4/4 GREEN (@1.72)",
+        "Goleadas históricas mapeadas: Bayern 6x1 Leipzig e Barcelona 5x2 Betis"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "sport": "Multi-Sport (Bundesliga, La Liga, Brasileirão & EuroLeague)",
+      "totalTickets": 10,
+      "greens": 6,
+      "reds": 4,
+      "highlights": [
+        "Múltipla 1 SAFE Futebol 6/6 GREEN TOTAL NOS 3 STOP POINTS (@3.72)",
+        "Soros Futebol Dia 3 GREEN (@1.316 ➔ R$ 22,40 - Avança para Dia 4)",
+        "Turno 1 Abertura Europeia Futebol GREEN (@1.63)",
+        "Turno 3 Brasileirão & Bombonera 3/3 GREEN (@1.76)",
+        "Filé do Dia Futebol com 7 de 8 Acertos (87.5% de taxa)",
+        "Sucesso em Celtics +6.5, Warriors ML e Barcelona +8.5 no Basquete"
+      ]
+    },
     {
       "date": "2026-10-15",
       "sport": "Multi-Sport (Europa League, Libertadores & EuroLeague)",

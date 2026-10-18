@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 17.02,
-  "currentDay": 3,
+  "currentStake": 27.78,
+  "currentDay": 5,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -77,6 +77,26 @@
       "potentialReturn": 17.02,
       "status": "HIT",
       "actualReturn": 17.02
+    },
+    {
+      "day": 3,
+      "date": "2026-10-16",
+      "stakeIn": 17.02,
+      "selection": "Eintracht Frankfurt x 1. Koln (Hipótese Dupla 1X @1.316)",
+      "odd": 1.316,
+      "potentialReturn": 22.40,
+      "status": "HIT",
+      "actualReturn": 22.40
+    },
+    {
+      "day": 4,
+      "date": "2026-10-17",
+      "stakeIn": 22.40,
+      "selection": "Manchester City x Ipswich Town (Manchester City Vence / ML @1.24)",
+      "odd": 1.24,
+      "potentialReturn": 27.78,
+      "status": "HIT",
+      "actualReturn": 27.78
     }
   ]
 }

@@ -503,6 +503,71 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
     *   **Resultado:** ✅ **GREEN TOTAL (Knicks 122 pts)!**
     *   **Retorno:** R$ 17,69. Avança consagrado para o **DIA 3 DE 30** com **R$ 17,69**!
 
+---
+
+### [2026-10-16] — RODADA DIÁRIA (EUROLEAGUE & NBA PRESEASON)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-16_V4_MELBET_AUDITED`
+- **Data do Registro:** 2026-10-16
+- **Cutoff:** 2026-10-16T14:00:00-03:00
+- **Contexto da Data:** Super rodada da EuroLeague com Zalgiris, Panathinaikos e Barcelona, combinada com a noite de encerramento da pré-temporada da NBA (Celtics, Warriors e Lakers).
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (ZEBRAS PESADAS NA EUROLEAGUE DERRUBAM O SOROS NO DIA 3; SUCESSO EM CELTICS +6.5, WARRIORS ML E BARCELONA +8.5)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 6 fixtures (3 EuroLeague + 3 NBA Preseason)
+- Elegíveis: 6
+
+#### 2. Grade de Fixtures, Resultados e Liquidação
+
+1. **Zalgiris Kaunas 70 × 85 Anadolu Efes** (Žalgirio Arena - 14:00 BRT)
+   - *Resultado Oficial:* 70 × 85 (Margem: Anadolu Efes +15)
+   - **SAFE:** Vitórias da equipa: V1 (@1.37) ➔ ❌ **MISS** (Zalgiris sofreu apagão ofensivo no 2º tempo)
+     - *Miss Audit:* `STATISTICAL_VARIANCE / BAD_SELECTION` (Efes foi cirúrgico no perímetro e neutralizou o garrafão do Zalgiris).
+
+2. **Panathinaikos 81 × 91 Hapoel Tel Aviv** (Telekom Center Athens - 15:15 BRT)
+   - *Resultado Oficial:* 81 × 91 (Margem: Hapoel Tel Aviv +10)
+   - **SAFE (Sniper Soros Basquete Dia 3):** Vitórias da equipa: V1 (@1.25) ➔ ❌ **MISS** (Zebra maiúscula na Grécia)
+     - *Miss Audit:* `OVERCONFIDENCE / STATISTICAL_VARIANCE` (Panathinaikos com baixo aproveitamento nos lances livres e turnover rate elevado; Hapoel pontuou 91 em Atenas).
+
+3. **FC Barcelona 100 × 105 Olympiacos** (Palau Blaugrana - 15:30 BRT)
+   - *Resultado Oficial:* 100 × 105 (Margem: Olympiacos +5)
+   - **SAFE (Spread Positivo Protegido):** Barcelona +8.5 Handicap (@1.44) ➔ ✅ **HIT** (100 + 8.5 = 108.5 > 105, margem coberta com folga)
+
+4. **Boston Celtics 125 @ 120 Philadelphia 76ers** (Xfinity Mobile Arena - 20:00 BRT)
+   - *Resultado Oficial:* 125 × 120 (Margem: Celtics +5)
+   - **SAFE:** Boston Celtics +6.5 Handicap (@1.35) ➔ ✅ **HIT** (Celtics venceu direto fora de casa!)
+
+5. **Portland Trail Blazers 118 @ 128 Golden State Warriors** (Chase Center - 23:00 BRT)
+   - *Resultado Oficial:* 118 × 128 (Margem: Warriors +10)
+   - **SAFE:** Golden State Warriors Vence - V1 (@1.30) ➔ ✅ **HIT** (Curry e cia fecharam em 128x118)
+
+6. **Denver Nuggets 121 @ 106 Los Angeles Lakers** (Crypto.com Arena - 23:00 BRT)
+   - *Resultado Oficial:* 121 × 106 (Lakers: 106 pontos)
+   - **SAFE (Team Total):** Lakers Acima de 107.5 Pontos (@1.34) ➔ ❌ **MISS** (Lakers travou em 106 pontos; faltou 1.5 pt)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (A apenas uma posse de bola de bater o over estipulado).
+
+#### 3. Auditoria dos Bilhetes de Basquete
+
+*   ⭐ **BILHETE SUPREMO BASQUETE (@5.78):**
+    *   🥪 **Turno 1 — Tripla de Ouro EuroLeague (@2.46):**
+        *   Zalgiris V1 (❌) + Panathinaikos V1 (❌) + Barcelona +8.5 (✅)
+        *   *Resultado:* ❌ **RED** (1 de 3 acertos).
+    *   🌆 **Turno 2 — Noite / NBA Preseason Finale (@2.35):**
+        *   Celtics +6.5 (✅) + Warriors V1 (✅) + Lakers Over 107.5 (❌ 106 pts)
+        *   *Resultado:* ❌ **RED** (2 de 3 acertos).
+
+*   🎫 **MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial Melbet):**
+    *   Stop Point 1 (@1.71): Zalgiris V1 (❌) + Panathinaikos V1 (❌) ➔ ❌ RED
+    *   Stop Point 2 (@2.46): Zalgiris V1 (❌) + Panathinaikos V1 (❌) + Barça +8.5 (✅) ➔ ❌ RED
+    *   Stop Point 3 (@3.32): Zalgiris (❌) + Pana (❌) + Barça +8.5 (✅) + Warriors (✅) ➔ ❌ RED
+
+*   🔥 **DESAFIO SOROS BASQUETE — DIA 3 (SNIPER):**
+    *   **Entrada:** R$ 17,69
+    *   **Seleção:** Panathinaikos vs Hapoel Tel Aviv ➔ Panathinaikos V1 (@1.25)
+    *   **Resultado:** ❌ **MISS** (Panathinaikos 81x91 Hapoel).
+    *   **Conclusão do Ciclo:** O desafio do basquete sofreu stop no Dia 3. O ciclo é reiniciado no Dia 1 com stake base padrão de R$ 10,00 na próxima rodada oficial da NBA / EuroLeague.
+
+
 
 
 

@@ -53,6 +53,20 @@
     "potentialReturn": 13.50,
     "status": "PENDING",
     "notes": "Desafio Soros Basquete — Reinício Ciclo 2 no Dia 1 de 30 com stake base de R$ 10,00 na Abertura Oficial da NBA.",
+    "sniperOptions": [
+      {
+        "id": "sniper-b1",
+        "match": "Boston Celtics @ New York Knicks",
+        "competition": "NBA Regular Season",
+        "market": "Boston Celtics +6.5 Spread Protegido",
+        "odd": 1.35,
+        "stake": 10.00,
+        "potentialReturn": 13.50,
+        "status": "PENDING",
+        "isPrimary": true,
+        "analysis": "Margem elástica positiva com forte cobertura defensiva dos Celtics na estreia da temporada."
+      }
+    ],
     "selections": [
       {
         "match": "Boston Celtics @ New York Knicks",

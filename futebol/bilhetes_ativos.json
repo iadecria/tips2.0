@@ -107,7 +107,20 @@
     "multiplier": 1.26,
     "potentialReturn": 35.00,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 5 de 30 (Melbet/Pinnacle Oficial): Real Madrid Vence (ML @1.26) [Santiago Bernabéu]. 100% de aproveitamento em casa na temporada, volta da base titular completa com Mbappé, Bellingham, Valverde e Güler contra Sevilla fragilizado defensivamente e em jejum de 15 anos no Bernabéu.",
+    "sniperOptions": [
+      {
+        "id": "sniper-1",
+        "match": "Real Madrid x Sevilla",
+        "competition": "La Liga (16:00 BRT)",
+        "market": "Real Madrid Vence (1)",
+        "odd": 1.26,
+        "stake": 27.78,
+        "potentialReturn": 35.00,
+        "status": "PENDING",
+        "isPrimary": true,
+        "analysis": "100% de aproveitamento em casa na temporada, volta da base titular completa com Mbappé, Bellingham, Valverde e Güler contra Sevilla fragilizado defensivamente."
+      }
+    ],
     "selections": [
       {
         "match": "Real Madrid x Sevilla",

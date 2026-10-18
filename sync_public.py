@@ -32,29 +32,50 @@ def sync():
             print(f"❌ Erro ao clonar: {err}")
             sys.exit(1)
             
-    # Atualiza o repositório público (git pull) se já tiver commits
-    run_cmd("git pull origin main", cwd=PUBLIC_REPO_DIR)
+    # Atualiza o repositório público (git pull) preservando commits remotos
+    run_cmd("git pull --rebase origin main", cwd=PUBLIC_REPO_DIR)
     
     # 2. Cria pastas necessárias no repo público
     os.makedirs(os.path.join(PUBLIC_REPO_DIR, "data"), exist_ok=True)
     os.makedirs(os.path.join(PUBLIC_REPO_DIR, "futebol"), exist_ok=True)
+    os.makedirs(os.path.join(PUBLIC_REPO_DIR, "basquete"), exist_ok=True)
     os.makedirs(os.path.join(PUBLIC_REPO_DIR, "historico"), exist_ok=True)
     
-    # 3. Copia bilhetes ativos
+    # Suporte a Next.js public folder se existir
+    pub_dir = os.path.join(PUBLIC_REPO_DIR, "public")
+    if os.path.exists(pub_dir):
+        os.makedirs(os.path.join(pub_dir, "futebol"), exist_ok=True)
+        os.makedirs(os.path.join(pub_dir, "basquete"), exist_ok=True)
+        os.makedirs(os.path.join(pub_dir, "historico"), exist_ok=True)
+    
+    # 3. Copia bilhetes ativos de futebol
     src_bilhetes = os.path.join(BASE_DIR, "futebol", "bilhetes_ativos.json")
     if os.path.exists(src_bilhetes):
         shutil.copy2(src_bilhetes, os.path.join(PUBLIC_REPO_DIR, "data", "bilhetes_ativos.json"))
         shutil.copy2(src_bilhetes, os.path.join(PUBLIC_REPO_DIR, "futebol", "bilhetes_ativos.json"))
-        print("✅ Copiado: bilhetes_ativos.json")
+        if os.path.exists(pub_dir):
+            shutil.copy2(src_bilhetes, os.path.join(pub_dir, "futebol", "bilhetes_ativos.json"))
+        print("✅ Copiado: bilhetes_ativos.json (Futebol)")
+
+    # 4. Copia bilhetes ativos de basquete
+    src_basquete = os.path.join(BASE_DIR, "basquete", "bilhetes_ativos.json")
+    if os.path.exists(src_basquete):
+        shutil.copy2(src_basquete, os.path.join(PUBLIC_REPO_DIR, "data", "bilhetes_ativos_basquete.json"))
+        shutil.copy2(src_basquete, os.path.join(PUBLIC_REPO_DIR, "basquete", "bilhetes_ativos.json"))
+        if os.path.exists(pub_dir):
+            shutil.copy2(src_basquete, os.path.join(pub_dir, "basquete", "bilhetes_ativos.json"))
+        print("✅ Copiado: bilhetes_ativos.json (Basquete)")
         
-    # 4. Copia relatório consolidado
+    # 5. Copia relatório consolidado
     src_relatorio = os.path.join(BASE_DIR, "historico", "relatorio_performance.json")
     if os.path.exists(src_relatorio):
         shutil.copy2(src_relatorio, os.path.join(PUBLIC_REPO_DIR, "data", "relatorio_performance.json"))
         shutil.copy2(src_relatorio, os.path.join(PUBLIC_REPO_DIR, "historico", "relatorio_performance.json"))
+        if os.path.exists(pub_dir):
+            shutil.copy2(src_relatorio, os.path.join(pub_dir, "historico", "relatorio_performance.json"))
         print("✅ Copiado: relatorio_performance.json")
         
-    # 5. README no repo público
+    # 6. README no repo público
     readme_path = os.path.join(PUBLIC_REPO_DIR, "README.md")
     if not os.path.exists(readme_path):
         with open(readme_path, "w", encoding="utf-8") as f:

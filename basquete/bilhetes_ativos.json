@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-18",
+  "sport": "Basquete",
+  "snapshotId": "FAS_BASKETBALL_2026-10-18_V1",
+  "status": "WAITING_NEXT_ROUND",
+  "notes": "Encerramento da Pré-Temporada da NBA. Transição e calibração estatística para a Noite de Abertura da Temporada Regular NBA 2026/27.",
+  "supremoTicket": {
+    "name": "⭐ BILHETE SUPREMO — BASQUETE (Radar Abertura NBA)",
+    "type": "FILE_DO_DIA",
+    "sport": "Basquete",
+    "multiplierGlobal": 3.85,
+    "status": "PENDING",
+    "timeClusters": [
+      {
+        "clusterName": "🏀 TURNO ÚNICO — RADAR ABERTURA NBA",
+        "multiplier": 3.85,
+        "notes": "Foco em Spreads Elásticos e Pontuação da Equipe na estreia da temporada regular.",
+        "legs": [
+          "Boston Celtics @ New York Knicks: Boston Celtics +6.5 Spread Protegido (@1.35)",
+          "Oklahoma City Thunder @ Denver Nuggets: Mais de 218.5 Pontos Totais (@1.40)",
+          "Los Angeles Lakers @ Golden State Warriors: Golden State Warriors Vence (@1.45)"
+        ]
+      }
+    ],
+    "selections": [
+      {
+        "match": "Boston Celtics @ New York Knicks (Abertura)",
+        "cluster": "Turno 1",
+        "market": "Boston Celtics +6.5 Spread Protegido",
+        "odd": 1.35,
+        "status": "PENDING"
+      },
+      {
+        "match": "Oklahoma City Thunder @ Denver Nuggets",
+        "cluster": "Turno 1",
+        "market": "Mais de 218.5 Pontos Totais",
+        "odd": 1.40,
+        "status": "PENDING"
+      },
+      {
+        "match": "Los Angeles Lakers @ Golden State Warriors",
+        "cluster": "Turno 1",
+        "market": "Golden State Warriors Vence (ML)",
+        "odd": 1.45,
+        "status": "PENDING"
+      }
+    ]
+  },
+  "sorosTicket": {
+    "day": 1,
+    "stake": 10.00,
+    "multiplier": 1.35,
+    "potentialReturn": 13.50,
+    "status": "PENDING",
+    "notes": "Desafio Soros Basquete — Reinício Ciclo 2 no Dia 1 de 30 com stake base de R$ 10,00 na Abertura Oficial da NBA.",
+    "selections": [
+      {
+        "match": "Boston Celtics @ New York Knicks",
+        "competition": "NBA Regular Season",
+        "market": "Boston Celtics +6.5 Spread Protegido",
+        "odd": 1.35,
+        "status": "PENDING"
+      }
+    ]
+  },
+  "modularTickets": [
+    {
+      "name": "MÚLTIPLA 1 — SAFE BASQUETE",
+      "type": "SAFE",
+      "status": "PENDING",
+      "stopPoints": [
+        {
+          "level": "STOP POINT 1 (Dupla Âncora Blindada)",
+          "multiplier": 1.89,
+          "legs": [
+            "Boston Celtics @ New York Knicks: Celtics +6.5 Spread Protegido (@1.35)",
+            "Oklahoma City Thunder @ Denver Nuggets: Mais de 218.5 Pontos (@1.40)"
+          ],
+          "status": "PENDING"
+        },
+        {
+          "level": "STOP POINT 2 (Tripla de Ouro)",
+          "multiplier": 2.74,
+          "legs": [
+            "Boston Celtics @ New York Knicks: Celtics +6.5 Spread Protegido (@1.35)",
+            "Oklahoma City Thunder @ Denver Nuggets: Mais de 218.5 Pontos (@1.40)",
+            "Los Angeles Lakers @ Golden State Warriors: Warriors Vence (@1.45)"
+          ],
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 2 — SAFE+ BASQUETE",
+      "type": "SAFE+",
+      "multiplier": 3.10,
+      "status": "PENDING",
+      "legs": [
+        "Boston Celtics @ New York Knicks: Boston Celtics Vence (ML @1.72)",
+        "Oklahoma City Thunder @ Denver Nuggets: Thunder +4.5 Spread (@1.80)"
+      ]
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 27.78,
-  "currentDay": 5,
+  "currentStake": 35.00,
+  "currentDay": 6,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -97,6 +97,16 @@
       "potentialReturn": 27.78,
       "status": "HIT",
       "actualReturn": 27.78
+    },
+    {
+      "day": 5,
+      "date": "2026-10-18",
+      "stakeIn": 27.78,
+      "selection": "Real Madrid x Sevilla (Real Madrid Vence / ML @1.26)",
+      "odd": 1.26,
+      "potentialReturn": 35.00,
+      "status": "HIT",
+      "actualReturn": 35.00
     }
   ]
 }

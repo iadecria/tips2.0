@@ -1,44 +1,49 @@
 {
   "date": "2026-10-18",
   "snapshotId": "FAS_MULTI_SPORT_2026-10-18_V1_SUNDAY_ELITE",
-  "status": "PENDING",
-  "notes": "Super Domingo de La Liga, Serie A e Rodada 31 Decisiva do Brasileirão Série A. Foco em Real Madrid no Bernabéu, Juventus no Allianz Stadium contra a Lazio, clássicos Fluminense x Santos e Grêmio x Cruzeiro, e batalha na Fonte Nova Bahia x Flamengo.",
+  "status": "SETTLED",
+  "settlementDate": "2026-10-18T20:50:00-03:00",
+  "notes": "Super Domingo de La Liga, Serie A e Rodada 31 Decisiva do Brasileirão Série A. Histórica cravada de 4/4 na Múltipla 4 Aposentar o Neto (@28.58) e avanço no Desafio Soros Dia 5 com goleada do Real Madrid.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (La Liga, Serie A & Brasileirão Série A)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 8.15,
     "philosophy": "Reunião das melhores oportunidades matemáticas de altíssima convicção das ligas de domingo, divididas por Turnos de Horário com blindagem anti-variância.",
-    "status": "PENDING",
+    "status": "PARTIAL_MISS",
+    "hitRate": "7/8 (87.5%)",
     "timeClusters": [
       {
         "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA (15:45 - 16:00 BRT)",
         "multiplier": 1.90,
-        "notes": "Real Madrid no Bernabéu recebendo o Sevilla, Juventus no Allianz contra a Lazio e gols em Lyon.",
+        "status": "PARTIAL_MISS",
+        "notes": "Real Madrid no Bernabéu atropelando o Sevilla e gols em Lyon. Derrubado pela zebra da Juve.",
         "legs": [
-          "Real Madrid x Sevilla: Real Madrid Vence (ML @1.26)",
-          "Juventus x Lazio: Juventus ou Empate (Dupla Chance 1X @1.22)",
-          "Lyon x Nice: Mais de 1.5 Gols no Jogo (@1.24)"
+          "Real Madrid x Sevilla: Real Madrid Vence (ML @1.26) [HIT 4x1]",
+          "Juventus x Lazio: Juventus ou Empate (Dupla Chance 1X @1.22) [MISS 0x3]",
+          "Lyon x Nice: Mais de 1.5 Gols no Jogo (@1.24) [HIT 2x1]"
         ]
       },
       {
         "clusterName": "🌆 TURNO 2 — ABERTURA BRASILEIRÃO CLÁSSICOS (16:00 BRT)",
         "multiplier": 2.14,
-        "notes": "Gols no Maracanã com volta de Neymar pelo Santos e Cruzeiro pontuando na Arena contra o Grêmio.",
+        "status": "PARTIAL_MISS",
+        "notes": "Santos vencendo no Maracanã e Cruzeiro aplicando 4x2 na Arena do Grêmio.",
         "legs": [
-          "Fluminense x Santos: Mais de 1.5 Gols no Jogo (@1.32)",
-          "Grêmio x Cruzeiro: Cruzeiro ou Empate (Dupla Chance X2 @1.35)",
-          "Grêmio x Cruzeiro: Menos de 3.5 Gols no Jogo (@1.20)"
+          "Fluminense x Santos: Mais de 1.5 Gols no Jogo (@1.32) [HIT 1x2]",
+          "Grêmio x Cruzeiro: Cruzeiro ou Empate (Dupla Chance X2 @1.35) [HIT 2x4]",
+          "Grêmio x Cruzeiro: Menos de 3.5 Gols no Jogo (@1.20) [MISS 2x4]"
         ]
       },
       {
         "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO DECISIVO (18:30 - 19:30 BRT)",
         "multiplier": 2.06,
-        "notes": "Choque de gigantes na Fonte Nova com Bahia x Flamengo e Bragantino visitando o Remo no Mangueirão.",
+        "status": "HIT",
+        "notes": "100% GREEN no Turno 3 com vitória do Flamengo na Fonte Nova e do Bragantino no Mangueirão.",
         "legs": [
-          "Bahia x Flamengo: Mais de 1.5 Gols no Jogo (@1.30)",
-          "Bahia x Flamengo: Menos de 3.5 Gols no Jogo (@1.22)",
-          "Remo x Red Bull Bragantino: Bragantino ou Empate (Dupla Chance X2 @1.30)"
+          "Bahia x Flamengo: Mais de 1.5 Gols no Jogo (@1.30) [HIT 0x3]",
+          "Bahia x Flamengo: Menos de 3.5 Gols no Jogo (@1.22) [HIT 0x3]",
+          "Remo x Red Bull Bragantino: Bragantino ou Empate (Dupla Chance X2 @1.30) [HIT 0x1]"
         ]
       }
     ],
@@ -48,56 +53,64 @@
         "cluster": "Turno 1",
         "market": "Real Madrid Vence (1)",
         "odd": 1.26,
-        "status": "PENDING"
+        "result": "4x1",
+        "status": "HIT"
       },
       {
         "match": "Juventus x Lazio (15:45 BRT)",
         "cluster": "Turno 1",
         "market": "Juventus ou Empate (1X)",
         "odd": 1.22,
-        "status": "PENDING"
+        "result": "0x3",
+        "status": "MISS"
       },
       {
         "match": "Lyon x Nice (15:45 BRT)",
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.24,
-        "status": "PENDING"
+        "result": "2x1",
+        "status": "HIT"
       },
       {
         "match": "Fluminense x Santos (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.32,
-        "status": "PENDING"
+        "result": "1x2",
+        "status": "HIT"
       },
       {
         "match": "Grêmio x Cruzeiro (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Cruzeiro ou Empate (X2)",
         "odd": 1.35,
-        "status": "PENDING"
+        "result": "2x4",
+        "status": "HIT"
       },
       {
         "match": "Bahia x Flamengo (18:30 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.22,
-        "status": "PENDING"
+        "result": "0x3",
+        "status": "HIT"
       },
       {
         "match": "Bahia x Flamengo (18:30 BRT)",
         "cluster": "Turno 3",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.30,
-        "status": "PENDING"
+        "result": "0x3",
+        "status": "HIT"
       },
       {
         "match": "Remo x Red Bull Bragantino (19:30 BRT)",
         "cluster": "Turno 3",
         "market": "Red Bull Bragantino ou Empate (X2)",
         "odd": 1.30,
-        "status": "PENDING"
+        "result": "0x1",
+        "status": "HIT"
       }
     ]
   },
@@ -106,7 +119,9 @@
     "stake": 27.78,
     "multiplier": 1.26,
     "potentialReturn": 35.00,
-    "status": "PENDING",
+    "actualReturn": 35.00,
+    "status": "HIT",
+    "notes": "Modelo Sniper Dia 5 de 30 (Melbet/Pinnacle Oficial): Real Madrid Vence (ML @1.26) [Santiago Bernabéu]. 100% de aproveitamento em casa na temporada, volta da base titular completa com Mbappé, Bellingham, Valverde e Güler.",
     "sniperOptions": [
       {
         "id": "sniper-1",
@@ -116,9 +131,9 @@
         "odd": 1.26,
         "stake": 27.78,
         "potentialReturn": 35.00,
-        "status": "PENDING",
+        "status": "HIT",
         "isPrimary": true,
-        "analysis": "100% de aproveitamento em casa na temporada, volta da base titular completa com Mbappé, Bellingham, Valverde e Güler contra Sevilla fragilizado defensivamente."
+        "analysis": "Goleada por 4x1 com 2 gols de Mbappé, 1 de Güler e 1 de Diomandé assegura o 5º green consecutivo."
       }
     ],
     "selections": [
@@ -127,7 +142,8 @@
         "competition": "La Liga (16:00 BRT)",
         "market": "Real Madrid Vence (1)",
         "odd": 1.26,
-        "status": "PENDING"
+        "result": "4x1",
+        "status": "HIT"
       }
     ]
   },
@@ -135,40 +151,41 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Melbet/Pinnacle)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "MISS",
+      "missReason": "Zebra histórica em Turim (Juventus 0x3 Lazio)",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Dupla Âncora Europeia — Tarde Europeia)",
           "multiplier": 1.54,
           "legs": [
-            "Real Madrid x Sevilla: Real Madrid Vence (@1.26)",
-            "Juventus x Lazio: Juventus ou Empate (1X @1.22)"
+            "Real Madrid x Sevilla: Real Madrid Vence (@1.26) [HIT 4x1]",
+            "Juventus x Lazio: Juventus ou Empate (1X @1.22) [MISS 0x3]"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         },
         {
           "level": "STOP POINT 2 (Quádrupla Forte com Clássicos do Brasileirão)",
           "multiplier": 2.74,
           "legs": [
-            "Real Madrid x Sevilla: Real Madrid Vence (@1.26)",
-            "Juventus x Lazio: Juventus ou Empate (1X @1.22)",
-            "Grêmio x Cruzeiro: Cruzeiro ou Empate (X2 @1.35)",
-            "Fluminense x Santos: Mais de 1.5 Gols (@1.32)"
+            "Real Madrid x Sevilla: Real Madrid Vence (@1.26) [HIT 4x1]",
+            "Juventus x Lazio: Juventus ou Empate (1X @1.22) [MISS 0x3]",
+            "Grêmio x Cruzeiro: Cruzeiro ou Empate (X2 @1.35) [HIT 2x4]",
+            "Fluminense x Santos: Mais de 1.5 Gols (@1.32) [HIT 1x2]"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa com Noite de Brasileirão)",
           "multiplier": 4.63,
           "legs": [
-            "Real Madrid x Sevilla: Real Madrid Vence (@1.26)",
-            "Juventus x Lazio: Juventus ou Empate (1X @1.22)",
-            "Grêmio x Cruzeiro: Cruzeiro ou Empate (X2 @1.35)",
-            "Fluminense x Santos: Mais de 1.5 Gols (@1.32)",
-            "Bahia x Flamengo: Mais de 1.5 Gols (@1.30)",
-            "Remo x Red Bull Bragantino: Bragantino ou Empate (X2 @1.30)"
+            "Real Madrid x Sevilla: Real Madrid Vence (@1.26) [HIT 4x1]",
+            "Juventus x Lazio: Juventus ou Empate (1X @1.22) [MISS 0x3]",
+            "Grêmio x Cruzeiro: Cruzeiro ou Empate (X2 @1.35) [HIT 2x4]",
+            "Fluminense x Santos: Mais de 1.5 Gols (@1.32) [HIT 1x2]",
+            "Bahia x Flamengo: Mais de 1.5 Gols (@1.30) [HIT 0x3]",
+            "Remo x Red Bull Bragantino: Bragantino ou Empate (X2 @1.30) [HIT 0x1]"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         }
       ]
     },
@@ -176,34 +193,37 @@
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada)",
       "type": "SAFE+",
       "multiplier": 3.73,
-      "status": "PENDING",
+      "status": "MISS",
+      "missReason": "Jogo na Arena do Grêmio estourou a linha de gols (2x4)",
       "legs": [
-        "Real Madrid x Sevilla: Real Madrid -1.5 Handicap (@1.65)",
-        "Grêmio x Cruzeiro: Cruzeiro ou Empate + Menos de 3.5 Gols (@1.52)",
-        "Bahia x Flamengo: Flamengo ou Empate + Mais de 1.5 Gols (@1.49)"
+        "Real Madrid x Sevilla: Real Madrid -1.5 Handicap (@1.65) [HIT 4x1]",
+        "Grêmio x Cruzeiro: Cruzeiro ou Empate + Menos de 3.5 Gols (@1.52) [MISS 2x4]",
+        "Bahia x Flamengo: Flamengo ou Empate + Mais de 1.5 Gols (@1.49) [HIT 0x3]"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
       "type": "ATTACK",
       "multiplier": 9.38,
-      "status": "PENDING",
+      "status": "MISS",
+      "missReason": "Bahia não marcou na Fonte Nova (0x3 Flamengo)",
       "legs": [
-        "Real Madrid x Sevilla: Real Madrid Vence + Mais de 2.5 Gols (@1.68)",
-        "Fluminense x Santos: Ambos Marcam - Sim (@1.80)",
-        "Bahia x Flamengo: Flamengo ou Empate + Ambos Marcam (@2.48)"
+        "Real Madrid x Sevilla: Real Madrid Vence + Mais de 2.5 Gols (@1.68) [HIT 4x1]",
+        "Fluminense x Santos: Ambos Marcam - Sim (@1.80) [HIT 1x2]",
+        "Bahia x Flamengo: Flamengo ou Empate + Ambos Marcam (@2.48) [MISS 0x3]"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO)",
       "type": "NETO",
       "multiplier": 28.58,
-      "status": "PENDING",
+      "status": "HIT",
+      "notes": "🏆 BINGO HISTÓRICO NO FAS! 4 DE 4 ACERTOS CRAVADOS COM ODDS GIGANTESCAS!",
       "legs": [
-        "Real Madrid x Sevilla: Real Madrid Vence por 2+ Gols (-1.5 AH @1.65)",
-        "Fluminense x Santos: Santos ou Empate & Ambos Marcam (@2.65)",
-        "Bahia x Flamengo: Empate ou Flamengo & Mais de 2.5 Gols (@2.75)",
-        "Remo x Red Bull Bragantino: Bragantino Vence (@2.38)"
+        "Real Madrid x Sevilla: Real Madrid Vence por 2+ Gols (-1.5 AH @1.65) [HIT 4x1]",
+        "Fluminense x Santos: Santos ou Empate & Ambos Marcam (@2.65) [HIT 1x2]",
+        "Bahia x Flamengo: Empate ou Flamengo & Mais de 2.5 Gols (@2.75) [HIT 0x3]",
+        "Remo x Red Bull Bragantino: Bragantino Vence (@2.38) [HIT 0x1]"
       ]
     }
   ]

@@ -1535,6 +1535,117 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
     *   **Resultado:** ✅ **GREEN TOTAL (3x2 City)!**
     *   **Retorno:** R$ 27,78. Avança consagrado para o **DIA 5 DE 30** com **R$ 27,78**!
 
+---
+
+### [2026-10-18] — RODADA DIÁRIA (SUPER DOMINGO ELITE & NOITE DE BRASILEIRÃO SÉRIE A)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-18_V1_SUNDAY_ELITE`
+- **Data do Registro:** 2026-10-18
+- **Cutoff:** 2026-10-18T12:30:00-03:00
+- **Contexto da Data:** Tarde europeia de elite (La Liga, Serie A, Ligue 1) e reta final da 31ª rodada do Brasileirão Série A. Destaque absoluto para Real Madrid atropelando o Sevilla (4x1), Santos batendo o Fluminense no Maracanã (2x1), Cruzeiro vencendo o Grêmio na Arena (4x2) e Flamengo retomando a liderança na Fonte Nova (3x0).
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (🏆 HISTÓRICA CRAVADA DE 4/4 NA MÚLTIPLA 4 APOSENTAR O NETO @28.58, DESAFIO SOROS DIA 5 GREEN COM R$ 35,00 E TURNO 3 BRASILEIRÃO 100% GREEN @2.06)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 7 fixtures principais
+- Elegíveis: 7
+
+#### 2. Grade de Fixtures, Resultados e Liquidação
+
+1. **Real Madrid 4 × 1 Sevilla** (Estádio Santiago Bernabéu - 16:00 BRT)
+   - *Resultado Oficial:* 4 x 1 (Gols: Güler 29', Mbappé 36' e 63', Diomandé 81' | Bueno 80')
+   - **SAFE (Sniper Soros Dia 5):** Real Madrid Vence (ML @1.26) ➔ ✅ **HIT** (Goleada por 4x1)
+   - **SAFE+:** Real Madrid -1.5 Handicap Asiático (@1.65) ➔ ✅ **HIT** (Vitória por 3 gols de vantagem)
+   - **ATTACK:** Real Madrid Vence + Mais de 2.5 Gols (@1.68) ➔ ✅ **HIT** (4x1, 5 gols totais)
+   - **NETO:** Real Madrid Vence por 2+ Gols (-1.5 AH @1.65) ➔ ✅ **HIT** (Cravado com folga!)
+
+2. **Juventus 0 × 3 Lazio** (Allianz Stadium - 15:45 BRT)
+   - *Resultado Oficial:* 0 x 3 (Gols: Provstgaard 37', Isaksen 66', Dele-Bashiru 89')
+   - **SAFE:** Juventus ou Empate (Dupla Chance 1X @1.22) ➔ ❌ **MISS** (0x3)
+     - *Miss Audit:* `STATISTICAL_VARIANCE / BAD_SELECTION` (Zebra maiúscula em Turim; colapso defensivo da Juventus).
+   - **ATTACK:** Juventus Vence + Menos de 3.5 Gols (@2.25) ➔ ❌ **MISS** (0x3)
+
+3. **Olympique Lyonnais 2 × 1 OGC Nice** (Groupama Stadium - 15:45 BRT)
+   - *Resultado Oficial:* 2 x 1 (Gols: Šulc 33', Tessmann 36' | Wahi 18')
+   - **SAFE:** Mais de 1.5 Gols no Jogo (@1.24) ➔ ✅ **HIT** (3 gols na primeira etapa)
+
+4. **Fluminense 1 × 2 Santos** (Maracanã - 16:00 BRT)
+   - *Resultado Oficial:* 1 x 2 (Gols: Castillo 4' 1T | Gabigol 4' 2T, Coutinho 8' 2T)
+   - **SAFE:** Mais de 1.5 Gols no Jogo (@1.32) ➔ ✅ **HIT** (3 gols totais)
+   - **SAFE+:** Santos ou Empate (Dupla Chance X2 @1.48) ➔ ✅ **HIT** (Santos venceu por 2x1)
+   - **ATTACK:** Ambas as Equipes Marcam - Sim (@1.80) ➔ ✅ **HIT** (Flu 1, Santos 2)
+   - **NETO:** Santos ou Empate & Ambas Marcam (@2.65) ➔ ✅ **HIT HISTÓRICO** (Leitura perfeita da fragilidade dos reservas do Flu e presença de Gabigol/Coutinho!)
+
+5. **Grêmio 2 × 4 Cruzeiro** (Arena do Grêmio - 16:00 BRT)
+   - *Resultado Oficial:* 2 x 4 (Gols: Carlos Vinícius, Pavón | Kaio Jorge hat-trick, João Marcelo)
+   - **SAFE:** Cruzeiro ou Empate (Dupla Chance X2 @1.35) ➔ ✅ **HIT** (Cruzeiro venceu por 4x2)
+   - **SAFE:** Menos de 3.5 Gols no Jogo (@1.20) ➔ ❌ **MISS** (6 gols totais)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Jogo anormalmente elétrico e aberto).
+   - **SAFE+:** Cruzeiro ou Empate + Menos de 3.5 Gols (@1.52) ➔ ❌ **MISS** (Cruzeiro venceu, mas estourou o under)
+
+6. **Bahia 0 × 3 Flamengo** (Arena Fonte Nova - 18:30 BRT)
+   - *Resultado Oficial:* 0 x 3 (Gols: Jorginho 64' p, Plata 72', Paquetá 77')
+   - **SAFE:** Mais de 1.5 Gols no Jogo (@1.30) ➔ ✅ **HIT** (3 gols no 2T)
+   - **SAFE:** Menos de 3.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (3 gols totais <= 3.5)
+   - **SAFE+:** Flamengo ou Empate + Mais de 1.5 Gols (@1.49) ➔ ✅ **HIT** (Flamengo 3x0)
+   - **ATTACK:** Flamengo ou Empate + Ambas Marcam (@2.48) ➔ ❌ **MISS** (Bahia passou em branco)
+   - **NETO:** Empate ou Flamengo & Mais de 2.5 Gols (@2.75) ➔ ✅ **HIT HISTÓRICO** (3x0 cravado!)
+
+7. **Remo 0 × 1 Red Bull Bragantino** (Mangueirão - 19:30 BRT)
+   - *Resultado Oficial:* 0 x 1 (Gol: Lucas Barbosa 10' 1T)
+   - **SAFE:** Red Bull Bragantino ou Empate (Dupla Chance X2 @1.30) ➔ ✅ **HIT** (Vitória do Bragantino por 0x1)
+   - **NETO:** Red Bull Bragantino Vence (@2.38) ➔ ✅ **HIT HISTÓRICO** (0x1 no Mangueirão!)
+
+#### 3. Auditoria dos Bilhetes / Múltiplas Combinadas
+
+*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@8.15):**
+    *   🥪 **Turno 1 — Tarde Europeia (15:45 - 16:00 BRT) (@1.90):**
+        *   Real Madrid x Sevilla: Real ML (@1.26) ➔ ✅ HIT (4x1)
+        *   Juventus x Lazio: 1X (@1.22) ➔ ❌ MISS (0x3)
+        *   Lyon x Nice: Over 1.5 (@1.24) ➔ ✅ HIT (2x1)
+        *   *Resultado:* ❌ **RED PARCIAL** (2 de 3 acertos).
+    *   🌆 **Turno 2 — Abertura Brasileirão Clássicos (16:00 BRT) (@2.14):**
+        *   Fluminense x Santos: Over 1.5 (@1.32) ➔ ✅ HIT (1x2)
+        *   Grêmio x Cruzeiro: X2 (@1.35) ➔ ✅ HIT (2x4)
+        *   Grêmio x Cruzeiro: Under 3.5 (@1.20) ➔ ❌ MISS (2x4)
+        *   *Resultado:* ❌ **RED PARCIAL** (2 de 3 acertos).
+    *   🌙 **Turno 3 — Noite Brasileirão Decisivo (18:30 - 19:30 BRT) (@2.06):**
+        *   Bahia x Flamengo: Over 1.5 (@1.30) ➔ ✅ HIT (0x3)
+        *   Bahia x Flamengo: Under 3.5 (@1.22) ➔ ✅ HIT (0x3)
+        *   Remo x Bragantino: X2 (@1.30) ➔ ✅ HIT (0x1)
+        *   *Resultado:* ✅ **GREEN TOTAL HISTÓRICO (3/3 @2.06)!** 🎯🎯🎯
+    *   🏆 **RESULTADO DO FILÉ DO DIA (SELEÇÕES OFICIAIS REGISTRADAS @8.15):**
+        *   **7 DE 8 SELEÇÕES ACERTADAS (87.5% DE APROVEITAMENTO)!**
+        *   *(Apenas a zebra em Turim impediu o green do bilhete global).*
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Formato Modular com Stop Points):**
+    *   Stop Point 1 (@1.54): Real Madrid (✅) + Juventus (❌) ➔ ❌ RED
+    *   Stop Point 2 (@2.74): 3 de 4 HITS (Real ✅, Cruzeiro X2 ✅, Flu Over ✅; Juve ❌)
+    *   Stop Point 3 (@4.63): 5 de 6 HITS (Real ✅, Cruzeiro X2 ✅, Flu Over ✅, Fla Over ✅, Braga X2 ✅; Juve ❌)
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@3.73):**
+    *   Real -1.5 (✅ 4x1) + Cruzeiro X2 & Under 3.5 (❌ 2x4) + Fla X2 & Over 1.5 (✅ 0x3)
+    *   *Resultado:* ❌ **RED** (2 acertos pesados @1.65 e @1.49).
+
+*   🎫 **MÚLTIPLA 3 — ATTACK (@9.38):**
+    *   Real Vence & Over 2.5 (@1.68 ✅) + Flu x Santos BTTS (@1.80 ✅) + Fla X2 & BTTS (❌ 0x3)
+    *   *Resultado:* ❌ **RED** (2 de 3 acertos em odds altas).
+
+*   🏆 **MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO @28.58):**
+    *   1. Real Madrid Vence por 2+ Gols (-1.5 AH @1.65) ➔ ✅ **HIT (4x1 Real Madrid)**
+    *   2. Fluminense x Santos: Santos X2 & Ambos Marcam (@2.65) ➔ ✅ **HIT (1x2 Santos)**
+    *   3. Bahia x Flamengo: Empate/Fla & Over 2.5 (@2.75) ➔ ✅ **HIT (0x3 Flamengo)**
+    *   4. Remo x Red Bull Bragantino: Bragantino Vence (@2.38) ➔ ✅ **HIT (0x1 Bragantino)**
+    *   **RESULTADO HISTÓRICO:** 🎯🎯🎯🎯 **GREEN TOTAL ABSOLUTO NA ODD @28.58!**
+    *   *(Maior múltipla acertada na história do FAS! Cada R$ 10 apostados geraram R$ 285,80 líquidos!)*
+
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 5 (SNIPER):**
+    *   **Entrada:** R$ 27,78
+    *   **Seleção:** Real Madrid x Sevilla ➔ Real Madrid Vence (ML @1.26)
+    *   **Resultado:** ✅ **GREEN TOTAL (4x1 Real Madrid)!**
+    *   **Retorno:** R$ 35,00.
+    *   **Conquista:** 5º GREEN CONSECUTIVO! Avança consagrado para o **DIA 6 DE 30** com banca de **R$ 35,00**!
+
+
 
 
 

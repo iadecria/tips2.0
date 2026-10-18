@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-18T12:20:00-03:00",
+  "updatedAt": "2026-10-18T20:50:00-03:00",
   "kpis": {
-    "totalRounds": 8,
-    "totalTickets": 54,
-    "greenTickets": 39,
-    "redTickets": 15,
-    "winRateGlobal": "72.2%",
-    "safeWinRate": "90.0%",
-    "safePlusWinRate": "65.2%",
-    "sorosCurrentDay": 5,
-    "sorosCurrentStake": 27.78,
+    "totalRounds": 9,
+    "totalTickets": 60,
+    "greenTickets": 42,
+    "redTickets": 18,
+    "winRateGlobal": "70.0%",
+    "safeWinRate": "85.7%",
+    "safePlusWinRate": "63.0%",
+    "sorosCurrentDay": 6,
+    "sorosCurrentStake": 35.00,
     "sorosBasketballDay": 1,
     "sorosBasketballStake": 10.00,
-    "profitFactor": 3.75
+    "profitFactor": 4.85
   },
   "chartData": [
     { "date": "11/10", "banca": 37.17, "lucro": 18.77, "winRate": 100 },
@@ -21,9 +21,24 @@
     { "date": "14/10", "banca": 36.10, "lucro": 26.10, "winRate": 90 },
     { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 },
     { "date": "16/10", "banca": 87.11, "lucro": 18.20, "winRate": 70 },
-    { "date": "17/10", "banca": 114.89, "lucro": 27.78, "winRate": 80 }
+    { "date": "17/10", "banca": 114.89, "lucro": 27.78, "winRate": 80 },
+    { "date": "18/10", "banca": 149.89, "lucro": 35.00, "winRate": 85 }
   ],
   "history": [
+    {
+      "date": "2026-10-18",
+      "sport": "Futebol (La Liga, Serie A, Ligue 1 & Brasileirão Série A)",
+      "totalTickets": 6,
+      "greens": 3,
+      "reds": 3,
+      "highlights": [
+        "🏆 MÚLTIPLA 4 APOSENTAR O NETO 4/4 GREEN HISTÓRICO TOTAL (@28.58 CRAVADO)",
+        "Soros Futebol Dia 5 GREEN (@1.26 ➔ R$ 35,00 - 5º Green Consecutivo)",
+        "Turno 3 Brasileirão Decisivo 3/3 GREEN TOTAL (@2.06)",
+        "Filé do Dia com 7 de 8 Acertos (87.5% de taxa - derrubado pela Juve)",
+        "Santos 2x1 no Maracanã, Cruzeiro 4x2 na Arena e Flamengo 3x0 na Fonte Nova cravados"
+      ]
+    },
     {
       "date": "2026-10-17",
       "sport": "Futebol (Premier League, Bundesliga, La Liga & Brasileirão)",

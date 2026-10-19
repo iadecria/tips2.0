@@ -1,149 +1,126 @@
 {
-  "date": "2026-10-18",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-18_V1_SUNDAY_ELITE",
-  "status": "SETTLED",
-  "settlementDate": "2026-10-18T20:50:00-03:00",
-  "notes": "Super Domingo de La Liga, Serie A e Rodada 31 Decisiva do Brasileirão Série A. Histórica cravada de 4/4 na Múltipla 4 Aposentar o Neto (@28.58) e avanço no Desafio Soros Dia 5 com goleada do Real Madrid.",
+  "date": "2026-10-19",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-19_V1_MONDAY_NIGHT",
+  "status": "PENDING",
+  "notes": "Segunda-feira de Premier League, La Liga, Liga Portugal e encerramento da 31ª rodada do Brasileirão Série A na Neo Química Arena. Foco em Tottenham Hotspur em Londres, SC Braga em Portugal e Corinthians buscando reabilitação em casa.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (La Liga, Serie A & Brasileirão Série A)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Premier League, La Liga, Liga Portugal & Brasileirão)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 8.15,
-    "philosophy": "Reunião das melhores oportunidades matemáticas de altíssima convicção das ligas de domingo, divididas por Turnos de Horário com blindagem anti-variância.",
-    "status": "PARTIAL_MISS",
-    "hitRate": "7/8 (87.5%)",
+    "multiplierGlobal": 5.82,
+    "philosophy": "Reunião das melhores oportunidades matemáticas de altíssima convicção da rodada de segunda-feira, divididas por Turnos de Horário com blindagem anti-variância.",
+    "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA (15:45 - 16:00 BRT)",
-        "multiplier": 1.90,
-        "status": "PARTIAL_MISS",
-        "notes": "Real Madrid no Bernabéu atropelando o Sevilla e gols em Lyon. Derrubado pela zebra da Juve.",
+        "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA (14:00 - 16:15 BRT)",
+        "multiplier": 2.24,
+        "notes": "Clássico turco movimentado, Tottenham com amplo favoritismo em Londres, Braga em casa e controle tático em Getafe.",
         "legs": [
-          "Real Madrid x Sevilla: Real Madrid Vence (ML @1.26) [HIT 4x1]",
-          "Juventus x Lazio: Juventus ou Empate (Dupla Chance 1X @1.22) [MISS 0x3]",
-          "Lyon x Nice: Mais de 1.5 Gols no Jogo (@1.24) [HIT 2x1]"
+          "Trabzonspor x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.26)",
+          "Tottenham Hotspur x Coventry City: Tottenham Vence (ML @1.45)",
+          "SC Braga x Gil Vicente: SC Braga ou Empate (Dupla Chance 1X @1.14)",
+          "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18)"
         ]
       },
       {
-        "clusterName": "🌆 TURNO 2 — ABERTURA BRASILEIRÃO CLÁSSICOS (16:00 BRT)",
-        "multiplier": 2.14,
-        "status": "PARTIAL_MISS",
-        "notes": "Santos vencendo no Maracanã e Cruzeiro aplicando 4x2 na Arena do Grêmio.",
+        "clusterName": "🌙 TURNO 2 — NOITE / FUTEBOL BRASILEIRO (19:30 - 20:00 BRT)",
+        "multiplier": 1.95,
+        "notes": "Goiás defendendo mando na Serrinha pela Série B e Corinthians com must-win absoluto contra o Vitória na Neo Química Arena.",
         "legs": [
-          "Fluminense x Santos: Mais de 1.5 Gols no Jogo (@1.32) [HIT 1x2]",
-          "Grêmio x Cruzeiro: Cruzeiro ou Empate (Dupla Chance X2 @1.35) [HIT 2x4]",
-          "Grêmio x Cruzeiro: Menos de 3.5 Gols no Jogo (@1.20) [MISS 2x4]"
-        ]
-      },
-      {
-        "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO DECISIVO (18:30 - 19:30 BRT)",
-        "multiplier": 2.06,
-        "status": "HIT",
-        "notes": "100% GREEN no Turno 3 com vitória do Flamengo na Fonte Nova e do Bragantino no Mangueirão.",
-        "legs": [
-          "Bahia x Flamengo: Mais de 1.5 Gols no Jogo (@1.30) [HIT 0x3]",
-          "Bahia x Flamengo: Menos de 3.5 Gols no Jogo (@1.22) [HIT 0x3]",
-          "Remo x Red Bull Bragantino: Bragantino ou Empate (Dupla Chance X2 @1.30) [HIT 0x1]"
+          "Goiás x Náutico: Goiás ou Empate (Dupla Chance 1X @1.18)",
+          "Goiás x Náutico: Menos de 3.5 Gols no Jogo (@1.20)",
+          "Corinthians x Vitória: Corinthians ou Empate (Dupla Chance 1X @1.14)",
+          "Corinthians x Vitória: Menos de 3.5 Gols no Jogo (@1.18)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Real Madrid x Sevilla (16:00 BRT)",
+        "match": "Trabzonspor x Beşiktaş (14:00 BRT)",
         "cluster": "Turno 1",
-        "market": "Real Madrid Vence (1)",
+        "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.26,
-        "result": "4x1",
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Juventus x Lazio (15:45 BRT)",
+        "match": "Tottenham Hotspur x Coventry City (16:00 BRT)",
         "cluster": "Turno 1",
-        "market": "Juventus ou Empate (1X)",
-        "odd": 1.22,
-        "result": "0x3",
-        "status": "MISS"
+        "market": "Tottenham Vence (1)",
+        "odd": 1.45,
+        "status": "PENDING"
       },
       {
-        "match": "Lyon x Nice (15:45 BRT)",
+        "match": "SC Braga x Gil Vicente (16:15 BRT)",
         "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.24,
-        "result": "2x1",
-        "status": "HIT"
+        "market": "SC Braga ou Empate (1X)",
+        "odd": 1.14,
+        "status": "PENDING"
       },
       {
-        "match": "Fluminense x Santos (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.32,
-        "result": "1x2",
-        "status": "HIT"
-      },
-      {
-        "match": "Grêmio x Cruzeiro (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Cruzeiro ou Empate (X2)",
-        "odd": 1.35,
-        "result": "2x4",
-        "status": "HIT"
-      },
-      {
-        "match": "Bahia x Flamengo (18:30 BRT)",
-        "cluster": "Turno 3",
+        "match": "Getafe x Rayo Vallecano (16:00 BRT)",
+        "cluster": "Turno 1",
         "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.22,
-        "result": "0x3",
-        "status": "HIT"
+        "odd": 1.18,
+        "status": "PENDING"
       },
       {
-        "match": "Bahia x Flamengo (18:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.30,
-        "result": "0x3",
-        "status": "HIT"
+        "match": "Goiás x Náutico (19:30 BRT)",
+        "cluster": "Turno 2",
+        "market": "Goiás ou Empate (1X)",
+        "odd": 1.18,
+        "status": "PENDING"
       },
       {
-        "match": "Remo x Red Bull Bragantino (19:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Red Bull Bragantino ou Empate (X2)",
-        "odd": 1.30,
-        "result": "0x1",
-        "status": "HIT"
+        "match": "Goiás x Náutico (19:30 BRT)",
+        "cluster": "Turno 2",
+        "market": "Menos de 3.5 Gols no Jogo",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "Corinthians x Vitória (20:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Corinthians ou Empate (1X)",
+        "odd": 1.14,
+        "status": "PENDING"
+      },
+      {
+        "match": "Corinthians x Vitória (20:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Menos de 3.5 Gols no Jogo",
+        "odd": 1.18,
+        "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 5,
-    "stake": 27.78,
-    "multiplier": 1.26,
-    "potentialReturn": 35.00,
-    "actualReturn": 35.00,
-    "status": "HIT",
-    "notes": "Modelo Sniper Dia 5 de 30 (Melbet/Pinnacle Oficial): Real Madrid Vence (ML @1.26) [Santiago Bernabéu]. 100% de aproveitamento em casa na temporada, volta da base titular completa com Mbappé, Bellingham, Valverde e Güler.",
+    "day": 6,
+    "stake": 35.00,
+    "multiplier": 1.45,
+    "potentialReturn": 50.75,
+    "status": "PENDING",
+    "notes": "Modelo Sniper Dia 6 de 30 (Melbet/Pinnacle Oficial): Tottenham Hotspur Vence (ML @1.45) [Tottenham Hotspur Stadium]. Força máxima caseira dos Spurs com Solanke, Maddison e Tonali diante do Coventry City severamente desfalcado de seus artilheiros Haji Wright e Taiwo Awoniyi.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Real Madrid x Sevilla",
-        "competition": "La Liga (16:00 BRT)",
-        "market": "Real Madrid Vence (1)",
-        "odd": 1.26,
-        "stake": 27.78,
-        "potentialReturn": 35.00,
-        "status": "HIT",
+        "match": "Tottenham Hotspur x Coventry City",
+        "competition": "Premier League (16:00 BRT)",
+        "market": "Tottenham Vence (1)",
+        "odd": 1.45,
+        "stake": 35.00,
+        "potentialReturn": 50.75,
+        "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Goleada por 4x1 com 2 gols de Mbappé, 1 de Güler e 1 de Diomandé assegura o 5º green consecutivo."
+        "analysis": "Tottenham precisa da vitória para subir na Premier League; Coventry vem com 6 baixas médicas incluindo principais atacantes."
       }
     ],
     "selections": [
       {
-        "match": "Real Madrid x Sevilla",
-        "competition": "La Liga (16:00 BRT)",
-        "market": "Real Madrid Vence (1)",
-        "odd": 1.26,
-        "result": "4x1",
-        "status": "HIT"
+        "match": "Tottenham Hotspur x Coventry City",
+        "competition": "Premier League (16:00 BRT)",
+        "market": "Tottenham Vence (1)",
+        "odd": 1.45,
+        "status": "PENDING"
       }
     ]
   },
@@ -151,79 +128,75 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Melbet/Pinnacle)",
       "type": "SAFE",
-      "status": "MISS",
-      "missReason": "Zebra histórica em Turim (Juventus 0x3 Lazio)",
+      "status": "PENDING",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Dupla Âncora Europeia — Tarde Europeia)",
-          "multiplier": 1.54,
+          "multiplier": 1.65,
           "legs": [
-            "Real Madrid x Sevilla: Real Madrid Vence (@1.26) [HIT 4x1]",
-            "Juventus x Lazio: Juventus ou Empate (1X @1.22) [MISS 0x3]"
+            "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45)",
+            "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte com Clássicos do Brasileirão)",
-          "multiplier": 2.74,
+          "level": "STOP POINT 2 (Quádrupla Forte com La Liga e Brasileirão)",
+          "multiplier": 2.22,
           "legs": [
-            "Real Madrid x Sevilla: Real Madrid Vence (@1.26) [HIT 4x1]",
-            "Juventus x Lazio: Juventus ou Empate (1X @1.22) [MISS 0x3]",
-            "Grêmio x Cruzeiro: Cruzeiro ou Empate (X2 @1.35) [HIT 2x4]",
-            "Fluminense x Santos: Mais de 1.5 Gols (@1.32) [HIT 1x2]"
+            "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45)",
+            "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14)",
+            "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18)",
+            "Corinthians x Vitória: Corinthians ou Empate (1X @1.14)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa com Noite de Brasileirão)",
-          "multiplier": 4.63,
+          "level": "STOP POINT 3 (Múltipla Completa com Serrinha e Neo Química Arena)",
+          "multiplier": 3.09,
           "legs": [
-            "Real Madrid x Sevilla: Real Madrid Vence (@1.26) [HIT 4x1]",
-            "Juventus x Lazio: Juventus ou Empate (1X @1.22) [MISS 0x3]",
-            "Grêmio x Cruzeiro: Cruzeiro ou Empate (X2 @1.35) [HIT 2x4]",
-            "Fluminense x Santos: Mais de 1.5 Gols (@1.32) [HIT 1x2]",
-            "Bahia x Flamengo: Mais de 1.5 Gols (@1.30) [HIT 0x3]",
-            "Remo x Red Bull Bragantino: Bragantino ou Empate (X2 @1.30) [HIT 0x1]"
+            "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45)",
+            "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14)",
+            "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18)",
+            "Corinthians x Vitória: Corinthians ou Empate (1X @1.14)",
+            "Goiás x Náutico: Goiás ou Empate (1X @1.18)",
+            "Corinthians x Vitória: Menos de 3.5 Gols no Jogo (@1.18)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada)",
       "type": "SAFE+",
-      "multiplier": 3.73,
-      "status": "MISS",
-      "missReason": "Jogo na Arena do Grêmio estourou a linha de gols (2x4)",
+      "multiplier": 3.63,
+      "status": "PENDING",
       "legs": [
-        "Real Madrid x Sevilla: Real Madrid -1.5 Handicap (@1.65) [HIT 4x1]",
-        "Grêmio x Cruzeiro: Cruzeiro ou Empate + Menos de 3.5 Gols (@1.52) [MISS 2x4]",
-        "Bahia x Flamengo: Flamengo ou Empate + Mais de 1.5 Gols (@1.49) [HIT 0x3]"
+        "Tottenham Hotspur x Coventry City: Tottenham -1.0 Handicap Asiático (@1.70)",
+        "SC Braga x Gil Vicente: SC Braga Vence (@1.62)",
+        "Corinthians x Vitória: Corinthians ou Empate + Menos de 3.5 Gols (@1.32)"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
       "type": "ATTACK",
-      "multiplier": 9.38,
-      "status": "MISS",
-      "missReason": "Bahia não marcou na Fonte Nova (0x3 Flamengo)",
+      "multiplier": 7.49,
+      "status": "PENDING",
       "legs": [
-        "Real Madrid x Sevilla: Real Madrid Vence + Mais de 2.5 Gols (@1.68) [HIT 4x1]",
-        "Fluminense x Santos: Ambos Marcam - Sim (@1.80) [HIT 1x2]",
-        "Bahia x Flamengo: Flamengo ou Empate + Ambos Marcam (@2.48) [MISS 0x3]"
+        "Tottenham Hotspur x Coventry City: Tottenham Vence + Mais de 2.5 Gols (@2.05)",
+        "SC Braga x Gil Vicente: SC Braga Vence + Menos de 3.5 Gols (@2.15)",
+        "Corinthians x Vitória: Corinthians Vence (@1.70)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO)",
       "type": "NETO",
-      "multiplier": 28.58,
-      "status": "HIT",
-      "notes": "🏆 BINGO HISTÓRICO NO FAS! 4 DE 4 ACERTOS CRAVADOS COM ODDS GIGANTESCAS!",
+      "multiplier": 29.20,
+      "status": "PENDING",
       "legs": [
-        "Real Madrid x Sevilla: Real Madrid Vence por 2+ Gols (-1.5 AH @1.65) [HIT 4x1]",
-        "Fluminense x Santos: Santos ou Empate & Ambos Marcam (@2.65) [HIT 1x2]",
-        "Bahia x Flamengo: Empate ou Flamengo & Mais de 2.5 Gols (@2.75) [HIT 0x3]",
-        "Remo x Red Bull Bragantino: Bragantino Vence (@2.38) [HIT 0x1]"
+        "Tottenham Hotspur x Coventry City: Tottenham Vence por 2+ Gols (-1.5 AH @2.15)",
+        "SC Braga x Gil Vicente: SC Braga Vence & Mais de 1.5 Gols (@2.00)",
+        "Goiás x Náutico: Goiás Vence (@1.78)",
+        "Corinthians x Vitória: Corinthians Vence + Menos de 3.5 Gols (@2.15)"
       ]
     }
   ]

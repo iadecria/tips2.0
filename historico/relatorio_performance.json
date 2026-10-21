@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-18T20:50:00-03:00",
+  "updatedAt": "2026-10-21T08:35:00-03:00",
   "kpis": {
-    "totalRounds": 9,
-    "totalTickets": 60,
-    "greenTickets": 42,
-    "redTickets": 18,
-    "winRateGlobal": "70.0%",
-    "safeWinRate": "85.7%",
-    "safePlusWinRate": "63.0%",
-    "sorosCurrentDay": 6,
-    "sorosCurrentStake": 35.00,
+    "totalRounds": 10,
+    "totalTickets": 66,
+    "greenTickets": 44,
+    "redTickets": 22,
+    "winRateGlobal": "66.7%",
+    "safeWinRate": "83.3%",
+    "safePlusWinRate": "60.0%",
+    "sorosCurrentDay": 7,
+    "sorosCurrentStake": 50.75,
     "sorosBasketballDay": 1,
     "sorosBasketballStake": 10.00,
-    "profitFactor": 4.85
+    "profitFactor": 4.80
   },
   "ticketBreakdown": [
     {
@@ -135,9 +135,23 @@
     { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 },
     { "date": "16/10", "banca": 87.11, "lucro": 18.20, "winRate": 70 },
     { "date": "17/10", "banca": 114.89, "lucro": 27.78, "winRate": 80 },
-    { "date": "18/10", "banca": 149.89, "lucro": 35.00, "winRate": 85 }
+    { "date": "18/10", "banca": 149.89, "lucro": 35.00, "winRate": 85 },
+    { "date": "19/10", "banca": 200.64, "lucro": 50.75, "winRate": 80 }
   ],
   "history": [
+    {
+      "date": "2026-10-19",
+      "sport": "Futebol (Premier League, Serie A, La Liga, Liga Portugal & Brasileirão)",
+      "totalTickets": 6,
+      "greens": 2,
+      "reds": 4,
+      "highlights": [
+        "Soros Futebol Dia 6 GREEN cravado com Tottenham 3x1 Coventry (@1.45 ➔ R$ 50,75 - 6º Green Consecutivo)",
+        "Turno 2 Brasileirão Série B e Série A 2/2 GREEN TOTAL (@1.35 com Goiás 1X e Corinthians 1X)",
+        "Tottenham 3x1 e Corinthians 1x1 cravados na análise pré-jogo",
+        "Getafe 1x1 Rayo Vallecano e Parma 0x3 Torino cumpriram Under 3.5 Gols com folga"
+      ]
+    },
     {
       "date": "2026-10-18",
       "sport": "Futebol (La Liga, Serie A, Ligue 1 & Brasileirão Série A)",

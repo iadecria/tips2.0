@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 35.00,
-  "currentDay": 6,
+  "currentStake": 50.75,
+  "currentDay": 7,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -107,6 +107,16 @@
       "potentialReturn": 35.00,
       "status": "HIT",
       "actualReturn": 35.00
+    },
+    {
+      "day": 6,
+      "date": "2026-10-19",
+      "stakeIn": 35.00,
+      "selection": "Tottenham Hotspur x Coventry City (Tottenham Vence / ML @1.45)",
+      "odd": 1.45,
+      "potentialReturn": 50.75,
+      "status": "HIT",
+      "actualReturn": 50.75
     }
   ]
 }

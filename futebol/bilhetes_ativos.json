@@ -1,154 +1,154 @@
 {
-  "date": "2026-10-21",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-21_V1_CHAMPIONS_LIBERTADORES",
+  "date": "2026-10-22",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-22_V1_EUROPA_CONFERENCE_SEMIS",
   "status": "PENDING",
-  "notes": "Grade 100% calibrada no padrão Clean Parlay Universal (1 aposta única por partida). Super quarta-feira europeia (Champions League Fase de Liga) e semifinais continentais da Copa Libertadores e Copa Sul-Americana.",
+  "notes": "Super quinta-feira de UEFA Europa League (3ª Rodada), UEFA Conference League (2ª Rodada) e semifinais da Copa Sul-Americana (Corinthians x Racing) e Copa Libertadores (Botafogo x Peñarol). Arquitetura Clean Parlay Universal com 1 seleção por jogo para liquidação antecipada e compatibilidade máxima.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (UEFA Champions League, Libertadores & Sul-Americana)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Europa League, Conference & Semifinais Continentais)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.81,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas distintas de altíssima convicção (1 seleção por jogo), divididas em 3 Turnos de Horário com liquidação antecipada.",
+    "multiplierGlobal": 4.51,
+    "philosophy": "Arquitetura Clean Parlay: 10 partidas distintas de altíssima convicção técnica (1 seleção por jogo), distribuídas estrategicamente em 3 Turnos de Horário.",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:45 - 15:00 BRT)",
-        "multiplier": 1.82,
-        "notes": "Abertura da Champions League com Como x Man United e Lille x Galatasaray em busca de gols, somado à contenção defensiva de Levante x Athletic Bilbao.",
+        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:45 BRT)",
+        "multiplier": 1.56,
+        "notes": "Domínio técnico de Frankfurt e Roma em seus domínios somado à busca de gols do Chelsea na Grécia diante do Panathinaikos.",
         "legs": [
-          "Como x Manchester United: Mais de 1.5 Gols no Jogo (@1.22)",
-          "Lille x Galatasaray: Mais de 1.5 Gols no Jogo (@1.24)",
-          "Levante x Athletic Bilbao: Menos de 3.5 Gols no Jogo (@1.20)"
+          "Eintracht Frankfurt x RFS: Eintracht Frankfurt ou Empate (Dupla Chance 1X @1.12)",
+          "AS Roma x Dynamo Kyiv: AS Roma ou Empate (Dupla Chance 1X @1.14)",
+          "Panathinaikos x Chelsea: Mais de 1.5 Gols no Jogo (@1.22)"
         ]
       },
       {
-        "clusterName": "🏰 TURNO 2 — TARDE CHAMPIONS LEAGUE (16:00 BRT)",
-        "multiplier": 2.25,
-        "notes": "Força do Real Madrid no Bernabéu, imposição do Aston Villa e Sporting em seus domínios, gols no clássico Bayern x Arsenal e favoritismo do Betis.",
+        "clusterName": "🏰 TURNO 2 — TARDE EUROPA LEAGUE ELITE (16:00 BRT)",
+        "multiplier": 2.19,
+        "notes": "Força caseira do Tottenham em Londres e do Bilbao em San Mamés, jogo franco com gols no Dragão (Porto x Hoffenheim) e no Caldeirão de Istambul (Mourinho x Man United) e solidez do Betis em Sevilha.",
         "legs": [
-          "Real Madrid x RB Leipzig: Real Madrid ou Empate (Dupla Chance 1X @1.12)",
-          "Aston Villa x Viking: Aston Villa Vence (ML @1.24)",
-          "Sporting CP x LASK Linz: Sporting CP Vence (ML @1.22)",
-          "Bayern de Munique x Arsenal: Mais de 1.5 Gols no Jogo (@1.20)",
-          "Real Betis x Feyenoord: Real Betis ou Empate (Dupla Chance 1X @1.18)"
+          "Tottenham Hotspur x AZ Alkmaar: Tottenham Hotspur ou Empate (Dupla Chance 1X @1.12)",
+          "FC Porto x TSG Hoffenheim: Mais de 1.5 Gols no Jogo (@1.20)",
+          "Athletic Bilbao x Slavia Praga: Athletic Bilbao ou Empate (Dupla Chance 1X @1.16)",
+          "Fenerbahçe x Manchester United: Mais de 1.5 Gols no Jogo (@1.22)",
+          "Real Betis x FC Copenhague: Real Betis ou Empate (Dupla Chance 1X @1.15)"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE CONTINENTAL / DECISÕES (19:00 - 21:30 BRT)",
-        "multiplier": 1.42,
-        "notes": "Galo administrando a vantagem de 3 gols no Uruguai e Palmeiras decidindo no Allianz Parque diante do Fluminense.",
+        "clusterName": "🌙 TURNO 3 — NOITE CONTINENTAL / DECISÕES (21:30 BRT)",
+        "multiplier": 1.32,
+        "notes": "Caldeirão na Neo Química Arena com Timão invicto em casa em mata-matas e Botafogo de Artur Jorge em fase avassaladora no Nilton Santos.",
         "legs": [
-          "Montevideo City Torque x Atlético-MG: Atlético-MG ou Empate (Dupla Chance X2 @1.22)",
-          "Palmeiras x Fluminense: Palmeiras ou Empate (Dupla Chance 1X @1.16)"
+          "Corinthians x Racing Club: Corinthians ou Empate (Dupla Chance 1X @1.18)",
+          "Botafogo x Peñarol: Botafogo ou Empate (Dupla Chance 1X @1.12)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Como x Manchester United (13:45 BRT)",
+        "match": "Eintracht Frankfurt x RFS (13:45 BRT)",
         "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.22,
-        "status": "PENDING"
-      },
-      {
-        "match": "Lille x Galatasaray (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.24,
-        "status": "PENDING"
-      },
-      {
-        "match": "Levante x Athletic Bilbao (15:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
-        "match": "Real Madrid x RB Leipzig (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Real Madrid ou Empate (1X)",
+        "market": "Eintracht Frankfurt ou Empate (1X)",
         "odd": 1.12,
         "status": "PENDING"
       },
       {
-        "match": "Aston Villa x Viking (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Aston Villa Vence (1)",
-        "odd": 1.24,
+        "match": "AS Roma x Dynamo Kyiv (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "AS Roma ou Empate (1X)",
+        "odd": 1.14,
         "status": "PENDING"
       },
       {
-        "match": "Sporting CP x LASK Linz (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Sporting CP Vence (1)",
+        "match": "Panathinaikos x Chelsea (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.22,
         "status": "PENDING"
       },
       {
-        "match": "Bayern de Munique x Arsenal (16:00 BRT)",
+        "match": "Tottenham Hotspur x AZ Alkmaar (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Tottenham Hotspur ou Empate (1X)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "FC Porto x TSG Hoffenheim (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.20,
         "status": "PENDING"
       },
       {
-        "match": "Real Betis x Feyenoord (16:00 BRT)",
+        "match": "Athletic Bilbao x Slavia Praga (16:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Real Betis ou Empate (1X)",
-        "odd": 1.18,
+        "market": "Athletic Bilbao ou Empate (1X)",
+        "odd": 1.16,
         "status": "PENDING"
       },
       {
-        "match": "Montevideo City Torque x Atlético-MG (19:00 BRT)",
-        "cluster": "Turno 3",
-        "market": "Atlético-MG ou Empate (X2)",
+        "match": "Fenerbahçe x Manchester United (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.22,
         "status": "PENDING"
       },
       {
-        "match": "Palmeiras x Fluminense (21:30 BRT)",
+        "match": "Real Betis x FC Copenhague (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Real Betis ou Empate (1X)",
+        "odd": 1.15,
+        "status": "PENDING"
+      },
+      {
+        "match": "Corinthians x Racing Club (21:30 BRT)",
         "cluster": "Turno 3",
-        "market": "Palmeiras ou Empate (1X)",
-        "odd": 1.16,
+        "market": "Corinthians ou Empate (1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Botafogo x Peñarol (21:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "Botafogo ou Empate (1X)",
+        "odd": 1.12,
         "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 7,
-    "stake": 50.75,
-    "multiplier": 1.39,
-    "potentialReturn": 70.54,
+    "day": 8,
+    "stake": 70.54,
+    "multiplier": 1.37,
+    "potentialReturn": 96.64,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 7 de 30 (Pinnacle/Melbet Oficial): Dupla Blindada Europeia espelhando Stop Point 1 SAFE — Aston Villa Vence (ML @1.24) no Villa Park diante do modesto Viking norueguês + Real Madrid ou Empate (1X @1.12) no Santiago Bernabéu contra o fragilizado RB Leipzig.",
+    "notes": "Modelo Sniper Dia 8 de 30 (Pinnacle/Melbet Oficial): Dupla Blindada Europa League — Tottenham Hotspur ou Empate (1X @1.12) no Tottenham Hotspur Stadium + Eintracht Frankfurt Vence (ML @1.22) no Deutsche Bank Park. Odd combinada @1.37. Meta: R$ 96,64 rumo ao Dia 9.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Aston Villa x Viking + Real Madrid x RB Leipzig",
-        "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Aston Villa Vence (@1.24) + Real Madrid 1X (@1.12)",
-        "odd": 1.39,
-        "stake": 50.75,
-        "potentialReturn": 70.54,
+        "match": "Tottenham Hotspur x AZ Alkmaar + Eintracht Frankfurt x RFS",
+        "competition": "UEFA Europa League (13:45 / 16:00 BRT)",
+        "market": "Tottenham 1X (@1.12) + Eintracht Frankfurt Vence (@1.22)",
+        "odd": 1.37,
+        "stake": 70.54,
+        "potentialReturn": 96.64,
         "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Unai Emery conta com força máxima em casa diante de equipe nórdica em nível inferior; Real Madrid tem 100% de vitórias no Bernabéu e Leipzig vem de goleada sofrida por 6x1."
+        "analysis": "Tottenham ostenta enorme superioridade física e técnica em Londres, enquanto o Frankfurt no Deutsche Bank Park tem volume ofensivo implacável contra o modesto RFS da Letônia."
       }
     ],
     "selections": [
       {
-        "match": "Aston Villa x Viking",
-        "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Aston Villa Vence (1)",
-        "odd": 1.24,
+        "match": "Eintracht Frankfurt x RFS",
+        "competition": "UEFA Europa League (13:45 BRT)",
+        "market": "Eintracht Frankfurt Vence (1)",
+        "odd": 1.22,
         "status": "PENDING"
       },
       {
-        "match": "Real Madrid x RB Leipzig",
-        "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Real Madrid ou Empate (1X)",
+        "match": "Tottenham Hotspur x AZ Alkmaar",
+        "competition": "UEFA Europa League (16:00 BRT)",
+        "market": "Tottenham Hotspur ou Empate (1X)",
         "odd": 1.12,
         "status": "PENDING"
       }
@@ -162,35 +162,38 @@
       "notes": "100% de jogos distintos em cada Stop Point. Aceito sem restrições em qualquer casa (Pinnacle, Bet365, Betano, Melbet).",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Blindada — Tarde Champions League)",
-          "multiplier": 1.39,
+          "level": "STOP POINT 1 (Dupla Âncora Blindada — Europa League)",
+          "multiplier": 1.37,
           "legs": [
-            "Aston Villa x Viking: Aston Villa Vence (@1.24)",
-            "Real Madrid x RB Leipzig: Real Madrid ou Empate (1X @1.12)"
+            "Eintracht Frankfurt x RFS: Eintracht Frankfurt Vence (@1.22)",
+            "Tottenham Hotspur x AZ Alkmaar: Tottenham Hotspur ou Empate (1X @1.12)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte de Champions League)",
-          "multiplier": 2.03,
+          "level": "STOP POINT 2 (Quíntupla Forte Europeia — Almoço e Tarde)",
+          "multiplier": 1.96,
           "legs": [
-            "Aston Villa x Viking: Aston Villa Vence (@1.24)",
-            "Real Madrid x RB Leipzig: Real Madrid ou Empate (1X @1.12)",
-            "Sporting CP x LASK Linz: Sporting CP Vence (@1.22)",
-            "Bayern de Munique x Arsenal: Mais de 1.5 Gols no Jogo (@1.20)"
+            "Eintracht Frankfurt x RFS: Eintracht Frankfurt Vence (@1.22)",
+            "Tottenham Hotspur x AZ Alkmaar: Tottenham Hotspur ou Empate (1X @1.12)",
+            "AS Roma x Dynamo Kyiv: AS Roma ou Empate (1X @1.14)",
+            "FC Porto x TSG Hoffenheim: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Panathinaikos x Chelsea: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
           "status": "PENDING"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa com Semifinais Continentais)",
-          "multiplier": 2.87,
+          "multiplier": 3.05,
           "legs": [
-            "Aston Villa x Viking: Aston Villa Vence (@1.24)",
-            "Real Madrid x RB Leipzig: Real Madrid ou Empate (1X @1.12)",
-            "Sporting CP x LASK Linz: Sporting CP Vence (@1.22)",
-            "Bayern de Munique x Arsenal: Mais de 1.5 Gols no Jogo (@1.20)",
-            "Montevideo City Torque x Atlético-MG: Atlético-MG ou Empate (X2 @1.22)",
-            "Palmeiras x Fluminense: Palmeiras ou Empate (1X @1.16)"
+            "Eintracht Frankfurt x RFS: Eintracht Frankfurt Vence (@1.22)",
+            "Tottenham Hotspur x AZ Alkmaar: Tottenham Hotspur ou Empate (1X @1.12)",
+            "AS Roma x Dynamo Kyiv: AS Roma ou Empate (1X @1.14)",
+            "FC Porto x TSG Hoffenheim: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Panathinaikos x Chelsea: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Athletic Bilbao x Slavia Praga: Athletic Bilbao ou Empate (1X @1.16)",
+            "Corinthians x Racing Club: Corinthians ou Empate (1X @1.18)",
+            "Botafogo x Peñarol: Botafogo ou Empate (1X @1.12)"
           ],
           "status": "PENDING"
         }
@@ -199,37 +202,37 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos Distintos)",
       "type": "SAFE+",
-      "multiplier": 3.61,
+      "multiplier": 3.23,
       "status": "PENDING",
       "legs": [
-        "Real Madrid x RB Leipzig: Real Madrid Vence (ML @1.35)",
-        "Sporting CP x LASK Linz: Sporting -1.5 Handicap Asiático (@1.62)",
-        "Palmeiras x Fluminense: Palmeiras Vence (ML @1.65)"
+        "Tottenham Hotspur x AZ Alkmaar: Tottenham Hotspur Vence (ML @1.38)",
+        "Eintracht Frankfurt x RFS: Eintracht Frankfurt -1.5 Handicap Asiático (@1.65)",
+        "Botafogo x Peñarol: Botafogo Vence (ML @1.42)"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 4 Jogos Distintos)",
       "type": "ATTACK",
-      "multiplier": 6.36,
+      "multiplier": 7.47,
       "status": "PENDING",
       "legs": [
-        "Bayern de Munique x Arsenal: Ambos Marcam - Sim (@1.55)",
-        "Real Madrid x RB Leipzig: Real Madrid Vence + Mais de 2.5 Gols (@1.85)",
-        "Lille x Galatasaray: Ambos Marcam - Sim (@1.68)",
-        "Palmeiras x Fluminense: Mais de 1.5 Gols no Jogo (@1.32)"
+        "Fenerbahçe x Manchester United: Ambos Marcam - Sim (@1.62)",
+        "FC Porto x TSG Hoffenheim: Porto Vence + Mais de 1.5 Gols (@1.78)",
+        "Panathinaikos x Chelsea: Chelsea Vence + Mais de 1.5 Gols (@1.75)",
+        "Corinthians x Racing Club: Corinthians ou Empate + Menos de 3.5 Gols (@1.48)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos Distintos)",
       "type": "NETO",
-      "multiplier": 27.08,
+      "multiplier": 23.79,
       "status": "PENDING",
       "notes": "4 partidas de alto valor e assimetria técnica para retorno esticado.",
       "legs": [
-        "Real Madrid x RB Leipzig: Real Madrid Vence por 2+ Gols (-1.5 AH @1.85)",
-        "Bayern de Munique x Arsenal: Bayern Vence + Ambos Marcam (@3.40)",
-        "Sporting CP x LASK Linz: Sporting Vence nos Dois Tempos (@2.10)",
-        "Palmeiras x Fluminense: Palmeiras Vence + Menos de 3.5 Gols (@2.05)"
+        "Eintracht Frankfurt x RFS: Frankfurt Vence por 3+ Gols (-2.0 AH @2.25)",
+        "Tottenham Hotspur x AZ Alkmaar: Tottenham Vence por 2+ Gols (-1.5 AH @2.05)",
+        "Fenerbahçe x Manchester United: Empate ou Man United + Ambos Marcam (@2.15)",
+        "Botafogo x Peñarol: Botafogo Vence por 2+ Gols (-1.5 AH @2.40)"
       ]
     }
   ]

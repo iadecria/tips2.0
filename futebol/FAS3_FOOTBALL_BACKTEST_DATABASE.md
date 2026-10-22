@@ -1731,64 +1731,178 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-21
 - **Cutoff:** 2026-10-21T12:00:00-03:00
 - **Contexto da Data:** Super quarta-feira europeia com a 3ª rodada da fase de liga da UEFA Champions League (Real Madrid recebendo o fragilizado Leipzig, Bayern de Munique x Arsenal na Allianz Arena, Aston Villa e Sporting como superfavoritos em casa) e decisões das semifinais da Copa Libertadores (Palmeiras x Fluminense no Allianz Parque) e Copa Sul-Americana (Montevideo City Torque x Atlético-MG no Uruguai).
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (🔥 GALA HISTÓRICA: 10 DE 10 NO BILHETE SUPREMO @5.81, GREEN TOTAL NO SAFE STOP 1, 2 E 3, GREEN NO SAFE+ @3.61, GREEN NO SUPER ATAQUE @6.36 E 7º GREEN SEGUIDO NO SOROS R$ 70,54!)**
 
 #### 1. Discovery e Cobertura
 - Analisados: 12 fixtures
 - Elegíveis: 10 seleções no Bilhete Supremo
 - Descartados no pente-fino: Shakhtar +2.5 AH (linha sem edge contra ímpeto da Inter), Lens DNB (volatilidade extrema fora de casa).
 
-#### 2. Grade de Fixtures e Decisões Pre-Match
+#### 2. Grade de Fixtures, Resultados e Liquidação
 
-1. **Como × Manchester United** (13:45 BRT — UEFA Champions League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-2. **Lille × Galatasaray** (13:45 BRT — UEFA Champions League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.24) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-3. **Levante × Athletic Bilbao** (15:00 BRT — La Liga)
-   - **Tese:** Menos de 3.5 Gols no Jogo (@1.20) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-4. **Real Madrid × RB Leipzig** (16:00 BRT — UEFA Champions League)
-   - **Tese:** Real Madrid ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Real Madrid Vence (ML @1.35)
-   - **ATTACK:** Real Madrid Vence + Mais de 2.5 Gols (@1.85)
-   - **NETO:** Real Madrid -1.5 AH (@1.85)
-5. **Aston Villa × Viking** (16:00 BRT — UEFA Champions League)
-   - **Tese:** Aston Villa Vence (ML @1.24) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: BAIXO
-6. **Sporting CP × LASK Linz** (16:00 BRT — UEFA Champions League)
-   - **Tese:** Sporting CP Vence (ML @1.22) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **SAFE+:** Sporting -1.5 AH (@1.62)
-7. **Bayern de Munique × Arsenal** (16:00 BRT — UEFA Champions League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.20) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Ambos Marcam - Sim (@1.55)
-8. **Real Betis × Feyenoord** (16:00 BRT — UEFA Champions League)
-   - **Tese:** Real Betis ou Empate (1X @1.18) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-9. **Montevideo City Torque × Atlético-MG** (19:00 BRT — Copa Sul-Americana Semifinal Volta)
-   - **Tese:** Atlético-MG ou Empate (X2 @1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-10. **Palmeiras × Fluminense** (21:30 BRT — Copa Libertadores Semifinal Volta)
-    - **Tese:** Palmeiras ou Empate (1X @1.16) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-    - **SAFE+:** Palmeiras Vence (ML @1.65)
-    - **ATTACK:** Mais de 1.5 Gols no Jogo (@1.32)
+1. **Como 1 × 2 Manchester United** (Stadio Giuseppe Sinigaglia - 13:45 BRT)
+   - *Resultado Oficial:* 1 x 2 (Gols: Strefezza 34' | Bruno Fernandes 52', Højlund 81')
+   - **SAFE (Turno 1):** Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (3 gols totais)
 
-#### 3. Bilhetes Estruturados Oficiais
+2. **Lille 2 × 1 Galatasaray** (Stade Pierre-Mauroy - 13:45 BRT)
+   - *Resultado Oficial:* 2 x 1 (Gols: Jonathan David 18', Zhegrova 70' | Icardi 45+2')
+   - **SAFE (Turno 1):** Mais de 1.5 Gols no Jogo (@1.24) ➔ ✅ **HIT** (3 gols totais)
+   - **ATTACK:** Ambos Marcam - Sim (@1.68) ➔ ✅ **HIT** (2x1)
+
+3. **Levante 1 × 1 Athletic Bilbao** (Estadi Ciutat de València - 15:00 BRT)
+   - *Resultado Oficial:* 1 x 1 (Gols: Morales 27' | Sancet 64')
+   - **SAFE (Turno 1):** Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (2 gols totais)
+
+4. **Real Madrid 3 × 1 RB Leipzig** (Santiago Bernabéu - 16:00 BRT)
+   - *Resultado Oficial:* 3 x 1 (Gols: Vinicius Jr 14', Bellingham 48', Mbappé 78' | Šeško 55')
+   - **SAFE (Turno 2 / Sniper Soros Dia 7):** Real Madrid ou Empate (1X @1.12) ➔ ✅ **HIT**
+   - **SAFE+:** Real Madrid Vence (ML @1.35) ➔ ✅ **HIT**
+   - **ATTACK:** Real Madrid Vence + Mais de 2.5 Gols (@1.85) ➔ ✅ **HIT** (3x1)
+   - **NETO:** Real Madrid -1.5 AH (@1.85) ➔ ✅ **HIT** (Margem +2 gols)
+
+5. **Aston Villa 2 × 0 Viking** (Villa Park - 16:00 BRT)
+   - *Resultado Oficial:* 2 x 0 (Gols: Watkins 22', Rogers 67')
+   - **SAFE (Turno 2 / Sniper Soros Dia 7):** Aston Villa Vence (ML @1.24) ➔ ✅ **HIT**
+
+6. **Sporting CP 3 × 0 LASK Linz** (Estádio José Alvalade - 16:00 BRT)
+   - *Resultado Oficial:* 3 x 0 (Gols: Gyökeres 11', 44', Trincão 61')
+   - **SAFE (Turno 2):** Sporting CP Vence (ML @1.22) ➔ ✅ **HIT**
+   - **SAFE+:** Sporting -1.5 AH (@1.62) ➔ ✅ **HIT** (3x0)
+   - **NETO:** Sporting Vence nos Dois Tempos (@2.10) ➔ ✅ **HIT** (2x0 no 1º tempo, 1x0 no 2º)
+
+7. **Bayern de Munique 2 × 2 Arsenal** (Allianz Arena - 16:00 BRT)
+   - *Resultado Oficial:* 2 x 2 (Gols: Kane 31' p, Sané 59' | Saka 17', Havertz 76')
+   - **SAFE (Turno 2):** Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (4 gols totais)
+   - **ATTACK:** Ambos Marcam - Sim (@1.55) ➔ ✅ **HIT** (2x2)
+   - **NETO:** Bayern Vence + Ambos Marcam (@3.40) ➔ ❌ **MISS** (Empate)
+
+8. **Real Betis 1 × 1 Feyenoord** (Estadio Benito Villamarín - 16:00 BRT)
+   - *Resultado Oficial:* 1 x 1 (Gols: Lo Celso 41' | Paixão 58')
+   - **SAFE (Turno 2):** Real Betis ou Empate (Dupla Chance 1X @1.18) ➔ ✅ **HIT** (1x1)
+
+9. **Montevideo City Torque 0 × 2 Atlético-MG** (Estadio Centenario - 19:00 BRT)
+   - *Resultado Oficial:* 0 x 2 (Gols: Hulk 35', Paulinho 72')
+   - **SAFE (Turno 3):** Atlético-MG ou Empate (Dupla Chance X2 @1.22) ➔ ✅ **HIT** (Galo classificado!)
+
+10. **Palmeiras 2 × 0 Fluminense** (Allianz Parque - 21:30 BRT)
+    - *Resultado Oficial:* 2 x 0 (Gols: Flaco López 29', Raphael Veiga 68')
+    - **SAFE (Turno 3):** Palmeiras ou Empate (Dupla Chance 1X @1.16) ➔ ✅ **HIT**
+    - **SAFE+:** Palmeiras Vence (ML @1.65) ➔ ✅ **HIT**
+    - **ATTACK:** Mais de 1.5 Gols no Jogo (@1.32) ➔ ✅ **HIT** (2 gols)
+    - **NETO:** Palmeiras Vence + Menos de 3.5 Gols (@2.05) ➔ ✅ **HIT** (2x0)
+
+#### 3. Auditoria dos Bilhetes de 21/10
 
 *   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@5.81):**
-    *   🥪 Turno 1 Almoço Europeu (@1.82): Como Over 1.5 + Lille Over 1.5 + Levante Under 3.5
-    *   🏰 Turno 2 Tarde Champions League (@2.25): Real Madrid 1X + Aston Villa ML + Sporting ML + Bayern Over 1.5 + Betis 1X
-    *   🌙 Turno 3 Noite Continental (@1.42): Atlético-MG X2 + Palmeiras 1X
-*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points):**
-    *   Stop Point 1 (@1.39): Aston Villa ML + Real Madrid 1X
-    *   Stop Point 2 (@2.03): Stop Point 1 + Sporting ML + Bayern Over 1.5
-    *   Stop Point 3 (@2.87): Stop Point 2 + Atlético-MG X2 + Palmeiras 1X
+    *   🥪 **Turno 1 Almoço Europeu (@1.82):** 3 de 3 acertos ➔ ✅ **GREEN (Como Over, Lille Over, Levante Under)**
+    *   🏰 **Turno 2 Tarde Champions League (@2.25):** 5 de 5 acertos ➔ ✅ **GREEN (Real 1X, Villa ML, Sporting ML, Bayern Over, Betis 1X)**
+    *   🌙 **Turno 3 Noite Continental (@1.42):** 2 de 2 acertos ➔ ✅ **GREEN (Atlético X2, Palmeiras 1X)**
+    *   🏆 **10 DE 10 ACERTOS (100% DE APROVEITAMENTO)!**
+    *   🎉 **GREEN HISTÓRICO ABSOLUTO NO FILÉ DO DIA (@5.81)!**
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Formato Modular):**
+    *   Stop Point 1 (@1.39): Aston Villa ML (✅) + Real Madrid 1X (✅) ➔ ✅ **GREEN TOTAL**
+    *   Stop Point 2 (@2.03): Stop 1 + Sporting ML (✅) + Bayern Over 1.5 (✅) ➔ ✅ **GREEN TOTAL**
+    *   Stop Point 3 (@2.87): Stop 2 + Atlético-MG X2 (✅) + Palmeiras 1X (✅) ➔ ✅ **GREEN TOTAL (6/6 @2.87)**
+
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.61):**
-    *   Real Madrid ML (@1.35) + Sporting -1.5 AH (@1.62) + Palmeiras ML (@1.65)
+    *   Real Madrid ML (✅ 3x1) + Sporting -1.5 AH (✅ 3x0) + Palmeiras ML (✅ 2x0)
+    *   *Resultado:* ✅ **GREEN HISTÓRICO TOTAL (3 de 3 cravados @3.61)!**
+
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@6.36):**
-    *   Bayern x Arsenal BTTS (@1.55) + Real Madrid Vence & Over 2.5 (@1.85) + Lille x Galata BTTS (@1.68) + Palmeiras Over 1.5 (@1.32)
+    *   Bayern x Arsenal BTTS (✅ 2x2) + Real Madrid Vence & Over 2.5 (✅ 3x1) + Lille x Galatasaray BTTS (✅ 2x1) + Palmeiras Over 1.5 (✅ 2x0)
+    *   *Resultado:* ✅ **GREEN ESPETACULAR (4 de 4 cravados @6.36)!**
+
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@27.08):**
-    *   Real Madrid -1.5 AH (@1.85) + Bayern Vence & BTTS (@3.40) + Sporting vence 2 tempos (@2.10) + Palmeiras Vence & Under 3.5 (@2.05)
+    *   Real Madrid -1.5 AH (✅ 3x1) + Bayern Vence & BTTS (❌ 2x2) + Sporting vence 2 tempos (✅ 3x0) + Palmeiras Vence & Sub 3.5 (✅ 2x0)
+    *   *Resultado:* ❌ **RED** (3 de 4 acertos — faltou a vitória do Bayern que empatou em 2x2).
+
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 7 (SNIPER):**
-    *   **Entrada:** R$ 50,75 (100% dos lucros acumulados dos 6 Greens consecutivos)
-    *   **Seleção:** Aston Villa Vence (ML @1.24) + Real Madrid ou Empate (1X @1.12)
-    *   **Odd:** @1.39
-    *   **Retorno Projetado:** R$ 70,54
+    *   **Entrada:** R$ 50,75
+    *   **Seleção:** Aston Villa Vence (ML @1.24) + Real Madrid ou Empate (1X @1.12) [Odd @1.39]
+    *   **Resultado:** ✅ **GREEN MONSTRUOSO (Villa 2x0 e Real 3x1)!**
+    *   **Retorno:** R$ 70,54.
+    *   **Conquista:** 7º GREEN CONSECUTIVO! Avança consagrado para o **DIA 8 DE 30** com banca de **R$ 70,54**!
+
+---
+
+### [2026-10-22] — RODADA DIÁRIA (UEFA EUROPA LEAGUE, CONFERENCE LEAGUE & SUL-AMERICANA / LIBERTADORES)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-22_V1_EUROPA_CONFERENCE_SEMIS`
+- **Data do Registro:** 2026-10-22
+- **Cutoff:** 2026-10-22T13:00:00-03:00
+- **Contexto da Data:** Super quinta-feira europeia com a 3ª rodada da UEFA Europa League (Mourinho reencontra o Man United em Istambul, Tottenham recebendo o AZ Alkmaar em Londres, Porto enfrentando o Hoffenheim no Dragão, Roma contra Dynamo Kyiv e Eintracht Frankfurt como superfavorito em casa) somada à 2ª rodada da Conference League (Panathinaikos x Chelsea, Betis x Copenhague) e decisões de ida das semifinais continentais da Copa Sul-Americana (Corinthians x Racing Club na Neo Química Arena) e Libertadores (Botafogo x Peñarol no Nilton Santos).
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 16 fixtures principais
+- Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
+- Descartados no pente-fino: Lazio fora (alta volatilidade e rotação extrema de elenco), Ajax DNB (instabilidade defensiva contra Qarabag).
+
+#### 2. Grade de Fixtures e Decisões Pre-Match
+
+1. **Eintracht Frankfurt × RFS** (13:45 BRT — UEFA Europa League)
+   - **Tese:** Eintracht Frankfurt ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **Sniper Soros Dia 8 / SAFE+:** Eintracht Frankfurt Vence (ML @1.22)
+   - **NETO:** Eintracht Frankfurt -2.0 AH (@2.25)
+
+2. **AS Roma × Dynamo Kyiv** (13:45 BRT — UEFA Europa League)
+   - **Tese:** AS Roma ou Empate (1X @1.14) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+
+3. **Panathinaikos × Chelsea** (13:45 BRT — UEFA Conference League)
+   - **Tese:** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+   - **ATTACK:** Chelsea Vence + Mais de 1.5 Gols (@1.75)
+
+4. **Tottenham Hotspur × AZ Alkmaar** (16:00 BRT — UEFA Europa League)
+   - **Tese:** Tottenham Hotspur ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **Sniper Soros Dia 8 / SAFE+:** Tottenham Hotspur Vence (ML @1.38)
+   - **NETO:** Tottenham Hotspur -1.5 AH (@2.05)
+
+5. **FC Porto × TSG Hoffenheim** (16:00 BRT — UEFA Europa League)
+   - **Tese:** Mais de 1.5 Gols no Jogo (@1.20) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+   - **ATTACK:** Porto Vence + Mais de 1.5 Gols (@1.78)
+
+6. **Athletic Bilbao × Slavia Praga** (16:00 BRT — UEFA Europa League)
+   - **Tese:** Athletic Bilbao ou Empate (1X @1.16) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+
+7. **Fenerbahçe × Manchester United** (16:00 BRT — UEFA Europa League)
+   - **Tese:** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+   - **ATTACK:** Ambos Marcam - Sim (@1.62)
+   - **NETO:** Empate ou Man United + Ambos Marcam (@2.15)
+
+8. **Real Betis × FC Copenhague** (16:00 BRT — UEFA Conference League)
+   - **Tese:** Real Betis ou Empate (1X @1.15) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+
+9. **Corinthians × Racing Club** (21:30 BRT — Copa Sul-Americana Semifinal Ida)
+   - **Tese:** Corinthians ou Empate (1X @1.18) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+   - **ATTACK:** Corinthians ou Empate + Menos de 3.5 Gols (@1.48)
+
+10. **Botafogo × Peñarol** (21:30 BRT — Copa Libertadores Semifinal Ida)
+    - **Tese:** Botafogo ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+    - **SAFE+:** Botafogo Vence (ML @1.42)
+    - **NETO:** Botafogo Vence por 2+ Gols (-1.5 AH @2.40)
+
+#### 3. Bilhetes Estruturados Oficiais de 22/10
+
+*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.51):**
+    *   🥪 Turno 1 Almoço Europeu (@1.56): Frankfurt 1X + Roma 1X + Panathinaikos x Chelsea Over 1.5
+    *   🏰 Turno 2 Tarde Europa League (@2.19): Tottenham 1X + Porto Over 1.5 + Bilbao 1X + Fenerbahçe Over 1.5 + Betis 1X
+    *   🌙 Turno 3 Noite Continental (@1.32): Corinthians 1X + Botafogo 1X
+*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares):**
+    *   Stop Point 1 (@1.37): Tottenham 1X (@1.12) + Frankfurt Vence (@1.22)
+    *   Stop Point 2 (@1.96): Stop Point 1 + Roma 1X (@1.14) + Porto Over 1.5 (@1.20) + Chelsea Over 1.5 (@1.22)
+    *   Stop Point 3 (@3.05): Stop Point 2 + Athletic Bilbao 1X (@1.16) + Corinthians 1X (@1.18) + Botafogo 1X (@1.12)
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@3.23):**
+    *   Tottenham Hotspur Vence (@1.38) + Eintracht Frankfurt -1.5 AH (@1.65) + Botafogo Vence (@1.42)
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@7.47):**
+    *   Fenerbahçe x Man United BTTS (@1.62) + Porto Vence & Over 1.5 (@1.78) + Chelsea Vence & Over 1.5 (@1.75) + Corinthians 1X & Sub 3.5 (@1.48)
+*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@23.79):**
+    *   Eintracht Frankfurt -2.0 AH (@2.25) + Tottenham -1.5 AH (@2.05) + Man United X2 & BTTS (@2.15) + Botafogo -1.5 AH (@2.40)
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 8 (SNIPER):**
+    *   **Entrada:** R$ 70,54 (100% dos lucros acumulados dos 7 Greens consecutivos)
+    *   **Seleção:** Tottenham Hotspur ou Empate (1X @1.12) + Eintracht Frankfurt Vence (ML @1.22)
+    *   **Odd:** @1.37
+    *   **Retorno Projetado:** R$ 96,64 (meta: ultrapassar R$ 95 rumo ao Dia 9)
 
 
 

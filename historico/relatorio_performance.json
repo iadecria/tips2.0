@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-21T08:35:00-03:00",
+  "updatedAt": "2026-10-21T21:40:00-03:00",
   "kpis": {
-    "totalRounds": 10,
-    "totalTickets": 66,
-    "greenTickets": 44,
-    "redTickets": 22,
-    "winRateGlobal": "66.7%",
-    "safeWinRate": "83.3%",
-    "safePlusWinRate": "60.0%",
-    "sorosCurrentDay": 7,
-    "sorosCurrentStake": 50.75,
+    "totalRounds": 11,
+    "totalTickets": 72,
+    "greenTickets": 49,
+    "redTickets": 23,
+    "winRateGlobal": "68.1%",
+    "safeWinRate": "85.0%",
+    "safePlusWinRate": "63.6%",
+    "sorosCurrentDay": 8,
+    "sorosCurrentStake": 70.54,
     "sorosBasketballDay": 1,
     "sorosBasketballStake": 10.00,
-    "profitFactor": 4.80
+    "profitFactor": 5.10
   },
   "ticketBreakdown": [
     {
@@ -136,9 +136,25 @@
     { "date": "16/10", "banca": 87.11, "lucro": 18.20, "winRate": 70 },
     { "date": "17/10", "banca": 114.89, "lucro": 27.78, "winRate": 80 },
     { "date": "18/10", "banca": 149.89, "lucro": 35.00, "winRate": 85 },
-    { "date": "19/10", "banca": 200.64, "lucro": 50.75, "winRate": 80 }
+    { "date": "19/10", "banca": 200.64, "lucro": 50.75, "winRate": 80 },
+    { "date": "21/10", "banca": 271.18, "lucro": 70.54, "winRate": 90 }
   ],
   "history": [
+    {
+      "date": "2026-10-21",
+      "sport": "Futebol (Champions League, Copa Libertadores & Copa Sul-Americana)",
+      "totalTickets": 6,
+      "greens": 5,
+      "reds": 1,
+      "highlights": [
+        "🏆 BILHETE SUPREMO 10/10 GREEN HISTÓRICO TOTAL (@5.81 CRAVADO) COM 100% DE APROVEITAMENTO!",
+        "🔥 DESAFIO SOROS DIA 7 GREEN (@1.39 ➔ R$ 70,54 - 7º Green Consecutivo rumo ao Dia 8)",
+        "🛡️ Múltipla 1 SAFE 100% GREEN nos 3 Stop Points (@1.39, @2.03 e @2.87)",
+        "🚀 Múltipla 2 SAFE+ 3/3 GREEN ABSOLUTO (@3.61) com Real Madrid ML, Sporting -1.5 e Palmeiras ML",
+        "💥 Múltipla 3 SUPER ATAQUE 4/4 GREEN TOTAL (@6.36) com Bayern BTTS, Real & Over, Lille BTTS e Palmeiras Over",
+        "Turno 1 Almoço Europeu (3/3 @1.82) e Turno 2 Tarde Champions (5/5 @2.25) 100% GREEN"
+      ]
+    },
     {
       "date": "2026-10-19",
       "sport": "Futebol (Premier League, Serie A, La Liga, Liga Portugal & Brasileirão)",

@@ -1,47 +1,55 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-22",
   "sport": "Basquete",
-  "snapshotId": "FAS_BASKETBALL_2026-10-18_V1",
-  "status": "WAITING_NEXT_ROUND",
-  "notes": "Encerramento da Pré-Temporada da NBA. Transição e calibração estatística para a Noite de Abertura da Temporada Regular NBA 2026/27.",
+  "snapshotId": "FAS_BASKETBALL_2026-10-22_V1_NBA_THURSDAY",
+  "status": "PENDING",
+  "notes": "Rodada de Quinta-feira da Temporada Regular NBA 2026/27. Aplicação estrita dos filtros de segurança: Spreads Elásticos Protegidos e Linhas Rebaixadas de Totais.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — BASQUETE (Radar Abertura NBA)",
+    "name": "⭐ BILHETE SUPREMO — BASQUETE (NBA Thursday Prime)",
     "type": "FILE_DO_DIA",
     "sport": "Basquete",
-    "multiplierGlobal": 3.85,
+    "multiplierGlobal": 2.53,
+    "philosophy": "3 seleções calibradas com Spreads Elásticos e Margem Segura de Pontuação para anular volatilidade de início de temporada.",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🏀 TURNO ÚNICO — RADAR ABERTURA NBA",
-        "multiplier": 3.85,
-        "notes": "Foco em Spreads Elásticos e Pontuação da Equipe na estreia da temporada regular.",
+        "clusterName": "🏀 TURNO 1 — PRIME TIME LESTE/OESTE (20:30 BRT)",
+        "multiplier": 1.86,
+        "notes": "Spreads elásticos para Bucks e linha de pontos rebaixada no clássico texano.",
         "legs": [
-          "Boston Celtics @ New York Knicks: Boston Celtics +6.5 Spread Protegido (@1.35)",
-          "Oklahoma City Thunder @ Denver Nuggets: Mais de 218.5 Pontos Totais (@1.40)",
-          "Los Angeles Lakers @ Golden State Warriors: Golden State Warriors Vence (@1.45)"
+          "Milwaukee Bucks @ Philadelphia 76ers: Milwaukee Bucks +5.5 Spread Protegido (@1.35)",
+          "San Antonio Spurs @ Dallas Mavericks: Mais de 218.5 Pontos Totais (@1.38)"
+        ]
+      },
+      {
+        "clusterName": "⚡ TURNO 2 — MADRUGADA DO OESTE (23:00 BRT)",
+        "multiplier": 1.36,
+        "notes": "Margem elástica para os Nuggets no confronto direto contra o Thunder.",
+        "legs": [
+          "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets +6.5 Spread Protegido (@1.36)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Boston Celtics @ New York Knicks (Abertura)",
+        "match": "Milwaukee Bucks @ Philadelphia 76ers (20:30 BRT)",
         "cluster": "Turno 1",
-        "market": "Boston Celtics +6.5 Spread Protegido",
+        "market": "Milwaukee Bucks +5.5 Spread Protegido",
         "odd": 1.35,
         "status": "PENDING"
       },
       {
-        "match": "Oklahoma City Thunder @ Denver Nuggets",
+        "match": "San Antonio Spurs @ Dallas Mavericks (20:30 BRT)",
         "cluster": "Turno 1",
         "market": "Mais de 218.5 Pontos Totais",
-        "odd": 1.40,
+        "odd": 1.38,
         "status": "PENDING"
       },
       {
-        "match": "Los Angeles Lakers @ Golden State Warriors",
-        "cluster": "Turno 1",
-        "market": "Golden State Warriors Vence (ML)",
-        "odd": 1.45,
+        "match": "Denver Nuggets @ Oklahoma City Thunder (23:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Denver Nuggets +6.5 Spread Protegido",
+        "odd": 1.36,
         "status": "PENDING"
       }
     ]
@@ -49,69 +57,92 @@
   "sorosTicket": {
     "day": 1,
     "stake": 10.00,
-    "multiplier": 1.35,
-    "potentialReturn": 13.50,
+    "multiplier": 1.45,
+    "potentialReturn": 14.50,
     "status": "PENDING",
-    "notes": "Desafio Soros Basquete — Reinício Ciclo 2 no Dia 1 de 30 com stake base de R$ 10,00 na Abertura Oficial da NBA.",
+    "notes": "Desafio Soros Basquete — Ciclo 2, Dia 1 de 30 com stake base de R$ 10,00. Entrada: Dallas Mavericks Vence (ML @1.45) no American Airlines Center.",
     "sniperOptions": [
       {
         "id": "sniper-b1",
-        "match": "Boston Celtics @ New York Knicks",
-        "competition": "NBA Regular Season",
-        "market": "Boston Celtics +6.5 Spread Protegido",
-        "odd": 1.35,
+        "match": "San Antonio Spurs @ Dallas Mavericks",
+        "competition": "NBA Regular Season (20:30 BRT)",
+        "market": "Dallas Mavericks Vence (ML)",
+        "odd": 1.45,
         "stake": 10.00,
-        "potentialReturn": 13.50,
+        "potentialReturn": 14.50,
         "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Margem elástica positiva com forte cobertura defensiva dos Celtics na estreia da temporada."
+        "analysis": "Mavericks contam com entrosamento e força em Dallas diante de Spurs em ajustes defensivos."
       }
     ],
     "selections": [
       {
-        "match": "Boston Celtics @ New York Knicks",
-        "competition": "NBA Regular Season",
-        "market": "Boston Celtics +6.5 Spread Protegido",
-        "odd": 1.35,
+        "match": "San Antonio Spurs @ Dallas Mavericks",
+        "competition": "NBA Regular Season (20:30 BRT)",
+        "market": "Dallas Mavericks Vence (ML)",
+        "odd": 1.45,
         "status": "PENDING"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE BASQUETE",
+      "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial NBA)",
       "type": "SAFE",
       "status": "PENDING",
+      "notes": "Stop points modulares com proteção máxima.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Blindada)",
-          "multiplier": 1.89,
+          "level": "STOP POINT 1 (Dupla Blindada Leste e Texas)",
+          "multiplier": 1.86,
           "legs": [
-            "Boston Celtics @ New York Knicks: Celtics +6.5 Spread Protegido (@1.35)",
-            "Oklahoma City Thunder @ Denver Nuggets: Mais de 218.5 Pontos (@1.40)"
+            "Milwaukee Bucks @ Philadelphia 76ers: Milwaukee Bucks +5.5 Spread Protegido (@1.35)",
+            "San Antonio Spurs @ Dallas Mavericks: Mais de 218.5 Pontos Totais (@1.38)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Tripla de Ouro)",
-          "multiplier": 2.74,
+          "level": "STOP POINT 2 (Tripla Completa NBA)",
+          "multiplier": 2.53,
           "legs": [
-            "Boston Celtics @ New York Knicks: Celtics +6.5 Spread Protegido (@1.35)",
-            "Oklahoma City Thunder @ Denver Nuggets: Mais de 218.5 Pontos (@1.40)",
-            "Los Angeles Lakers @ Golden State Warriors: Warriors Vence (@1.45)"
+            "Milwaukee Bucks @ Philadelphia 76ers: Milwaukee Bucks +5.5 Spread Protegido (@1.35)",
+            "San Antonio Spurs @ Dallas Mavericks: Mais de 218.5 Pontos Totais (@1.38)",
+            "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets +6.5 Spread Protegido (@1.36)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ BASQUETE",
+      "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Alavancagem Balanceada)",
       "type": "SAFE+",
-      "multiplier": 3.10,
+      "multiplier": 3.20,
       "status": "PENDING",
       "legs": [
-        "Boston Celtics @ New York Knicks: Boston Celtics Vence (ML @1.72)",
-        "Oklahoma City Thunder @ Denver Nuggets: Thunder +4.5 Spread (@1.80)"
+        "San Antonio Spurs @ Dallas Mavericks: Dallas Mavericks -3.5 Handicap (@1.75)",
+        "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets +3.5 Spread (@1.83)"
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (Combos de Valor)",
+      "type": "ATTACK",
+      "multiplier": 5.85,
+      "status": "PENDING",
+      "legs": [
+        "San Antonio Spurs @ Dallas Mavericks: Dallas Vence + Mais de 224.5 Pontos (@2.30)",
+        "Denver Nuggets @ Oklahoma City Thunder: Mais de 226.5 Pontos Totais (@2.54)"
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE (SUPER COMBO)",
+      "type": "NETO",
+      "multiplier": 12.80,
+      "status": "PENDING",
+      "notes": "3 partidas com handicaps asiáticos arrojados.",
+      "legs": [
+        "Milwaukee Bucks @ Philadelphia 76ers: Bucks Vence (ML @2.10)",
+        "San Antonio Spurs @ Dallas Mavericks: Dallas -7.5 Handicap (@2.45)",
+        "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets Vence (ML @2.48)"
       ]
     }
   ]

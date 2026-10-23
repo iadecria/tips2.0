@@ -1,154 +1,154 @@
 {
-  "date": "2026-10-22",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-22_V2_BETSTAR_OFFICIAL",
+  "date": "2026-10-23",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-23_V1_FRIDAY_LEAGUES",
   "status": "PENDING",
-  "notes": "Grade 100% calibrada e sincronizada diretamente com a grade oficial da Betstar (Liga Europa de Quinta-feira e Semifinais). Arquitetura Clean Parlay Universal com 1 seleção por jogo para liquidação antecipada e compatibilidade absoluta.",
+  "notes": "Rodada de Sexta-feira: Abertura das Grandes Ligas Europeias (Premier League, La Liga, Serie A, Bundesliga, Ligue 1 e Liga Portugal) combinada com a reta decisiva do Brasileirão Série B. Arquitetura Clean Parlay Universal com 1 seleção por jogo para máxima liquidez e liquidação antecipada.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Liga Europa & Semifinais Continentais — Betstar)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sexta-feira Europeia & Brasileirão Série B)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.85,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial da Betstar de altíssima convicção técnica (1 seleção por jogo), divididas em 3 Turnos de Horário.",
+    "multiplierGlobal": 4.21,
+    "philosophy": "Arquitetura Clean Parlay: 10 partidas de altíssima convicção técnica (1 seleção por jogo), divididas em 3 Turnos de Horário.",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:45 BRT)",
-        "multiplier": 1.95,
-        "notes": "Superioridade incontestável de Leverkusen, Juventus, Union SG, Ferencvaros e proteções do AZ Alkmaar e Dinamo Zagreb.",
+        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:30 - 14:45 BRT)",
+        "multiplier": 1.51,
+        "notes": "Solidez da Udinese no Bluenergy Stadium e bloco baixo tradicional de Casa Pia e Nacional.",
         "legs": [
-          "OFI x Bayer 04 Leverkusen: Bayer 04 Leverkusen Vence (2 @1.22)",
-          "Juventus x Rennais: Juventus ou Empate (Dupla Chance 1X @1.14)",
-          "Royale Union Saint-Gilloise x Hapoel Beer Sheva: Union SG ou Empate (Dupla Chance 1X @1.08)",
-          "Ferencvarosi x SCU Torreense: Ferencvarosi ou Empate (Dupla Chance 1X @1.07)",
-          "FC Ararat Armenia x AZ Alkmaar: AZ Alkmaar ou Empate (Dupla Chance X2 @1.12)",
-          "Dinamo Zagreb x NEC Nijmegen: Dinamo Zagreb ou Empate (Dupla Chance 1X @1.18)"
+          "Udinese x Cagliari: Udinese ou Empate (Dupla Chance 1X @1.24)",
+          "Casa Pia x Nacional: Menos de 3.5 Gols no Jogo (@1.22)"
         ]
       },
       {
-        "clusterName": "🏰 TURNO 2 — TARDE LIGA EUROPA (16:00 BRT)",
-        "multiplier": 1.72,
-        "notes": "Força caseira do Olympiakos no Pireu e superioridade técnica de Marseille e Sunderland.",
+        "clusterName": "🏰 TURNO 2 — TARDE LIGAS EUROPEIAS (15:30 - 16:45 BRT)",
+        "multiplier": 2.08,
+        "notes": "Volume ofensivo na Bundesliga e Premier League, somado à força caseira de Rennes, Torino, Espanyol e Santa Clara.",
         "legs": [
-          "Olympiakos Piraeus x Sparta Praha: Olympiakos ou Empate (Dupla Chance 1X @1.14)",
-          "Sturm Graz x Olympique de Marseille: Olympique de Marseille ou Empate (Dupla Chance X2 @1.28)",
-          "Lech Poznan x Sunderland: Sunderland ou Empate (Dupla Chance X2 @1.18)"
+          "Mainz 05 x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
+          "Rennes x Le Havre: Rennes ou Empate (Dupla Chance 1X @1.14)",
+          "Torino x Como: Torino ou Empate (Dupla Chance 1X @1.28)",
+          "Leicester City x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
+          "Espanyol x Sevilla: Menos de 3.5 Gols no Jogo (@1.24)",
+          "Santa Clara x Gil Vicente: Santa Clara ou Empate (Dupla Chance 1X @1.22)"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE LIBERTADORES (21:30 BRT)",
-        "multiplier": 1.14,
-        "notes": "Decisão da semifinal da Copa Libertadores no Maracanã com mando de campo e elenco do Flamengo.",
+        "clusterName": "🌙 TURNO 3 — NOITE SÉRIE B (21:30 BRT)",
+        "multiplier": 1.34,
+        "notes": "Fator casa decisivo na Ressacada e na Serrinha na reta final da Série B.",
         "legs": [
-          "Flamengo x Estudiantes: Flamengo ou Empate (Dupla Chance 1X @1.14)"
+          "Avaí x Vila Nova: Avaí ou Empate (Dupla Chance 1X @1.20)",
+          "Goiás x Amazonas: Goiás ou Empate (Dupla Chance 1X @1.12)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "OFI x Bayer 04 Leverkusen (13:45 BRT)",
+        "match": "Udinese x Cagliari (13:30 BRT)",
         "cluster": "Turno 1",
-        "market": "Bayer 04 Leverkusen Vence (2)",
+        "market": "Udinese ou Empate (1X)",
+        "odd": 1.24,
+        "status": "PENDING"
+      },
+      {
+        "match": "Casa Pia x Nacional (14:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.22,
         "status": "PENDING"
       },
       {
-        "match": "Juventus x Rennais (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Juventus ou Empate (1X)",
+        "match": "Mainz 05 x Borussia Mönchengladbach (15:30 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "Rennes x Le Havre (15:45 BRT)",
+        "cluster": "Turno 2",
+        "market": "Rennes ou Empate (1X)",
         "odd": 1.14,
         "status": "PENDING"
       },
       {
-        "match": "Royale Union Saint-Gilloise x Hapoel Beer Sheva (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Royale Union SG ou Empate (1X)",
-        "odd": 1.08,
-        "status": "PENDING"
-      },
-      {
-        "match": "Ferencvarosi x SCU Torreense (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Ferencvarosi ou Empate (1X)",
-        "odd": 1.07,
-        "status": "PENDING"
-      },
-      {
-        "match": "FC Ararat Armenia x AZ Alkmaar (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "AZ Alkmaar ou Empate (X2)",
-        "odd": 1.12,
-        "status": "PENDING"
-      },
-      {
-        "match": "Dinamo Zagreb x NEC Nijmegen (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Dinamo Zagreb ou Empate (1X)",
-        "odd": 1.18,
-        "status": "PENDING"
-      },
-      {
-        "match": "Olympiakos Piraeus x Sparta Praha (16:00 BRT)",
+        "match": "Torino x Como (15:45 BRT)",
         "cluster": "Turno 2",
-        "market": "Olympiakos ou Empate (1X)",
-        "odd": 1.14,
-        "status": "PENDING"
-      },
-      {
-        "match": "Sturm Graz x Olympique de Marseille (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Olympique de Marseille ou Empate (X2)",
+        "market": "Torino ou Empate (1X)",
         "odd": 1.28,
         "status": "PENDING"
       },
       {
-        "match": "Lech Poznan x Sunderland (16:00 BRT)",
+        "match": "Leicester City x Nottingham Forest (16:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Sunderland ou Empate (X2)",
-        "odd": 1.18,
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.25,
         "status": "PENDING"
       },
       {
-        "match": "Flamengo x Estudiantes (21:30 BRT)",
+        "match": "Espanyol x Sevilla (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Menos de 3.5 Gols no Jogo",
+        "odd": 1.24,
+        "status": "PENDING"
+      },
+      {
+        "match": "Santa Clara x Gil Vicente (16:45 BRT)",
+        "cluster": "Turno 2",
+        "market": "Santa Clara ou Empate (1X)",
+        "odd": 1.22,
+        "status": "PENDING"
+      },
+      {
+        "match": "Avaí x Vila Nova (21:30 BRT)",
         "cluster": "Turno 3",
-        "market": "Flamengo ou Empate (1X)",
-        "odd": 1.14,
+        "market": "Avaí ou Empate (1X)",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "Goiás x Amazonas (21:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "Goiás ou Empate (1X)",
+        "odd": 1.12,
         "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 8,
-    "stake": 70.54,
-    "multiplier": 1.39,
-    "potentialReturn": 98.05,
+    "day": 9,
+    "stake": 96.64,
+    "multiplier": 1.41,
+    "potentialReturn": 136.26,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 8 de 30 (Betstar Oficial): Dupla Blindada da Liga Europa — Bayer 04 Leverkusen Vence (2 @1.22) diante do OFI + Juventus ou Empate (1X @1.14) contra o Rennais. Odd combinada @1.39. Meta: R$ 98,05 rumo ao Dia 9.",
+    "notes": "Modelo Sniper Dia 9 de 30: Dupla Blindada — Udinese ou Empate (1X @1.24) na Serie A + Rennes ou Empate (1X @1.14) na Ligue 1. Odd combinada @1.41. Meta: R$ 136,26 rumo ao Dia 10.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "OFI x Bayer 04 Leverkusen + Juventus x Rennais",
-        "competition": "Liga Europa (13:45 BRT)",
-        "market": "Bayer 04 Leverkusen Vence (2 @1.22) + Juventus 1X (@1.14)",
-        "odd": 1.39,
-        "stake": 70.54,
-        "potentialReturn": 98.05,
+        "match": "Udinese x Cagliari + Rennes x Le Havre",
+        "competition": "Serie A & Ligue 1 (13:30 e 15:45 BRT)",
+        "market": "Udinese 1X (@1.24) + Rennes 1X (@1.14)",
+        "odd": 1.41,
+        "stake": 96.64,
+        "potentialReturn": 136.26,
         "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Leverkusen conta com superioridade técnica avassaladora diante do modesto OFI; Juventus tem 100% de solidez em casa no Allianz Stadium contra o Rennes."
+        "analysis": "Udinese ostenta altíssima consistência tática em casa contra um Cagliari frágil fora de seus domínios; Rennes joga pressionado no Roazhon Park contra o Le Havre que vem de 5 derrotas seguidas."
       }
     ],
     "selections": [
       {
-        "match": "OFI x Bayer 04 Leverkusen",
-        "competition": "Liga Europa (13:45 BRT)",
-        "market": "Bayer 04 Leverkusen Vence (2)",
-        "odd": 1.22,
+        "match": "Udinese x Cagliari",
+        "competition": "Serie A (13:30 BRT)",
+        "market": "Udinese ou Empate (1X)",
+        "odd": 1.24,
         "status": "PENDING"
       },
       {
-        "match": "Juventus x Rennais",
-        "competition": "Liga Europa (13:45 BRT)",
-        "market": "Juventus ou Empate (1X)",
+        "match": "Rennes x Le Havre",
+        "competition": "Ligue 1 (15:45 BRT)",
+        "market": "Rennes ou Empate (1X)",
         "odd": 1.14,
         "status": "PENDING"
       }
@@ -156,84 +156,81 @@
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Betstar 100% Compatível)",
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial 100% Compatível)",
       "type": "SAFE",
       "status": "PENDING",
-      "notes": "100% de jogos distintos em cada Stop Point com jogos da Betstar.",
+      "notes": "100% de jogos distintos em cada Stop Point. Aceito sem restrições em qualquer casa.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Liga Europa)",
-          "multiplier": 1.39,
+          "level": "STOP POINT 1 (Dupla Âncora Blindada)",
+          "multiplier": 1.28,
           "legs": [
-            "OFI x Bayer 04 Leverkusen: Bayer 04 Leverkusen Vence (2 @1.22)",
-            "Juventus x Rennais: Juventus ou Empate (1X @1.14)"
+            "Goiás x Amazonas: Goiás ou Empate (1X @1.12)",
+            "Rennes x Le Havre: Rennes ou Empate (1X @1.14)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quíntupla Forte Betstar)",
-          "multiplier": 1.81,
+          "level": "STOP POINT 2 (Quádrupla Forte de Sexta)",
+          "multiplier": 1.84,
           "legs": [
-            "OFI x Bayer 04 Leverkusen: Bayer 04 Leverkusen Vence (2 @1.22)",
-            "Juventus x Rennais: Juventus ou Empate (1X @1.14)",
-            "Royale Union Saint-Gilloise x Hapoel Beer Sheva: Union SG ou Empate (1X @1.08)",
-            "Ferencvarosi x SCU Torreense: Ferencvarosi ou Empate (1X @1.07)",
-            "Olympiakos Piraeus x Sparta Praha: Olympiakos ou Empate (1X @1.14)"
+            "Goiás x Amazonas: Goiás ou Empate (1X @1.12)",
+            "Rennes x Le Havre: Rennes ou Empate (1X @1.14)",
+            "Mainz 05 x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Avaí x Vila Nova: Avaí ou Empate (1X @1.20)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa com Semifinal da Libertadores)",
-          "multiplier": 2.44,
+          "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
+          "multiplier": 3.85,
           "legs": [
-            "OFI x Bayer 04 Leverkusen: Bayer 04 Leverkusen Vence (2 @1.22)",
-            "Juventus x Rennais: Juventus ou Empate (1X @1.14)",
-            "Royale Union Saint-Gilloise x Hapoel Beer Sheva: Union SG ou Empate (1X @1.08)",
-            "Ferencvarosi x SCU Torreense: Ferencvarosi ou Empate (1X @1.07)",
-            "FC Ararat Armenia x AZ Alkmaar: AZ Alkmaar ou Empate (X2 @1.12)",
-            "Olympiakos Piraeus x Sparta Praha: Olympiakos ou Empate (1X @1.14)",
-            "Flamengo x Estudiantes: Flamengo ou Empate (1X @1.14)"
+            "Goiás x Amazonas: Goiás ou Empate (1X @1.12)",
+            "Rennes x Le Havre: Rennes ou Empate (1X @1.14)",
+            "Mainz 05 x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Avaí x Vila Nova: Avaí ou Empate (1X @1.20)",
+            "Udinese x Cagliari: Udinese ou Empate (1X @1.24)",
+            "Santa Clara x Gil Vicente: Santa Clara ou Empate (1X @1.22)",
+            "Leicester City x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
+            "Torino x Como: Torino ou Empate (1X @1.28)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos Betstar)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos)",
       "type": "SAFE+",
-      "multiplier": 3.02,
+      "multiplier": 4.60,
       "status": "PENDING",
       "legs": [
-        "OFI x Bayer 04 Leverkusen: Bayer 04 Leverkusen Vence (2 @1.22)",
-        "Royale Union Saint-Gilloise x Hapoel Beer Sheva: Union SG Vence (1 @1.34)",
-        "Juventus x Rennais: Juventus Vence (1 @1.52)",
-        "Flamengo x Estudiantes: Flamengo Vence (1 @1.45)"
+        "Rennes x Le Havre: Rennes Vence (ML @1.58)",
+        "Goiás x Amazonas: Goiás Vence (ML @1.55)",
+        "Avaí x Vila Nova: Avaí Vence (ML @1.88)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 4 Jogos Betstar)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 3 Jogos)",
       "type": "ATTACK",
-      "multiplier": 6.84,
+      "multiplier": 4.62,
       "status": "PENDING",
       "legs": [
-        "Juventus x Rennais: Juventus Vence (1 @1.52)",
-        "Sturm Graz x Olympique de Marseille: Olympique de Marseille Vence (2 @2.00)",
-        "Lech Poznan x Sunderland: Sunderland Vence (2 @1.72)",
-        "Olympiakos Piraeus x Sparta Praha: Olympiakos Vence (1 @1.52)"
+        "Leicester City x Nottingham Forest: Ambos Marcam - Sim (@1.70)",
+        "Mainz 05 x Borussia Mönchengladbach: Ambos Marcam - Sim (@1.58)",
+        "Torino x Como: Menos de 2.5 Gols no Jogo (@1.72)"
       ]
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO BETSTAR)",
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos)",
       "type": "NETO",
-      "multiplier": 24.62,
+      "multiplier": 19.44,
       "status": "PENDING",
-      "notes": "4 partidas com vitórias secas de alto valor para retorno multiplicado.",
+      "notes": "4 partidas de alto valor e assimetria técnica para retorno multiplicado.",
       "legs": [
-        "Sturm Graz x Olympique de Marseille: Marseille Vence (2 @2.00)",
-        "Lech Poznan x Sunderland: Sunderland Vence (2 @1.72)",
-        "FC Ararat Armenia x AZ Alkmaar: AZ Alkmaar Vence (2 @1.50)",
-        "Dinamo Zagreb x NEC Nijmegen: Dinamo Zagreb Vence (1 @1.60)",
-        "Flamengo x Estudiantes: Flamengo Vence por 2+ Gols (-1.5 AH @2.35)"
+        "Udinese x Cagliari: Udinese Vence + Menos de 3.5 Gols (@2.45)",
+        "Avaí x Vila Nova: Avaí Vence + Menos de 3.5 Gols (@2.20)",
+        "Leicester City x Nottingham Forest: Nottingham Forest DNB (@1.85)",
+        "Rennes x Le Havre: Rennes -1.0 Handicap Asiático (@1.95)"
       ]
     }
   ]

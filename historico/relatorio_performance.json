@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-21T21:40:00-03:00",
+  "updatedAt": "2026-10-23T00:20:00-03:00",
   "kpis": {
-    "totalRounds": 11,
-    "totalTickets": 72,
-    "greenTickets": 49,
-    "redTickets": 23,
-    "winRateGlobal": "68.1%",
-    "safeWinRate": "85.0%",
-    "safePlusWinRate": "63.6%",
-    "sorosCurrentDay": 8,
-    "sorosCurrentStake": 70.54,
-    "sorosBasketballDay": 1,
-    "sorosBasketballStake": 10.00,
-    "profitFactor": 5.10
+    "totalRounds": 12,
+    "totalTickets": 78,
+    "greenTickets": 52,
+    "redTickets": 26,
+    "winRateGlobal": "66.7%",
+    "safeWinRate": "86.4%",
+    "safePlusWinRate": "60.0%",
+    "sorosCurrentDay": 9,
+    "sorosCurrentStake": 96.64,
+    "sorosBasketballDay": 2,
+    "sorosBasketballStake": 14.50,
+    "profitFactor": 5.35
   },
   "ticketBreakdown": [
     {
@@ -137,9 +137,25 @@
     { "date": "17/10", "banca": 114.89, "lucro": 27.78, "winRate": 80 },
     { "date": "18/10", "banca": 149.89, "lucro": 35.00, "winRate": 85 },
     { "date": "19/10", "banca": 200.64, "lucro": 50.75, "winRate": 80 },
-    { "date": "21/10", "banca": 271.18, "lucro": 70.54, "winRate": 90 }
+    { "date": "21/10", "banca": 271.18, "lucro": 70.54, "winRate": 90 },
+    { "date": "22/10", "banca": 367.82, "lucro": 96.64, "winRate": 85 }
   ],
   "history": [
+    {
+      "date": "2026-10-22",
+      "sport": "Futebol (UEFA Europa League, Conference League, Sul-Americana & Libertadores)",
+      "totalTickets": 6,
+      "greens": 3,
+      "reds": 3,
+      "highlights": [
+        "🏆 BILHETE SUPREMO 10/10 GREEN HISTÓRICO TOTAL (@4.51 CRAVADO) - SEGUNDO 10/10 SEGUIDO!",
+        "🔥 DESAFIO SOROS DIA 8 GREEN (@1.37 ➔ R$ 96,64 - 8º Green Consecutivo rumo ao Dia 9)",
+        "🛡️ Múltipla 1 SAFE 100% GREEN nos 3 Stop Points (8/8 acertos @3.05)",
+        "Turno 1 Almoço Europeu (3/3 @1.56), Turno 2 Tarde Europa League (5/5 @2.19) e Turno 3 Noite (2/2 @1.32) 100% GREEN",
+        "Botafogo 5x0 Peñarol liquidou ML (@1.42) e Handicap -1.5 AH (@2.40) com autoridade máxima",
+        "🏀 Desafio Soros Basquete Dia 1 GREEN (@1.45 Dallas Mavericks ML ➔ R$ 14,50)"
+      ]
+    },
     {
       "date": "2026-10-21",
       "sport": "Futebol (Champions League, Copa Libertadores & Copa Sul-Americana)",

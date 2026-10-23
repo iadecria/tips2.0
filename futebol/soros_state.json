@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 70.54,
-  "currentDay": 8,
+  "currentStake": 96.64,
+  "currentDay": 9,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -127,6 +127,16 @@
       "potentialReturn": 70.54,
       "status": "HIT",
       "actualReturn": 70.54
+    },
+    {
+      "day": 8,
+      "date": "2026-10-22",
+      "stakeIn": 70.54,
+      "selection": "Tottenham Hotspur ou Empate (1X @1.12) + Eintracht Frankfurt Vence (ML @1.22)",
+      "odd": 1.37,
+      "potentialReturn": 96.64,
+      "status": "HIT",
+      "actualReturn": 96.64
     }
   ]
 }

@@ -1832,77 +1832,101 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-22
 - **Cutoff:** 2026-10-22T13:00:00-03:00
 - **Contexto da Data:** Super quinta-feira europeia com a 3ª rodada da UEFA Europa League (Mourinho reencontra o Man United em Istambul, Tottenham recebendo o AZ Alkmaar em Londres, Porto enfrentando o Hoffenheim no Dragão, Roma contra Dynamo Kyiv e Eintracht Frankfurt como superfavorito em casa) somada à 2ª rodada da Conference League (Panathinaikos x Chelsea, Betis x Copenhague) e decisões de ida das semifinais continentais da Copa Sul-Americana (Corinthians x Racing Club na Neo Química Arena) e Libertadores (Botafogo x Peñarol no Nilton Santos).
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (10/10 NO BILHETE SUPREMO @4.51, 8/8 NA SAFE @3.05 E 8º GREEN CONSECUTIVO NO SOROS DIA 8 R$ 96,64)**
 
 #### 1. Discovery e Cobertura
 - Analisados: 16 fixtures principais
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
 - Descartados no pente-fino: Lazio fora (alta volatilidade e rotação extrema de elenco), Ajax DNB (instabilidade defensiva contra Qarabag).
 
-#### 2. Grade de Fixtures e Decisões Pre-Match
+#### 2. Grade de Fixtures, Resultados Oficiais e Liquidação
 
-1. **Eintracht Frankfurt × RFS** (13:45 BRT — UEFA Europa League)
-   - **Tese:** Eintracht Frankfurt ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **Sniper Soros Dia 8 / SAFE+:** Eintracht Frankfurt Vence (ML @1.22)
-   - **NETO:** Eintracht Frankfurt -2.0 AH (@2.25)
+1. **Eintracht Frankfurt 1 × 0 RFS** (Deutsche Bank Park - 13:45 BRT — UEFA Europa League)
+   - *Resultado Oficial:* 1 x 0 (Gol: Hugo Larsson 79')
+   - **Tese (Turno 1):** Eintracht Frankfurt ou Empate (1X @1.12) ➔ ✅ **HIT** (1x0)
+   - **Sniper Soros Dia 8 / SAFE+:** Eintracht Frankfurt Vence (ML @1.22) ➔ ✅ **HIT** (1x0)
+   - **NETO:** Eintracht Frankfurt -2.0 AH (@2.25) ➔ ❌ **MISS** (Venceu pela margem mínima de 1 gol)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Frankfurt teve 71% posse e 21 finalizações, mas parou no goleiro letão até os 79').
 
-2. **AS Roma × Dynamo Kyiv** (13:45 BRT — UEFA Europa League)
-   - **Tese:** AS Roma ou Empate (1X @1.14) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+2. **AS Roma 1 × 0 Dynamo Kyiv** (Stadio Olimpico - 13:45 BRT — UEFA Europa League)
+   - *Resultado Oficial:* 1 x 0 (Gol: Artem Dovbyk 23' p)
+   - **Tese (Turno 1):** AS Roma ou Empate (1X @1.14) ➔ ✅ **HIT** (1x0)
 
-3. **Panathinaikos × Chelsea** (13:45 BRT — UEFA Conference League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Chelsea Vence + Mais de 1.5 Gols (@1.75)
+3. **Panathinaikos 1 × 4 Chelsea** (Olympiako Stadio Spyros Louis - 13:45 BRT — UEFA Conference League)
+   - *Resultado Oficial:* 1 x 4 (Gols: Pellistri 69' | João Félix 22', 55', Mudryk 49', Nkunku 59' p)
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (5 gols totais)
+   - **ATTACK:** Chelsea Vence + Mais de 1.5 Gols (@1.75) ➔ ✅ **HIT** (Chelsea 4x1)
 
-4. **Tottenham Hotspur × AZ Alkmaar** (16:00 BRT — UEFA Europa League)
-   - **Tese:** Tottenham Hotspur ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **Sniper Soros Dia 8 / SAFE+:** Tottenham Hotspur Vence (ML @1.38)
-   - **NETO:** Tottenham Hotspur -1.5 AH (@2.05)
+4. **Tottenham Hotspur 1 × 0 AZ Alkmaar** (Tottenham Hotspur Stadium - 16:00 BRT — UEFA Europa League)
+   - *Resultado Oficial:* 1 x 0 (Gol: Richarlison 53' p)
+   - **Tese (Turno 2 / Sniper Soros Dia 8):** Tottenham Hotspur ou Empate (1X @1.12) ➔ ✅ **HIT**
+   - **SAFE+:** Tottenham Hotspur Vence (ML @1.38) ➔ ✅ **HIT** (1x0)
+   - **NETO:** Tottenham Hotspur -1.5 AH (@2.05) ➔ ❌ **MISS** (Venceu por 1 gol)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Tottenham controlou o jogo e garantiu os 3 pontos sem forçar goleada).
 
-5. **FC Porto × TSG Hoffenheim** (16:00 BRT — UEFA Europa League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.20) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Porto Vence + Mais de 1.5 Gols (@1.78)
+5. **FC Porto 2 × 0 TSG Hoffenheim** (Estádio do Dragão - 16:00 BRT — UEFA Europa League)
+   - *Resultado Oficial:* 2 x 0 (Gols: Tiago Djaló 45+2', Samu Omorodion 75')
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (2 gols totais)
+   - **ATTACK:** Porto Vence + Mais de 1.5 Gols (@1.78) ➔ ✅ **HIT** (Porto 2x0)
 
-6. **Athletic Bilbao × Slavia Praga** (16:00 BRT — UEFA Europa League)
-   - **Tese:** Athletic Bilbao ou Empate (1X @1.16) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+6. **Athletic Bilbao 1 × 0 Slavia Praga** (San Mamés - 16:00 BRT — UEFA Europa League)
+   - *Resultado Oficial:* 1 x 0 (Gol: Nico Williams 33')
+   - **Tese (Turno 2):** Athletic Bilbao ou Empate (1X @1.16) ➔ ✅ **HIT** (1x0 na Catedral)
 
-7. **Fenerbahçe × Manchester United** (16:00 BRT — UEFA Europa League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Ambos Marcam - Sim (@1.62)
-   - **NETO:** Empate ou Man United + Ambos Marcam (@2.15)
+7. **Fenerbahçe 1 × 1 Manchester United** (Şükrü Saracoğlu - 16:00 BRT — UEFA Europa League)
+   - *Resultado Oficial:* 1 x 1 (Gols: Youssef En-Nesyri 49' | Christian Eriksen 15')
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (2 gols totais)
+   - **ATTACK:** Ambos Marcam - Sim (@1.62) ➔ ✅ **HIT** (1x1 cravado)
+   - **NETO:** Empate ou Man United + Ambos Marcam (@2.15) ➔ ✅ **HIT** (1x1: Empate e BTTS juntos!)
 
-8. **Real Betis × FC Copenhague** (16:00 BRT — UEFA Conference League)
-   - **Tese:** Real Betis ou Empate (1X @1.15) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+8. **Real Betis 1 × 1 FC Copenhague** (Estadio Benito Villamarín - 16:00 BRT — UEFA Conference League)
+   - *Resultado Oficial:* 1 x 1 (Gols: Abde Ezzalzouli 8' | Kevin Diks 59' p)
+   - **Tese (Turno 2):** Real Betis ou Empate (1X @1.15) ➔ ✅ **HIT** (1x1)
 
-9. **Corinthians × Racing Club** (21:30 BRT — Copa Sul-Americana Semifinal Ida)
-   - **Tese:** Corinthians ou Empate (1X @1.18) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Corinthians ou Empate + Menos de 3.5 Gols (@1.48)
+9. **Corinthians 2 × 2 Racing Club** (Neo Química Arena - 21:30 BRT — Copa Sul-Americana Semifinal Ida)
+   - *Resultado Oficial:* 2 x 2 (Gols: Yuri Alberto 11', 33' | Maxi Salas 9', Gastón Martirena 54')
+   - **Tese (Turno 3):** Corinthians ou Empate (1X @1.18) ➔ ✅ **HIT** (2x2)
+   - **ATTACK:** Corinthians ou Empate + Menos de 3.5 Gols (@1.48) ➔ ❌ **MISS** (Jogo sob chuva torrencial teve 4 gols)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Golaço de Martirena aos 54' estourou a linha de under).
 
-10. **Botafogo × Peñarol** (21:30 BRT — Copa Libertadores Semifinal Ida)
-    - **Tese:** Botafogo ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-    - **SAFE+:** Botafogo Vence (ML @1.42)
-    - **NETO:** Botafogo Vence por 2+ Gols (-1.5 AH @2.40)
+10. **Botafogo 5 × 0 Peñarol** (Estádio Nilton Santos - 21:30 BRT — Copa Libertadores Semifinal Ida)
+    - *Resultado Oficial:* 5 x 0 (Gols: Savarino 51', 59', Alexander Barboza 55', Luiz Henrique 73', Igor Jesus 79')
+    - **Tese (Turno 3):** Botafogo ou Empate (1X @1.12) ➔ ✅ **HIT** (Massacre histórico no Engenhão!)
+    - **SAFE+:** Botafogo Vence (ML @1.42) ➔ ✅ **HIT**
+    - **NETO:** Botafogo Vence por 2+ Gols (-1.5 AH @2.40) ➔ ✅ **HIT** (5x0 liquidado com margem de +5 gols!)
 
-#### 3. Bilhetes Estruturados Oficiais de 22/10
+#### 3. Auditoria dos Bilhetes de 22/10
 
 *   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.51):**
-    *   🥪 Turno 1 Almoço Europeu (@1.56): Frankfurt 1X + Roma 1X + Panathinaikos x Chelsea Over 1.5
-    *   🏰 Turno 2 Tarde Europa League (@2.19): Tottenham 1X + Porto Over 1.5 + Bilbao 1X + Fenerbahçe Over 1.5 + Betis 1X
-    *   🌙 Turno 3 Noite Continental (@1.32): Corinthians 1X + Botafogo 1X
+    *   🥪 **Turno 1 Almoço Europeu (@1.56):** 3 de 3 acertos ➔ ✅ **GREEN (Frankfurt 1X, Roma 1X, Chelsea Over 1.5)**
+    *   🏰 **Turno 2 Tarde Europa League (@2.19):** 5 de 5 acertos ➔ ✅ **GREEN (Tottenham 1X, Porto Over 1.5, Bilbao 1X, Fenerbahçe Over 1.5, Betis 1X)**
+    *   🌙 **Turno 3 Noite Continental (@1.32):** 2 de 2 acertos ➔ ✅ **GREEN (Corinthians 1X, Botafogo 1X)**
+    *   🏆 **10 DE 10 ACERTOS (100% DE APROVEITAMENTO)!**
+    *   🎉 **SEGUNDO GREEN HISTÓRICO SEGUIDO NO FILÉ DO DIA (@4.51)!**
+
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares):**
-    *   Stop Point 1 (@1.37): Tottenham 1X (@1.12) + Frankfurt Vence (@1.22)
-    *   Stop Point 2 (@1.96): Stop Point 1 + Roma 1X (@1.14) + Porto Over 1.5 (@1.20) + Chelsea Over 1.5 (@1.22)
-    *   Stop Point 3 (@3.05): Stop Point 2 + Athletic Bilbao 1X (@1.16) + Corinthians 1X (@1.18) + Botafogo 1X (@1.12)
+    *   Stop Point 1 (@1.37): Tottenham 1X (✅) + Frankfurt ML (✅) ➔ ✅ **GREEN TOTAL**
+    *   Stop Point 2 (@1.96): Stop Point 1 + Roma 1X (✅) + Porto Over 1.5 (✅) + Chelsea Over 1.5 (✅) ➔ ✅ **GREEN TOTAL**
+    *   Stop Point 3 (@3.05): Stop Point 2 + Athletic Bilbao 1X (✅) + Corinthians 1X (✅) + Botafogo 1X (✅) ➔ ✅ **GREEN TOTAL (8/8 ACERTOS @3.05)!**
+
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.23):**
-    *   Tottenham Hotspur Vence (@1.38) + Eintracht Frankfurt -1.5 AH (@1.65) + Botafogo Vence (@1.42)
+    *   Tottenham ML (✅ 1x0) + Frankfurt -1.5 AH (❌ 1x0) + Botafogo ML (✅ 5x0)
+    *   *Resultado:* ❌ **RED** (2 de 3 acertos — faltou mais um gol do Frankfurt).
+
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@7.47):**
-    *   Fenerbahçe x Man United BTTS (@1.62) + Porto Vence & Over 1.5 (@1.78) + Chelsea Vence & Over 1.5 (@1.75) + Corinthians 1X & Sub 3.5 (@1.48)
+    *   Fenerbahçe x Man United BTTS (✅ 1x1) + Porto Vence & Over 1.5 (✅ 2x0) + Chelsea Vence & Over 1.5 (✅ 4x1) + Corinthians 1X & Sub 3.5 (❌ 2x2)
+    *   *Resultado:* ❌ **RED** (3 de 4 acertos cirúrgicos — o jogo do Timão passou para 4 gols).
+
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@23.79):**
-    *   Eintracht Frankfurt -2.0 AH (@2.25) + Tottenham -1.5 AH (@2.05) + Man United X2 & BTTS (@2.15) + Botafogo -1.5 AH (@2.40)
+    *   Frankfurt -2.0 AH (❌) + Tottenham -1.5 AH (❌) + Man United X2 & BTTS (✅ 1x1 @2.15) + Botafogo -1.5 AH (✅ 5x0 @2.40)
+    *   *Resultado:* ❌ **RED** (2 de 4 acertos — acertos espantosos nas duas maiores odds @2.15 e @2.40!).
+
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 8 (SNIPER):**
-    *   **Entrada:** R$ 70,54 (100% dos lucros acumulados dos 7 Greens consecutivos)
-    *   **Seleção:** Tottenham Hotspur ou Empate (1X @1.12) + Eintracht Frankfurt Vence (ML @1.22)
-    *   **Odd:** @1.37
-    *   **Retorno Projetado:** R$ 96,64 (meta: ultrapassar R$ 95 rumo ao Dia 9)
+    *   **Entrada:** R$ 70,54
+    *   **Seleção:** Tottenham Hotspur ou Empate (1X @1.12) + Eintracht Frankfurt Vence (ML @1.22) [Odd @1.37]
+    *   **Resultado:** ✅ **GREEN MONSTRUOSO (Tottenham 1x0 e Frankfurt 1x0)!**
+    *   **Retorno:** R$ 96,64.
+    *   **Conquista:** 8º GREEN CONSECUTIVO! Avança consagrado para o **DIA 9 DE 30** com banca de **R$ 96,64**!
 
 
 

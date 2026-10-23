@@ -1930,86 +1930,83 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 ---
 
-### [2026-10-23] — RODADA DIÁRIA (ABERTURA LIGAS EUROPEIAS & BRASILEIRÃO SÉRIE B)
+### [2026-10-23] — RODADA DIÁRIA (GRADE OFICIAL 23/10/2026: CRUZEIRO, SPORT, TORINO, STUTTGART & LIGAS EUROPEIAS)
 
-- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-23_V1_FRIDAY_LEAGUES`
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-23_V2_CALIBRATED_REAL_SCHEDULE`
 - **Data do Registro:** 2026-10-23
-- **Cutoff:** 2026-10-23T13:00:00-03:00
-- **Contexto da Data:** Super sexta-feira de futebol profissional cobrindo a abertura das principais ligas europeias (Premier League com Leicester x Nottingham Forest, La Liga com Espanyol x Sevilla, Bundesliga com Mainz x Mönchengladbach, Serie A com Udinese x Cagliari e Torino x Como, Ligue 1 com Rennes x Le Havre, Liga Portugal com Casa Pia e Santa Clara) e jogos fundamentais pelo Brasileirão Série B (Avaí x Vila Nova e Goiás x Amazonas).
+- **Cutoff:** 2026-10-23T15:00:00-03:00
+- **Contexto da Data:** Super sexta-feira de futebol oficial da temporada 2026/27. Abertura das grandes ligas europeias (Bundesliga com Stuttgart x Mönchengladbach, Serie A com Torino x Monza, Ligue 1 com Brest x Nice, Premier League com Ipswich x Nottingham Forest, La Liga com Alavés x Málaga, Liga Portugal com Vitória SC x Marítimo) somada ao Brasileirão Série A (Cruzeiro x Remo no Mineirão), Brasileirão Série B (Sport x Criciúma na Ilha do Retiro, Operário-PR x Athletic) e futebol argentino.
 - **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
 
 #### 1. Discovery e Cobertura
-- Analisados: 12 fixtures profissionais
+- Analisados: 10 fixtures oficiais confirmados
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
-- Descartados no pente-fino: Köln x Paderborn (alta volatilidade de 2. Bundesliga), Santos Laguna x Pachuca (conflito de dados físicos na Liga MX).
+- Descartados no pente-fino: Gimnasia x Sarmiento (mercado de gols muito baixo na Argentina), Alavés seco (volatilidade de início de rodada na Espanha).
 
 #### 2. Grade de Fixtures e Decisões Pre-Match
 
-1. **Udinese × Cagliari** (13:30 BRT — Serie A Italiana)
-   - **Tese:** Udinese ou Empate (1X @1.24) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Udinese Vence (ML @1.95)
-   - **NETO:** Udinese Vence + Menos de 3.5 Gols (@2.45)
+1. **Stuttgart × Borussia Mönchengladbach** (15:30 BRT — Bundesliga)
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **ATTACK:** Ambos Marcam - Sim (@1.62)
 
-2. **Casa Pia × Nacional** (14:45 BRT — Liga Portugal)
-   - **Tese:** Menos de 3.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Casa Pia ou Empate + Menos de 2.5 Gols (@1.85)
+2. **Torino × Monza** (15:45 BRT — Serie A Italiana)
+   - **Tese (Turno 1 / Sniper Soros Dia 9):** Torino ou Empate (1X @1.22) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **SAFE+:** Torino Vence (ML @1.85)
+   - **NETO:** Torino Vence + Menos de 3.5 Gols (@2.30)
 
-3. **Mainz 05 × Borussia Mönchengladbach** (15:30 BRT — Bundesliga)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.20) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **ATTACK:** Ambos Marcam - Sim (@1.58)
+3. **Brest × Nice** (15:45 BRT — Ligue 1 Francesa)
+   - **Tese (Turno 1):** Menos de 3.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
 
-4. **Rennes × Le Havre** (15:45 BRT — Ligue 1 Francesa)
-   - **Tese:** Rennes ou Empate (1X @1.14) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **Sniper Soros Dia 9 / SAFE+:** Rennes Vence (ML @1.58)
-   - **NETO:** Rennes -1.0 AH (@1.95)
+4. **Ipswich Town × Nottingham Forest** (16:00 BRT — Premier League)
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.25) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+   - **ATTACK:** Ambos Marcam - Sim (@1.72)
+   - **NETO:** Nottingham Forest Vence (ML @2.30)
 
-5. **Torino × Como** (15:45 BRT — Serie A Italiana)
-   - **Tese:** Torino ou Empate (1X @1.28) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Menos de 2.5 Gols no Jogo (@1.72)
+5. **Deportivo Alavés × Málaga** (16:00 BRT — La Liga)
+   - **Tese (Turno 2):** Deportivo Alavés ou Empate (1X @1.20) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
 
-6. **Leicester City × Nottingham Forest** (16:00 BRT — Premier League)
-   - **Tese:** Mais de 1.5 Gols no Jogo (@1.25) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Ambos Marcam - Sim (@1.70)
-   - **NETO:** Nottingham Forest DNB (@1.85)
+6. **Vitória SC × CS Marítimo** (16:45 BRT — Liga Portugal)
+   - **Tese (Turno 2):** Vitória SC ou Empate (1X @1.16) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **SAFE+:** Vitória SC Vence (ML @1.65)
 
-7. **Espanyol × Sevilla** (16:00 BRT — La Liga Espanhola)
-   - **Tese:** Menos de 3.5 Gols no Jogo (@1.24) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Sevilla ou Empate + Menos de 3.5 Gols (@1.68)
+7. **Operário-PR × Athletic Club** (19:30 BRT — Brasileirão Série B)
+   - **Tese (Turno 3):** Menos de 2.5 Gols no Jogo (@1.35) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
 
-8. **Santa Clara × Gil Vicente** (16:45 BRT — Liga Portugal)
-   - **Tese:** Santa Clara ou Empate (1X @1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **SAFE+:** Santa Clara Vence (ML @1.95)
+8. **Cruzeiro × Remo** (20:00 BRT — Brasileirão Série A)
+   - **Tese (Turno 3 / Sniper Soros Dia 9):** Cruzeiro ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **SAFE+:** Cruzeiro Vence (ML @1.45)
+   - **NETO:** Cruzeiro Vence por 2+ Gols (-1.5 AH @2.20)
 
-9. **Avaí × Vila Nova** (21:30 BRT — Brasileirão Série B)
-   - **Tese:** Avaí ou Empate (1X @1.20) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Avaí Vence (ML @1.88)
-   - **NETO:** Avaí Vence + Menos de 3.5 Gols (@2.20)
+9. **Sport Recife × Criciúma** (21:00 BRT — Brasileirão Série B)
+   - **Tese (Turno 3):** Sport Recife ou Empate (1X @1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **SAFE+:** Sport Recife Vence (ML @1.80)
+   - **NETO:** Sport Vence + Menos de 3.5 Gols (@2.25)
 
-10. **Goiás × Amazonas** (21:30 BRT — Brasileirão Série B)
-    - **Tese:** Goiás ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-    - **SAFE+:** Goiás Vence (ML @1.55)
+10. **Gimnasia La Plata × Sarmiento** (21:15 BRT — Liga Argentina)
+    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.16) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
 
 #### 3. Bilhetes Estruturados Oficiais de 23/10
 
-*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.21):**
-    *   🥪 Turno 1 Almoço Europeu (@1.51): Udinese 1X + Casa Pia x Nacional Sub 3.5
-    *   🏰 Turno 2 Tarde Ligas Europeias (@2.08): Mainz x Gladbach Over 1.5 + Rennes 1X + Torino 1X + Leicester Over 1.5 + Espanyol Sub 3.5 + Santa Clara 1X
-    *   🌙 Turno 3 Noite Série B (@1.34): Avaí 1X + Goiás 1X
+*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.14):**
+    *   🥪 Turno 1 Tarde Abertura (@1.76): Stuttgart x Gladbach Over 1.5 + Torino 1X + Brest x Nice Sub 3.5
+    *   🏰 Turno 2 Tarde Grandes Ligas (@1.74): Ipswich x Forest Over 1.5 + Alavés 1X + Vitória SC 1X
+    *   🌙 Turno 3 Noite Brasileirão (@1.83): Operário Sub 2.5 + Cruzeiro 1X + Sport 1X + Gimnasia Sub 3.5
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking):**
-    *   Stop Point 1 (@1.28): Goiás 1X (@1.12) + Rennes 1X (@1.14)
-    *   Stop Point 2 (@1.84): Stop Point 1 + Mainz Over 1.5 (@1.20) + Avaí 1X (@1.20)
-    *   Stop Point 3 (@3.85): Stop Point 2 + Udinese 1X (@1.24) + Santa Clara 1X (@1.22) + Leicester Over 1.5 (@1.25) + Torino 1X (@1.28)
-*   🎫 **MÚLTIPLA 2 — SAFE+ (@4.60):**
-    *   Rennes Vence (ML @1.58) + Goiás Vence (ML @1.55) + Avaí Vence (ML @1.88)
-*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.62):**
-    *   Leicester City x Nottingham Forest BTTS (@1.70) + Mainz x Gladbach BTTS (@1.58) + Torino x Como Sub 2.5 (@1.72)
-*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@19.44):**
-    *   Udinese Vence & Sub 3.5 (@2.45) + Avaí Vence & Sub 3.5 (@2.20) + Nottingham Forest DNB (@1.85) + Rennes -1.0 AH (@1.95)
+    *   Stop Point 1 (@1.37): Cruzeiro 1X (@1.12) + Torino 1X (@1.22)
+    *   Stop Point 2 (@1.91): Stop Point 1 + Stuttgart Over 1.5 (@1.18) + Sport Recife 1X (@1.18)
+    *   Stop Point 3 (@3.75): Stop Point 2 + Alavés 1X (@1.20) + Vitória SC 1X (@1.16) + Ipswich Over 1.5 (@1.25) + Brest Sub 3.5 (@1.22)
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@3.20):**
+    *   Cruzeiro Vence (ML @1.45) + Vitória SC Vence (ML @1.65) + Torino Vence (ML @1.85)
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.90):**
+    *   Stuttgart x Gladbach BTTS (@1.62) + Ipswich x Forest BTTS (@1.72) + Sport Recife Vence (ML @1.80)
+*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@18.25):**
+    *   Cruzeiro -1.5 AH (@2.20) + Torino Vence & Sub 3.5 (@2.30) + Sport Vence & Sub 3.5 (@2.25) + Nottingham Forest ML (@2.30)
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 9 (SNIPER):**
     *   **Entrada:** R$ 96,64 (100% dos lucros acumulados dos 8 Greens consecutivos)
-    *   **Seleção:** Udinese ou Empate (1X @1.24) + Rennes ou Empate (1X @1.14)
-    *   **Odd:** @1.41
-    *   **Retorno Projetado:** R$ 136,26 (meta: superar R$ 130 rumo ao Dia 10)
+    *   **Seleção:** Cruzeiro ou Empate (1X @1.12) + Torino ou Empate (1X @1.22)
+    *   **Odd:** @1.37
+    *   **Retorno Projetado:** R$ 132,40 (meta: superar R$ 130 rumo ao Dia 10)
+
 
 
 

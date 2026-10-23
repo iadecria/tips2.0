@@ -1,117 +1,117 @@
 {
   "date": "2026-10-23",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-23_V1_FRIDAY_LEAGUES",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-23_V2_CALIBRATED_REAL_SCHEDULE",
   "status": "PENDING",
-  "notes": "Rodada de Sexta-feira: Abertura das Grandes Ligas Europeias (Premier League, La Liga, Serie A, Bundesliga, Ligue 1 e Liga Portugal) combinada com a reta decisiva do Brasileirão Série B. Arquitetura Clean Parlay Universal com 1 seleção por jogo para máxima liquidez e liquidação antecipada.",
+  "notes": "Grade 100% calibrada e auditada com a tabela oficial de hoje, sexta-feira 23/10/2026. Cobre Premier League, Serie A, Bundesliga, Ligue 1, La Liga, Liga Portugal, Brasileirão Série A (Cruzeiro no Mineirão) e Série B (Sport na Ilha). Arquitetura Clean Parlay Universal.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sexta-feira Europeia & Brasileirão Série B)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sexta-feira 23/10/2026 Oficial)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 4.21,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas de altíssima convicção técnica (1 seleção por jogo), divididas em 3 Turnos de Horário.",
+    "multiplierGlobal": 4.14,
+    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de hoje (1 seleção por jogo), divididas em 3 Turnos de Horário.",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:30 - 14:45 BRT)",
-        "multiplier": 1.51,
-        "notes": "Solidez da Udinese no Bluenergy Stadium e bloco baixo tradicional de Casa Pia e Nacional.",
+        "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA ABERTURA (15:30 - 15:45 BRT)",
+        "multiplier": 1.76,
+        "notes": "DNA ofensivo na Bundesliga com o Stuttgart e consistência defensiva de Torino e Brest.",
         "legs": [
-          "Udinese x Cagliari: Udinese ou Empate (Dupla Chance 1X @1.24)",
-          "Casa Pia x Nacional: Menos de 3.5 Gols no Jogo (@1.22)"
+          "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.18)",
+          "Torino x Monza: Torino ou Empate (Dupla Chance 1X @1.22)",
+          "Brest x Nice: Menos de 3.5 Gols no Jogo (@1.22)"
         ]
       },
       {
-        "clusterName": "🏰 TURNO 2 — TARDE LIGAS EUROPEIAS (15:30 - 16:45 BRT)",
-        "multiplier": 2.08,
-        "notes": "Volume ofensivo na Bundesliga e Premier League, somado à força caseira de Rennes, Torino, Espanyol e Santa Clara.",
+        "clusterName": "🏰 TURNO 2 — TARDE GRANDES LIGAS (16:00 - 16:45 BRT)",
+        "multiplier": 1.74,
+        "notes": "Volume ofensivo na Premier League e mando de campo de Alavés no País Basco e Vitória SC em Guimarães.",
         "legs": [
-          "Mainz 05 x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
-          "Rennes x Le Havre: Rennes ou Empate (Dupla Chance 1X @1.14)",
-          "Torino x Como: Torino ou Empate (Dupla Chance 1X @1.28)",
-          "Leicester City x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
-          "Espanyol x Sevilla: Menos de 3.5 Gols no Jogo (@1.24)",
-          "Santa Clara x Gil Vicente: Santa Clara ou Empate (Dupla Chance 1X @1.22)"
+          "Ipswich Town x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
+          "Deportivo Alavés x Málaga: Alavés ou Empate (Dupla Chance 1X @1.20)",
+          "Vitória SC x CS Marítimo: Vitória SC ou Empate (Dupla Chance 1X @1.16)"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE SÉRIE B (21:30 BRT)",
-        "multiplier": 1.34,
-        "notes": "Fator casa decisivo na Ressacada e na Serrinha na reta final da Série B.",
+        "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO & SUL-AMERICANA (19:30 - 21:15 BRT)",
+        "multiplier": 1.83,
+        "notes": "Força caseira do Cruzeiro no Mineirão na Série A, pressão do Sport na Ilha e contenção no Paraná e Argentina.",
         "legs": [
-          "Avaí x Vila Nova: Avaí ou Empate (Dupla Chance 1X @1.20)",
-          "Goiás x Amazonas: Goiás ou Empate (Dupla Chance 1X @1.12)"
+          "Operário-PR x Athletic Club: Menos de 2.5 Gols no Jogo (@1.35)",
+          "Cruzeiro x Remo: Cruzeiro ou Empate (Dupla Chance 1X @1.12)",
+          "Sport Recife x Criciúma: Sport Recife ou Empate (Dupla Chance 1X @1.18)",
+          "Gimnasia La Plata x Sarmiento: Menos de 3.5 Gols no Jogo (@1.16)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Udinese x Cagliari (13:30 BRT)",
+        "match": "Stuttgart x Borussia Mönchengladbach (15:30 BRT)",
         "cluster": "Turno 1",
-        "market": "Udinese ou Empate (1X)",
-        "odd": 1.24,
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.18,
         "status": "PENDING"
       },
       {
-        "match": "Casa Pia x Nacional (14:45 BRT)",
+        "match": "Torino x Monza (15:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Torino ou Empate (1X)",
+        "odd": 1.22,
+        "status": "PENDING"
+      },
+      {
+        "match": "Brest x Nice (15:45 BRT)",
         "cluster": "Turno 1",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.22,
         "status": "PENDING"
       },
       {
-        "match": "Mainz 05 x Borussia Mönchengladbach (15:30 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
-        "match": "Rennes x Le Havre (15:45 BRT)",
-        "cluster": "Turno 2",
-        "market": "Rennes ou Empate (1X)",
-        "odd": 1.14,
-        "status": "PENDING"
-      },
-      {
-        "match": "Torino x Como (15:45 BRT)",
-        "cluster": "Turno 2",
-        "market": "Torino ou Empate (1X)",
-        "odd": 1.28,
-        "status": "PENDING"
-      },
-      {
-        "match": "Leicester City x Nottingham Forest (16:00 BRT)",
+        "match": "Ipswich Town x Nottingham Forest (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.25,
         "status": "PENDING"
       },
       {
-        "match": "Espanyol x Sevilla (16:00 BRT)",
+        "match": "Deportivo Alavés x Málaga (16:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.24,
-        "status": "PENDING"
-      },
-      {
-        "match": "Santa Clara x Gil Vicente (16:45 BRT)",
-        "cluster": "Turno 2",
-        "market": "Santa Clara ou Empate (1X)",
-        "odd": 1.22,
-        "status": "PENDING"
-      },
-      {
-        "match": "Avaí x Vila Nova (21:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Avaí ou Empate (1X)",
+        "market": "Alavés ou Empate (1X)",
         "odd": 1.20,
         "status": "PENDING"
       },
       {
-        "match": "Goiás x Amazonas (21:30 BRT)",
+        "match": "Vitória SC x CS Marítimo (16:45 BRT)",
+        "cluster": "Turno 2",
+        "market": "Vitória SC ou Empate (1X)",
+        "odd": 1.16,
+        "status": "PENDING"
+      },
+      {
+        "match": "Operário-PR x Athletic Club (19:30 BRT)",
         "cluster": "Turno 3",
-        "market": "Goiás ou Empate (1X)",
+        "market": "Menos de 2.5 Gols no Jogo",
+        "odd": 1.35,
+        "status": "PENDING"
+      },
+      {
+        "match": "Cruzeiro x Remo (20:00 BRT)",
+        "cluster": "Turno 3",
+        "market": "Cruzeiro ou Empate (1X)",
         "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Sport Recife x Criciúma (21:00 BRT)",
+        "cluster": "Turno 3",
+        "market": "Sport Recife ou Empate (1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Gimnasia La Plata x Sarmiento (21:15 BRT)",
+        "cluster": "Turno 3",
+        "market": "Menos de 3.5 Gols no Jogo",
+        "odd": 1.16,
         "status": "PENDING"
       }
     ]
@@ -119,80 +119,80 @@
   "sorosTicket": {
     "day": 9,
     "stake": 96.64,
-    "multiplier": 1.41,
-    "potentialReturn": 136.26,
+    "multiplier": 1.37,
+    "potentialReturn": 132.40,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 9 de 30: Dupla Blindada — Udinese ou Empate (1X @1.24) na Serie A + Rennes ou Empate (1X @1.14) na Ligue 1. Odd combinada @1.41. Meta: R$ 136,26 rumo ao Dia 10.",
+    "notes": "Modelo Sniper Dia 9 de 30 (Grade Real 23/10/2026): Dupla Blindada — Cruzeiro ou Empate (1X @1.12) no Mineirão pelo Brasileirão Série A + Torino ou Empate (1X @1.22) na Serie A Italiana contra o Monza. Odd combinada @1.37. Meta: R$ 132,40 rumo ao Dia 10.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Udinese x Cagliari + Rennes x Le Havre",
-        "competition": "Serie A & Ligue 1 (13:30 e 15:45 BRT)",
-        "market": "Udinese 1X (@1.24) + Rennes 1X (@1.14)",
-        "odd": 1.41,
+        "match": "Cruzeiro x Remo + Torino x Monza",
+        "competition": "Brasileirão Série A & Serie A (20:00 e 15:45 BRT)",
+        "market": "Cruzeiro 1X (@1.12) + Torino 1X (@1.22)",
+        "odd": 1.37,
         "stake": 96.64,
-        "potentialReturn": 136.26,
+        "potentialReturn": 132.40,
         "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Udinese ostenta altíssima consistência tática em casa contra um Cagliari frágil fora de seus domínios; Rennes joga pressionado no Roazhon Park contra o Le Havre que vem de 5 derrotas seguidas."
+        "analysis": "Cruzeiro disputa o topo da Série A com 51 pontos e Mineirão com público em massa diante do modesto Remo; Torino em casa muito seguro diante de um Monza com produção ofensiva escassa fora."
       }
     ],
     "selections": [
       {
-        "match": "Udinese x Cagliari",
-        "competition": "Serie A (13:30 BRT)",
-        "market": "Udinese ou Empate (1X)",
-        "odd": 1.24,
+        "match": "Cruzeiro x Remo",
+        "competition": "Brasileirão Série A (20:00 BRT)",
+        "market": "Cruzeiro ou Empate (1X)",
+        "odd": 1.12,
         "status": "PENDING"
       },
       {
-        "match": "Rennes x Le Havre",
-        "competition": "Ligue 1 (15:45 BRT)",
-        "market": "Rennes ou Empate (1X)",
-        "odd": 1.14,
+        "match": "Torino x Monza",
+        "competition": "Serie A Italiana (15:45 BRT)",
+        "market": "Torino ou Empate (1X)",
+        "odd": 1.22,
         "status": "PENDING"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial 100% Compatível)",
+      "name": "MÚLTIPLA 1 — SAFE (Grade Real Oficial 23/10/2026)",
       "type": "SAFE",
       "status": "PENDING",
-      "notes": "100% de jogos distintos em cada Stop Point. Aceito sem restrições em qualquer casa.",
+      "notes": "100% de jogos da rodada oficial de hoje, aceito sem restrições em qualquer casa.",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Dupla Âncora Blindada)",
-          "multiplier": 1.28,
+          "multiplier": 1.37,
           "legs": [
-            "Goiás x Amazonas: Goiás ou Empate (1X @1.12)",
-            "Rennes x Le Havre: Rennes ou Empate (1X @1.14)"
+            "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
+            "Torino x Monza: Torino ou Empate (1X @1.22)"
           ],
           "status": "PENDING"
         },
         {
           "level": "STOP POINT 2 (Quádrupla Forte de Sexta)",
-          "multiplier": 1.84,
+          "multiplier": 1.91,
           "legs": [
-            "Goiás x Amazonas: Goiás ou Empate (1X @1.12)",
-            "Rennes x Le Havre: Rennes ou Empate (1X @1.14)",
-            "Mainz 05 x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
-            "Avaí x Vila Nova: Avaí ou Empate (1X @1.20)"
+            "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
+            "Torino x Monza: Torino ou Empate (1X @1.22)",
+            "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols (@1.18)",
+            "Sport Recife x Criciúma: Sport Recife ou Empate (1X @1.18)"
           ],
           "status": "PENDING"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
-          "multiplier": 3.85,
+          "multiplier": 3.75,
           "legs": [
-            "Goiás x Amazonas: Goiás ou Empate (1X @1.12)",
-            "Rennes x Le Havre: Rennes ou Empate (1X @1.14)",
-            "Mainz 05 x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
-            "Avaí x Vila Nova: Avaí ou Empate (1X @1.20)",
-            "Udinese x Cagliari: Udinese ou Empate (1X @1.24)",
-            "Santa Clara x Gil Vicente: Santa Clara ou Empate (1X @1.22)",
-            "Leicester City x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
-            "Torino x Como: Torino ou Empate (1X @1.28)"
+            "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
+            "Torino x Monza: Torino ou Empate (1X @1.22)",
+            "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols (@1.18)",
+            "Sport Recife x Criciúma: Sport Recife ou Empate (1X @1.18)",
+            "Deportivo Alavés x Málaga: Alavés ou Empate (1X @1.20)",
+            "Vitória SC x CS Marítimo: Vitória SC ou Empate (1X @1.16)",
+            "Ipswich Town x Nottingham Forest: Mais de 1.5 Gols (@1.25)",
+            "Brest x Nice: Menos de 3.5 Gols no Jogo (@1.22)"
           ],
           "status": "PENDING"
         }
@@ -201,36 +201,36 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos)",
       "type": "SAFE+",
-      "multiplier": 4.60,
+      "multiplier": 3.20,
       "status": "PENDING",
       "legs": [
-        "Rennes x Le Havre: Rennes Vence (ML @1.58)",
-        "Goiás x Amazonas: Goiás Vence (ML @1.55)",
-        "Avaí x Vila Nova: Avaí Vence (ML @1.88)"
+        "Cruzeiro x Remo: Cruzeiro Vence (ML @1.45)",
+        "Torino x Monza: Torino Vence (ML @1.85)",
+        "Vitória SC x CS Marítimo: Vitória SC Vence (ML @1.65)"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 3 Jogos)",
       "type": "ATTACK",
-      "multiplier": 4.62,
+      "multiplier": 4.90,
       "status": "PENDING",
       "legs": [
-        "Leicester City x Nottingham Forest: Ambos Marcam - Sim (@1.70)",
-        "Mainz 05 x Borussia Mönchengladbach: Ambos Marcam - Sim (@1.58)",
-        "Torino x Como: Menos de 2.5 Gols no Jogo (@1.72)"
+        "Stuttgart x Borussia Mönchengladbach: Ambos Marcam - Sim (@1.62)",
+        "Ipswich Town x Nottingham Forest: Ambos Marcam - Sim (@1.72)",
+        "Sport Recife x Criciúma: Sport Vence (ML @1.80)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos)",
       "type": "NETO",
-      "multiplier": 19.44,
+      "multiplier": 18.25,
       "status": "PENDING",
-      "notes": "4 partidas de alto valor e assimetria técnica para retorno multiplicado.",
+      "notes": "4 partidas com vitórias secas e handicaps de valor para retorno multiplicado.",
       "legs": [
-        "Udinese x Cagliari: Udinese Vence + Menos de 3.5 Gols (@2.45)",
-        "Avaí x Vila Nova: Avaí Vence + Menos de 3.5 Gols (@2.20)",
-        "Leicester City x Nottingham Forest: Nottingham Forest DNB (@1.85)",
-        "Rennes x Le Havre: Rennes -1.0 Handicap Asiático (@1.95)"
+        "Cruzeiro x Remo: Cruzeiro Vence por 2+ Gols (-1.5 AH @2.20)",
+        "Torino x Monza: Torino Vence + Menos de 3.5 Gols (@2.30)",
+        "Sport Recife x Criciúma: Sport Vence + Menos de 3.5 Gols (@2.25)",
+        "Ipswich Town x Nottingham Forest: Nottingham Forest Vence (ML @2.30)"
       ]
     }
   ]

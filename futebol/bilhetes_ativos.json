@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "snapshotId": "FAS_MULTI_SPORT_2026-10-23_V2_CALIBRATED_REAL_SCHEDULE",
-  "status": "PENDING",
+  "status": "RESOLVED",
   "notes": "Grade 100% calibrada e auditada com a tabela oficial de hoje, sexta-feira 23/10/2026. Cobre Premier League, Serie A, Bundesliga, Ligue 1, La Liga, Liga Portugal, Brasileirão Série A (Cruzeiro no Mineirão) e Série B (Sport na Ilha). Arquitetura Clean Parlay Universal.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sexta-feira 23/10/2026 Oficial)",
@@ -9,7 +9,7 @@
     "sport": "Futebol",
     "multiplierGlobal": 4.14,
     "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de hoje (1 seleção por jogo), divididas em 3 Turnos de Horário.",
-    "status": "PENDING",
+    "status": "GREEN",
     "timeClusters": [
       {
         "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA ABERTURA (15:30 - 15:45 BRT)",
@@ -19,7 +19,8 @@
           "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.18)",
           "Torino x Monza: Torino ou Empate (Dupla Chance 1X @1.22)",
           "Brest x Nice: Menos de 3.5 Gols no Jogo (@1.22)"
-        ]
+        ],
+        "status": "GREEN"
       },
       {
         "clusterName": "🏰 TURNO 2 — TARDE GRANDES LIGAS (16:00 - 16:45 BRT)",
@@ -29,7 +30,8 @@
           "Ipswich Town x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
           "Deportivo Alavés x Málaga: Alavés ou Empate (Dupla Chance 1X @1.20)",
           "Vitória SC x CS Marítimo: Vitória SC ou Empate (Dupla Chance 1X @1.16)"
-        ]
+        ],
+        "status": "GREEN"
       },
       {
         "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO & SUL-AMERICANA (19:30 - 21:15 BRT)",
@@ -40,7 +42,8 @@
           "Cruzeiro x Remo: Cruzeiro ou Empate (Dupla Chance 1X @1.12)",
           "Sport Recife x Criciúma: Sport Recife ou Empate (Dupla Chance 1X @1.18)",
           "Gimnasia La Plata x Sarmiento: Menos de 3.5 Gols no Jogo (@1.16)"
-        ]
+        ],
+        "status": "GREEN"
       }
     ],
     "selections": [
@@ -49,70 +52,70 @@
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Torino x Monza (15:45 BRT)",
         "cluster": "Turno 1",
         "market": "Torino ou Empate (1X)",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Brest x Nice (15:45 BRT)",
         "cluster": "Turno 1",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Ipswich Town x Nottingham Forest (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.25,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Deportivo Alavés x Málaga (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Alavés ou Empate (1X)",
-        "odd": 1.20,
-        "status": "PENDING"
+        "odd": 1.2,
+        "status": "HIT"
       },
       {
         "match": "Vitória SC x CS Marítimo (16:45 BRT)",
         "cluster": "Turno 2",
         "market": "Vitória SC ou Empate (1X)",
         "odd": 1.16,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Operário-PR x Athletic Club (19:30 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 2.5 Gols no Jogo",
         "odd": 1.35,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Cruzeiro x Remo (20:00 BRT)",
         "cluster": "Turno 3",
         "market": "Cruzeiro ou Empate (1X)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Sport Recife x Criciúma (21:00 BRT)",
         "cluster": "Turno 3",
         "market": "Sport Recife ou Empate (1X)",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Gimnasia La Plata x Sarmiento (21:15 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.16,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -120,8 +123,8 @@
     "day": 9,
     "stake": 96.64,
     "multiplier": 1.37,
-    "potentialReturn": 132.40,
-    "status": "PENDING",
+    "potentialReturn": 132.4,
+    "status": "GREEN",
     "notes": "Modelo Sniper Dia 9 de 30 (Grade Real 23/10/2026): Dupla Blindada — Cruzeiro ou Empate (1X @1.12) no Mineirão pelo Brasileirão Série A + Torino ou Empate (1X @1.22) na Serie A Italiana contra o Monza. Odd combinada @1.37. Meta: R$ 132,40 rumo ao Dia 10.",
     "sniperOptions": [
       {
@@ -131,8 +134,8 @@
         "market": "Cruzeiro 1X (@1.12) + Torino 1X (@1.22)",
         "odd": 1.37,
         "stake": 96.64,
-        "potentialReturn": 132.40,
-        "status": "PENDING",
+        "potentialReturn": 132.4,
+        "status": "GREEN",
         "isPrimary": true,
         "analysis": "Cruzeiro disputa o topo da Série A com 51 pontos e Mineirão com público em massa diante do modesto Remo; Torino em casa muito seguro diante de um Monza com produção ofensiva escassa fora."
       }
@@ -143,14 +146,14 @@
         "competition": "Brasileirão Série A (20:00 BRT)",
         "market": "Cruzeiro ou Empate (1X)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Torino x Monza",
         "competition": "Serie A Italiana (15:45 BRT)",
         "market": "Torino ou Empate (1X)",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -158,7 +161,7 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Grade Real Oficial 23/10/2026)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "GREEN",
       "notes": "100% de jogos da rodada oficial de hoje, aceito sem restrições em qualquer casa.",
       "stopPoints": [
         {
@@ -168,7 +171,7 @@
             "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
             "Torino x Monza: Torino ou Empate (1X @1.22)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
           "level": "STOP POINT 2 (Quádrupla Forte de Sexta)",
@@ -179,7 +182,7 @@
             "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols (@1.18)",
             "Sport Recife x Criciúma: Sport Recife ou Empate (1X @1.18)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
@@ -194,15 +197,15 @@
             "Ipswich Town x Nottingham Forest: Mais de 1.5 Gols (@1.25)",
             "Brest x Nice: Menos de 3.5 Gols no Jogo (@1.22)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos)",
       "type": "SAFE+",
-      "multiplier": 3.20,
-      "status": "PENDING",
+      "multiplier": 3.2,
+      "status": "GREEN",
       "legs": [
         "Cruzeiro x Remo: Cruzeiro Vence (ML @1.45)",
         "Torino x Monza: Torino Vence (ML @1.85)",
@@ -212,8 +215,8 @@
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 3 Jogos)",
       "type": "ATTACK",
-      "multiplier": 4.90,
-      "status": "PENDING",
+      "multiplier": 4.9,
+      "status": "GREEN",
       "legs": [
         "Stuttgart x Borussia Mönchengladbach: Ambos Marcam - Sim (@1.62)",
         "Ipswich Town x Nottingham Forest: Ambos Marcam - Sim (@1.72)",
@@ -224,7 +227,7 @@
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos)",
       "type": "NETO",
       "multiplier": 18.25,
-      "status": "PENDING",
+      "status": "RED",
       "notes": "4 partidas com vitórias secas e handicaps de valor para retorno multiplicado.",
       "legs": [
         "Cruzeiro x Remo: Cruzeiro Vence por 2+ Gols (-1.5 AH @2.20)",

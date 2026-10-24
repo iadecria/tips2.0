@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 96.64,
-  "currentDay": 9,
+  "currentStake": 132.40,
+  "currentDay": 10,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -137,6 +137,16 @@
       "potentialReturn": 96.64,
       "status": "HIT",
       "actualReturn": 96.64
+    },
+    {
+      "day": 9,
+      "date": "2026-10-23",
+      "stakeIn": 96.64,
+      "selection": "Cruzeiro ou Empate (1X @1.12) + Torino ou Empate (1X @1.22)",
+      "odd": 1.37,
+      "potentialReturn": 132.40,
+      "status": "HIT",
+      "actualReturn": 132.40
     }
   ]
 }

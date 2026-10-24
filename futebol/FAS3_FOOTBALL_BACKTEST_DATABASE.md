@@ -1936,76 +1936,100 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-23
 - **Cutoff:** 2026-10-23T15:00:00-03:00
 - **Contexto da Data:** Super sexta-feira de futebol oficial da temporada 2026/27. Abertura das grandes ligas europeias (Bundesliga com Stuttgart x Mönchengladbach, Serie A com Torino x Monza, Ligue 1 com Brest x Nice, Premier League com Ipswich x Nottingham Forest, La Liga com Alavés x Málaga, Liga Portugal com Vitória SC x Marítimo) somada ao Brasileirão Série A (Cruzeiro x Remo no Mineirão), Brasileirão Série B (Sport x Criciúma na Ilha do Retiro, Operário-PR x Athletic) e futebol argentino.
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (10/10 NO BILHETE SUPREMO @4.14, 8/8 NA SAFE @3.75, 3/3 NA SAFE+ @3.20, 3/3 NO SUPER ATAQUE @4.90 E 9º GREEN CONSECUTIVO NO SOROS DIA 9 R$ 132,40)**
 
 #### 1. Discovery e Cobertura
 - Analisados: 10 fixtures oficiais confirmados
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
 - Descartados no pente-fino: Gimnasia x Sarmiento (mercado de gols muito baixo na Argentina), Alavés seco (volatilidade de início de rodada na Espanha).
 
-#### 2. Grade de Fixtures e Decisões Pre-Match
+#### 2. Grade de Fixtures, Resultados Oficiais e Liquidação
 
-1. **Stuttgart × Borussia Mönchengladbach** (15:30 BRT — Bundesliga)
-   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **ATTACK:** Ambos Marcam - Sim (@1.62)
+1. **Stuttgart 2 × 3 Borussia Mönchengladbach** (15:30 BRT — Bundesliga)
+   - *Resultado Oficial:* 2 x 3 (5 gols totais)
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18) ➔ ✅ **HIT** (5 gols)
+   - **ATTACK:** Ambos Marcam - Sim (@1.62) ➔ ✅ **HIT** (2x3)
 
-2. **Torino × Monza** (15:45 BRT — Serie A Italiana)
-   - **Tese (Turno 1 / Sniper Soros Dia 9):** Torino ou Empate (1X @1.22) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Torino Vence (ML @1.85)
-   - **NETO:** Torino Vence + Menos de 3.5 Gols (@2.30)
+2. **Torino 3 × 2 Monza** (15:45 BRT — Serie A Italiana)
+   - *Resultado Oficial:* 3 x 2 (Gols: Fitz-Jim 39', Belghali 61', Vlašić 72' | Varela 47', Patterson 90+4' gc)
+   - **Tese (Turno 1 / Sniper Soros Dia 9):** Torino ou Empate (1X @1.22) ➔ ✅ **HIT** (Torino venceu 3x2)
+   - **SAFE+:** Torino Vence (ML @1.85) ➔ ✅ **HIT** (3x2)
+   - **NETO:** Torino Vence + Menos de 3.5 Gols (@2.30) ➔ ❌ **MISS** (3x2 teve 5 gols)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Jogo anormalmente aberto na etapa final).
 
-3. **Brest × Nice** (15:45 BRT — Ligue 1 Francesa)
-   - **Tese (Turno 1):** Menos de 3.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+3. **Brest 1 × 2 OGC Nice** (15:45 BRT — Ligue 1 Francesa)
+   - *Resultado Oficial:* 1 x 2 (Gols: Ajorque 15' | Wahi 61', Diop 83')
+   - **Tese (Turno 1):** Menos de 3.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (3 gols totais)
 
-4. **Ipswich Town × Nottingham Forest** (16:00 BRT — Premier League)
-   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.25) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **ATTACK:** Ambos Marcam - Sim (@1.72)
-   - **NETO:** Nottingham Forest Vence (ML @2.30)
+4. **Ipswich Town 1 × 1 Nottingham Forest** (16:00 BRT — Premier League)
+   - *Resultado Oficial:* 1 x 1 (Gols: Enciso 41' | Neco Williams 13')
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.25) ➔ ✅ **HIT** (2 gols totais)
+   - **ATTACK:** Ambos Marcam - Sim (@1.72) ➔ ✅ **HIT** (1x1)
+   - **NETO:** Nottingham Forest Vence (ML @2.30) ➔ ❌ **MISS** (1x1)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Forest abriu 1x0 cedo, mas cedeu empate antes do intervalo).
 
-5. **Deportivo Alavés × Málaga** (16:00 BRT — La Liga)
-   - **Tese (Turno 2):** Deportivo Alavés ou Empate (1X @1.20) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+5. **Deportivo Alavés 1 × 1 Málaga** (16:00 BRT — La Liga)
+   - *Resultado Oficial:* 1 x 1 (Gols: Aitor Mañas 89' | Adrián Niño 44')
+   - **Tese (Turno 2):** Deportivo Alavés ou Empate (1X @1.20) ➔ ✅ **HIT** (1x1 heroico no Mendizorroza aos 89')
 
-6. **Vitória SC × CS Marítimo** (16:45 BRT — Liga Portugal)
-   - **Tese (Turno 2):** Vitória SC ou Empate (1X @1.16) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Vitória SC Vence (ML @1.65)
+6. **Vitória SC 5 × 0 CS Marítimo** (16:45 BRT — Liga Portugal)
+   - *Resultado Oficial:* 5 x 0 (Gols: Jakupović 38', 76', Paulo Henrique 48' gc, Camara 60', Mosquera 90')
+   - **Tese (Turno 2):** Vitória SC ou Empate (1X @1.16) ➔ ✅ **HIT** (Goleada acachapante 5x0)
+   - **SAFE+:** Vitória SC Vence (ML @1.65) ➔ ✅ **HIT** (5x0)
 
-7. **Operário-PR × Athletic Club** (19:30 BRT — Brasileirão Série B)
-   - **Tese (Turno 3):** Menos de 2.5 Gols no Jogo (@1.35) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+7. **Operário-PR 1 × 0 Athletic Club** (19:30 BRT — Brasileirão Série B)
+   - *Resultado Oficial:* 1 x 0 (Gol: Caio Dantas 29')
+   - **Tese (Turno 3):** Menos de 2.5 Gols no Jogo (@1.35) ➔ ✅ **HIT** (Apenas 1 gol)
 
-8. **Cruzeiro × Remo** (20:00 BRT — Brasileirão Série A)
-   - **Tese (Turno 3 / Sniper Soros Dia 9):** Cruzeiro ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Cruzeiro Vence (ML @1.45)
-   - **NETO:** Cruzeiro Vence por 2+ Gols (-1.5 AH @2.20)
+8. **Cruzeiro 1 × 0 Remo** (20:00 BRT — Brasileirão Série A)
+   - *Resultado Oficial:* 1 x 0 (Gol: Fabrício Bruno 45+4')
+   - **Tese (Turno 3 / Sniper Soros Dia 9):** Cruzeiro ou Empate (1X @1.12) ➔ ✅ **HIT** (Cruzeiro 1x0)
+   - **SAFE+:** Cruzeiro Vence (ML @1.45) ➔ ✅ **HIT** (1x0 no Mineirão)
+   - **NETO:** Cruzeiro Vence por 2+ Gols (-1.5 AH @2.20) ➔ ❌ **MISS** (Venceu pelo placar mínimo 1x0)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Controle defensivo absoluto sem forçar o 2º gol).
 
-9. **Sport Recife × Criciúma** (21:00 BRT — Brasileirão Série B)
-   - **Tese (Turno 3):** Sport Recife ou Empate (1X @1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Sport Recife Vence (ML @1.80)
-   - **NETO:** Sport Vence + Menos de 3.5 Gols (@2.25)
+9. **Sport Recife 2 × 1 Criciúma** (21:00 BRT — Brasileirão Série B)
+   - *Resultado Oficial:* 2 x 1 (Gols: Barletta 76', 90+10' p | Fellipe Mateus 90+1')
+   - **Tese (Turno 3):** Sport Recife ou Empate (1X @1.18) ➔ ✅ **HIT** (2x1)
+   - **SAFE+ / ATTACK:** Sport Recife Vence (ML @1.80) ➔ ✅ **HIT** (2x1 nos acréscimos)
+   - **NETO:** Sport Vence + Menos de 3.5 Gols (@2.25) ➔ ✅ **HIT** (2x1 = vitória e 3 gols totais)
 
-10. **Gimnasia La Plata × Sarmiento** (21:15 BRT — Liga Argentina)
-    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.16) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+10. **Gimnasia La Plata 2 × 0 Sarmiento** (21:15 BRT — Liga Argentina)
+    - *Resultado Oficial:* 2 x 0 (Gols: Nacho Fernández 13', Franco Torres 74')
+    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.16) ➔ ✅ **HIT** (2 gols totais)
 
-#### 3. Bilhetes Estruturados Oficiais de 23/10
+#### 3. Auditoria dos Bilhetes de 23/10
 
 *   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.14):**
-    *   🥪 Turno 1 Tarde Abertura (@1.76): Stuttgart x Gladbach Over 1.5 + Torino 1X + Brest x Nice Sub 3.5
-    *   🏰 Turno 2 Tarde Grandes Ligas (@1.74): Ipswich x Forest Over 1.5 + Alavés 1X + Vitória SC 1X
-    *   🌙 Turno 3 Noite Brasileirão (@1.83): Operário Sub 2.5 + Cruzeiro 1X + Sport 1X + Gimnasia Sub 3.5
+    *   🥪 **Turno 1 Tarde Abertura (@1.76):** 3 de 3 acertos ➔ ✅ **GREEN (Stuttgart Over 1.5, Torino 1X, Brest Sub 3.5)**
+    *   🏰 **Turno 2 Tarde Grandes Ligas (@1.74):** 3 de 3 acertos ➔ ✅ **GREEN (Ipswich Over 1.5, Alavés 1X, Vitória SC 1X)**
+    *   🌙 **Turno 3 Noite Brasileirão & Sul-Americana (@1.83):** 4 de 4 acertos ➔ ✅ **GREEN (Operário Sub 2.5, Cruzeiro 1X, Sport 1X, Gimnasia Sub 3.5)**
+    *   🏆 **10 DE 10 ACERTOS (100% DE APROVEITAMENTO)!**
+    *   🎉 **TERCEIRO GREEN CONSECUTIVO NO FILÉ DO DIA (@4.14)!**
+
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking):**
-    *   Stop Point 1 (@1.37): Cruzeiro 1X (@1.12) + Torino 1X (@1.22)
-    *   Stop Point 2 (@1.91): Stop Point 1 + Stuttgart Over 1.5 (@1.18) + Sport Recife 1X (@1.18)
-    *   Stop Point 3 (@3.75): Stop Point 2 + Alavés 1X (@1.20) + Vitória SC 1X (@1.16) + Ipswich Over 1.5 (@1.25) + Brest Sub 3.5 (@1.22)
+    *   **Stop Point 1 (@1.37):** Cruzeiro 1X (✅) + Torino 1X (✅) ➔ ✅ **GREEN TOTAL**
+    *   **Stop Point 2 (@1.91):** Stop Point 1 + Stuttgart Over 1.5 (✅) + Sport Recife 1X (✅) ➔ ✅ **GREEN TOTAL**
+    *   **Stop Point 3 (@3.75):** Stop Point 2 + Alavés 1X (✅) + Vitória SC 1X (✅) + Ipswich Over 1.5 (✅) + Brest Sub 3.5 (✅) ➔ ✅ **GREEN TOTAL (8/8 ACERTOS @3.75)!**
+
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.20):**
-    *   Cruzeiro Vence (ML @1.45) + Vitória SC Vence (ML @1.65) + Torino Vence (ML @1.85)
+    *   Cruzeiro ML (✅ 1x0) + Vitória SC ML (✅ 5x0) + Torino ML (✅ 3x2)
+    *   *Resultado:* 🏆 **GREEN ABSOLUTO HISTÓRICO (3/3 ACERTOS @3.20)!**
+
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.90):**
-    *   Stuttgart x Gladbach BTTS (@1.62) + Ipswich x Forest BTTS (@1.72) + Sport Recife Vence (ML @1.80)
+    *   Stuttgart x Gladbach BTTS (✅ 2x3) + Ipswich x Forest BTTS (✅ 1x1) + Sport Recife ML (✅ 2x1)
+    *   *Resultado:* 🚀 **GREEN MONSTRUOSO (3/3 ACERTOS CIRÚRGICOS @4.90)!**
+
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@18.25):**
-    *   Cruzeiro -1.5 AH (@2.20) + Torino Vence & Sub 3.5 (@2.30) + Sport Vence & Sub 3.5 (@2.25) + Nottingham Forest ML (@2.30)
+    *   Cruzeiro -1.5 AH (❌ 1x0) + Torino Vence & Sub 3.5 (❌ 3x2) + Sport Vence & Sub 3.5 (✅ 2x1 @2.25) + Nottingham Forest ML (❌ 1x1)
+    *   *Resultado:* ❌ **RED** (1 de 4 acertos — acerto cirúrgico no combo do Sport @2.25).
+
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 9 (SNIPER):**
-    *   **Entrada:** R$ 96,64 (100% dos lucros acumulados dos 8 Greens consecutivos)
-    *   **Seleção:** Cruzeiro ou Empate (1X @1.12) + Torino ou Empate (1X @1.22)
-    *   **Odd:** @1.37
-    *   **Retorno Projetado:** R$ 132,40 (meta: superar R$ 130 rumo ao Dia 10)
+    *   **Entrada:** R$ 96,64
+    *   **Seleção:** Cruzeiro ou Empate (1X @1.12) + Torino ou Empate (1X @1.22) [Odd @1.37]
+    *   **Resultado:** ✅ **GREEN HISTÓRICO (Cruzeiro 1x0 e Torino 3x2)!**
+    *   **Retorno:** R$ 132,40.
+    *   **Conquista:** 9º GREEN CONSECUTIVO! Avança consagrado para o **DIA 10 DE 30** com banca recorde de **R$ 132,40** (multiplicação de +1.224% sobre os R$ 10 iniciais)!
 
 
 

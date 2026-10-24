@@ -1,42 +1,42 @@
 {
   "date": "2026-10-24",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-24_V1_SATURDAY_PRIME_SCHEDULE",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-24_V2_CALIBRATED_REAL_SCHEDULE",
   "status": "PENDING",
-  "notes": "Grade oficial de sábado, 24/10/2026. Cobre Premier League, La Liga, Bundesliga, Serie A e Brasileirão Série A (32ª rodada). Arquitetura Clean Parlay Universal com 10 seleções divididas em 3 turnos.",
+  "notes": "Grade 100% calibrada e auditada exclusivamente para hoje, sábado 24/10/2026. (Liverpool x Brighton removido pois joga no domingo 25/10; substituído pela Lazio x Parma na Serie A). Cobre Premier League, Bundesliga, Serie A, La Liga e Brasileirão Série A (32ª rodada). Arquitetura Clean Parlay Universal.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sábado 24/10/2026 Oficial)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 4.18,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de hoje (1 seleção por jogo), divididas em 3 Turnos de Horário.",
+    "multiplierGlobal": 4.45,
+    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de hoje sábado (1 seleção por jogo), divididas em 3 Turnos de Horário.",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — MANHÃ EUROPEIA ABERTURA (08:30 - 11:15 BRT)",
-        "multiplier": 1.77,
-        "notes": "Volume ofensivo na Premier League com City, Arsenal e Liverpool, somado à solidez do Leipzig na Alemanha.",
+        "clusterName": "🥪 TURNO 1 — MANHÃ EUROPEIA ABERTURA (08:30 - 11:00 BRT)",
+        "multiplier": 1.48,
+        "notes": "Volume ofensivo do City no Villa Park, solidez do Arsenal no Emirates e força caseira do Leipzig.",
         "legs": [
           "Aston Villa x Manchester City: Mais de 1.5 Gols no Jogo (@1.18)",
           "Arsenal x Everton: Arsenal ou Empate (Dupla Chance 1X @1.12)",
-          "Liverpool x Brighton: Mais de 1.5 Gols no Jogo (@1.16)",
           "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (Dupla Chance 1X @1.12)"
         ]
       },
       {
         "clusterName": "🏰 TURNO 2 — TARDE EUROPEIA CLÁSSICOS (13:00 - 16:00 BRT)",
-        "multiplier": 1.71,
-        "notes": "Clássicos de alta intensidade em Londres e Itália, somados à força caseira do Dortmund e Atlético de Madrid.",
+        "multiplier": 2.18,
+        "notes": "Choque em Nápoles, clássico londrino em Stamford Bridge, poder de fogo no Signal Iduna Park, controle da Lazio e solidez do Atlético de Madrid.",
         "legs": [
           "Napoli x Roma: Mais de 1.5 Gols no Jogo (@1.22)",
           "Chelsea x Tottenham: Mais de 1.5 Gols no Jogo (@1.18)",
           "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols no Jogo (@1.15)",
+          "Lazio x Parma: Lazio ou Empate (Dupla Chance 1X @1.18)",
           "Atlético de Madrid x Deportivo La Coruña: Atlético ou Empate (Dupla Chance 1X @1.12)"
         ]
       },
       {
         "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO SÉRIE A (18:30 - 21:00 BRT)",
         "multiplier": 1.38,
-        "notes": "Força do Palmeiras na briga pelo topo do Brasileirão e contenção tática na Vila Belmiro.",
+        "notes": "Palmeiras disputando o topo na Arena Barueri e contenção tática na Vila Belmiro.",
         "legs": [
           "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
           "Santos x Bahia: Menos de 3.5 Gols no Jogo (@1.21)"
@@ -56,13 +56,6 @@
         "cluster": "Turno 1",
         "market": "Arsenal ou Empate (1X)",
         "odd": 1.12,
-        "status": "PENDING"
-      },
-      {
-        "match": "Liverpool x Brighton (11:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.16,
         "status": "PENDING"
       },
       {
@@ -94,6 +87,13 @@
         "status": "PENDING"
       },
       {
+        "match": "Lazio x Parma (15:45 BRT)",
+        "cluster": "Turno 2",
+        "market": "Lazio ou Empate (1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
         "match": "Atlético de Madrid x Deportivo La Coruña (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Atlético de Madrid ou Empate (1X)",
@@ -119,22 +119,22 @@
   "sorosTicket": {
     "day": 10,
     "stake": 132.40,
-    "multiplier": 1.34,
-    "potentialReturn": 177.42,
+    "multiplier": 1.47,
+    "potentialReturn": 194.36,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 10 de 30 (Grade Real 24/10/2026): Dupla Âncora Blindada — Arsenal ou Empate (1X @1.12) no Emirates Stadium pela Premier League + Palmeiras ou Empate (1X @1.14) na Série A contra o Bragantino + Dortmund x Frankfurt Over 1.5 (@1.15). Tripla protegida com odd @1.34. Meta: R$ 177,42 rumo ao Dia 11.",
+    "notes": "Modelo Sniper Dia 10 de 30 (Grade Oficial Sábado 24/10/2026): Tripla Âncora Blindada — Arsenal ou Empate (1X @1.12) no Emirates + Borussia Dortmund x Frankfurt Over 1.5 (@1.15) no Signal Iduna Park + Palmeiras ou Empate (1X @1.14) na Série A contra o Bragantino. Odd combinada @1.47. Meta: R$ 194,36 rumo ao Dia 11.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Arsenal x Everton + Palmeiras x Bragantino",
-        "competition": "Premier League & Brasileirão Série A (11:00 e 18:30 BRT)",
-        "market": "Arsenal 1X (@1.12) + Palmeiras 1X (@1.14) + Dortmund Over 1.5 (@1.15)",
-        "odd": 1.34,
+        "match": "Arsenal x Everton + Dortmund x Frankfurt + Palmeiras x Bragantino",
+        "competition": "Premier League, Bundesliga & Brasileirão Série A",
+        "market": "Arsenal 1X (@1.12) + Dortmund Over 1.5 (@1.15) + Palmeiras 1X (@1.14)",
+        "odd": 1.47,
         "stake": 132.40,
-        "potentialReturn": 177.42,
+        "potentialReturn": 194.36,
         "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Arsenal com imposição avassaladora em casa contra o Everton e Palmeiras mandante na Arena Barueri contra um Bragantino em baixa fora, aliados ao clássico ultra ofensivo alemão no Signal Iduna Park."
+        "analysis": "Arsenal com imposição avassaladora em casa contra o Everton, clássico ultra ofensivo alemão no Signal Iduna Park com média superior a 3 gols, e Palmeiras mandante na Arena Barueri contra um Bragantino em baixa fora."
       }
     ],
     "selections": [
@@ -146,17 +146,17 @@
         "status": "PENDING"
       },
       {
-        "match": "Palmeiras x Red Bull Bragantino",
-        "competition": "Brasileirão Série A (18:30 BRT)",
-        "market": "Palmeiras ou Empate (1X)",
-        "odd": 1.14,
-        "status": "PENDING"
-      },
-      {
         "match": "Borussia Dortmund x Eintracht Frankfurt",
         "competition": "Bundesliga (13:30 BRT)",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.15,
+        "status": "PENDING"
+      },
+      {
+        "match": "Palmeiras x Red Bull Bragantino",
+        "competition": "Brasileirão Série A (18:30 BRT)",
+        "market": "Palmeiras ou Empate (1X)",
+        "odd": 1.14,
         "status": "PENDING"
       }
     ]
@@ -166,39 +166,40 @@
       "name": "MÚLTIPLA 1 — SAFE (Grade Real Oficial 24/10/2026)",
       "type": "SAFE",
       "status": "PENDING",
-      "notes": "100% de jogos da rodada de sábado, divididos nos 3 Stop Points comutáveis.",
+      "notes": "100% de jogos da rodada de sábado 24/10/2026, divididos nos 3 Stop Points comutáveis.",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Dupla Âncora de Elite)",
-          "multiplier": 1.28,
+          "multiplier": 1.29,
           "legs": [
             "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
-            "Liverpool x Brighton: Mais de 1.5 Gols (@1.16)"
-          ],
-          "status": "PENDING"
-        },
-        {
-          "level": "STOP POINT 2 (Quádrupla Forte de Sábado)",
-          "multiplier": 1.83,
-          "legs": [
-            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
-            "Liverpool x Brighton: Mais de 1.5 Gols (@1.16)",
-            "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
-            "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
             "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
-          "multiplier": 3.42,
+          "level": "STOP POINT 2 (Quíntupla Forte de Sábado)",
+          "multiplier": 1.94,
           "legs": [
             "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
-            "Liverpool x Brighton: Mais de 1.5 Gols (@1.16)",
+            "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)",
             "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
             "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
+            "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (1X @1.12)"
+          ],
+          "status": "PENDING"
+        },
+        {
+          "level": "STOP POINT 3 (Múltipla Completa 9 Seleções)",
+          "multiplier": 3.68,
+          "legs": [
+            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
             "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)",
+            "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
+            "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
+            "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (1X @1.12)",
             "Aston Villa x Manchester City: Mais de 1.5 Gols (@1.18)",
+            "Lazio x Parma: Lazio ou Empate (1X @1.18)",
             "Atlético de Madrid x Deportivo La Coruña: Atlético 1X (@1.12)",
             "Napoli x Roma: Mais de 1.5 Gols (@1.22)"
           ],

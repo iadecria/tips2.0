@@ -2035,16 +2035,16 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 ### [2026-10-24] — RODADA DIÁRIA (SUPER SÁBADO: PREMIER LEAGUE, BUNDESLIGA, SERIE A, LA LIGA & BRASILEIRÃO SÉRIE A)
 
-- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-24_V1_SATURDAY_PRIME_SCHEDULE`
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-24_V2_CALIBRATED_REAL_SCHEDULE`
 - **Data do Registro:** 2026-10-24
-- **Cutoff:** 2026-10-24T08:00:00-03:00
-- **Contexto da Data:** Super sábado global com o clássico londrino Chelsea x Tottenham em Stamford Bridge, Man City visitando o Aston Villa no Villa Park, Arsenal recebendo o Everton, Liverpool contra Brighton, Borussia Dortmund x Eintracht Frankfurt no Signal Iduna Park, RB Leipzig na Bundesliga, Napoli x Roma no Maradona e a 32ª rodada do Brasileirão Série A com Palmeiras x Bragantino na Arena Barueri e Santos x Bahia na Vila Belmiro.
+- **Cutoff:** 2026-10-24T08:25:00-03:00
+- **Contexto da Data:** Super sábado global com o clássico londrino Chelsea x Tottenham em Stamford Bridge, Man City visitando o Aston Villa no Villa Park, Arsenal recebendo o Everton, Borussia Dortmund x Eintracht Frankfurt no Signal Iduna Park, RB Leipzig na Bundesliga, Napoli x Roma no Maradona, Lazio x Parma no Olímpico e a 32ª rodada do Brasileirão Série A com Palmeiras x Bragantino na Arena Barueri e Santos x Bahia na Vila Belmiro. *(Liverpool x Brighton removido da grade por ser no domingo 25/10).*
 - **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
 
 #### 1. Discovery e Cobertura
 - Analisados: 18 fixtures principais de elite
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
-- Descartados no pente-fino: Vasco x Corinthians (alta rivalidade com viés de cartões e imprevisibilidade), Man United x Bournemouth (oscilação tática extrema dos Red Devils).
+- Descartados no pente-fino: Liverpool x Brighton (partida marcada para domingo 25/10), Vasco x Corinthians (alta rivalidade com viés de truncamento e cartões), Man United x Bournemouth (oscilação tática extrema).
 
 #### 2. Grade de Fixtures e Decisões Pre-Match
 
@@ -2057,24 +2057,25 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
    - **SAFE+:** Arsenal Vence (ML @1.42)
    - **NETO:** Arsenal Vence por 2+ Gols (-1.5 AH @2.15)
 
-3. **Liverpool × Brighton & Hove Albion** (11:00 BRT — Premier League)
-   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.16) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-
-4. **RB Leipzig × SV Elversberg** (10:30 BRT — Bundesliga)
+3. **RB Leipzig × SV Elversberg** (10:30 BRT — Bundesliga)
    - **Tese (Turno 1):** RB Leipzig ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
 
-5. **Napoli × AS Roma** (13:00 BRT — Serie A Italiana)
+4. **Napoli × AS Roma** (13:00 BRT — Serie A Italiana)
    - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
    - **NETO:** Napoli Vence (ML @2.10)
 
-6. **Chelsea × Tottenham Hotspur** (13:30 BRT — Premier League)
+5. **Chelsea × Tottenham Hotspur** (13:30 BRT — Premier League)
    - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
    - **ATTACK:** Ambos Marcam - Sim (@1.58)
    - **NETO:** Chelsea Vence + Ambos Marcam (@2.80)
 
-7. **Borussia Dortmund × Eintracht Frankfurt** (13:30 BRT — Bundesliga)
+6. **Borussia Dortmund × Eintracht Frankfurt** (13:30 BRT — Bundesliga)
    - **Tese (Turno 2 / Sniper Soros Dia 10):** Mais de 1.5 Gols no Jogo (@1.15) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
    - **ATTACK:** Ambos Marcam - Sim (@1.55)
+
+7. **Lazio × Parma** (15:45 BRT — Serie A Italiana)
+   - **Tese (Turno 2):** Lazio ou Empate (1X @1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+   - **SAFE+:** Lazio Vence (ML @1.65)
 
 8. **Atlético de Madrid × Deportivo La Coruña** (16:00 BRT — La Liga)
    - **Tese (Turno 2):** Atlético de Madrid ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
@@ -2090,14 +2091,14 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 #### 3. Bilhetes Estruturados Oficiais de 24/10
 
-*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.18):**
-    *   🥪 Turno 1 Manhã Europeia (@1.77): Villa x City Over 1.5 + Arsenal 1X + Liverpool Over 1.5 + Leipzig 1X
-    *   🏰 Turno 2 Tarde Clássicos (@1.71): Napoli Over 1.5 + Chelsea Over 1.5 + Dortmund Over 1.5 + Atlético 1X
+*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.45):**
+    *   🥪 Turno 1 Manhã Europeia (@1.48): Villa x City Over 1.5 + Arsenal 1X + Leipzig 1X
+    *   🏰 Turno 2 Tarde Clássicos (@2.18): Napoli Over 1.5 + Chelsea Over 1.5 + Dortmund Over 1.5 + Lazio 1X + Atlético 1X
     *   🌙 Turno 3 Noite Brasileirão (@1.38): Palmeiras 1X + Santos Sub 3.5
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking):**
-    *   Stop Point 1 (@1.28): Arsenal 1X (@1.12) + Liverpool Over 1.5 (@1.16)
-    *   Stop Point 2 (@1.83): Stop Point 1 + Palmeiras 1X (@1.14) + Chelsea Over 1.5 (@1.18) + Dortmund Over 1.5 (@1.15)
-    *   Stop Point 3 (@3.42): Stop Point 2 + Villa Over 1.5 (@1.18) + Atlético 1X (@1.12) + Napoli Over 1.5 (@1.22)
+    *   Stop Point 1 (@1.29): Arsenal 1X (@1.12) + Dortmund Over 1.5 (@1.15)
+    *   Stop Point 2 (@1.94): Stop Point 1 + Palmeiras 1X (@1.14) + Chelsea Over 1.5 (@1.18) + Leipzig 1X (@1.12)
+    *   Stop Point 3 (@3.68): Stop Point 2 + Villa Over 1.5 (@1.18) + Lazio 1X (@1.18) + Atlético 1X (@1.12) + Napoli Over 1.5 (@1.22)
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.45):**
     *   Arsenal Vence (ML @1.42) + Atlético de Madrid Vence (ML @1.45) + Palmeiras Vence (ML @1.68)
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.85):**
@@ -2106,9 +2107,9 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
     *   Arsenal -1.5 AH (@2.15) + Chelsea Vence & BTTS (@2.80) + Palmeiras Vence & Sub 3.5 (@2.20) + Napoli ML (@2.10)
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 10 (SNIPER):**
     *   **Entrada:** R$ 132,40 (100% dos lucros acumulados dos 9 Greens consecutivos)
-    *   **Seleção:** Arsenal ou Empate (1X @1.12) + Palmeiras ou Empate (1X @1.14) + Dortmund x Frankfurt Over 1.5 (@1.15)
-    *   **Odd:** @1.34
-    *   **Retorno Projetado:** R$ 177,42 (meta: superar R$ 175 rumo ao Dia 11)
+    *   **Seleção:** Arsenal ou Empate (1X @1.12) + Dortmund x Frankfurt Over 1.5 (@1.15) + Palmeiras ou Empate (1X @1.14)
+    *   **Odd:** @1.47
+    *   **Retorno Projetado:** R$ 194,36 (meta: superar R$ 190 rumo ao Dia 11)
 
 
 

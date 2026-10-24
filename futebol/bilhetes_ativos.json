@@ -1,239 +1,244 @@
 {
-  "date": "2026-10-23",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-23_V2_CALIBRATED_REAL_SCHEDULE",
-  "status": "RESOLVED",
-  "notes": "Grade 100% calibrada e auditada com a tabela oficial de hoje, sexta-feira 23/10/2026. Cobre Premier League, Serie A, Bundesliga, Ligue 1, La Liga, Liga Portugal, Brasileirão Série A (Cruzeiro no Mineirão) e Série B (Sport na Ilha). Arquitetura Clean Parlay Universal.",
+  "date": "2026-10-24",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-24_V1_SATURDAY_PRIME_SCHEDULE",
+  "status": "PENDING",
+  "notes": "Grade oficial de sábado, 24/10/2026. Cobre Premier League, La Liga, Bundesliga, Serie A e Brasileirão Série A (32ª rodada). Arquitetura Clean Parlay Universal com 10 seleções divididas em 3 turnos.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sexta-feira 23/10/2026 Oficial)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sábado 24/10/2026 Oficial)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 4.14,
+    "multiplierGlobal": 4.18,
     "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de hoje (1 seleção por jogo), divididas em 3 Turnos de Horário.",
-    "status": "GREEN",
+    "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA ABERTURA (15:30 - 15:45 BRT)",
-        "multiplier": 1.76,
-        "notes": "DNA ofensivo na Bundesliga com o Stuttgart e consistência defensiva de Torino e Brest.",
+        "clusterName": "🥪 TURNO 1 — MANHÃ EUROPEIA ABERTURA (08:30 - 11:15 BRT)",
+        "multiplier": 1.77,
+        "notes": "Volume ofensivo na Premier League com City, Arsenal e Liverpool, somado à solidez do Leipzig na Alemanha.",
         "legs": [
-          "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.18)",
-          "Torino x Monza: Torino ou Empate (Dupla Chance 1X @1.22)",
-          "Brest x Nice: Menos de 3.5 Gols no Jogo (@1.22)"
-        ],
-        "status": "GREEN"
+          "Aston Villa x Manchester City: Mais de 1.5 Gols no Jogo (@1.18)",
+          "Arsenal x Everton: Arsenal ou Empate (Dupla Chance 1X @1.12)",
+          "Liverpool x Brighton: Mais de 1.5 Gols no Jogo (@1.16)",
+          "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (Dupla Chance 1X @1.12)"
+        ]
       },
       {
-        "clusterName": "🏰 TURNO 2 — TARDE GRANDES LIGAS (16:00 - 16:45 BRT)",
-        "multiplier": 1.74,
-        "notes": "Volume ofensivo na Premier League e mando de campo de Alavés no País Basco e Vitória SC em Guimarães.",
+        "clusterName": "🏰 TURNO 2 — TARDE EUROPEIA CLÁSSICOS (13:00 - 16:00 BRT)",
+        "multiplier": 1.71,
+        "notes": "Clássicos de alta intensidade em Londres e Itália, somados à força caseira do Dortmund e Atlético de Madrid.",
         "legs": [
-          "Ipswich Town x Nottingham Forest: Mais de 1.5 Gols no Jogo (@1.25)",
-          "Deportivo Alavés x Málaga: Alavés ou Empate (Dupla Chance 1X @1.20)",
-          "Vitória SC x CS Marítimo: Vitória SC ou Empate (Dupla Chance 1X @1.16)"
-        ],
-        "status": "GREEN"
+          "Napoli x Roma: Mais de 1.5 Gols no Jogo (@1.22)",
+          "Chelsea x Tottenham: Mais de 1.5 Gols no Jogo (@1.18)",
+          "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols no Jogo (@1.15)",
+          "Atlético de Madrid x Deportivo La Coruña: Atlético ou Empate (Dupla Chance 1X @1.12)"
+        ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO & SUL-AMERICANA (19:30 - 21:15 BRT)",
-        "multiplier": 1.83,
-        "notes": "Força caseira do Cruzeiro no Mineirão na Série A, pressão do Sport na Ilha e contenção no Paraná e Argentina.",
+        "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO SÉRIE A (18:30 - 21:00 BRT)",
+        "multiplier": 1.38,
+        "notes": "Força do Palmeiras na briga pelo topo do Brasileirão e contenção tática na Vila Belmiro.",
         "legs": [
-          "Operário-PR x Athletic Club: Menos de 2.5 Gols no Jogo (@1.35)",
-          "Cruzeiro x Remo: Cruzeiro ou Empate (Dupla Chance 1X @1.12)",
-          "Sport Recife x Criciúma: Sport Recife ou Empate (Dupla Chance 1X @1.18)",
-          "Gimnasia La Plata x Sarmiento: Menos de 3.5 Gols no Jogo (@1.16)"
-        ],
-        "status": "GREEN"
+          "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
+          "Santos x Bahia: Menos de 3.5 Gols no Jogo (@1.21)"
+        ]
       }
     ],
     "selections": [
       {
-        "match": "Stuttgart x Borussia Mönchengladbach (15:30 BRT)",
+        "match": "Aston Villa x Manchester City (08:30 BRT)",
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.18,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Torino x Monza (15:45 BRT)",
+        "match": "Arsenal x Everton (11:00 BRT)",
         "cluster": "Turno 1",
-        "market": "Torino ou Empate (1X)",
-        "odd": 1.22,
-        "status": "HIT"
-      },
-      {
-        "match": "Brest x Nice (15:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.22,
-        "status": "HIT"
-      },
-      {
-        "match": "Ipswich Town x Nottingham Forest (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.25,
-        "status": "HIT"
-      },
-      {
-        "match": "Deportivo Alavés x Málaga (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Alavés ou Empate (1X)",
-        "odd": 1.2,
-        "status": "HIT"
-      },
-      {
-        "match": "Vitória SC x CS Marítimo (16:45 BRT)",
-        "cluster": "Turno 2",
-        "market": "Vitória SC ou Empate (1X)",
-        "odd": 1.16,
-        "status": "HIT"
-      },
-      {
-        "match": "Operário-PR x Athletic Club (19:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Menos de 2.5 Gols no Jogo",
-        "odd": 1.35,
-        "status": "HIT"
-      },
-      {
-        "match": "Cruzeiro x Remo (20:00 BRT)",
-        "cluster": "Turno 3",
-        "market": "Cruzeiro ou Empate (1X)",
+        "market": "Arsenal ou Empate (1X)",
         "odd": 1.12,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Sport Recife x Criciúma (21:00 BRT)",
-        "cluster": "Turno 3",
-        "market": "Sport Recife ou Empate (1X)",
+        "match": "Liverpool x Brighton (11:00 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.16,
+        "status": "PENDING"
+      },
+      {
+        "match": "RB Leipzig x SV Elversberg (10:30 BRT)",
+        "cluster": "Turno 1",
+        "market": "RB Leipzig ou Empate (1X)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Napoli x Roma (13:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.22,
+        "status": "PENDING"
+      },
+      {
+        "match": "Chelsea x Tottenham (13:30 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.18,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Gimnasia La Plata x Sarmiento (21:15 BRT)",
+        "match": "Borussia Dortmund x Eintracht Frankfurt (13:30 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.15,
+        "status": "PENDING"
+      },
+      {
+        "match": "Atlético de Madrid x Deportivo La Coruña (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Atlético de Madrid ou Empate (1X)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Palmeiras x Red Bull Bragantino (18:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "Palmeiras ou Empate (1X)",
+        "odd": 1.14,
+        "status": "PENDING"
+      },
+      {
+        "match": "Santos x Bahia (21:00 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.16,
-        "status": "HIT"
+        "odd": 1.21,
+        "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 9,
-    "stake": 96.64,
-    "multiplier": 1.37,
-    "potentialReturn": 132.4,
-    "status": "GREEN",
-    "notes": "Modelo Sniper Dia 9 de 30 (Grade Real 23/10/2026): Dupla Blindada — Cruzeiro ou Empate (1X @1.12) no Mineirão pelo Brasileirão Série A + Torino ou Empate (1X @1.22) na Serie A Italiana contra o Monza. Odd combinada @1.37. Meta: R$ 132,40 rumo ao Dia 10.",
+    "day": 10,
+    "stake": 132.40,
+    "multiplier": 1.34,
+    "potentialReturn": 177.42,
+    "status": "PENDING",
+    "notes": "Modelo Sniper Dia 10 de 30 (Grade Real 24/10/2026): Dupla Âncora Blindada — Arsenal ou Empate (1X @1.12) no Emirates Stadium pela Premier League + Palmeiras ou Empate (1X @1.14) na Série A contra o Bragantino + Dortmund x Frankfurt Over 1.5 (@1.15). Tripla protegida com odd @1.34. Meta: R$ 177,42 rumo ao Dia 11.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Cruzeiro x Remo + Torino x Monza",
-        "competition": "Brasileirão Série A & Serie A (20:00 e 15:45 BRT)",
-        "market": "Cruzeiro 1X (@1.12) + Torino 1X (@1.22)",
-        "odd": 1.37,
-        "stake": 96.64,
-        "potentialReturn": 132.4,
-        "status": "GREEN",
+        "match": "Arsenal x Everton + Palmeiras x Bragantino",
+        "competition": "Premier League & Brasileirão Série A (11:00 e 18:30 BRT)",
+        "market": "Arsenal 1X (@1.12) + Palmeiras 1X (@1.14) + Dortmund Over 1.5 (@1.15)",
+        "odd": 1.34,
+        "stake": 132.40,
+        "potentialReturn": 177.42,
+        "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Cruzeiro disputa o topo da Série A com 51 pontos e Mineirão com público em massa diante do modesto Remo; Torino em casa muito seguro diante de um Monza com produção ofensiva escassa fora."
+        "analysis": "Arsenal com imposição avassaladora em casa contra o Everton e Palmeiras mandante na Arena Barueri contra um Bragantino em baixa fora, aliados ao clássico ultra ofensivo alemão no Signal Iduna Park."
       }
     ],
     "selections": [
       {
-        "match": "Cruzeiro x Remo",
-        "competition": "Brasileirão Série A (20:00 BRT)",
-        "market": "Cruzeiro ou Empate (1X)",
+        "match": "Arsenal x Everton",
+        "competition": "Premier League (11:00 BRT)",
+        "market": "Arsenal ou Empate (1X)",
         "odd": 1.12,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Torino x Monza",
-        "competition": "Serie A Italiana (15:45 BRT)",
-        "market": "Torino ou Empate (1X)",
-        "odd": 1.22,
-        "status": "HIT"
+        "match": "Palmeiras x Red Bull Bragantino",
+        "competition": "Brasileirão Série A (18:30 BRT)",
+        "market": "Palmeiras ou Empate (1X)",
+        "odd": 1.14,
+        "status": "PENDING"
+      },
+      {
+        "match": "Borussia Dortmund x Eintracht Frankfurt",
+        "competition": "Bundesliga (13:30 BRT)",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.15,
+        "status": "PENDING"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Grade Real Oficial 23/10/2026)",
+      "name": "MÚLTIPLA 1 — SAFE (Grade Real Oficial 24/10/2026)",
       "type": "SAFE",
-      "status": "GREEN",
-      "notes": "100% de jogos da rodada oficial de hoje, aceito sem restrições em qualquer casa.",
+      "status": "PENDING",
+      "notes": "100% de jogos da rodada de sábado, divididos nos 3 Stop Points comutáveis.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Blindada)",
-          "multiplier": 1.37,
+          "level": "STOP POINT 1 (Dupla Âncora de Elite)",
+          "multiplier": 1.28,
           "legs": [
-            "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
-            "Torino x Monza: Torino ou Empate (1X @1.22)"
+            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
+            "Liverpool x Brighton: Mais de 1.5 Gols (@1.16)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte de Sexta)",
-          "multiplier": 1.91,
+          "level": "STOP POINT 2 (Quádrupla Forte de Sábado)",
+          "multiplier": 1.83,
           "legs": [
-            "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
-            "Torino x Monza: Torino ou Empate (1X @1.22)",
-            "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols (@1.18)",
-            "Sport Recife x Criciúma: Sport Recife ou Empate (1X @1.18)"
+            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
+            "Liverpool x Brighton: Mais de 1.5 Gols (@1.16)",
+            "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
+            "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
+            "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
-          "multiplier": 3.75,
+          "multiplier": 3.42,
           "legs": [
-            "Cruzeiro x Remo: Cruzeiro ou Empate (1X @1.12)",
-            "Torino x Monza: Torino ou Empate (1X @1.22)",
-            "Stuttgart x Borussia Mönchengladbach: Mais de 1.5 Gols (@1.18)",
-            "Sport Recife x Criciúma: Sport Recife ou Empate (1X @1.18)",
-            "Deportivo Alavés x Málaga: Alavés ou Empate (1X @1.20)",
-            "Vitória SC x CS Marítimo: Vitória SC ou Empate (1X @1.16)",
-            "Ipswich Town x Nottingham Forest: Mais de 1.5 Gols (@1.25)",
-            "Brest x Nice: Menos de 3.5 Gols no Jogo (@1.22)"
+            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
+            "Liverpool x Brighton: Mais de 1.5 Gols (@1.16)",
+            "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
+            "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
+            "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)",
+            "Aston Villa x Manchester City: Mais de 1.5 Gols (@1.18)",
+            "Atlético de Madrid x Deportivo La Coruña: Atlético 1X (@1.12)",
+            "Napoli x Roma: Mais de 1.5 Gols (@1.22)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos)",
       "type": "SAFE+",
-      "multiplier": 3.2,
-      "status": "GREEN",
+      "multiplier": 3.45,
+      "status": "PENDING",
       "legs": [
-        "Cruzeiro x Remo: Cruzeiro Vence (ML @1.45)",
-        "Torino x Monza: Torino Vence (ML @1.85)",
-        "Vitória SC x CS Marítimo: Vitória SC Vence (ML @1.65)"
+        "Arsenal x Everton: Arsenal Vence (ML @1.42)",
+        "Atlético de Madrid x Deportivo La Coruña: Atlético Vence (ML @1.45)",
+        "Palmeiras x Red Bull Bragantino: Palmeiras Vence (ML @1.68)"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 3 Jogos)",
       "type": "ATTACK",
-      "multiplier": 4.9,
-      "status": "GREEN",
+      "multiplier": 4.85,
+      "status": "PENDING",
       "legs": [
-        "Stuttgart x Borussia Mönchengladbach: Ambos Marcam - Sim (@1.62)",
-        "Ipswich Town x Nottingham Forest: Ambos Marcam - Sim (@1.72)",
-        "Sport Recife x Criciúma: Sport Vence (ML @1.80)"
+        "Chelsea x Tottenham: Ambos Marcam - Sim (@1.58)",
+        "Borussia Dortmund x Eintracht Frankfurt: Ambos Marcam - Sim (@1.55)",
+        "Aston Villa x Manchester City: Ambos Marcam - Sim (@1.62)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos)",
       "type": "NETO",
-      "multiplier": 18.25,
-      "status": "RED",
-      "notes": "4 partidas com vitórias secas e handicaps de valor para retorno multiplicado.",
+      "multiplier": 19.50,
+      "status": "PENDING",
+      "notes": "4 confrontos com vitórias secas e handicaps de valor para alavancagem exponencial.",
       "legs": [
-        "Cruzeiro x Remo: Cruzeiro Vence por 2+ Gols (-1.5 AH @2.20)",
-        "Torino x Monza: Torino Vence + Menos de 3.5 Gols (@2.30)",
-        "Sport Recife x Criciúma: Sport Vence + Menos de 3.5 Gols (@2.25)",
-        "Ipswich Town x Nottingham Forest: Nottingham Forest Vence (ML @2.30)"
+        "Arsenal x Everton: Arsenal Vence por 2+ Gols (-1.5 AH @2.15)",
+        "Chelsea x Tottenham: Chelsea Vence + Ambos Marcam (@2.80)",
+        "Palmeiras x Red Bull Bragantino: Palmeiras Vence + Menos de 3.5 Gols (@2.20)",
+        "Napoli x Roma: Napoli Vence (ML @2.10)"
       ]
     }
   ]

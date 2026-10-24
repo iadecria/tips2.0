@@ -2039,77 +2039,92 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-24
 - **Cutoff:** 2026-10-24T08:25:00-03:00
 - **Contexto da Data:** Super sábado global com o clássico londrino Chelsea x Tottenham em Stamford Bridge, Man City visitando o Aston Villa no Villa Park, Arsenal recebendo o Everton, Borussia Dortmund x Eintracht Frankfurt no Signal Iduna Park, RB Leipzig na Bundesliga, Napoli x Roma no Maradona, Lazio x Parma no Olímpico e a 32ª rodada do Brasileirão Série A com Palmeiras x Bragantino na Arena Barueri e Santos x Bahia na Vila Belmiro. *(Liverpool x Brighton removido da grade por ser no domingo 25/10).*
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDAÇÃO PARCIAL / AUDITADO (DORTMUND 1X0 DERRUBA O OVER 1.5 E O SOROS NO DIA 10; 5 DE 6 JOGOS BATERAM; SAFE+ SEGUE VIVA COM ARSENAL 2X0)**
 
 #### 1. Discovery e Cobertura
 - Analisados: 18 fixtures principais de elite
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
 - Descartados no pente-fino: Liverpool x Brighton (partida marcada para domingo 25/10), Vasco x Corinthians (alta rivalidade com viés de truncamento e cartões), Man United x Bournemouth (oscilação tática extrema).
 
-#### 2. Grade de Fixtures e Decisões Pre-Match
+#### 2. Grade de Fixtures, Resultados Parciais e Liquidação
 
-1. **Aston Villa × Manchester City** (08:30 BRT — Premier League)
-   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **ATTACK:** Ambos Marcam - Sim (@1.62)
+1. **Aston Villa 2 × 1 Manchester City** (08:30 BRT — Premier League)
+   - *Resultado Oficial:* 2 x 1 (Gols: Jackson 6', 60' | Haaland 52')
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18) ➔ ✅ **HIT** (3 gols)
+   - **ATTACK:** Ambos Marcam - Sim (@1.62) ➔ ✅ **HIT** (2x1 cravado)
 
-2. **Arsenal × Everton** (11:00 BRT — Premier League)
-   - **Tese (Turno 1 / Sniper Soros Dia 10):** Arsenal ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **SAFE+:** Arsenal Vence (ML @1.42)
-   - **NETO:** Arsenal Vence por 2+ Gols (-1.5 AH @2.15)
+2. **Arsenal 2 × 0 Everton** (11:00 BRT — Premier League)
+   - *Resultado Oficial:* 2 x 0 (Gols: Konsa 7', Gabriel Magalhães 68')
+   - **Tese (Turno 1 / Sniper Soros Dia 10):** Arsenal ou Empate (1X @1.12) ➔ ✅ **HIT** (Arsenal 2x0)
+   - **SAFE+:** Arsenal Vence (ML @1.42) ➔ ✅ **HIT** (2x0)
+   - **NETO:** Arsenal Vence por 2+ Gols (-1.5 AH @2.15) ➔ ✅ **HIT** (2x0 com folga de handicap)
 
-3. **RB Leipzig × SV Elversberg** (10:30 BRT — Bundesliga)
-   - **Tese (Turno 1):** RB Leipzig ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+3. **RB Leipzig 4 × 0 SV Elversberg** (10:30 BRT — Bundesliga)
+   - *Resultado Oficial:* 4 x 0 (Gols: Gomis 47', Rômulo 65', 93', Baumgartner 83')
+   - **Tese (Turno 1):** RB Leipzig ou Empate (1X @1.12) ➔ ✅ **HIT** (Goleada 4x0)
 
-4. **Napoli × AS Roma** (13:00 BRT — Serie A Italiana)
-   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.22) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
-   - **NETO:** Napoli Vence (ML @2.10)
+4. **Napoli 3 × 3 AS Roma** (13:00 BRT — Serie A Italiana)
+   - *Resultado Oficial:* 3 x 3 (Gols: McTominay [2], Anguissa | Balerdi [2], Soulé)
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (Chuva de 6 gols)
+   - **NETO:** Napoli Vence (ML @2.10) ➔ ❌ **MISS** (Empate 3x3)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Jogo ultra aberto com reviravoltas).
 
-5. **Chelsea × Tottenham Hotspur** (13:30 BRT — Premier League)
-   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **ATTACK:** Ambos Marcam - Sim (@1.58)
-   - **NETO:** Chelsea Vence + Ambos Marcam (@2.80)
+5. **Chelsea 0 × 2 Tottenham Hotspur** (13:30 BRT — Premier League)
+   - *Resultado Oficial:* 0 x 2 (Gols: Penders 77' gc, Mathys Tel 87')
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.18) ➔ ✅ **HIT** (2 gols totais)
+   - **ATTACK:** Ambos Marcam - Sim (@1.58) ➔ ❌ **MISS** (Chelsea passou em branco com expulsão de Palmer aos 83')
+   - **NETO:** Chelsea Vence + Ambos Marcam (@2.80) ➔ ❌ **MISS** (0x2)
 
-6. **Borussia Dortmund × Eintracht Frankfurt** (13:30 BRT — Bundesliga)
-   - **Tese (Turno 2 / Sniper Soros Dia 10):** Mais de 1.5 Gols no Jogo (@1.15) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
-   - **ATTACK:** Ambos Marcam - Sim (@1.55)
+6. **Borussia Dortmund 1 × 0 Eintracht Frankfurt** (13:30 BRT — Bundesliga)
+   - *Resultado Oficial:* 1 x 0 (Gol: Maximilian Beier 80')
+   - **Tese (Turno 2 / Sniper Soros Dia 10):** Mais de 1.5 Gols no Jogo (@1.15) ➔ ❌ **MISS** (Faltou 1 gol; travou em 1x0)
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Dortmund acumulou 18 finalizações e xG de 2.45 no Signal Iduna Park, mas o primeiro gol só saiu aos 80 minutos com Beier, gerando um placar atipicamente magro para os padrões alemães).
+   - **ATTACK:** Ambos Marcam - Sim (@1.55) ➔ ❌ **MISS** (Frankfurt não marcou)
 
-7. **Lazio × Parma** (15:45 BRT — Serie A Italiana)
-   - **Tese (Turno 2):** Lazio ou Empate (1X @1.18) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+7. **Lazio × Parma** (15:45 BRT — Serie A Italiana) ➔ ⏳ **EM ANDAMENTO / PENDING**
+   - **Tese (Turno 2):** Lazio ou Empate (1X @1.18)
    - **SAFE+:** Lazio Vence (ML @1.65)
 
-8. **Atlético de Madrid × Deportivo La Coruña** (16:00 BRT — La Liga)
-   - **Tese (Turno 2):** Atlético de Madrid ou Empate (1X @1.12) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+8. **Atlético de Madrid × Deportivo La Coruña** (16:00 BRT — La Liga) ➔ ⏳ **PENDING**
+   - **Tese (Turno 2):** Atlético de Madrid ou Empate (1X @1.12)
    - **SAFE+:** Atlético de Madrid Vence (ML @1.45)
 
-9. **Palmeiras × Red Bull Bragantino** (18:30 BRT — Brasileirão Série A)
-   - **Tese (Turno 3 / Sniper Soros Dia 10):** Palmeiras ou Empate (1X @1.14) | FAS Score: 🔥🔥🔥 | DQ: HIGH | Risco: MÍNIMO
+9. **Palmeiras × Red Bull Bragantino** (18:30 BRT — Brasileirão Série A) ➔ ⏳ **PENDING**
+   - **Tese (Turno 3):** Palmeiras ou Empate (1X @1.14)
    - **SAFE+:** Palmeiras Vence (ML @1.68)
    - **NETO:** Palmeiras Vence + Menos de 3.5 Gols (@2.20)
 
-10. **Santos × Bahia** (21:00 BRT — Brasileirão Série A)
-    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.21) | FAS Score: 🔥🔥 | DQ: HIGH | Risco: BAIXO
+10. **Santos × Bahia** (21:00 BRT — Brasileirão Série A) ➔ ⏳ **PENDING**
+    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.21)
 
-#### 3. Bilhetes Estruturados Oficiais de 24/10
+#### 3. Auditoria dos Bilhetes de 24/10
 
 *   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.45):**
-    *   🥪 Turno 1 Manhã Europeia (@1.48): Villa x City Over 1.5 + Arsenal 1X + Leipzig 1X
-    *   🏰 Turno 2 Tarde Clássicos (@2.18): Napoli Over 1.5 + Chelsea Over 1.5 + Dortmund Over 1.5 + Lazio 1X + Atlético 1X
-    *   🌙 Turno 3 Noite Brasileirão (@1.38): Palmeiras 1X + Santos Sub 3.5
+    *   🥪 **Turno 1 Manhã Europeia (@1.48):** 3 de 3 acertos ➔ ✅ **GREEN (Villa Over 1.5, Arsenal 1X, Leipzig 1X)**
+    *   🏰 **Turno 2 Tarde Clássicos (@2.18):** Napoli Over 1.5 (✅), Chelsea Over 1.5 (✅), Dortmund Over 1.5 (❌ 1x0) ➔ ❌ **RED** (O 1x0 do Borussia Dortmund derrubou o 10/10).
+    *   *Resultado Geral:* ❌ **RED** (5 de 6 jogos finalizados bateram; Dortmund quebrou o bilhete).
+
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking):**
-    *   Stop Point 1 (@1.29): Arsenal 1X (@1.12) + Dortmund Over 1.5 (@1.15)
-    *   Stop Point 2 (@1.94): Stop Point 1 + Palmeiras 1X (@1.14) + Chelsea Over 1.5 (@1.18) + Leipzig 1X (@1.12)
-    *   Stop Point 3 (@3.68): Stop Point 2 + Villa Over 1.5 (@1.18) + Lazio 1X (@1.18) + Atlético 1X (@1.12) + Napoli Over 1.5 (@1.22)
+    *   Stop Point 1 (@1.29): Arsenal 1X (✅) + Dortmund Over 1.5 (❌) ➔ ❌ **RED**
+    *   *Resultado:* ❌ **RED** (Dortmund Over 1.5 comprometeu a cadeia dos Stop Points).
+
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.45):**
-    *   Arsenal Vence (ML @1.42) + Atlético de Madrid Vence (ML @1.45) + Palmeiras Vence (ML @1.68)
+    *   Arsenal Vence (✅ 2x0) + Atlético de Madrid Vence (ML @1.45 ⏳) + Palmeiras Vence (ML @1.68 ⏳)
+    *   *Status Atual:* ⏳ **100% VIVA!** A SAFE+ não continha o Dortmund! Se Atlético e Palmeiras confirmarem o mando, o bilhete bate **GREEN (@3.45)**!
+
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.85):**
-    *   Chelsea x Tottenham BTTS (@1.58) + Dortmund x Frankfurt BTTS (@1.55) + Villa x City BTTS (@1.62)
+    *   Villa x City BTTS (✅ 2x1) + Chelsea x Tottenham BTTS (❌ 0x2) + Dortmund x Frankfurt BTTS (❌ 1x0)
+    *   *Resultado:* ❌ **RED** (1 de 3 acertos).
+
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@19.50):**
-    *   Arsenal -1.5 AH (@2.15) + Chelsea Vence & BTTS (@2.80) + Palmeiras Vence & Sub 3.5 (@2.20) + Napoli ML (@2.10)
+    *   Arsenal -1.5 AH (✅ 2x0 @2.15 cravado!) + Napoli ML (❌ 3x3) + Chelsea Vence & BTTS (❌ 0x2) + Palmeiras (⏳)
+    *   *Resultado:* ❌ **RED** (Mesmo com o acerto brilhante do Arsenal -1.5 @2.15).
+
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 10 (SNIPER):**
-    *   **Entrada:** R$ 132,40 (100% dos lucros acumulados dos 9 Greens consecutivos)
-    *   **Seleção:** Arsenal ou Empate (1X @1.12) + Dortmund x Frankfurt Over 1.5 (@1.15) + Palmeiras ou Empate (1X @1.14)
-    *   **Odd:** @1.47
-    *   **Retorno Projetado:** R$ 194,36 (meta: superar R$ 190 rumo ao Dia 11)
+    *   **Entrada:** R$ 132,40
+    *   **Seleção:** Arsenal ou Empate (1X @1.12 ✅) + Borussia Dortmund x Frankfurt Over 1.5 (@1.15 ❌ 1x0) + Palmeiras 1X (@1.14 ⏳)
+    *   **Resultado:** ❌ **MISS NO DORTMUND 1X0**
+    *   **Conclusão do Ciclo:** Encerramento da jornada histórica de **9 GREENS CONSECUTIVOS** (R$ 10,00 ➔ R$ 132,40 com +1.224% de valorização sem nenhum stop prévio). Pelas regras do FAS, o ciclo é pausado e reiniciado no **DIA 1 DE 30** com stake base de **R$ 10,00** para a próxima rodada!
 
 
 

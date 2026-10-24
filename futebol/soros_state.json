@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 132.40,
-  "currentDay": 10,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -147,6 +147,16 @@
       "potentialReturn": 132.40,
       "status": "HIT",
       "actualReturn": 132.40
+    },
+    {
+      "day": 10,
+      "date": "2026-10-24",
+      "stakeIn": 132.40,
+      "selection": "Arsenal 1X (@1.12) + Dortmund x Frankfurt Over 1.5 (@1.15) + Palmeiras 1X (@1.14)",
+      "odd": 1.47,
+      "potentialReturn": 194.36,
+      "status": "MISS",
+      "missReason": "Zebra de placar econômico: Dortmund 1x0 Frankfurt travou no under 1.5 (gol único aos 80')"
     }
   ]
 }

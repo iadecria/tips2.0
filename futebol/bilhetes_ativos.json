@@ -1,14 +1,14 @@
 {
   "date": "2026-10-24",
   "snapshotId": "FAS_MULTI_SPORT_2026-10-24_V2_CALIBRATED_REAL_SCHEDULE",
-  "status": "PENDING",
-  "notes": "Grade 100% calibrada e auditada exclusivamente para hoje, sábado 24/10/2026. (Liverpool x Brighton removido pois joga no domingo 25/10; substituído pela Lazio x Parma na Serie A). Cobre Premier League, Bundesliga, Serie A, La Liga e Brasileirão Série A (32ª rodada). Arquitetura Clean Parlay Universal.",
+  "status": "AUDITED",
+  "notes": "Grade 100% calibrada e auditada de sábado 24/10/2026. Bilhete Supremo fechou com 9 de 10 acertos (única falha: Dortmund 1x0). Múltipla 2 SAFE+ cravou 100% GREEN (@3.45). Turno 1 (100% GREEN) e Turno 3 (100% GREEN). Soros Dia 10 caiu no Dortmund, mas Novo Ciclo Soros V6 bateu Green no Dia 1 (@1.37).",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sábado 24/10/2026 Oficial)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 4.45,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de hoje sábado (1 seleção por jogo), divididas em 3 Turnos de Horário.",
+    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de sábado (1 seleção por jogo), divididas em 3 Turnos de Horário.",
     "status": "RED",
     "timeClusters": [
       {
@@ -42,7 +42,8 @@
         "legs": [
           "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
           "Santos x Bahia: Menos de 3.5 Gols no Jogo (@1.21)"
-        ]
+        ],
+        "status": "GREEN"
       }
     ],
     "selections": [
@@ -93,28 +94,28 @@
         "cluster": "Turno 2",
         "market": "Lazio ou Empate (1X)",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Atlético de Madrid x Deportivo La Coruña (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Atlético de Madrid ou Empate (1X)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Palmeiras x Red Bull Bragantino (18:30 BRT)",
         "cluster": "Turno 3",
         "market": "Palmeiras ou Empate (1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Santos x Bahia (21:00 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.21,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -124,7 +125,7 @@
     "multiplier": 1.47,
     "potentialReturn": 194.36,
     "status": "RED",
-    "notes": "Modelo Sniper Dia 10 de 30 (Grade Oficial Sábado 24/10/2026): Tripla Âncora Blindada — Arsenal ou Empate (1X @1.12) no Emirates + Borussia Dortmund x Frankfurt Over 1.5 (@1.15) no Signal Iduna Park + Palmeiras ou Empate (1X @1.14) na Série A contra o Bragantino. Odd combinada @1.47. Meta: R$ 194,36 rumo ao Dia 11.",
+    "notes": "Modelo Sniper Dia 10 de 30 (Grade Oficial Sábado 24/10/2026): Tripla Âncora Blindada — Arsenal 1X (@1.12 ✅) + Dortmund Over 1.5 (@1.15 ❌ 1x0) + Palmeiras 1X (@1.14 ✅ 2x0). Ciclo finalizado com 9 greens seguidos e reset para Dia 1 com R$ 10,00.",
     "sniperOptions": [
       {
         "id": "sniper-1",
@@ -159,7 +160,7 @@
         "competition": "Brasileirão Série A (18:30 BRT)",
         "market": "Palmeiras ou Empate (1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -213,11 +214,12 @@
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos)",
       "type": "SAFE+",
       "multiplier": 3.45,
-      "status": "PENDING",
+      "status": "GREEN",
+      "notes": "🏆 100% GREEN ABSOLUTO! Tripla vitória seca impecável: Arsenal 2x0 Everton, Atlético de Madrid 1x0 Deportivo La Coruña e Palmeiras 2x0 Bragantino.",
       "legs": [
-        "Arsenal x Everton: Arsenal Vence (ML @1.42)",
-        "Atlético de Madrid x Deportivo La Coruña: Atlético Vence (ML @1.45)",
-        "Palmeiras x Red Bull Bragantino: Palmeiras Vence (ML @1.68)"
+        "Arsenal x Everton: Arsenal Vence (ML @1.42) ➔ ✅ GREEN (2x0)",
+        "Atlético de Madrid x Deportivo La Coruña: Atlético Vence (ML @1.45) ➔ ✅ GREEN (1x0)",
+        "Palmeiras x Red Bull Bragantino: Palmeiras Vence (ML @1.68) ➔ ✅ GREEN (2x0)"
       ]
     },
     {

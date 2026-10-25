@@ -159,9 +159,13 @@ No FAS Football, a avaliação de mercados DEVE obedecer rigorosamente à **Matr
     - O sistema **DEVE obrigatoriamente manter o Bilhete Supremo Global** E **gerar os Bilhetes Supremos por Turno (Janela 1 e Janela 2)**.
     - **Objetivo Estratégico:** Liquidação antecipada (encerrar o bilhete do 1º turno antes do início dos jogos do 2º turno) e viabilizar o reinvestimento seguro dos lucros obtidos na primeira metade do dia.
 * 🥇 **TIER 1 — MÚLTIPLA 1: SAFE (Carro-Chefe / 70% da Gestão Diária):**
-  - **Stop Point 1 (A Âncora Máxima — Odd 1.55 a 1.75):** Apenas 2 ou 3 seleções formadas exclusivamente pelos itens #1 a #5 da matriz (Gols HT, Over Gols, Cantos e Dupla Chance).
-  - **Stop Point 2 (A Blindagem — Odd 1.80 a 2.10):** Adiciona 1 seleção de alta proteção.
-  - **Regra Sagrada do Desafio Soros:** O Soros **DEVE obrigatoriamente espelhar o Stop Point 1 ou 2 da Múltipla 1**. Jamais empilhar vitórias secas sem proteção.
+  - **Stop Point 1 (A Âncora Máxima — Odd 1.25 a 1.45):** Apenas 2 seleções formadas EXCLUSIVAMENTE por mercados de **cobertura de placar elástico**: Dupla Chance (1X / X2), Handicap Asiático Positivo (+1.0 / +1.5) ou Team Total Over 0.5 de mandante absoluto.
+  - ⛔ **PROIBIÇÃO ESTRITA DE OVER GOLS GERAL NO STOP POINT 1:** É terminantemente PROIBIDO utilizar *Over 1.5 Gols Geral* ou *Over 2.5* como Âncora #1 ou #2 do Stop Point 1. Vitórias econômicas por 1x0 anulam o Over sem qualquer rede de proteção. Mercados de Over Gols Geral só são permitidos como expansão a partir do Stop Point 2 ou no Bilhete Supremo.
+  - **Stop Point 2 (A Blindagem / Expansão):** Adiciona seleções de alta proteção ou de turnos posteriores.
+  - 🛡️ **REGRA SAGRADA DO DESAFIO SOROS (DESACOPLAMENTO TOTAL DE RISCO):**
+    - O Desafio Soros opera com **seleção própria, blindada e independente**. É expressamente PROIBIDO espelhar cegamente o Stop Point 1 da SAFE.
+    - Se a SAFE tropeçar no turno da tarde, o Soros precisa manter sua vida intacta no turno da noite (e vice-versa).
+    - **Teto de Exposição Máxima por Fixture (Anti-SPOF):** Nenhuma partida da rodada pode estar presente em mais de 2 bilhetes estruturados simultaneamente. Jamais concentrar o mesmo jogo no Soros, na SAFE e no Supremo ao mesmo tempo.
 * 🥈 **TIER 2 — MÚLTIPLA 2: SAFE+ (Alavancagem Balanceada / 20% da Banca):**
   - Odd 2.00 a 3.50 combinando vitória com linha correlacionada (Time Vence + Mais de 1.5 Gols ou Team Over 1.5).
 * 🥉 **TIER 3 — MÚLTIPLA 3: SUPER ATAQUE (5% a 8% da Banca):**
@@ -468,13 +472,14 @@ Para manter a **cobertura e quantidade total** da rodada sem inflar a variância
      - 🥉 **#3 [EXPANSÃO TRIPLA]** — Boa assimetria, adiciona odd moderada.
      - 🏅 **#4 / #5 [EXPANSÃO COMPLETA]** — Alavancagem máxima.
 
-2. **Definição de Stop Points (Decisão por Cotação):**
+2. **Definição de Stop Points (Decisão por Cotação & Anti-Contaminação):**
    - 🟢 **STOP POINT 1 — DUPLA ÂNCORA (Top 1 + Top 2):**
-     *Regra de Ouro:* Se a odd combinada do Top 2 já atingir o alvo operacional da banca, **recomenda-se parar por aqui** com a mais alta probabilidade estatística de conversão.
-   - 🟡 **STOP POINT 2 — TRIPLA EQUILIBRADA (Top 1 + Top 2 + Top 3):**
-     Para quem deseja cotação intermediária (ex: @2.00 a @2.60+) com controle de risco.
+     *Regra de Ouro:* Formada exclusivamente por **Dupla Chance (1X/X2)** ou **Handicap Positivo**. Proibido Over Gols geral aqui. Se a odd combinada do Top 2 atingir @1.25 a @1.45, representa a mais alta probabilidade estatística de conversão do dia.
+   - 🟡 **STOP POINT 2 — TRIPLA / QUÁDRUPLA EQUILIBRADA (Expansão Modular):**
+     Pode incorporar seleções de turnos posteriores ou linhas protegidas de gols (Over 1.5). Para quem deseja cotação entre @1.80 e @2.50+ com controle de risco.
    - 🔴 **STOP POINT 3 — MÚLTIPLA COMPLETA (Todas as Pernas):**
-     Bilhete integral para quem busca retorno máximo/alavancagem.
+     Bilhete integral para retorno máximo e alavancagem.
+   - 🛡️ **REGRA ANTI-SPOF (SINGLE POINT OF FAILURE):** Nenhuma seleção pode ser compartilhada simultaneamente entre o Soros e a Dupla Âncora do Stop Point 1. Diversificação estrutural obrigatória.
 
 3. **Regra Específica de Mercado — Blindagem Anti-Relaxamento:**
    - Em confrontos de alta disparidade técnica com expectativa de goleada de superfavorito (ex: Barcelona Feminino, Bayern, etc.), é **PROIBIDO** o uso de *Ambos Marcam - Não (Clean Sheet)* no bilhete ATTACK/SAFE. Favoritos que abrem 3x0 ou 4x0 tendem a relaxar a marcação e rodar o banco no final, sofrendo gols em contra-ataques isolados. Substituir por **Team Total Over 1.5 / 2.5** ou **Moneyline/Handicap**.

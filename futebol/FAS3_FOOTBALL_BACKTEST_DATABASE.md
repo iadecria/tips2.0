@@ -2039,14 +2039,14 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-24
 - **Cutoff:** 2026-10-24T08:25:00-03:00
 - **Contexto da Data:** Super sábado global com o clássico londrino Chelsea x Tottenham em Stamford Bridge, Man City visitando o Aston Villa no Villa Park, Arsenal recebendo o Everton, Borussia Dortmund x Eintracht Frankfurt no Signal Iduna Park, RB Leipzig na Bundesliga, Napoli x Roma no Maradona, Lazio x Parma no Olímpico e a 32ª rodada do Brasileirão Série A com Palmeiras x Bragantino na Arena Barueri e Santos x Bahia na Vila Belmiro. *(Liverpool x Brighton removido da grade por ser no domingo 25/10).*
-- **Status de Liquidação:** **LIQUIDAÇÃO PARCIAL / AUDITADO (DORTMUND 1X0 DERRUBA O OVER 1.5 E O SOROS NO DIA 10; 5 DE 6 JOGOS BATERAM; SAFE+ SEGUE VIVA COM ARSENAL 2X0)**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (9 DE 10 NO BILHETE SUPREMO — BORUSSIA DORTMUND 1X0 FOI A ÚNICA FALHA; MÚLTIPLA 2 SAFE+ 100% GREEN @3.45; REINÍCIO DO SOROS DIA 1 GREEN @1.37 R$ 13,70 NO BRASILEIRÃO)**
 
 #### 1. Discovery e Cobertura
 - Analisados: 18 fixtures principais de elite
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
 - Descartados no pente-fino: Liverpool x Brighton (partida marcada para domingo 25/10), Vasco x Corinthians (alta rivalidade com viés de truncamento e cartões), Man United x Bournemouth (oscilação tática extrema).
 
-#### 2. Grade de Fixtures, Resultados Parciais e Liquidação
+#### 2. Grade de Fixtures, Resultados Oficiais e Liquidação
 
 1. **Aston Villa 2 × 1 Manchester City** (08:30 BRT — Premier League)
    - *Resultado Oficial:* 2 x 1 (Gols: Jackson 6', 60' | Haaland 52')
@@ -2081,50 +2081,66 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
      - *Miss Audit:* `STATISTICAL_VARIANCE` (Dortmund acumulou 18 finalizações e xG de 2.45 no Signal Iduna Park, mas o primeiro gol só saiu aos 80 minutos com Beier, gerando um placar atipicamente magro para os padrões alemães).
    - **ATTACK:** Ambos Marcam - Sim (@1.55) ➔ ❌ **MISS** (Frankfurt não marcou)
 
-7. **Lazio × Parma** (15:45 BRT — Serie A Italiana) ➔ ⏳ **EM ANDAMENTO / PENDING**
-   - **Tese (Turno 2):** Lazio ou Empate (1X @1.18)
-   - **SAFE+:** Lazio Vence (ML @1.65)
+7. **Lazio 2 × 1 Parma** (15:45 BRT — Serie A Italiana)
+   - *Resultado Oficial:* 2 x 1 (Gols: Taylor 50', Diego Carlos 58' gc | Lontani 90+5')
+   - **Tese (Turno 2):** Lazio ou Empate (1X @1.18) ➔ ✅ **HIT** (Lazio venceu 2x1 e assumiu liderança)
+   - **SAFE+:** Lazio Vence (ML @1.65) ➔ ✅ **HIT** (2x1)
 
-8. **Atlético de Madrid × Deportivo La Coruña** (16:00 BRT — La Liga) ➔ ⏳ **PENDING**
-   - **Tese (Turno 2):** Atlético de Madrid ou Empate (1X @1.12)
-   - **SAFE+:** Atlético de Madrid Vence (ML @1.45)
+8. **Atlético de Madrid 1 × 0 Deportivo La Coruña** (16:00 BRT — La Liga)
+   - *Resultado Oficial:* 1 x 0 (Gol: Julián Álvarez 48')
+   - **Tese (Turno 2):** Atlético de Madrid ou Empate (1X @1.12) ➔ ✅ **HIT** (Atlético 1x0)
+   - **SAFE+:** Atlético de Madrid Vence (ML @1.45) ➔ ✅ **HIT** (1x0 no Metropolitano)
 
-9. **Palmeiras × Red Bull Bragantino** (18:30 BRT — Brasileirão Série A) ➔ ⏳ **PENDING**
-   - **Tese (Turno 3):** Palmeiras ou Empate (1X @1.14)
-   - **SAFE+:** Palmeiras Vence (ML @1.68)
-   - **NETO:** Palmeiras Vence + Menos de 3.5 Gols (@2.20)
+9. **Palmeiras 2 × 0 Red Bull Bragantino** (18:30 BRT — Brasileirão Série A)
+   - *Resultado Oficial:* 2 x 0 (Gols: Maurício 45+2' p, Agustín Giay 62')
+   - **Tese (Turno 3 / Sniper Soros Dia 10 / Soros V6 Dia 1):** Palmeiras ou Empate (1X @1.14) ➔ ✅ **HIT** (Palmeiras 2x0 soberano)
+   - **SAFE+:** Palmeiras Vence (ML @1.68) ➔ ✅ **HIT** (2x0)
+   - **NETO:** Palmeiras Vence + Menos de 3.5 Gols (@2.20) ➔ ✅ **HIT** (2x0 = vitória + 2 gols totais cravado!)
 
-10. **Santos × Bahia** (21:00 BRT — Brasileirão Série A) ➔ ⏳ **PENDING**
-    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.21)
+10. **Santos 1 × 1 Bahia** (21:00 BRT — Brasileirão Série A)
+    - *Resultado Oficial:* 1 x 1 (Gols: Luan Peres 90+1' | Luciano Juba 39')
+    - **Tese (Turno 3):** Menos de 3.5 Gols no Jogo (@1.21) ➔ ✅ **HIT** (2 gols totais com empate na chuva)
 
 #### 3. Auditoria dos Bilhetes de 24/10
 
 *   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@4.45):**
     *   🥪 **Turno 1 Manhã Europeia (@1.48):** 3 de 3 acertos ➔ ✅ **GREEN (Villa Over 1.5, Arsenal 1X, Leipzig 1X)**
-    *   🏰 **Turno 2 Tarde Clássicos (@2.18):** Napoli Over 1.5 (✅), Chelsea Over 1.5 (✅), Dortmund Over 1.5 (❌ 1x0) ➔ ❌ **RED** (O 1x0 do Borussia Dortmund derrubou o 10/10).
-    *   *Resultado Geral:* ❌ **RED** (5 de 6 jogos finalizados bateram; Dortmund quebrou o bilhete).
+    *   🏰 **Turno 2 Tarde Clássicos (@2.18):** 4 de 5 acertos ➔ ❌ **RED (Napoli Over 1.5 ✅, Chelsea Over 1.5 ✅, Lazio 1X ✅, Atlético 1X ✅ | Dortmund Over 1.5 ❌ 1x0)**
+    *   🌙 **Turno 3 Noite Brasileirão (@1.38):** 2 de 2 acertos ➔ ✅ **GREEN (Palmeiras 1X ✅ 2x0 e Santos Menos 3.5 ✅ 1x1)**
+    *   *Resultado Geral:* ❌ **RED (9 DE 10 ACERTOS - 90% DE HIT RATE)**. Uma precisão cirúrgica extraordinária onde a única falha em 10 partidas de elite mundiais foi o gol solitário do Dortmund aos 80'.
 
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking):**
     *   Stop Point 1 (@1.29): Arsenal 1X (✅) + Dortmund Over 1.5 (❌) ➔ ❌ **RED**
-    *   *Resultado:* ❌ **RED** (Dortmund Over 1.5 comprometeu a cadeia dos Stop Points).
+    *   *Diagnóstico Técnico:* Motivou a implementação imediata da Regra FAS V6 banindo Over 1.5 da Dupla Âncora.
 
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.45):**
-    *   Arsenal Vence (✅ 2x0) + Atlético de Madrid Vence (ML @1.45 ⏳) + Palmeiras Vence (ML @1.68 ⏳)
-    *   *Status Atual:* ⏳ **100% VIVA!** A SAFE+ não continha o Dortmund! Se Atlético e Palmeiras confirmarem o mando, o bilhete bate **GREEN (@3.45)**!
+    *   Arsenal Vence (✅ 2x0 @1.42) + Atlético de Madrid Vence (✅ 1x0 @1.45) + Palmeiras Vence (✅ 2x0 @1.68)
+    *   *Resultado:* 🏆 **100% GREEN HISTÓRICO TOTAL (@3.45)!**
+    *   *Destaque da Rodada:* A SAFE+ estava completamente desacoplada do Dortmund e cravou 3 vitórias secas impecáveis, garantindo +245% de lucro sobre a stake!
 
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.85):**
     *   Villa x City BTTS (✅ 2x1) + Chelsea x Tottenham BTTS (❌ 0x2) + Dortmund x Frankfurt BTTS (❌ 1x0)
     *   *Resultado:* ❌ **RED** (1 de 3 acertos).
 
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@19.50):**
-    *   Arsenal -1.5 AH (✅ 2x0 @2.15 cravado!) + Napoli ML (❌ 3x3) + Chelsea Vence & BTTS (❌ 0x2) + Palmeiras (⏳)
-    *   *Resultado:* ❌ **RED** (Mesmo com o acerto brilhante do Arsenal -1.5 @2.15).
+    *   Arsenal -1.5 AH (✅ 2x0 @2.15 cravado!) + Palmeiras Vence & Sub 3.5 (✅ 2x0 @2.20 cravado!) + Napoli ML (❌ 3x3) + Chelsea Vence & BTTS (❌ 0x2)
+    *   *Resultado:* ❌ **RED** (2 de 4 acertos cirúrgicos, cravando as duas maiores odds individuais do bilhete @2.15 e @2.20).
 
 *   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 10 (SNIPER):**
     *   **Entrada:** R$ 132,40
-    *   **Seleção:** Arsenal ou Empate (1X @1.12 ✅) + Borussia Dortmund x Frankfurt Over 1.5 (@1.15 ❌ 1x0) + Palmeiras 1X (@1.14 ⏳)
+    *   **Seleção:** Arsenal ou Empate (1X @1.12 ✅) + Borussia Dortmund x Frankfurt Over 1.5 (@1.15 ❌ 1x0) + Palmeiras 1X (@1.14 ✅ 2x0)
     *   **Resultado:** ❌ **MISS NO DORTMUND 1X0**
-    *   **Conclusão do Ciclo:** Encerramento da jornada histórica de **9 GREENS CONSECUTIVOS** (R$ 10,00 ➔ R$ 132,40 com +1.224% de valorização sem nenhum stop prévio). Pelas regras do FAS, o ciclo é pausado e reiniciado no **DIA 1 DE 30** com stake base de **R$ 10,00** para a próxima rodada!
+    *   **Conclusão do Ciclo:** Encerramento da jornada histórica de **9 GREENS CONSECUTIVOS** (R$ 10,00 ➔ R$ 132,40 com +1.224% de valorização sem nenhum stop prévio). Pelas regras do FAS, o ciclo foi reiniciado no **DIA 1 DE 30** com stake base de **R$ 10,00**.
+
+*   🛡️ **NOVO CICLO SOROS FAS V6 — DIA 1 (RODADA NOTURNA DO BRASILEIRÃO):**
+    *   **Entrada:** R$ 10,00 (Reinício Padrão com Regra de Desacoplamento)
+    *   **Seleção:** Palmeiras ou Empate (1X @1.14 ✅ 2x0) + Internacional x Botafogo Menos de 3.5 Gols (@1.20 ✅ 3x0) [Odd @1.37]
+    *   **Resultado:** ✅ **GREEN CRAVADO NO DIA 1!**
+    *   **Retorno:** **R$ 13,70** (Avança para o **DIA 2 DE 30** com **R$ 13,70**).
+
+*   🇧🇷 **VALIDAÇÃO EXPERIMENTAL DAS REGRAS V6 (BRASILEIRÃO SÉRIE A):**
+    *   **Stop Point 1 Paulista (@1.43):** Palmeiras 1X (✅ 2x0) + Santos 1X (✅ 1x1 aos 90+1') ➔ 🏆 **GREEN (@1.43)**
+    *   **Proteções de Menos 3.5:** Inter 3x0 Botafogo (✅), Chapecoense 2x1 Fluminense (✅), Vitória 1x1 Athletico (✅) ➔ 100% Green nessas 3 partidas. Apenas Vasco 3x2 Corinthians estourou a linha.
 
 
 

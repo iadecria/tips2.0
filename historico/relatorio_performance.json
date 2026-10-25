@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-24T04:50:00-03:00",
+  "updatedAt": "2026-10-25T01:25:00-03:00",
   "kpis": {
-    "totalRounds": 13,
-    "totalTickets": 84,
-    "greenTickets": 57,
-    "redTickets": 27,
-    "winRateGlobal": "67.9%",
-    "safeWinRate": "88.0%",
-    "safePlusWinRate": "65.0%",
-    "sorosCurrentDay": 10,
-    "sorosCurrentStake": 132.4,
+    "totalRounds": 14,
+    "totalTickets": 90,
+    "greenTickets": 59,
+    "redTickets": 31,
+    "winRateGlobal": "65.6%",
+    "safeWinRate": "85.0%",
+    "safePlusWinRate": "45.5%",
+    "sorosCurrentDay": 2,
+    "sorosCurrentStake": 13.70,
     "sorosBasketballDay": 2,
     "sorosBasketballStake": 14.5,
-    "profitFactor": 5.35
+    "profitFactor": 4.85
   },
   "ticketBreakdown": [
     {
@@ -40,16 +40,16 @@
       "level": "Nível 3",
       "name": "Múltipla 2 — SAFE+ (Alavancagem)",
       "badge": "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
-      "totalDisputed": 10,
-      "greens": 4,
+      "totalDisputed": 11,
+      "greens": 5,
       "reds": 6,
-      "winRate": "40.0%",
+      "winRate": "45.5%",
       "avgOdd": 3.65,
       "avgReturnPct": "+265%",
-      "roi": "+18.2%",
-      "profitFactor": 2.15,
+      "roi": "+24.8%",
+      "profitFactor": 2.55,
       "recommendedBankPct": "15% - 20%",
-      "bestHit": "5/5 GREEN Histórico (@6.36 em 11/10) e Recalculado (@2.43 em 15/10)",
+      "bestHit": "3/3 GREEN Absoluto (@3.45 em 24/10: Arsenal, Atlético e Palmeiras) e 5/5 Histórico (@6.36 em 11/10)",
       "description": "Alavancagem balanceada combinando handicaps asiáticos protegidos (-1.5 AH / +1.0 AH) e vitórias secas de mandantes fortes."
     },
     {
@@ -199,9 +199,30 @@
       "banca": 500.22,
       "lucro": 132.4,
       "winRate": 90
+    },
+    {
+      "date": "24/10",
+      "banca": 13.70,
+      "lucro": 3.70,
+      "winRate": 90
     }
   ],
   "history": [
+    {
+      "date": "2026-10-24",
+      "sport": "Futebol (Premier League, Bundesliga, Serie A, La Liga, Brasileirão Série A)",
+      "totalTickets": 6,
+      "greens": 2,
+      "reds": 4,
+      "highlights": [
+        "🚀 MÚLTIPLA 2 SAFE+ 3/3 100% GREEN TOTAL (@3.45) com vitórias secas de Arsenal, Atlético de Madrid e Palmeiras!",
+        "🔥 NOVO CICLO SOROS V6 DIA 1 GREEN (@1.37 ➔ R$ 13,70) com Palmeiras 1X e Inter Sub 3.5 rumo ao Dia 2",
+        "⭐ BILHETE SUPREMO COM 9 DE 10 ACERTOS (90% de aproveitamento por perna) - o único tropeço foi Dortmund 1x0 Frankfurt",
+        "🥪 Turno 1 Manhã Europeia (3/3 @1.48) e 🌙 Turno 3 Noite Brasileirão (2/2 @1.38) 100% GREEN",
+        "Palmeiras 2x0 Bragantino liquidou ML (@1.68) e Combo Vitória + Sub 3.5 (@2.20) com autoridade",
+        "Validação prática da Regra FAS V6 de não-contaminação, protegendo a banca contra falhas isoladas"
+      ]
+    },
     {
       "date": "2026-10-23",
       "sport": "Futebol (Bundesliga, Serie A, Ligue 1, Premier League, La Liga, Liga Portugal, Brasileirão A & B)",

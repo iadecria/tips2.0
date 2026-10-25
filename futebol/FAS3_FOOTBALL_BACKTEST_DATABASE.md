@@ -2140,7 +2140,97 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 *   🇧🇷 **VALIDAÇÃO EXPERIMENTAL DAS REGRAS V6 (BRASILEIRÃO SÉRIE A):**
     *   **Stop Point 1 Paulista (@1.43):** Palmeiras 1X (✅ 2x0) + Santos 1X (✅ 1x1 aos 90+1') ➔ 🏆 **GREEN (@1.43)**
-    *   **Proteções de Menos 3.5:** Inter 3x0 Botafogo (✅), Chapecoense 2x1 Fluminense (✅), Vitória 1x1 Athletico (✅) ➔ 100% Green nessas 3 partidas. Apenas Vasco 3x2 Corinthians estourou a linha.
+
+
+---
+
+### [2026-10-25] — RODADA DIÁRIA (SUPER DOMINGO: EL CLÁSICO, PREMIER LEAGUE, SERIE A, BUNDESLIGA & LIGUE 1)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-25_V1_DOMINGO_EUROPA_EL_CLASICO`
+- **Data do Registro:** 2026-10-25
+- **Cutoff:** 2026-10-25T08:25:00-03:00
+- **Contexto da Data:** Super domingo de gala no futebol europeu com o primeiro El Clásico da temporada (Barcelona x Real Madrid no Camp Nou), Premier League com Liverpool x Brighton em Anfield e Man United x Bournemouth em Old Trafford, Serie A Italiana com a líder Inter de Milão recebendo a Fiorentina no San Siro, Atalanta x Frosinone e Udinese x Milan, Bundesliga com Hoffenheim x Leverkusen e Freiburg x Bayern de Munique, e Ligue 1 com o Olympique de Marseille recebendo o lanterna Le Havre no Vélodrome. (Brasileirão não tem jogos hoje em virtude das eleições de 2º turno no Brasil).
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 16 fixtures principais das cinco grandes ligas europeias
+- Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
+- Descartados no pente-fino: PSG x Lyon (adiado para segunda-feira pelas autoridades de segurança de Paris), Lecce x Juventus (alta oscilação da Juve fora de casa), Celta x Betis (volatilidade tática e equilíbrio extremo).
+
+#### 2. Grade de Fixtures e Seleções Pre-Match
+
+1. **Inter de Milão × Fiorentina** (08:30 BRT — Serie A Italiana)
+   - **Tese (Turno 1 / Âncora SAFE):** Inter de Milão ou Empate (1X @1.12)
+   - **SAFE+:** Inter de Milão Vence (ML @1.38)
+   - **NETO:** Inter de Milão Vence por 2+ Gols (-1.5 AH @2.10)
+
+2. **Athletic Bilbao × Getafe** (10:00 BRT — La Liga)
+   - **Tese (Turno 1 / SAFE Stop 2):** Athletic Bilbao ou Empate (1X @1.14)
+
+3. **Liverpool × Brighton** (11:00 BRT — Premier League)
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.16)
+   - **ATTACK:** Ambos Marcam - Sim (@1.45)
+
+4. **Manchester United × Bournemouth** (11:00 BRT — Premier League)
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18)
+   - **ATTACK:** Ambos Marcam - Sim (@1.58)
+
+5. **Atalanta × Frosinone** (11:00 BRT — Serie A Italiana)
+   - **Tese (Turno 1 / SAFE Stop 3):** Atalanta ou Empate (1X @1.18)
+   - **NETO:** Atalanta Vence + Ambos Marcam (@3.10)
+
+6. **Hoffenheim × Bayer Leverkusen** (11:30 BRT — Bundesliga)
+   - **Tese (Turno 1 / Sniper Soros Dia 2):** Bayer Leverkusen ou Empate (X2 @1.12)
+
+7. **Olympique de Marseille × Le Havre** (13:15 BRT — Ligue 1 Francesa)
+   - **Tese (Turno 2 / Âncora SAFE):** Olympique de Marseille ou Empate (1X @1.12)
+   - **SAFE+:** Olympique de Marseille Vence (ML @1.48)
+   - **NETO:** Marseille Vence + Menos de 3.5 Gols (@2.25)
+
+8. **SC Freiburg × Bayern de Munique** (13:30 BRT — Bundesliga)
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.15)
+   - **ATTACK:** Ambos Marcam - Sim (@1.42)
+
+9. **Real Sociedad × Levante** (14:30 BRT — La Liga)
+   - **Tese (Turno 2 / SAFE Stop 2):** Real Sociedad ou Empate (1X @1.14)
+   - **SAFE+:** Real Sociedad Vence (ML @1.63)
+
+10. **Barcelona × Real Madrid** (17:00 BRT — La Liga — EL CLÁSICO)
+    - **Tese (Turno 3 / SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.15)
+    - **Sniper Soros Dia 2:** Barcelona ou Empate (1X @1.18)
+    - **ATTACK:** Ambos Marcam - Sim (@1.30)
+    - **NETO:** Barcelona Vence + Mais de 2.5 Gols (@2.20)
+
+#### 3. Auditoria dos Bilhetes Estruturados de 25/10
+
+*   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@3.90):**
+    *   🥪 **Turno 1 Manhã Europeia (@2.31):** Inter 1X (@1.12) + Bilbao 1X (@1.14) + Liverpool Over 1.5 (@1.16) + Man United Over 1.5 (@1.18) + Atalanta 1X (@1.18) + Leverkusen X2 (@1.12)
+    *   🏰 **Turno 2 Tarde Gigantes (@1.47):** Marseille 1X (@1.12) + Freiburg x Bayern Over 1.5 (@1.15) + Real Sociedad 1X (@1.14)
+    *   👑 **Turno 3 El Clásico (@1.15):** Barcelona x Real Madrid Over 1.5 (@1.15)
+    *   *Multiplicador Global:* **@3.90** (10 seleções no padrão Clean Parlay).
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking V6):**
+    *   **Stop Point 1 (Dupla Âncora Blindada @1.25):** Inter de Milão 1X (@1.12) + Olympique de Marseille 1X (@1.12) *(Over 1.5 Geral estritamente banido da âncora)*.
+    *   **Stop Point 2 (Quádrupla Forte de Caldeirões @1.63):** Stop Point 1 + Athletic Bilbao 1X (@1.14) + Real Sociedad 1X (@1.14).
+    *   **Stop Point 3 (Múltipla Completa 8 Seleções @2.87):** Stop Point 2 + Leverkusen X2 (@1.12) + Atalanta 1X (@1.18) + Liverpool Over 1.5 (@1.16) + Barcelona Over 1.5 (@1.15).
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@3.33):**
+    *   Inter de Milão ML (@1.38) + Olympique de Marseille ML (@1.48) + Real Sociedad ML (@1.63).
+    *   *Objetivo:* Alavancagem equilibrada de 3 vitórias secas de mandantes dominantes contra adversários da parte inferior da tabela.
+
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.23):**
+    *   Liverpool x Brighton BTTS (@1.45) + Freiburg x Bayern BTTS (@1.42) + Man United x Bournemouth BTTS (@1.58) + Barcelona x Real Madrid BTTS (@1.30).
+    *   *Objetivo:* Retorno acelerado em quádrupla de Ambas as Equipes Marcam em clássicos e jogos de transição frenética.
+
+*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@32.22):**
+    *   Inter de Milão -1.5 AH (@2.10) + Marseille Vence & Sub 3.5 (@2.25) + Barcelona Vence & Over 2.5 (@2.20) + Atalanta Vence & BTTS (@3.10).
+    *   *Multiplicador:* **@32.22** (Moeda de troco de altíssimo valor).
+
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (SNIPER DESACOPLADO):**
+    *   **Entrada:** R$ 13,70 (Saldo do Green conquistado no Dia 1)
+    *   **Seleção Independente (Regra V6 Anti-Contaminação com a SAFE):** Bayer Leverkusen ou Empate (X2 @1.12) + Barcelona ou Empate (1X @1.18) [Odd @1.32]
+    *   **Retorno Projetado:** R$ 18,08 rumo ao **DIA 3 DE 30**!
+
 
 
 

@@ -1,249 +1,239 @@
 {
-  "date": "2026-10-24",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-24_V2_CALIBRATED_REAL_SCHEDULE",
-  "status": "AUDITED",
-  "notes": "Grade 100% calibrada e auditada de sábado 24/10/2026. Bilhete Supremo fechou com 9 de 10 acertos (única falha: Dortmund 1x0). Múltipla 2 SAFE+ cravou 100% GREEN (@3.45). Turno 1 (100% GREEN) e Turno 3 (100% GREEN). Soros Dia 10 caiu no Dortmund, mas Novo Ciclo Soros V6 bateu Green no Dia 1 (@1.37).",
+  "date": "2026-10-25",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-25_V1_DOMINGO_EUROPA_EL_CLASICO",
+  "status": "PENDING",
+  "notes": "Grade 100% calibrada e auditada para domingo 25/10/2026 sob as Regras FAS V6 (Banimento de Over 1.5 no Stop Point 1 e Desacoplamento Total do Soros). Cobre Premier League, Serie A Italiana, La Liga (El Clásico), Bundesliga e Ligue 1. (Brasileirão não tem jogos hoje devido ao 2º turno das eleições no Brasil).",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Sábado 24/10/2026 Oficial)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Domingo 25/10/2026 Oficial)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 4.45,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de sábado (1 seleção por jogo), divididas em 3 Turnos de Horário.",
-    "status": "RED",
+    "multiplierGlobal": 3.90,
+    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de domingo (1 seleção por jogo), divididas em 3 Turnos de Horário.",
+    "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — MANHÃ EUROPEIA ABERTURA (08:30 - 11:00 BRT)",
-        "multiplier": 1.48,
-        "notes": "Volume ofensivo do City no Villa Park, solidez do Arsenal no Emirates e força caseira do Leipzig.",
+        "clusterName": "🥪 TURNO 1 — MANHÃ EUROPEIA ABERTURA (08:30 - 11:30 BRT)",
+        "multiplier": 2.31,
+        "notes": "Liderança da Inter no San Siro, força do Bilbao em San Mamés, poder ofensivo em Anfield e Old Trafford, recuperação da Atalanta e consistência do Leverkusen.",
         "legs": [
-          "Aston Villa x Manchester City: Mais de 1.5 Gols no Jogo (@1.18)",
-          "Arsenal x Everton: Arsenal ou Empate (Dupla Chance 1X @1.12)",
-          "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (Dupla Chance 1X @1.12)"
-        ],
-        "status": "GREEN"
+          "Inter de Milão x Fiorentina: Inter ou Empate (Dupla Chance 1X @1.12)",
+          "Athletic Bilbao x Getafe: Athletic Bilbao ou Empate (Dupla Chance 1X @1.14)",
+          "Liverpool x Brighton: Mais de 1.5 Gols no Jogo (@1.16)",
+          "Manchester United x Bournemouth: Mais de 1.5 Gols no Jogo (@1.18)",
+          "Atalanta x Frosinone: Atalanta ou Empate (Dupla Chance 1X @1.18)",
+          "Hoffenheim x Bayer Leverkusen: Bayer Leverkusen ou Empate (Dupla Chance X2 @1.12)"
+        ]
       },
       {
-        "clusterName": "🏰 TURNO 2 — TARDE EUROPEIA CLÁSSICOS (13:00 - 16:00 BRT)",
-        "multiplier": 2.18,
-        "notes": "Choque em Nápoles, clássico londrino em Stamford Bridge, poder de fogo no Signal Iduna Park, controle da Lazio e solidez do Atlético de Madrid.",
+        "clusterName": "🏰 TURNO 2 — TARDE EUROPEIA GIGANTES (13:15 - 14:30 BRT)",
+        "multiplier": 1.47,
+        "notes": "Marseille contra o lanterna no Vélodrome, duelo aberto entre Freiburg e Bayern, e Real Sociedad em Anoeta.",
         "legs": [
-          "Napoli x Roma: Mais de 1.5 Gols no Jogo (@1.22)",
-          "Chelsea x Tottenham: Mais de 1.5 Gols no Jogo (@1.18)",
-          "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols no Jogo (@1.15)",
-          "Lazio x Parma: Lazio ou Empate (Dupla Chance 1X @1.18)",
-          "Atlético de Madrid x Deportivo La Coruña: Atlético ou Empate (Dupla Chance 1X @1.12)"
-        ],
-        "status": "RED"
+          "Olympique de Marseille x Le Havre: Marseille ou Empate (Dupla Chance 1X @1.12)",
+          "SC Freiburg x Bayern de Munique: Mais de 1.5 Gols no Jogo (@1.15)",
+          "Real Sociedad x Levante: Real Sociedad ou Empate (Dupla Chance 1X @1.14)"
+        ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE BRASILEIRÃO SÉRIE A (18:30 - 21:00 BRT)",
-        "multiplier": 1.38,
-        "notes": "Palmeiras disputando o topo na Arena Barueri e contenção tática na Vila Belmiro.",
+        "clusterName": "👑 TURNO 3 — FIM DE TARDE EL CLÁSICO (17:00 BRT)",
+        "multiplier": 1.15,
+        "notes": "O maior clássico do planeta no Camp Nou com ataque de 100% de aproveitamento do Barça contra o Real de Mbappé.",
         "legs": [
-          "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
-          "Santos x Bahia: Menos de 3.5 Gols no Jogo (@1.21)"
-        ],
-        "status": "GREEN"
+          "Barcelona x Real Madrid: Mais de 1.5 Gols no Jogo (@1.15)"
+        ]
       }
     ],
     "selections": [
       {
-        "match": "Aston Villa x Manchester City (08:30 BRT)",
+        "match": "Inter de Milão x Fiorentina (08:30 BRT)",
+        "cluster": "Turno 1",
+        "market": "Inter de Milão ou Empate (1X)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Athletic Bilbao x Getafe (10:00 BRT)",
+        "cluster": "Turno 1",
+        "market": "Athletic Bilbao ou Empate (1X)",
+        "odd": 1.14,
+        "status": "PENDING"
+      },
+      {
+        "match": "Liverpool x Brighton (11:00 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.16,
+        "status": "PENDING"
+      },
+      {
+        "match": "Manchester United x Bournemouth (11:00 BRT)",
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.18,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Arsenal x Everton (11:00 BRT)",
+        "match": "Atalanta x Frosinone (11:00 BRT)",
         "cluster": "Turno 1",
-        "market": "Arsenal ou Empate (1X)",
-        "odd": 1.12,
-        "status": "HIT"
-      },
-      {
-        "match": "RB Leipzig x SV Elversberg (10:30 BRT)",
-        "cluster": "Turno 1",
-        "market": "RB Leipzig ou Empate (1X)",
-        "odd": 1.12,
-        "status": "HIT"
-      },
-      {
-        "match": "Napoli x Roma (13:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.22,
-        "status": "HIT"
-      },
-      {
-        "match": "Chelsea x Tottenham (13:30 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
+        "market": "Atalanta ou Empate (1X)",
         "odd": 1.18,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Borussia Dortmund x Eintracht Frankfurt (13:30 BRT)",
+        "match": "Hoffenheim x Bayer Leverkusen (11:30 BRT)",
+        "cluster": "Turno 1",
+        "market": "Bayer Leverkusen ou Empate (X2)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Olympique de Marseille x Le Havre (13:15 BRT)",
+        "cluster": "Turno 2",
+        "market": "Olympique de Marseille ou Empate (1X)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "SC Freiburg x Bayern de Munique (13:30 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.15,
-        "status": "MISS"
+        "status": "PENDING"
       },
       {
-        "match": "Lazio x Parma (15:45 BRT)",
+        "match": "Real Sociedad x Levante (14:30 BRT)",
         "cluster": "Turno 2",
-        "market": "Lazio ou Empate (1X)",
-        "odd": 1.18,
-        "status": "HIT"
-      },
-      {
-        "match": "Atlético de Madrid x Deportivo La Coruña (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Atlético de Madrid ou Empate (1X)",
-        "odd": 1.12,
-        "status": "HIT"
-      },
-      {
-        "match": "Palmeiras x Red Bull Bragantino (18:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Palmeiras ou Empate (1X)",
+        "market": "Real Sociedad ou Empate (1X)",
         "odd": 1.14,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Santos x Bahia (21:00 BRT)",
+        "match": "Barcelona x Real Madrid (17:00 BRT)",
         "cluster": "Turno 3",
-        "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.21,
-        "status": "HIT"
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.15,
+        "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 10,
-    "stake": 132.4,
-    "multiplier": 1.47,
-    "potentialReturn": 194.36,
-    "status": "RED",
-    "notes": "Modelo Sniper Dia 10 de 30 (Grade Oficial Sábado 24/10/2026): Tripla Âncora Blindada — Arsenal 1X (@1.12 ✅) + Dortmund Over 1.5 (@1.15 ❌ 1x0) + Palmeiras 1X (@1.14 ✅ 2x0). Ciclo finalizado com 9 greens seguidos e reset para Dia 1 com R$ 10,00.",
+    "day": 2,
+    "stake": 13.70,
+    "multiplier": 1.32,
+    "potentialReturn": 18.08,
+    "status": "PENDING",
+    "notes": "Modelo Sniper Dia 2 de 30 (Grade Oficial Domingo 25/10/2026): Dupla Âncora Independente (Regra V6 de Não-Contaminação com a SAFE) — Bayer Leverkusen ou Empate (X2 @1.12) na Bundesliga + Barcelona ou Empate (1X @1.18) no El Clásico. Odd combinada @1.32. Meta: R$ 18,08 rumo ao Dia 3.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Arsenal x Everton + Dortmund x Frankfurt + Palmeiras x Bragantino",
-        "competition": "Premier League, Bundesliga & Brasileirão Série A",
-        "market": "Arsenal 1X (@1.12) + Dortmund Over 1.5 (@1.15) + Palmeiras 1X (@1.14)",
-        "odd": 1.47,
-        "stake": 132.4,
-        "potentialReturn": 194.36,
-        "status": "RED",
+        "match": "Hoffenheim x Leverkusen + Barcelona x Real Madrid",
+        "competition": "Bundesliga & La Liga",
+        "market": "Leverkusen ou Empate (X2 @1.12) + Barcelona ou Empate (1X @1.18)",
+        "odd": 1.32,
+        "stake": 13.70,
+        "potentialReturn": 18.08,
+        "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Arsenal com imposição avassaladora em casa contra o Everton, clássico ultra ofensivo alemão no Signal Iduna Park com média superior a 3 gols, e Palmeiras mandante na Arena Barueri contra um Bragantino em baixa fora."
+        "analysis": "Leverkusen invicto enfrentando Hoffenheim instável, somado à força soberana do Barcelona no Camp Nou com 100% de aproveitamento em La Liga (9 vitórias em 9 jogos) e Real desfalcado de Vini Jr. Desacoplado da SAFE para risco zero de contaminação."
       }
     ],
     "selections": [
       {
-        "match": "Arsenal x Everton",
-        "competition": "Premier League (11:00 BRT)",
-        "market": "Arsenal ou Empate (1X)",
+        "match": "Hoffenheim x Bayer Leverkusen",
+        "competition": "Bundesliga (11:30 BRT)",
+        "market": "Bayer Leverkusen ou Empate (X2)",
         "odd": 1.12,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Borussia Dortmund x Eintracht Frankfurt",
-        "competition": "Bundesliga (13:30 BRT)",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.15,
-        "status": "MISS"
-      },
-      {
-        "match": "Palmeiras x Red Bull Bragantino",
-        "competition": "Brasileirão Série A (18:30 BRT)",
-        "market": "Palmeiras ou Empate (1X)",
-        "odd": 1.14,
-        "status": "HIT"
+        "match": "Barcelona x Real Madrid",
+        "competition": "La Liga (17:00 BRT)",
+        "market": "Barcelona ou Empate (1X)",
+        "odd": 1.18,
+        "status": "PENDING"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Grade Real Oficial 24/10/2026)",
+      "name": "MÚLTIPLA 1 — SAFE (Regras V6 Anti-Contaminação)",
       "type": "SAFE",
-      "status": "RED",
-      "notes": "100% de jogos da rodada de sábado 24/10/2026, divididos nos 3 Stop Points comutáveis.",
+      "status": "PENDING",
+      "notes": "Regra Sagrada V6: Stop Point 1 100% blindado com Dupla Chance de mandantes (Over 1.5 estritamente banido da âncora). 3 Stop Points comutáveis.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora de Elite)",
-          "multiplier": 1.29,
+          "level": "STOP POINT 1 (Dupla Âncora Blindada — Proibido Over 1.5)",
+          "multiplier": 1.25,
           "legs": [
-            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
-            "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)"
+            "Inter de Milão x Fiorentina: Inter de Milão ou Empate (1X @1.12)",
+            "Olympique de Marseille x Le Havre: Marseille ou Empate (1X @1.12)"
           ],
-          "status": "RED"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quíntupla Forte de Sábado)",
-          "multiplier": 1.94,
+          "level": "STOP POINT 2 (Quádrupla Forte de Caldeirões)",
+          "multiplier": 1.63,
           "legs": [
-            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
-            "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)",
-            "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
-            "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
-            "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (1X @1.12)"
+            "Inter de Milão x Fiorentina: Inter ou Empate (1X @1.12)",
+            "Olympique de Marseille x Le Havre: Marseille ou Empate (1X @1.12)",
+            "Athletic Bilbao x Getafe: Athletic Bilbao ou Empate (1X @1.14)",
+            "Real Sociedad x Levante: Real Sociedad ou Empate (1X @1.14)"
           ],
-          "status": "RED"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa 9 Seleções)",
-          "multiplier": 3.68,
+          "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
+          "multiplier": 2.87,
           "legs": [
-            "Arsenal x Everton: Arsenal ou Empate (1X @1.12)",
-            "Borussia Dortmund x Eintracht Frankfurt: Mais de 1.5 Gols (@1.15)",
-            "Palmeiras x Red Bull Bragantino: Palmeiras ou Empate (1X @1.14)",
-            "Chelsea x Tottenham: Mais de 1.5 Gols (@1.18)",
-            "RB Leipzig x SV Elversberg: RB Leipzig ou Empate (1X @1.12)",
-            "Aston Villa x Manchester City: Mais de 1.5 Gols (@1.18)",
-            "Lazio x Parma: Lazio ou Empate (1X @1.18)",
-            "Atlético de Madrid x Deportivo La Coruña: Atlético 1X (@1.12)",
-            "Napoli x Roma: Mais de 1.5 Gols (@1.22)"
+            "Inter de Milão x Fiorentina: Inter ou Empate (1X @1.12)",
+            "Olympique de Marseille x Le Havre: Marseille ou Empate (1X @1.12)",
+            "Athletic Bilbao x Getafe: Athletic ou Empate (1X @1.14)",
+            "Real Sociedad x Levante: Real Sociedad ou Empate (1X @1.14)",
+            "Hoffenheim x Bayer Leverkusen: Bayer Leverkusen ou Empate (X2 @1.12)",
+            "Atalanta x Frosinone: Atalanta ou Empate (1X @1.18)",
+            "Liverpool x Brighton: Mais de 1.5 Gols no Jogo (@1.16)",
+            "Barcelona x Real Madrid: Mais de 1.5 Gols no Jogo (@1.15)"
           ],
-          "status": "RED"
+          "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Vitórias Secas)",
       "type": "SAFE+",
-      "multiplier": 3.45,
-      "status": "GREEN",
-      "notes": "🏆 100% GREEN ABSOLUTO! Tripla vitória seca impecável: Arsenal 2x0 Everton, Atlético de Madrid 1x0 Deportivo La Coruña e Palmeiras 2x0 Bragantino.",
+      "multiplier": 3.33,
+      "status": "PENDING",
+      "notes": "3 mandantes dominantes enfrentando adversários da parte de baixo da tabela.",
       "legs": [
-        "Arsenal x Everton: Arsenal Vence (ML @1.42) ➔ ✅ GREEN (2x0)",
-        "Atlético de Madrid x Deportivo La Coruña: Atlético Vence (ML @1.45) ➔ ✅ GREEN (1x0)",
-        "Palmeiras x Red Bull Bragantino: Palmeiras Vence (ML @1.68) ➔ ✅ GREEN (2x0)"
+        "Inter de Milão x Fiorentina: Inter de Milão Vence (ML @1.38)",
+        "Olympique de Marseille x Le Havre: Marseille Vence (ML @1.48)",
+        "Real Sociedad x Levante: Real Sociedad Vence (ML @1.63)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 3 Jogos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Pra Cima — 4 Jogos Ambas Marcam)",
       "type": "ATTACK",
-      "multiplier": 4.85,
-      "status": "RED",
+      "multiplier": 4.23,
+      "status": "PENDING",
+      "notes": "Quádrupla com alta correlação ofensiva em confrontos de forte xG dos dois lados.",
       "legs": [
-        "Chelsea x Tottenham: Ambos Marcam - Sim (@1.58)",
-        "Borussia Dortmund x Eintracht Frankfurt: Ambos Marcam - Sim (@1.55)",
-        "Aston Villa x Manchester City: Ambos Marcam - Sim (@1.62)"
+        "Liverpool x Brighton: Ambos Marcam - Sim (@1.45)",
+        "SC Freiburg x Bayern de Munique: Ambos Marcam - Sim (@1.42)",
+        "Manchester United x Bournemouth: Ambos Marcam - Sim (@1.58)",
+        "Barcelona x Real Madrid: Ambos Marcam - Sim (@1.30)"
       ]
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos)",
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Combo Multiplicador)",
       "type": "NETO",
-      "multiplier": 19.5,
-      "status": "RED",
-      "notes": "4 confrontos com vitórias secas e handicaps de valor para alavancagem exponencial.",
+      "multiplier": 32.22,
+      "status": "PENDING",
+      "notes": "4 confrontos de elite com handicap e vitórias combinadas para retorno exponencial.",
       "legs": [
-        "Arsenal x Everton: Arsenal Vence por 2+ Gols (-1.5 AH @2.15)",
-        "Chelsea x Tottenham: Chelsea Vence + Ambos Marcam (@2.80)",
-        "Palmeiras x Red Bull Bragantino: Palmeiras Vence + Menos de 3.5 Gols (@2.20)",
-        "Napoli x Roma: Napoli Vence (ML @2.10)"
+        "Inter de Milão x Fiorentina: Inter Vence por 2+ Gols (-1.5 AH @2.10)",
+        "Olympique de Marseille x Le Havre: Marseille Vence + Menos de 3.5 Gols (@2.25)",
+        "Barcelona x Real Madrid: Barcelona Vence + Mais de 2.5 Gols (@2.20)",
+        "Atalanta x Frosinone: Atalanta Vence + Ambos Marcam (@3.10)"
       ]
     }
   ]

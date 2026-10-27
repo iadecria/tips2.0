@@ -1,54 +1,62 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-27",
   "sport": "Basquete",
-  "snapshotId": "FAS_BASKETBALL_2026-10-22_V1_NBA_THURSDAY",
+  "snapshotId": "FAS_BASKETBALL_2026-10-27_V1_NBA_TUESDAY",
   "status": "PENDING",
-  "notes": "Rodada de Quinta-feira da Temporada Regular NBA 2026/27. Aplicação estrita dos filtros de segurança: Spreads Elásticos Protegidos e Linhas Rebaixadas de Totais.",
+  "notes": "Rodada Oficial NBA 2026/27 (Terça-feira 27/10): Grade completa com 4 partidas (Celtics x Nets, Knicks x Pistons, Spurs x Kings e Lakers x Trail Blazers). Estruturação com Spreads Elásticos Protegidos, Regra Team Total First e Desmembramento por Turnos (Turno 1: Prime Time Leste/Texas às 20:30-21:00 BRT e Turno 2: Late Night Oeste às 00:00 BRT). Desafio Soros no DIA 1 de 30 com R$ 10,00.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — BASQUETE (NBA Thursday Prime)",
+    "name": "⭐ BILHETE SUPREMO — BASQUETE (NBA Tuesday Elite)",
     "type": "FILE_DO_DIA",
     "sport": "Basquete",
-    "multiplierGlobal": 2.53,
-    "philosophy": "3 seleções calibradas com Spreads Elásticos e Margem Segura de Pontuação para anular volatilidade de início de temporada.",
+    "multiplierGlobal": 2.63,
+    "philosophy": "4 seleções calibradas com Spreads Elásticos Protegidos, Regra Team Total First e Mando de Quadra Histórico, divididas em Turno 1 (Prime Time) e Turno 2 (Madrugada).",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🏀 TURNO 1 — PRIME TIME LESTE/OESTE (20:30 BRT)",
-        "multiplier": 1.86,
-        "notes": "Spreads elásticos para Bucks e linha de pontos rebaixada no clássico texano.",
+        "clusterName": "🏀 TURNO 1 — PRIME TIME LESTE / TEXAS (20:30 - 21:00 BRT)",
+        "multiplier": 1.93,
+        "notes": "Team total dos Celtics no TD Garden, proteção elástica dos Pistons no MSG e vitória do Spurs no Frost Bank Center.",
         "legs": [
-          "Milwaukee Bucks @ Philadelphia 76ers: Milwaukee Bucks +5.5 Spread Protegido (@1.35)",
-          "San Antonio Spurs @ Dallas Mavericks: Mais de 218.5 Pontos Totais (@1.38)"
+          "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
+          "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)",
+          "Sacramento Kings @ San Antonio Spurs: San Antonio Spurs Vence (ML @1.07)"
         ]
       },
       {
-        "clusterName": "⚡ TURNO 2 — MADRUGADA DO OESTE (23:00 BRT)",
+        "clusterName": "⚡ TURNO 2 — LATE NIGHT OESTE (00:00 BRT)",
         "multiplier": 1.36,
-        "notes": "Margem elástica para os Nuggets no confronto direto contra o Thunder.",
+        "notes": "Spread elástico positivo para os Lakers na Crypto.com Arena com EV positivo validado pelo XGBoost (+15.49).",
         "legs": [
-          "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets +6.5 Spread Protegido (@1.36)"
+          "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers +5.5 Spread Protegido (@1.36)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Milwaukee Bucks @ Philadelphia 76ers (20:30 BRT)",
+        "match": "Brooklyn Nets @ Boston Celtics (20:30 BRT)",
         "cluster": "Turno 1",
-        "market": "Milwaukee Bucks +5.5 Spread Protegido",
-        "odd": 1.35,
+        "market": "Boston Celtics Acima de 111.5 Pontos",
+        "odd": 1.33,
         "status": "PENDING"
       },
       {
-        "match": "San Antonio Spurs @ Dallas Mavericks (20:30 BRT)",
+        "match": "Detroit Pistons @ New York Knicks (21:00 BRT)",
         "cluster": "Turno 1",
-        "market": "Mais de 218.5 Pontos Totais",
-        "odd": 1.38,
+        "market": "Detroit Pistons +9.5 Spread Protegido",
+        "odd": 1.36,
         "status": "PENDING"
       },
       {
-        "match": "Denver Nuggets @ Oklahoma City Thunder (23:00 BRT)",
+        "match": "Sacramento Kings @ San Antonio Spurs (21:00 BRT)",
+        "cluster": "Turno 1",
+        "market": "San Antonio Spurs Vence (Moneyline)",
+        "odd": 1.07,
+        "status": "PENDING"
+      },
+      {
+        "match": "Portland Trail Blazers @ Los Angeles Lakers (00:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Denver Nuggets +6.5 Spread Protegido",
+        "market": "Los Angeles Lakers +5.5 Spread Protegido",
         "odd": 1.36,
         "status": "PENDING"
       }
@@ -57,30 +65,49 @@
   "sorosTicket": {
     "day": 1,
     "stake": 10.00,
-    "multiplier": 1.45,
-    "potentialReturn": 14.50,
+    "multiplier": 1.42,
+    "potentialReturn": 14.20,
     "status": "PENDING",
-    "notes": "Desafio Soros Basquete — Ciclo 2, Dia 1 de 30 com stake base de R$ 10,00. Entrada: Dallas Mavericks Vence (ML @1.45) no American Airlines Center.",
+    "notes": "Desafio Soros Basquete — Ciclo 2, Dia 1 de 30 com stake base de R$ 10,00. Entrada: Combo Blindado Boston Celtics Acima de 111.5 Pontos (@1.33) + San Antonio Spurs Vence (ML @1.07) = @1.42.",
     "sniperOptions": [
       {
         "id": "sniper-b1",
-        "match": "San Antonio Spurs @ Dallas Mavericks",
-        "competition": "NBA Regular Season (20:30 BRT)",
-        "market": "Dallas Mavericks Vence (ML)",
-        "odd": 1.45,
+        "match": "Brooklyn Nets @ Boston Celtics + Sacramento Kings @ San Antonio Spurs",
+        "competition": "NBA Regular Season (20:30 / 21:00 BRT)",
+        "market": "Boston Celtics Acima de 111.5 Pontos (@1.33) + San Antonio Spurs ML (@1.07)",
+        "odd": 1.42,
         "stake": 10.00,
-        "potentialReturn": 14.50,
+        "potentialReturn": 14.20,
         "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Mavericks contam com entrosamento e força em Dallas diante de Spurs em ajustes defensivos."
+        "analysis": "Celtics mantêm média superior a 118 pts no TD Garden contra defesa em reconstrução dos Nets; Spurs contam com abismo técnico e Wembanyama para liquidar o triunfo em casa."
+      },
+      {
+        "id": "sniper-b2",
+        "match": "Portland Trail Blazers @ Los Angeles Lakers",
+        "competition": "NBA Regular Season (00:00 BRT)",
+        "market": "Los Angeles Lakers +5.5 Spread Protegido",
+        "odd": 1.36,
+        "stake": 10.00,
+        "potentialReturn": 13.60,
+        "status": "PENDING",
+        "isPrimary": false,
+        "analysis": "Margem elástica para os Lakers na Crypto.com Arena, validada com EV +15.49 no XGBoost."
       }
     ],
     "selections": [
       {
-        "match": "San Antonio Spurs @ Dallas Mavericks",
+        "match": "Brooklyn Nets @ Boston Celtics",
         "competition": "NBA Regular Season (20:30 BRT)",
-        "market": "Dallas Mavericks Vence (ML)",
-        "odd": 1.45,
+        "market": "Boston Celtics Acima de 111.5 Pontos",
+        "odd": 1.33,
+        "status": "PENDING"
+      },
+      {
+        "match": "Sacramento Kings @ San Antonio Spurs",
+        "competition": "NBA Regular Season (21:00 BRT)",
+        "market": "San Antonio Spurs Vence (Moneyline)",
+        "odd": 1.07,
         "status": "PENDING"
       }
     ]
@@ -90,24 +117,35 @@
       "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial NBA)",
       "type": "SAFE",
       "status": "PENDING",
-      "notes": "Stop points modulares com proteção máxima.",
+      "notes": "Stop points modulares rankeados por nível de risco e janela de horário.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Blindada Leste e Texas)",
-          "multiplier": 1.86,
+          "level": "STOP POINT 1 (Dupla Âncora Prime Time)",
+          "multiplier": 1.81,
           "legs": [
-            "Milwaukee Bucks @ Philadelphia 76ers: Milwaukee Bucks +5.5 Spread Protegido (@1.35)",
-            "San Antonio Spurs @ Dallas Mavericks: Mais de 218.5 Pontos Totais (@1.38)"
+            "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
+            "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Tripla Completa NBA)",
-          "multiplier": 2.53,
+          "level": "STOP POINT 2 (Tripla Blindada NBA)",
+          "multiplier": 2.46,
           "legs": [
-            "Milwaukee Bucks @ Philadelphia 76ers: Milwaukee Bucks +5.5 Spread Protegido (@1.35)",
-            "San Antonio Spurs @ Dallas Mavericks: Mais de 218.5 Pontos Totais (@1.38)",
-            "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets +6.5 Spread Protegido (@1.36)"
+            "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
+            "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)",
+            "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers +5.5 Spread Protegido (@1.36)"
+          ],
+          "status": "PENDING"
+        },
+        {
+          "level": "STOP POINT 3 (Quádrupla Completa)",
+          "multiplier": 2.63,
+          "legs": [
+            "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
+            "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)",
+            "Sacramento Kings @ San Antonio Spurs: San Antonio Spurs Vence (ML @1.07)",
+            "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers +5.5 Spread Protegido (@1.36)"
           ],
           "status": "PENDING"
         }
@@ -116,33 +154,36 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Alavancagem Balanceada)",
       "type": "SAFE+",
-      "multiplier": 3.20,
+      "multiplier": 2.80,
       "status": "PENDING",
+      "notes": "Moneylines e linhas diretas sustentadas pelos modelos matemáticos.",
       "legs": [
-        "San Antonio Spurs @ Dallas Mavericks: Dallas Mavericks -3.5 Handicap (@1.75)",
-        "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets +3.5 Spread (@1.83)"
+        "Detroit Pistons @ New York Knicks: New York Knicks Vence (ML @1.58)",
+        "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers Vence (ML @1.77)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (Combos de Valor)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (Combos Ofensivos)",
       "type": "ATTACK",
-      "multiplier": 5.85,
+      "multiplier": 5.16,
       "status": "PENDING",
+      "notes": "Combinações de vitória com pontuações elevadas.",
       "legs": [
-        "San Antonio Spurs @ Dallas Mavericks: Dallas Vence + Mais de 224.5 Pontos (@2.30)",
-        "Denver Nuggets @ Oklahoma City Thunder: Mais de 226.5 Pontos Totais (@2.54)"
+        "Brooklyn Nets @ Boston Celtics: Boston Celtics Vence + Mais de 222.5 Pontos Totais (@2.15)",
+        "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers Vence + Mais de 230.5 Pontos Totais (@2.40)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE (SUPER COMBO)",
       "type": "NETO",
-      "multiplier": 12.80,
+      "multiplier": 14.85,
       "status": "PENDING",
-      "notes": "3 partidas com handicaps asiáticos arrojados.",
+      "notes": "4 seleções arrojadas de handicap e moneyline nos 4 confrontos da rodada.",
       "legs": [
-        "Milwaukee Bucks @ Philadelphia 76ers: Bucks Vence (ML @2.10)",
-        "San Antonio Spurs @ Dallas Mavericks: Dallas -7.5 Handicap (@2.45)",
-        "Denver Nuggets @ Oklahoma City Thunder: Denver Nuggets Vence (ML @2.48)"
+        "Brooklyn Nets @ Boston Celtics: Boston Celtics -12.5 Handicap (@1.88)",
+        "Detroit Pistons @ New York Knicks: New York Knicks -4.5 Handicap (@1.91)",
+        "Sacramento Kings @ San Antonio Spurs: San Antonio Spurs -18.5 Handicap (@1.90)",
+        "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers -1.5 Handicap (@1.85)"
       ]
     }
   ]

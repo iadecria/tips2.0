@@ -1,30 +1,40 @@
 {
   "date": "2026-10-27",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-27_V1_SNIPER_MIDWEEK",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-27_V2_EXPANDED_GLOBAL_SNIPER",
   "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS V6.1 SNIPER — TERÇA-FEIRA 27/10/2026: Rodada nobre de meio de semana cobrindo Serie A Italiana (9ª Rodada), DFB-Pokal alemã (2ª fase eliminatória), EFL Cup inglesa (Oitavas de Final) e Brasileirão Série B (35ª rodada decisiva). Desafio Soros no DIA 2 com stake de R$ 13,70 100% desacoplado da SAFE.",
+  "notes": "GRADE OFICIAL FAS V6.1 EXPANDIDA — TERÇA-FEIRA 27/10/2026: Varredura global integral cobrindo Espanha (Copa del Rey), Portugal (Taça da Liga / Allianz Cup), Inglaterra (EFL Cup), Itália (Serie A 9ª rodada), Alemanha (DFB-Pokal 2ª fase) e Brasil (Série B 35ª rodada). Inclusão dos abismos técnicos do Girona, Villarreal, Sporting CP e Arsenal. Desafio Soros no DIA 2 com R$ 13,70 100% desacoplado da SAFE.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO (Terça-feira 27/10 / 3 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Terça-feira 27/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.55,
-    "philosophy": "Arquitetura Sniper Antivariância V6.1: Apenas as 3 seleções de mais alta solidez da rodada global, priorizando mandantes com volume nobre e favoritos absolutos fora de casa sem inflação de pernas.",
+    "multiplierGlobal": 1.90,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em 3 turnos distintos com favoritismo incontestável e abismo técnico comprovado, sem inflação de pernas.",
     "status": "PENDING",
     "selections": [
       {
+        "match": "CD Cuarte x Girona FC (14:30 BRT)",
+        "competition": "Copa del Rey (1ª Eliminatória)",
+        "market": "Girona FC Vence (Moneyline)",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
         "match": "AS Roma x Cagliari (16:45 BRT)",
+        "competition": "Serie A Italiana (9ª Rodada)",
         "market": "Roma ou Empate (Dupla Chance 1X)",
         "odd": 1.14,
         "status": "PENDING"
       },
       {
-        "match": "Borussia Dortmund x Werder Bremen (16:45 BRT)",
-        "market": "Dortmund ou Empate (Dupla Chance 1X)",
-        "odd": 1.15,
+        "match": "Sporting CP x Marítimo (17:15 BRT)",
+        "competition": "Taça da Liga de Portugal (Quartos de Final)",
+        "market": "Sporting CP Vence (Moneyline)",
+        "odd": 1.18,
         "status": "PENDING"
       },
       {
         "match": "Fleetwood Town x Arsenal (17:00 BRT)",
+        "competition": "EFL Cup (Oitavas de Final)",
         "market": "Arsenal Vence (Moneyline)",
         "odd": 1.18,
         "status": "PENDING"
@@ -38,49 +48,53 @@
       "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora Elástica)",
-          "multiplier": 1.34,
+          "level": "Stop Point 1 (Dupla Âncora de Gigantes Europeus)",
+          "multiplier": 1.39,
           "legs": [
-            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
-            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)"
+            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
+            "Sporting CP x Marítimo: Sporting CP Vence (ML @1.18)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Tripla de Caldeirões)",
-          "multiplier": 1.55,
+          "level": "Stop Point 2 (Quádrupla de Elite com Caldeirões)",
+          "multiplier": 1.85,
           "legs": [
-            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
             "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
+            "Sporting CP x Marítimo: Sporting CP Vence (ML @1.18)",
+            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
             "Borussia Dortmund x Werder Bremen: Dortmund ou Empate (1X @1.15)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Quádrupla Completa)",
-          "multiplier": 1.86,
+          "level": "Stop Point 3 (Sexteto Completo com Proteções)",
+          "multiplier": 2.55,
           "legs": [
-            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
             "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
+            "Sporting CP x Marítimo: Sporting CP Vence (ML @1.18)",
+            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
             "Borussia Dortmund x Werder Bremen: Dortmund ou Empate (1X @1.15)",
-            "Torino x Como: Torino ou Empate (1X @1.20)"
+            "Torino x Como: Torino ou Empate (1X @1.20)",
+            "CD Manacor x Villarreal CF: Villarreal CF Vence (ML @1.16)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Moderada)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Goleadas)",
       "type": "SAFE+",
-      "multiplier": 2.45,
+      "multiplier": 3.41,
       "status": "PENDING",
       "legs": [
-        "AS Roma x Cagliari: AS Roma Vence (ML @1.55)",
-        "Borussia Dortmund x Werder Bremen: Borussia Dortmund Vence (ML @1.58)"
+        "CD Manacor x Villarreal CF: Villarreal Vence por 2+ Gols (-1.5 AH @1.45)",
+        "Sporting CP x Marítimo: Sporting CP Vence por 2+ Gols (-1.5 AH @1.52)",
+        "AS Roma x Cagliari: AS Roma Vence (ML @1.55)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Gols)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Gols em Clássicos Alemães e Serie A)",
       "type": "ATTACK",
       "multiplier": 4.28,
       "status": "PENDING",
@@ -91,15 +105,15 @@
       ]
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem)",
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 24.66,
+      "multiplier": 27.14,
       "status": "PENDING",
       "legs": [
         "Fleetwood Town x Arsenal: Arsenal -2.5 Handicap Asiático (@2.30)",
-        "AS Roma x Cagliari: AS Roma Vence & Menos de 3.5 Gols (@2.20)",
+        "Sporting CP x Marítimo: Sporting Vence sem Sofrer Gols (@1.85)",
         "Borussia Dortmund x Werder Bremen: Dortmund Vence & Ambos Marcam (@2.90)",
-        "Ceará x Goiás: Goiás ou Empate (Dupla Chance X2 @1.68)"
+        "AS Roma x Cagliari: Roma Vence & Menos de 3.5 Gols (@2.20)"
       ]
     }
   ],
@@ -108,12 +122,12 @@
     "day": 2,
     "targetDays": 30,
     "stake": 13.70,
-    "multiplier": 1.42,
-    "potentialReturn": 19.45,
-    "philosophy": "Princípio da Imunidade Absoluta V6: 100% desacoplado do Stop Point 1 da SAFE (sem Roma e sem Arsenal) e fora de mata-matas eliminatórios caóticos. Baseado na fortaleza mandante do Torino na Serie A + Under estrutural da Série B no Castelão.",
+    "multiplier": 1.44,
+    "potentialReturn": 19.73,
+    "philosophy": "Princípio da Imunidade Absoluta V6: 100% desacoplado do Stop Point 1 da SAFE (sem Arsenal e sem Sporting) e fora de mata-matas eliminatórios caóticos. Baseado no abismo técnico do Girona na Copa del Rey + Fortaleza do Torino no Caldeirão de Turim.",
     "legs": [
-      "Torino x Como: Torino ou Empate (Dupla Chance 1X @1.20)",
-      "Ceará x Goiás: Menos de 3.5 Gols no Jogo (@1.18)"
+      "CD Cuarte x Girona FC: Girona FC Vence (Moneyline @1.20)",
+      "Torino x Como: Torino ou Empate (Dupla Chance 1X @1.20)"
     ],
     "status": "PENDING"
   }

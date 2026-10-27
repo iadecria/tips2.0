@@ -2150,86 +2150,191 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-25
 - **Cutoff:** 2026-10-25T08:25:00-03:00
 - **Contexto da Data:** Super domingo de gala no futebol europeu com o primeiro El Clásico da temporada (Barcelona x Real Madrid no Camp Nou), Premier League com Liverpool x Brighton em Anfield e Man United x Bournemouth em Old Trafford, Serie A Italiana com a líder Inter de Milão recebendo a Fiorentina no San Siro, Atalanta x Frosinone e Udinese x Milan, Bundesliga com Hoffenheim x Leverkusen e Freiburg x Bayern de Munique, e Ligue 1 com o Olympique de Marseille recebendo o lanterna Le Havre no Vélodrome. (Brasileirão não tem jogos hoje em virtude das eleições de 2º turno no Brasil).
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (CONFERE OFICIAL)**
 
 #### 1. Discovery e Cobertura
 - Analisados: 16 fixtures principais das cinco grandes ligas europeias
 - Elegíveis: 10 seleções no Bilhete Supremo (1 por jogo no padrão Clean Parlay)
 - Descartados no pente-fino: PSG x Lyon (adiado para segunda-feira pelas autoridades de segurança de Paris), Lecce x Juventus (alta oscilação da Juve fora de casa), Celta x Betis (volatilidade tática e equilíbrio extremo).
 
-#### 2. Grade de Fixtures e Seleções Pre-Match
+#### 2. Grade de Fixtures, Resultados Oficiais e Liquidação
 
-1. **Inter de Milão × Fiorentina** (08:30 BRT — Serie A Italiana)
-   - **Tese (Turno 1 / Âncora SAFE):** Inter de Milão ou Empate (1X @1.12)
-   - **SAFE+:** Inter de Milão Vence (ML @1.38)
-   - **NETO:** Inter de Milão Vence por 2+ Gols (-1.5 AH @2.10)
+1. **Inter de Milão 2 × 1 Fiorentina** (Serie A Italiana)
+   - *Resultado Oficial:* 2 x 1 (Gols: Zielinski 90+2' pen, Lautaro 31' | Gudmundsson 12')
+   - **Tese (Turno 1 / Âncora SAFE):** Inter de Milão ou Empate (1X @1.12) ➔ ✅ **HIT**
+   - **SAFE+:** Inter de Milão Vence (ML @1.38) ➔ ✅ **HIT** (2x1)
+   - **NETO:** Inter de Milão Vence por 2+ Gols (-1.5 AH @2.10) ➔ ❌ **MISS** (Inter venceu por margem de 1 gol)
 
-2. **Athletic Bilbao × Getafe** (10:00 BRT — La Liga)
-   - **Tese (Turno 1 / SAFE Stop 2):** Athletic Bilbao ou Empate (1X @1.14)
+2. **Athletic Bilbao 4 × 0 Getafe** (La Liga)
+   - *Resultado Oficial:* 4 x 0 (Gols: Berenguer 17', Iñaki Williams 35', Paredes 70', Yuri 88')
+   - **Tese (Turno 1 / SAFE Stop 2):** Athletic Bilbao ou Empate (1X @1.14) ➔ ✅ **HIT** (Goleada 4x0)
 
-3. **Liverpool × Brighton** (11:00 BRT — Premier League)
-   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.16)
-   - **ATTACK:** Ambos Marcam - Sim (@1.45)
+3. **Liverpool 2 × 0 Brighton** (Premier League)
+   - *Resultado Oficial:* 2 x 0 (Gols: Gross contra 38', Isak 64')
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.16) ➔ ✅ **HIT** (Total 2 gols >= 1.5)
+   - **ATTACK:** Ambos Marcam - Sim (@1.45) ➔ ❌ **MISS** (Brighton parou na trave e não marcou)
 
-4. **Manchester United × Bournemouth** (11:00 BRT — Premier League)
-   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18)
-   - **ATTACK:** Ambos Marcam - Sim (@1.58)
+4. **Manchester United 0 × 3 Bournemouth** (Premier League)
+   - *Resultado Oficial:* 0 x 3 (Gols: Solanke 12', Billing 68', Senesi 73')
+   - **Tese (Turno 1):** Mais de 1.5 Gols no Jogo (@1.18) ➔ ✅ **HIT** (Total 3 gols >= 1.5)
+   - **ATTACK:** Ambos Marcam - Sim (@1.58) ➔ ❌ **MISS** (Apagão do United que não marcou em Old Trafford)
+     - *Miss Audit:* `BAD_SELECTION / CONTEXT_DEGRADATION` (Confiou em BTTS com ataque disfuncional do United).
 
-5. **Atalanta × Frosinone** (11:00 BRT — Serie A Italiana)
-   - **Tese (Turno 1 / SAFE Stop 3):** Atalanta ou Empate (1X @1.18)
-   - **NETO:** Atalanta Vence + Ambos Marcam (@3.10)
+5. **Atalanta 4 × 4 Frosinone** (Serie A Italiana)
+   - *Resultado Oficial:* 4 x 4 (Gols: Éderson pen 89', Scamacca 2x, Koopmeiners)
+   - **Tese (Turno 1 / SAFE Stop 3):** Atalanta ou Empate (1X @1.18) ➔ ✅ **HIT** (4x4 dramático)
+   - **NETO:** Atalanta Vence + Ambos Marcam (@3.10) ➔ ❌ **MISS** (Empate 4x4)
 
-6. **Hoffenheim × Bayer Leverkusen** (11:30 BRT — Bundesliga)
-   - **Tese (Turno 1 / Sniper Soros Dia 2):** Bayer Leverkusen ou Empate (X2 @1.12)
+6. **Hoffenheim 3 × 0 Bayer Leverkusen** (Bundesliga)
+   - *Resultado Oficial:* 3 x 0 (Gols: Kramarić 79' pen, Prass 89', Moerstedt 90+6')
+   - **Tese (Turno 1 / Sniper Soros Dia 2):** Bayer Leverkusen ou Empate (X2 @1.12) ➔ ❌ **MISS**
+     - *Miss Audit:* `STATISTICAL_VARIANCE / BAD_SELECTION` (Zebra brutal da rodada alemã: Leverkusen sofreu 3 gols nos últimos 15 minutos fora de casa. Erro metodológico de expor o Soros a favorito como visitante).
 
-7. **Olympique de Marseille × Le Havre** (13:15 BRT — Ligue 1 Francesa)
-   - **Tese (Turno 2 / Âncora SAFE):** Olympique de Marseille ou Empate (1X @1.12)
-   - **SAFE+:** Olympique de Marseille Vence (ML @1.48)
-   - **NETO:** Marseille Vence + Menos de 3.5 Gols (@2.25)
+7. **Olympique de Marseille 4 × 3 Le Havre** (Ligue 1 Francesa)
+   - *Resultado Oficial:* 4 x 3 (Marseille abriu 4x0 e sofreu 3 gols no final)
+   - **Tese (Turno 2 / Âncora SAFE):** Olympique de Marseille ou Empate (1X @1.12) ➔ ✅ **HIT** (4x3)
+   - **SAFE+:** Olympique de Marseille Vence (ML @1.48) ➔ ✅ **HIT** (4x3)
+   - **NETO:** Marseille Vence + Menos de 3.5 Gols (@2.25) ➔ ❌ **MISS** (Chuva de 7 gols no Vélodrome)
 
-8. **SC Freiburg × Bayern de Munique** (13:30 BRT — Bundesliga)
-   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.15)
-   - **ATTACK:** Ambos Marcam - Sim (@1.42)
+8. **SC Freiburg 1 × 3 Bayern de Munique** (Bundesliga)
+   - *Resultado Oficial:* 1 x 3 (Gols: Upamecano 15', Gnabry 54', Olise 78' | Bischof contra 84')
+   - **Tese (Turno 2):** Mais de 1.5 Gols no Jogo (@1.15) ➔ ✅ **HIT** (Total 4 gols >= 1.5)
+   - **ATTACK:** Ambos Marcam - Sim (@1.42) ➔ ✅ **HIT** (1x3)
 
-9. **Real Sociedad × Levante** (14:30 BRT — La Liga)
-   - **Tese (Turno 2 / SAFE Stop 2):** Real Sociedad ou Empate (1X @1.14)
-   - **SAFE+:** Real Sociedad Vence (ML @1.63)
+9. **Real Sociedad 2 × 1 Levante** (La Liga)
+   - *Resultado Oficial:* 2 x 1 (Gols: Óskarsson 6', Turrientes 27' | Nacho Pérez 22')
+   - **Tese (Turno 2 / SAFE Stop 2):** Real Sociedad ou Empate (1X @1.14) ➔ ✅ **HIT** (2x1)
+   - **SAFE+:** Real Sociedad Vence (ML @1.63) ➔ ✅ **HIT** (2x1)
 
-10. **Barcelona × Real Madrid** (17:00 BRT — La Liga — EL CLÁSICO)
-    - **Tese (Turno 3 / SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.15)
-    - **Sniper Soros Dia 2:** Barcelona ou Empate (1X @1.18)
-    - **ATTACK:** Ambos Marcam - Sim (@1.30)
-    - **NETO:** Barcelona Vence + Mais de 2.5 Gols (@2.20)
+10. **Barcelona 1 × 2 Real Madrid** (La Liga — EL CLÁSICO)
+    - *Resultado Oficial:* 1 x 2 (Gols: Raphinha 31' | Mbappé 43', 78')
+    - **Tese (Turno 3 / SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.15) ➔ ✅ **HIT** (3 gols totais)
+    - **ATTACK:** Ambos Marcam - Sim (@1.30) ➔ ✅ **HIT** (1x2)
+    - **Sniper Soros Dia 2:** Barcelona ou Empate (1X @1.18) ➔ ❌ **MISS** (Real Madrid venceu no Camp Nou)
+      - *Miss Audit:* `BAD_SELECTION / METHODOLOGICAL_FLAW` (Violou a regra de prudência: colocar a vida do Soros no maior clássico do planeta onde o Real Madrid tinha poder de decisão com Mbappé).
 
 #### 3. Auditoria dos Bilhetes Estruturados de 25/10
 
 *   ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (@3.90):**
-    *   🥪 **Turno 1 Manhã Europeia (@2.31):** Inter 1X (@1.12) + Bilbao 1X (@1.14) + Liverpool Over 1.5 (@1.16) + Man United Over 1.5 (@1.18) + Atalanta 1X (@1.18) + Leverkusen X2 (@1.12)
-    *   🏰 **Turno 2 Tarde Gigantes (@1.47):** Marseille 1X (@1.12) + Freiburg x Bayern Over 1.5 (@1.15) + Real Sociedad 1X (@1.14)
-    *   👑 **Turno 3 El Clásico (@1.15):** Barcelona x Real Madrid Over 1.5 (@1.15)
-    *   *Multiplicador Global:* **@3.90** (10 seleções no padrão Clean Parlay).
+    *   *Desempenho por Seleções:* **9 DE 10 ACERTOS (90% DE PRECISÃO CIRÚRGICA)!**
+    *   *Falha Única:* Hoffenheim 3x0 Leverkusen (X2 @1.12 ❌).
+    *   *Resultado Global do Bilhete:* ❌ **RED** (Derrubado pela zebra isolada na Alemanha).
+    *   *Diagnóstico Estrutural:* Bilhete longo demais (10 pernas). A probabilidade composta pune parleys inflados mesmo com 90% de taxa de acerto.
 
 *   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares por Ranking V6):**
-    *   **Stop Point 1 (Dupla Âncora Blindada @1.25):** Inter de Milão 1X (@1.12) + Olympique de Marseille 1X (@1.12) *(Over 1.5 Geral estritamente banido da âncora)*.
-    *   **Stop Point 2 (Quádrupla Forte de Caldeirões @1.63):** Stop Point 1 + Athletic Bilbao 1X (@1.14) + Real Sociedad 1X (@1.14).
-    *   **Stop Point 3 (Múltipla Completa 8 Seleções @2.87):** Stop Point 2 + Leverkusen X2 (@1.12) + Atalanta 1X (@1.18) + Liverpool Over 1.5 (@1.16) + Barcelona Over 1.5 (@1.15).
+    *   🟢 **Stop Point 1 (Dupla Âncora Blindada @1.25):** Inter 1X (✅ 2x1) + Marseille 1X (✅ 4x3) ➔ 🏆 **GREEN CRAVADO (@1.25)!**
+    *   🟡 **Stop Point 2 (Quádrupla Forte de Caldeirões @1.63):** Stop Point 1 + Athletic Bilbao 1X (✅ 4x0) + Real Sociedad 1X (✅ 2x1) ➔ 🏆 **GREEN CRAVADO (@1.63)!**
+    *   🔴 **Stop Point 3 (Múltipla Completa 8 Seleções @2.87):** Derrubada pelo Leverkusen 3x0 (7 acertos em 8) ➔ ❌ **RED**
 
 *   🎫 **MÚLTIPLA 2 — SAFE+ (@3.33):**
-    *   Inter de Milão ML (@1.38) + Olympique de Marseille ML (@1.48) + Real Sociedad ML (@1.63).
-    *   *Objetivo:* Alavancagem equilibrada de 3 vitórias secas de mandantes dominantes contra adversários da parte inferior da tabela.
+    *   Inter de Milão ML (✅ 2x1) + Olympique de Marseille ML (✅ 4x3) + Real Sociedad ML (✅ 2x1).
+    *   *Resultado:* 🏆 **100% GREEN HISTÓRICO TOTAL (@3.33)!** (+233% de lucro limpo sobre a stake).
 
 *   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.23):**
-    *   Liverpool x Brighton BTTS (@1.45) + Freiburg x Bayern BTTS (@1.42) + Man United x Bournemouth BTTS (@1.58) + Barcelona x Real Madrid BTTS (@1.30).
-    *   *Objetivo:* Retorno acelerado em quádrupla de Ambas as Equipes Marcam em clássicos e jogos de transição frenética.
+    *   Liverpool BTTS (❌) + Man United BTTS (❌) + Freiburg BTTS (✅) + El Clásico BTTS (✅).
+    *   *Resultado:* ❌ **RED** (2 acertos, 2 erros).
 
 *   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@32.22):**
-    *   Inter de Milão -1.5 AH (@2.10) + Marseille Vence & Sub 3.5 (@2.25) + Barcelona Vence & Over 2.5 (@2.20) + Atalanta Vence & BTTS (@3.10).
-    *   *Multiplicador:* **@32.22** (Moeda de troco de altíssimo valor).
+    *   *Resultado:* ❌ **RED**
 
-*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (SNIPER DESACOPLADO):**
-    *   **Entrada:** R$ 13,70 (Saldo do Green conquistado no Dia 1)
-    *   **Seleção Independente (Regra V6 Anti-Contaminação com a SAFE):** Bayer Leverkusen ou Empate (X2 @1.12) + Barcelona ou Empate (1X @1.18) [Odd @1.32]
-    *   **Retorno Projetado:** R$ 18,08 rumo ao **DIA 3 DE 30**!
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30:**
+    *   **Entrada:** R$ 13,70
+    *   **Seleção:** Bayer Leverkusen X2 (@1.12 ❌) + Barcelona 1X (@1.18 ❌)
+    *   **Resultado:** ❌ **MISS DUPLO**
+    *   **Conclusão e Governança:** O ciclo do Soros foi encerrado no Dia 2 e reiniciado obrigatoriamente no **DIA 1 DE 30 com R$ 10,00** para a rodada de 26/10.
+
+---
+
+---
+
+### [2026-10-26] — RODADA DIÁRIA (REFATORAÇÃO SNIPER V6.1: ELIMINAÇÃO DE INFLAÇÃO DE BILHETES)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-26_V2_REFACTOR_SNIPER`
+- **Data do Registro:** 2026-10-26
+- **Cutoff:** 2026-10-26T12:00:00-03:00
+- **Contexto da Refatoração:** Refatoração cirúrgica anti-variância motivada pelo CONFERE de 25/10. O Bilhete Supremo foi enxugado de 7 pernas para a Tripla Sniper de Ouro (@1.65), eliminando o risco composto de zebras isoladas. O Desafio Soros foi reiniciado no **DIA 1 DE 30 com R$ 10,00**, banindo clássicos 50/50 e apostando exclusivamente no caldeirão do Alfredo Jaconi + Under estrutural no Couto Pereira.
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (100% GREEN NO BILHETE SUPREMO @1.65, 100% GREEN NA SAFE @1.81, 100% GREEN NA SAFE+ @2.64 E GREEN CRAVADO NO DIA 1 DO SOROS @1.37 R$ 13,70)**
+
+#### 1. Arquitetura Refatorada de Bilhetes de 26/10
+
+*   ⭐ **BILHETE SUPREMO — SNIPER DE OURO (@1.65):**
+    *   ▫️ **Paris Saint-Germain × Lyon:** PSG ou Empate (Dupla Chance 1X @1.14)
+    *   ▫️ **Flamengo × Atlético-MG:** Flamengo ou Empate (Dupla Chance 1X @1.16)
+    *   ▫️ **Juventude × Náutico:** Juventude ou Empate (Dupla Chance 1X @1.14)
+    *   *Multiplicador:* **@1.65** (Apenas as 3 maiores fortalezas de mandantes do dia).
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+    *   🟢 **Stop Point 1 (Dupla Âncora @1.32):** PSG 1X (@1.14) + Flamengo 1X (@1.16).
+    *   🟡 **Stop Point 2 (Tripla de Caldeirões @1.51):** Stop Point 1 + Juventude 1X (@1.14).
+    *   🔴 **Stop Point 3 (Quádrupla com Under @1.81):** Stop Point 2 + Coritiba x Grêmio Menos de 3.5 Gols (@1.20).
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@2.64):**
+    *   Juventude Vence (ML @1.60) + Flamengo Vence (ML @1.65).
+
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@2.33):**
+    *   PSG x Lyon BTTS (@1.50) + Galatasaray x Fenerbahçe BTTS (@1.55).
+
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (REINÍCIO COM BLINDAGEM MÁXIMA):**
+    *   **Entrada:** R$ 10,00
+    *   **Seleção Independente (Desacoplada do Stop Point 1):** Juventude ou Empate (1X @1.14) + Coritiba x Grêmio Menos de 3.5 Gols (@1.20) [Odd @1.37]
+    *   **Retorno Projetado:** R$ 13,70 rumo ao **DIA 2 DE 30**!
+
+#### 2. Grade de Fixtures, Resultados Oficiais e Liquidação
+
+1. **Galatasaray 2 × 1 Fenerbahçe** (14:00 BRT — Süper Lig Turca)
+   - *Resultado Oficial:* 2 x 1 (Gols: Osimhen 29', 44' | İrfan Can Kahveci 62')
+   - **ATTACK:** Ambos Marcam - Sim (@1.55) ➔ ✅ **HIT** (Clássico quente com ambas marcando com folga).
+
+2. **Paris Saint-Germain 2 × 0 Olympique Lyonnais** (16:30 BRT — Ligue 1 Francesa)
+   - *Resultado Oficial:* 2 x 0 (Gols: Senny Mayulu 72', Mika Godts 84')
+   - **Tese (Bilhete Supremo / SAFE Stop 1, 2, 3):** PSG ou Empate (1X @1.14) ➔ ✅ **HIT** (PSG venceu 2x0 no Parc des Princes e assumiu a liderança).
+   - **ATTACK:** Ambos Marcam - Sim (@1.50) ➔ ❌ **MISS** (Lyon pressionou mas esbarrou na zaga parisiense e passou em branco).
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (PSG manteve controle absoluto de posse e fechou o placar nos minutos finais).
+
+3. **Flamengo 3 × 2 Atlético-MG** (20:00 BRT — Brasileirão Série A — 32ª Rodada)
+   - *Resultado Oficial:* 3 x 2 (Gols: Gonzalo Plata 34', Arrascaeta 41', Jorge Carrascal 54' 2T pen | Bernard 6', Renan Lodi 14' 2T)
+   - **Tese (Bilhete Supremo / SAFE Stop 1, 2, 3):** Flamengo ou Empate (1X @1.16) ➔ ✅ **HIT** (Flamengo venceu 3x2).
+   - **SAFE+:** Flamengo Vence (ML @1.65) ➔ ✅ **HIT** (Vitória épica com gol no último lance de pênalti; Flamengo retoma a liderança da Série A com 70 pontos!).
+
+4. **Juventude 3 × 0 Náutico** (20:30 BRT — Brasileirão Série B — 35ª Rodada)
+   - *Resultado Oficial:* 3 x 0 (Gols: Fábio Lima 7', Raí Silva 40', Aderlan 2T)
+   - **Tese (Bilhete Supremo / SAFE Stop 2, 3 / Sniper Soros Dia 1):** Juventude ou Empate (1X @1.14) ➔ ✅ **HIT** (Goleada limpa e sem sustos).
+   - **SAFE+:** Juventude Vence (ML @1.60) ➔ ✅ **HIT** (Juventude 3x0 soberano no caldeirão do Alfredo Jaconi).
+
+5. **Coritiba 0 × 1 Grêmio** (20:30 BRT — Brasileirão Série A — 32ª Rodada)
+   - *Resultado Oficial:* 0 x 1 (Gol: Martin Braithwaite 47' 2T)
+   - **Tese (SAFE Stop Point 3 / Sniper Soros Dia 1):** Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (Apenas 1 gol marcado aos 47' 2T em duelo truncado no Couto Pereira).
+
+#### 3. Auditoria dos Bilhetes Estruturados de 26/10
+
+*   ⭐ **BILHETE SUPREMO — SNIPER DE OURO (@1.65):**
+    *   ▫️ PSG 1X (✅ 2x0) + Flamengo 1X (✅ 3x2) + Juventude 1X (✅ 3x0).
+    *   *Desempenho por Seleções:* **3 DE 3 ACERTOS (100% DE APROVEITAMENTO CIRÚRGICO)!**
+    *   *Resultado Global:* 🏆 **100% GREEN HISTÓRICO TOTAL (@1.65)!**
+    *   *Diagnóstico Técnico:* A Refatoração Sniper V6.1 provou sua superioridade. Ao eliminar a inflação de pernas (redução de 10 para 3 seleções de convicção máxima), liquidou sem qualquer margem para variância composta.
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+    *   🟢 **Stop Point 1 (Dupla Âncora @1.32):** PSG 1X (✅ 2x0) + Flamengo 1X (✅ 3x2) ➔ 🏆 **100% GREEN CRAVADO (@1.32)!**
+    *   🟡 **Stop Point 2 (Tripla de Caldeirões @1.51):** Stop Point 1 + Juventude 1X (✅ 3x0) ➔ 🏆 **100% GREEN CRAVADO (@1.51)!**
+    *   🔴 **Stop Point 3 (Quádrupla com Under @1.81):** Stop Point 2 + Coritiba x Grêmio Sub 3.5 (✅ 0x1) ➔ 🏆 **100% GREEN HISTÓRICO TOTAL (4/4 ACERTOS @1.81)!**
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@2.64):**
+    *   Juventude Vence (ML @1.60 ✅ 3x0) + Flamengo Vence (ML @1.65 ✅ 3x2).
+    *   *Resultado:* 🏆 **100% GREEN MONSTRUOSO (@2.64)!** (+164% de lucro limpo sobre a stake).
+
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@2.33):**
+    *   Galatasaray x Fenerbahçe BTTS (✅ 2x1) + PSG x Lyon BTTS (❌ 2x0).
+    *   *Resultado:* ❌ **RED** (1 de 2 acertos — derrubada exclusivamente pela baliza zerada do PSG).
+
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (REINÍCIO COM BLINDAGEM MÁXIMA):**
+    *   **Entrada:** R$ 10,00
+    *   **Seleção Independente (Desacoplada):** Juventude ou Empate (1X @1.14 ✅ 3x0) + Coritiba x Grêmio Menos de 3.5 Gols (@1.20 ✅ 0x1) [Odd @1.37]
+    *   **Resultado:** 🏆 **100% GREEN CRAVADO NO DIA 1!**
+    *   **Retorno Conquistado:** **R$ 13,70**
+    *   **Governança:** Avança triunfante para o **DIA 2 DE 30** com banca recorde de **R$ 13,70**!
+
+
+
 
 
 

@@ -1,240 +1,110 @@
 {
-  "date": "2026-10-25",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-25_V1_DOMINGO_EUROPA_EL_CLASICO",
-  "status": "PENDING",
-  "notes": "Grade 100% calibrada e auditada para domingo 25/10/2026 sob as Regras FAS V6 (Banimento de Over 1.5 no Stop Point 1 e Desacoplamento Total do Soros). Cobre Premier League, Serie A Italiana, La Liga (El Clásico), Bundesliga e Ligue 1. (Brasileirão não tem jogos hoje devido ao 2º turno das eleições no Brasil).",
+  "date": "2026-10-26",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-26_V2_REFACTOR_SNIPER",
+  "status": "AUDITED",
+  "notes": "CONFERE OFICIAL 26/10/2026: Rodada monumental da Refatoração Sniper V6.1 com 100% GREEN no Bilhete Supremo (@1.65), 100% GREEN em todos os 3 Stop Points da SAFE (@1.81), 100% GREEN histórico na SAFE+ (@2.64) e GREEN cravado no Dia 1 do Desafio Soros (@1.37 ➔ R$ 13,70). Vitória emocionante do Flamengo aos 54' 2T com pênalti de Carrascal e goleada do Juventude 3x0 consagraram a blindagem.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Domingo 25/10/2026 Oficial)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO (Refatorado V6.1 / 3 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.90,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas da grade oficial de domingo (1 seleção por jogo), divididas em 3 Turnos de Horário.",
-    "status": "PENDING",
-    "timeClusters": [
-      {
-        "clusterName": "🥪 TURNO 1 — MANHÃ EUROPEIA ABERTURA (08:30 - 11:30 BRT)",
-        "multiplier": 2.31,
-        "notes": "Liderança da Inter no San Siro, força do Bilbao em San Mamés, poder ofensivo em Anfield e Old Trafford, recuperação da Atalanta e consistência do Leverkusen.",
-        "legs": [
-          "Inter de Milão x Fiorentina: Inter ou Empate (Dupla Chance 1X @1.12)",
-          "Athletic Bilbao x Getafe: Athletic Bilbao ou Empate (Dupla Chance 1X @1.14)",
-          "Liverpool x Brighton: Mais de 1.5 Gols no Jogo (@1.16)",
-          "Manchester United x Bournemouth: Mais de 1.5 Gols no Jogo (@1.18)",
-          "Atalanta x Frosinone: Atalanta ou Empate (Dupla Chance 1X @1.18)",
-          "Hoffenheim x Bayer Leverkusen: Bayer Leverkusen ou Empate (Dupla Chance X2 @1.12)"
-        ]
-      },
-      {
-        "clusterName": "🏰 TURNO 2 — TARDE EUROPEIA GIGANTES (13:15 - 14:30 BRT)",
-        "multiplier": 1.47,
-        "notes": "Marseille contra o lanterna no Vélodrome, duelo aberto entre Freiburg e Bayern, e Real Sociedad em Anoeta.",
-        "legs": [
-          "Olympique de Marseille x Le Havre: Marseille ou Empate (Dupla Chance 1X @1.12)",
-          "SC Freiburg x Bayern de Munique: Mais de 1.5 Gols no Jogo (@1.15)",
-          "Real Sociedad x Levante: Real Sociedad ou Empate (Dupla Chance 1X @1.14)"
-        ]
-      },
-      {
-        "clusterName": "👑 TURNO 3 — FIM DE TARDE EL CLÁSICO (17:00 BRT)",
-        "multiplier": 1.15,
-        "notes": "O maior clássico do planeta no Camp Nou com ataque de 100% de aproveitamento do Barça contra o Real de Mbappé.",
-        "legs": [
-          "Barcelona x Real Madrid: Mais de 1.5 Gols no Jogo (@1.15)"
-        ]
-      }
-    ],
+    "multiplierGlobal": 1.65,
+    "philosophy": "Arquitetura Sniper Antivariância: Apenas as 3 seleções mais indiscutíveis da rodada global, sem empilhar jogos desnecessários que aumentam a penalidade composta.",
+    "status": "GREEN",
     "selections": [
       {
-        "match": "Inter de Milão x Fiorentina (08:30 BRT)",
-        "cluster": "Turno 1",
-        "market": "Inter de Milão ou Empate (1X)",
-        "odd": 1.12,
-        "status": "PENDING"
-      },
-      {
-        "match": "Athletic Bilbao x Getafe (10:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Athletic Bilbao ou Empate (1X)",
+        "match": "Paris Saint-Germain x Lyon (16:30 BRT)",
+        "market": "PSG ou Empate (Dupla Chance 1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
-        "match": "Liverpool x Brighton (11:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
+        "match": "Flamengo x Atlético-MG (20:00 BRT)",
+        "market": "Flamengo ou Empate (Dupla Chance 1X)",
         "odd": 1.16,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
-        "match": "Manchester United x Bournemouth (11:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.18,
-        "status": "PENDING"
-      },
-      {
-        "match": "Atalanta x Frosinone (11:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Atalanta ou Empate (1X)",
-        "odd": 1.18,
-        "status": "PENDING"
-      },
-      {
-        "match": "Hoffenheim x Bayer Leverkusen (11:30 BRT)",
-        "cluster": "Turno 1",
-        "market": "Bayer Leverkusen ou Empate (X2)",
-        "odd": 1.12,
-        "status": "PENDING"
-      },
-      {
-        "match": "Olympique de Marseille x Le Havre (13:15 BRT)",
-        "cluster": "Turno 2",
-        "market": "Olympique de Marseille ou Empate (1X)",
-        "odd": 1.12,
-        "status": "PENDING"
-      },
-      {
-        "match": "SC Freiburg x Bayern de Munique (13:30 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.15,
-        "status": "PENDING"
-      },
-      {
-        "match": "Real Sociedad x Levante (14:30 BRT)",
-        "cluster": "Turno 2",
-        "market": "Real Sociedad ou Empate (1X)",
+        "match": "Juventude x Náutico (20:30 BRT)",
+        "market": "Juventude ou Empate (Dupla Chance 1X)",
         "odd": 1.14,
-        "status": "PENDING"
-      },
-      {
-        "match": "Barcelona x Real Madrid (17:00 BRT)",
-        "cluster": "Turno 3",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.15,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
-  "sorosTicket": {
-    "day": 2,
-    "stake": 13.70,
-    "multiplier": 1.32,
-    "potentialReturn": 18.08,
-    "status": "PENDING",
-    "notes": "Modelo Sniper Dia 2 de 30 (Grade Oficial Domingo 25/10/2026): Dupla Âncora Independente (Regra V6 de Não-Contaminação com a SAFE) — Bayer Leverkusen ou Empate (X2 @1.12) na Bundesliga + Barcelona ou Empate (1X @1.18) no El Clásico. Odd combinada @1.32. Meta: R$ 18,08 rumo ao Dia 3.",
-    "sniperOptions": [
-      {
-        "id": "sniper-1",
-        "match": "Hoffenheim x Leverkusen + Barcelona x Real Madrid",
-        "competition": "Bundesliga & La Liga",
-        "market": "Leverkusen ou Empate (X2 @1.12) + Barcelona ou Empate (1X @1.18)",
-        "odd": 1.32,
-        "stake": 13.70,
-        "potentialReturn": 18.08,
-        "status": "PENDING",
-        "isPrimary": true,
-        "analysis": "Leverkusen invicto enfrentando Hoffenheim instável, somado à força soberana do Barcelona no Camp Nou com 100% de aproveitamento em La Liga (9 vitórias em 9 jogos) e Real desfalcado de Vini Jr. Desacoplado da SAFE para risco zero de contaminação."
-      }
-    ],
-    "selections": [
-      {
-        "match": "Hoffenheim x Bayer Leverkusen",
-        "competition": "Bundesliga (11:30 BRT)",
-        "market": "Bayer Leverkusen ou Empate (X2)",
-        "odd": 1.12,
-        "status": "PENDING"
-      },
-      {
-        "match": "Barcelona x Real Madrid",
-        "competition": "La Liga (17:00 BRT)",
-        "market": "Barcelona ou Empate (1X)",
-        "odd": 1.18,
-        "status": "PENDING"
-      }
-    ]
-  },
-  "modularTickets": [
+  "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Regras V6 Anti-Contaminação)",
+      "name": "MÚLTIPLA 1 — SAFE (Dupla Âncora Blindada V6.1)",
       "type": "SAFE",
-      "status": "PENDING",
-      "notes": "Regra Sagrada V6: Stop Point 1 100% blindado com Dupla Chance de mandantes (Over 1.5 estritamente banido da âncora). 3 Stop Points comutáveis.",
+      "status": "GREEN",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Blindada — Proibido Over 1.5)",
-          "multiplier": 1.25,
+          "level": "Stop Point 1 (Dupla Âncora Mandantes Fortes)",
+          "multiplier": 1.32,
           "legs": [
-            "Inter de Milão x Fiorentina: Inter de Milão ou Empate (1X @1.12)",
-            "Olympique de Marseille x Le Havre: Marseille ou Empate (1X @1.12)"
+            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
+            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte de Caldeirões)",
-          "multiplier": 1.63,
+          "level": "Stop Point 2 (Tripla de Caldeirões)",
+          "multiplier": 1.51,
           "legs": [
-            "Inter de Milão x Fiorentina: Inter ou Empate (1X @1.12)",
-            "Olympique de Marseille x Le Havre: Marseille ou Empate (1X @1.12)",
-            "Athletic Bilbao x Getafe: Athletic Bilbao ou Empate (1X @1.14)",
-            "Real Sociedad x Levante: Real Sociedad ou Empate (1X @1.14)"
+            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
+            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)",
+            "Juventude x Náutico: Juventude ou Empate (1X @1.14) ➔ ✅ HIT (3x0)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa 8 Seleções)",
-          "multiplier": 2.87,
+          "level": "Stop Point 3 (Quádrupla com Under Estrutural)",
+          "multiplier": 1.81,
           "legs": [
-            "Inter de Milão x Fiorentina: Inter ou Empate (1X @1.12)",
-            "Olympique de Marseille x Le Havre: Marseille ou Empate (1X @1.12)",
-            "Athletic Bilbao x Getafe: Athletic ou Empate (1X @1.14)",
-            "Real Sociedad x Levante: Real Sociedad ou Empate (1X @1.14)",
-            "Hoffenheim x Bayer Leverkusen: Bayer Leverkusen ou Empate (X2 @1.12)",
-            "Atalanta x Frosinone: Atalanta ou Empate (1X @1.18)",
-            "Liverpool x Brighton: Mais de 1.5 Gols no Jogo (@1.16)",
-            "Barcelona x Real Madrid: Mais de 1.5 Gols no Jogo (@1.15)"
+            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
+            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)",
+            "Juventude x Náutico: Juventude ou Empate (1X @1.14) ➔ ✅ HIT (3x0)",
+            "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x1)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Vitórias Secas)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Moderada)",
       "type": "SAFE+",
-      "multiplier": 3.33,
-      "status": "PENDING",
-      "notes": "3 mandantes dominantes enfrentando adversários da parte de baixo da tabela.",
+      "multiplier": 2.64,
+      "status": "GREEN",
+      "notes": "🏆 100% GREEN MONSTRUOSO! Juventude 3x0 Náutico e Flamengo 3x2 Atlético-MG bateram com autoridade total (+164% de lucro limpo).",
       "legs": [
-        "Inter de Milão x Fiorentina: Inter de Milão Vence (ML @1.38)",
-        "Olympique de Marseille x Le Havre: Marseille Vence (ML @1.48)",
-        "Real Sociedad x Levante: Real Sociedad Vence (ML @1.63)"
+        "Juventude x Náutico: Juventude Vence (ML @1.60) ➔ ✅ HIT (3x0)",
+        "Flamengo x Atlético-MG: Flamengo Vence (ML @1.65) ➔ ✅ HIT (3x2)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Pra Cima — 4 Jogos Ambas Marcam)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Dupla Gols de Clássicos)",
       "type": "ATTACK",
-      "multiplier": 4.23,
-      "status": "PENDING",
-      "notes": "Quádrupla com alta correlação ofensiva em confrontos de forte xG dos dois lados.",
+      "multiplier": 2.33,
+      "status": "RED",
+      "notes": "Galatasaray 2x1 Fenerbahçe bateu BTTS, mas Lyon não conseguiu marcar no Parque dos Príncipes (PSG 2x0).",
       "legs": [
-        "Liverpool x Brighton: Ambos Marcam - Sim (@1.45)",
-        "SC Freiburg x Bayern de Munique: Ambos Marcam - Sim (@1.42)",
-        "Manchester United x Bournemouth: Ambos Marcam - Sim (@1.58)",
-        "Barcelona x Real Madrid: Ambos Marcam - Sim (@1.30)"
-      ]
-    },
-    {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Combo Multiplicador)",
-      "type": "NETO",
-      "multiplier": 32.22,
-      "status": "PENDING",
-      "notes": "4 confrontos de elite com handicap e vitórias combinadas para retorno exponencial.",
-      "legs": [
-        "Inter de Milão x Fiorentina: Inter Vence por 2+ Gols (-1.5 AH @2.10)",
-        "Olympique de Marseille x Le Havre: Marseille Vence + Menos de 3.5 Gols (@2.25)",
-        "Barcelona x Real Madrid: Barcelona Vence + Mais de 2.5 Gols (@2.20)",
-        "Atalanta x Frosinone: Atalanta Vence + Ambos Marcam (@3.10)"
+        "Paris Saint-Germain x Lyon: Ambos os Times Marcam (Sim @1.50) ➔ ❌ MISS (2x0)",
+        "Galatasaray x Fenerbahçe: Ambos os Times Marcam (Sim @1.55) ➔ ✅ HIT (2x1)"
       ]
     }
-  ]
+  ],
+  "sorosTicket": {
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (REINÍCIO BLINDADO)",
+    "day": 1,
+    "targetDays": 30,
+    "stake": 10.00,
+    "multiplier": 1.37,
+    "potentialReturn": 13.70,
+    "actualReturn": 13.70,
+    "philosophy": "Princípio da Imunidade Absoluta: 100% desacoplado da SAFE e fora de clássicos 50/50. Baseado em mandante no caldeirão + Under de jogo tenso de Z4.",
+    "legs": [
+      "Juventude x Náutico: Juventude ou Empate (Dupla Chance 1X @1.14) ➔ ✅ HIT (3x0)",
+      "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x1)"
+    ],
+    "status": "GREEN"
+  }
 }

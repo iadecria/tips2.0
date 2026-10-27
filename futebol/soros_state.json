@@ -167,7 +167,26 @@
       "potentialReturn": 13.70,
       "status": "HIT",
       "actualReturn": 13.70
+    },
+    {
+      "day": 2,
+      "date": "2026-10-25",
+      "stakeIn": 13.70,
+      "selection": "Bayer Leverkusen ou Empate (X2 @1.12) + Barcelona ou Empate (1X @1.18)",
+      "odd": 1.32,
+      "potentialReturn": 18.08,
+      "status": "MISS",
+      "missReason": "Zebra dupla: Hoffenheim venceu Leverkusen por 3x0 e Real Madrid bateu Barcelona no Camp Nou por 1x2 (Mbappé 2x)"
+    },
+    {
+      "day": 1,
+      "date": "2026-10-26",
+      "stakeIn": 10.00,
+      "selection": "Juventude ou Empate (1X @1.14) + Coritiba x Grêmio Menos de 3.5 Gols (@1.20)",
+      "odd": 1.37,
+      "potentialReturn": 13.70,
+      "status": "HIT",
+      "actualReturn": 13.70
     }
   ]
 }
-

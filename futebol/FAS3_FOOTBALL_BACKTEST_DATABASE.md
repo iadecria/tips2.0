@@ -2333,6 +2333,89 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
     *   **Retorno Conquistado:** **R$ 13,70**
     *   **Governança:** Avança triunfante para o **DIA 2 DE 30** com banca recorde de **R$ 13,70**!
 
+---
+
+### [2026-10-27] — RODADA DIÁRIA (MEIO DE SEMANA: SERIE A, DFB-POKAL, EFL CUP & BRASILEIRÃO SÉRIE B)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-27_V1_SNIPER_MIDWEEK`
+- **Data do Registro:** 2026-10-27
+- **Cutoff:** 2026-10-27T13:30:00-03:00
+- **Contexto da Data:** Terça-feira nobre de meio de semana no futebol europeu e sul-americano. Na Itália, abertura da 9ª rodada da Serie A com a Roma de Ranieri recebendo o Cagliari no Stadio Olimpico, a embalada Lazio visitando o Sassuolo e o Torino medindo forças com o Como. Na Alemanha, 2ª fase eliminatória em jogo único da DFB-Pokal com Borussia Dortmund recebendo o Werder Bremen no Signal Iduna Park e o Eintracht Frankfurt visitando o Hamburgo. Na Inglaterra, oitavas de final da EFL Cup com o Arsenal encarando o Fleetwood Town. No Brasil, duelo crucial pela 35ª rodada da Série B entre Ceará e Goiás na Arena Castelão.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 12 fixtures de elite e copas nacionais
+- Elegíveis: 6 fixtures de alta liquidez e cobertura estatística
+- Descartados no pente-fino: Rot-Weiss Essen x RB Leipzig (risco extremo de rotação total da equipe do Leipzig na copa), Bradford x Peterborough (baixa previsibilidade de game state), Operário Sub-20 x Flamengo Sub-20 (categoria de base com alta dispersão técnica).
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+
+1. **AS Roma × Cagliari** (16:45 BRT — Serie A Italiana)
+   - **Game State & Contexto:** A Roma no Stadio Olimpico ostenta domínio histórico e excelente solidez defensiva jogando diante de seus torcedores. O Cagliari venceu apenas 1 jogo fora de casa na temporada.
+   - **Tese (Bilhete Supremo / SAFE Stop 1):** Roma ou Empate (Dupla Chance 1X @1.14)
+   - **SAFE+:** Roma Vence (Moneyline @1.55)
+   - **NETO:** Roma Vence + Menos de 3.5 Gols (@2.20)
+
+2. **Borussia Dortmund × Werder Bremen** (16:45 BRT — DFB-Pokal 2ª Fase)
+   - **Game State & Contexto:** Signal Iduna Park com mais de 80 mil torcedores em duelo eliminatório em jogo único. Dortmund com xG superior e controle territorial, mas Bremen é perigoso em transição rápida.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Borussia Dortmund ou Empate (Dupla Chance 1X @1.15)
+   - **SAFE+:** Borussia Dortmund Vence (Moneyline @1.58)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.58)
+
+3. **Fleetwood Town × Arsenal** (17:00 BRT — EFL Cup Oitavas de Final)
+   - **Game State & Contexto:** Abismo técnico monumental entre o vice-líder da Premier League e uma equipe modesta da League Two. Mesmo com equipe mista, a profundidade do elenco dos Gunners garante controle absoluto do ritmo de jogo.
+   - **Tese (Bilhete Supremo / SAFE Stop 1):** Arsenal Vence (Moneyline @1.18)
+   - **NETO:** Arsenal Vence por 3+ Gols (-2.5 Handicap Asiático @2.30)
+
+4. **Torino × Como** (16:45 BRT — Serie A Italiana)
+   - **Game State & Contexto:** Torino muito consistente no Stadio Olimpico Grande Torino, onde constrói blocos defensivos impenetráveis e transições cirúrgicas. Como joga com linha alta e concede muitos contragolpes.
+   - **Tese (SAFE Stop 3 / Sniper Soros Dia 2):** Torino ou Empate (Dupla Chance 1X @1.20)
+   - **SAFE+:** Torino Vence (Moneyline @1.75)
+
+5. **Hamburgo × Eintracht Frankfurt** (16:00 BRT — DFB-Pokal 2ª Fase)
+   - **Game State & Contexto:** Clássico alemão tradicional no Volksparkstadion. Frankfurt tem ataque veloz com Marmoush/Ekitiké, mas Hamburgo em casa sempre empurra com pressão alta.
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.55)
+
+6. **Sassuolo × Lazio** (14:30 BRT — Serie A Italiana)
+   - **Game State & Contexto:** Sassuolo propõe futebol de trocação no MAPEI Stadium e Lazio vem de jogo com alta intensidade ofensiva.
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.75)
+
+7. **Ceará × Goiás** (20:00 BRT — Brasileirão Série B)
+   - **Game State & Contexto:** Jogo tenso no Castelão valendo a sobrevivência e aspirações de acesso. Tendência histórica de pouquíssimos gols, faltas truncadas e cautela extrema.
+   - **Tese (Sniper Soros Dia 2):** Menos de 3.5 Gols no Jogo (@1.18)
+   - **NETO:** Empate ou Goiás (Dupla Chance X2 @1.68)
+
+#### 3. Arquitetura de Bilhetes Estruturados de 27/10
+
+*   ⭐ **BILHETE SUPREMO — SNIPER DE OURO (@1.55):**
+    *   ▫️ **AS Roma × Cagliari:** Roma ou Empate (1X @1.14)
+    *   ▫️ **Borussia Dortmund × Werder Bremen:** Dortmund ou Empate (1X @1.15)
+    *   ▫️ **Fleetwood Town × Arsenal:** Arsenal Vence (ML @1.18)
+    *   *Multiplicador Global:* **@1.55** (Arquitetura Sniper: apenas as 3 seleções mais indiscutíveis do dia).
+
+*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+    *   🟢 **Stop Point 1 (Dupla Âncora Elástica @1.34):** Roma 1X (@1.14) + Arsenal ML (@1.18).
+    *   🟡 **Stop Point 2 (Tripla de Caldeirões @1.55):** Stop Point 1 + Dortmund 1X (@1.15).
+    *   🔴 **Stop Point 3 (Quádrupla Completa @1.86):** Stop Point 2 + Torino 1X (@1.20).
+
+*   🎫 **MÚLTIPLA 2 — SAFE+ (@2.45):**
+    *   AS Roma Vence (ML @1.55) + Borussia Dortmund Vence (ML @1.58).
+    *   *Multiplicador:* **@2.45** (Dupla vitória seca de mandantes de elite).
+
+*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (@4.28):**
+    *   Hamburgo x Frankfurt BTTS (@1.55) + Dortmund x Werder Bremen BTTS (@1.58) + Sassuolo x Lazio Over 2.5 (@1.75).
+    *   *Multiplicador:* **@4.28** (Tripla de gols e correlação positiva em copas e Serie A).
+
+*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@24.66):**
+    *   Arsenal -2.5 AH (@2.30) + Roma Vence & Sub 3.5 (@2.20) + Dortmund Vence & BTTS (@2.90) + Goiás X2 (@1.68).
+    *   *Multiplicador:* **@24.66** (Super combo de valor e retorno assimétrico).
+
+*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (BLINDAGEM DESACOPLADA):**
+    *   **Entrada:** R$ 13,70 (Saldo conquistado com 100% de lucro do Green no Dia 1)
+    *   **Seleção Independente (Regra V6 Imunidade Absoluta):** Torino ou Empate (1X @1.20) + Ceará x Goiás Menos de 3.5 Gols no Jogo (@1.18) [Odd @1.42]
+    *   **Retorno Projetado:** **R$ 19,45** rumo ao **DIA 3 DE 30**!
+
+
 
 
 

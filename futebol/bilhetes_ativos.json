@@ -1,110 +1,120 @@
 {
-  "date": "2026-10-26",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-26_V2_REFACTOR_SNIPER",
-  "status": "AUDITED",
-  "notes": "CONFERE OFICIAL 26/10/2026: Rodada monumental da Refatoração Sniper V6.1 com 100% GREEN no Bilhete Supremo (@1.65), 100% GREEN em todos os 3 Stop Points da SAFE (@1.81), 100% GREEN histórico na SAFE+ (@2.64) e GREEN cravado no Dia 1 do Desafio Soros (@1.37 ➔ R$ 13,70). Vitória emocionante do Flamengo aos 54' 2T com pênalti de Carrascal e goleada do Juventude 3x0 consagraram a blindagem.",
+  "date": "2026-10-27",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-27_V1_SNIPER_MIDWEEK",
+  "status": "PENDING",
+  "notes": "GRADE OFICIAL FAS V6.1 SNIPER — TERÇA-FEIRA 27/10/2026: Rodada nobre de meio de semana cobrindo Serie A Italiana (9ª Rodada), DFB-Pokal alemã (2ª fase eliminatória), EFL Cup inglesa (Oitavas de Final) e Brasileirão Série B (35ª rodada decisiva). Desafio Soros no DIA 2 com stake de R$ 13,70 100% desacoplado da SAFE.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO (Refatorado V6.1 / 3 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO (Terça-feira 27/10 / 3 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.65,
-    "philosophy": "Arquitetura Sniper Antivariância: Apenas as 3 seleções mais indiscutíveis da rodada global, sem empilhar jogos desnecessários que aumentam a penalidade composta.",
-    "status": "GREEN",
+    "multiplierGlobal": 1.55,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: Apenas as 3 seleções de mais alta solidez da rodada global, priorizando mandantes com volume nobre e favoritos absolutos fora de casa sem inflação de pernas.",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Paris Saint-Germain x Lyon (16:30 BRT)",
-        "market": "PSG ou Empate (Dupla Chance 1X)",
+        "match": "AS Roma x Cagliari (16:45 BRT)",
+        "market": "Roma ou Empate (Dupla Chance 1X)",
         "odd": 1.14,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Flamengo x Atlético-MG (20:00 BRT)",
-        "market": "Flamengo ou Empate (Dupla Chance 1X)",
-        "odd": 1.16,
-        "status": "HIT"
+        "match": "Borussia Dortmund x Werder Bremen (16:45 BRT)",
+        "market": "Dortmund ou Empate (Dupla Chance 1X)",
+        "odd": 1.15,
+        "status": "PENDING"
       },
       {
-        "match": "Juventude x Náutico (20:30 BRT)",
-        "market": "Juventude ou Empate (Dupla Chance 1X)",
-        "odd": 1.14,
-        "status": "HIT"
+        "match": "Fleetwood Town x Arsenal (17:00 BRT)",
+        "market": "Arsenal Vence (Moneyline)",
+        "odd": 1.18,
+        "status": "PENDING"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Dupla Âncora Blindada V6.1)",
+      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "GREEN",
+      "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora Mandantes Fortes)",
-          "multiplier": 1.32,
+          "level": "Stop Point 1 (Dupla Âncora Elástica)",
+          "multiplier": 1.34,
           "legs": [
-            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
-            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)"
+            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
+            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
           "level": "Stop Point 2 (Tripla de Caldeirões)",
-          "multiplier": 1.51,
+          "multiplier": 1.55,
           "legs": [
-            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
-            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)",
-            "Juventude x Náutico: Juventude ou Empate (1X @1.14) ➔ ✅ HIT (3x0)"
+            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
+            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
+            "Borussia Dortmund x Werder Bremen: Dortmund ou Empate (1X @1.15)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Quádrupla com Under Estrutural)",
-          "multiplier": 1.81,
+          "level": "Stop Point 3 (Quádrupla Completa)",
+          "multiplier": 1.86,
           "legs": [
-            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
-            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)",
-            "Juventude x Náutico: Juventude ou Empate (1X @1.14) ➔ ✅ HIT (3x0)",
-            "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x1)"
+            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
+            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
+            "Borussia Dortmund x Werder Bremen: Dortmund ou Empate (1X @1.15)",
+            "Torino x Como: Torino ou Empate (1X @1.20)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Moderada)",
       "type": "SAFE+",
-      "multiplier": 2.64,
-      "status": "GREEN",
-      "notes": "🏆 100% GREEN MONSTRUOSO! Juventude 3x0 Náutico e Flamengo 3x2 Atlético-MG bateram com autoridade total (+164% de lucro limpo).",
+      "multiplier": 2.45,
+      "status": "PENDING",
       "legs": [
-        "Juventude x Náutico: Juventude Vence (ML @1.60) ➔ ✅ HIT (3x0)",
-        "Flamengo x Atlético-MG: Flamengo Vence (ML @1.65) ➔ ✅ HIT (3x2)"
+        "AS Roma x Cagliari: AS Roma Vence (ML @1.55)",
+        "Borussia Dortmund x Werder Bremen: Borussia Dortmund Vence (ML @1.58)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Dupla Gols de Clássicos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Gols)",
       "type": "ATTACK",
-      "multiplier": 2.33,
-      "status": "RED",
-      "notes": "Galatasaray 2x1 Fenerbahçe bateu BTTS, mas Lyon não conseguiu marcar no Parque dos Príncipes (PSG 2x0).",
+      "multiplier": 4.28,
+      "status": "PENDING",
       "legs": [
-        "Paris Saint-Germain x Lyon: Ambos os Times Marcam (Sim @1.50) ➔ ❌ MISS (2x0)",
-        "Galatasaray x Fenerbahçe: Ambos os Times Marcam (Sim @1.55) ➔ ✅ HIT (2x1)"
+        "Hamburgo x Eintracht Frankfurt: Ambos os Times Marcam (Sim @1.55)",
+        "Borussia Dortmund x Werder Bremen: Ambos os Times Marcam (Sim @1.58)",
+        "Sassuolo x Lazio: Mais de 2.5 Gols no Jogo (@1.75)"
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem)",
+      "type": "NETO",
+      "multiplier": 24.66,
+      "status": "PENDING",
+      "legs": [
+        "Fleetwood Town x Arsenal: Arsenal -2.5 Handicap Asiático (@2.30)",
+        "AS Roma x Cagliari: AS Roma Vence & Menos de 3.5 Gols (@2.20)",
+        "Borussia Dortmund x Werder Bremen: Dortmund Vence & Ambos Marcam (@2.90)",
+        "Ceará x Goiás: Goiás ou Empate (Dupla Chance X2 @1.68)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (REINÍCIO BLINDADO)",
-    "day": 1,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (BLINDAGEM DESACOPLADA)",
+    "day": 2,
     "targetDays": 30,
-    "stake": 10.00,
-    "multiplier": 1.37,
-    "potentialReturn": 13.70,
-    "actualReturn": 13.70,
-    "philosophy": "Princípio da Imunidade Absoluta: 100% desacoplado da SAFE e fora de clássicos 50/50. Baseado em mandante no caldeirão + Under de jogo tenso de Z4.",
+    "stake": 13.70,
+    "multiplier": 1.42,
+    "potentialReturn": 19.45,
+    "philosophy": "Princípio da Imunidade Absoluta V6: 100% desacoplado do Stop Point 1 da SAFE (sem Roma e sem Arsenal) e fora de mata-matas eliminatórios caóticos. Baseado na fortaleza mandante do Torino na Serie A + Under estrutural da Série B no Castelão.",
     "legs": [
-      "Juventude x Náutico: Juventude ou Empate (Dupla Chance 1X @1.14) ➔ ✅ HIT (3x0)",
-      "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x1)"
+      "Torino x Como: Torino ou Empate (Dupla Chance 1X @1.20)",
+      "Ceará x Goiás: Menos de 3.5 Gols no Jogo (@1.18)"
     ],
-    "status": "GREEN"
+    "status": "PENDING"
   }
 }

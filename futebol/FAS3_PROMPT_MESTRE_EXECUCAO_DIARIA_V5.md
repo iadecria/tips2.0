@@ -53,21 +53,37 @@ Verifique identidade, competição, data, duplicatas e se o histórico não
 contém o próprio fixture. Não misture amistosos silenciosamente.
 Conflito não resolvido reduz DQ ou gera INSUFFICIENT_DATA.
 
-# 4. DISCOVERY OBRIGATÓRIO (CATÁLOGO GLOBAL)
+# 4. DISCOVERY OBRIGATÓRIO (CATÁLOGO GLOBAL & DIRETRIZ MULTI-FRENTES)
 
-O escaneamento diário do FAS 3 DEVE cobrir obrigatoriamente todas as 10 grandes ligas ativas:
+O escaneamento diário do FAS 3 DEVE cobrir obrigatoriamente as 3 frentes do futebol global:
+
+### A. 👑 Grandes Ligas Nacionais (Pontos Corridos)
 1. 🇬🇧 **Premier League** (Inglaterra)
 2. 🇪🇸 **La Liga** (Espanha)
 3. 🇮🇹 **Serie A** (Itália)
 4. 🇩🇪 **Bundesliga** (Alemanha)
 5. 🇫🇷 **Ligue 1** (França)
 6. 🇵🇹 **Liga Portugal** (Portugal)
-7. 🇧🇷 **Brasileirão Série A** (Brasil)
-8. 🇧🇷 **Brasileirão Série B** (Brasil)
-9. 🏆 **UEFA Champions League / Europa / Conference League**
-10. 🌍 **UEFA Nations League / Libertadores / Sul-Americana / Eliminatórias**
+7. 🇳🇱 **Eredivisie** (Holanda)
+8. 🇹🇷 **Süper Lig** (Turquia)
+9. 🇧🇷 **Brasileirão Série A & Série B** (Brasil)
+10. 🇸🇦 **Saudi Pro League** (Arábia Saudita)
 
-É **expressamente proibido** restringir a varredura apenas ao futebol nacional ou ignorar as potências europeias quando houver rodada em andamento. Exclua apenas jogos já iniciados, salvo pedido explícito.
+### B. 🏆 Copas Nacionais Nobres (Obrigatório em Meios de Semana — Terças, Quartas e Quintas)
+*Em rodadas de meio de semana, as copas nacionais oferecem as maiores assimetrias da temporada (gigantes da elite contra divisões inferiores com odds limpas e abismo técnico):*
+1. 🇪🇸 **Copa del Rey** (Espanha) — 1ª Eliminatória e fases finais
+2. 🇬🇧 **EFL Cup / Carabao Cup & FA Cup** (Inglaterra)
+3. 🇩🇪 **DFB-Pokal** (Alemanha) — 2ª Fase e Oitavas
+4. 🇮🇹 **Coppa Italia** (Itália)
+5. 🇵🇹 **Taça da Liga (Allianz Cup) & Taça de Portugal** (Portugal)
+
+### C. 🌍 Torneios Continentais de Elite
+1. 🏆 **UEFA Champions League / Europa League / Conference League**
+2. 🏆 **Copa Libertadores / Copa Sul-Americana**
+3. 🏆 **AFC Champions League Elite**
+
+### ⚡ PROTOCOLO MULTI-QUERY SEARCH:
+É expressamente PROIBIDO realizar apenas uma busca genérica como "jogos de hoje". O analista DEVE executar buscas setorizadas por liga e copa ativa para garantir que nenhum favorito com abismo técnico (ex: Girona, Villarreal, Sporting CP, Arsenal, Dortmund) seja omitido.
 
 ## 📋 DISCOVERY DO DIA
 

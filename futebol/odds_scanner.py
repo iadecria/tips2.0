@@ -1,270 +1,163 @@
 """
-FAS 3 - Odds Scanner & Ticket Multiplier (Multi-League Global Engine)
-Varredura de odds oficiais da Pinnacle e principais casas para o Football Analysis System (FAS 3).
-Cobre integralmente: Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Liga Portugal, Brasileirão A e B.
+FAS 3 - Odds Scanner & Discovery Engine V6.0 (Multi-League Global Engine)
+Varredura automatizada de odds e fixtures oficiais para o Football Analysis System (FAS 3).
+Cobre 20+ ligas e copas mundiais (Europa, Américas, Ásia e Copas Nacionais).
 """
 
 import json
 import urllib.request
 import datetime
 import sys
+import os
 from typing import Dict, List, Any, Optional
 
-sys.stdout.reconfigure(encoding='utf-8')
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
 
-API_KEY = "2949bd401486c8c955216b3fb58c68c4"
+# Lista de chaves (suporta chave primária e rotação/fallback)
+API_KEYS = [
+    os.environ.get("ODDS_API_KEY", "2949bd401486c8c955216b3fb58c68c4"),
+    "d6b8b0e8c8949826a7f053538c823ea4",
+    "9f0c2e74288b8e85741695e2671239aa"
+]
 BASE_URL = "https://api.the-odds-api.com/v4"
 
-MAJOR_LEAGUES = [
-    ("soccer_epl", "Premier League (Inglaterra)"),
-    ("soccer_spain_la_liga", "La Liga (Espanha)"),
-    ("soccer_italy_serie_a", "Serie A (Itália)"),
-    ("soccer_germany_bundesliga", "Bundesliga (Alemanha)"),
-    ("soccer_france_ligue_one", "Ligue 1 (França)"),
-    ("soccer_portugal_primeira_liga", "Liga Portugal"),
-    ("soccer_brazil_campeonato", "Brasileirão Série A"),
-    ("soccer_brazil_serie_b", "Brasileirão Série B"),
-    ("soccer_uefa_champs_league", "UEFA Champions League"),
-    ("soccer_uefa_nations_league", "UEFA Nations League")
+# Catálogo completo e categorizado de competições no radar FAS
+GLOBAL_COMPETITIONS = [
+    # 🏆 Copas Nacionais Europeias (Cruciais para Terças e Quartas)
+    ("soccer_spain_copa_del_rey", "Copa del Rey (Espanha)", "COPA_NACIONAL"),
+    ("soccer_england_efl_cup", "EFL Cup / Carabao (Inglaterra)", "COPA_NACIONAL"),
+    ("soccer_germany_dfb_pokal", "DFB-Pokal (Alemanha)", "COPA_NACIONAL"),
+    ("soccer_italy_coppa_italia", "Coppa Italia", "COPA_NACIONAL"),
+    
+    # 👑 Grandes Ligas Europeias (Tier 1)
+    ("soccer_epl", "Premier League (Inglaterra)", "LIGA_TIER_1"),
+    ("soccer_spain_la_liga", "La Liga (Espanha)", "LIGA_TIER_1"),
+    ("soccer_italy_serie_a", "Serie A (Itália)", "LIGA_TIER_1"),
+    ("soccer_germany_bundesliga", "Bundesliga (Alemanha)", "LIGA_TIER_1"),
+    ("soccer_france_ligue_one", "Ligue 1 (França)", "LIGA_TIER_1"),
+    ("soccer_portugal_primeira_liga", "Liga Portugal", "LIGA_TIER_1"),
+    ("soccer_netherlands_eredivisie", "Eredivisie (Holanda)", "LIGA_TIER_1"),
+    ("soccer_turkey_super_league", "Süper Lig (Turquia)", "LIGA_TIER_1"),
+    
+    # 🌍 Copas Continentais
+    ("soccer_uefa_champs_league", "UEFA Champions League", "CONTINENTAL"),
+    ("soccer_uefa_europa_league", "UEFA Europa League", "CONTINENTAL"),
+    ("soccer_uefa_europa_conference_league", "UEFA Conference League", "CONTINENTAL"),
+    ("soccer_conmebol_copa_libertadores", "Copa Libertadores", "CONTINENTAL"),
+    ("soccer_conmebol_copa_sudamericana", "Copa Sul-Americana", "CONTINENTAL"),
+    
+    # 🇧🇷 Futebol Brasileiro e Américas
+    ("soccer_brazil_campeonato", "Brasileirão Série A", "BRASIL"),
+    ("soccer_brazil_serie_b", "Brasileirão Série B", "BRASIL"),
+    ("soccer_argentina_primera_division", "Argentina Primera", "AMERICAS"),
+    ("soccer_mexico_ligamx", "Liga MX (México)", "AMERICAS"),
+    
+    # 🌟 Ligas Alternativas com Gigantes
+    ("soccer_saudi_arabia_pro_league", "Saudi Pro League", "SPECIAL"),
+    ("soccer_efl_champ", "Championship (Inglaterra)", "SEGUNDA_DIV")
 ]
 
-def get_league_odds(sport_key: str) -> List[Dict[str, Any]]:
-    """Consulta odds da liga com timeout resiliente"""
-    url = f"{BASE_URL}/sports/{sport_key}/odds/?apiKey={API_KEY}&regions=eu,us,uk&markets=h2h,totals"
-    req = urllib.request.Request(url, headers={"User-Agent": "FAS3-OddsClient/2.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except Exception as e:
-        print(f"⚠️ Erro ao consultar {sport_key}: {e}")
-        return []
+def query_odds_api(sport_key: str, markets: str = "h2h,totals") -> List[Dict[str, Any]]:
+    """Consulta odds da API com tentativa em múltiplas chaves e timeout seguro"""
+    for api_key in API_KEYS:
+        if not api_key:
+            continue
+        url = f"{BASE_URL}/sports/{sport_key}/odds/?apiKey={api_key}&regions=eu,us,uk&markets={markets}"
+        req = urllib.request.Request(url, headers={"User-Agent": "FAS3-GlobalScanner/6.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=8) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                rem = resp.headers.get("x-requests-remaining")
+                return data
+        except Exception:
+            continue
+    return []
 
-def calculate_double_chance_odd(home_odd: float, draw_odd: float) -> float:
-    """Calcula a odd justa de Dupla Chance 1X a partir de Home e Draw"""
-    if not home_odd or not draw_odd:
+def calculate_double_chance(home_odd: float, draw_odd: float) -> float:
+    """Calcula odd justa de Dupla Chance 1X"""
+    if not home_odd or not draw_odd or home_odd <= 0 or draw_odd <= 0:
         return 0.0
-    prob = (1.0 / home_odd) + (1.0 / draw_odd)
-    return round(1.0 / prob, 2)
+    return round(1.0 / ((1.0 / home_odd) + (1.0 / draw_odd)), 2)
 
-def scan_all_major_leagues(hours_ahead: int = 36):
-    """Varre todas as grandes ligas ativas e exibe fixtures com odds Pinnacle"""
+def scan_all_radar(hours_ahead: int = 40):
+    """Varre todas as 20+ ligas e copas e classifica as melhores oportunidades do FAS"""
     now_utc = datetime.datetime.now(datetime.timezone.utc)
-    print("\n" + "="*65)
-    print(f"🌍 VARREDURA FAS 3: TODAS AS GRANDES LIGAS (PRÓXIMAS {hours_ahead}h)")
-    print("="*65)
+    print("\n" + "="*70)
+    print(f"🌍 VARREDURA FAS 3 GLOBAL V6.0: COBERTORES DE ELITE (PRÓXIMAS {hours_ahead}h)")
+    print("="*70)
     
-    total_found = 0
-    for sport_key, league_name in MAJOR_LEAGUES:
-        fixtures = get_league_odds(sport_key)
-        valid_events = []
+    all_events = []
+    
+    for sport_key, league_name, category in GLOBAL_COMPETITIONS:
+        fixtures = query_odds_api(sport_key)
         for g in fixtures:
-            ct = datetime.datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
-            diff_hours = (ct - now_utc).total_seconds() / 3600.0
-            if -1.0 <= diff_hours <= hours_ahead:
+            c_str = g.get("commence_time")
+            if not c_str:
+                continue
+            ct = datetime.datetime.fromisoformat(c_str.replace("Z", "+00:00"))
+            diff_h = (ct - now_utc).total_seconds() / 3600.0
+            if -1.0 <= diff_h <= hours_ahead:
                 brt = ct - datetime.timedelta(hours=3)
-                valid_events.append((brt, g))
+                all_events.append({
+                    "league": league_name,
+                    "category": category,
+                    "commence_brt": brt,
+                    "home": g.get("home_team"),
+                    "away": g.get("away_team"),
+                    "bookmakers": g.get("bookmakers", [])
+                })
                 
-        if valid_events:
-            valid_events.sort(key=lambda x: x[0])
-            print(f"\n🏆 {league_name} ({len(valid_events)} jogos no período)")
-            for brt_time, g in valid_events:
-                total_found += 1
-                home = g.get("home_team")
-                away = g.get("away_team")
-                
-                # Extrair Pinnacle
-                pinn_data = next((b for b in g.get("bookmakers", []) if b.get("title") == "Pinnacle"), None)
-                h_odd, d_odd, a_odd = "-", "-", "-"
-                if pinn_data:
-                    h2h = {m.get("key"): m for m in pinn_data.get("markets", [])}.get("h2h", {}).get("outcomes", [])
-                    h_odd = next((o.get("price") for o in h2h if o.get("name") == home), "-")
-                    d_odd = next((o.get("price") for o in h2h if o.get("name") == "Draw"), "-")
-                    a_odd = next((o.get("price") for o in h2h if o.get("name") == away), "-")
-                
-                time_fmt = brt_time.strftime("%d/%m %H:%M")
-                print(f"  👉 [{time_fmt} BRT] {home} x {away}")
-                print(f"     Pinnacle: 1: @{h_odd} | X: @{d_odd} | 2: @{a_odd}")
-
-    print(f"\nTotal de eventos consolidados no radar: {total_found}")
-    print("="*65)
-
-def print_pinnacle_slip(tickets: List[Dict[str, Any]]):
-    print("\n" + "="*55)
-    print("📋 GUIA DE EXECUÇÃO: BOLETIM OFICIAL PINNACLE (pinnacle.bet.br)")
-    print("="*55)
-    for idx, t in enumerate(tickets, 1):
-        print(f"\n🎫 {t['title']} — Multiplicador: @{t['multiplier']:.2f}")
-        print(f"💰 Retorno com R$ 50: R$ {50 * t['multiplier']:.2f} | Com R$ 100: R$ {100 * t['multiplier']:.2f}")
-        print("📌 Passo a passo no site:")
-        for s in t['legs']:
-            print(f"   ▫️ Jogo: {s['match']}")
-            print(f"      ➔ Categoria: [{s['market_group']}]")
-            print(f"      ➔ Linha: {s['selection']} (Odd Pinnacle: @{s['odd']})")
-        print(f"   👉 No boletim à direita, clique na aba 'ACUMULADA' / 'PARLAY' e confirme!")
-
-def print_soros_slip():
-    import os
-    state_file = os.path.join(os.path.dirname(__file__), "soros_state.json")
-    if not os.path.exists(state_file):
+    print(f"Total de jogos identificados na varredura global: {len(all_events)}")
+    
+    if not all_events:
+        print("ℹ️ Dica: Quando a quota da API expirar, a varredura web setorizada do prompt mestre assume automaticamente.")
         return
-    with open(state_file, "r", encoding="utf-8") as f:
-        state = json.load(f)
-        
-    day = state.get("currentDay", 1)
-    stake = state.get("currentStake", 10.00)
-    target_days = state.get("targetDays", 30)
+
+    # Categorizadores FAS:
+    super_favoritos = []
+    mandantes_fortes = []
     
-    # Seleção do Soros Oficial 14/10 (Espelho Stop Point 1): Liverpool Over 1.5 (@1.20) + Aston Villa 1X (@1.18) + Real Madrid X2 (@1.28) = @1.81
-    mult = 1.20 * 1.18 * 1.28  # @1.81 na Pinnacle
-    ret = stake * mult
-    
-    print("\n" + "="*55)
-    print(f"🔥 DESAFIO SOROS FAS 30 DIAS — DIA {day} DE {target_days} (UEFA CHAMPIONS LEAGUE)")
-    print("="*55)
-    print(f"💵 Entrada de Hoje: R$ {stake:.2f} (Gestão de Reinício Dia 1)")
-    print(f"🎯 Cotação da Tripla Blindada: @{mult:.2f} (Pinnacle)")
-    print(f"💰 Retorno Estimado se Bater: R$ {ret:.2f}")
-    print(f"🚀 Próximo Passo: Se GREEN, os R$ {ret:.2f} serão a entrada do DIA {day + 1}!")
-    print("\n📌 Seleções Obrigatórias do Soros (Espelho Stop Point 1 SAFE):")
-    print("   1️⃣ LASK Linz x Liverpool ➔ Mais de 1.5 Gols (Odd @1.20) [Raiffeisen Arena]")
-    print("   2️⃣ Aston Villa x Fenerbahçe ➔ Aston Villa ou Empate (1X @1.18) [Villa Park]")
-    print("   3️⃣ AS Roma x Real Madrid ➔ Real Madrid ou Empate (X2 @1.28) [Stadio Olimpico]")
-    print(f"   👉 Na Pinnacle: Adicione as três seleções, vá na aba ACUMULADA e confirme com R$ {stake:.2f}!")
-    print("="*55)
+    for ev in all_events:
+        home = ev["home"]
+        away = ev["away"]
+        # Extrair melhor bookmaker (Pinnacle ou BetOnline/Betfair)
+        bk = next((b for b in ev["bookmakers"] if b.get("title") in ["Pinnacle", "Betfair", "Betsson", "1xBet"]), None)
+        if not bk and ev["bookmakers"]:
+            bk = ev["bookmakers"][0]
+            
+        if bk:
+            mkts = {m.get("key"): m for m in bk.get("markets", [])}
+            h2h = mkts.get("h2h", {}).get("outcomes", [])
+            h_odd = next((o.get("price") for o in h2h if o.get("name") == home), None)
+            d_odd = next((o.get("price") for o in h2h if o.get("name") == "Draw"), None)
+            a_odd = next((o.get("price") for o in h2h if o.get("name") == away), None)
+            
+            ev["h_odd"] = h_odd
+            ev["d_odd"] = d_odd
+            ev["a_odd"] = a_odd
+            ev["dc_1x"] = calculate_double_chance(h_odd, d_odd) if h_odd and d_odd else None
+            
+            if h_odd and h_odd <= 1.35:
+                super_favoritos.append(ev)
+            elif a_odd and a_odd <= 1.35:
+                super_favoritos.append(ev)
+            elif h_odd and 1.36 <= h_odd <= 1.85:
+                mandantes_fortes.append(ev)
+
+    print("\n" + "⭐"*30)
+    print("🎯 SUPER FAVORITOS / ABISMO TÉCNICO (Odd Seca <= 1.35 — Base Supremo e Soros):")
+    print("⭐"*30)
+    for f in super_favoritos:
+        t_str = f["commence_brt"].strftime("%d/%m %H:%M")
+        print(f"  👉 [{t_str} BRT - {f['league']}] {f['home']} (1: @{f['h_odd']}) x {f['away']} (2: @{f['a_odd']}) | DC 1X: @{f['dc_1x']}")
+
+    print("\n" + "🏰"*30)
+    print("🛡️ MANDANTES DE CALDEIRÃO (Odd 1.36 a 1.85 — Base SAFE e SAFE+):")
+    print("🏰"*30)
+    for f in mandantes_fortes:
+        t_str = f["commence_brt"].strftime("%d/%m %H:%M")
+        print(f"  👉 [{t_str} BRT - {f['league']}] {f['home']} (1: @{f['h_odd']}) x {f['away']} (2: @{f['a_odd']}) | DC 1X: @{f['dc_1x']}")
 
 if __name__ == "__main__":
-    if "--scan" in sys.argv:
-        scan_all_major_leagues(hours_ahead=36)
-
-    # Boletim Especial Pinnacle para a Rodada de 14/10 (UEFA Champions League - FAS 3 V5.0)
-    pinnacle_tickets = [
-        {
-            "title": "⭐ BILHETE SUPREMO: O FILÉ DO DIA (Todas as Melhores Opções da Champions League)",
-            "multiplier": 1.20 * 1.18 * 1.28 * 1.18 * 1.18 * 1.12 * 1.22,  # @3.67
-            "legs": [
-                {
-                    "match": "LASK Linz x Liverpool (13:45 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.20
-                },
-                {
-                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
-                    "market_group": "Dupla Chance",
-                    "selection": "Aston Villa ou Empate (1X)",
-                    "odd": 1.18
-                },
-                {
-                    "match": "AS Roma x Real Madrid (16:00 BRT)",
-                    "market_group": "Dupla Chance",
-                    "selection": "Real Madrid ou Empate (X2)",
-                    "odd": 1.28
-                },
-                {
-                    "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.18
-                },
-                {
-                    "match": "Bodø/Glimt x Borussia Dortmund (16:00 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.18
-                },
-                {
-                    "match": "Slovan Bratislava x VfB Stuttgart (16:00 BRT)",
-                    "market_group": "Total de Gols da Equipe",
-                    "selection": "VfB Stuttgart 1+ Gol (Team Over 0.5)",
-                    "odd": 1.12
-                },
-                {
-                    "match": "Feyenoord x Como (13:45 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.22
-                }
-            ]
-        },
-        {
-            "title": "BILHETE 1: TRIPLA ÂNCORA BLINDADA (SAFE - Champions League)",
-            "multiplier": 1.20 * 1.18 * 1.28,  # @1.81
-            "legs": [
-                {
-                    "match": "LASK Linz x Liverpool (13:45 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.20
-                },
-                {
-                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
-                    "market_group": "Dupla Chance",
-                    "selection": "Aston Villa ou Empate (1X)",
-                    "odd": 1.18
-                },
-                {
-                    "match": "AS Roma x Real Madrid (16:00 BRT)",
-                    "market_group": "Dupla Chance",
-                    "selection": "Real Madrid ou Empate (X2)",
-                    "odd": 1.28
-                }
-            ]
-        },
-        {
-            "title": "BILHETE 2: QUÁDRUPLA FORTE COM GOLS DA CHAMPIONS (SAFE + Man City x PSG Over 1.5)",
-            "multiplier": 1.20 * 1.18 * 1.28 * 1.18,  # @2.14
-            "legs": [
-                {
-                    "match": "LASK Linz x Liverpool (13:45 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.20
-                },
-                {
-                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
-                    "market_group": "Dupla Chance",
-                    "selection": "Aston Villa ou Empate (1X)",
-                    "odd": 1.18
-                },
-                {
-                    "match": "AS Roma x Real Madrid (16:00 BRT)",
-                    "market_group": "Dupla Chance",
-                    "selection": "Real Madrid ou Empate (X2)",
-                    "odd": 1.28
-                },
-                {
-                    "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
-                    "market_group": "Total de Gols",
-                    "selection": "Mais de 1.5 Gols",
-                    "odd": 1.18
-                }
-            ]
-        },
-        {
-            "title": "BILHETE 3: SUPER CLÁSSICOS & ATAQUE (ATTACK / PRA CIMA)",
-            "multiplier": 1.62 * 1.48 * 1.42,  # ~3.40
-            "legs": [
-                {
-                    "match": "Aston Villa x Fenerbahçe (16:00 BRT)",
-                    "market_group": "Resultado da Partida (1X2)",
-                    "selection": "Aston Villa Vence",
-                    "odd": 1.62
-                },
-                {
-                    "match": "Manchester City x Paris Saint-Germain (16:00 BRT)",
-                    "market_group": "Ambos os Times Marcam",
-                    "selection": "Ambos Marcam - Sim",
-                    "odd": 1.48
-                },
-                {
-                    "match": "LASK Linz x Liverpool (13:45 BRT)",
-                    "market_group": "Resultado e Total",
-                    "selection": "Liverpool Vence + Mais de 1.5 Gols",
-                    "odd": 1.42
-                }
-            ]
-        }
-    ]
-    print_pinnacle_slip(pinnacle_tickets)
-    print_soros_slip()
-
+    scan_all_radar(hours_ahead=40)

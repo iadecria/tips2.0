@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-26T22:30:00-03:00",
+  "updatedAt": "2026-10-28T11:30:00-03:00",
   "kpis": {
-    "totalRounds": 16,
-    "totalTickets": 101,
-    "greenTickets": 65,
-    "redTickets": 36,
-    "winRateGlobal": "64.4%",
-    "safeWinRate": "84.6%",
-    "safePlusWinRate": "50.0%",
-    "sorosCurrentDay": 2,
-    "sorosCurrentStake": 13.70,
+    "totalRounds": 17,
+    "totalTickets": 106,
+    "greenTickets": 66,
+    "redTickets": 40,
+    "winRateGlobal": "62.3%",
+    "safeWinRate": "81.8%",
+    "safePlusWinRate": "46.2%",
+    "sorosCurrentDay": 1,
+    "sorosCurrentStake": 10.00,
     "sorosBasketballDay": 2,
     "sorosBasketballStake": 14.5,
-    "profitFactor": 4.75
+    "profitFactor": 4.60
   },
   "ticketBreakdown": [
     {
@@ -217,9 +217,29 @@
       "banca": 13.70,
       "lucro": 3.70,
       "winRate": 95
+    },
+    {
+      "date": "27/10",
+      "banca": 10.00,
+      "lucro": -13.70,
+      "winRate": 70
     }
   ],
   "history": [
+    {
+      "date": "2026-10-27",
+      "sport": "Futebol (Copa del Rey, Taça da Liga, Serie A, EFL Cup, DFB-Pokal & Série B)",
+      "totalTickets": 5,
+      "greens": 1,
+      "reds": 4,
+      "highlights": [
+        "💥 MÚLTIPLA 3 SUPER ATAQUE 100% GREEN MONSTRUOSO (@4.28 CRAVADO) com Hamburgo 1x3 Frankfurt BTTS, Dortmund 3x2 Bremen BTTS e Sassuolo 2x6 Lazio Over 2.5!",
+        "Lucro limpo de +328% no Super Ataque amenizando a rodada de zebras isoladas em copas eliminatórias",
+        "Zebra de rotação do Arsenal (1x1 com Fleetwood Town pela EFL Cup) derrubou o Bilhete Supremo e a SAFE",
+        "Derrota inesperada do Torino (1x3 Como) acionou o reset preventivo do Desafio Soros para o Dia 1 com R$ 10,00",
+        "Villarreal 5x0 Manacor e Roma 4x2 Cagliari confirmaram seus favoritismos com autoridade"
+      ]
+    },
     {
       "date": "2026-10-26",
       "sport": "Futebol (Brasileirão Série A & B, Ligue 1, Süper Lig)",

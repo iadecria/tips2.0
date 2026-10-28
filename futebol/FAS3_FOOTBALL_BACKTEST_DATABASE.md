@@ -2341,96 +2341,178 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-10-27
 - **Cutoff:** 2026-10-27T13:30:00-03:00
 - **Contexto da Data:** Super terça-feira de futebol global com abertura da 1ª eliminatória da Copa del Rey na Espanha (Girona, Villarreal, Espanyol e Rayo Vallecano em campo), Quartos de Final da Taça da Liga de Portugal (Allianz Cup) com o Sporting CP no Estádio José Alvalade, 9ª rodada da Serie A Italiana (Roma no Olímpico, Torino no Grande Torino e Lazio visitando o Sassuolo), 2ª fase eliminatória em jogo único da DFB-Pokal na Alemanha (Dortmund x Bremen no Signal Iduna Park e Frankfurt no Volksparkstadion), Oitavas de Final da EFL Cup na Inglaterra (Arsenal visitando o Fleetwood Town) e 35ª rodada decisiva da Série B no Brasil (Ceará x Goiás no Castelão).
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura Global
 - Analisados: 22 fixtures internacionais
 - Elegíveis: 10 fixtures de elite com alta liquidez e cobertura estatística
-- Descartados no pente-fino: Rot-Weiss Essen x RB Leipzig (risco de rotação extrema da zaga do Leipzig), Bradford x Peterborough (baixo controle estatístico de jogo), partidas regionais da Copa del Rey sem liquidez em casas de elite.
+- Descartados no pente-fino: Rot-Weiss Essen x RB Leipzig, Bradford x Peterborough, partidas regionais da Copa del Rey sem liquidez em casas de elite.
+
+#### 2. Grade de Fixtures, Resultados e Liquidação Oficial (CONFERE)
+1. **CD Cuarte 0 × 2 Girona FC** (Copa del Rey)
+   - *Resultado Oficial:* 0 x 2
+   - **Tese (Bilhete Supremo / Soros Dia 2):** Girona FC Vence (Moneyline @1.20) ➔ ✅ **HIT**
+   - **SAFE+:** Girona Vence por 2+ Gols (-1.5 AH @1.55) ➔ ✅ **HIT** (0x2)
+
+2. **Sporting CP 2 × 1 Marítimo** (Taça da Liga de Portugal)
+   - *Resultado Oficial:* 2 x 1
+   - **Tese (Bilhete Supremo / SAFE Stop 1):** Sporting CP Vence (Moneyline @1.18) ➔ ✅ **HIT**
+   - **SAFE+:** Sporting CP Vence por 2+ Gols (-1.5 AH @1.52) ➔ ❌ **MISS** (Placar 2x1 com gol sofrido aos 90')
+     - *Miss Audit:* `STATISTICAL_VARIANCE` (Marítimo marcou aos 90' com Butzke, tirando a margem de 2 gols).
+   - **NETO:** Sporting Vence sem Sofrer Gols (@1.85) ➔ ❌ **MISS**
+
+3. **Fleetwood Town 1 (5) × (3) 1 Arsenal** (EFL Cup)
+   - *Resultado Oficial:* 1 x 1 (tempo regulamentar)
+   - **Tese (Bilhete Supremo / SAFE Stop 1):** Arsenal Vence (Moneyline @1.18) ➔ ❌ **MISS**
+     - *Miss Audit:* `LINEUP_CHANGE / STATISTICAL_VARIANCE` (Arsenal atuou com base mista/jovem na EFL Cup, empatou por 1x1 e foi eliminado nos pênaltis).
+   - **NETO:** Arsenal -2.5 Handicap Asiático (@2.30) ➔ ❌ **MISS**
+
+4. **AS Roma 4 × 2 Cagliari** (Serie A)
+   - *Resultado Oficial:* 4 x 2
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Roma ou Empate (1X @1.14) ➔ ✅ **HIT**
+   - **SAFE+:** AS Roma Vence (Moneyline @1.55) ➔ ✅ **HIT**
+   - **NETO:** Roma Vence & Menos de 3.5 Gols (@2.20) ➔ ❌ **MISS** (6 gols no total)
+
+5. **CD Manacor 0 × 5 Villarreal CF** (Copa del Rey)
+   - *Resultado Oficial:* 0 x 5
+   - **Tese (SAFE Stop 3):** Villarreal CF Vence (Moneyline @1.16) ➔ ✅ **HIT**
+   - **SAFE+:** Villarreal Vence por 2+ Gols (-1.5 AH @1.45) ➔ ✅ **HIT** (0x5)
+
+6. **Borussia Dortmund 3 × 2 Werder Bremen** (DFB-Pokal)
+   - *Resultado Oficial:* 3 x 2
+   - **Tese (SAFE Stop 2):** Borussia Dortmund ou Empate (1X @1.15) ➔ ✅ **HIT**
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.58) ➔ ✅ **HIT** (3x2)
+   - **NETO:** Dortmund Vence & Ambos Marcam (@2.90) ➔ ✅ **HIT**
+
+7. **Torino 1 × 3 Como** (Serie A)
+   - *Resultado Oficial:* 1 x 3
+   - **Tese (SAFE Stop 3 / Soros Dia 2):** Torino ou Empate (1X @1.20) ➔ ❌ **MISS**
+     - *Miss Audit:* `STATISTICAL_VARIANCE / BAD_SELECTION` (Como explorou transições velozes e venceu por 1x3 em Turim).
+   - **SAFE+:** Torino Vence (ML @1.75) ➔ ❌ **MISS**
+
+8. **Hamburgo 1 × 3 Eintracht Frankfurt** (DFB-Pokal)
+   - *Resultado Oficial:* 1 x 3
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.55) ➔ ✅ **HIT** (1x3)
+
+9. **Sassuolo 2 × 6 Lazio** (Serie A)
+   - *Resultado Oficial:* 2 x 6
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.75) ➔ ✅ **HIT** (8 gols)
+
+10. **Ceará 0 × 2 Goiás** (Brasileirão Série B)
+    - *Resultado Oficial:* 0 x 2
+    - **Tese (Scanner):** Menos de 3.5 Gols no Jogo (@1.18) ➔ ✅ **HIT** (2 gols)
+
+#### 3. Auditoria dos Bilhetes Estruturados de 27/10
+- ⭐ **Bilhete Supremo (@1.90):** ❌ **RED** (3/4 acertos — Arsenal 1x1).
+- 🎫 **Múltipla 1 SAFE:** ❌ **RED** (Derrubada por Fleetwood 1x1 Arsenal).
+- 🎫 **Múltipla 2 SAFE+ (@3.41):** ❌ **RED** (2/3 acertos — Villarreal -1.5 ✅, Roma ML ✅, Sporting -1.5 ❌ 2x1).
+- 🎫 **Múltipla 3 SUPER ATAQUE (@4.28):** 🟢 **100% GREEN MONSTRUOSO!**
+  - Hamburgo x Frankfurt BTTS (@1.55 ✅ 1x3)
+  - Dortmund x Bremen BTTS (@1.58 ✅ 3x2)
+  - Sassuolo x Lazio Over 2.5 (@1.75 ✅ 2x6)
+  - *Retorno:* Lucro de **+328% limpo**!
+- 🎫 **Múltipla 4 APOSENTAR O NETO (@27.14):** ❌ **RED** (1/4 acerto — Dortmund Vence & BTTS ✅).
+- 🔥 **Desafio Soros Dia 2 (R$ 13,70):** ❌ **MISS** (Girona ML ✅ + Torino 1X ❌). Reinicia para o **DIA 1 com R$ 10,00**.
+
+---
+
+### [2026-10-28] — RODADA DIÁRIA (VARREDURA GLOBAL FAS 3 V6.1: DFB-POKAL, TAÇA DA LIGA, EFL CUP, SERIE A & BRASILEIRÃO SÉRIE A)
+
+- **Snapshot ID:** `FAS_MULTI_SPORT_2026-10-28_V1_GLOBAL_SNIPER`
+- **Data do Registro:** 2026-10-28
+- **Cutoff:** 2026-10-28T14:00:00-03:00
+- **Contexto da Data:** Super quarta-feira de futebol global com o FC Porto recebendo o Académico de Viseu nos Quartos de Final da Taça da Liga de Portugal no Estádio do Dragão; gigantes Bayern de Munique (contra o Magdeburg na Allianz Arena) e Bayer Leverkusen (contra o Nuremberg na BayArena) pela 2ª fase da Copa da Alemanha (DFB-Pokal); clássicos eliminatórios na Copa da Liga Inglesa (Manchester City x Brighton no Etihad e Liverpool x Chelsea em Anfield); 9ª rodada da Serie A Italiana com Inter de Milão visitando o Venezia, Napoli visitando o Monza e Milan recebendo o Bologna; e 33ª rodada do Brasileirão Série A com Santos x Palmeiras na Vila Belmiro e Fluminense x Internacional no Maracanã.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura Global
+- Analisados: 26 fixtures internacionais
+- Elegíveis: 10 fixtures de elite com liquidez máxima e cobertura estatística
+- Descartados no pente-fino: Paderborn x Stuttgart (rotação pesada do Stuttgart pré-Bundesliga), Remo x Botafogo (gramado pesado em Belém e imprevisibilidade climática), partidas regionais sem liquidez.
 
 #### 2. Grade de Fixtures e Teses Pré-Jogo
 
-1. **CD Cuarte × Girona FC** (14:30 BRT — Copa del Rey 1ª Eliminatória)
-   - **Game State & Contexto:** Abismo técnico monumental entre equipe da 5ª divisão e o Girona da Champions League e La Liga. Míchel utiliza equipe mista porém com imposição física e técnica esmagadora.
-   - **Tese (Bilhete Supremo / Sniper Soros Dia 2):** Girona FC Vence (Moneyline @1.20)
-   - **SAFE+:** Girona Vence por 2+ Gols (-1.5 AH @1.55)
+1. **FC Porto × Académico de Viseu** (16:30 BRT — Taça da Liga de Portugal / Quartos de Final)
+   - **Game State & Contexto:** O Dragão em festa para as quartas de final em jogo único. O FC Porto possui abismo técnico de primeira linha sobre o Académico de Viseu (Liga 2). Viseu concede 1.7 xGA fora de casa contra equipes de divisões superiores.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 1):** FC Porto Vence (Moneyline @1.18)
+   - **SAFE+:** FC Porto Vence por 2+ Gols (-1.5 AH @1.55)
+   - **NETO:** FC Porto Vence sem Sofrer Gols (@1.85)
 
-2. **Sporting CP × Marítimo** (17:15 BRT — Taça da Liga de Portugal / Quartos de Final)
-   - **Game State & Contexto:** O líder absoluto do futebol português no caldeirão do Estádio José Alvalade. Marítimo disputa a Liga 2 e historicamente sucumbe à blitz do Sporting em Lisboa.
-   - **Tese (Bilhete Supremo / SAFE Stop 1):** Sporting CP Vence (Moneyline @1.18)
-   - **SAFE+:** Sporting CP Vence por 2+ Gols (-1.5 AH @1.52)
-   - **NETO:** Sporting Vence sem Sofrer Gols (@1.85)
+2. **FC Bayern München × 1. FC Magdeburg** (16:45 BRT — DFB-Pokal 2ª Fase)
+   - **Game State & Contexto:** Allianz Arena lotada. O Bayern de Munique recebe time da 2. Bundesliga que cede espaços em transição. Favoritismo brutal com expectativa de posse de bola de 75%+ e volume ofensivo massacre.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 1):** Bayern München Vence (Moneyline @1.15)
+   - **SAFE+:** Bayern Vence por 2+ Gols (-1.5 AH @1.42)
+   - **NETO:** Bayern -2.5 Handicap Asiático (@2.20)
 
-3. **Fleetwood Town × Arsenal** (17:00 BRT — EFL Cup Oitavas de Final)
-   - **Game State & Contexto:** Oitavas de final em jogo único. Mikel Arteta roda o elenco mas conta com banco estrelado (Sterling, Nwaneri, Kiwior, Jorginho) com posse de bola prevista em 75%+.
-   - **Tese (Bilhete Supremo / SAFE Stop 1):** Arsenal Vence (Moneyline @1.18)
-   - **NETO:** Arsenal Vence por 3+ Gols (-2.5 Handicap Asiático @2.30)
+3. **Bayer Leverkusen × Nuremberg** (16:45 BRT — DFB-Pokal 2ª Fase)
+   - **Game State & Contexto:** BayArena com o Leverkusen sedento para avançar em jogo eliminatório. Nuremberg sofre na 2. Bundesliga e tem linha defensiva frágil contra a velocidade das pontas do time de Xabi Alonso.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Bayer Leverkusen Vence (Moneyline @1.18)
+   - **SAFE+:** Bayer Leverkusen Vence por 2+ Gols (-1.5 AH @1.50)
 
-4. **AS Roma × Cagliari** (16:45 BRT — Serie A Italiana)
-   - **Game State & Contexto:** A Roma de Ranieri busca o G-4 no Stadio Olimpico. Cagliari venceu apenas 1 jogo fora em toda a temporada e cede 1.8 xGA como visitante.
-   - **Tese (Bilhete Supremo / SAFE Stop 2):** Roma ou Empate (Dupla Chance 1X @1.14)
-   - **SAFE+:** AS Roma Vence (Moneyline @1.55)
-   - **NETO:** Roma Vence + Menos de 3.5 Gols (@2.20)
+4. **Venezia × Inter de Milão** (14:30 BRT — Serie A Italiana 9ª Rodada)
+   - **Game State & Contexto:** Inter busca manter a liderança da Serie A contra o Venezia na zona da degola. Mesmo fora de casa, a Inter impõe ritmo avassalador com Lautaro e Thuram.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Inter de Milão ou Empate (Dupla Chance X2 @1.14)
+   - **SAFE+:** Inter de Milão Vence (Moneyline @1.50)
 
-5. **CD Manacor × Villarreal CF** (17:00 BRT — Copa del Rey 1ª Eliminatória)
-   - **Game State & Contexto:** O submarino amarelo visita as Ilhas Baleares com arsenal ofensivo de elite contra time da Tercera RFEF.
-   - **Tese (SAFE Stop 3):** Villarreal CF Vence (Moneyline @1.16)
-   - **SAFE+:** Villarreal Vence por 2+ Gols (-1.5 AH @1.45)
+5. **Monza × Napoli** (16:45 BRT — Serie A Italiana 9ª Rodada)
+   - **Game State & Contexto:** O Napoli de Conte vive grande momento de consistência defensiva e visita o Monza, um dos piores mandantes da temporada italiana.
+   - **Tese (SAFE Stop 3):** Napoli ou Empate (Dupla Chance X2 @1.18)
+   - **NETO:** Napoli Vence & Mais de 1.5 Gols (@2.25)
 
-6. **Borussia Dortmund × Werder Bremen** (16:45 BRT — DFB-Pokal 2ª Fase)
-   - **Game State & Contexto:** Signal Iduna Park lotado com 81 mil pessoas em eliminatória alemã. Dortmund dominante em posse e finalizações.
-   - **Tese (SAFE Stop 2):** Borussia Dortmund ou Empate (Dupla Chance 1X @1.15)
-   - **ATTACK:** Ambos os Times Marcam (Sim @1.58)
+6. **Manchester City × Brighton** (15:30 BRT — EFL Cup Oitavas de Final)
+   - **Game State & Contexto:** Etihad Stadium em eliminatória de peso. Guardiola roda com estrelas de banco. O Brighton joga aberto e propicia partidas elétricas com muitos gols.
+   - **Tese (SAFE Stop 3):** Manchester City ou Empate (Dupla Chance 1X @1.16)
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.58)
 
-7. **Torino × Como** (16:45 BRT — Serie A Italiana)
-   - **Game State & Contexto:** Torino muito consistente no Stadio Olimpico Grande Torino, blindando a zaga e explorando as costas da zaga do Como.
-   - **Tese (SAFE Stop 3 / Sniper Soros Dia 2):** Torino ou Empate (Dupla Chance 1X @1.20)
-   - **SAFE+:** Torino Vence (Moneyline @1.75)
+7. **Liverpool × Chelsea** (16:00 BRT — EFL Cup Oitavas de Final)
+   - **Game State & Contexto:** O grande clássico da rodada em Anfield. Duas equipes de ataque vertical com zagas que sofrem em transição rápida.
+   - **Tese (ATTACK):** Ambos os Times Marcam (Sim @1.55)
+   - **NETO:** Empate ou Chelsea & Ambos Marcam (@2.70)
 
-8. **Hamburgo × Eintracht Frankfurt** (16:00 BRT — DFB-Pokal 2ª Fase)
-   - **Game State & Contexto:** Volksparkstadion em chamas para duelo de tradição. Ataque letal do Frankfurt com transição contra zaga aberta do Hamburgo.
-   - **ATTACK:** Ambos os Times Marcam (Sim @1.55)
+8. **SC Freiburg × VfL Wolfsburg** (15:00 BRT — DFB-Pokal 2ª Fase)
+   - **Game State & Contexto:** Europa-Park Stadion. Freiburg muito competitivo em casa contra um Wolfsburg ofensivo mas instável na retaguarda.
+   - **Tese (ATTACK):** Ambos os Times Marcam (Sim @1.65)
 
-9. **Sassuolo × Lazio** (14:30 BRT — Serie A Italiana)
-   - **Game State & Contexto:** Jogo aberto no MAPEI Stadium com tendência de transições e finalizações constantes.
-   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.75)
+9. **AC Milan × Bologna** (14:30 BRT — Serie A Italiana 9ª Rodada)
+   - **Game State & Contexto:** San Siro com o Milan precisando vencer para colar nos líderes. Bologna costuma complicar clássicos fora de casa.
+   - **Tese (Scanner):** AC Milan ou Empate (Dupla Chance 1X @1.22)
 
-10. **Ceará × Goiás** (20:00 BRT — Brasileirão Série B)
-    - **Game State & Contexto:** Castelão tenso pela 35ª rodada. Disputa truncada de poucos espaços com forte viés de Under.
-    - **Tese (Reserva Soros / Scanner):** Menos de 3.5 Gols no Jogo (@1.18)
+10. **Fluminense × Internacional** (19:30 BRT — Brasileirão Série A 33ª Rodada)
+    - **Game State & Contexto:** Maracanã em jogo com dois times que buscam afirmação no topo.
+    - **Tese (Scanner / Brasileirão):** Mais de 1.5 Gols no Jogo (@1.42)
 
-#### 3. Arquitetura Oficial dos Bilhetes Estruturados de 27/10
+#### 3. Arquitetura Oficial dos Bilhetes Estruturados de 28/10
 
-*   ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL (@1.90):**
-    *   ▫️ **CD Cuarte × Girona FC:** Girona FC Vence (ML @1.20)
-    *   ▫️ **AS Roma × Cagliari:** Roma ou Empate (1X @1.14)
-    *   ▫️ **Sporting CP × Marítimo:** Sporting CP Vence (ML @1.18)
-    *   ▫️ **Fleetwood Town × Arsenal:** Arsenal Vence (ML @1.18)
-    *   *Multiplicador Global:* **@1.90** (4 potências em 3 turnos com abismo técnico e mando absoluto).
+* ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL (@1.82):**
+  * ▫️ **Venezia × Inter de Milão:** Inter de Milão ou Empate (X2 @1.14)
+  * ▫️ **FC Porto × Académico de Viseu:** FC Porto Vence (ML @1.18)
+  * ▫️ **FC Bayern München × 1. FC Magdeburg:** Bayern München Vence (ML @1.15)
+  * ▫️ **Bayer Leverkusen × Nuremberg:** Bayer Leverkusen Vence (ML @1.18)
+  * *Multiplicador Global:* **@1.82** (4 potências em turnos distintos com favoritismo incontestável e abismo técnico).
 
-*   🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
-    *   🟢 **Stop Point 1 (Dupla Âncora de Gigantes Europeus @1.39):** Fleetwood x Arsenal ML (@1.18) + Sporting CP ML (@1.18).
-    *   🟡 **Stop Point 2 (Quádrupla de Elite com Caldeirões @1.85):** Stop Point 1 + Roma 1X (@1.14) + Dortmund 1X (@1.15).
-    *   🔴 **Stop Point 3 (Sexteto Completo com Proteções @2.55):** Stop Point 2 + Torino 1X (@1.20) + Villarreal ML (@1.16).
+* 🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+  * 🟢 **Stop Point 1 (Dupla Âncora de Copas Europeias @1.36):** Porto ML (@1.18) + Bayern ML (@1.15).
+  * 🟡 **Stop Point 2 (Quádrupla com Gigantes da Série A e Alemanha @1.82):** Stop Point 1 + Leverkusen ML (@1.18) + Inter X2 (@1.14).
+  * 🔴 **Stop Point 3 (Sexteto Blindado Global @2.50):** Stop Point 2 + Napoli X2 (@1.18) + Man City 1X (@1.16).
 
-*   🎫 **MÚLTIPLA 2 — SAFE+ (Alavancagem de Goleadas & Handicaps @3.41):**
-    *   CD Manacor x Villarreal: Villarreal -1.5 AH (@1.45)
-    *   Sporting CP x Marítimo: Sporting CP -1.5 AH (@1.52)
-    *   AS Roma x Cagliari: AS Roma Vence (ML @1.55)
-    *   *Multiplicador:* **@3.41** (+241% de lucro potencial).
+* 🎫 **MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição @3.30):**
+  * FC Porto x Académico de Viseu: Porto Vence por 2+ Gols (-1.5 AH @1.55)
+  * FC Bayern München x Magdeburg: Bayern Vence por 2+ Gols (-1.5 AH @1.42)
+  * Venezia x Inter de Milão: Inter de Milão Vence (ML @1.50)
+  * *Multiplicador:* **@3.30** (+230% de lucro potencial).
 
-*   🎫 **MÚLTIPLA 3 — SUPER ATAQUE (Combos de Gols em Clássicos Alemães e Serie A @4.28):**
-    *   Hamburgo x Frankfurt BTTS (@1.55) + Dortmund x Werder Bremen BTTS (@1.58) + Sassuolo x Lazio Over 2.5 (@1.75).
-    *   *Multiplicador:* **@4.28**
+* 🎫 **MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos Ingleses e Copas @4.04):**
+  * Liverpool x Chelsea BTTS (@1.55) + Manchester City x Brighton Over 2.5 (@1.58) + Freiburg x Wolfsburg BTTS (@1.65).
+  * *Multiplicador:* **@4.04**
 
-*   🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@27.14):**
-    *   Arsenal -2.5 AH (@2.30) + Sporting Vence sem Sofrer Gols (@1.85) + Dortmund Vence & BTTS (@2.90) + Roma Vence & Sub 3.5 (@2.20).
-    *   *Multiplicador:* **@27.14** (Super retorno assimétrico).
+* 🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@24.72):**
+  * Bayern -2.5 AH (@2.20) + Porto Vence sem Sofrer Gols (@1.85) + Liverpool x Chelsea: Empate ou Chelsea & BTTS (@2.70) + Napoli Vence & Mais de 1.5 Gols (@2.25).
+  * *Multiplicador:* **@24.72** (Super retorno assimétrico).
 
-*   🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (BLINDAGEM DESACOPLADA):**
-    *   **Entrada:** R$ 13,70 (Saldo conquistado com 100% de lucro do Green no Dia 1)
-    *   **Seleção Independente (Regra V6 Imunidade Absoluta):** CD Cuarte x Girona FC: Girona Vence (ML @1.20) + Torino x Como: Torino ou Empate (1X @1.20) [Odd @1.44]
-    *   **Retorno Projetado:** **R$ 19,73** rumo ao **DIA 3 DE 30**!
+* 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (NOVO CICLO SNIPER):**
+  * **Entrada:** R$ 10,00 (Reinício estratégico de ciclo)
+  * **Seleção Independente (Regra V6 Imunidade Absoluta):** FC Porto Vence (ML @1.18) + FC Bayern München Vence (ML @1.15) [Odd @1.36]
+  * **Retorno Projetado:** **R$ 13,60** rumo ao **DIA 2 DE 30**!
+
 
 
 

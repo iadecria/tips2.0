@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 13.70,
-  "currentDay": 2,
+  "currentStake": 10.00,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -195,6 +195,16 @@
       "selection": "Girona FC Vence (ML @1.20) + Torino ou Empate (1X @1.20)",
       "odd": 1.44,
       "potentialReturn": 19.73,
+      "status": "MISS",
+      "missReason": "Zebra na Serie A: Torino derrotado em casa pelo Como por 1x3, quebrando a Dupla Chance 1X."
+    },
+    {
+      "day": 1,
+      "date": "2026-10-28",
+      "stakeIn": 10.00,
+      "selection": "FC Porto Vence (ML @1.18) + FC Bayern München Vence (ML @1.15)",
+      "odd": 1.36,
+      "potentialReturn": 13.60,
       "status": "PENDING"
     }
   ]

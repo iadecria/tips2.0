@@ -1,41 +1,41 @@
 {
-  "date": "2026-10-27",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-27_V2_EXPANDED_GLOBAL_SNIPER",
+  "date": "2026-10-28",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-28_V1_GLOBAL_SNIPER",
   "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS V6.1 EXPANDIDA — TERÇA-FEIRA 27/10/2026: Varredura global integral cobrindo Espanha (Copa del Rey), Portugal (Taça da Liga / Allianz Cup), Inglaterra (EFL Cup), Itália (Serie A 9ª rodada), Alemanha (DFB-Pokal 2ª fase) e Brasil (Série B 35ª rodada). Inclusão dos abismos técnicos do Girona, Villarreal, Sporting CP e Arsenal. Desafio Soros no DIA 2 com R$ 13,70 100% desacoplado da SAFE.",
+  "notes": "GRADE OFICIAL FAS V6.1 EXPANDIDA — QUARTA-FEIRA 28/10/2026: Varredura global cobrindo Copa da Alemanha (DFB-Pokal), Taça da Liga de Portugal, Copa da Liga Inglesa (EFL Cup), Serie A Italiana (9ª Rodada) e Brasileirão Série A (33ª Rodada). Gigantes FC Porto e Bayern de Munique com abismos técnicos gigantescos em copas nacionais. Desafio Soros reiniciado no DIA 1 com R$ 10,00 100% desacoplado e protegido.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Terça-feira 27/10 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Quarta-feira 28/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.90,
-    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em 3 turnos distintos com favoritismo incontestável e abismo técnico comprovado, sem inflação de pernas.",
+    "multiplierGlobal": 1.82,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável, controle de bola e abismo técnico comprovado.",
     "status": "PENDING",
     "selections": [
       {
-        "match": "CD Cuarte x Girona FC (14:30 BRT)",
-        "competition": "Copa del Rey (1ª Eliminatória)",
-        "market": "Girona FC Vence (Moneyline)",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
-        "match": "AS Roma x Cagliari (16:45 BRT)",
+        "match": "Venezia x Inter de Milão (14:30 BRT)",
         "competition": "Serie A Italiana (9ª Rodada)",
-        "market": "Roma ou Empate (Dupla Chance 1X)",
+        "market": "Inter de Milão ou Empate (Dupla Chance X2)",
         "odd": 1.14,
         "status": "PENDING"
       },
       {
-        "match": "Sporting CP x Marítimo (17:15 BRT)",
+        "match": "FC Porto x Académico de Viseu (16:30 BRT)",
         "competition": "Taça da Liga de Portugal (Quartos de Final)",
-        "market": "Sporting CP Vence (Moneyline)",
+        "market": "FC Porto Vence (Moneyline)",
         "odd": 1.18,
         "status": "PENDING"
       },
       {
-        "match": "Fleetwood Town x Arsenal (17:00 BRT)",
-        "competition": "EFL Cup (Oitavas de Final)",
-        "market": "Arsenal Vence (Moneyline)",
+        "match": "FC Bayern München x 1. FC Magdeburg (16:45 BRT)",
+        "competition": "DFB-Pokal (2ª Rodada)",
+        "market": "Bayern München Vence (Moneyline)",
+        "odd": 1.15,
+        "status": "PENDING"
+      },
+      {
+        "match": "Bayer Leverkusen x Nuremberg (16:45 BRT)",
+        "competition": "DFB-Pokal (2ª Rodada)",
+        "market": "Bayer Leverkusen Vence (Moneyline)",
         "odd": 1.18,
         "status": "PENDING"
       }
@@ -48,86 +48,86 @@
       "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora de Gigantes Europeus)",
-          "multiplier": 1.39,
+          "level": "Stop Point 1 (Dupla Âncora de Copas Europeias)",
+          "multiplier": 1.36,
           "legs": [
-            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
-            "Sporting CP x Marítimo: Sporting CP Vence (ML @1.18)"
+            "FC Porto x Académico de Viseu: FC Porto Vence (ML @1.18)",
+            "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (ML @1.15)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla de Elite com Caldeirões)",
-          "multiplier": 1.85,
+          "level": "Stop Point 2 (Quádrupla com Gigantes da Série A e Alemanha)",
+          "multiplier": 1.82,
           "legs": [
-            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
-            "Sporting CP x Marítimo: Sporting CP Vence (ML @1.18)",
-            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
-            "Borussia Dortmund x Werder Bremen: Dortmund ou Empate (1X @1.15)"
+            "FC Porto x Académico de Viseu: FC Porto Vence (ML @1.18)",
+            "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (ML @1.15)",
+            "Bayer Leverkusen x Nuremberg: Bayer Leverkusen Vence (ML @1.18)",
+            "Venezia x Inter de Milão: Inter de Milão ou Empate (X2 @1.14)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Sexteto Completo com Proteções)",
-          "multiplier": 2.55,
+          "level": "Stop Point 3 (Sexteto Blindado Global)",
+          "multiplier": 2.50,
           "legs": [
-            "Fleetwood Town x Arsenal: Arsenal Vence (ML @1.18)",
-            "Sporting CP x Marítimo: Sporting CP Vence (ML @1.18)",
-            "AS Roma x Cagliari: Roma ou Empate (1X @1.14)",
-            "Borussia Dortmund x Werder Bremen: Dortmund ou Empate (1X @1.15)",
-            "Torino x Como: Torino ou Empate (1X @1.20)",
-            "CD Manacor x Villarreal CF: Villarreal CF Vence (ML @1.16)"
+            "FC Porto x Académico de Viseu: FC Porto Vence (ML @1.18)",
+            "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (ML @1.15)",
+            "Bayer Leverkusen x Nuremberg: Bayer Leverkusen Vence (ML @1.18)",
+            "Venezia x Inter de Milão: Inter de Milão ou Empate (X2 @1.14)",
+            "Monza x Napoli: Napoli ou Empate (X2 @1.18)",
+            "Manchester City x Brighton: Manchester City ou Empate (1X @1.16)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Goleadas)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
-      "multiplier": 3.41,
+      "multiplier": 3.30,
       "status": "PENDING",
       "legs": [
-        "CD Manacor x Villarreal CF: Villarreal Vence por 2+ Gols (-1.5 AH @1.45)",
-        "Sporting CP x Marítimo: Sporting CP Vence por 2+ Gols (-1.5 AH @1.52)",
-        "AS Roma x Cagliari: AS Roma Vence (ML @1.55)"
+        "FC Porto x Académico de Viseu: Porto Vence por 2+ Gols (-1.5 AH @1.55)",
+        "FC Bayern München x 1. FC Magdeburg: Bayern Vence por 2+ Gols (-1.5 AH @1.42)",
+        "Venezia x Inter de Milão: Inter de Milão Vence (ML @1.50)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Gols em Clássicos Alemães e Serie A)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos Ingleses e Copas)",
       "type": "ATTACK",
-      "multiplier": 4.28,
+      "multiplier": 4.04,
       "status": "PENDING",
       "legs": [
-        "Hamburgo x Eintracht Frankfurt: Ambos os Times Marcam (Sim @1.55)",
-        "Borussia Dortmund x Werder Bremen: Ambos os Times Marcam (Sim @1.58)",
-        "Sassuolo x Lazio: Mais de 2.5 Gols no Jogo (@1.75)"
+        "Liverpool x Chelsea: Ambos os Times Marcam (Sim @1.55)",
+        "Manchester City x Brighton: Mais de 2.5 Gols no Jogo (@1.58)",
+        "SC Freiburg x VfL Wolfsburg: Ambos os Times Marcam (Sim @1.65)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 27.14,
+      "multiplier": 24.72,
       "status": "PENDING",
       "legs": [
-        "Fleetwood Town x Arsenal: Arsenal -2.5 Handicap Asiático (@2.30)",
-        "Sporting CP x Marítimo: Sporting Vence sem Sofrer Gols (@1.85)",
-        "Borussia Dortmund x Werder Bremen: Dortmund Vence & Ambos Marcam (@2.90)",
-        "AS Roma x Cagliari: Roma Vence & Menos de 3.5 Gols (@2.20)"
+        "FC Bayern München x 1. FC Magdeburg: Bayern -2.5 Handicap Asiático (@2.20)",
+        "FC Porto x Académico de Viseu: Porto Vence sem Sofrer Gols (@1.85)",
+        "Liverpool x Chelsea: Empate ou Chelsea & Ambos Marcam (@2.70)",
+        "Monza x Napoli: Napoli Vence & Mais de 1.5 Gols (@2.25)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (BLINDAGEM DESACOPLADA)",
-    "day": 2,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (NOVO CICLO SNIPER)",
+    "day": 1,
     "targetDays": 30,
-    "stake": 13.70,
-    "multiplier": 1.44,
-    "potentialReturn": 19.73,
-    "philosophy": "Princípio da Imunidade Absoluta V6: 100% desacoplado do Stop Point 1 da SAFE (sem Arsenal e sem Sporting) e fora de mata-matas eliminatórios caóticos. Baseado no abismo técnico do Girona na Copa del Rey + Fortaleza do Torino no Caldeirão de Turim.",
+    "stake": 10.00,
+    "multiplier": 1.36,
+    "potentialReturn": 13.60,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema em copas europeias no Estádio do Dragão e na Allianz Arena contra clubes de divisões inferiores.",
     "legs": [
-      "CD Cuarte x Girona FC: Girona FC Vence (Moneyline @1.20)",
-      "Torino x Como: Torino ou Empate (Dupla Chance 1X @1.20)"
+      "FC Porto x Académico de Viseu: FC Porto Vence (Moneyline @1.18)",
+      "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (Moneyline @1.15)"
     ],
     "status": "PENDING"
   }

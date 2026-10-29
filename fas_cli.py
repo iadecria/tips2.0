@@ -188,6 +188,63 @@ def cmd_combo(args):
     print("="*60 + "\n")
 
 # =============================================================================
+# COMANDO: CONFERE (LIQUIDAÇÃO E AUDITORIA OFICIAL)
+# =============================================================================
+def cmd_confere(args):
+    print("\n" + "="*70)
+    print("⚖️ AUDITORIA E LIQUIDAÇÃO OFICIAL — PROTOCOLO CONFERE FAS 3")
+    print("="*70)
+    
+    if os.path.exists(BILHETES_FILE):
+        with open(BILHETES_FILE, "r", encoding="utf-8") as f:
+            b_data = json.load(f)
+            
+        date = b_data.get("date", "N/A")
+        status = b_data.get("status", "N/A")
+        print(f"📅 Data da Rodada: {date} | Status Geral: {status}")
+        print(f"📸 Snapshot ID: {b_data.get('snapshotId', 'N/A')}\n")
+        
+        # 1. Bilhete Supremo
+        supremo = b_data.get("supremoTicket", {})
+        s_status = supremo.get("status", "PENDING")
+        s_badge = "🟢 GREEN" if s_status == "GREEN" else ("🔴 RED" if s_status == "RED" else "🟡 PENDING")
+        print(f"⭐ {supremo.get('name')} ➔ {s_badge} (@{supremo.get('multiplierGlobal', 0):.2f})")
+        for sel in supremo.get("selections", []):
+            st = sel.get("status", "PENDING")
+            icon = "✅ HIT" if st == "HIT" else ("❌ MISS" if st == "MISS" else "⏳ PENDING")
+            print(f"   [{icon}] {sel.get('match')}: {sel.get('market')} (@{sel.get('odd')})")
+            
+        # 2. Bilhetes Estruturados
+        print("\n🎫 Bilhetes Estruturados:")
+        for t in b_data.get("structuredTickets", []):
+            t_st = t.get("status", "PENDING")
+            t_badge = "🟢 GREEN" if t_st == "GREEN" else ("🔴 RED" if t_st == "RED" else "🟡 PENDING")
+            mult = f"@{t.get('multiplier')}" if t.get('multiplier') else ""
+            print(f"\n   {t_badge} {t.get('name')} {mult}")
+            
+            if "stopPoints" in t:
+                for sp in t["stopPoints"]:
+                    sp_st = sp.get("status", "PENDING")
+                    sp_icon = "🟢 GREEN" if sp_st == "GREEN" else ("🔴 RED" if sp_st == "RED" else "⚪")
+                    print(f"      ▫️ [{sp_icon}] {sp.get('level')} (@{sp.get('multiplier')}):")
+                    for leg in sp.get("legs", []):
+                        print(f"         • {leg}")
+            elif "legs" in t:
+                for leg in t.get("legs", []):
+                    print(f"      • {leg}")
+                    
+        # 3. Desafio Soros
+        soros = b_data.get("sorosTicket", {})
+        soros_st = soros.get("status", "PENDING")
+        soros_badge = "🟢 GREEN" if soros_st == "GREEN" else ("🔴 RED" if soros_st == "RED" else "🟡 PENDING")
+        print(f"\n🔥 {soros.get('name')} ➔ {soros_badge}")
+        print(f"   Stake: R$ {soros.get('stake', 0):.2f} | Multiplicador: @{soros.get('multiplier', 0):.2f} | Retorno: R$ {soros.get('potentialReturn', 0):.2f}")
+        for leg in soros.get("legs", []):
+            print(f"   • {leg}")
+            
+    print("="*70 + "\n")
+
+# =============================================================================
 # MAIN
 # =============================================================================
 def main():
@@ -197,6 +254,10 @@ def main():
     # Status
     p_status = subparsers.add_parser("status", help="Exibe status dos bilhetes ativos e Soros")
     p_status.set_defaults(func=cmd_status)
+
+    # Confere
+    p_confere = subparsers.add_parser("confere", help="Exibe relatório oficial de conferência e liquidação diária")
+    p_confere.set_defaults(func=cmd_confere)
 
     # Scan
     p_scan = subparsers.add_parser("scan", help="Executa varredura global nas 20+ ligas e copas")

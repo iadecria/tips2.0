@@ -1,189 +1,178 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-29",
   "sport": "Basquete",
-  "snapshotId": "FAS_BASKETBALL_2026-10-27_V1_NBA_TUESDAY",
+  "snapshotId": "FAS_BASKETBALL_2026-10-29_V2_MULTI_IA_SYNTHESIS",
   "status": "PENDING",
-  "notes": "Rodada Oficial NBA 2026/27 (Terça-feira 27/10): Grade completa com 4 partidas (Celtics x Nets, Knicks x Pistons, Spurs x Kings e Lakers x Trail Blazers). Estruturação com Spreads Elásticos Protegidos, Regra Team Total First e Desmembramento por Turnos (Turno 1: Prime Time Leste/Texas às 20:30-21:00 BRT e Turno 2: Late Night Oeste às 00:00 BRT). Desafio Soros no DIA 1 de 30 com R$ 10,00.",
+  "notes": "AUDITORIA OFICIAL FAS BASKETBALL — 29/10/2026: EuroLeague 100% GABARITADA no Turno 1! Crvena Zvezda 103x73 e Real Madrid 95x76 garantem GREEN no Soros Basquete Dia 3 (R$ 24,65 no bolso) e no Stop Point 1 (@1.70). Aguardando jogos da NBA (Kings e Grizzlies).",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — BASQUETE (NBA Tuesday Elite)",
+    "name": "⭐ BILHETE SUPREMO — BASQUETE (Síntese Multi-IA & Quantitativa / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Basquete",
-    "multiplierGlobal": 2.63,
-    "philosophy": "4 seleções calibradas com Spreads Elásticos Protegidos, Regra Team Total First e Mando de Quadra Histórico, divididas em Turno 1 (Prime Time) e Turno 2 (Madrugada).",
+    "multiplierGlobal": 2.25,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: Fusão do mando hostil da EuroLeague com Spreads Elásticos Protegidos na NBA ancorados no EV+ dos modelos XGBoost e Rede Neural.",
     "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🏀 TURNO 1 — PRIME TIME LESTE / TEXAS (20:30 - 21:00 BRT)",
-        "multiplier": 1.93,
-        "notes": "Team total dos Celtics no TD Garden, proteção elástica dos Pistons no MSG e vitória do Spurs no Frost Bank Center.",
+        "clusterName": "🏀 TURNO 1 — EUROLEAGUE CONTINENTAL (15:00 - 16:45 BRT)",
+        "multiplier": 1.7,
+        "notes": "Caldeirão da Belgrado Arena para o Estrela Vermelha e spread elástico seguro para o Real Madrid no WiZink Center.",
         "legs": [
-          "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
-          "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)",
-          "Sacramento Kings @ San Antonio Spurs: San Antonio Spurs Vence (ML @1.07)"
+          "Crvena Zvezda x Bayern Munich: Crvena Zvezda Vence (ML @1.31)",
+          "Real Madrid x Fenerbahçe: Real Madrid +4.5 Spread Protegido (@1.30)"
         ]
       },
       {
-        "clusterName": "⚡ TURNO 2 — LATE NIGHT OESTE (00:00 BRT)",
-        "multiplier": 1.36,
-        "notes": "Spread elástico positivo para os Lakers na Crypto.com Arena com EV positivo validado pelo XGBoost (+15.49).",
+        "clusterName": "⚡ TURNO 2 — NBA QUANTITATIVE VALUE (21:00 - 23:00 BRT)",
+        "multiplier": 1.72,
+        "notes": "Spreads elásticos nos dois jogos com EV+ brutal detectado por XGBoost e Rede Neural (Kings +18% EV e Grizzlies +18% a +38% EV).",
         "legs": [
-          "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers +5.5 Spread Protegido (@1.36)"
+          "Sacramento Kings @ New Orleans Pelicans: Sacramento Kings +10.5 Spread Protegido (@1.32)",
+          "Memphis Grizzlies @ Portland Trail Blazers: Memphis Grizzlies +12.5 Spread Protegido (@1.30)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Brooklyn Nets @ Boston Celtics (20:30 BRT)",
-        "cluster": "Turno 1",
-        "market": "Boston Celtics Acima de 111.5 Pontos",
-        "odd": 1.33,
+        "match": "Crvena Zvezda x Bayern Munich (15:00 BRT)",
+        "cluster": "Turno 1 - EuroLeague",
+        "market": "Crvena Zvezda Vence (Moneyline)",
+        "odd": 1.31,
+        "status": "HIT"
+      },
+      {
+        "match": "Real Madrid x Fenerbahçe (16:45 BRT)",
+        "cluster": "Turno 1 - EuroLeague",
+        "market": "Real Madrid +4.5 Spread Protegido",
+        "odd": 1.3,
+        "status": "HIT"
+      },
+      {
+        "match": "Sacramento Kings @ New Orleans Pelicans (21:00 BRT)",
+        "cluster": "Turno 2 - NBA",
+        "market": "Sacramento Kings +10.5 Spread Protegido",
+        "odd": 1.32,
         "status": "PENDING"
       },
       {
-        "match": "Detroit Pistons @ New York Knicks (21:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Detroit Pistons +9.5 Spread Protegido",
-        "odd": 1.36,
-        "status": "PENDING"
-      },
-      {
-        "match": "Sacramento Kings @ San Antonio Spurs (21:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "San Antonio Spurs Vence (Moneyline)",
-        "odd": 1.07,
-        "status": "PENDING"
-      },
-      {
-        "match": "Portland Trail Blazers @ Los Angeles Lakers (00:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Los Angeles Lakers +5.5 Spread Protegido",
-        "odd": 1.36,
+        "match": "Memphis Grizzlies @ Portland Trail Blazers (23:00 BRT)",
+        "cluster": "Turno 2 - NBA",
+        "market": "Memphis Grizzlies +12.5 Spread Protegido",
+        "odd": 1.3,
         "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 1,
-    "stake": 10.00,
-    "multiplier": 1.42,
-    "potentialReturn": 14.20,
-    "status": "PENDING",
-    "notes": "Desafio Soros Basquete — Ciclo 2, Dia 1 de 30 com stake base de R$ 10,00. Entrada: Combo Blindado Boston Celtics Acima de 111.5 Pontos (@1.33) + San Antonio Spurs Vence (ML @1.07) = @1.42.",
+    "day": 3,
+    "stake": 14.5,
+    "multiplier": 1.7,
+    "potentialReturn": 24.65,
+    "status": "GREEN",
+    "notes": "Desafio Soros Basquete — Dia 3 de 30 com stake de R$ 14,50. Entrada: Crvena Zvezda Vence (ML @1.31) + Real Madrid +4.5 Spread Protegido (@1.30) = @1.70.",
     "sniperOptions": [
       {
         "id": "sniper-b1",
-        "match": "Brooklyn Nets @ Boston Celtics + Sacramento Kings @ San Antonio Spurs",
-        "competition": "NBA Regular Season (20:30 / 21:00 BRT)",
-        "market": "Boston Celtics Acima de 111.5 Pontos (@1.33) + San Antonio Spurs ML (@1.07)",
-        "odd": 1.42,
-        "stake": 10.00,
-        "potentialReturn": 14.20,
-        "status": "PENDING",
+        "match": "Crvena Zvezda x Bayern Munich + Real Madrid x Fenerbahçe",
+        "competition": "EuroLeague (15:00 / 16:45 BRT)",
+        "market": "Crvena Zvezda ML (@1.31) + Real Madrid +4.5 Spread (@1.30)",
+        "odd": 1.7,
+        "stake": 14.5,
+        "potentialReturn": 24.65,
+        "status": "HIT",
         "isPrimary": true,
-        "analysis": "Celtics mantêm média superior a 118 pts no TD Garden contra defesa em reconstrução dos Nets; Spurs contam com abismo técnico e Wembanyama para liquidar o triunfo em casa."
-      },
-      {
-        "id": "sniper-b2",
-        "match": "Portland Trail Blazers @ Los Angeles Lakers",
-        "competition": "NBA Regular Season (00:00 BRT)",
-        "market": "Los Angeles Lakers +5.5 Spread Protegido",
-        "odd": 1.36,
-        "stake": 10.00,
-        "potentialReturn": 13.60,
-        "status": "PENDING",
-        "isPrimary": false,
-        "analysis": "Margem elástica para os Lakers na Crypto.com Arena, validada com EV +15.49 no XGBoost."
+        "analysis": "Estrela Vermelha invicto na Belgrado Arena com intensidade defensiva absurda; Real Madrid em casa com margem de segurança de duas posses contra o Fenerbahçe. 100% blindado contra a variância da rodada da NBA."
       }
     ],
     "selections": [
       {
-        "match": "Brooklyn Nets @ Boston Celtics",
-        "competition": "NBA Regular Season (20:30 BRT)",
-        "market": "Boston Celtics Acima de 111.5 Pontos",
-        "odd": 1.33,
-        "status": "PENDING"
+        "match": "Crvena Zvezda x Bayern Munich",
+        "competition": "EuroLeague (15:00 BRT)",
+        "market": "Crvena Zvezda Vence (Moneyline)",
+        "odd": 1.31,
+        "status": "HIT"
       },
       {
-        "match": "Sacramento Kings @ San Antonio Spurs",
-        "competition": "NBA Regular Season (21:00 BRT)",
-        "market": "San Antonio Spurs Vence (Moneyline)",
-        "odd": 1.07,
-        "status": "PENDING"
+        "match": "Real Madrid x Fenerbahçe",
+        "competition": "EuroLeague (16:45 BRT)",
+        "market": "Real Madrid +4.5 Spread Protegido",
+        "odd": 1.3,
+        "status": "HIT"
       }
-    ]
+    ],
+    "actualReturn": 24.65
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial NBA)",
+      "name": "MÚLTIPLA 1 — SAFE BASQUETE (Stop Points com Síntese Multi-IA)",
       "type": "SAFE",
       "status": "PENDING",
-      "notes": "Stop points modulares rankeados por nível de risco e janela de horário.",
+      "notes": "Stop points modulares rankeados por solidez matemática e EV+ quantitativo.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Prime Time)",
-          "multiplier": 1.81,
+          "level": "STOP POINT 1 (Dupla Âncora Europeia)",
+          "multiplier": 1.7,
           "legs": [
-            "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
-            "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)"
+            "Crvena Zvezda x Bayern Munich: Crvena Zvezda Vence (ML @1.31)",
+            "Real Madrid x Fenerbahçe: Real Madrid +4.5 Spread Protegido (@1.30)"
+          ],
+          "status": "GREEN"
+        },
+        {
+          "level": "STOP POINT 2 (Tripla com Valor Quantitativo NBA)",
+          "multiplier": 2.24,
+          "legs": [
+            "Crvena Zvezda x Bayern Munich: Crvena Zvezda Vence (ML @1.31)",
+            "Real Madrid x Fenerbahçe: Real Madrid +4.5 Spread Protegido (@1.30)",
+            "Sacramento Kings @ New Orleans Pelicans: Sacramento Kings +10.5 Spread Protegido (@1.32)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Tripla Blindada NBA)",
-          "multiplier": 2.46,
+          "level": "STOP POINT 3 (Quádrupla Blindada Total)",
+          "multiplier": 2.91,
           "legs": [
-            "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
-            "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)",
-            "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers +5.5 Spread Protegido (@1.36)"
-          ],
-          "status": "PENDING"
-        },
-        {
-          "level": "STOP POINT 3 (Quádrupla Completa)",
-          "multiplier": 2.63,
-          "legs": [
-            "Brooklyn Nets @ Boston Celtics: Boston Celtics Acima de 111.5 Pontos (@1.33)",
-            "Detroit Pistons @ New York Knicks: Detroit Pistons +9.5 Spread Protegido (@1.36)",
-            "Sacramento Kings @ San Antonio Spurs: San Antonio Spurs Vence (ML @1.07)",
-            "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers +5.5 Spread Protegido (@1.36)"
+            "Crvena Zvezda x Bayern Munich: Crvena Zvezda Vence (ML @1.31)",
+            "Real Madrid x Fenerbahçe: Real Madrid +4.5 Spread Protegido (@1.30)",
+            "Sacramento Kings @ New Orleans Pelicans: Sacramento Kings +10.5 Spread Protegido (@1.32)",
+            "Memphis Grizzlies @ Portland Trail Blazers: Memphis Grizzlies +12.5 Spread Protegido (@1.30)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Alavancagem Balanceada)",
+      "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Aproveitamento de EV+ & Spreads Estreitos)",
       "type": "SAFE+",
-      "multiplier": 2.80,
+      "multiplier": 2.71,
       "status": "PENDING",
-      "notes": "Moneylines e linhas diretas sustentadas pelos modelos matemáticos.",
+      "notes": "Handicap europeu seguro combinado ao spread reduzido dos Kings com base no EV+ de ~+18% detectado pelos modelos.",
       "legs": [
-        "Detroit Pistons @ New York Knicks: New York Knicks Vence (ML @1.58)",
-        "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers Vence (ML @1.77)"
+        "Crvena Zvezda x Bayern Munich: Crvena Zvezda -6.5 Spread (@1.75)",
+        "Sacramento Kings @ New Orleans Pelicans: Sacramento Kings +6.5 Spread (@1.55)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (Combos Ofensivos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (O Grande Consenso dos Totais)",
       "type": "ATTACK",
-      "multiplier": 5.16,
+      "multiplier": 3.15,
       "status": "PENDING",
-      "notes": "Combinações de vitória com pontuações elevadas.",
+      "notes": "Combinações de pontuação sustentadas pelo consenso absoluto de OVER nos modelos (XGB e Rede Neural).",
       "legs": [
-        "Brooklyn Nets @ Boston Celtics: Boston Celtics Vence + Mais de 222.5 Pontos Totais (@2.15)",
-        "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers Vence + Mais de 230.5 Pontos Totais (@2.40)"
+        "Sacramento Kings @ New Orleans Pelicans: Mais de 234.5 Pontos Totais (@1.78) [Consenso 62% XGB / 55% NN]",
+        "Memphis Grizzlies @ Portland Trail Blazers: Mais de 231.5 Pontos Totais (@1.77) [Consenso 62% XGB / 57% NN]"
       ]
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE (SUPER COMBO)",
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE (O Super Bingo Quantitativo Kelly)",
       "type": "NETO",
-      "multiplier": 14.85,
+      "multiplier": 21.8,
       "status": "PENDING",
-      "notes": "4 seleções arrojadas de handicap e moneyline nos 4 confrontos da rodada.",
+      "notes": "Alavancagem máxima explorando as duas maiores anomalias de valor (EV+) apontadas pelos modelos combinadas ao favoritismo em Belgrado.",
       "legs": [
-        "Brooklyn Nets @ Boston Celtics: Boston Celtics -12.5 Handicap (@1.88)",
-        "Detroit Pistons @ New York Knicks: New York Knicks -4.5 Handicap (@1.91)",
-        "Sacramento Kings @ San Antonio Spurs: San Antonio Spurs -18.5 Handicap (@1.90)",
-        "Portland Trail Blazers @ Los Angeles Lakers: Los Angeles Lakers -1.5 Handicap (@1.85)"
+        "Sacramento Kings @ New Orleans Pelicans: Sacramento Kings Vence (ML @2.72) [EV +18.37 / KC 10.7%]",
+        "Memphis Grizzlies @ Portland Trail Blazers: Memphis Grizzlies Vence (ML @3.20) [EV +38.23 / KC 17.4%]",
+        "Sacramento Kings @ New Orleans Pelicans: Mais de 237.5 Pontos Totais (@1.91)",
+        "Crvena Zvezda x Bayern Munich: Crvena Zvezda -9.5 Handicap (@2.20)"
       ]
     }
   ]

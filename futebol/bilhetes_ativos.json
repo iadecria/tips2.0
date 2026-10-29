@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-28",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-28_V1_GLOBAL_SNIPER",
-  "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS V6.1 EXPANDIDA — QUARTA-FEIRA 28/10/2026: Varredura global cobrindo Copa da Alemanha (DFB-Pokal), Taça da Liga de Portugal, Copa da Liga Inglesa (EFL Cup), Serie A Italiana (9ª Rodada) e Brasileirão Série A (33ª Rodada). Gigantes FC Porto e Bayern de Munique com abismos técnicos gigantescos em copas nacionais. Desafio Soros reiniciado no DIA 1 com R$ 10,00 100% desacoplado e protegido.",
+  "date": "2026-10-29",
+  "snapshotId": "FAS_FOOTBALL_2026-10-29_V1_GLOBAL_THURSDAY",
+  "status": "AUDITED",
+  "notes": "AUDITORIA OFICIAL FAS 3 V6.1 — 29/10/2026: Bilhete Supremo 100% GREEN (@1.85), Desafio Soros avança para o DIA 3 com R$ 22,17, SAFE+ 100% GREEN (@3.32) e Super Ataque 100% GREEN (@4.18) pelo 3º dia consecutivo!",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Quarta-feira 28/10 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Quinta-feira 29/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.82,
-    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável, controle de bola e abismo técnico comprovado.",
-    "status": "PENDING",
+    "multiplierGlobal": 1.85,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável, controle de posse e abismo técnico comprovado.",
+    "status": "GREEN",
     "selections": [
       {
-        "match": "Venezia x Inter de Milão (14:30 BRT)",
-        "competition": "Serie A Italiana (9ª Rodada)",
-        "market": "Inter de Milão ou Empate (Dupla Chance X2)",
-        "odd": 1.14,
-        "status": "PENDING"
+        "match": "Al Nassr x Al Kholood (11:00 BRT)",
+        "competition": "Saudi Pro League",
+        "market": "Al Nassr Vence (Moneyline)",
+        "odd": 1.18,
+        "status": "HIT"
       },
       {
-        "match": "FC Porto x Académico de Viseu (16:30 BRT)",
+        "match": "AE Prat x Athletic Bilbao (17:00 BRT)",
+        "competition": "Copa del Rey (1ª Eliminatória)",
+        "market": "Athletic Bilbao Vence (Moneyline)",
+        "odd": 1.1,
+        "status": "HIT"
+      },
+      {
+        "match": "AD Sporting Hortaleza x Sevilla FC (17:00 BRT)",
+        "competition": "Copa del Rey (1ª Eliminatória)",
+        "market": "Sevilla FC Vence (Moneyline)",
+        "odd": 1.12,
+        "status": "HIT"
+      },
+      {
+        "match": "SL Benfica x Gil Vicente (17:45 BRT)",
         "competition": "Taça da Liga de Portugal (Quartos de Final)",
-        "market": "FC Porto Vence (Moneyline)",
-        "odd": 1.18,
-        "status": "PENDING"
-      },
-      {
-        "match": "FC Bayern München x 1. FC Magdeburg (16:45 BRT)",
-        "competition": "DFB-Pokal (2ª Rodada)",
-        "market": "Bayern München Vence (Moneyline)",
-        "odd": 1.15,
-        "status": "PENDING"
-      },
-      {
-        "match": "Bayer Leverkusen x Nuremberg (16:45 BRT)",
-        "competition": "DFB-Pokal (2ª Rodada)",
-        "market": "Bayer Leverkusen Vence (Moneyline)",
-        "odd": 1.18,
-        "status": "PENDING"
+        "market": "Benfica Vence (Moneyline)",
+        "odd": 1.38,
+        "status": "HIT"
       }
     ]
   },
@@ -45,38 +45,38 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "GREEN",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora de Copas Europeias)",
-          "multiplier": 1.36,
+          "level": "Stop Point 1 (Dupla Âncora de Elite)",
+          "multiplier": 1.63,
           "legs": [
-            "FC Porto x Académico de Viseu: FC Porto Vence (ML @1.18)",
-            "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (ML @1.15)"
+            "Al Nassr x Al Kholood: Al Nassr Vence (ML @1.18)",
+            "SL Benfica x Gil Vicente: Benfica Vence (ML @1.38)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
-          "level": "Stop Point 2 (Quádrupla com Gigantes da Série A e Alemanha)",
-          "multiplier": 1.82,
+          "level": "Stop Point 2 (Quádrupla Blindada com Copas Espanholas)",
+          "multiplier": 2.01,
           "legs": [
-            "FC Porto x Académico de Viseu: FC Porto Vence (ML @1.18)",
-            "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (ML @1.15)",
-            "Bayer Leverkusen x Nuremberg: Bayer Leverkusen Vence (ML @1.18)",
-            "Venezia x Inter de Milão: Inter de Milão ou Empate (X2 @1.14)"
+            "Al Nassr x Al Kholood: Al Nassr Vence (ML @1.18)",
+            "SL Benfica x Gil Vicente: Benfica Vence (ML @1.38)",
+            "AE Prat x Athletic Bilbao: Athletic Bilbao Vence (ML @1.10)",
+            "AD Sporting Hortaleza x Sevilla FC: Sevilla FC Vence (ML @1.12)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
-          "level": "Stop Point 3 (Sexteto Blindado Global)",
-          "multiplier": 2.50,
+          "level": "Stop Point 3 (Sexteto Global com Brasileirão e Serie A)",
+          "multiplier": 3.0,
           "legs": [
-            "FC Porto x Académico de Viseu: FC Porto Vence (ML @1.18)",
-            "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (ML @1.15)",
-            "Bayer Leverkusen x Nuremberg: Bayer Leverkusen Vence (ML @1.18)",
-            "Venezia x Inter de Milão: Inter de Milão ou Empate (X2 @1.14)",
-            "Monza x Napoli: Napoli ou Empate (X2 @1.18)",
-            "Manchester City x Brighton: Manchester City ou Empate (1X @1.16)"
+            "Al Nassr x Al Kholood: Al Nassr Vence (ML @1.18)",
+            "SL Benfica x Gil Vicente: Benfica Vence (ML @1.38)",
+            "AE Prat x Athletic Bilbao: Athletic Bilbao Vence (ML @1.10)",
+            "AD Sporting Hortaleza x Sevilla FC: Sevilla FC Vence (ML @1.12)",
+            "Vasco x Flamengo: Flamengo ou Empate (Dupla Chance X2 @1.22)",
+            "Fiorentina x Atalanta: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
           "status": "PENDING"
         }
@@ -85,50 +85,51 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
-      "multiplier": 3.30,
-      "status": "PENDING",
+      "multiplier": 3.32,
+      "status": "GREEN",
       "legs": [
-        "FC Porto x Académico de Viseu: Porto Vence por 2+ Gols (-1.5 AH @1.55)",
-        "FC Bayern München x 1. FC Magdeburg: Bayern Vence por 2+ Gols (-1.5 AH @1.42)",
-        "Venezia x Inter de Milão: Inter de Milão Vence (ML @1.50)"
+        "Al Nassr x Al Kholood: Al Nassr Vence por 2+ Gols (-1.5 AH @1.55)",
+        "AE Prat x Athletic Bilbao: Athletic Bilbao Vence por 3+ Gols (-2.0 AH @1.45)",
+        "SL Benfica x Gil Vicente: Benfica Vence por 2+ Gols (-1.5 AH @1.95)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos Ingleses e Copas)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos Ingleses e Taças)",
       "type": "ATTACK",
-      "multiplier": 4.04,
-      "status": "PENDING",
+      "multiplier": 4.18,
+      "status": "GREEN",
       "legs": [
-        "Liverpool x Chelsea: Ambos os Times Marcam (Sim @1.55)",
-        "Manchester City x Brighton: Mais de 2.5 Gols no Jogo (@1.58)",
-        "SC Freiburg x VfL Wolfsburg: Ambos os Times Marcam (Sim @1.65)"
+        "Everton x Newcastle: Ambos os Times Marcam (Sim @1.68)",
+        "Fiorentina x Atalanta: Ambos os Times Marcam (Sim @1.62)",
+        "SL Benfica x Gil Vicente: Mais de 2.5 Gols no Jogo (@1.54)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 24.72,
-      "status": "PENDING",
+      "multiplier": 22.45,
+      "status": "RED",
       "legs": [
-        "FC Bayern München x 1. FC Magdeburg: Bayern -2.5 Handicap Asiático (@2.20)",
-        "FC Porto x Académico de Viseu: Porto Vence sem Sofrer Gols (@1.85)",
-        "Liverpool x Chelsea: Empate ou Chelsea & Ambos Marcam (@2.70)",
-        "Monza x Napoli: Napoli Vence & Mais de 1.5 Gols (@2.25)"
+        "SL Benfica x Gil Vicente: Benfica Vence & Ambas Marcam Não (@2.15)",
+        "AD Sporting Hortaleza x Sevilla FC: Sevilla Vence sem Sofrer Gols (@1.65)",
+        "Vasco x Flamengo: Flamengo Vence & Menos de 3.5 Gols (@2.40)",
+        "Everton x Newcastle: Newcastle Vence & Ambos Marcam (@3.85)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 1 DE 30 (NOVO CICLO SNIPER)",
-    "day": 1,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (CICLO SNIPER V6)",
+    "day": 2,
     "targetDays": 30,
-    "stake": 10.00,
-    "multiplier": 1.36,
-    "potentialReturn": 13.60,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema em copas europeias no Estádio do Dragão e na Allianz Arena contra clubes de divisões inferiores.",
+    "stake": 13.6,
+    "multiplier": 1.63,
+    "potentialReturn": 22.17,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema ancorada no Estádio da Luz e no Al Awwal Park com abismos técnicos gigantescos.",
     "legs": [
-      "FC Porto x Académico de Viseu: FC Porto Vence (Moneyline @1.18)",
-      "FC Bayern München x 1. FC Magdeburg: Bayern München Vence (Moneyline @1.15)"
+      "Al Nassr x Al Kholood: Al Nassr Vence (Moneyline @1.18)",
+      "SL Benfica x Gil Vicente: SL Benfica Vence (Moneyline @1.38)"
     ],
-    "status": "PENDING"
+    "status": "GREEN",
+    "actualReturn": 22.17
   }
 }

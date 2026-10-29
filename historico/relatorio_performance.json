@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-28T11:30:00-03:00",
+  "updatedAt": "2026-10-29T20:45:00-03:00",
   "kpis": {
-    "totalRounds": 17,
-    "totalTickets": 106,
-    "greenTickets": 66,
-    "redTickets": 40,
-    "winRateGlobal": "62.3%",
-    "safeWinRate": "81.8%",
-    "safePlusWinRate": "46.2%",
-    "sorosCurrentDay": 1,
-    "sorosCurrentStake": 10.00,
-    "sorosBasketballDay": 2,
-    "sorosBasketballStake": 14.5,
-    "profitFactor": 4.60
+    "totalRounds": 19,
+    "totalTickets": 116,
+    "greenTickets": 74,
+    "redTickets": 42,
+    "winRateGlobal": "63.8%",
+    "safeWinRate": "76.9%",
+    "safePlusWinRate": "50.0%",
+    "sorosCurrentDay": 3,
+    "sorosCurrentStake": 22.17,
+    "sorosBasketballDay": 4,
+    "sorosBasketballStake": 24.65,
+    "profitFactor": 5.45
   },
   "ticketBreakdown": [
     {
@@ -21,17 +21,17 @@
       "level": "Nível 2",
       "name": "Múltipla 1 — SAFE (Carro-Chefe)",
       "badge": "bg-sky-500/10 text-sky-400 border-sky-500/20",
-      "totalDisputed": 11,
-      "greens": 8,
+      "totalDisputed": 13,
+      "greens": 10,
       "reds": 3,
-      "winRate": "72.7%",
-      "stopPoint1WinRate": "90.9%",
+      "winRate": "76.9%",
+      "stopPoint1WinRate": "91.7%",
       "avgOdd": 2.85,
       "avgReturnPct": "+185%",
       "roi": "+45.0%",
-      "profitFactor": 3.80,
+      "profitFactor": 3.8,
       "recommendedBankPct": "60% - 70%",
-      "bestHit": "4/4 GREEN nos 3 Stop Points (@1.81 em 26/10) e 6/6 Absoluto (@3.72 em 16/10)",
+      "bestHit": "4/4 GREEN nos 3 Stop Points (@1.81 em 26/10) e 6/6 Absoluto no Stop Point 3 (@2.50 em 28/10)",
       "description": "Blindagem matemática máxima baseada em Dupla Chance (1X/X2) e Over 1.5. Possui 3 Stop Points comutáveis para encerramento antecipado."
     },
     {
@@ -40,16 +40,16 @@
       "level": "Nível 3",
       "name": "Múltipla 2 — SAFE+ (Alavancagem)",
       "badge": "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
-      "totalDisputed": 12,
-      "greens": 6,
-      "reds": 6,
+      "totalDisputed": 14,
+      "greens": 7,
+      "reds": 7,
       "winRate": "50.0%",
       "avgOdd": 3.65,
       "avgReturnPct": "+265%",
       "roi": "+28.2%",
-      "profitFactor": 2.70,
+      "profitFactor": 2.7,
       "recommendedBankPct": "15% - 20%",
-      "bestHit": "2/2 GREEN (@2.64 em 26/10), 3/3 GREEN (@3.45 em 24/10) e 5/5 Histórico (@6.36 em 11/10)",
+      "bestHit": "3/3 GREEN (@3.32 em 29/10), 2/2 GREEN (@2.64 em 26/10) e 5/5 Histórico (@6.36 em 11/10)",
       "description": "Alavancagem balanceada combinando handicaps asiáticos protegidos (-1.5 AH / +1.0 AH) e vitórias secas de mandantes fortes."
     },
     {
@@ -58,16 +58,16 @@
       "level": "Nível 4",
       "name": "Múltipla 3 — SUPER ATAQUE (Pra Cima)",
       "badge": "bg-orange-500/10 text-orange-400 border-orange-500/20",
-      "totalDisputed": 11,
-      "greens": 3,
+      "totalDisputed": 13,
+      "greens": 5,
       "reds": 8,
-      "winRate": "27.3%",
+      "winRate": "38.5%",
       "avgOdd": 9.4,
       "avgReturnPct": "+840%",
       "roi": "+48.0%",
       "profitFactor": 2.6,
       "recommendedBankPct": "10%",
-      "bestHit": "Tripla Cobre (@8.75) e acertos cirúrgicos de Ambas Marcam (@2.40 e @1.80)",
+      "bestHit": "3x GREEN Consecutivo no Super Ataque (@4.28 em 27/10, @4.04 em 28/10 e @4.18 em 29/10)!",
       "description": "Retorno exponencial voltado a mercados agressivos com correlação positiva: Ambas as Equipes Marcam (BTTS), Over 2.5 e vitórias combinadas."
     },
     {
@@ -76,16 +76,16 @@
       "level": "Nível 5",
       "name": "Múltipla 4 — APOSENTAR O NETO",
       "badge": "bg-rose-500/10 text-rose-400 border-rose-500/20",
-      "totalDisputed": 10,
-      "greens": 1,
-      "reds": 9,
-      "winRate": "10.0%",
+      "totalDisputed": 12,
+      "greens": 2,
+      "reds": 10,
+      "winRate": "16.7%",
       "avgOdd": 32.5,
       "avgReturnPct": "+2758%",
       "roi": "+195.3%",
       "profitFactor": 3.85,
       "recommendedBankPct": "2% - 5% (Moeda de Troco)",
-      "bestHit": "🏆 4/4 GREEN HISTÓRICO TOTAL (@28.58 Cravado em 18/10)",
+      "bestHit": "🏆 GABARITO 4/4 GREEN HISTÓRICO TOTAL (@28.58 em 18/10 e @24.72 em 28/10)",
       "description": "Super combo de alta alavancagem montado com as melhores teses do dia. Cotações entre 25.00 e 150.00+. Bingo histórico cravado neste domingo."
     },
     {
@@ -94,17 +94,17 @@
       "level": "Nível 0",
       "name": "Desafio Soros 30 Dias (O Sniper)",
       "badge": "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-      "totalDisputed": 12,
-      "greens": 10,
+      "totalDisputed": 14,
+      "greens": 12,
       "reds": 2,
-      "winRate": "83.3%",
-      "currentStreak": 1,
+      "winRate": "85.7%",
+      "currentStreak": 3,
       "avgOdd": 1.3,
       "avgReturnPct": "+250.0%",
       "roi": "+250.0%",
       "profitFactor": 6.3,
       "recommendedBankPct": "Gestão Soros Exclusiva (R$ 10 inicial)",
-      "bestHit": "9 Greens Consecutivos (R$ 10 ➔ R$ 132,40) e Novo Ciclo Dia 1 GREEN (@1.37)",
+      "bestHit": "9 Greens Consecutivos (R$ 10 -> R$ 132,40) e Novo Ciclo Dia 2 GREEN (@1.63 -> R$ 22,17)",
       "description": "Estratégia de juros compostos com entrada única diária (odd @1.24 a @1.45). Blindagem absoluta contra variância e foco em liquidez de elite."
     },
     {
@@ -113,17 +113,17 @@
       "level": "Nível 1",
       "name": "Bilhete Supremo (O Filé do Dia)",
       "badge": "bg-amber-500/10 text-amber-400 border-amber-500/20",
-      "totalDisputed": 11,
-      "greens": 7,
+      "totalDisputed": 13,
+      "greens": 9,
       "reds": 4,
-      "winRate": "63.6%",
-      "legsHitRate": "87.8%",
+      "winRate": "69.2%",
+      "legsHitRate": "88.5%",
       "avgOdd": 6.8,
       "avgReturnPct": "+580%",
       "roi": "+76.5%",
       "profitFactor": 4.1,
       "recommendedBankPct": "15%",
-      "bestHit": "Sniper de Ouro 3/3 GREEN (@1.65 em 26/10) e 3º GREEN Consecutivo 10/10 (@4.14 em 23/10)",
+      "bestHit": "Sniper de Ouro 4/4 GREEN (@1.85 em 29/10) e 4/4 GREEN (@1.82 em 28/10)",
       "description": "A grande grade do dia dividida por Turnos (Almoço, Tarde, Noite). Permite saídas parciais lucrativas por horário com taxa de acerto por perna superior a 86%."
     }
   ],
@@ -202,30 +202,71 @@
     },
     {
       "date": "24/10",
-      "banca": 13.70,
-      "lucro": 3.70,
+      "banca": 13.7,
+      "lucro": 3.7,
       "winRate": 90
     },
     {
       "date": "25/10",
-      "banca": 10.00,
-      "lucro": -13.70,
+      "banca": 10.0,
+      "lucro": -13.7,
       "winRate": 70
     },
     {
       "date": "26/10",
-      "banca": 13.70,
-      "lucro": 3.70,
+      "banca": 13.7,
+      "lucro": 3.7,
       "winRate": 95
     },
     {
       "date": "27/10",
-      "banca": 10.00,
-      "lucro": -13.70,
+      "banca": 10.0,
+      "lucro": -13.7,
       "winRate": 70
+    },
+    {
+      "date": "28/10",
+      "banca": 13.6,
+      "lucro": 3.6,
+      "winRate": 80
+    },
+    {
+      "date": "29/10",
+      "banca": 22.17,
+      "lucro": 8.57,
+      "winRate": 90
     }
   ],
   "history": [
+    {
+      "date": "2026-10-29",
+      "sport": "Futebol (Copa del Rey, Taça da Liga, EFL Cup, Serie A & Saudi League) + Basquete EuroLeague",
+      "totalTickets": 5,
+      "greens": 4,
+      "reds": 1,
+      "highlights": [
+        "⭐ BILHETE SUPREMO 100% GREEN (@1.85) cravado com 4/4 acertos perfeitos (Al Nassr ML, Bilbao ML, Sevilla ML, Benfica ML)!",
+        "🛡️➕ MÚLTIPLA 2 SAFE+ 100% GREEN MONSTRUOSO (@3.32) com Al Nassr -1.5 AH (5x3), Bilbao -2.0 AH (6x1) e Benfica -1.5 AH (4x1)!",
+        "💥 TERCEIRO DIA CONSECUTIVO DE GREEN NO SUPER ATAQUE (@4.18 CRAVADO) com Everton 3x1 Newcastle BTTS, Fiorentina 2x2 Atalanta BTTS e Benfica 4x1 Over 2.5 (+318% de lucro limpo)!",
+        "🛡️ MÚLTIPLA 1 SAFE 100% GREEN no Stop Point 1 (@1.63) e Stop Point 2 (@2.01)!",
+        "🔥 Desafio Soros Futebol avança invicto para o DIA 3 com banca de R$ 22,17 (+63% de retorno)!",
+        "🏀 Desafio Soros Basquete Dia 3 100% GREEN (@1.70) com Crvena Zvezda 103x73 e Real Madrid 95x76! Banca avança para R$ 24,65 no DIA 4!"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "sport": "Futebol (DFB-Pokal, Taça da Liga, Serie A, EFL Cup & Brasileirão)",
+      "totalTickets": 5,
+      "greens": 4,
+      "reds": 1,
+      "highlights": [
+        "🏆 HISTÓRICO GABARITO NA APOSENTAR O NETO (@24.72 CRAVADO) com Bayern -2.5 AH (6x1), Porto clean sheet (1x0), Liverpool 1x1 Chelsea e Napoli 4x1 Monza!",
+        "💥 SEGUNDO DIA CONSECUTIVO DE GREEN NO SUPER ATAQUE (@4.04 CRAVADO) com Liverpool x Chelsea BTTS, Man City x Brighton Over 2.5 e Freiburg 3x2 Wolfsburg BTTS!",
+        "⭐ BILHETE SUPREMO 100% GREEN (@1.82) com 4/4 acertos perfeitos (Inter X2, Porto ML, Bayern ML, Leverkusen ML)!",
+        "🛡️ MÚLTIPLA 1 SAFE GABARITADA NO STOP POINT 3 (@2.50) com 6/6 seleções convertidas com soberania!",
+        "🔥 Desafio Soros avança invicto para o DIA 2 DE 30 com banca de R$ 13,60 (+36% no Dia 1)!"
+      ]
+    },
     {
       "date": "2026-10-27",
       "sport": "Futebol (Copa del Rey, Taça da Liga, Serie A, EFL Cup, DFB-Pokal & Série B)",

@@ -567,7 +567,72 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
     *   **Resultado:** ❌ **MISS** (Panathinaikos 81x91 Hapoel).
     *   **Conclusão do Ciclo:** O desafio do basquete sofreu stop no Dia 3. O ciclo é reiniciado no Dia 1 com stake base padrão de R$ 10,00 na próxima rodada oficial da NBA / EuroLeague.
 
+---
 
+### [2026-10-29] — RODADA DIÁRIA (EUROLEAGUE & NBA — SÍNTESE MULTI-IA & MODELOS QUANTITATIVOS)
 
+- **Snapshot ID:** `FAS_BASKETBALL_2026-10-29_V2_MULTI_IA_SYNTHESIS`
+- **Data do Registro:** 2026-10-29
+- **Cutoff:** 2026-10-29T15:00:00-03:00
+- **Contexto da Data:** Super quinta-feira de basquete combinando EuroLeague e NBA com integração oficial do protocolo Multi-IA / Shadow. O pipeline externo rodou XGBoost e Rede Neural com cálculo de Expected Value (EV) e Kelly Criterion (KC) sobre odds reais da FanDuel. Resultados chave do modelo:
+  1. **Consenso Massivo de OVER:** SAC @ NOP (XGB 62.0% / NN 54.8% OVER 237.5) e MEM @ POR (XGB 61.8% / NN 56.6% OVER 234.5).
+  2. **Anomalia de Valor (EV+ em Underdogs):** Sacramento Kings (+172 / EV +18.37 / KC 10.68%) e Memphis Grizzlies (+220 / EV +18.77 XGB e +38.23 NN / KC 17.38%).
+  3. **Conflito / Jogo Dividido:** CLE @ ATL com modelos em direções opostas (XGB dá Cavaliers 54.7% e Under, NN dá Hawks 56.5% e Over). A diretriz FAS isolou CLE @ ATL de bilhetes âncora para conter variância.
+- **Status de Liquidação:** **PARCIALMENTE LIQUIDADO / EUROLEAGUE 100% GREEN (NBA PENDING)**
 
+#### 1. Discovery e Cobertura
+- Analisados: 8 fixtures (3 EuroLeague + 3 NBA + 2 ligas regionais)
+- Elegíveis: 5 fixtures de elite
+- Descartados: Maccabi Tel Aviv x Paris Basketball (quadra neutra e alta volatilidade de spread).
 
+#### 2. Grade de Fixtures, Resultados e Liquidação Oficial (CONFERE)
+
+1. **Crvena Zvezda (Estrela Vermelha) 103 × 73 FC Bayern Munich** (EuroLeague — 15:00 BRT)
+   - *Resultado Oficial:* 103 × 73 (+30 pontos de vantagem para Belgrado)
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 3):** Crvena Zvezda Vence (Moneyline @1.31) ➔ ✅ **HIT** (103x73)
+   - **SAFE+:** Crvena Zvezda -6.5 Spread (@1.75) ➔ ✅ **HIT** (Massacre com +30 pts de margem)
+   - **NETO:** Crvena Zvezda -9.5 Handicap (@2.20) ➔ ✅ **HIT**
+
+2. **Real Madrid 95 × 76 Fenerbahçe Beko** (EuroLeague — 16:45 BRT)
+   - *Resultado Oficial:* 95 × 76 (Vitória do Real Madrid por 19 pontos no Movistar Arena)
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 3):** Real Madrid +4.5 Spread Protegido (@1.30) ➔ ✅ **HIT** (95 + 4.5 = 99.5 > 76; Real venceu direto com +19)
+   - **SAFE+:** Real Madrid Vence (Moneyline @1.64) ➔ ✅ **HIT** (95x76)
+
+3. **Cleveland Cavaliers @ Atlanta Hawks** (State Farm Arena — 20:00 BRT — NBA)
+   - *Status:* Em andamento
+
+4. **Sacramento Kings @ New Orleans Pelicans** (Smoothie King Center — 21:00 BRT — NBA)
+   - *Status:* Pré-jogo (Inicia às 21:00 BRT)
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Sacramento Kings +10.5 Spread Protegido (@1.32) ➔ ⏳ **PENDENTE**
+   - **SAFE+:** Sacramento Kings +6.5 Spread (@1.55) ➔ ⏳ **PENDENTE**
+   - **ATTACK:** Mais de 234.5 Pontos Totais (@1.78) ➔ ⏳ **PENDENTE**
+   - **NETO:** Sacramento Kings Vence Seco (ML @2.72) ➔ ⏳ **PENDENTE**
+
+5. **Memphis Grizzlies @ Portland Trail Blazers** (Moda Center — 23:00 BRT — NBA)
+   - *Status:* Pré-jogo (Inicia às 23:00 BRT)
+   - **Tese (Bilhete Supremo / SAFE Stop 3):** Memphis Grizzlies +12.5 Spread Protegido (@1.30) ➔ ⏳ **PENDENTE**
+   - **ATTACK:** Mais de 231.5 Pontos Totais (@1.77) ➔ ⏳ **PENDENTE**
+   - **NETO:** Memphis Grizzlies Vence Seco (ML @3.20) ➔ ⏳ **PENDENTE**
+
+#### 3. Auditoria dos Bilhetes Estruturados de Basquete de 29/10
+
+- 🔥 **DESAFIO SOROS BASQUETE — DIA 3 DE 30:** 🟢 **100% GREEN IMPECÁVEL (@1.70)!**
+  - Crvena Zvezda Vence (ML @1.31 ✅ 103x73)
+  - Real Madrid +4.5 Spread Protegido (@1.30 ✅ 95x76)
+  - *Retorno:* **R$ 24,65**! A banca do basquete avança triunfante para o **DIA 4 DE 30** com **R$ 24,65**!
+
+- ⭐ **BILHETE SUPREMO BASQUETE (@2.25):**
+  - 🥪 **Turno 1 (EuroLeague Continental):** 🟢 **100% GREEN GABARITADO (@1.70)!** (Crvena Zvezda ML ✅ + Real Madrid +4.5 Spread ✅)
+  - ⚡ **Turno 2 (NBA Quantitative Value):** ⏳ **PENDENTE** (Aguardando Kings +10.5 às 21:00 e Grizzlies +12.5 às 23:00).
+
+- 🎫 **MÚLTIPLA 1 — SAFE BASQUETE (Stop Points Modulares):**
+  - 🟢 **Stop Point 1 (Dupla Âncora Europeia @1.70):** 🟢 **100% GREEN NO BOLSO!** (Crvena ML ✅ + Real Madrid +4.5 ✅)
+  - 🟡 **Stop Point 2 (Tripla NBA @2.24):** ⏳ Aguarda Kings +10.5
+  - 🔴 **Stop Point 3 (Quádrupla Blindada Total @2.91):** ⏳ Aguarda Kings +10.5 e Grizzlies +12.5
+
+- 🎫 **MÚLTIPLA 2 — SAFE+ BASQUETE (@2.71):**
+  - Crvena Zvezda -6.5 Spread (@1.75 ✅ 103x73)
+  - Sacramento Kings +6.5 Spread (@1.55 ⏳)
+
+- 🎫 **MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (@3.15):** ⏳ Aguarda jogos da NBA
+- 🎫 **MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE (@21.80):** ⏳ Crvena -9.5 ✅ (103x73), aguarda jogos da NBA

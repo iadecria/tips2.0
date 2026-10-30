@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-29",
-  "snapshotId": "FAS_FOOTBALL_2026-10-29_V1_GLOBAL_THURSDAY",
-  "status": "AUDITED",
-  "notes": "AUDITORIA OFICIAL FAS 3 V6.1 — 29/10/2026: Bilhete Supremo 100% GREEN (@1.85), Desafio Soros avança para o DIA 3 com R$ 22,17, SAFE+ 100% GREEN (@3.32) e Super Ataque 100% GREEN (@4.18) pelo 3º dia consecutivo!",
+  "date": "2026-10-30",
+  "snapshotId": "FAS_FOOTBALL_2026-10-30_V1_GLOBAL_FRIDAY",
+  "status": "PENDING",
+  "notes": "GRADE OFICIAL FAS 3 V6.1 — SEXTA-FEIRA 30/10/2026: Varredura global cobrindo abertura das grandes ligas europeias (Liga Portugal com Sporting CP, Ligue 1 com PSG e Derby du Nord Lille x Lens, La Liga com Villarreal no La Cerámica, Bundesliga) somada à Saudi Pro League (Al Ittihad de Benzema) e reta final do Brasileirão Séries A e B. Desafio Soros avançando consagrado para o DIA 3 com R$ 22,17.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Quinta-feira 29/10 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Sexta-feira 30/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.85,
+    "multiplierGlobal": 1.95,
     "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável, controle de posse e abismo técnico comprovado.",
-    "status": "GREEN",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Al Nassr x Al Kholood (11:00 BRT)",
+        "match": "Abha x Al Ittihad (12:00 BRT)",
         "competition": "Saudi Pro League",
-        "market": "Al Nassr Vence (Moneyline)",
-        "odd": 1.18,
-        "status": "HIT"
+        "market": "Al Ittihad ou Empate (Dupla Chance X2)",
+        "odd": 1.08,
+        "status": "PENDING"
       },
       {
-        "match": "AE Prat x Athletic Bilbao (17:00 BRT)",
-        "competition": "Copa del Rey (1ª Eliminatória)",
-        "market": "Athletic Bilbao Vence (Moneyline)",
-        "odd": 1.1,
-        "status": "HIT"
+        "match": "Le Havre x Paris Saint-Germain (15:00 BRT)",
+        "competition": "Ligue 1 (França)",
+        "market": "Paris Saint-Germain Vence (Moneyline)",
+        "odd": 1.28,
+        "status": "PENDING"
       },
       {
-        "match": "AD Sporting Hortaleza x Sevilla FC (17:00 BRT)",
-        "competition": "Copa del Rey (1ª Eliminatória)",
-        "market": "Sevilla FC Vence (Moneyline)",
+        "match": "Villarreal x RCD Espanyol (17:00 BRT)",
+        "competition": "La Liga (Espanha)",
+        "market": "Villarreal ou Empate (Dupla Chance 1X)",
         "odd": 1.12,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "SL Benfica x Gil Vicente (17:45 BRT)",
-        "competition": "Taça da Liga de Portugal (Quartos de Final)",
-        "market": "Benfica Vence (Moneyline)",
-        "odd": 1.38,
-        "status": "HIT"
+        "match": "Casa Pia x Sporting CP (17:15 BRT)",
+        "competition": "Liga Portugal",
+        "market": "Sporting CP Vence (Moneyline)",
+        "odd": 1.26,
+        "status": "PENDING"
       }
     ]
   },
@@ -45,38 +45,38 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "GREEN",
+      "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora de Elite)",
-          "multiplier": 1.63,
+          "level": "Stop Point 1 (Dupla Âncora de Elite Europeia)",
+          "multiplier": 1.61,
           "legs": [
-            "Al Nassr x Al Kholood: Al Nassr Vence (ML @1.18)",
-            "SL Benfica x Gil Vicente: Benfica Vence (ML @1.38)"
+            "Casa Pia x Sporting CP: Sporting CP Vence (ML @1.26)",
+            "Le Havre x Paris Saint-Germain: PSG Vence (ML @1.28)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla Blindada com Copas Espanholas)",
-          "multiplier": 2.01,
+          "level": "Stop Point 2 (Quádrupla Blindada com La Liga e Arábia)",
+          "multiplier": 1.95,
           "legs": [
-            "Al Nassr x Al Kholood: Al Nassr Vence (ML @1.18)",
-            "SL Benfica x Gil Vicente: Benfica Vence (ML @1.38)",
-            "AE Prat x Athletic Bilbao: Athletic Bilbao Vence (ML @1.10)",
-            "AD Sporting Hortaleza x Sevilla FC: Sevilla FC Vence (ML @1.12)"
+            "Casa Pia x Sporting CP: Sporting CP Vence (ML @1.26)",
+            "Le Havre x Paris Saint-Germain: PSG Vence (ML @1.28)",
+            "Villarreal x RCD Espanyol: Villarreal ou Empate (1X @1.12)",
+            "Abha x Al Ittihad: Al Ittihad ou Empate (X2 @1.08)"
           ],
-          "status": "GREEN"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Sexteto Global com Brasileirão e Serie A)",
-          "multiplier": 3.0,
+          "level": "Stop Point 3 (Sexteto Global com Brasileirão e Derby du Nord)",
+          "multiplier": 2.8,
           "legs": [
-            "Al Nassr x Al Kholood: Al Nassr Vence (ML @1.18)",
-            "SL Benfica x Gil Vicente: Benfica Vence (ML @1.38)",
-            "AE Prat x Athletic Bilbao: Athletic Bilbao Vence (ML @1.10)",
-            "AD Sporting Hortaleza x Sevilla FC: Sevilla FC Vence (ML @1.12)",
-            "Vasco x Flamengo: Flamengo ou Empate (Dupla Chance X2 @1.22)",
-            "Fiorentina x Atalanta: Mais de 1.5 Gols no Jogo (@1.22)"
+            "Casa Pia x Sporting CP: Sporting CP Vence (ML @1.26)",
+            "Le Havre x Paris Saint-Germain: PSG Vence (ML @1.28)",
+            "Villarreal x RCD Espanyol: Villarreal ou Empate (1X @1.12)",
+            "Abha x Al Ittihad: Al Ittihad ou Empate (X2 @1.08)",
+            "Corinthians x Mirassol: Corinthians ou Empate (1X @1.18)",
+            "Lille x Lens: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
           "status": "PENDING"
         }
@@ -85,51 +85,50 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
-      "multiplier": 3.32,
-      "status": "GREEN",
+      "multiplier": 3.5,
+      "status": "PENDING",
       "legs": [
-        "Al Nassr x Al Kholood: Al Nassr Vence por 2+ Gols (-1.5 AH @1.55)",
-        "AE Prat x Athletic Bilbao: Athletic Bilbao Vence por 3+ Gols (-2.0 AH @1.45)",
-        "SL Benfica x Gil Vicente: Benfica Vence por 2+ Gols (-1.5 AH @1.95)"
+        "Casa Pia x Sporting CP: Sporting CP Vence por 2+ Gols (-1.5 AH @1.75)",
+        "Le Havre x PSG: PSG Vence por 2+ Gols (-1.5 AH @1.78)",
+        "Villarreal x RCD Espanyol: Villarreal Vence (ML @1.45)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos Ingleses e Taças)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos e Aberturas)",
       "type": "ATTACK",
-      "multiplier": 4.18,
-      "status": "GREEN",
+      "multiplier": 4.65,
+      "status": "PENDING",
       "legs": [
-        "Everton x Newcastle: Ambos os Times Marcam (Sim @1.68)",
-        "Fiorentina x Atalanta: Ambos os Times Marcam (Sim @1.62)",
-        "SL Benfica x Gil Vicente: Mais de 2.5 Gols no Jogo (@1.54)"
+        "Lille x Lens: Ambos os Times Marcam (Sim @1.65)",
+        "SV Elversberg x Mainz 05: Mais de 2.5 Gols no Jogo (@1.68)",
+        "Corinthians x Mirassol: Corinthians Vence & Menos de 3.5 Gols (@2.15)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 22.45,
-      "status": "RED",
+      "multiplier": 34.58,
+      "status": "PENDING",
       "legs": [
-        "SL Benfica x Gil Vicente: Benfica Vence & Ambas Marcam Não (@2.15)",
-        "AD Sporting Hortaleza x Sevilla FC: Sevilla Vence sem Sofrer Gols (@1.65)",
-        "Vasco x Flamengo: Flamengo Vence & Menos de 3.5 Gols (@2.40)",
-        "Everton x Newcastle: Newcastle Vence & Ambos Marcam (@3.85)"
+        "Casa Pia x Sporting CP: Sporting CP Vence sem Sofrer Gols (@1.90)",
+        "Le Havre x PSG: PSG Vence & Mais de 2.5 Gols (@1.85)",
+        "Villarreal x Espanyol: Villarreal Vence & Ambos Marcam Não (@2.40)",
+        "Lille x Lens: Lille Vence & Ambos os Times Marcam (@4.10)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 2 DE 30 (CICLO SNIPER V6)",
-    "day": 2,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 3 DE 30 (CICLO SNIPER V6)",
+    "day": 3,
     "targetDays": 30,
-    "stake": 13.6,
-    "multiplier": 1.63,
-    "potentialReturn": 22.17,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema ancorada no Estádio da Luz e no Al Awwal Park com abismos técnicos gigantescos.",
+    "stake": 22.17,
+    "multiplier": 1.36,
+    "potentialReturn": 30.15,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o líder invicto da Liga Portugal e a blindagem do Al Ittihad na Saudi League.",
     "legs": [
-      "Al Nassr x Al Kholood: Al Nassr Vence (Moneyline @1.18)",
-      "SL Benfica x Gil Vicente: SL Benfica Vence (Moneyline @1.38)"
+      "Casa Pia x Sporting CP: Sporting CP Vence (Moneyline @1.26)",
+      "Abha x Al Ittihad: Al Ittihad ou Empate (Dupla Chance X2 @1.08)"
     ],
-    "status": "GREEN",
-    "actualReturn": 22.17
+    "status": "PENDING"
   }
 }

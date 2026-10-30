@@ -2596,3 +2596,100 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Al Nassr Vence (ML @1.18 ✅ 5x3)
   - SL Benfica Vence (ML @1.38 ✅ 4x1)
   - *Retorno:* **R$ 22,17**! A banca avança triunfante para o **DIA 3 DE 30** com **R$ 22,17**!
+
+
+---
+
+### [2026-10-30] — RODADA DIÁRIA (VARREDURA GLOBAL FAS 3 V6.1: LA LIGA, LIGUE 1, LIGA PORTUGAL, SAUDI PRO LEAGUE & BRASILEIRÃO SÉRIES A/B)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-10-30_V1_GLOBAL_FRIDAY
+- **Data do Registro:** 2026-10-30
+- **Cutoff:** 2026-10-30T12:00:00-03:00
+- **Contexto da Data:** Super sexta-feira de futebol global com a abertura da rodada nas grandes ligas europeias. O Al Ittihad de Benzema e Fabinho visita o modesto Abha pela Saudi Pro League; o Paris Saint-Germain visita o Le Havre abrindo a 10ª rodada da Ligue 1; o Villarreal recebe o instável Espanyol no Estadio de La Cerámica por La Liga; o Sporting CP defende a liderança isolada de Portugal visitando o Casa Pia em Rio Maior; o clássico Derby du Nord agita o norte francês com Lille x Lens; a Bundesliga tem SV Elversberg x Mainz 05; e o futebol brasileiro conta com a Neo Química Arena lotada para Corinthians x Mirassol (Série A) e o duelo decisivo Criciúma x Ponte Preta (Série B).
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura Global
+- Analisados: 22 fixtures internacionais
+- Elegíveis: 8 fixtures de elite com liquidez máxima e cobertura estatística
+- Descartados no pente-fino: Westerlo x Dender (liga belga com alta volatilidade), Eupen x Seraing (Série B belga), confrontos regionais sem liquidez.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+
+1. **Abha × Al Ittihad** (12:00 BRT — Saudi Pro League 12ª Rodada)
+   - **Game State & Contexto:** Al Ittihad com elenco estrelado (Benzema, Moussa Diaby, Fabinho, Aouar) contra equipe na zona de rebaixamento que concede 2.4 gols por jogo.
+   - **Tese (Bilhete Supremo / SAFE Stop 2 / Soros Dia 3):** Al Ittihad ou Empate (Dupla Chance X2 @1.08)
+   - **SAFE+:** Al Ittihad Vence por 2+ Gols (-1.5 AH @1.65)
+   - **NETO:** Al Ittihad Vence & Karim Benzema Marca (@1.80)
+
+2. **Le Havre × Paris Saint-Germain** (15:00 BRT — Ligue 1 10ª Rodada)
+   - **Game State & Contexto:** PSG dominante na Ligue 1 (Barcola, Dembélé, Vitinha) enfrentando o Le Havre em crise defensiva.
+   - **Tese (Bilhete Supremo / SAFE Stop 1):** Paris Saint-Germain Vence (Moneyline @1.28)
+   - **SAFE+:** PSG Vence por 2+ Gols (-1.5 AH @1.78)
+   - **NETO:** PSG Vence & Mais de 2.5 Gols (@1.85)
+
+3. **Villarreal × RCD Espanyol** (17:00 BRT — La Liga 11ª Rodada)
+   - **Game State & Contexto:** Estadio de La Cerámica. Villarreal no G4 com Ayoze Pérez e Baena contra o Espanyol que perdeu 4 das últimas 5 como visitante.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Villarreal ou Empate (Dupla Chance 1X @1.12)
+   - **SAFE+:** Villarreal Vence (Moneyline @1.45)
+   - **NETO:** Villarreal Vence & Ambos os Times Marcam Não (@2.40)
+
+4. **Casa Pia × Sporting CP** (17:15 BRT — Liga Portugal 10ª Jornada)
+   - **Game State & Contexto:** Estádio Municipal de Rio Maior. Sporting CP avassalador com Gyökeres e ritmo imponente. Casa Pia com apenas 0.7 xG como mandante.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 3):** Sporting CP Vence (Moneyline @1.26)
+   - **SAFE+:** Sporting CP Vence por 2+ Gols (-1.5 AH @1.75)
+   - **NETO:** Sporting CP Vence sem Sofrer Gols (@1.90)
+
+5. **Lille OSC × RC Lens** (17:05 BRT — Ligue 1 10ª Rodada / Derby du Nord)
+   - **Game State & Contexto:** Clássico eletrizante do norte francês com transições rápidas e alta rivalidade.
+   - **Tese (ATTACK):** Ambos os Times Marcam (Sim @1.65)
+   - **SAFE Stop 3:** Mais de 1.5 Gols no Jogo (@1.22)
+   - **NETO:** Lille Vence & Ambos os Times Marcam (@4.10)
+
+6. **Corinthians × Mirassol** (20:00 BRT — Brasileirão Série A 33ª Rodada)
+   - **Game State & Contexto:** Neo Química Arena com Memphis Depay e Yuri Alberto. Fator casa determinante para segurar o ímpeto do Mirassol.
+   - **Tese (SAFE Stop 3):** Corinthians ou Empate (Dupla Chance 1X @1.18)
+   - **ATTACK:** Corinthians Vence & Menos de 3.5 Gols (@2.15)
+   - **NETO:** Corinthians Vence por Exatamente 1 ou 2 Gols (@2.10)
+
+7. **SV Elversberg × Mainz 05** (15:30 BRT — Bundesliga 8ª Rodada)
+   - **Game State & Contexto:** Duelo aberto na Alemanha com média combinada de 3.1 gols por partida.
+   - **Tese (ATTACK):** Mais de 2.5 Gols no Jogo (@1.68)
+
+8. **Criciúma × Ponte Preta** (19:30 BRT — Brasileirão Série B 36ª Rodada)
+   - **Game State & Contexto:** Heriberto Hülse em reta decisiva da Série B. Jogo travado e truncado.
+   - **Tese (Scanner):** Menos de 3.5 Gols no Jogo (@1.18)
+
+#### 3. Arquitetura Oficial dos Bilhetes Estruturados de 30/10
+
+* ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL (@1.95):**
+  * ▫️ **Abha × Al Ittihad:** Al Ittihad ou Empate (X2 @1.08)
+  * ▫️ **Le Havre × Paris Saint-Germain:** PSG Vence (ML @1.28)
+  * ▫️ **Villarreal × RCD Espanyol:** Villarreal ou Empate (1X @1.12)
+  * ▫️ **Casa Pia × Sporting CP:** Sporting CP Vence (ML @1.26)
+  * *Multiplicador Global:* **@1.95** (4 fortalezas continentais sem margem para zebras; turnos escalonados às 12h, 15h e 17h).
+
+* 🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+  * 🟢 **Stop Point 1 (Dupla Âncora de Elite Europeia @1.61):** Sporting CP ML (@1.26) + PSG ML (@1.28).
+  * 🟡 **Stop Point 2 (Quádrupla Blindada com La Liga e Arábia @1.95):** Stop Point 1 + Villarreal 1X (@1.12) + Al Ittihad X2 (@1.08).
+  * 🔴 **Stop Point 3 (Sexteto Global com Brasileirão e Derby du Nord @2.80):** Stop Point 2 + Corinthians 1X (@1.18) + Lille x Lens Over 1.5 (@1.22).
+
+* 🎫 **MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição @3.50):**
+  * Casa Pia x Sporting CP: Sporting CP Vence por 2+ Gols (-1.5 AH @1.75)
+  * Le Havre x PSG: PSG Vence por 2+ Gols (-1.5 AH @1.78)
+  * Villarreal x RCD Espanyol: Villarreal Vence (ML @1.45)
+  * *Multiplicador:* **@3.50**
+
+* 🎫 **MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos e Aberturas @4.65):**
+  * Lille x Lens: Ambos os Times Marcam (Sim @1.65)
+  * SV Elversberg x Mainz 05: Mais de 2.5 Gols no Jogo (@1.68)
+  * Corinthians x Mirassol: Corinthians Vence & Menos de 3.5 Gols (@2.15)
+  * *Multiplicador:* **@4.65**
+
+* 🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@34.58):**
+  * Sporting CP Vence sem Sofrer Gols (@1.90) + PSG Vence & Mais de 2.5 Gols (@1.85) + Villarreal Vence & Ambos Marcam Não (@2.40) + Lille x Lens: Lille Vence & Ambos Marcam (@4.10).
+  * *Multiplicador:* **@34.58** (Super retorno assimétrico).
+
+* 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 3 DE 30 (CICLO SNIPER V6):**
+  * **Entrada:** R$ 22,17 (Banca alavancada com 100% de aproveitamento no Dia 1 e Dia 2)
+  * **Seleção Independente (Regra V6 Imunidade Absoluta):** Sporting CP Vence (ML @1.26) + Al Ittihad ou Empate (Dupla Chance X2 @1.08) [Odd @1.36]
+  * **Retorno Projetado:** **R$ 30,15** rumo ao **DIA 4 DE 30**!

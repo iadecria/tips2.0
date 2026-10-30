@@ -216,6 +216,15 @@
       "potentialReturn": 22.17,
       "status": "HIT",
       "actualReturn": 22.17
+    },
+    {
+      "day": 3,
+      "date": "2026-10-30",
+      "stakeIn": 22.17,
+      "selection": "Sporting CP Vence (ML @1.26) + Al Ittihad ou Empate (X2 @1.08)",
+      "odd": 1.36,
+      "potentialReturn": 30.15,
+      "status": "PENDING"
     }
   ]
 }

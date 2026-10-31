@@ -2739,17 +2739,17 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 #### 3. Arquitetura Oficial dos Bilhetes Estruturados de 31/10
 
-* ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL (@1.78):**
+* ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL COM BUFF COMBO (@2.05):**
   * ▫️ **Manchester City × Brighton:** Manchester City ou Empate (Dupla Chance 1X @1.18)
-  * ▫️ **Al Hilal × Al Fateh:** Al Hilal Vence (ML @1.14)
-  * ▫️ **FC Barcelona × Deportivo Alavés:** Barcelona Vence (ML @1.12)
-  * ▫️ **FC Porto × GD Estoril Praia:** FC Porto Vence (ML @1.18)
-  * *Multiplicador Global:* **@1.78** (4 fortalezas mundiais em turnos distintos com favoritismo incontestável e abismo técnico).
+  * ▫️ **Al Hilal × Al Fateh:** Al Hilal Vence & Mais de 1.5 Gols no Jogo (@1.20)
+  * ▫️ **FC Barcelona × Deportivo Alavés:** FC Barcelona Vence & Mais de 1.5 Gols no Jogo (@1.15)
+  * ▫️ **FC Porto × GD Estoril Praia:** FC Porto Vence & Mais de 1.5 Gols no Jogo (@1.25)
+  * *Multiplicador Global:* **@2.05** (Alavancado com o Combo Dominante V1 + Over 1.5 sustentado por 10/10 Over 2.5 no Barça e histórico massivo no Dragão).
 
-* 🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
-  * 🟢 **Stop Point 1 (Dupla Âncora de Elite Europeia @1.32):** Barcelona ML (@1.12) + FC Porto ML (@1.18).
-  * 🟡 **Stop Point 2 (Quádrupla Blindada com Premier League e Arábia @1.78):** Stop Point 1 + Al Hilal ML (@1.14) + Man City 1X (@1.18).
-  * 🔴 **Stop Point 3 (Sexteto Global com Der Klassiker e Derby della Madonnina @2.56):** Stop Point 2 + Bayern x Dortmund Over 1.5 (@1.18) + Milan x Inter Over 1.5 (@1.22).
+* 🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares com Buff Combo V6.1):**
+  * 🟢 **Stop Point 1 (Dupla Âncora de Elite Europeia com Buff @1.44):** FC Barcelona x Deportivo Alavés: Barcelona Vence & Mais de 1.5 Gols (@1.15) + FC Porto x GD Estoril Praia: FC Porto Vence & Mais de 1.5 Gols (@1.25).
+  * 🟡 **Stop Point 2 (Quádrupla Blindada com Premier League e Arábia @2.05):** Stop Point 1 + Al Hilal x Al Fateh: Al Hilal Vence & Mais de 1.5 Gols (@1.20) + Manchester City x Brighton: Manchester City ou Empate (Dupla Chance 1X @1.18).
+  * 🔴 **Stop Point 3 (Sexteto Global com Der Klassiker e Derby della Madonnina @2.95):** Stop Point 2 + Bayern x Dortmund Over 1.5 (@1.18) + Milan x Inter Over 1.5 (@1.22).
 
 * 🎫 **MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição @2.96):**
   * FC Porto x Estoril: Porto Vence por 2+ Gols (-1.5 AH @1.58)
@@ -2767,7 +2767,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   * Porto Vence sem Sofrer Gols (@1.80) + Barcelona -2.5 AH (@2.10) + Bayern Vence & Ambos Marcam (@2.50) + Inter Vence & Ambos Marcam (@3.80).
   * *Multiplicador:* **@35.91** (Super retorno assimétrico).
 
-* 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6):**
+* 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6 BUFF):**
   * **Entrada:** R$ 30,15 (Banca alavancada com 100% de aproveitamento nos Dias 1, 2 e 3)
-  * **Seleção Independente (Regra V6 Imunidade Absoluta):** FC Porto Vence (ML @1.18) + Al Hilal Vence (ML @1.14) [Odd @1.35]
-  * **Retorno Projetado:** **R$ 40,70** rumo ao **DIA 5 DE 30**!
+  * **Seleção Independente (Regra V6 Imunidade Absoluta com Buff Combo):** FC Porto x GD Estoril Praia (Porto Vence & +1.5 Gols @1.25) + Al Hilal x Al Fateh (Al Hilal Vence & +1.5 Gols @1.20) [Odd @1.50]
+  * **Retorno Projetado:** **R$ 45,22** rumo ao **DIA 5 DE 30**!

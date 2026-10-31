@@ -72,6 +72,9 @@ def cmd_status(args):
                 for sp in t["stopPoints"]:
                     sp_icon = "🟢" if sp.get("status") == "GREEN" else "⚪"
                     print(f"      {sp_icon} {sp.get('level')} (@{sp.get('multiplier')}): {len(sp.get('legs', []))} seleções")
+            elif "legs" in t:
+                for leg in t.get("legs", []):
+                    print(f"      • {leg}")
                     
     # 2. Desafio Soros
     if os.path.exists(SOROS_FILE):

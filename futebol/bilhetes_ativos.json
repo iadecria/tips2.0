@@ -1,14 +1,14 @@
 {
   "date": "2026-10-31",
-  "snapshotId": "FAS_FOOTBALL_2026-10-31_V1_GLOBAL_SATURDAY",
+  "snapshotId": "FAS_FOOTBALL_2026-10-31_V2_EXPANDED_MULTIPLE_STANDARDS",
   "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS 3 V6.1 REFINADA COM BUFF COMBO — SÁBADO 31/10/2026: Incorporação estratégica do Combo Dominante (V1 + Over 1.5) sustentado por sequências estatísticas de volume massivo (Barcelona 10/10 Over 2.5 e Porto com histórico avassalador no Dragão). Elevação da odd sem adicionar risco desproporcional. Desafio Soros avançando para o DIA 4.",
+  "notes": "GRADE OFICIAL FAS 3 V6.1 EXPANDIDA — SÁBADO 31/10/2026: Consolidação da nova arquitetura de bilhetes. 1) Blindagem pura no Soros e SAFE (ML/Dupla Chance sem arriscar gols sem necessidade); 2) Múltiplas 3 e 4 agressivas com alta assertividade; 3) Nova MÚLTIPLA 5 (O Improvável / Odd Altíssima) com cobertura de todos os jogos; 4) Nova MÚLTIPLA DO BRASILEIRÃO acionada pelo gatilho de 4 jogos nacionais hoje.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Sábado 31/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 2.05,
-    "philosophy": "Arquitetura Sniper Antivariância V6.1 com Buff Combo: 4 fortalezas mundiais em turnos distintos com alavancagem de vitória combinada a gols onde há abismo técnico comprovado.",
+    "multiplierGlobal": 1.78,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável e abismo técnico comprovado, sem arriscar complementos desnecessários.",
     "status": "PENDING",
     "selections": [
       {
@@ -21,59 +21,59 @@
       {
         "match": "Al Hilal x Al Fateh (15:00 BRT)",
         "competition": "Saudi Pro League",
-        "market": "Al Hilal Vence & Mais de 1.5 Gols no Jogo",
-        "odd": 1.2,
+        "market": "Al Hilal Vence (Moneyline)",
+        "odd": 1.14,
         "status": "PENDING"
       },
       {
         "match": "FC Barcelona x Deportivo Alavés (17:00 BRT)",
         "competition": "La Liga (Espanha)",
-        "market": "FC Barcelona Vence & Mais de 1.5 Gols no Jogo",
-        "odd": 1.15,
+        "market": "FC Barcelona Vence (Moneyline)",
+        "odd": 1.12,
         "status": "PENDING"
       },
       {
         "match": "FC Porto x GD Estoril Praia (17:30 BRT)",
         "competition": "Liga Portugal",
-        "market": "FC Porto Vence & Mais de 1.5 Gols no Jogo",
-        "odd": 1.25,
+        "market": "FC Porto Vence (Moneyline)",
+        "odd": 1.18,
         "status": "PENDING"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares com Buff Combo V6.1)",
+      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
       "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora de Elite com Buff V1 + Over 1.5)",
-          "multiplier": 1.44,
+          "level": "Stop Point 1 (Dupla Âncora de Elite Europeia)",
+          "multiplier": 1.32,
           "legs": [
-            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence & Mais de 1.5 Gols no Jogo (@1.15)",
-            "FC Porto x GD Estoril Praia: FC Porto Vence & Mais de 1.5 Gols no Jogo (@1.25)"
+            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
+            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)"
           ],
           "status": "PENDING"
         },
         {
           "level": "Stop Point 2 (Quádrupla Blindada com Premier League e Arábia)",
-          "multiplier": 2.05,
+          "multiplier": 1.78,
           "legs": [
-            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence & Mais de 1.5 Gols no Jogo (@1.15)",
-            "FC Porto x GD Estoril Praia: FC Porto Vence & Mais de 1.5 Gols no Jogo (@1.25)",
-            "Al Hilal x Al Fateh: Al Hilal Vence & Mais de 1.5 Gols no Jogo (@1.20)",
+            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
+            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)",
+            "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
             "Manchester City x Brighton: Manchester City ou Empate (Dupla Chance 1X @1.18)"
           ],
           "status": "PENDING"
         },
         {
           "level": "Stop Point 3 (Sexteto Global com Der Klassiker e Derby della Madonnina)",
-          "multiplier": 2.95,
+          "multiplier": 2.56,
           "legs": [
-            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence & Mais de 1.5 Gols no Jogo (@1.15)",
-            "FC Porto x GD Estoril Praia: FC Porto Vence & Mais de 1.5 Gols no Jogo (@1.25)",
-            "Al Hilal x Al Fateh: Al Hilal Vence & Mais de 1.5 Gols no Jogo (@1.20)",
+            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
+            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)",
+            "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
             "Manchester City x Brighton: Manchester City ou Empate (Dupla Chance 1X @1.18)",
             "Bayern München x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.18)",
             "AC Milan x Inter de Milão: Mais de 1.5 Gols no Jogo (@1.22)"
@@ -115,19 +115,46 @@
         "Bayern München x Borussia Dortmund: Bayern München Vence & Ambos os Times Marcam (@2.50)",
         "AC Milan x Inter de Milão: Inter de Milão Vence & Ambos os Times Marcam (@3.80)"
       ]
+    },
+    {
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total da Rodada)",
+      "type": "IMPROVAVEL",
+      "multiplier": 582.4,
+      "status": "PENDING",
+      "legs": [
+        "Manchester City x Brighton: Manchester City Vence & Ambos os Times Marcam (@2.85)",
+        "Bayer Leverkusen x VfB Stuttgart: Mais de 3.5 Gols no Jogo (@2.35)",
+        "Bayern München x Borussia Dortmund: Bayern Vence & Mais de 3.5 Gols no Jogo (@2.20)",
+        "Al Hilal x Al Fateh: Al Hilal Vence por 3+ Gols (-2.5 AH @2.25)",
+        "AC Milan x Inter de Milão: Inter de Milão Vence & Mais de 2.5 Gols no Jogo (@2.90)",
+        "FC Barcelona x Deportivo Alavés: FC Barcelona Vence & Raphinha ou Lewandowski Marca 2+ Gols (@2.40)",
+        "FC Porto x GD Estoril Praia: FC Porto Vence por 3+ Gols (-2.5 AH @2.45)"
+      ]
+    },
+    {
+      "name": "MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Série A e Série B)",
+      "type": "BRASILEIRAO",
+      "multiplier": 3.85,
+      "status": "PENDING",
+      "legs": [
+        "Coritiba x Vitória: Menos de 2.5 Gols no Jogo (@1.52)",
+        "Botafogo-SP x Sport Recife: Sport Recife ou Empate (Dupla Chance X2 @1.32)",
+        "Vila Nova x Juventude: Vila Nova ou Empate (Dupla Chance 1X @1.28)",
+        "Náutico x Avaí: Menos de 2.5 Gols no Jogo (@1.50)"
+      ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6 BUFF)",
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6)",
     "day": 4,
     "targetDays": 30,
     "stake": 30.15,
-    "multiplier": 1.5,
-    "potentialReturn": 45.22,
-    "philosophy": "Princípio da Imunidade Absoluta V6 com Buff Combo: Entrada dupla ancorada no Estádio do Dragão e na Kingdom Arena com vitória combinada a Mais de 1.5 gols em abismos técnicos comprovados.",
+    "multiplier": 1.35,
+    "potentialReturn": 40.7,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o líder invicto da Liga Portugal e a máquina do Al Hilal na Kingdom Arena, sem arriscar complementos desnecessários.",
     "legs": [
-      "FC Porto x GD Estoril Praia: FC Porto Vence & Mais de 1.5 Gols no Jogo (@1.25)",
-      "Al Hilal x Al Fateh: Al Hilal Vence & Mais de 1.5 Gols no Jogo (@1.20)"
+      "FC Porto x GD Estoril Praia: FC Porto Vence (Moneyline @1.18)",
+      "Al Hilal x Al Fateh: Al Hilal Vence (Moneyline @1.14)"
     ],
     "status": "PENDING"
   }

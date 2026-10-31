@@ -2764,8 +2764,28 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   * *Multiplicador:* **@3.78**
 
 * 🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@35.91):**
-  * Porto Vence sem Sofrer Gols (@1.80) + Barcelona -2.5 AH (@2.10) + Bayern Vence & Ambos Marcam (@2.50) + Inter Vence & Ambos Marcam (@3.80).
-  * *Multiplicador:* **@35.91** (Super retorno assimétrico).
+  * FC Porto x GD Estoril Praia: FC Porto Vence sem Sofrer Gols (@1.80)
+  * FC Barcelona x Deportivo Alavés: FC Barcelona Vence por 3+ Gols (-2.5 AH @2.10)
+  * Bayern München x Borussia Dortmund: Bayern München Vence & Ambos os Times Marcam (@2.50)
+  * AC Milan x Inter de Milão: Inter de Milão Vence & Ambos os Times Marcam (@3.80)
+  * *Multiplicador:* **@35.91** (Super retorno assimétrico de alto valor).
+
+* 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total da Rodada @582.40):**
+  * Manchester City x Brighton: Manchester City Vence & Ambos os Times Marcam (@2.85)
+  * Bayer Leverkusen x VfB Stuttgart: Mais de 3.5 Gols no Jogo (@2.35)
+  * Bayern München x Borussia Dortmund: Bayern Vence & Mais de 3.5 Gols no Jogo (@2.20)
+  * Al Hilal x Al Fateh: Al Hilal Vence por 3+ Gols (-2.5 AH @2.25)
+  * AC Milan x Inter de Milão: Inter de Milão Vence & Mais de 2.5 Gols no Jogo (@2.90)
+  * FC Barcelona x Deportivo Alavés: FC Barcelona Vence & Raphinha ou Lewandowski Marca 2+ Gols (@2.40)
+  * FC Porto x GD Estoril Praia: FC Porto Vence por 3+ Gols (-2.5 AH @2.45)
+  * *Multiplicador:* **@582.40** (O Super Bingo arriscando no improvável com probabilidade matemática em todos os 7 jogos).
+
+* 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Série A e Série B @3.85):**
+  * Coritiba x Vitória: Menos de 2.5 Gols no Jogo (@1.52)
+  * Botafogo-SP x Sport Recife: Sport Recife ou Empate (Dupla Chance X2 @1.32)
+  * Vila Nova x Juventude: Vila Nova ou Empate (Dupla Chance 1X @1.28)
+  * Náutico x Avaí: Menos de 2.5 Gols no Jogo (@1.50)
+  * *Multiplicador:* **@3.85** (Cobertura completa de 100% dos 4 jogos nacionais do sábado).
 
 * 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6 BUFF):**
   * **Entrada:** R$ 30,15 (Banca alavancada com 100% de aproveitamento nos Dias 1, 2 e 3)

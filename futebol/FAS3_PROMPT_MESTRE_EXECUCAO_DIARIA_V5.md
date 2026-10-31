@@ -500,11 +500,17 @@ Para manter a **cobertura e quantidade total** da rodada sem inflar a variância
 3. **Regra Específica de Mercado — Blindagem Anti-Relaxamento:**
    - Em confrontos de alta disparidade técnica com expectativa de goleada de superfavorito (ex: Barcelona Feminino, Bayern, etc.), é **PROIBIDO** o uso de *Ambos Marcam - Não (Clean Sheet)* no bilhete ATTACK/SAFE. Favoritos que abrem 3x0 ou 4x0 tendem a relaxar a marcação e rodar o banco no final, sofrendo gols em contra-ataques isolados. Substituir por **Team Total Over 1.5 / 2.5** ou **Moneyline/Handicap**.
 
-4. **Categorias de Bilhetes da Rodada:**
-   - **Bilhete SAFE:** Montado no formato modular rankeado com todas as SAFEs aprovadas.
-   - **Bilhete SAFE+:** Montado no formato modular rankeado com as teses de degrau controlado.
-   - **Bilhete ATTACK (PRA CIMA):** Tripla de alta assimetria e valor de ataque.
-   - **Bilhete APOSENTAR O NETO:** Scanner geral da rodada para cotação esticada.
+4. **Categorias Oficiais de Bilhetes da Rodada:**
+   - 🛡️ **Múltipla 1 — SAFE (Carro-Chefe):** Montado no formato modular rankeado com Stop Points. *Regra de Ouro da Blindagem:* Se não houver 100% de convicção em complementos de gols (ex: V1 + Over 1.5), NUNCA arrisque. Mantenha pura Vitória Seca (ML) ou Dupla Chance (1X/X2).
+   - 🛡️➕ **Múltipla 2 — SAFE+:** Alavancagem com handicaps asiáticos protegidos (-1.5 AH / +1.0 AH).
+   - 🚀 **Múltipla 3 — SUPER ATAQUE (Pra Cima):** Odd alta (@3.50 a @5.50) com correlação agressiva e assertividade real (Ambos Marcam, Over 2.5, Vitória & Ambos Marcam).
+   - 👴 **Múltipla 4 — APOSENTAR O NETO:** Super alavancagem assimétrica (@25 a @45+).
+   - 🎲 **Múltipla 5 — O IMPROVÁVEL (Odd Altíssima / O Super Bingo):** Para arriscar no improvável com mínimo de chance e payoff astronômico (Odd @60 a @200+). Engloba ao menos 1 aposta assimétrica em praticamente todos os jogos da rodada europeia/mundial.
+   - 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (Gatllho > 3 Jogos):** Sempre que houver mais de 3 jogos do Brasileirão no dia (Série A e Série B), gera-se obrigatoriamente um bilhete exclusivo cobrindo 1 possibilidade matemática por jogo do Brasil.
+
+5. **Regra Obrigatória de Nomenclatura dos Times:**
+   - Em QUALQUER bilhete ou múltipla gerada pelo sistema, é PROIBIDO citar seleções soltas ou incompletas.
+   - Deve SEMPRE seguir o padrão: [Time Mandante] x [Time Visitante]: [Time Escolhido / Mercado Exato] (@ODD).
 
 # 26B. ⏰ PROTOCOLO DE LEMBRETE T-60MIN (CHECK-IN PRÉ-JOGO)
 

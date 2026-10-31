@@ -1,42 +1,42 @@
 {
-  "date": "2026-10-30",
-  "snapshotId": "FAS_FOOTBALL_2026-10-30_V1_GLOBAL_FRIDAY",
+  "date": "2026-10-31",
+  "snapshotId": "FAS_FOOTBALL_2026-10-31_V1_GLOBAL_SATURDAY",
   "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS 3 V6.1 — SEXTA-FEIRA 30/10/2026: Varredura global cobrindo abertura das grandes ligas europeias (Liga Portugal com Sporting CP, Ligue 1 com PSG e Derby du Nord Lille x Lens, La Liga com Villarreal no La Cerámica, Bundesliga) somada à Saudi Pro League (Al Ittihad de Benzema) e reta final do Brasileirão Séries A e B. Desafio Soros avançando consagrado para o DIA 3 com R$ 22,17.",
+  "notes": "GRADE OFICIAL FAS 3 V6.1 — SÁBADO 31/10/2026: Super sábado de futebol mundial com derbies e fortalezas absolutas. FC Porto recebe o lanterna Estoril no Dragão, Barcelona recebe o Alavés no Camp Nou, Al Hilal na Kingdom Arena, Der Klassiker (Bayern x Dortmund) na Allianz Arena e Derby della Madonnina (Milan x Inter) em San Siro. Desafio Soros avançando para o DIA 4 com R$ 30,15.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Sexta-feira 30/10 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Sábado 31/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.95,
+    "multiplierGlobal": 1.78,
     "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável, controle de posse e abismo técnico comprovado.",
     "status": "PENDING",
     "selections": [
       {
-        "match": "Abha x Al Ittihad (12:00 BRT)",
+        "match": "Manchester City x Brighton (12:00 BRT)",
+        "competition": "Premier League (Inglaterra)",
+        "market": "Manchester City ou Empate (Dupla Chance 1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Al Hilal x Al Fateh (15:00 BRT)",
         "competition": "Saudi Pro League",
-        "market": "Al Ittihad ou Empate (Dupla Chance X2)",
-        "odd": 1.08,
+        "market": "Al Hilal Vence (Moneyline)",
+        "odd": 1.14,
         "status": "PENDING"
       },
       {
-        "match": "Le Havre x Paris Saint-Germain (15:00 BRT)",
-        "competition": "Ligue 1 (França)",
-        "market": "Paris Saint-Germain Vence (Moneyline)",
-        "odd": 1.28,
-        "status": "PENDING"
-      },
-      {
-        "match": "Villarreal x RCD Espanyol (17:00 BRT)",
+        "match": "FC Barcelona x Deportivo Alavés (17:00 BRT)",
         "competition": "La Liga (Espanha)",
-        "market": "Villarreal ou Empate (Dupla Chance 1X)",
+        "market": "Barcelona Vence (Moneyline)",
         "odd": 1.12,
         "status": "PENDING"
       },
       {
-        "match": "Casa Pia x Sporting CP (17:15 BRT)",
+        "match": "FC Porto x GD Estoril Praia (17:30 BRT)",
         "competition": "Liga Portugal",
-        "market": "Sporting CP Vence (Moneyline)",
-        "odd": 1.26,
+        "market": "FC Porto Vence (Moneyline)",
+        "odd": 1.18,
         "status": "PENDING"
       }
     ]
@@ -49,34 +49,34 @@
       "stopPoints": [
         {
           "level": "Stop Point 1 (Dupla Âncora de Elite Europeia)",
-          "multiplier": 1.61,
+          "multiplier": 1.32,
           "legs": [
-            "Casa Pia x Sporting CP: Sporting CP Vence (ML @1.26)",
-            "Le Havre x Paris Saint-Germain: PSG Vence (ML @1.28)"
+            "FC Barcelona x Deportivo Alavés: Barcelona Vence (ML @1.12)",
+            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla Blindada com La Liga e Arábia)",
-          "multiplier": 1.95,
+          "level": "Stop Point 2 (Quádrupla Blindada com Premier League e Arábia)",
+          "multiplier": 1.78,
           "legs": [
-            "Casa Pia x Sporting CP: Sporting CP Vence (ML @1.26)",
-            "Le Havre x Paris Saint-Germain: PSG Vence (ML @1.28)",
-            "Villarreal x RCD Espanyol: Villarreal ou Empate (1X @1.12)",
-            "Abha x Al Ittihad: Al Ittihad ou Empate (X2 @1.08)"
+            "FC Barcelona x Deportivo Alavés: Barcelona Vence (ML @1.12)",
+            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)",
+            "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
+            "Manchester City x Brighton: Manchester City ou Empate (1X @1.18)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Sexteto Global com Brasileirão e Derby du Nord)",
-          "multiplier": 2.8,
+          "level": "Stop Point 3 (Sexteto Global com Der Klassiker e Derby della Madonnina)",
+          "multiplier": 2.56,
           "legs": [
-            "Casa Pia x Sporting CP: Sporting CP Vence (ML @1.26)",
-            "Le Havre x Paris Saint-Germain: PSG Vence (ML @1.28)",
-            "Villarreal x RCD Espanyol: Villarreal ou Empate (1X @1.12)",
-            "Abha x Al Ittihad: Al Ittihad ou Empate (X2 @1.08)",
-            "Corinthians x Mirassol: Corinthians ou Empate (1X @1.18)",
-            "Lille x Lens: Mais de 1.5 Gols no Jogo (@1.22)"
+            "FC Barcelona x Deportivo Alavés: Barcelona Vence (ML @1.12)",
+            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)",
+            "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
+            "Manchester City x Brighton: Manchester City ou Empate (1X @1.18)",
+            "Bayern München x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.18)",
+            "AC Milan x Inter de Milão: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
           "status": "PENDING"
         }
@@ -85,49 +85,49 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
-      "multiplier": 3.5,
+      "multiplier": 2.96,
       "status": "PENDING",
       "legs": [
-        "Casa Pia x Sporting CP: Sporting CP Vence por 2+ Gols (-1.5 AH @1.75)",
-        "Le Havre x PSG: PSG Vence por 2+ Gols (-1.5 AH @1.78)",
-        "Villarreal x RCD Espanyol: Villarreal Vence (ML @1.45)"
+        "FC Porto x GD Estoril Praia: Porto Vence por 2+ Gols (-1.5 AH @1.58)",
+        "FC Barcelona x Deportivo Alavés: Barcelona Vence por 2+ Gols (-1.5 AH @1.42)",
+        "Bayern München x Borussia Dortmund: Bayern München Vence (ML @1.32)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Clássicos e Aberturas)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Super Clássicos Europeus)",
       "type": "ATTACK",
-      "multiplier": 4.65,
+      "multiplier": 3.78,
       "status": "PENDING",
       "legs": [
-        "Lille x Lens: Ambos os Times Marcam (Sim @1.65)",
-        "SV Elversberg x Mainz 05: Mais de 2.5 Gols no Jogo (@1.68)",
-        "Corinthians x Mirassol: Corinthians Vence & Menos de 3.5 Gols (@2.15)"
+        "Bayern München x Borussia Dortmund: Ambos os Times Marcam (Sim @1.45)",
+        "AC Milan x Inter de Milão: Ambos os Times Marcam (Sim @1.65)",
+        "Bayer Leverkusen x VfB Stuttgart: Mais de 2.5 Gols no Jogo (@1.58)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 34.58,
+      "multiplier": 35.91,
       "status": "PENDING",
       "legs": [
-        "Casa Pia x Sporting CP: Sporting CP Vence sem Sofrer Gols (@1.90)",
-        "Le Havre x PSG: PSG Vence & Mais de 2.5 Gols (@1.85)",
-        "Villarreal x Espanyol: Villarreal Vence & Ambos Marcam Não (@2.40)",
-        "Lille x Lens: Lille Vence & Ambos os Times Marcam (@4.10)"
+        "FC Porto x GD Estoril Praia: Porto Vence sem Sofrer Gols (@1.80)",
+        "FC Barcelona x Deportivo Alavés: Barcelona Vence por 3+ Gols (-2.5 AH @2.10)",
+        "Bayern München x Borussia Dortmund: Bayern Vence & Ambos Marcam (@2.50)",
+        "AC Milan x Inter de Milão: Inter Vence & Ambos Marcam (@3.80)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 3 DE 30 (CICLO SNIPER V6)",
-    "day": 3,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6)",
+    "day": 4,
     "targetDays": 30,
-    "stake": 22.17,
-    "multiplier": 1.36,
-    "potentialReturn": 30.15,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o líder invicto da Liga Portugal e a blindagem do Al Ittihad na Saudi League.",
+    "stake": 30.15,
+    "multiplier": 1.35,
+    "potentialReturn": 40.7,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o líder invicto da Liga Portugal e a máquina do Al Hilal na Kingdom Arena.",
     "legs": [
-      "Casa Pia x Sporting CP: Sporting CP Vence (Moneyline @1.26)",
-      "Abha x Al Ittihad: Al Ittihad ou Empate (Dupla Chance X2 @1.08)"
+      "FC Porto x GD Estoril Praia: FC Porto Vence (Moneyline @1.18)",
+      "Al Hilal x Al Fateh: Al Hilal Vence (Moneyline @1.14)"
     ],
     "status": "PENDING"
   }

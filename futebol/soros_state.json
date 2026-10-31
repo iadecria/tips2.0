@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 22.17,
-  "currentDay": 3,
+  "currentStake": 30.15,
+  "currentDay": 4,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -224,6 +224,16 @@
       "selection": "Sporting CP Vence (ML @1.26) + Al Ittihad ou Empate (X2 @1.08)",
       "odd": 1.36,
       "potentialReturn": 30.15,
+      "status": "HIT",
+      "actualReturn": 30.15
+    },
+    {
+      "day": 4,
+      "date": "2026-10-31",
+      "stakeIn": 30.15,
+      "selection": "FC Porto Vence (ML @1.18) + Al Hilal Vence (ML @1.14)",
+      "odd": 1.35,
+      "potentialReturn": 40.7,
       "status": "PENDING"
     }
   ]

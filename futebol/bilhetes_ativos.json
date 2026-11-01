@@ -1,43 +1,43 @@
 {
   "date": "2026-10-31",
   "snapshotId": "FAS_FOOTBALL_2026-10-31_V2_EXPANDED_MULTIPLE_STANDARDS",
-  "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS 3 V6.1 EXPANDIDA — SÁBADO 31/10/2026: Consolidação da nova arquitetura de bilhetes. 1) Blindagem pura no Soros e SAFE (ML/Dupla Chance sem arriscar gols sem necessidade); 2) Múltiplas 3 e 4 agressivas com alta assertividade; 3) Nova MÚLTIPLA 5 (O Improvável / Odd Altíssima) com cobertura de todos os jogos; 4) Nova MÚLTIPLA DO BRASILEIRÃO acionada pelo gatilho de 4 jogos nacionais hoje.",
+  "status": "SETTLED",
+  "notes": "CONFERE TOTAL OFICIAL 31/10/2026: Dia histórico! Greens espetaculares na Múltipla 3 Super Ataque (@3.78), Múltipla do Brasileirão (@3.85), Stop Point 1 SAFE (@1.32) e Desafio Soros Dia 4 (@1.35 -> R$ 40,70).",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Sábado 31/10 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 1.78,
     "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável e abismo técnico comprovado, sem arriscar complementos desnecessários.",
-    "status": "PENDING",
+    "status": "MISS",
     "selections": [
       {
         "match": "Manchester City x Brighton (12:00 BRT)",
         "competition": "Premier League (Inglaterra)",
         "market": "Manchester City ou Empate (Dupla Chance 1X)",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "MISS"
       },
       {
         "match": "Al Hilal x Al Fateh (15:00 BRT)",
         "competition": "Saudi Pro League",
         "market": "Al Hilal Vence (Moneyline)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "FC Barcelona x Deportivo Alavés (17:00 BRT)",
         "competition": "La Liga (Espanha)",
         "market": "FC Barcelona Vence (Moneyline)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "FC Porto x GD Estoril Praia (17:30 BRT)",
         "competition": "Liga Portugal",
         "market": "FC Porto Vence (Moneyline)",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -45,7 +45,7 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "HIT_PARTIAL",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Dupla Âncora de Elite Europeia)",
@@ -54,7 +54,7 @@
             "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
             "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "level": "Stop Point 2 (Quádrupla Blindada com Premier League e Arábia)",
@@ -65,7 +65,7 @@
             "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
             "Manchester City x Brighton: Manchester City ou Empate (Dupla Chance 1X @1.18)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         },
         {
           "level": "Stop Point 3 (Sexteto Global com Der Klassiker e Derby della Madonnina)",
@@ -78,7 +78,7 @@
             "Bayern München x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.18)",
             "AC Milan x Inter de Milão: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         }
       ]
     },
@@ -86,7 +86,7 @@
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
       "multiplier": 2.96,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "FC Porto x GD Estoril Praia: FC Porto Vence por 2+ Gols (-1.5 AH @1.58)",
         "FC Barcelona x Deportivo Alavés: FC Barcelona Vence por 2+ Gols (-1.5 AH @1.42)",
@@ -97,7 +97,7 @@
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Super Clássicos Europeus)",
       "type": "ATTACK",
       "multiplier": 3.78,
-      "status": "PENDING",
+      "status": "HIT",
       "legs": [
         "Bayern München x Borussia Dortmund: Ambos os Times Marcam (Sim @1.45)",
         "AC Milan x Inter de Milão: Ambos os Times Marcam (Sim @1.65)",
@@ -108,7 +108,7 @@
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
       "multiplier": 35.91,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "FC Porto x GD Estoril Praia: FC Porto Vence sem Sofrer Gols (@1.80)",
         "FC Barcelona x Deportivo Alavés: FC Barcelona Vence por 3+ Gols (-2.5 AH @2.10)",
@@ -120,7 +120,7 @@
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total da Rodada)",
       "type": "IMPROVAVEL",
       "multiplier": 582.4,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Manchester City x Brighton: Manchester City Vence & Ambos os Times Marcam (@2.85)",
         "Bayer Leverkusen x VfB Stuttgart: Mais de 3.5 Gols no Jogo (@2.35)",
@@ -135,7 +135,7 @@
       "name": "MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Série A e Série B)",
       "type": "BRASILEIRAO",
       "multiplier": 3.85,
-      "status": "PENDING",
+      "status": "HIT",
       "legs": [
         "Coritiba x Vitória: Menos de 2.5 Gols no Jogo (@1.52)",
         "Botafogo-SP x Sport Recife: Sport Recife ou Empate (Dupla Chance X2 @1.32)",
@@ -156,6 +156,7 @@
       "FC Porto x GD Estoril Praia: FC Porto Vence (Moneyline @1.18)",
       "Al Hilal x Al Fateh: Al Hilal Vence (Moneyline @1.14)"
     ],
-    "status": "PENDING"
+    "status": "HIT",
+    "actualReturn": 40.7
   }
 }

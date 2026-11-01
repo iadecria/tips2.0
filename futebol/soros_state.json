@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 30.15,
-  "currentDay": 4,
+  "currentStake": 40.7,
+  "currentDay": 5,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -234,7 +234,8 @@
       "selection": "FC Porto x GD Estoril Praia (Porto Vence ML @1.18) + Al Hilal x Al Fateh (Al Hilal Vence ML @1.14)",
       "odd": 1.35,
       "potentialReturn": 40.7,
-      "status": "PENDING"
+      "status": "HIT",
+      "actualReturn": 40.7
     }
   ]
 }

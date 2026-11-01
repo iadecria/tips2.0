@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-31",
-  "snapshotId": "FAS_FOOTBALL_2026-10-31_V2_EXPANDED_MULTIPLE_STANDARDS",
-  "status": "SETTLED",
-  "notes": "CONFERE TOTAL OFICIAL 31/10/2026: Dia histórico! Greens espetaculares na Múltipla 3 Super Ataque (@3.78), Múltipla do Brasileirão (@3.85), Stop Point 1 SAFE (@1.32) e Desafio Soros Dia 4 (@1.35 -> R$ 40,70).",
+  "date": "2026-11-01",
+  "snapshotId": "FAS_FOOTBALL_2026-11-01_V1_GLOBAL_SUNDAY",
+  "status": "PENDING",
+  "notes": "GRADE OFICIAL FAS 3 V6.1 EXPANDIDA — DOMINGO 01/11/2026: Consolidação da nova arquitetura. 1) Desafio Soros Dia 5 (R$ 40,70 -> R$ 56,57) blindado com Real Madrid e Palmeiras 1X; 2) Bilhete Supremo com 4 fortalezas; 3) Múltipla 3 Super Ataque no clássico Liverpool x Arsenal; 4) Múltipla do Brasileirão acionada por 5 jogos nacionais no radar; 5) Múltipla 5 O Improvável com cobertura total de 7 jogos.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Sábado 31/10 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Domingo 01/11 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.78,
+    "multiplierGlobal": 1.72,
     "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável e abismo técnico comprovado, sem arriscar complementos desnecessários.",
-    "status": "MISS",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Manchester City x Brighton (12:00 BRT)",
-        "competition": "Premier League (Inglaterra)",
-        "market": "Manchester City ou Empate (Dupla Chance 1X)",
-        "odd": 1.18,
-        "status": "MISS"
-      },
-      {
-        "match": "Al Hilal x Al Fateh (15:00 BRT)",
-        "competition": "Saudi Pro League",
-        "market": "Al Hilal Vence (Moneyline)",
-        "odd": 1.14,
-        "status": "HIT"
-      },
-      {
-        "match": "FC Barcelona x Deportivo Alavés (17:00 BRT)",
+        "match": "Racing Santander x Real Madrid (12:15 BRT)",
         "competition": "La Liga (Espanha)",
-        "market": "FC Barcelona Vence (Moneyline)",
-        "odd": 1.12,
-        "status": "HIT"
+        "market": "Real Madrid Vence (Moneyline)",
+        "odd": 1.22,
+        "status": "PENDING"
       },
       {
-        "match": "FC Porto x GD Estoril Praia (17:30 BRT)",
-        "competition": "Liga Portugal",
-        "market": "FC Porto Vence (Moneyline)",
-        "odd": 1.18,
-        "status": "HIT"
+        "match": "Palmeiras x Vasco (16:00 BRT)",
+        "competition": "Copa do Brasil (Semifinal - Ida)",
+        "market": "Palmeiras ou Empate (Dupla Chance 1X)",
+        "odd": 1.14,
+        "status": "PENDING"
+      },
+      {
+        "match": "Lazio x Cagliari (11:00 BRT)",
+        "competition": "Serie A (Itália)",
+        "market": "Lazio ou Empate (Dupla Chance 1X)",
+        "odd": 1.11,
+        "status": "PENDING"
+      },
+      {
+        "match": "Lyon x Angers (13:15 BRT)",
+        "competition": "Ligue 1 (França)",
+        "market": "Lyon ou Empate (Dupla Chance 1X)",
+        "odd": 1.11,
+        "status": "PENDING"
       }
     ]
   },
@@ -45,118 +45,119 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "HIT_PARTIAL",
+      "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora de Elite Europeia)",
-          "multiplier": 1.32,
+          "level": "Stop Point 1 (Dupla Âncora de Elite Global)",
+          "multiplier": 1.39,
           "legs": [
-            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
-            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)"
+            "Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22)",
+            "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla Blindada com Premier League e Arábia)",
-          "multiplier": 1.78,
+          "level": "Stop Point 2 (Quádrupla Blindada com Itália e França)",
+          "multiplier": 1.72,
           "legs": [
-            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
-            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)",
-            "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
-            "Manchester City x Brighton: Manchester City ou Empate (Dupla Chance 1X @1.18)"
+            "Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22)",
+            "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
+            "Lazio x Cagliari: Lazio ou Empate (Dupla Chance 1X @1.11)",
+            "Lyon x Angers: Lyon ou Empate (Dupla Chance 1X @1.11)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Sexteto Global com Der Klassiker e Derby della Madonnina)",
-          "multiplier": 2.56,
+          "level": "Stop Point 3 (Sexteto Continental com Premier League e Bundesliga)",
+          "multiplier": 2.52,
           "legs": [
-            "FC Barcelona x Deportivo Alavés: FC Barcelona Vence (ML @1.12)",
-            "FC Porto x GD Estoril Praia: FC Porto Vence (ML @1.18)",
-            "Al Hilal x Al Fateh: Al Hilal Vence (ML @1.14)",
-            "Manchester City x Brighton: Manchester City ou Empate (Dupla Chance 1X @1.18)",
-            "Bayern München x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.18)",
-            "AC Milan x Inter de Milão: Mais de 1.5 Gols no Jogo (@1.22)"
+            "Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22)",
+            "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
+            "Lazio x Cagliari: Lazio ou Empate (Dupla Chance 1X @1.11)",
+            "Lyon x Angers: Lyon ou Empate (Dupla Chance 1X @1.11)",
+            "Liverpool x Arsenal: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Eintracht Frankfurt x Hamburger SV: Mais de 1.5 Gols no Jogo (@1.20)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
-      "multiplier": 2.96,
-      "status": "MISS",
+      "multiplier": 3.48,
+      "status": "PENDING",
       "legs": [
-        "FC Porto x GD Estoril Praia: FC Porto Vence por 2+ Gols (-1.5 AH @1.58)",
-        "FC Barcelona x Deportivo Alavés: FC Barcelona Vence por 2+ Gols (-1.5 AH @1.42)",
-        "Bayern München x Borussia Dortmund: Bayern München Vence (Moneyline @1.32)"
+        "Racing Santander x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.68)",
+        "Palmeiras x Vasco: Palmeiras Vence (Moneyline @1.48)",
+        "Lyon x Angers: Lyon Vence (Moneyline @1.40)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Super Clássicos Europeus)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Super Clássicos)",
       "type": "ATTACK",
-      "multiplier": 3.78,
-      "status": "HIT",
+      "multiplier": 4.2,
+      "status": "PENDING",
       "legs": [
-        "Bayern München x Borussia Dortmund: Ambos os Times Marcam (Sim @1.45)",
-        "AC Milan x Inter de Milão: Ambos os Times Marcam (Sim @1.65)",
-        "Bayer Leverkusen x VfB Stuttgart: Mais de 2.5 Gols no Jogo (@1.58)"
+        "Liverpool x Arsenal: Ambos os Times Marcam (Sim @1.62)",
+        "Eintracht Frankfurt x Hamburger SV: Mais de 2.5 Gols no Jogo (@1.60)",
+        "Racing Santander x Real Madrid: Ambos os Times Marcam (Sim @1.62)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 35.91,
-      "status": "MISS",
+      "multiplier": 36.5,
+      "status": "PENDING",
       "legs": [
-        "FC Porto x GD Estoril Praia: FC Porto Vence sem Sofrer Gols (@1.80)",
-        "FC Barcelona x Deportivo Alavés: FC Barcelona Vence por 3+ Gols (-2.5 AH @2.10)",
-        "Bayern München x Borussia Dortmund: Bayern München Vence & Ambos os Times Marcam (@2.50)",
-        "AC Milan x Inter de Milão: Inter de Milão Vence & Ambos os Times Marcam (@3.80)"
+        "Palmeiras x Vasco: Palmeiras Vence sem Sofrer Gols (@2.10)",
+        "Racing Santander x Real Madrid: Real Madrid Vence por 3+ Gols (-2.5 AH @2.65)",
+        "Liverpool x Arsenal: Liverpool ou Empate & Ambos os Times Marcam (@2.15)",
+        "Eintracht Frankfurt x Hamburger SV: Frankfurt Vence & Mais de 2.5 Gols (@2.20)",
+        "Lyon x Angers: Lyon Vence por 2+ Gols (-1.5 AH @1.40)"
       ]
     },
     {
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total da Rodada)",
       "type": "IMPROVAVEL",
-      "multiplier": 582.4,
-      "status": "MISS",
+      "multiplier": 612.0,
+      "status": "PENDING",
       "legs": [
-        "Manchester City x Brighton: Manchester City Vence & Ambos os Times Marcam (@2.85)",
-        "Bayer Leverkusen x VfB Stuttgart: Mais de 3.5 Gols no Jogo (@2.35)",
-        "Bayern München x Borussia Dortmund: Bayern Vence & Mais de 3.5 Gols no Jogo (@2.20)",
-        "Al Hilal x Al Fateh: Al Hilal Vence por 3+ Gols (-2.5 AH @2.25)",
-        "AC Milan x Inter de Milão: Inter de Milão Vence & Mais de 2.5 Gols no Jogo (@2.90)",
-        "FC Barcelona x Deportivo Alavés: FC Barcelona Vence & Raphinha ou Lewandowski Marca 2+ Gols (@2.40)",
-        "FC Porto x GD Estoril Praia: FC Porto Vence por 3+ Gols (-2.5 AH @2.45)"
+        "Racing Santander x Real Madrid: Real Madrid Vence & Ambos Marcam (@2.70)",
+        "Liverpool x Arsenal: Liverpool Vence & Mais de 2.5 Gols (@2.80)",
+        "Lazio x Cagliari: Lazio Vence sem Sofrer Gols (@2.25)",
+        "Lyon x Angers: Lyon Vence por 3+ Gols (-2.5 AH @2.85)",
+        "Eintracht Frankfurt x Hamburger SV: Frankfurt Vence & Ambos Marcam (@3.10)",
+        "Palmeiras x Vasco: Palmeiras Vence & Mais de 2.5 Gols (@2.40)",
+        "Grêmio x Atlético-MG: Menos de 1.5 Gols no Jogo (@2.65)"
       ]
     },
     {
-      "name": "MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Série A e Série B)",
+      "name": "MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Copa do Brasil e Série B)",
       "type": "BRASILEIRAO",
-      "multiplier": 3.85,
-      "status": "HIT",
+      "multiplier": 3.56,
+      "status": "PENDING",
       "legs": [
-        "Coritiba x Vitória: Menos de 2.5 Gols no Jogo (@1.52)",
-        "Botafogo-SP x Sport Recife: Sport Recife ou Empate (Dupla Chance X2 @1.32)",
-        "Vila Nova x Juventude: Vila Nova ou Empate (Dupla Chance 1X @1.28)",
-        "Náutico x Avaí: Menos de 2.5 Gols no Jogo (@1.50)"
+        "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
+        "Grêmio x Atlético-MG: Menos de 2.5 Gols no Jogo (@1.58)",
+        "Grêmio Novorizontino x Operário-PR: Novorizontino ou Empate (Dupla Chance 1X @1.12)",
+        "Londrina x América-MG: Menos de 2.5 Gols no Jogo (@1.55)",
+        "Cuiabá x São Bernardo: Cuiabá ou Empate (Dupla Chance 1X @1.14)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 4 DE 30 (CICLO SNIPER V6)",
-    "day": 4,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 5 DE 30 (CICLO SNIPER V6)",
+    "day": 5,
     "targetDays": 30,
-    "stake": 30.15,
-    "multiplier": 1.35,
-    "potentialReturn": 40.7,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o líder invicto da Liga Portugal e a máquina do Al Hilal na Kingdom Arena, sem arriscar complementos desnecessários.",
+    "stake": 40.7,
+    "multiplier": 1.39,
+    "potentialReturn": 56.57,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o Real Madrid em La Liga e o caldeirão do Allianz Parque com o Palmeiras na Copa do Brasil, sem arriscar complementos de gols.",
     "legs": [
-      "FC Porto x GD Estoril Praia: FC Porto Vence (Moneyline @1.18)",
-      "Al Hilal x Al Fateh: Al Hilal Vence (Moneyline @1.14)"
+      "Racing Santander x Real Madrid: Real Madrid Vence (Moneyline @1.22)",
+      "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)"
     ],
-    "status": "HIT",
-    "actualReturn": 40.7
+    "status": "PENDING"
   }
 }

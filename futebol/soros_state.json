@@ -236,6 +236,15 @@
       "potentialReturn": 40.7,
       "status": "HIT",
       "actualReturn": 40.7
+    },
+    {
+      "day": 5,
+      "date": "2026-11-01",
+      "stakeIn": 40.7,
+      "selection": "Racing Santander x Real Madrid (Real Madrid Vence ML @1.22) + Palmeiras x Vasco (Palmeiras ou Empate 1X @1.14)",
+      "odd": 1.39,
+      "potentialReturn": 56.57,
+      "status": "PENDING"
     }
   ]
 }

@@ -2887,3 +2887,133 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🎫 **MÚLTIPLA 2 — SAFE+ (@2.96):** ❌ **RED** (1/3 acertos — Barça -1.5 ✅, Porto -1.5 ❌, Bayern ML ❌).
 - 🎫 **MÚLTIPLA 4 — APOSENTAR O NETO (@35.91):** ❌ **RED** (2/4 acertos — Porto Clean Sheet ✅, Barça -2.5 ✅, Bayern & BTTS ❌, Inter & BTTS ❌).
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@582.40):** ❌ **RED** (Derrubada na abertura pelo City).
+
+
+---
+
+### [2026-11-01] — RODADA DIÁRIA (SUPER DOMINGO GLOBAL: PREMIER LEAGUE, LA LIGA, SERIE A, LIGUE 1, BUNDESLIGA, COPA DO BRASIL & SÉRIE B)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-01_V1_GLOBAL_SUNDAY
+- **Data do Registro:** 2026-11-01
+- **Cutoff:** 2026-11-01T10:00:00-03:00
+- **Contexto da Data:** Super domingo esportivo de alto calibre. A Premier League ferve com o clássico épico entre Liverpool e Arsenal em Anfield; La Liga traz o gigante Real Madrid de Kylian Mbappé visitando o Racing Santander em El Sardinero após a épica vitória no El Clásico; na Itália, a Lazio recebe o Cagliari no Stadio Olimpico; na França, o Lyon defende seu mando contra o Angers no Groupama Stadium; a Bundesliga traz o vertical Eintracht Frankfurt recebendo o Hamburgo; e o futebol brasileiro pega fogo com a semifinal de ida da Copa do Brasil entre Palmeiras e Vasco no Allianz Parque e Grêmio x Atlético-MG na Arena do Grêmio, além do radar afiado da Série B com Novorizontino, Londrina e Cuiabá.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura Global
+- Analisados: 40 fixtures internacionais e nacionais
+- Elegíveis: 10 fixtures de elite com liquidez máxima e gaps táticos evidentes
+- Descartados no pente-fino: Amed SK x Eyüpspor (Turquia - gap de liquidez e dados voláteis), Getafe x Sevilla (duelo espanhol ultratruncado em Coliseum Alfonso Pérez com alto índice de faltas e cartões).
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+
+1. **Racing Santander × Real Madrid** (12:15 BRT — La Liga 11ª Rodada)
+   - **Game State & Contexto:** Campos de Sport de El Sardinero. O Real Madrid de José Mourinho chega embalado pela vitória no El Clásico (2x1 no Camp Nou), com Mbappé em fase absurda (marcando em 4 jogos seguidos). O Santander volta à elite após 14 anos, tem boa campanha em casa mas ainda não conquistou um único clean sheet no torneio (100% dos seus jogos em casa deram BTTS).
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 5):** Real Madrid Vence (Moneyline @1.22)
+   - **SAFE+:** Real Madrid Vence por 2+ Gols (-1.5 AH @1.68)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.62)
+   - **NETO:** Real Madrid Vence por 3+ Gols (-2.5 AH @2.65)
+
+2. **Palmeiras × Vasco da Gama** (16:00 BRT — Copa do Brasil / Semifinal - Jogo de Ida)
+   - **Game State & Contexto:** Allianz Parque lotado. O Palmeiras de Abel Ferreira é uma fortaleza copeira em casa, na briga pelo topo do Brasileiro e finalista da Libertadores. O Vasco de Pedro Emanuel tenta fechar as linhas para levar a decisão viva para São Januário.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 5 / Brasileirão):** Palmeiras ou Empate (Dupla Chance 1X @1.14)
+   - **SAFE+:** Palmeiras Vence (Moneyline @1.48)
+   - **NETO:** Palmeiras Vence sem Sofrer Gols (@2.10)
+
+3. **Liverpool × Arsenal** (13:30 BRT — Premier League 9ª Rodada)
+   - **Game State & Contexto:** Anfield em erupção. Liverpool defende tabu histórico de 13 jogos sem perder para o Arsenal em Anfield pela Premier League. Arsenal pressionado após eliminação na Copa da Liga e sem Bukayo Saka lesionado.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.22)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.62)
+   - **NETO:** Liverpool ou Empate & Ambos os Times Marcam (@2.15)
+
+4. **Lazio × Cagliari** (11:00 BRT — Serie A 11ª Rodada)
+   - **Game State & Contexto:** Stadio Olimpico de Roma. Lazio muito forte como mandante com transições rápidas; Cagliari tem enorme dificuldade fora da Sardenha.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Lazio ou Empate (Dupla Chance 1X @1.11)
+   - **SAFE+:** Lazio Vence (Moneyline @1.45)
+   - **NETO:** Lazio Vence sem Sofrer Gols (@2.25)
+
+5. **Olympique Lyonnais × Angers SCO** (13:15 BRT — Ligue 1 11ª Rodada)
+   - **Game State & Contexto:** Groupama Stadium. Lyon com imposição técnica muito superior; Angers briga na parte baixa da tabela com defesa vazada.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Lyon ou Empate (Dupla Chance 1X @1.11)
+   - **SAFE+:** Lyon Vence (Moneyline @1.40)
+   - **NETO:** Lyon Vence por 2+ Gols (-1.5 AH @2.10)
+
+6. **Eintracht Frankfurt × Hamburger SV** (13:30 BRT — Bundesliga 9ª Rodada)
+   - **Game State & Contexto:** Deutsche Bank Park. Frankfurt propositivo com média de 2.2 gols por partida em casa. Jogo de trocação natural alemã.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.20)
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.60)
+   - **NETO:** Frankfurt Vence & Mais de 2.5 Gols (@2.20)
+
+7. **Grêmio × Atlético-MG** (18:30 BRT — Copa do Brasil / Semifinal - Jogo de Ida)
+   - **Game State & Contexto:** Arena do Grêmio. Jogo tenso de 180 minutos. Defesas compactas e cautela mútua de mata-mata nacional.
+   - **Tese (Múltipla Brasileirão):** Menos de 2.5 Gols no Jogo (@1.58)
+
+8. **Grêmio Novorizontino × Operário-PR** (18:30 BRT — Brasileirão Série B 36ª Rodada)
+   - **Game State & Contexto:** Estádio Jorge Ismael de Biasi (Jorjão). Novorizontino na briga direta pelo acesso à Série A, fortíssimo em casa.
+   - **Tese (Múltipla Brasileirão):** Novorizontino ou Empate (Dupla Chance 1X @1.12)
+
+9. **Londrina × América-MG** (16:00 BRT — Brasileirão Série B 36ª Rodada)
+   - **Game State & Contexto:** Estádio do Café. Duelo truncado de meio de tabela com fortes tendências de under.
+   - **Tese (Múltipla Brasileirão):** Menos de 2.5 Gols no Jogo (@1.55)
+
+10. **Cuiabá × São Bernardo** (18:30 BRT — Brasileirão Série B 36ª Rodada)
+    - **Game State & Contexto:** Arena Pantanal. Cuiabá mandante com imposição física e buscando pontuar.
+    - **Tese (Múltipla Brasileirão):** Cuiabá ou Empate (Dupla Chance 1X @1.14)
+
+---
+
+#### 3. Arquitetura Oficial dos Bilhetes Estruturados de 01/11
+
+* ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL (@1.72):**
+  * ▫️ **Racing Santander × Real Madrid:** Real Madrid Vence (Moneyline @1.22)
+  * ▫️ **Palmeiras × Vasco da Gama:** Palmeiras ou Empate (Dupla Chance 1X @1.14)
+  * ▫️ **Lazio × Cagliari:** Lazio ou Empate (Dupla Chance 1X @1.11)
+  * ▫️ **Olympique Lyonnais × Angers:** Lyon ou Empate (Dupla Chance 1X @1.11)
+  * *Multiplicador Global:* **@1.72** (4 fortalezas em turnos e ligas distintas, sem arriscar complementos desnecessários).
+
+* 🎫 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+  * 🟢 **Stop Point 1 (Dupla Âncora de Elite Global @1.39):** Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22) + Palmeiras x Vasco: Palmeiras ou Empate (1X @1.14).
+  * 🟡 **Stop Point 2 (Quádrupla Blindada com Itália e França @1.72):** Stop Point 1 + Lazio x Cagliari: Lazio ou Empate (1X @1.11) + Lyon x Angers: Lyon ou Empate (1X @1.11).
+  * 🔴 **Stop Point 3 (Sexteto Continental com Premier League e Bundesliga @2.52):** Stop Point 2 + Liverpool x Arsenal: Mais de 1.5 Gols (@1.22) + Eintracht Frankfurt x Hamburgo: Mais de 1.5 Gols (@1.20).
+
+* 🎫 **MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição @3.48):**
+  * Racing Santander x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.68)
+  * Palmeiras x Vasco: Palmeiras Vence (Moneyline @1.48)
+  * Lyon x Angers: Lyon Vence (Moneyline @1.40)
+  * *Multiplicador:* **@3.48**
+
+* 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Super Clássicos @4.20):**
+  * Liverpool x Arsenal: Ambos os Times Marcam (Sim @1.62)
+  * Eintracht Frankfurt x Hamburger SV: Mais de 2.5 Gols no Jogo (@1.60)
+  * Racing Santander x Real Madrid: Ambos os Times Marcam (Sim @1.62)
+  * *Multiplicador:* **@4.20** (Vem de 100% de Green na rodada anterior).
+
+* 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica @36.50):**
+  * Palmeiras x Vasco: Palmeiras Vence sem Sofrer Gols (@2.10)
+  * Racing Santander x Real Madrid: Real Madrid Vence por 3+ Gols (-2.5 AH @2.65)
+  * Liverpool x Arsenal: Liverpool ou Empate & Ambos os Times Marcam (@2.15)
+  * Eintracht Frankfurt x Hamburger SV: Frankfurt Vence & Mais de 2.5 Gols (@2.20)
+  * Lyon x Angers: Lyon Vence por 2+ Gols (-1.5 AH @1.40)
+  * *Multiplicador:* **@36.50**
+
+* 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total da Rodada @612.00):**
+  * Racing Santander x Real Madrid: Real Madrid Vence & Ambos Marcam (@2.70)
+  * Liverpool x Arsenal: Liverpool Vence & Mais de 2.5 Gols (@2.80)
+  * Lazio x Cagliari: Lazio Vence sem Sofrer Gols (@2.25)
+  * Lyon x Angers: Lyon Vence por 3+ Gols (-2.5 AH @2.85)
+  * Eintracht Frankfurt x Hamburger SV: Frankfurt Vence & Ambos Marcam (@3.10)
+  * Palmeiras x Vasco: Palmeiras Vence & Mais de 2.5 Gols (@2.40)
+  * Grêmio x Atlético-MG: Menos de 1.5 Gols no Jogo (@2.65)
+  * *Multiplicador:* **@612.00** (Cobertura completa de 1 aposta ousada em cada um dos 7 jogos de elite).
+
+* 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Copa do Brasil e Série B @3.56):**
+  * Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)
+  * Grêmio x Atlético-MG: Menos de 2.5 Gols no Jogo (@1.58)
+  * Grêmio Novorizontino x Operário-PR: Novorizontino ou Empate (Dupla Chance 1X @1.12)
+  * Londrina x América-MG: Menos de 2.5 Gols no Jogo (@1.55)
+  * Cuiabá x São Bernardo: Cuiabá ou Empate (Dupla Chance 1X @1.14)
+  * *Multiplicador:* **@3.56** (Vem de 100% de Green na rodada anterior).
+
+* 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 5 DE 30 (CICLO SNIPER V6):**
+  * **Entrada:** R$ 40,70 (Banca invicta com 100% de aproveitamento nos Dias 1, 2, 3 e 4)
+  * **Seleção Independente (Regra V6 Imunidade Absoluta):** Racing Santander x Real Madrid (Real Madrid Vence ML @1.22) + Palmeiras x Vasco da Gama (Palmeiras ou Empate 1X @1.14) [Odd @1.39]
+  * **Retorno Projetado:** **R$ 56,57** rumo ao **DIA 6 DE 30**!

@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 40.7,
-  "currentDay": 5,
+  "currentStake": 56.57,
+  "currentDay": 6,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -244,7 +244,8 @@
       "selection": "Racing Santander x Real Madrid (Real Madrid Vence ML @1.22) + Palmeiras x Vasco (Palmeiras ou Empate 1X @1.14)",
       "odd": 1.39,
       "potentialReturn": 56.57,
-      "status": "PENDING"
+      "status": "HIT",
+      "actualReturn": 56.57
     }
   ]
 }

@@ -2897,7 +2897,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-01
 - **Cutoff:** 2026-11-01T10:00:00-03:00
 - **Contexto da Data:** Super domingo esportivo de alto calibre. A Premier League ferve com o clássico épico entre Liverpool e Arsenal em Anfield; La Liga traz o gigante Real Madrid de Kylian Mbappé visitando o Racing Santander em El Sardinero após a épica vitória no El Clásico; na Itália, a Lazio recebe o Cagliari no Stadio Olimpico; na França, o Lyon defende seu mando contra o Angers no Groupama Stadium; a Bundesliga traz o vertical Eintracht Frankfurt recebendo o Hamburgo; e o futebol brasileiro pega fogo com a semifinal de ida da Copa do Brasil entre Palmeiras e Vasco no Allianz Parque e Grêmio x Atlético-MG na Arena do Grêmio, além do radar afiado da Série B com Novorizontino, Londrina e Cuiabá.
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura Global
 - Analisados: 40 fixtures internacionais e nacionais
@@ -3017,3 +3017,95 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   * **Entrada:** R$ 40,70 (Banca invicta com 100% de aproveitamento nos Dias 1, 2, 3 e 4)
   * **Seleção Independente (Regra V6 Imunidade Absoluta):** Racing Santander x Real Madrid (Real Madrid Vence ML @1.22) + Palmeiras x Vasco da Gama (Palmeiras ou Empate 1X @1.14) [Odd @1.39]
   * **Retorno Projetado:** **R$ 56,57** rumo ao **DIA 6 DE 30**!
+
+
+#### 4. Auditoria e Liquidação Oficial dos Jogos e Bilhetes (01/11/2026)
+
+##### A. Resultados Oficiais das Fixtures
+1. **Racing Santander 0 × 3 Real Madrid** (La Liga)
+   - *Resultado Oficial:* 0 x 3 (Total: 3 gols)
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 5):** Real Madrid Vence (ML @1.22) ➔ ✅ **HIT** (Gols de Mbappé 11' pen, Bellingham 21', Diomandé 36')
+   - **SAFE+:** Real Madrid -1.5 AH (@1.68) ➔ ✅ **HIT** (Vitória por 3 gols de margem)
+   - **ATTACK:** Ambos os Times Marcam ➔ ❌ **MISS** (Santander não furou a defesa merengue)
+   - **NETO:** Real Madrid -2.5 AH (@2.65) ➔ ✅ **HIT** (Vitória por 3 gols exatos)
+
+2. **Palmeiras 1 × 0 Vasco da Gama** (Copa do Brasil / Semifinal - Ida)
+   - *Resultado Oficial:* 1 x 0 (Total: 1 gol)
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 5 / Brasileirão):** Palmeiras ou Empate (1X @1.14) ➔ ✅ **HIT** (Gol de Maurício 23' 1T)
+   - **SAFE+:** Palmeiras Vence (ML @1.48) ➔ ✅ **HIT** (Vitória garantida no Allianz)
+   - **NETO:** Palmeiras Vence sem Sofrer Gols (@2.10) ➔ ✅ **HIT** (Baliza 100% inviolada)
+
+3. **Lazio 2 × 1 Cagliari** (Serie A)
+   - *Resultado Oficial:* 2 x 1 (Total: 3 gols)
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Lazio ou Empate (1X @1.11) ➔ ✅ **HIT** (Gols de Isaksen e Pinamonti; Nzola)
+   - **SAFE+:** Lazio Vence (ML @1.45) ➔ ✅ **HIT** (Vitória no Olímpico)
+   - **NETO:** Lazio Vence sem Sofrer Gols (@2.25) ➔ ❌ **MISS** (Cagliari marcou com Nzola)
+
+4. **Olympique Lyonnais 2 × 0 Angers SCO** (Ligue 1)
+   - *Resultado Oficial:* 2 x 0 (Total: 2 gols)
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Lyon ou Empate (1X @1.11) ➔ ✅ **HIT** (Gols de Nuamah e Tolisso)
+   - **SAFE+:** Lyon Vence (ML @1.40) ➔ ✅ **HIT** (Vitória tranquila no Groupama)
+   - **NETO:** Lyon -1.5 AH (@2.10) ➔ ✅ **HIT** (Vitória por 2 gols de margem)
+
+5. **Liverpool 0 × 1 Arsenal** (Premier League)
+   - *Resultado Oficial:* 0 x 1 (Total: 1 gol)
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols (@1.22) ➔ ❌ **MISS** (Gol de Havertz aos 16'; Liverpool pressionou mas não furou a retranca)
+     - *Miss Audit:* STATISTICAL_VARIANCE (Arsenal quebrou o tabu de 13 jogos em Anfield com bloco defensivo ultrabaixo).
+   - **ATTACK:** Ambos os Times Marcam (@1.62) ➔ ❌ **MISS**
+   - **NETO:** Liverpool 1X & BTTS ➔ ❌ **MISS**
+
+6. **Eintracht Frankfurt 3 × 1 Hamburger SV** (Bundesliga)
+   - *Resultado Oficial:* 3 x 1 (Total: 4 gols)
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols (@1.20) ➔ ✅ **HIT** (4 gols)
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.60) ➔ ✅ **HIT** (4 gols)
+   - **NETO:** Frankfurt Vence & Mais de 2.5 Gols (@2.20) ➔ ✅ **HIT** (3x1)
+
+7. **Grêmio 2 × 0 Atlético-MG** (Copa do Brasil)
+   - *Resultado Oficial:* 2 x 0 (Total: 2 gols)
+   - **Tese (Múltipla Brasileirão):** Menos de 2.5 Gols (@1.58) ➔ ✅ **HIT** (Carlos Vinícius e Noriega; 2 gols totais)
+
+8. **Grêmio Novorizontino 2 × 1 Operário-PR** (Série B)
+   - *Resultado Oficial:* 2 x 1 (Total: 3 gols)
+   - **Tese (Múltipla Brasileirão):** Novorizontino ou Empate (1X @1.12) ➔ ✅ **HIT** (Vitória do Tigre no Jorjão)
+
+9. **Londrina 1 × 3 América-MG** (Série B)
+   - *Resultado Oficial:* 1 x 3 (Total: 4 gols)
+   - **Tese (Múltipla Brasileirão):** Menos de 2.5 Gols (@1.55) ➔ ❌ **MISS**
+     - *Miss Audit:* STATISTICAL_VARIANCE (Jogo desandou com expulsão e contra-ataques do Coelho).
+
+10. **Cuiabá 1 × 2 São Bernardo** (Série B)
+    - *Resultado Oficial:* 1 x 2
+    - **Tese (Múltipla Brasileirão):** Cuiabá ou Empate (1X @1.14) ➔ ❌ **MISS**
+      - *Miss Audit:* STATISTICAL_VARIANCE (São Bernardo surpreendeu no contra-golpe final na Arena Pantanal).
+
+---
+
+##### B. Auditoria dos Bilhetes Estruturados de 01/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 5 DE 30 (CICLO SNIPER V6):** 🟢 **100% GREEN IMPECÁVEL (@1.39)!**
+  - Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22) ➔ ✅ HIT (0x3)
+  - Palmeiras x Vasco da Gama: Palmeiras ou Empate (Dupla Chance 1X @1.14) ➔ ✅ HIT (1x0)
+  - *Retorno:* De R$ 40,70 para **R$ 56,57**! A banca consagra seu **5º dia consecutivo de green** (100% de aproveitamento do ciclo) e avança para o **DIA 6 DE 30**! Mais uma vez, o respeito estrito de não inventar linhas de gols no Palmeiras garantiu o sucesso diante do 1x0 seco!
+
+- ⭐ **BILHETE SUPREMO — SNIPER DE OURO GLOBAL (@1.72):** 🟢 **100% GREEN PERFEITO! (4/4 ACERTOS)**
+  - Racing Santander x Real Madrid: Real Madrid Vence (@1.22) ➔ ✅ HIT (0x3)
+  - Palmeiras x Vasco da Gama: Palmeiras ou Empate 1X (@1.14) ➔ ✅ HIT (1x0)
+  - Lazio x Cagliari: Lazio ou Empate 1X (@1.11) ➔ ✅ HIT (2x1)
+  - Lyon x Angers: Lyon ou Empate 1X (@1.11) ➔ ✅ HIT (2x0)
+  - *Retorno Líquido:* **+0.72 unidades** de lucro puro na veia! 4 fortalezas mundiais confirmadas sem sustos.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição @3.48):** 🟢 **100% GREEN HISTÓRICO! (3/3 ACERTOS)**
+  - Racing Santander x Real Madrid: Real Madrid -1.5 AH (@1.68) ➔ ✅ HIT (0x3)
+  - Palmeiras x Vasco da Gama: Palmeiras Vence (@1.48) ➔ ✅ HIT (1x0)
+  - Lyon x Angers: Lyon Vence (@1.40) ➔ ✅ HIT (2x0)
+  - *Retorno Líquido:* **+2.48 unidades de lucro puro!** (Com odd de @3.48 forrada no bolso!).
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+  - 🟢 **Stop Point 1 (@1.39):** 🟢 **100% GREEN!** (Real Madrid ML ✅ + Palmeiras 1X ✅)
+  - 🟡 **Stop Point 2 (@1.72):** 🟢 **100% GREEN!** (Stop Point 1 + Lazio 1X ✅ + Lyon 1X ✅)
+  - 🔴 **Stop Point 3 (@2.52):** ❌ RED (Derrubada pelo Liverpool 0x1 Arsenal no under 1.5).
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.20):** ❌ **RED** (Derrubada pelo 0x1 de Liverpool x Arsenal e 0x3 do Santander).
+- 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@36.50):** ❌ **RED** (Espetaculares 4 acertos em 5 seleções: Palmeiras Clean Sheet ✅, Real Madrid -2.5 ✅, Frankfurt Vence & Over ✅, Lyon -1.5 ✅ — derrubada apenas pelo clássico inglês).
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@612.00):** ❌ **RED** (Frankfurt Vence & BTTS cravou @3.10 ✅, mas outros jogos caíram).
+- 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (@3.56):** ❌ **RED** (3 acertos em 5 jogos — Palmeiras 1X ✅, Grêmio Under 2.5 ✅, Novorizontino 1X ✅; Londrina e Cuiabá tropeçaram).

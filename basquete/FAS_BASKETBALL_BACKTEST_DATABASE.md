@@ -654,3 +654,21 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
 2. **Oklahoma City Thunder × Cleveland Cavaliers** (Paycom Center - 21:00 BRT): OKC Thunder +6.5 Spread Protegido (@1.28)
 3. **Miami Heat × Los Angeles Lakers** (Kaseya Center - 00:00 BRT): Mais de 214.5 Pontos (@1.20) / Lakers +8.5 Spread (@1.32)
 4. **Sacramento Kings × Dallas Mavericks** (Golden 1 Center - 22:00 BRT): Mais de 224.5 Pontos (@1.45)
+
+#### 2. Nova Categoria FAS Basquete: Múltipla Round Sweep (Mega Bingo de 12 Jogos)
+- **Nome:** 🎲 MÚLTIPLA 5 — O BINGO DA RODADA NBA (Round Sweep 12 Jogos / Odd @153.11)
+- **Conceito:** Cobertura de 100% dos 12 jogos da rodada com base em probabilidades combinadas (XGBoost + Rede Neural + Eficiência Líquida e Mando) para busca de retorno exponencial com stake simbólica.
+- **Seleções Pré-Jogo (Moneyline):**
+  1. OKC Thunder @ Cleveland Cavaliers: Thunder Vence (ML @1.85 / 56.8%)
+  2. Detroit Pistons @ Charlotte Hornets: Pistons Vence (ML @1.63 / 62.0%)
+  3. Atlanta Hawks @ Indiana Pacers: Pacers Vence (ML @1.55 / 64.5%)
+  4. Brooklyn Nets @ New York Knicks: Knicks Vence (ML @1.20 / 82.0%)
+  5. Washington Wizards @ Orlando Magic: Magic Vence (ML @1.18 / 84.5%)
+  6. Chicago Bulls @ Philadelphia 76ers: 76ers Vence (ML @1.42 / 70.5%)
+  7. Sacramento Kings @ Dallas Mavericks: Mavericks Vence (ML @1.45 / 68.0%)
+  8. New Orleans Pelicans @ Memphis Grizzlies: Grizzlies Vence (ML @1.60 / 61.5%)
+  9. Milwaukee Bucks @ Minnesota Timberwolves: Timberwolves Vence (ML @1.72 / 58.5%)
+  10. Boston Celtics @ Houston Rockets: Celtics Vence (ML @2.50 / 57.5%)
+  11. Utah Jazz @ San Antonio Spurs: Spurs Vence (ML @1.42 / 69.0%)
+  12. Portland Trail Blazers @ Denver Nuggets: Nuggets Vence (ML @1.15 / 86.0%)
+- **Multiplicador Global Acumulado:** **@153.11**

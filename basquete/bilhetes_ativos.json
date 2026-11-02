@@ -4,7 +4,7 @@
   "snapshotId": "FAS_BASKETBALL_2026-11-02_V1_SHADOW_LAB",
   "mode": "TESTING_SHADOW_LAB",
   "status": "PENDING",
-  "notes": "LABORATÓRIO QUANTITATIVO FAS BASKETBALL (MODO TESTE) — 02/11/2026: Varredura de 12 jogos da NBA. Análise combinada XGBoost + Rede Neural (NN) com foco em Spreads Elásticos Protegidos e Linhas Alternativas de Pontos. Este módulo corre em modo sombra para validação de assertividade.",
+  "notes": "LABORATÓRIO QUANTITATIVO FAS BASKETBALL (MODO TESTE) — 02/11/2026: Varredura de 12 jogos da NBA. Análise combinada XGBoost + Rede Neural (NN) com foco em Spreads Elásticos Protegidos e Linhas Alternativas de Pontos. Este módulo corre em modo sombra para validação de assertividade. | Adicionada Múltipla Round Sweep de 12 jogos (@153.11) para caça de jackpot probabilístico.",
   "supremoTicket": {
     "name": "⭐ BILHETE SNIPER BASQUETE (LAB TEST / 3 Seleções Protegidas)",
     "type": "FILE_DO_DIA_TEST",
@@ -70,5 +70,98 @@
         "Miami Heat x Los Angeles Lakers: Los Angeles Lakers Vence (Moneyline @1.55)"
       ]
     }
-  ]
+  ],
+  "roundSweepTicket": {
+    "name": "🎲 MÚLTIPLA 5 — O BINGO DA RODADA NBA (Round Sweep 12 Jogos / Odd Altíssima)",
+    "type": "ROUND_SWEEP_12_GAMES",
+    "multiplier": 153.11,
+    "status": "PENDING",
+    "philosophy": "Nova categoria arriscada do FAS Basquete: Previsão do vencedor (Moneyline) de 100% dos 12 jogos da rodada da NBA com base nas probabilidades combinadas de XGBoost, Rede Neural, força de elenco e mando de quadra.",
+    "selections": [
+      {
+        "match": "Oklahoma City Thunder @ Cleveland Cavaliers (21:00 BRT)",
+        "market": "Oklahoma City Thunder Vence (Moneyline)",
+        "odd": 1.85,
+        "prob": "56.8%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Detroit Pistons @ Charlotte Hornets (21:30 BRT)",
+        "market": "Detroit Pistons Vence (Moneyline)",
+        "odd": 1.63,
+        "prob": "62.0%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Atlanta Hawks @ Indiana Pacers (21:30 BRT)",
+        "market": "Indiana Pacers Vence (Moneyline)",
+        "odd": 1.55,
+        "prob": "64.5%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Brooklyn Nets @ New York Knicks (21:30 BRT)",
+        "market": "New York Knicks Vence (Moneyline)",
+        "odd": 1.2,
+        "prob": "82.0%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Washington Wizards @ Orlando Magic (21:30 BRT)",
+        "market": "Orlando Magic Vence (Moneyline)",
+        "odd": 1.18,
+        "prob": "84.5%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Chicago Bulls @ Philadelphia 76ers (21:30 BRT)",
+        "market": "Philadelphia 76ers Vence (Moneyline)",
+        "odd": 1.42,
+        "prob": "70.5%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Sacramento Kings @ Dallas Mavericks (22:00 BRT)",
+        "market": "Dallas Mavericks Vence (Moneyline)",
+        "odd": 1.45,
+        "prob": "68.0%",
+        "status": "PENDING"
+      },
+      {
+        "match": "New Orleans Pelicans @ Memphis Grizzlies (22:00 BRT)",
+        "market": "Memphis Grizzlies Vence (Moneyline)",
+        "odd": 1.6,
+        "prob": "61.5%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Milwaukee Bucks @ Minnesota Timberwolves (22:00 BRT)",
+        "market": "Minnesota Timberwolves Vence (Moneyline)",
+        "odd": 1.72,
+        "prob": "58.5%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Boston Celtics @ Houston Rockets (22:30 BRT)",
+        "market": "Boston Celtics Vence (Moneyline)",
+        "odd": 2.5,
+        "prob": "57.5%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Utah Jazz @ San Antonio Spurs (22:30 BRT)",
+        "market": "San Antonio Spurs Vence (Moneyline)",
+        "odd": 1.42,
+        "prob": "69.0%",
+        "status": "PENDING"
+      },
+      {
+        "match": "Portland Trail Blazers @ Denver Nuggets (23:00 BRT)",
+        "market": "Denver Nuggets Vence (Moneyline)",
+        "odd": 1.15,
+        "prob": "86.0%",
+        "status": "PENDING"
+      }
+    ]
+  }
 }

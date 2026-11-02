@@ -3109,3 +3109,45 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@36.50):** ❌ **RED** (Espetaculares 4 acertos em 5 seleções: Palmeiras Clean Sheet ✅, Real Madrid -2.5 ✅, Frankfurt Vence & Over ✅, Lyon -1.5 ✅ — derrubada apenas pelo clássico inglês).
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@612.00):** ❌ **RED** (Frankfurt Vence & BTTS cravou @3.10 ✅, mas outros jogos caíram).
 - 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (@3.56):** ❌ **RED** (3 acertos em 5 jogos — Palmeiras 1X ✅, Grêmio Under 2.5 ✅, Novorizontino 1X ✅; Londrina e Cuiabá tropeçaram).
+
+
+---
+
+### [2026-11-02] — RODADA DIÁRIA (FECHAMENTO DE RODADAS: SERIE A, PREMIER LEAGUE, LA LIGA & BRASILEIRÃO SÉRIE A)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-02_V1_MONDAY_REGULAR
+- **Data do Registro:** 2026-11-02
+- **Cutoff:** 2026-11-02T13:00:00-03:00
+- **Contexto da Data:** Segunda-feira de clássicos europeus e nacionais encerrando as rodadas de fim de semana. Na Itália, a Atalanta de Gasperini busca se consolidar no G-4 contra o Parma no Gewiss Stadium, enquanto Sassuolo e Fiorentina duelam no Mapei Stadium; na Inglaterra, o St. James' Park ferve com Newcastle x Everton na Premier League; na Espanha, o Deportivo La Coruña recebe o Osasuna no Riazor; e no Brasil, o Nabi Abi Chedid recebe o clássico paulista entre RB Bragantino e Santos, com o time da Baixada severamente desfalcado.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 18 fixtures nacionais e internacionais
+- Elegíveis: 5 fixtures com liquidez máxima e gaps táticos evidentes
+- Gatilho do Brasileirão (>3 jogos): INATIVO / NO_FIXTURES (<3 jogos) — apenas 1 jogo da Série A hoje (Bragantino x Santos). Capital preservado.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Atalanta × Parma** (16:45 BRT — Serie A 10ª Rodada)
+   - **Game State & Contexto:** Gewiss Stadium. Atalanta tem abismo técnico evidente; Parma briga na zona de rebaixamento e não tem nenhuma vitória fora de casa.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 6):** Atalanta ou Empate (Dupla Chance 1X @1.12)
+   - **SAFE+:** Atalanta Vence (Moneyline @1.53)
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.50)
+
+2. **RB Bragantino × Santos** (20:00 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Nabi Abi Chedid. Santos visita Bragança Paulista sem Neymar (suspenso), sem João Paulo/Brazão no gol, sem Lucas Veríssimo e sem Arão. Bragantino vem de 3x0 na Chapecoense e tem enorme intensidade em casa.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Dia 6):** RB Bragantino ou Empate (Dupla Chance 1X @1.24)
+   - **SAFE+:** RB Bragantino Vence (Moneyline @1.76)
+   - **NETO:** RB Bragantino Vence sem Sofrer Gols (@2.80)
+
+3. **Newcastle United × Everton** (17:00 BRT — Premier League 10ª Rodada)
+   - **Game State & Contexto:** St. James' Park. Newcastle com retorno de titulares na Premier League buscando o G-6; Everton desgastado.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Newcastle ou Empate (Dupla Chance 1X @1.18)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.57)
+
+4. **Deportivo La Coruña × Osasuna** (17:00 BRT — La Liga 11ª Rodada)
+   - **Game State & Contexto:** Riazor. Confronto equilibrado de bloco médio com fortes tendências de under.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Menos de 3.5 Gols no Jogo (@1.15)
+
+5. **Sassuolo × Fiorentina** (14:30 BRT — Serie A 10ª Rodada)
+   - **Game State & Contexto:** Mapei Stadium. Duas equipes de futebol ofensivo e defesas que concedem espaços.
+   - **Tese (ATTACK):** Ambos os Times Marcam (Sim @1.65)

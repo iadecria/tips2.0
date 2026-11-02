@@ -1,43 +1,43 @@
 {
-  "date": "2026-11-01",
-  "snapshotId": "FAS_FOOTBALL_2026-11-01_V1_GLOBAL_SUNDAY",
-  "status": "SETTLED",
-  "notes": "CONFERE TOTAL OFICIAL 01/11/2026: Domingo histórico! Greens perfeitos no Bilhete Supremo (@1.72), Múltipla 2 SAFE+ (@3.48), Múltipla 1 SAFE Stop Points 1 e 2, e Desafio Soros Dia 5 (@1.39 -> R$ 56,57).",
+  "date": "2026-11-02",
+  "snapshotId": "FAS_FOOTBALL_2026-11-02_V1_MONDAY_REGULAR",
+  "status": "PENDING",
+  "notes": "GRADE OFICIAL FAS 3 V6.1 — SEGUNDA-FEIRA 02/11/2026: 1) Desafio Soros Dia 6 (R$ 56,57 -> R$ 78,63) blindado com Atalanta 1X e Bragantino 1X; 2) Bilhete Supremo com 4 fortalezas; 3) Múltipla 3 Super Ataque na trocação de Newcastle e Sassuolo; 4) Múltipla Brasileirão suspensa por falta de gatilho (>3 jogos); 5) Basquete em módulo de laboratório separado.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Domingo 01/11 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO GLOBAL (Segunda 02/11 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.72,
-    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais em turnos distintos com favoritismo incontestável e abismo técnico comprovado, sem arriscar complementos desnecessários.",
-    "status": "HIT",
+    "multiplierGlobal": 1.76,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas mundiais protegidas por dupla chance e under elástico em turnos distintos, sem arriscar complementos desnecessários.",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Racing Santander x Real Madrid (12:15 BRT)",
-        "competition": "La Liga (Espanha)",
-        "market": "Real Madrid Vence (Moneyline)",
-        "odd": 1.22,
-        "status": "HIT"
-      },
-      {
-        "match": "Palmeiras x Vasco (16:00 BRT)",
-        "competition": "Copa do Brasil (Semifinal - Ida)",
-        "market": "Palmeiras ou Empate (Dupla Chance 1X)",
-        "odd": 1.14,
-        "status": "HIT"
-      },
-      {
-        "match": "Lazio x Cagliari (11:00 BRT)",
+        "match": "Atalanta x Parma (16:45 BRT)",
         "competition": "Serie A (Itália)",
-        "market": "Lazio ou Empate (Dupla Chance 1X)",
-        "odd": 1.11,
-        "status": "HIT"
+        "market": "Atalanta ou Empate (Dupla Chance 1X)",
+        "odd": 1.12,
+        "status": "PENDING"
       },
       {
-        "match": "Lyon x Angers (13:15 BRT)",
-        "competition": "Ligue 1 (França)",
-        "market": "Lyon ou Empate (Dupla Chance 1X)",
-        "odd": 1.11,
-        "status": "HIT"
+        "match": "RB Bragantino x Santos (20:00 BRT)",
+        "competition": "Brasileirão Série A",
+        "market": "RB Bragantino ou Empate (Dupla Chance 1X)",
+        "odd": 1.24,
+        "status": "PENDING"
+      },
+      {
+        "match": "Newcastle x Everton (17:00 BRT)",
+        "competition": "Premier League (Inglaterra)",
+        "market": "Newcastle ou Empate (Dupla Chance 1X)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Deportivo La Coruña x Osasuna (17:00 BRT)",
+        "competition": "La Liga (Espanha)",
+        "market": "Menos de 3.5 Gols no Jogo",
+        "odd": 1.15,
+        "status": "PENDING"
       }
     ]
   },
@@ -45,120 +45,102 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "HIT_PARTIAL",
+      "status": "PENDING",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Dupla Âncora de Elite Global)",
           "multiplier": 1.39,
           "legs": [
-            "Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22)",
-            "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)"
+            "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
+            "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla Blindada com Itália e França)",
-          "multiplier": 1.72,
+          "level": "Stop Point 2 (Quádrupla Blindada com Premier League e La Liga)",
+          "multiplier": 1.76,
           "legs": [
-            "Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22)",
-            "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
-            "Lazio x Cagliari: Lazio ou Empate (Dupla Chance 1X @1.11)",
-            "Lyon x Angers: Lyon ou Empate (Dupla Chance 1X @1.11)"
+            "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
+            "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)",
+            "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
+            "Deportivo La Coruña x Osasuna: Menos de 3.5 Gols no Jogo (@1.15)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Sexteto Continental com Premier League e Bundesliga)",
-          "multiplier": 2.52,
+          "level": "Stop Point 3 (Quíntupla Continental com Mapei Stadium)",
+          "multiplier": 2.35,
           "legs": [
-            "Racing Santander x Real Madrid: Real Madrid Vence (ML @1.22)",
-            "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
-            "Lazio x Cagliari: Lazio ou Empate (Dupla Chance 1X @1.11)",
-            "Lyon x Angers: Lyon ou Empate (Dupla Chance 1X @1.11)",
-            "Liverpool x Arsenal: Mais de 1.5 Gols no Jogo (@1.22)",
-            "Eintracht Frankfurt x Hamburger SV: Mais de 1.5 Gols no Jogo (@1.20)"
+            "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
+            "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)",
+            "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
+            "Deportivo La Coruña x Osasuna: Menos de 3.5 Gols no Jogo (@1.15)",
+            "Sassuolo x Fiorentina: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Imposição Mandante)",
       "type": "SAFE+",
-      "multiplier": 3.48,
-      "status": "HIT",
+      "multiplier": 3.18,
+      "status": "PENDING",
       "legs": [
-        "Racing Santander x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.68)",
-        "Palmeiras x Vasco: Palmeiras Vence (Moneyline @1.48)",
-        "Lyon x Angers: Lyon Vence (Moneyline @1.40)"
+        "Atalanta x Parma: Atalanta Vence (Moneyline @1.53)",
+        "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
+        "RB Bragantino x Santos: RB Bragantino Vence (Moneyline @1.76)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca em Super Clássicos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Segunda-Feira)",
       "type": "ATTACK",
-      "multiplier": 4.2,
-      "status": "MISS",
+      "multiplier": 3.88,
+      "status": "PENDING",
       "legs": [
-        "Liverpool x Arsenal: Ambos os Times Marcam (Sim @1.62)",
-        "Eintracht Frankfurt x Hamburger SV: Mais de 2.5 Gols no Jogo (@1.60)",
-        "Racing Santander x Real Madrid: Ambos os Times Marcam (Sim @1.62)"
+        "Sassuolo x Fiorentina: Ambos os Times Marcam (Sim @1.65)",
+        "Newcastle x Everton: Ambos os Times Marcam (Sim @1.57)",
+        "Atalanta x Parma: Mais de 2.5 Gols no Jogo (@1.50)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 36.5,
-      "status": "MISS",
+      "multiplier": 28.5,
+      "status": "PENDING",
       "legs": [
-        "Palmeiras x Vasco: Palmeiras Vence sem Sofrer Gols (@2.10)",
-        "Racing Santander x Real Madrid: Real Madrid Vence por 3+ Gols (-2.5 AH @2.65)",
-        "Liverpool x Arsenal: Liverpool ou Empate & Ambos os Times Marcam (@2.15)",
-        "Eintracht Frankfurt x Hamburger SV: Frankfurt Vence & Mais de 2.5 Gols (@2.20)",
-        "Lyon x Angers: Lyon Vence por 2+ Gols (-1.5 AH @1.40)"
+        "Atalanta x Parma: Atalanta Vence & Mais de 2.5 Gols (@2.15)",
+        "Newcastle x Everton: Newcastle Vence & Ambos Marcam (@3.20)",
+        "RB Bragantino x Santos: RB Bragantino Vence sem Sofrer Gols (@2.80)",
+        "Sassuolo x Fiorentina: Mais de 2.5 Gols & Ambos Marcam (@1.95)"
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total da Rodada)",
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total)",
       "type": "IMPROVAVEL",
-      "multiplier": 612.0,
-      "status": "MISS",
+      "multiplier": 440.0,
+      "status": "PENDING",
       "legs": [
-        "Racing Santander x Real Madrid: Real Madrid Vence & Ambos Marcam (@2.70)",
-        "Liverpool x Arsenal: Liverpool Vence & Mais de 2.5 Gols (@2.80)",
-        "Lazio x Cagliari: Lazio Vence sem Sofrer Gols (@2.25)",
-        "Lyon x Angers: Lyon Vence por 3+ Gols (-2.5 AH @2.85)",
-        "Eintracht Frankfurt x Hamburger SV: Frankfurt Vence & Ambos Marcam (@3.10)",
-        "Palmeiras x Vasco: Palmeiras Vence & Mais de 2.5 Gols (@2.40)",
-        "Grêmio x Atlético-MG: Menos de 1.5 Gols no Jogo (@2.65)"
-      ]
-    },
-    {
-      "name": "MÚLTIPLA DO BRASILEIRÃO (Gatilho > 3 Jogos: Copa do Brasil e Série B)",
-      "type": "BRASILEIRAO",
-      "multiplier": 3.56,
-      "status": "MISS",
-      "legs": [
-        "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)",
-        "Grêmio x Atlético-MG: Menos de 2.5 Gols no Jogo (@1.58)",
-        "Grêmio Novorizontino x Operário-PR: Novorizontino ou Empate (Dupla Chance 1X @1.12)",
-        "Londrina x América-MG: Menos de 2.5 Gols no Jogo (@1.55)",
-        "Cuiabá x São Bernardo: Cuiabá ou Empate (Dupla Chance 1X @1.14)"
+        "Atalanta x Parma: Atalanta Vence por 3+ Gols (-2.5 AH @3.10)",
+        "Newcastle x Everton: Newcastle Vence & Mais de 3.5 Gols (@3.40)",
+        "Sassuolo x Fiorentina: Empate com Gols (@3.60)",
+        "Deportivo La Coruña x Osasuna: Menos de 1.5 Gols (@2.45)",
+        "RB Bragantino x Santos: RB Bragantino Vence por 2+ Gols (-1.5 AH @3.10)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 5 DE 30 (CICLO SNIPER V6)",
-    "day": 5,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 6 DE 30 (CICLO SNIPER V6)",
+    "day": 6,
     "targetDays": 30,
-    "stake": 40.7,
+    "stake": 56.57,
     "multiplier": 1.39,
-    "potentialReturn": 56.57,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o Real Madrid em La Liga e o caldeirão do Allianz Parque com o Palmeiras na Copa do Brasil, sem arriscar complementos de gols.",
+    "potentialReturn": 78.63,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o caldeirão de Bergamo e a fragilidade do Santos desfalcado em Bragança Paulista, sem inventar linhas de gols.",
     "legs": [
-      "Racing Santander x Real Madrid: Real Madrid Vence (Moneyline @1.22)",
-      "Palmeiras x Vasco: Palmeiras ou Empate (Dupla Chance 1X @1.14)"
+      "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
+      "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)"
     ],
-    "status": "HIT",
-    "actualReturn": 56.57
+    "status": "PENDING"
   }
 }

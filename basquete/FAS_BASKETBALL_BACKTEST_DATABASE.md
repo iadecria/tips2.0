@@ -636,3 +636,21 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
 
 - 🎫 **MÚLTIPLA 3 — SUPER ATAQUE BASQUETE (@3.15):** ⏳ Aguarda jogos da NBA
 - 🎫 **MÚLTIPLA 4 — APOSENTAR O NETO BASQUETE (@21.80):** ⏳ Crvena -9.5 ✅ (103x73), aguarda jogos da NBA
+
+
+---
+
+### [2026-11-02] — RODADA DIÁRIA (NBA REGULAR SEASON — MÓDULO SHADOW & LABORATÓRIO DE TESTES)
+
+- **Snapshot ID:** FAS_BASKETBALL_2026-11-02_V1_SHADOW_LAB
+- **Data do Registro:** 2026-11-02
+- **Cutoff:** 2026-11-02T20:00:00-03:00
+- **Modo Operacional:** **TESTING / SHADOW BACKTEST (LABORATÓRIO QUANTITATIVO)**
+- **Contexto da Data:** Super rodada da NBA com 12 partidas. Foco em síntese multi-IA (XGBoost + Rede Neural) com isolamento estrito contra o futebol para validação de assertividade antes de deploy em banca real.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING (MODO TESTE)**
+
+#### 1. Discovery e Seleções Analisadas
+1. **Boston Celtics × Houston Rockets** (TD Garden - 22:30 BRT): Boston Celtics Vence (ML @1.22) / Spread -5.5 (@1.48)
+2. **Oklahoma City Thunder × Cleveland Cavaliers** (Paycom Center - 21:00 BRT): OKC Thunder +6.5 Spread Protegido (@1.28)
+3. **Miami Heat × Los Angeles Lakers** (Kaseya Center - 00:00 BRT): Mais de 214.5 Pontos (@1.20) / Lakers +8.5 Spread (@1.32)
+4. **Sacramento Kings × Dallas Mavericks** (Golden 1 Center - 22:00 BRT): Mais de 224.5 Pontos (@1.45)

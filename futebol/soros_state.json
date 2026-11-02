@@ -246,6 +246,15 @@
       "potentialReturn": 56.57,
       "status": "HIT",
       "actualReturn": 56.57
+    },
+    {
+      "day": 6,
+      "date": "2026-11-02",
+      "stakeIn": 56.57,
+      "selection": "Atalanta x Parma (Atalanta ou Empate 1X @1.12) + RB Bragantino x Santos (RB Bragantino ou Empate 1X @1.24)",
+      "odd": 1.39,
+      "potentialReturn": 78.63,
+      "status": "PENDING"
     }
   ]
 }

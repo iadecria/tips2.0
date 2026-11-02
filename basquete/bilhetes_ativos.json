@@ -58,6 +58,17 @@
         "Milwaukee Bucks x Minnesota Timberwolves: Mais de 218.5 Pontos (@1.40)",
         "Phoenix Suns x Golden State Warriors: Mais de 221.5 Pontos (@1.34)"
       ]
+    },
+    {
+      "name": "🤖 BILHETE BENCHMARK — OUTRA IA (Consenso Moneyline)",
+      "type": "OTHER_AI_BENCHMARK",
+      "multiplier": 2.25,
+      "status": "PENDING",
+      "notes": "Benchmark comparativo direto para teste sombra: Dallas Mavericks ML seca (@1.45) + Los Angeles Lakers ML seca (@1.55). Testaremos se a ML seca sobrevive ou se o modelo de Spreads Protegidos do FAS supera o modelo tradicional.",
+      "legs": [
+        "Sacramento Kings x Dallas Mavericks: Dallas Mavericks Vence (Moneyline @1.45)",
+        "Miami Heat x Los Angeles Lakers: Los Angeles Lakers Vence (Moneyline @1.55)"
+      ]
     }
   ]
 }

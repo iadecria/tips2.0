@@ -3200,3 +3200,57 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.88):** ❌ **RED** (2/3 acertos — Sassuolo BTTS ✅ 2x4, Atalanta Over 2.5 ✅ 0x3; faltando apenas o gol do Newcastle).
 - 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@28.50):** ❌ **RED**
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@440.00):** ❌ **RED**
+
+
+---
+
+### [2026-11-03] — RODADA DIÁRIA (SUPER TERÇA DE UEFA CHAMPIONS LEAGUE & AFC CHAMPIONS LEAGUE ELITE)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-03_V1_CHAMPIONS_LEAGUE_ELITE
+- **Data do Registro:** 2026-11-03
+- **Cutoff:** 2026-11-03T14:00:00-03:00
+- **Contexto da Data:** A semana ganha potência máxima com a 4ª rodada da fase de liga da UEFA Champions League e a AFC Champions League Elite. Na Catalunha, o FC Barcelona de Hansi Flick recebe o Aston Villa no Camp Nou / Montjuïc; na Espanha, o explosivo confronto entre Atlético de Madrid e Bayern de Munique; em Old Trafford, Manchester United x Roma; na Holanda, o Feyenoord recebe a Inter de Milão; na Kingdom Arena em Riade, o Al Hilal recebe o Shabab Al Ahli Dubai; e no Brasil, o Internacional recebe o Coritiba no Beira-Rio pelo Brasileirão Série A.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 24 fixtures internacionais
+- Elegíveis: 10 fixtures de elite com liquidez máxima
+- Descartados no pente-fino: Bodø/Glimt x Lille (clima gélido no Círculo Polar com alta variância tática), Shakhtar x Sporting (campo neutro).
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Al Hilal × Shabab Al Ahli Dubai** (15:15 BRT — AFC Champions League Elite 4ª Rodada)
+   - **Game State & Contexto:** Kingdom Arena lotada. Al Hilal de Jorge Jesus é uma das maiores máquinas ofensivas do futebol mundial em casa (Mitrovic, Neves, Milinkovic-Savic, Malcom) com média superior a 3.0 gols por jogo e abismo técnico total.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Ciclo 2 - Dia 1):** Al Hilal Vence (Moneyline @1.18)
+   - **SAFE+:** Al Hilal Vence por 2+ Gols (-1.5 AH @1.55)
+   - **NETO:** Al Hilal Vence sem Sofrer Gols (@1.95)
+
+2. **FC Barcelona × Aston Villa** (17:00 BRT — UEFA Champions League 4ª Rodada)
+   - **Game State & Contexto:** Camp Nou / Montjuïc. Barcelona líder e avassalador em ritmo de transição com Lewandowski, Raphinha e Lamine Yamal. Aston Villa tem dificuldades com linhas altas fora da Inglaterra.
+   - **Tese (Bilhete Supremo / SAFE Stop 1 / Sniper Soros Ciclo 2 - Dia 1):** FC Barcelona ou Empate (Dupla Chance 1X @1.15)
+   - **SAFE+:** FC Barcelona Vence (Moneyline @1.45)
+   - **NETO:** FC Barcelona Vence & Mais de 2.5 Gols (@1.90)
+
+3. **Feyenoord × Inter de Milão** (17:00 BRT — UEFA Champions League 4ª Rodada)
+   - **Game State & Contexto:** Estádio De Kuip em Roterdã. Inter de Simone Inzaghi extremamente sólida em competições europeias (Lautaro Martínez e Thuram); Feyenoord oscila defensivamente contra gigantes.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Inter de Milão ou Empate (Dupla Chance X2 @1.18)
+   - **SAFE+:** Inter de Milão Vence (Moneyline @1.90)
+
+4. **Sport Club Internacional × Coritiba** (21:30 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Estádio Beira-Rio. Colorado em grande momento diante de sua torcida buscando o G-4; Coritiba luta na parte de baixo da tabela e tem grande dificuldade longe do Couto Pereira.
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Internacional ou Empate (Dupla Chance 1X @1.14)
+   - **SAFE+:** Internacional Vence (Moneyline @1.45)
+
+5. **Atlético de Madrid × FC Bayern München** (17:00 BRT — UEFA Champions League 4ª Rodada)
+   - **Game State & Contexto:** Cívitas Metropolitano. Clássico de elite. Bayern com ataque fulminante de Harry Kane e Musiala; Atlético de Simeone responde com Julián Álvarez e Griezmann.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.22)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.55)
+   - **NETO:** Bayern München Vence & Ambos Marcam (@3.10)
+
+6. **Villarreal × Paris Saint-Germain** (17:00 BRT — UEFA Champions League 4ª Rodada)
+   - **Game State & Contexto:** Estádio de La Cerámica. Jogo de transições rápidas; Villarreal joga aberto em casa e o PSG de Luis Enrique tem enorme potencial ofensivo.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.20)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.58)
+
+7. **Galatasaray × VfB Stuttgart** (14:45 BRT — UEFA Champions League 4ª Rodada)
+   - **Game State & Contexto:** Rams Park em Istambul. Caldeirão turco de pressão insana (Osimhen e Icardi); Stuttgart joga para a frente e concede muitos espaços.
+   - **Tese (ATTACK):** Mais de 2.5 Gols no Jogo (@1.68)

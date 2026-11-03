@@ -261,8 +261,10 @@
       "day": 1,
       "date": "2026-11-03",
       "stakeIn": 10.0,
-      "status": "PENDING",
-      "notes": "Novo Ciclo Sniper V6 após sequência épica de 5 greens consecutivos (R$ 10 -> R$ 56,57)."
+      "selection": "Al Hilal x Shabab Al Ahli (Al Hilal Vence ML @1.18) + FC Barcelona x Aston Villa (FC Barcelona ou Empate 1X @1.15)",
+      "odd": 1.36,
+      "potentialReturn": 13.6,
+      "status": "PENDING"
     }
   ]
 }

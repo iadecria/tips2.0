@@ -1,43 +1,43 @@
 {
-  "date": "2026-11-02",
-  "snapshotId": "FAS_FOOTBALL_2026-11-02_V1_MONDAY_REGULAR",
-  "status": "SETTLED",
-  "notes": "CONFERE TOTAL OFICIAL 02/11/2026: Segunda-feira de anomalias estatísticas extremas na Europa (Atalanta 0x3 Parma e Newcastle 0x1 Everton). O Bragantino venceu o Santos (2x1) e Sassuolo fez 2x4. Ciclo do Soros finalizado no Dia 6 após 5 greens seguidos; perda limitada aos R$ 10 iniciais.",
+  "date": "2026-11-03",
+  "snapshotId": "FAS_FOOTBALL_2026-11-03_V1_CHAMPIONS_LEAGUE_ELITE",
+  "status": "PENDING",
+  "notes": "GRADE OFICIAL FAS 3 V6.1 — TERÇA-FEIRA 03/11/2026: Retorno da Champions League e competições continentais de elite. 1) Desafio Soros Ciclo 2 - Dia 1 (R$ 10,00 -> R$ 13,60) blindado com Al Hilal e Barcelona 1X; 2) Bilhete Supremo com 4 fortalezas continentais (@1.82); 3) Múltipla 3 Super Ataque com Bayern, PSG e Galatasaray (@4.11); 4) Gestão de risco pós-segunda-feira.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER EUROPEU INDEPENDENTE (Segunda 02/11 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE CHAMPIONS LEAGUE GLOBAL (Terça 03/11 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.85,
-    "philosophy": "Arquitetura Anti-SPOF V6.1: Bilhete 100% europeu que liquida as 19:00 BRT, totalmente desacoplado do jogo brasileiro da noite. Se houver zebra no Brasil, o Supremo ja colocou o green no bolso.",
-    "status": "MISS",
+    "multiplierGlobal": 1.82,
+    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas continentais e nacionais em turnos distintos com favoritismo incontestável e abismo técnico comprovado.",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Atalanta x Parma (16:45 BRT)",
-        "competition": "Serie A (Itália)",
-        "market": "Atalanta ou Empate (Dupla Chance 1X)",
-        "odd": 1.12,
-        "status": "MISS"
-      },
-      {
-        "match": "Newcastle x Everton (17:00 BRT)",
-        "competition": "Premier League (Inglaterra)",
-        "market": "Newcastle ou Empate (Dupla Chance 1X)",
+        "match": "Al Hilal x Shabab Al Ahli Dubai (15:15 BRT)",
+        "competition": "AFC Champions League Elite",
+        "market": "Al Hilal Vence (Moneyline)",
         "odd": 1.18,
-        "status": "MISS"
+        "status": "PENDING"
       },
       {
-        "match": "Deportivo La Coruña x Osasuna (17:00 BRT)",
-        "competition": "La Liga (Espanha)",
-        "market": "Menos de 3.5 Gols no Jogo",
+        "match": "FC Barcelona x Aston Villa (17:00 BRT)",
+        "competition": "UEFA Champions League",
+        "market": "FC Barcelona ou Empate (Dupla Chance 1X)",
         "odd": 1.15,
-        "status": "HIT"
+        "status": "PENDING"
       },
       {
-        "match": "Sassuolo x Fiorentina (14:30 BRT)",
-        "competition": "Serie A (Itália)",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.22,
-        "status": "HIT"
+        "match": "Feyenoord x Inter de Milão (17:00 BRT)",
+        "competition": "UEFA Champions League",
+        "market": "Inter de Milão ou Empate (Dupla Chance X2)",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Internacional x Coritiba (21:30 BRT)",
+        "competition": "Brasileirão Série A",
+        "market": "Internacional ou Empate (Dupla Chance 1X)",
+        "odd": 1.14,
+        "status": "PENDING"
       }
     ]
   },
@@ -45,102 +45,104 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "MISS",
+      "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora Independente Anglo-Brasileira)",
-          "multiplier": 1.46,
+          "level": "Stop Point 1 (Dupla Âncora Continental de Elite)",
+          "multiplier": 1.36,
           "legs": [
-            "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
-            "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)"
+            "Al Hilal x Shabab Al Ahli: Al Hilal Vence (Moneyline @1.18)",
+            "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla Blindada com Itália e Espanha)",
-          "multiplier": 1.88,
+          "level": "Stop Point 2 (Quádrupla Blindada com Inter e Brasileirão)",
+          "multiplier": 1.82,
           "legs": [
-            "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
-            "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)",
-            "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
-            "Deportivo La Coruña x Osasuna: Menos de 3.5 Gols no Jogo (@1.15)"
+            "Al Hilal x Shabab Al Ahli: Al Hilal Vence (Moneyline @1.18)",
+            "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)",
+            "Feyenoord x Inter de Milão: Inter de Milão ou Empate (Dupla Chance X2 @1.18)",
+            "Internacional x Coritiba: Internacional ou Empate (Dupla Chance 1X @1.14)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Quíntupla Continental Expandida)",
-          "multiplier": 2.3,
+          "level": "Stop Point 3 (Sexteto Europeu com Clássicos de Gols)",
+          "multiplier": 2.66,
           "legs": [
-            "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
-            "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)",
-            "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
-            "Deportivo La Coruña x Osasuna: Menos de 3.5 Gols no Jogo (@1.15)",
-            "Sassuolo x Fiorentina: Mais de 1.5 Gols no Jogo (@1.22)"
+            "Al Hilal x Shabab Al Ahli: Al Hilal Vence (Moneyline @1.18)",
+            "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)",
+            "Feyenoord x Inter de Milão: Inter de Milão ou Empate (Dupla Chance X2 @1.18)",
+            "Internacional x Coritiba: Internacional ou Empate (Dupla Chance 1X @1.14)",
+            "Atlético de Madrid x Bayern München: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Villarreal x Paris Saint-Germain: Mais de 1.5 Gols no Jogo (@1.20)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Imposição Mandante)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
       "type": "SAFE+",
-      "multiplier": 3.18,
-      "status": "MISS",
+      "multiplier": 3.26,
+      "status": "PENDING",
       "legs": [
-        "Atalanta x Parma: Atalanta Vence (Moneyline @1.53)",
-        "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
-        "RB Bragantino x Santos: RB Bragantino Vence (Moneyline @1.76)"
+        "Al Hilal x Shabab Al Ahli: Al Hilal Vence por 2+ Gols (-1.5 AH @1.55)",
+        "FC Barcelona x Aston Villa: FC Barcelona Vence (Moneyline @1.45)",
+        "Internacional x Coritiba: Internacional Vence (Moneyline @1.45)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Segunda-Feira)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca da Champions League)",
       "type": "ATTACK",
-      "multiplier": 3.88,
-      "status": "MISS",
+      "multiplier": 4.11,
+      "status": "PENDING",
       "legs": [
-        "Sassuolo x Fiorentina: Ambos os Times Marcam (Sim @1.65)",
-        "Newcastle x Everton: Ambos os Times Marcam (Sim @1.57)",
-        "Atalanta x Parma: Mais de 2.5 Gols no Jogo (@1.50)"
+        "Atlético de Madrid x Bayern München: Ambos os Times Marcam (Sim @1.55)",
+        "Villarreal x Paris Saint-Germain: Ambos os Times Marcam (Sim @1.58)",
+        "Galatasaray x VfB Stuttgart: Mais de 2.5 Gols no Jogo (@1.68)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 28.5,
-      "status": "MISS",
+      "multiplier": 38.52,
+      "status": "PENDING",
       "legs": [
-        "Atalanta x Parma: Atalanta Vence & Mais de 2.5 Gols (@2.15)",
-        "Newcastle x Everton: Newcastle Vence & Ambos Marcam (@3.20)",
-        "RB Bragantino x Santos: RB Bragantino Vence sem Sofrer Gols (@2.80)",
-        "Sassuolo x Fiorentina: Mais de 2.5 Gols & Ambos Marcam (@1.95)"
+        "Al Hilal x Shabab Al Ahli: Al Hilal Vence sem Sofrer Gols (@1.95)",
+        "FC Barcelona x Aston Villa: FC Barcelona Vence & Mais de 2.5 Gols (@1.90)",
+        "Atlético de Madrid x Bayern München: Bayern München Vence & Ambos Marcam (@3.10)",
+        "Manchester United x AS Roma: Manchester United Vence & Ambos Marcam (@3.35)"
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total)",
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Champions & Ásia)",
       "type": "IMPROVAVEL",
-      "multiplier": 440.0,
-      "status": "MISS",
+      "multiplier": 520.0,
+      "status": "PENDING",
       "legs": [
-        "Atalanta x Parma: Atalanta Vence por 3+ Gols (-2.5 AH @3.10)",
-        "Newcastle x Everton: Newcastle Vence & Mais de 3.5 Gols (@3.40)",
-        "Sassuolo x Fiorentina: Empate com Gols (@3.60)",
-        "Deportivo La Coruña x Osasuna: Menos de 1.5 Gols (@2.45)",
-        "RB Bragantino x Santos: RB Bragantino Vence por 2+ Gols (-1.5 AH @3.10)"
+        "Al Hilal x Shabab: Al Hilal Vence por 3+ Gols (-2.5 AH @2.40)",
+        "FC Barcelona x Aston Villa: Barcelona Vence por 3+ Gols (-2.5 AH @2.60)",
+        "Atlético x Bayern: Bayern Vence & Mais de 3.5 Gols (@3.40)",
+        "Manchester United x Roma: Empate com Gols (@3.80)",
+        "Galatasaray x Stuttgart: Mais de 3.5 Gols no Jogo (@2.65)",
+        "Villarreal x PSG: PSG Vence & Ambos Marcam (@2.85)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — DIA 6 DE 30 (CICLO SNIPER V6)",
-    "day": 6,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 1 DE 30 (CICLO SNIPER V6)",
+    "day": 1,
     "targetDays": 30,
-    "stake": 56.57,
-    "multiplier": 1.39,
-    "potentialReturn": 78.63,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Entrada dupla de solidez extrema com o caldeirão de Bergamo e a fragilidade do Santos desfalcado em Bragança Paulista, sem inventar linhas de gols.",
+    "stake": 10.0,
+    "multiplier": 1.36,
+    "potentialReturn": 13.6,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Reinício de ciclo com Al Hilal na Kingdom Arena e a fortaleza do Barcelona em Montjuïc, sem linhas de gols.",
     "legs": [
-      "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
-      "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)"
+      "Al Hilal x Shabab Al Ahli Dubai: Al Hilal Vence (Moneyline @1.18)",
+      "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)"
     ],
-    "status": "MISS"
+    "status": "PENDING"
   }
 }

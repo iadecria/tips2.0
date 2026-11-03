@@ -1,43 +1,43 @@
 {
   "date": "2026-11-02",
   "snapshotId": "FAS_FOOTBALL_2026-11-02_V1_MONDAY_REGULAR",
-  "status": "PENDING",
-  "notes": "GRADE OFICIAL FAS 3 V6.1 DESACOPLADA (ANTI-SPOF) — SEGUNDA 02/11/2026: 1) Desafio Soros Dia 6 (R$ 56,57 -> R$ 78,63) blindado com Atalanta 1X e Bragantino 1X; 2) Bilhete Supremo 100% europeu desacoplado que liquida as 19h BRT (@1.85); 3) Múltipla 1 SAFE com Dupla Âncora independente (Newcastle 1X + Bragantino 1X @1.46); 4) Múltiplas agressivas 2, 3, 4 e 5.",
+  "status": "SETTLED",
+  "notes": "CONFERE TOTAL OFICIAL 02/11/2026: Segunda-feira de anomalias estatísticas extremas na Europa (Atalanta 0x3 Parma e Newcastle 0x1 Everton). O Bragantino venceu o Santos (2x1) e Sassuolo fez 2x4. Ciclo do Soros finalizado no Dia 6 após 5 greens seguidos; perda limitada aos R$ 10 iniciais.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — SNIPER EUROPEU INDEPENDENTE (Segunda 02/11 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 1.85,
     "philosophy": "Arquitetura Anti-SPOF V6.1: Bilhete 100% europeu que liquida as 19:00 BRT, totalmente desacoplado do jogo brasileiro da noite. Se houver zebra no Brasil, o Supremo ja colocou o green no bolso.",
-    "status": "PENDING",
+    "status": "MISS",
     "selections": [
       {
         "match": "Atalanta x Parma (16:45 BRT)",
         "competition": "Serie A (Itália)",
         "market": "Atalanta ou Empate (Dupla Chance 1X)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "MISS"
       },
       {
         "match": "Newcastle x Everton (17:00 BRT)",
         "competition": "Premier League (Inglaterra)",
         "market": "Newcastle ou Empate (Dupla Chance 1X)",
         "odd": 1.18,
-        "status": "PENDING"
+        "status": "MISS"
       },
       {
         "match": "Deportivo La Coruña x Osasuna (17:00 BRT)",
         "competition": "La Liga (Espanha)",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.15,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Sassuolo x Fiorentina (14:30 BRT)",
         "competition": "Serie A (Itália)",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -45,7 +45,7 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "MISS",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Dupla Âncora Independente Anglo-Brasileira)",
@@ -85,7 +85,7 @@
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Imposição Mandante)",
       "type": "SAFE+",
       "multiplier": 3.18,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Atalanta x Parma: Atalanta Vence (Moneyline @1.53)",
         "Newcastle x Everton: Newcastle ou Empate (Dupla Chance 1X @1.18)",
@@ -96,7 +96,7 @@
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Segunda-Feira)",
       "type": "ATTACK",
       "multiplier": 3.88,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Sassuolo x Fiorentina: Ambos os Times Marcam (Sim @1.65)",
         "Newcastle x Everton: Ambos os Times Marcam (Sim @1.57)",
@@ -107,7 +107,7 @@
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
       "multiplier": 28.5,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Atalanta x Parma: Atalanta Vence & Mais de 2.5 Gols (@2.15)",
         "Newcastle x Everton: Newcastle Vence & Ambos Marcam (@3.20)",
@@ -119,7 +119,7 @@
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Cobertura Total)",
       "type": "IMPROVAVEL",
       "multiplier": 440.0,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Atalanta x Parma: Atalanta Vence por 3+ Gols (-2.5 AH @3.10)",
         "Newcastle x Everton: Newcastle Vence & Mais de 3.5 Gols (@3.40)",
@@ -141,6 +141,6 @@
       "Atalanta x Parma: Atalanta ou Empate (Dupla Chance 1X @1.12)",
       "RB Bragantino x Santos: RB Bragantino ou Empate (Dupla Chance 1X @1.24)"
     ],
-    "status": "PENDING"
+    "status": "MISS"
   }
 }

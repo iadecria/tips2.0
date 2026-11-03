@@ -3119,7 +3119,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-02
 - **Cutoff:** 2026-11-02T13:00:00-03:00
 - **Contexto da Data:** Segunda-feira de clássicos europeus e nacionais encerrando as rodadas de fim de semana. Na Itália, a Atalanta de Gasperini busca se consolidar no G-4 contra o Parma no Gewiss Stadium, enquanto Sassuolo e Fiorentina duelam no Mapei Stadium; na Inglaterra, o St. James' Park ferve com Newcastle x Everton na Premier League; na Espanha, o Deportivo La Coruña recebe o Osasuna no Riazor; e no Brasil, o Nabi Abi Chedid recebe o clássico paulista entre RB Bragantino e Santos, com o time da Baixada severamente desfalcado.
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura
 - Analisados: 18 fixtures nacionais e internacionais
@@ -3151,3 +3151,52 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 5. **Sassuolo × Fiorentina** (14:30 BRT — Serie A 10ª Rodada)
    - **Game State & Contexto:** Mapei Stadium. Duas equipes de futebol ofensivo e defesas que concedem espaços.
    - **Tese (ATTACK):** Ambos os Times Marcam (Sim @1.65)
+
+
+#### 4. Auditoria e Liquidação Oficial dos Jogos e Bilhetes (02/11/2026)
+
+##### A. Resultados Oficiais das Fixtures
+1. **Atalanta 0 × 3 Parma** (Serie A)
+   - *Resultado Oficial:* 0 x 3 (Total: 3 gols)
+   - **Tese (Bilhete Supremo / Sniper Soros Dia 6):** Atalanta ou Empate (1X @1.12) ➔ ❌ **MISS**
+     - *Miss Audit:* STATISTICAL_VARIANCE (Zebra histórica em Bergamo: gol de Fabbian 41', gol contra bizarro de Zappacosta 47' e Simone Lontani 58'. Atalanta finalizou 21 vezes mas colapsou defensivamente).
+   - **SAFE+:** Atalanta Vence ➔ ❌ **MISS**
+   - **ATTACK:** Mais de 2.5 Gols ➔ ✅ **HIT** (3 gols totais)
+
+2. **Newcastle United 0 × 1 Everton** (Premier League)
+   - *Resultado Oficial:* 0 x 1 (Total: 1 gol)
+   - **Tese (Bilhete Supremo / SAFE Stop 1):** Newcastle ou Empate (1X @1.18) ➔ ❌ **MISS**
+     - *Miss Audit:* STATISTICAL_VARIANCE (Gol precoce de Thierno Barry aos 49'; Newcastle pressionou com 66% de posse e teve Ramsey expulso no final).
+   - **SAFE+:** Newcastle Vence ➔ ❌ **MISS**
+   - **ATTACK:** Ambos os Times Marcam ➔ ❌ **MISS**
+
+3. **Red Bull Bragantino 2 × 1 Santos** (Brasileirão Série A)
+   - *Resultado Oficial:* 2 x 1 (Total: 3 gols)
+   - **Tese (SAFE Stop 1 / Sniper Soros Dia 6):** RB Bragantino ou Empate (1X @1.24) ➔ ✅ **HIT** (Gols de Rodinei c/c 4', Wallace Yan 41'; Coutinho 37')
+   - **SAFE+:** RB Bragantino Vence (ML @1.76) ➔ ✅ **HIT** (Vitória confirmada no Nabi Abi Chedid)
+   - **NETO:** RB Bragantino Vence sem Sofrer Gols ➔ ❌ **MISS** (Santos marcou com Coutinho)
+
+4. **Deportivo La Coruña 2 × 1 Osasuna** (La Liga)
+   - *Resultado Oficial:* 2 x 1 (Total: 3 gols)
+   - **Tese (Bilhete Supremo / SAFE Stop 2):** Menos de 3.5 Gols no Jogo (@1.15) ➔ ✅ **HIT** (3 gols totais <= 3.5)
+
+5. **Sassuolo 2 × 4 Fiorentina** (Serie A)
+   - *Resultado Oficial:* 2 x 4 (Total: 6 gols)
+   - **Tese (Bilhete Supremo / SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (6 gols totais)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.65) ➔ ✅ **HIT** (2x4)
+
+---
+
+##### B. Auditoria dos Bilhetes Estruturados de 02/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 6 DE 30:** ❌ **MISS (ENCERRAMENTO DO CICLO 1)**
+  - Atalanta ou Empate (1X @1.12) ➔ ❌ MISS (0x3)
+  - RB Bragantino ou Empate (1X @1.24) ➔ ✅ HIT (2x1)
+  - *Balanço do Ciclo:* O ciclo encerra após uma sequência histórica de **5 GREENS CONSECUTIVOS** (R$ 10,00 ➔ R$ 56,57). Pela regra matemática do Soros, o prejuízo real do apostador é estritamente limitado à aposta inicial de **R$ 10,00**! O ciclo é reiniciado no Dia 1 com nova banca base de R$ 10,00.
+
+- ⭐ **BILHETE SUPREMO (@1.85):** ❌ **RED** (2/4 acertos — Deportivo Under 3.5 ✅, Sassuolo Over 1.5 ✅; derrubado por Atalanta e Newcastle).
+- 🟢 **MÚLTIPLA 1 — SAFE (@1.46):** ❌ **RED** (1/2 acertos — Bragantino 1X ✅; Newcastle 1X ❌).
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.18):** ❌ **RED** (1/3 acertos — Bragantino Vence ✅; Atalanta e Newcastle ❌).
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.88):** ❌ **RED** (2/3 acertos — Sassuolo BTTS ✅ 2x4, Atalanta Over 2.5 ✅ 0x3; faltando apenas o gol do Newcastle).
+- 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@28.50):** ❌ **RED**
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@440.00):** ❌ **RED**

@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 56.57,
-  "currentDay": 6,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -254,7 +254,15 @@
       "selection": "Atalanta x Parma (Atalanta ou Empate 1X @1.12) + RB Bragantino x Santos (RB Bragantino ou Empate 1X @1.24)",
       "odd": 1.39,
       "potentialReturn": 78.63,
-      "status": "PENDING"
+      "status": "MISS",
+      "missReason": "Zebra histórica na Serie A: derrota da Atalanta em pleno Gewiss Stadium por 0x3 para o Parma (gol contra de Zappacosta e expulsão)."
+    },
+    {
+      "day": 1,
+      "date": "2026-11-03",
+      "stakeIn": 10.0,
+      "status": "PENDING",
+      "notes": "Novo Ciclo Sniper V6 após sequência épica de 5 greens consecutivos (R$ 10 -> R$ 56,57)."
     }
   ]
 }

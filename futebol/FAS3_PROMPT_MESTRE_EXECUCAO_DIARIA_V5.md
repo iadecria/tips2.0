@@ -166,22 +166,23 @@ No FAS Football, a avaliação de mercados DEVE obedecer rigorosamente à **Matr
 
 ### 🏛️ HIERARQUIA OFICIAL DE BILHETES DIÁRIOS (FUTEBOL)
 
-* ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (Seleção Ouro / Convicção Absoluta):**
-  - **Conceito:** Não importa a odd individual e não importa a quantidade de seleções. O único critério é **reunir simplesmente TODAS as melhores opções de altíssima convicção da rodada**.
-  - Se o dia tiver 3 opções indiscutíveis, leva 3. Se tiver 6 ou 7 opções claras, junta todas as 6 ou 7.
-  - Zero pressão por atingir uma cotação meta; o multiplicador final é consequência pura da soma das melhores probabilidades do dia (foco em Dupla Chance 1X/X2, Over 1.5 Gols, Gols do Time e Cantos).
-  - ⏰ **REGRA DE DESMEMBRAMENTO POR JANELAS DE HORÁRIO (TIME CLUSTERS):**
-    - Quando as partidas da rodada estiverem distribuídas em blocos de horários distintos (ex: Turno 1 / Almoço às 13:45 BRT vs Turno 2 / Tarde às 16:00 BRT):
-    - O sistema **DEVE obrigatoriamente manter o Bilhete Supremo Global** E **gerar os Bilhetes Supremos por Turno (Janela 1 e Janela 2)**.
-    - **Objetivo Estratégico:** Liquidação antecipada (encerrar o bilhete do 1º turno antes do início dos jogos do 2º turno) e viabilizar o reinvestimento seguro dos lucros obtidos na primeira metade do dia.
-* 🥇 **TIER 1 — MÚLTIPLA 1: SAFE (Carro-Chefe / 70% da Gestão Diária):**
-  - **Stop Point 1 (A Âncora Máxima — Odd 1.25 a 1.45):** Apenas 2 seleções formadas EXCLUSIVAMENTE por mercados de **cobertura de placar elástico**: Dupla Chance (1X / X2), Handicap Asiático Positivo (+1.0 / +1.5) ou Team Total Over 0.5 de mandante absoluto.
-  - ⛔ **PROIBIÇÃO ESTRITA DE OVER GOLS GERAL NO STOP POINT 1:** É terminantemente PROIBIDO utilizar *Over 1.5 Gols Geral* ou *Over 2.5* como Âncora #1 ou #2 do Stop Point 1. Vitórias econômicas por 1x0 anulam o Over sem qualquer rede de proteção. Mercados de Over Gols Geral só são permitidos como expansão a partir do Stop Point 2 ou no Bilhete Supremo.
-  - **Stop Point 2 (A Blindagem / Expansão):** Adiciona seleções de alta proteção ou de turnos posteriores.
+* ⭐ **BILHETE SUPREMO — O FILÉ DO DIA (Seleção Ouro / Desacoplado & Independente):**
+  - **Conceito:** O filé dos turnos do dia buscando excelente relação risco/retorno (@1.80 a @2.25).
+  - ⛔ **REGRA ANTI-CLONE (PROIBIDO ESPELHAR A SAFE STOP 2):**
+    - O usuário opera a Múltipla 1 (SAFE) priorizando a saída no **Stop Point 2 (1.00u)** e aposta no **Bilhete Supremo (0.75u)** em paralelo.
+    - Por isso, é **TERMINANTEMENTE PROIBIDO** que o Bilhete Supremo seja uma cópia idêntica da SAFE (Stop 2).
+    - Se ambos tiverem os mesmos jogos, o apostador coloca 1.75u de risco em uma única aposta sem diversificação real.
+    - O Bilhete Supremo deve selecionar **outras fortalezas de alta convicção da rodada** ou combinar turnos diferentes (ex: enquanto a SAFE foca em 2-3 jogos do Turno da Tarde, o Supremo pode liderar com o Turno da Noite ou com mercados de valor independente, permitindo que uma zebra na SAFE não derrube o Supremo).
+    - No máximo 1 seleção pode coincidir entre SAFE e Supremo em dias de poucos jogos; em rodadas cheias, devem ser 100% independentes.
+  - ⏰ **REGRA DE DESMEMBRAMENTO POR TURNOS (TIME CLUSTERS):**
+    - Quando houver blocos de horários separados (ex: Tarde 14:45/17:00 vs Noite 19:00/21:30), o sistema deve identificar o Supremo por Turno para viabilizar liquidação antecipada e reinvestimento.
+* 🥇 **TIER 1 — MÚLTIPLA 1: SAFE (Carro-Chefe / Âncora Principal da Banca):**
+  - **Foco Operacional:** Alta probabilidade de conversão (~80% de acerto). O usuário opera prioritariamente até o **Stop Point 2**.
+  - **Stop Point 1 (A Âncora Máxima — Odd 1.25 a 1.45):** Apenas 2 seleções com Dupla Chance (1X/X2) ou Handicap Positivo (+1.0/+1.5). Proibido Over Geral aqui.
+  - **Stop Point 2 (A Blindagem Consagrada — Odd 1.65 a 1.85):** Adiciona 1 seleção ultra protegida (total de 3 jogos). É o ponto de realização padrão da gestão do apostador para garantir o lucro que blinda o restante do dia.
+  - **Stop Point 3 (Expansão Máxima — Opcional @2.40 a @2.80):** Adiciona mais 2 seleções para quem aceita correr risco estendido.
   - 🛡️ **REGRA SAGRADA DO DESAFIO SOROS (DESACOPLAMENTO TOTAL DE RISCO):**
-    - O Desafio Soros opera com **seleção própria, blindada e independente**. É expressamente PROIBIDO espelhar cegamente o Stop Point 1 da SAFE.
-    - Se a SAFE tropeçar no turno da tarde, o Soros precisa manter sua vida intacta no turno da noite (e vice-versa).
-    - **Teto de Exposição Máxima por Fixture (Anti-SPOF):** Nenhuma partida da rodada pode estar presente em mais de 2 bilhetes estruturados simultaneamente. Jamais concentrar o mesmo jogo no Soros, na SAFE e no Supremo ao mesmo tempo.
+    - O Desafio Soros opera com seleção própria e independente. Jamais espelhar cegamente o Stop Point 1 da SAFE nem o Supremo.
 * 🥈 **TIER 2 — MÚLTIPLA 2: SAFE+ (Alavancagem Balanceada / 20% da Banca):**
   - Odd 2.00 a 3.50 combinando vitória com linha correlacionada (Time Vence + Mais de 1.5 Gols ou Team Over 1.5).
 * 🥉 **TIER 3 — MÚLTIPLA 3: SUPER ATAQUE (5% a 8% da Banca):**
@@ -505,7 +506,15 @@ Para manter a **cobertura e quantidade total** da rodada sem inflar a variância
    - 🛡️➕ **Múltipla 2 — SAFE+:** Alavancagem com handicaps asiáticos protegidos (-1.5 AH / +1.0 AH).
    - 🚀 **Múltipla 3 — SUPER ATAQUE (Pra Cima):** Odd alta (@3.50 a @5.50) com correlação agressiva e assertividade real (Ambos Marcam, Over 2.5, Vitória & Ambos Marcam).
    - 👴 **Múltipla 4 — APOSENTAR O NETO:** Super alavancagem assimétrica (@25 a @45+).
-   - 🎲 **Múltipla 5 — O IMPROVÁVEL (Odd Altíssima / O Super Bingo):** Para arriscar no improvável com mínimo de chance e payoff astronômico (Odd @60 a @200+). Engloba ao menos 1 aposta assimétrica em praticamente todos os jogos da rodada europeia/mundial.
+   - 🎲 **Múltipla 5 — O IMPROVÁVEL (Super Bingo Horizontal / Alta Sobrevida da Rodada):**
+     - **Nova Arquitetura Estrutural:** Para buscar payoffs astronômicos (@50x a @500x+) com **moeda de troco (0.05u)**.
+     - ⛔ **PROIBIÇÃO DE LINHAS ARTIFICIAIS EXTREMAS:** É TERMINANTEMENTE PROIBIDO forçar linhas de variância bizarra (+3.5 gols, handicap -2.5, empate com gols, placar exato) em apenas 4 ou 5 jogos já analisados apenas para inflar a cotação.
+     - 🌐 **COBERTURA HORIZONTAL AMPLA (8 A 14 JOGOS):** A odd alta deve ser construída pela **extensão horizontal da rodada**, abrangendo quase TODOS os jogos do dia (toda a rodada da Champions League, Brasileirão, Copas e ligas ativas).
+     - 🟢 **MERCADOS SIMPLES E LÓGICOS POR JOGO:** Em cada jogo selecionado, utiliza-se apenas mercados primários de altíssima probabilidade natural:
+       * **Vitória Seca do Favorito (V1 ou V2)** em confrontos de disparidade;
+       * **Total Seguro de Gols (Mais de 1.5 Gols no Jogo)** em partidas de perfil ofensivo;
+       * **Dupla Chance (1X ou X2)** quando houver mando forte ou favoritismo do visitante.
+     - 📈 **Vantagem Tática:** O bilhete não precisa de nenhum resultado anormal (como uma goleada de 4 gols). Ele acumula 10 a 14 seleções lógicas, garantindo **alta sobrevida durante o dia** e abrindo **janelas reais de cashout com lucro massivo** antes dos últimos jogos da noite.
    - 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (Gatllho > 3 Jogos):** Sempre que houver mais de 3 jogos do Brasileirão no dia (Série A e Série B), gera-se obrigatoriamente um bilhete exclusivo cobrindo 1 possibilidade matemática por jogo do Brasil.
 
 5. **Regra Obrigatória de Nomenclatura dos Times:**

@@ -1,149 +1,167 @@
 {
-  "date": "2026-11-03",
-  "snapshotId": "FAS_FOOTBALL_2026-11-03_V1_CHAMPIONS_LEAGUE_ELITE",
-  "status": "SETTLED",
-  "notes": "CONFERE TOTAL OFICIAL 03/11/2026: Terça-feira consagrada de Champions League! Greens perfeitos no Bilhete Supremo (@1.82), Múltipla 2 SAFE+ (@3.26), Múltipla 1 SAFE (GABARITOU Stop Points 1, 2 e 3 @2.66) e reinício do Desafio Soros Ciclo 2 com GREEN no Dia 1 (R$ 10 -> R$ 13,60).",
+  "date": "2026-11-04",
+  "snapshotId": "FAS_FOOTBALL_2026-11-04_V1_CHAMPIONS_BRASILEIRAO",
+  "status": "ACTIVE",
+  "notes": "RODADA 04/11/2026: UEFA Champions League (4ª Rodada) + Brasileirão Série A (34ª Rodada). Desacoplamento total entre SAFE e Supremo (Anti-Clone) e Múltipla 5 no modelo Super Bingo Horizontal de 11 jogos.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE CHAMPIONS LEAGUE GLOBAL (Terça 03/11 / 4 Seleções)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER DE ELITE (Quarta 04/11 / 4 Seleções Independentes)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 1.82,
-    "philosophy": "Arquitetura Sniper Antivariância V6.1: 4 fortalezas continentais e nacionais em turnos distintos com favoritismo incontestável e abismo técnico comprovado.",
-    "status": "HIT",
+    "multiplierGlobal": 2.24,
+    "philosophy": "Seleções Ouro com desacoplamento total da SAFE: Arsenal ML, Manchester City X2, Flamengo ML e Athletico-PR 1X, distribuídos entre Champions e Brasileirão.",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Al Hilal x Shabab Al Ahli Dubai (15:15 BRT)",
-        "competition": "AFC Champions League Elite",
-        "market": "Al Hilal Vence (Moneyline)",
-        "odd": 1.18,
-        "status": "HIT"
-      },
-      {
-        "match": "FC Barcelona x Aston Villa (17:00 BRT)",
+        "match": "Slavia Praga x Arsenal (17:00 BRT)",
         "competition": "UEFA Champions League",
-        "market": "FC Barcelona ou Empate (Dupla Chance 1X)",
-        "odd": 1.15,
-        "status": "HIT"
+        "market": "Arsenal Vence (Moneyline)",
+        "odd": 1.32,
+        "status": "PENDING"
       },
       {
-        "match": "Feyenoord x Inter de Milão (17:00 BRT)",
+        "match": "RB Leipzig x Manchester City (17:00 BRT)",
         "competition": "UEFA Champions League",
-        "market": "Inter de Milão ou Empate (Dupla Chance X2)",
-        "odd": 1.18,
-        "status": "HIT"
+        "market": "Manchester City ou Empate (Dupla Chance X2)",
+        "odd": 1.16,
+        "status": "PENDING"
       },
       {
-        "match": "Internacional x Coritiba (21:30 BRT)",
+        "match": "Flamengo x Grêmio (19:30 BRT)",
         "competition": "Brasileirão Série A",
-        "market": "Internacional ou Empate (Dupla Chance 1X)",
-        "odd": 1.14,
-        "status": "HIT"
+        "market": "Flamengo Vence (Moneyline)",
+        "odd": 1.2,
+        "status": "PENDING"
+      },
+      {
+        "match": "Athletico-PR x Vasco (19:30 BRT)",
+        "competition": "Brasileirão Série A",
+        "market": "Athletico-PR ou Empate (Dupla Chance 1X)",
+        "odd": 1.22,
+        "status": "PENDING"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1)",
+      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2)",
       "type": "SAFE",
-      "status": "HIT",
+      "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Dupla Âncora Continental de Elite)",
-          "multiplier": 1.36,
+          "level": "Stop Point 1 (A Âncora Continental — Tripla Blindada)",
+          "multiplier": 1.38,
           "legs": [
-            "Al Hilal x Shabab Al Ahli: Al Hilal Vence (Moneyline @1.18)",
-            "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)"
+            "AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)",
+            "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
+            "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (Quádrupla Blindada com Inter e Brasileirão)",
-          "multiplier": 1.82,
+          "level": "Stop Point 2 (A Blindagem Consagrada — 4 Duplas Chances)",
+          "multiplier": 1.72,
           "legs": [
-            "Al Hilal x Shabab Al Ahli: Al Hilal Vence (Moneyline @1.18)",
-            "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)",
-            "Feyenoord x Inter de Milão: Inter de Milão ou Empate (Dupla Chance X2 @1.18)",
-            "Internacional x Coritiba: Internacional ou Empate (Dupla Chance 1X @1.14)"
+            "AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)",
+            "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
+            "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)",
+            "PSV Eindhoven x Club Brugge: PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Sexteto Europeu com Clássicos de Gols)",
-          "multiplier": 2.66,
+          "level": "Stop Point 3 (Expansão Máxima com Gols)",
+          "multiplier": 2.52,
           "legs": [
-            "Al Hilal x Shabab Al Ahli: Al Hilal Vence (Moneyline @1.18)",
-            "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)",
-            "Feyenoord x Inter de Milão: Inter de Milão ou Empate (Dupla Chance X2 @1.18)",
-            "Internacional x Coritiba: Internacional ou Empate (Dupla Chance 1X @1.14)",
-            "Atlético de Madrid x Bayern München: Mais de 1.5 Gols no Jogo (@1.22)",
-            "Villarreal x Paris Saint-Germain: Mais de 1.5 Gols no Jogo (@1.20)"
+            "AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)",
+            "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
+            "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)",
+            "PSV Eindhoven x Club Brugge: PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)",
+            "Fenerbahçe x Liverpool: Mais de 1.5 Gols no Jogo (@1.20)",
+            "FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps & Imposição)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Imposição Europeia)",
       "type": "SAFE+",
-      "multiplier": 3.26,
-      "status": "HIT",
+      "multiplier": 3.22,
+      "status": "PENDING",
       "legs": [
-        "Al Hilal x Shabab Al Ahli: Al Hilal Vence por 2+ Gols (-1.5 AH @1.55)",
-        "FC Barcelona x Aston Villa: FC Barcelona Vence (Moneyline @1.45)",
-        "Internacional x Coritiba: Internacional Vence (Moneyline @1.45)"
+        "AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.0 AH @1.45)",
+        "Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)",
+        "Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca da Champions League)",
       "type": "ATTACK",
-      "multiplier": 4.11,
-      "status": "MISS",
+      "multiplier": 3.83,
+      "status": "PENDING",
       "legs": [
-        "Atlético de Madrid x Bayern München: Ambos os Times Marcam (Sim @1.55)",
-        "Villarreal x Paris Saint-Germain: Ambos os Times Marcam (Sim @1.58)",
-        "Galatasaray x VfB Stuttgart: Mais de 2.5 Gols no Jogo (@1.68)"
+        "Fenerbahçe x Liverpool: Ambos os Times Marcam (Sim @1.50)",
+        "RB Leipzig x Manchester City: Ambos os Times Marcam (Sim @1.55)",
+        "Borussia Dortmund x Real Betis: Mais de 2.5 Gols no Jogo (@1.65)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 38.52,
-      "status": "MISS",
+      "multiplier": 32.59,
+      "status": "PENDING",
       "legs": [
-        "Al Hilal x Shabab Al Ahli: Al Hilal Vence sem Sofrer Gols (@1.95)",
-        "FC Barcelona x Aston Villa: FC Barcelona Vence & Mais de 2.5 Gols (@1.90)",
-        "Atlético de Madrid x Bayern München: Bayern München Vence & Ambos Marcam (@3.10)",
-        "Manchester United x AS Roma: Manchester United Vence & Ambos Marcam (@3.35)"
+        "AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.75)",
+        "RB Leipzig x Manchester City: Manchester City Vence & Ambos Marcam (@3.10)",
+        "Borussia Dortmund x Real Betis: Borussia Dortmund Vence & Ambos Marcam (@3.25)",
+        "Flamengo x Grêmio: Flamengo Vence sem Sofrer Gols (@1.85)"
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Odd Altíssima / Champions & Ásia)",
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 11 Jogos)",
       "type": "IMPROVAVEL",
-      "multiplier": 520.0,
-      "status": "MISS",
+      "multiplier": 103.1,
+      "status": "PENDING",
+      "philosophy": "Arquitetura Horizontal: 11 jogos da Champions e do Brasileirão com seleções elementares e lógicas (V1/V2 e Mais de 1.5). Zero linhas artificiais extremas; máxima sobrevida e viabilidade de cashout.",
       "legs": [
-        "Al Hilal x Shabab: Al Hilal Vence por 3+ Gols (-2.5 AH @2.40)",
-        "FC Barcelona x Aston Villa: Barcelona Vence por 3+ Gols (-2.5 AH @2.60)",
-        "Atlético x Bayern: Bayern Vence & Mais de 3.5 Gols (@3.40)",
-        "Manchester United x Roma: Empate com Gols (@3.80)",
-        "Galatasaray x Stuttgart: Mais de 3.5 Gols no Jogo (@2.65)",
-        "Villarreal x PSG: PSG Vence & Ambos Marcam (@2.85)"
+        "AEK Atenas x Real Madrid: Real Madrid Vence (Moneyline @1.28)",
+        "Fenerbahçe x Liverpool: Liverpool Vence (Moneyline @1.55)",
+        "Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)",
+        "Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)",
+        "RB Leipzig x Manchester City: Manchester City Vence (Moneyline @1.58)",
+        "PSV Eindhoven x Club Brugge: PSV Eindhoven Vence (Moneyline @1.95)",
+        "FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.28)",
+        "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)",
+        "Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)",
+        "Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)",
+        "São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)"
+      ]
+    },
+    {
+      "name": "BR MÚLTIPLA BRASILEIRÃO — SÉRIE A (Cobertura da 34ª Rodada)",
+      "type": "BRASILEIRAO",
+      "multiplier": 2.46,
+      "status": "PENDING",
+      "legs": [
+        "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)",
+        "Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)",
+        "Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)",
+        "São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 1 DE 30 (CICLO SNIPER V6)",
-    "day": 1,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 2 DE 30",
+    "day": 2,
     "targetDays": 30,
-    "stake": 10.0,
-    "multiplier": 1.36,
-    "potentialReturn": 13.6,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Reinício de ciclo com Al Hilal na Kingdom Arena e a fortaleza do Barcelona em Montjuïc, sem linhas de gols.",
+    "stake": 13.6,
+    "multiplier": 1.32,
+    "potentialReturn": 17.95,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Arsenal Dupla Chance fora e Flamengo no Maracanã. Desacoplamento total da SAFE e do Supremo.",
     "legs": [
-      "Al Hilal x Shabab Al Ahli Dubai: Al Hilal Vence (Moneyline @1.18)",
-      "FC Barcelona x Aston Villa: FC Barcelona ou Empate (Dupla Chance 1X @1.15)"
+      "Slavia Praga x Arsenal: Arsenal ou Empate (Dupla Chance X2 @1.10)",
+      "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)"
     ],
-    "status": "HIT",
-    "actualReturn": 13.6
+    "status": "PENDING"
   }
 }

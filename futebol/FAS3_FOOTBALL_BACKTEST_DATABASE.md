@@ -3376,3 +3376,150 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 7. **Galatasaray × VfB Stuttgart** (14:45 BRT — UEFA Champions League 4ª Rodada)
    - **Game State & Contexto:** Rams Park em Istambul. Caldeirão turco de pressão insana (Osimhen e Icardi); Stuttgart joga para a frente e concede muitos espaços.
    - **Tese (ATTACK):** Mais de 2.5 Gols no Jogo (@1.68)
+
+
+---
+
+### [2026-11-04] — RODADA DIÁRIA (SUPER QUARTA DE UEFA CHAMPIONS LEAGUE & BRASILEIRÃO SÉRIE A)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-04_V1_CHAMPIONS_BRASILEIRAO
+- **Data do Registro:** 2026-11-04
+- **Cutoff:** 2026-11-04T13:30:00-03:00
+- **Contexto da Data:** Segundo dia consecutivo de UEFA Champions League (4ª rodada da fase de liga) somado à reta decisiva da 34ª rodada do Brasileirão Série A. O Real Madrid visita o AEK Atenas na Grécia; o Arsenal de Arteta visita o Slavia Praga; o Manchester City enfrenta o RB Leipzig na Alemanha; Borussia Dortmund recebe o Real Betis no Signal Iduna Park; e no Brasil, o Flamengo recebe o Grêmio no Maracanã lotado, além do clássico Majestoso entre São Paulo e Corinthians no Morumbi.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 26 fixtures internacionais e nacionais
+- Elegíveis: 11 fixtures de elite com liquidez máxima
+- Descartados no pente-fino: Jogos com alta rotação em ligas periféricas e divisões inferiores da Ásia.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **AEK Atenas × Real Madrid** (14:45 BRT — UEFA Champions League)
+   - **Game State & Contexto:** OPAP Arena em Atenas. Real Madrid de Vinicius Jr, Mbappé e Bellingham com abismo técnico monumental.
+   - **Tese (SAFE Stop 1):** Real Madrid ou Empate (Dupla Chance X2 @1.08)
+   - **SAFE+:** Real Madrid Vence por 2+ Gols (-1.0 AH @1.45)
+   - **NETO:** Real Madrid Vence por 2+ Gols (-1.5 AH @1.75)
+   - **IMPROVÁVEL:** Real Madrid Vence (Moneyline @1.28)
+
+2. **Fenerbahçe × Liverpool** (14:45 BRT — UEFA Champions League)
+   - **Game State & Contexto:** Sukru Saracoglu em Istambul. Turcos pressionam com torcida calorosa; Liverpool de Arne Slot e Salah tem transição letal e alta média de gols.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.20)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.50)
+   - **IMPROVÁVEL:** Liverpool Vence (Moneyline @1.55)
+
+3. **Slavia Praga × Arsenal** (17:00 BRT — UEFA Champions League)
+   - **Game State & Contexto:** Fortuna Arena em Praga. Arsenal com melhor defesa da Europa (Gabriel Magalhães e Saliba). Slavia Praga luta mas sofre contra a velocidade e intensidade da Premier League.
+   - **Tese (Bilhete Supremo / SAFE+ / IMPROVÁVEL):** Arsenal Vence (Moneyline @1.32)
+   - **Sniper Soros Ciclo 2 - Dia 2:** Arsenal ou Empate (Dupla Chance X2 @1.10)
+
+4. **Borussia Dortmund × Real Betis** (17:00 BRT — UEFA Champions League)
+   - **Game State & Contexto:** Signal Iduna Park. Dortmund impositivo diante da Muralha Amarela; Betis oscila severamente fora de Sevilha.
+   - **Tese (SAFE Stop 1):** Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)
+   - **SAFE+ / IMPROVÁVEL:** Borussia Dortmund Vence (Moneyline @1.68)
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.65)
+   - **NETO:** Borussia Dortmund Vence & Ambos Marcam (@3.25)
+
+5. **RB Leipzig × Manchester City** (17:00 BRT — UEFA Champions League)
+   - **Game State & Contexto:** Red Bull Arena. Confronto de trocação e pressão alta; Haaland contra sua ex-liga alemã.
+   - **Tese (Bilhete Supremo):** Manchester City ou Empate (Dupla Chance X2 @1.16)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.55)
+   - **NETO:** Manchester City Vence & Ambos Marcam (@3.10)
+   - **IMPROVÁVEL:** Manchester City Vence (Moneyline @1.58)
+
+6. **PSV Eindhoven × Club Brugge** (17:00 BRT — UEFA Champions League)
+   - **Game State & Contexto:** Philips Stadion. PSV muito agressivo com mando de campo nos Países Baixos.
+   - **Tese (SAFE Stop 2):** PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)
+   - **IMPROVÁVEL:** PSV Eindhoven Vence (Moneyline @1.95)
+
+7. **FC Porto × Napoli** (17:00 BRT — UEFA Champions League)
+   - **Game State & Contexto:** Estádio do Dragão. Duelo tático e brigado; perfil natural de pelo menos 2 gols em noites de Champions.
+   - **Tese (SAFE Stop 3 / IMPROVÁVEL):** Mais de 1.5 Gols no Jogo (@1.22 a @1.28)
+
+8. **Flamengo × Grêmio** (19:30 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Maracanã com 60 mil pessoas. Flamengo líder embalado pelo título; Grêmio em crise brigando contra o rebaixamento.
+   - **Tese (SAFE Stop 1):** Flamengo ou Empate (Dupla Chance 1X @1.08)
+   - **Bilhete Supremo / Sniper Soros Dia 2 / Brasileirão / IMPROVÁVEL:** Flamengo Vence (Moneyline @1.20)
+   - **NETO:** Flamengo Vence sem Sofrer Gols (@1.85)
+
+9. **Athletico-PR × Vasco** (19:30 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Ligga Arena. Gramado sintético, Furacão historicamente soberano contra o Vasco em Curitiba.
+   - **Tese (Bilhete Supremo / Brasileirão / IMPROVÁVEL):** Athletico-PR ou Empate (Dupla Chance 1X @1.22)
+
+10. **Botafogo × Atlético-MG** (21:30 BRT — Brasileirão Série A 34ª Rodada)
+    - **Game State & Contexto:** Estádio Nilton Santos. Botafogo muito forte no tapetinho; Galo focado em copas ou desgaste.
+    - **Tese (Brasileirão / IMPROVÁVEL):** Botafogo ou Empate (Dupla Chance 1X @1.20)
+
+11. **São Paulo × Corinthians** (21:30 BRT — Brasileirão Série A 34ª Rodada)
+    - **Game State & Contexto:** Majestoso no Morumbi com torcida única do Tricolor. Jogo truncado mas de rivalidade acesa com probabilidade alta de 2+ gols totais.
+    - **Tese (Brasileirão / IMPROVÁVEL):** Mais de 1.5 Gols no Jogo (@1.40)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 04/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 2 DE 30:**
+  - Slavia Praga x Arsenal: Arsenal ou Empate (Dupla Chance X2 @1.10)
+  - Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)
+  - Odd: 1.32 | Stake: R$ 13,60 | Retorno Potencial: R$ 17,95
+  - *Filosofia:* Blindagem total e desacoplamento do risco da SAFE e do Supremo.
+
+- ⭐ **BILHETE SUPREMO — SNIPER DE ELITE (@2.24):**
+  - Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)
+  - RB Leipzig x Manchester City: Manchester City ou Empate (Dupla Chance X2 @1.16)
+  - Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)
+  - Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)
+  - Odd: 2.24 | Stake Sugerida: 0.75u
+  - *Regra Anti-Clone:* 100% independente do Stop 2 da SAFE!
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2):**
+  - **Stop Point 1 (A Âncora Continental — Tripla Blindada @1.38):**
+    - AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)
+    - Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)
+    - Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)
+  - **Stop Point 2 (A Blindagem Consagrada — 4 Duplas Chances @1.72):**
+    - + PSV Eindhoven x Club Brugge: PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)
+  - **Stop Point 3 (Expansão Máxima com Gols @2.52):**
+    - + Fenerbahçe x Liverpool: Mais de 1.5 Gols no Jogo (@1.20)
+    - + FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.22)
+  - Stake Sugerida: 1.00u (Saída prioritária no Stop Point 2)
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.22):**
+  - AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.0 AH @1.45)
+  - Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)
+  - Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)
+  - Odd: 3.22 | Stake Sugerida: 0.50u
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.83):**
+  - Fenerbahçe x Liverpool: Ambos os Times Marcam (Sim @1.50)
+  - RB Leipzig x Manchester City: Ambos os Times Marcam (Sim @1.55)
+  - Borussia Dortmund x Real Betis: Mais de 2.5 Gols no Jogo (@1.65)
+  - Odd: 3.83 | Stake Sugerida: 0.25u
+
+- 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@32.59):**
+  - AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.75)
+  - RB Leipzig x Manchester City: Manchester City Vence & Ambos Marcam (@3.10)
+  - Borussia Dortmund x Real Betis: Dortmund Vence & Ambos Marcam (@3.25)
+  - Flamengo x Grêmio: Flamengo Vence sem Sofrer Gols (@1.85)
+  - Odd: 32.59 | Stake Sugerida: 0.10u
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 11 Jogos @103.10):**
+  - AEK Atenas x Real Madrid: Real Madrid Vence (Moneyline @1.28)
+  - Fenerbahçe x Liverpool: Liverpool Vence (Moneyline @1.55)
+  - Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)
+  - Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)
+  - RB Leipzig x Manchester City: Manchester City Vence (Moneyline @1.58)
+  - PSV Eindhoven x Club Brugge: PSV Eindhoven Vence (Moneyline @1.95)
+  - FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.28)
+  - Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)
+  - Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)
+  - Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)
+  - São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)
+  - Odd: 103.10 | Stake Sugerida: 0.05u
+  - *Vantagem Tática:* Zero linhas extremas. Todas as apostas lógicas. Viabiliza cashout maciço caso a Champions bata à tarde antes do Brasileirão!
+
+- 🇧🇷 **BR MÚLTIPLA BRASILEIRÃO — SÉRIE A (@2.46):**
+  - Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)
+  - Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)
+  - Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)
+  - São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)
+  - Odd: 2.46 | Stake Sugerida: 0.25u

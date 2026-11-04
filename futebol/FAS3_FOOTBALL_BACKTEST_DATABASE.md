@@ -2651,7 +2651,129 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 7. **SV Elversberg 4 × 1 Mainz 05** (Bundesliga 8ª Rodada)
    - *Resultado Oficial:* 4 x 1
-   - **Tese (ATTACK):** Mais de 2.5 Gols no Jogo (@1.68) ➔ ✅ **HIT** (5 gols totais)
+   - **Tese (ATTACK):** Mais de 2.5 Gols no Jogo (@1.68)
+
+8. **Manchester United × AS Roma** (17:00 BRT — UEFA Champions League 4ª Rodada)
+   - **Game State & Contexto:** Old Trafford. Duelo tradicional com dois ataques de transição veloz e defesas permeáveis em noites continentais.
+   - **NETO:** Manchester United Vence & Ambos Marcam (@3.35)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 03/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 1 DE 30:**
+  - Al Hilal x Shabab Al Ahli: Al Hilal Vence (ML @1.18)
+  - FC Barcelona x Aston Villa: FC Barcelona ou Empate (1X @1.15)
+  - Odd: 1.36 | Stake: R$ 10,00 | Retorno Potencial: R$ 13,60
+
+- ⭐ **BILHETE SUPREMO — SNIPER DE CHAMPIONS LEAGUE GLOBAL (@1.82):**
+  - Al Hilal x Shabab Al Ahli: Al Hilal Vence (ML @1.18)
+  - FC Barcelona x Aston Villa: FC Barcelona ou Empate (1X @1.15)
+  - Feyenoord x Inter de Milão: Inter de Milão ou Empate (X2 @1.18)
+  - Internacional x Coritiba: Internacional ou Empate (1X @1.14)
+  - Odd: 1.82 | Stake Sugerida: 0.75u
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.1):**
+  - Stop Point 1 (@1.36): Al Hilal ML (@1.18) + Barça 1X (@1.15)
+  - Stop Point 2 (@1.82): + Inter X2 (@1.18) + Internacional 1X (@1.14)
+  - Stop Point 3 (@2.66): + Atlético x Bayern Over 1.5 (@1.22) + Villarreal x PSG Over 1.5 (@1.20)
+  - Stake Sugerida: 1.00u
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.26):**
+  - Al Hilal x Shabab Al Ahli: Al Hilal -1.5 AH (@1.55)
+  - FC Barcelona x Aston Villa: FC Barcelona Vence (ML @1.45)
+  - Internacional x Coritiba: Internacional Vence (ML @1.45)
+  - Odd: 3.26 | Stake Sugerida: 0.50u
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.11):**
+  - Atlético de Madrid x Bayern München: Ambos Marcam (@1.55)
+  - Villarreal x PSG: Ambos Marcam (@1.58)
+  - Galatasaray x Stuttgart: Mais de 2.5 Gols (@1.68)
+  - Odd: 4.11 | Stake Sugerida: 0.25u
+
+- 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@38.52):**
+  - Al Hilal x Shabab Al Ahli: Al Hilal Vence sem Sofrer Gols (@1.95)
+  - FC Barcelona x Aston Villa: Barcelona Vence & Mais de 2.5 Gols (@1.90)
+  - Atlético x Bayern: Bayern Vence & Ambos Marcam (@3.10)
+  - Manchester United x Roma: Man United Vence & Ambos Marcam (@3.35)
+  - Odd: 38.52 | Stake Sugerida: 0.10u
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@520.00):**
+  - 6 seleções extremas de alta alavancagem | Stake: 0.05u
+
+---
+
+#### 4. Auditoria e Liquidação Oficial dos Jogos e Bilhetes (03/11/2026)
+
+##### A. Resultados Oficiais das Fixtures
+1. **Al Hilal 2 × 0 Shabab Al Ahli Dubai** (AFC Champions League Elite)
+   - *Gols:* Watkins 6' 1T, 46' 2T.
+   - Al Hilal ML (@1.18) ➔ ✅ **HIT**
+   - Al Hilal -1.5 AH (@1.55) ➔ ✅ **HIT** (Vitória por 2 gols)
+   - Al Hilal Vence sem Sofrer Gols (@1.95) ➔ ✅ **HIT** (2x0)
+
+2. **FC Barcelona 3 × 0 Aston Villa** (UEFA Champions League)
+   - *Gols:* Lamine Yamal 7' 1T, Raphinha 52' 2T, 64' 2T.
+   - FC Barcelona ou Empate (1X @1.15) ➔ ✅ **HIT**
+   - FC Barcelona ML (@1.45) ➔ ✅ **HIT**
+   - FC Barcelona Vence & Mais de 2.5 Gols (@1.90) ➔ ✅ **HIT** (3x0)
+
+3. **Feyenoord 0 × 3 Inter de Milão** (UEFA Champions League)
+   - *Gols:* Bisseck 8' 1T, Esposito 34' 1T, Zielinski 54' 2T.
+   - Inter de Milão ou Empate (X2 @1.18) ➔ ✅ **HIT**
+   - Inter de Milão ML (@1.90) ➔ ✅ **HIT**
+
+4. **Sport Club Internacional 1 × 0 Coritiba** (Brasileirão Série A)
+   - *Gols:* Alerrandro 49' 2T (pênalti).
+   - Internacional ou Empate (1X @1.14) ➔ ✅ **HIT**
+   - Internacional ML (@1.45) ➔ ✅ **HIT**
+
+5. **Atlético de Madrid 0 × 2 FC Bayern München** (UEFA Champions League)
+   - *Gols:* Karl 54' 2T, Laimer 74' 2T.
+   - Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (2 gols totais)
+   - Ambos Marcam (Sim @1.55) ➔ ❌ **MISS** (Atlético de Madrid não marcou)
+   - Bayern Vence & Ambos Marcam (@3.10) ➔ ❌ **MISS**
+
+6. **Villarreal 0 × 6 Paris Saint-Germain** (UEFA Champions League)
+   - *Gols:* Passeio do PSG na Espanha.
+   - Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (6 gols totais)
+   - Ambos Marcam (Sim @1.58) ➔ ❌ **MISS** (Villarreal zerado)
+
+7. **Galatasaray 2 × 0 VfB Stuttgart** (UEFA Champions League)
+   - *Gols:* 2x0 Galatasaray.
+   - Mais de 2.5 Gols (@1.68) ➔ ❌ **MISS** (Faltou 1 gol)
+
+8. **Manchester United 3 × 2 AS Roma** (UEFA Champions League)
+   - *Gols:* Matheus Cunha 38' e 41' 2T virou o jogo para o United.
+   - Manchester United Vence & Ambos Marcam (@3.35) ➔ ✅ **HIT** (3x2 épico!)
+
+##### B. Auditoria dos Bilhetes Estruturados de 03/11
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 1 DE 30:** 🟢 **HIT (100% GREEN @1.36)**
+  - Al Hilal ML (@1.18) ✅ + FC Barcelona 1X (@1.15) ✅
+  - *Retorno:* R$ 10,00 ➔ **R$ 13,60** (Avança para o Dia 2 com R$ 13,60).
+- ⭐ **BILHETE SUPREMO (@1.82):** 🟢 **HIT (100% GREEN PERFEITO - 4/4 ACERTOS)**
+  - Al Hilal ML ✅, FC Barcelona 1X ✅, Inter de Milão X2 ✅, Internacional 1X ✅.
+  - *Retorno:* Stake 0.75u ➔ **1.365u (+0.615u de lucro líquido puro)**.
+- 🟢 **MÚLTIPLA 1 — SAFE (@2.66):** 🟢 **HIT (GABARITADA NOS 3 STOP POINTS)**
+  - Stop Point 1 (@1.36): ✅ HIT
+  - Stop Point 2 (@1.82): ✅ HIT
+  - Stop Point 3 (@2.66): ✅ HIT
+  - *Retorno:* Stake 1.00u ➔ **2.66u (+1.66u de lucro líquido puro)**.
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.26):** 🟢 **HIT (100% GREEN - 3/3 ACERTOS)**
+  - Al Hilal -1.5 AH (@1.55) ✅, Barcelona ML (@1.45) ✅, Internacional ML (@1.45) ✅.
+  - *Retorno:* Stake 0.50u ➔ **1.63u (+1.13u de lucro líquido puro)**.
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.11):** ❌ **MISS** (Caiu nos BTTS de Bayern e PSG que venceram com clean sheet).
+- 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@38.52):** ❌ **MISS** (Quase histórica: acertou 3 de 4 zebras pesadas: Al Hilal Clean Sheet @1.95 ✅, Barça Over @1.90 ✅ e Man United Vence & BTTS @3.35 ✅, caindo apenas pelo gol do Atlético de Madrid).
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@520.00):** ❌ **MISS**.
+
+##### C. Balanço Consolidado da Rodada (03/11/2026)
+- **Desempenho Estrutural:** A rodada demonstrou a superioridade da Champions League e da gestão Anti-SPOF.
+- **Resultado Financeiro em Unidades:**
+  - Entrada total: ~2.65u
+  - Retorno bruto: 1.365u (Supremo) + 2.66u (SAFE total) + 1.63u (SAFE+) = **5.655u**
+  - **Lucro Líquido:** **+3.005 unidades de banca!**
+- **Desafio Soros:** Ciclo 2 iniciado com sucesso absoluto (R$ 10,00 ➔ R$ 13,60).
+ ➔ ✅ **HIT** (5 gols totais)
 
 8. **Criciúma 2 × 0 Ponte Preta** (Brasileirão Série B 36ª Rodada)
    - *Resultado Oficial:* 2 x 0
@@ -3210,7 +3332,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-03
 - **Cutoff:** 2026-11-03T14:00:00-03:00
 - **Contexto da Data:** A semana ganha potência máxima com a 4ª rodada da fase de liga da UEFA Champions League e a AFC Champions League Elite. Na Catalunha, o FC Barcelona de Hansi Flick recebe o Aston Villa no Camp Nou / Montjuïc; na Espanha, o explosivo confronto entre Atlético de Madrid e Bayern de Munique; em Old Trafford, Manchester United x Roma; na Holanda, o Feyenoord recebe a Inter de Milão; na Kingdom Arena em Riade, o Al Hilal recebe o Shabab Al Ahli Dubai; e no Brasil, o Internacional recebe o Coritiba no Beira-Rio pelo Brasileirão Série A.
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO****
 
 #### 1. Discovery e Cobertura
 - Analisados: 24 fixtures internacionais

@@ -57,6 +57,15 @@ def sync():
             shutil.copy2(src_bilhetes, os.path.join(pub_dir, "futebol", "bilhetes_ativos.json"))
         print("✅ Copiado: bilhetes_ativos.json (Futebol)")
 
+    # 3.1 Copia soros_state.json se existir
+    src_soros = os.path.join(BASE_DIR, "futebol", "soros_state.json")
+    if os.path.exists(src_soros):
+        shutil.copy2(src_soros, os.path.join(PUBLIC_REPO_DIR, "data", "soros_state.json"))
+        shutil.copy2(src_soros, os.path.join(PUBLIC_REPO_DIR, "futebol", "soros_state.json"))
+        if os.path.exists(pub_dir):
+            shutil.copy2(src_soros, os.path.join(pub_dir, "futebol", "soros_state.json"))
+        print("✅ Copiado: soros_state.json")
+
     # 4. Copia bilhetes ativos de basquete
     src_basquete = os.path.join(BASE_DIR, "basquete", "bilhetes_ativos.json")
     if os.path.exists(src_basquete):

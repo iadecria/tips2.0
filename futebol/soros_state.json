@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 10.0,
-  "currentDay": 1,
+  "currentStake": 13.6,
+  "currentDay": 2,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -264,7 +264,8 @@
       "selection": "Al Hilal x Shabab Al Ahli (Al Hilal Vence ML @1.18) + FC Barcelona x Aston Villa (FC Barcelona ou Empate 1X @1.15)",
       "odd": 1.36,
       "potentialReturn": 13.6,
-      "status": "PENDING"
+      "status": "HIT",
+      "actualReturn": 13.6
     }
   ]
 }

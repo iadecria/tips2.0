@@ -3747,28 +3747,26 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Bayer Leverkusen x Marseille: Mais de 2.5 Gols no Jogo (@1.62)
   - Odd: 3.82 | Stake Sugerida: 0.10u (R$ 1,50)
 
-- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@58.58):**
-  - Benfica x Lech Poznań: Benfica Vence & Mais de 2.5 Gols no Jogo (@1.75)
-  - Atalanta x Kairat Almaty: Atalanta Vence & Mais de 2.5 Gols no Jogo (@1.75)
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@42.90):**
+  - Benfica x Lech Poznań: Benfica Vence sem Sofrer Gols (@1.85)
+  - Atalanta x Kairat Almaty: Atalanta Vence por 3+ Gols (-2.5 AH @2.30)
   - Bayer Leverkusen x Marseille: Leverkusen Vence & Ambos Marcam (@2.95)
-  - Palmeiras x Remo: Palmeiras Vence por 2+ Gols (-1.5 AH @1.75)
-  - Celtic x Beşiktaş: Ambos os Times Marcam & Mais de 2.5 Gols (@1.95)
-  - Anderlecht x Red Bull Salzburg: Ambos os Times Marcam & Mais de 2.5 Gols (@1.90)
-  - Odd Combinada: **@58.58** | Stake Sugerida: 0.07u (R$ 1,00 buscando R$ 58,58!)
-  - *Lógica Aprimorada:* Eliminados o handicap extremo de 3 gols (-2.5 AH) e clean sheets frágeis. Foco em Vitórias com Gols (V1 & Over 2.5) e trocas francas (BTTS & Over 2.5), atingindo a faixa de R$ 50 a R$ 80 da calculadora com altíssima coerência!
+  - Palmeiras x Remo: Palmeiras Vence sem Sofrer Gols (@1.80)
+  - Celtic x Beşiktaş: Ambos Marcam & Mais de 2.5 Gols (@1.90)
+  - Odd: 42.90 | Stake Sugerida: 0.07u (R$ 1,00)
 
-- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal @500+ / 12 Jogos @565.46):**
-  - Benfica x Lech Poznań: Benfica Vence & Mais de 1.5 Gols no Jogo (@1.42)
-  - Atalanta x Kairat Almaty: Atalanta Vence & Mais de 1.5 Gols no Jogo (@1.50)
-  - AC Milan x Ferencváros: AC Milan Vence & Mais de 1.5 Gols no Jogo (@1.62)
-  - Bayer Leverkusen x Marseille: Bayer Leverkusen Vence & Mais de 1.5 Gols no Jogo (@1.70)
-  - Palmeiras x Remo: Palmeiras Vence & Mais de 1.5 Gols no Jogo (@1.52)
-  - Cruzeiro x Bahia: Cruzeiro Vence & Mais de 1.5 Gols no Jogo (@2.15)
-  - Celtic x Beşiktaş: Celtic Vence & Mais de 1.5 Gols no Jogo (@2.25)
-  - Sparta Praga x Bournemouth: Bournemouth ou Empate & Mais de 1.5 Gols (@1.65)
-  - Anderlecht x Red Bull Salzburg: Ambos os Times Marcam (Sim @1.52)
-  - Midtjylland x Ajax: Mais de 2.5 Gols no Jogo (@1.65)
-  - Trabzonspor x Freiburg: Ambos os Times Marcam (Sim @1.60)
-  - AZ Alkmaar x Juventus: Juventus Vence (Moneyline @1.98)
-  - Odd Combinada: **@565.46** | Stake: 0.07u (R$ 1,00 buscando R$ 565,46!)
-  - *Vantagem Tática:* Utiliza a correlação lógica de ouro (quando o favorito vence, dificilmente é por menos de 1.5 gols). Alavanca a cotação média de cada jogo sem inventar linhas extremas, atingindo a meta de @500+ com altíssima sobrevida e janelas de cashout!
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 12 Jogos @62.68):**
+  - AC Milan Vence (@1.28)
+  - Atalanta Vence (@1.20)
+  - Bournemouth Vence (@1.85)
+  - Anderlecht x Salzburg Over 1.5 (@1.20)
+  - Midtjylland x Ajax Over 1.5 (@1.20)
+  - Trabzonspor x Freiburg Over 1.5 (@1.25)
+  - Benfica Vence (@1.14)
+  - Bayer Leverkusen Vence (@1.38)
+  - Juventus Vence (@1.98)
+  - Celtic Vence (@1.90)
+  - Palmeiras Vence (@1.22)
+  - Cruzeiro Vence (@1.70)
+  - Odd: 62.68 | Stake Sugerida: 0.07u (R$ 1,00)
+  - *Vantagem Tática:* Todos os mercados primários e lógicos. Máxima sobrevida e viabilidade de cashout antes do Brasileirão!

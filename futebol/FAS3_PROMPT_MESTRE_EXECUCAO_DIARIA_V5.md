@@ -506,15 +506,15 @@ Para manter a **cobertura e quantidade total** da rodada sem inflar a variância
    - 🛡️➕ **Múltipla 2 — SAFE+:** Alavancagem com handicaps asiáticos protegidos (-1.5 AH / +1.0 AH).
    - 🚀 **Múltipla 3 — SUPER ATAQUE (Pra Cima):** Odd alta (@3.50 a @5.50) com correlação agressiva e assertividade real (Ambos Marcam, Over 2.5, Vitória & Ambos Marcam).
    - 👴 **Múltipla 4 — APOSENTAR O NETO:** Super alavancagem assimétrica (@25 a @45+).
-   - 🎲 **Múltipla 5 — O IMPROVÁVEL (Super Bingo Horizontal / Alta Sobrevida da Rodada):**
-     - **Nova Arquitetura Estrutural:** Para buscar payoffs astronômicos (@50x a @500x+) com **moeda de troco (0.05u)**.
-     - ⛔ **PROIBIÇÃO DE LINHAS ARTIFICIAIS EXTREMAS:** É TERMINANTEMENTE PROIBIDO forçar linhas de variância bizarra (+3.5 gols, handicap -2.5, empate com gols, placar exato) em apenas 4 ou 5 jogos já analisados apenas para inflar a cotação.
-     - 🌐 **COBERTURA HORIZONTAL AMPLA (8 A 14 JOGOS):** A odd alta deve ser construída pela **extensão horizontal da rodada**, abrangendo quase TODOS os jogos do dia (toda a rodada da Champions League, Brasileirão, Copas e ligas ativas).
-     - 🟢 **MERCADOS SIMPLES E LÓGICOS POR JOGO:** Em cada jogo selecionado, utiliza-se apenas mercados primários de altíssima probabilidade natural:
-       * **Vitória Seca do Favorito (V1 ou V2)** em confrontos de disparidade;
-       * **Total Seguro de Gols (Mais de 1.5 Gols no Jogo)** em partidas de perfil ofensivo;
-       * **Dupla Chance (1X ou X2)** quando houver mando forte ou favoritismo do visitante.
-     - 📈 **Vantagem Tática:** O bilhete não precisa de nenhum resultado anormal (como uma goleada de 4 gols). Ele acumula 10 a 14 seleções lógicas, garantindo **alta sobrevida durante o dia** e abrindo **janelas reais de cashout com lucro massivo** antes dos últimos jogos da noite.
+   - 🎲 **Múltipla 5 — O IMPROVÁVEL (Super Bingo Horizontal @500+ / Correlação Lógica V1 + Gols):**
+     - **Alvo Matemático:** Payoff astronômico **@500x a @800x+** com **moeda de troco (0.07u / R$ 1,00 buscando R$ 500+)**, alinhado rigorosamente à Calculadora de Unidades do usuário.
+     - ⛔ **PROIBIÇÃO DE LINHAS ARTIFICIAIS EXTREMAS:** É TERMINANTEMENTE PROIBIDO forçar linhas de variância bizarra (+3.5 gols, handicap -2.5, empate com gols, placar exato) apenas para inflar a cotação.
+     - 🚀 **MOTOR DE ALAVANCAGEM LÓGICA (V1/V2 + OVER 1.5 GOLS):**
+       * Quando um superfavorito vence em casa (ex: Benfica, Atalanta, Leverkusen, Palmeiras, Milan), **dificilmente a vitória é por menos de 1.5 gols** (os placares mais frequentes são 2x0, 2x1, 3x0, 3x1, 4x0).
+       * Utilizar obrigatoriamente a combinação **Vitória do Favorito & Mais de 1.5 Gols no Jogo (V1 + Over 1.5)** ou **Total da Equipe Acima de 1.5 Gols**, o que eleva a cotação individual de @1.15/@1.25 para a faixa nobre de **@1.40 a @1.75**, mantendo a alta probabilidade do resultado natural.
+       * Em jogos de trocação aberta entre forças equilibradas, utilizar **Ambos Marcam (Sim)** ou **Mais de 2.5 Gols** (@1.50 a @1.65).
+       * Também é permitido agregar linhas de valor correlacionadas (como V1 + Total de Cantos seguro ou Resultado ao Intervalo/Final).
+     - 🌐 **COBERTURA HORIZONTAL AMPLA (10 A 14 JOGOS):** A multiplicação dessas 10 a 14 seleções correlacionadas e de bom senso gera uma odd composta natural **acima de @500+**, garantindo máxima sobrevida e viabilizando **janelas reais de cashout massivo** antes dos jogos noturnos!
    - 🇧🇷 **MÚLTIPLA DO BRASILEIRÃO (Gatllho > 3 Jogos):** Sempre que houver mais de 3 jogos do Brasileirão no dia (Série A e Série B), gera-se obrigatoriamente um bilhete exclusivo cobrindo 1 possibilidade matemática por jogo do Brasil.
 
 5. **Regra Obrigatória de Nomenclatura dos Times:**

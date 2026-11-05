@@ -121,24 +121,24 @@
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 12 Jogos)",
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal @500+ / 12 Jogos)",
       "type": "IMPROVAVEL",
-      "multiplier": 62.68,
+      "multiplier": 565.46,
       "status": "PENDING",
-      "philosophy": "Arquitetura Horizontal: 12 jogos da Europa League, Conference e Brasileirão com mercados primários lógicos (V1/V2 e Mais de 1.5). Zero linhas forçadas; alta sobrevida e viabilidade de cashout.",
+      "philosophy": "Arquitetura Horizontal @500+: 12 jogos com correlação lógica natural V1/V2 + Over 1.5 e jogos francos de gols. Custa R$ 1,00 e busca R$ 565,46 sem inventar linhas extremas!",
       "legs": [
-        "AC Milan x Ferencváros: AC Milan Vence (Moneyline @1.28)",
-        "Atalanta x Kairat Almaty: Atalanta Vence (Moneyline @1.20)",
-        "Sparta Praga x Bournemouth: Bournemouth Vence (Moneyline @1.85)",
-        "Anderlecht x Red Bull Salzburg: Mais de 1.5 Gols no Jogo (@1.20)",
-        "Midtjylland x Ajax: Mais de 1.5 Gols no Jogo (@1.20)",
-        "Trabzonspor x Freiburg: Mais de 1.5 Gols no Jogo (@1.25)",
-        "Benfica x Lech Poznań: Benfica Vence (Moneyline @1.14)",
-        "Bayer Leverkusen x Marseille: Bayer Leverkusen Vence (Moneyline @1.38)",
-        "AZ Alkmaar x Juventus: Juventus Vence (Moneyline @1.98)",
-        "Celtic x Beşiktaş: Celtic Vence (Moneyline @1.90)",
-        "Palmeiras x Remo: Palmeiras Vence (Moneyline @1.22)",
-        "Cruzeiro x Bahia: Cruzeiro Vence (Moneyline @1.70)"
+        "Benfica x Lech Poznań: Benfica Vence & Mais de 1.5 Gols no Jogo (@1.42)",
+        "Atalanta x Kairat Almaty: Atalanta Vence & Mais de 1.5 Gols no Jogo (@1.50)",
+        "AC Milan x Ferencváros: AC Milan Vence & Mais de 1.5 Gols no Jogo (@1.62)",
+        "Bayer Leverkusen x Marseille: Bayer Leverkusen Vence & Mais de 1.5 Gols no Jogo (@1.70)",
+        "Palmeiras x Remo: Palmeiras Vence & Mais de 1.5 Gols no Jogo (@1.52)",
+        "Cruzeiro x Bahia: Cruzeiro Vence & Mais de 1.5 Gols no Jogo (@2.15)",
+        "Celtic x Beşiktaş: Celtic Vence & Mais de 1.5 Gols no Jogo (@2.25)",
+        "Sparta Praga x Bournemouth: Bournemouth ou Empate & Mais de 1.5 Gols (@1.65)",
+        "Anderlecht x Red Bull Salzburg: Ambos os Times Marcam (Sim @1.52)",
+        "Midtjylland x Ajax: Mais de 2.5 Gols no Jogo (@1.65)",
+        "Trabzonspor x Freiburg: Ambos os Times Marcam (Sim @1.60)",
+        "AZ Alkmaar x Juventus: Juventus Vence (Moneyline @1.98)"
       ]
     }
   ],

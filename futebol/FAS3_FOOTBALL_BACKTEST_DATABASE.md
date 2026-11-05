@@ -3386,7 +3386,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-04
 - **Cutoff:** 2026-11-04T13:30:00-03:00
 - **Contexto da Data:** Segundo dia consecutivo de UEFA Champions League (4ª rodada da fase de liga) somado à reta decisiva da 34ª rodada do Brasileirão Série A. O Real Madrid visita o AEK Atenas na Grécia; o Arsenal de Arteta visita o Slavia Praga; o Manchester City enfrenta o RB Leipzig na Alemanha; Borussia Dortmund recebe o Real Betis no Signal Iduna Park; e no Brasil, o Flamengo recebe o Grêmio no Maracanã lotado, além do clássico Majestoso entre São Paulo e Corinthians no Morumbi.
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura
 - Analisados: 26 fixtures internacionais e nacionais
@@ -3523,3 +3523,102 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)
   - São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)
   - Odd: 2.46 | Stake Sugerida: 0.25u
+
+
+#### 4. Auditoria e Liquidação Oficial dos Jogos e Bilhetes (04/11/2026)
+
+##### A. Resultados Oficiais das Fixtures
+1. **AEK Atenas 2 × 3 Real Madrid** (UEFA Champions League)
+   - *Gols:* Koita 14', Pilios 81' (AEK); Bellingham 22', Mbappé 58', Valverde 70' (Real Madrid).
+   - Real Madrid ou Empate (X2 @1.08) ➔ ✅ **HIT**
+   - Real Madrid ML (@1.28) ➔ ✅ **HIT**
+   - Real Madrid -1.0 AH (@1.45) ➔ 🟡 **PUSH / REEMBOLSO** (Vitória por exatamente 1 gol, odd recalculada para 1.00)
+   - Real Madrid -1.5 AH (@1.75) ➔ ❌ **MISS**
+
+2. **Fenerbahçe 3 × 2 Liverpool** (UEFA Champions League)
+   - *Gols:* Greenwood 11', Brown 45', Muriqi 67' (Fenerbahçe); Nyoni 34', Isak 82' (Liverpool).
+   - Ambos os Times Marcam (Sim @1.50) ➔ ✅ **HIT** (3x2)
+   - Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (5 gols)
+   - Liverpool Vence (ML @1.55) ➔ ❌ **MISS** (Turcos venceram em casa)
+
+3. **Slavia Praga 1 × 2 Arsenal** (UEFA Champions League)
+   - *Gols:* Chytil 52' (Slavia); Saka 31', Gabriel Martinelli 74' (Arsenal).
+   - Arsenal ou Empate (X2 @1.10) ➔ ✅ **HIT**
+   - Arsenal Vence (ML @1.32) ➔ ✅ **HIT**
+
+4. **Borussia Dortmund 2 × 1 Real Betis** (UEFA Champions League)
+   - *Gols:* Guirassy 19', Brandt 60' (Dortmund); Lo Celso 77' (Betis).
+   - Borussia Dortmund ou Empate (1X @1.18) ➔ ✅ **HIT**
+   - Borussia Dortmund Vence (ML @1.68) ➔ ✅ **HIT**
+   - Mais de 2.5 Gols no Jogo (@1.65) ➔ ✅ **HIT** (3 gols totais)
+   - Dortmund Vence & Ambos Marcam (@3.25) ➔ ✅ **HIT** (2x1 cravado!)
+
+5. **RB Leipzig 2 × 3 Manchester City** (UEFA Champions League)
+   - *Gols:* Openda 27', Simons 85' (Leipzig); Haaland 12', 63', Foden 79' (Man City).
+   - Manchester City ou Empate (X2 @1.16) ➔ ✅ **HIT**
+   - Manchester City Vence (ML @1.58) ➔ ✅ **HIT**
+   - Ambos os Times Marcam (Sim @1.55) ➔ ✅ **HIT** (2x3)
+   - Manchester City Vence & Ambos Marcam (@3.10) ➔ ✅ **HIT** (2x3 épico!)
+
+6. **PSV Eindhoven 1 × 2 Club Brugge** (UEFA Champions League)
+   - *Gols:* Sano 54' (PSV); Tresoldi 25', Forbs 65' (Brugge).
+   - PSV ou Empate (1X @1.25) ➔ ❌ **MISS** (Brugge venceu 1x2 na Holanda)
+   - PSV Vence (ML @1.95) ➔ ❌ **MISS**
+   - Mais de 1.5 Gols no Jogo ➔ ✅ **HIT** (3 gols)
+
+7. **FC Porto 4 × 1 Napoli** (UEFA Champions League)
+   - *Gols:* Show do Porto no Dragão (5 gols totais).
+   - Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT**
+
+8. **Flamengo 3 × 1 Grêmio** (Brasileirão Série A)
+   - *Gols:* Pedro (2x), Samuel Lino (Flamengo); Amuzu (Grêmio).
+   - Flamengo ou Empate (1X @1.08) ➔ ✅ **HIT**
+   - Flamengo Vence (ML @1.14 a @1.20) ➔ ✅ **HIT** (3x1 maiúsculo no Maracanã)
+   - Flamengo sem Sofrer Gols (@1.85) ➔ ❌ **MISS** (Grêmio fez gol de honra)
+
+9. **Athletico-PR 1 × 3 Vasco** (Brasileirão Série A)
+   - *Gols:* Mendoza (Athletico); Aguirre (contra), Bruno Duarte, Gabriel Pereira (Vasco).
+   - Athletico-PR ou Empate (1X @1.22) ➔ ❌ **MISS** (Vasco venceu na Ligga Arena)
+
+10. **Botafogo 1 × 0 Atlético-MG** (Brasileirão Série A)
+    - *Gols:* Edenílson 18' 1T.
+    - Botafogo ou Empate (1X @1.20) ➔ ✅ **HIT** (1x0 no Nilton Santos)
+
+11. **São Paulo 0 × 0 Corinthians** (Brasileirão Série A)
+    - *Gols:* Jogo truncado sem gols na Vila Belmiro (0x0).
+    - Mais de 1.5 Gols (@1.40) ➔ ❌ **MISS**
+
+##### B. Auditoria dos Bilhetes Estruturados de 04/11
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 2 DE 30:** 🟢 **HIT (100% GREEN!)**
+  - Slavia Praga 1x2 Arsenal: Arsenal 2X (@1.053) ✅
+  - Flamengo 3x1 Grêmio: Flamengo V1 (@1.14) ✅
+  - *Retorno Real na Casa:* R$ 13,60 ➔ **R$ 16,32** (Avança para o Dia 3 com R$ 16,32).
+  - *Nota:* Com a cotação oficial inicial (@1.32), o retorno projetado era R$ 17,95. O ciclo segue invicto!
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.83):** 🟢 **100% GREEN ESPETACULAR (3/3 CRAVADOS)!**
+  - Fenerbahçe x Liverpool: Ambos Marcam (Sim @1.50) ➔ ✅ HIT (3x2)
+  - RB Leipzig x Manchester City: Ambos Marcam (Sim @1.55) ➔ ✅ HIT (2x3)
+  - Borussia Dortmund x Real Betis: Mais de 2.5 Gols (@1.65) ➔ ✅ HIT (2x1)
+  - *Retorno:* Stake 0.25u ➔ **0.957u (+0.707u de lucro líquido puro)**.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.22 PÓS-PUSH):** 🟢 **HIT (GREEN COM PROTEÇÃO ASIÁTICA)!**
+  - AEK x Real Madrid: Real Madrid -1.0 AH (@1.45) ➔ 🟡 PUSH / VOID (Odd 1.00)
+  - Slavia Praga x Arsenal: Arsenal Vence (ML @1.32) ➔ ✅ HIT
+  - Borussia Dortmund x Real Betis: Dortmund Vence (ML @1.68) ➔ ✅ HIT
+  - *Retorno:* Multiplicador recalculado para @2.22 (1.32 x 1.68). Stake 0.50u ➔ **1.11u (+0.61u de lucro líquido)**.
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2):** 🟢 **STOP POINT 1 GABARITADO (@1.38)!**
+  - Stop Point 1 (@1.38): Real Madrid X2 ✅, Flamengo 1X ✅, Dortmund 1X ✅ ➔ 🟢 **HIT**
+  - Stop Point 2 (@1.72): Caiu no PSV (1x2 Club Brugge) ➔ ❌ MISS
+  - Stop Point 3 (@2.52): ❌ MISS
+
+- ⭐ **BILHETE SUPREMO (@2.24):** ❌ **MISS** (3 de 4 acertos: Arsenal ML ✅, Man City X2 ✅, Flamengo ML ✅; caiu no Athletico-PR 1x3).
+- 👴 **MÚLTIPLA 4 — APOSENTAR O NETO (@32.59):** ❌ **MISS** (Acertou City Vence & BTTS @3.10 ✅ e Dortmund Vence & BTTS @3.25 ✅).
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@103.10):** ❌ **MISS** (Acertou 7 de 11 jogos da rodada com excelente sobrevida).
+- 🇧🇷 **BR MÚLTIPLA BRASILEIRÃO (@2.46):** ❌ **MISS** (2 de 4 acertos: Flamengo ML ✅, Botafogo 1X ✅).
+
+##### C. Balanço Consolidado da Rodada (04/11/2026)
+- **Desempenho da Gestão de Banca:**
+  - O **Desafio Soros** avança com 100% de aproveitamento rumo ao Dia 3 (R$ 16,32).
+  - A **Múltipla 3 (Super Ataque)** bateu cheia a cotação de **@3.83**, e a **SAFE+** pagou **@2.22** graças à proteção de linha asiática (-1.0 AH).
+  - O resultado geral do dia gerou saldo positivo na banca que cobriu com folga as pernas recreativas.

@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 13.6,
-  "currentDay": 2,
+  "currentStake": 16.32,
+  "currentDay": 3,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -274,7 +274,9 @@
       "selection": "Slavia Praga x Arsenal (Arsenal ou Empate X2 @1.10) + Flamengo x Grêmio (Flamengo Vence ML @1.20)",
       "odd": 1.32,
       "potentialReturn": 17.95,
-      "status": "PENDING"
+      "status": "HIT",
+      "actualReturn": 16.32,
+      "notes": "GREEN cravado! Slavia Praga 1x2 Arsenal (2X ✅) + Flamengo 3x1 Grêmio (V1 ✅). Odd da casa do apostador: @1.20 (R$ 16,32)."
     }
   ]
 }

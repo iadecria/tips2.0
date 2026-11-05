@@ -1,43 +1,43 @@
 {
   "date": "2026-11-04",
   "snapshotId": "FAS_FOOTBALL_2026-11-04_V1_CHAMPIONS_BRASILEIRAO",
-  "status": "ACTIVE",
-  "notes": "RODADA 04/11/2026: UEFA Champions League (4ª Rodada) + Brasileirão Série A (34ª Rodada). Desacoplamento total entre SAFE e Supremo (Anti-Clone) e Múltipla 5 no modelo Super Bingo Horizontal de 11 jogos.",
+  "status": "SETTLED",
+  "notes": "CONFERE OFICIAL 04/11/2026: Noite vitoriosa! GREEN no Desafio Soros Dia 2 (R$ 13,60 -> R$ 16,32), GREEN histórico na MÚLTIPLA 3 SUPER ATAQUE (@3.83 com 3/3 acertos cravados), GREEN na MÚLTIPLA 2 SAFE+ (@2.22) e GREEN no Stop Point 1 da SAFE (@1.38)!",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — SNIPER DE ELITE (Quarta 04/11 / 4 Seleções Independentes)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 2.24,
     "philosophy": "Seleções Ouro com desacoplamento total da SAFE: Arsenal ML, Manchester City X2, Flamengo ML e Athletico-PR 1X, distribuídos entre Champions e Brasileirão.",
-    "status": "PENDING",
+    "status": "MISS",
     "selections": [
       {
         "match": "Slavia Praga x Arsenal (17:00 BRT)",
         "competition": "UEFA Champions League",
         "market": "Arsenal Vence (Moneyline)",
         "odd": 1.32,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "RB Leipzig x Manchester City (17:00 BRT)",
         "competition": "UEFA Champions League",
         "market": "Manchester City ou Empate (Dupla Chance X2)",
         "odd": 1.16,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Flamengo x Grêmio (19:30 BRT)",
         "competition": "Brasileirão Série A",
         "market": "Flamengo Vence (Moneyline)",
         "odd": 1.2,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Athletico-PR x Vasco (19:30 BRT)",
         "competition": "Brasileirão Série A",
         "market": "Athletico-PR ou Empate (Dupla Chance 1X)",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "MISS"
       }
     ]
   },
@@ -45,7 +45,7 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "PARTIAL_HIT",
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Tripla Blindada)",
@@ -55,7 +55,7 @@
             "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
             "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — 4 Duplas Chances)",
@@ -66,7 +66,7 @@
             "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)",
             "PSV Eindhoven x Club Brugge: PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         },
         {
           "level": "Stop Point 3 (Expansão Máxima com Gols)",
@@ -79,37 +79,39 @@
             "Fenerbahçe x Liverpool: Mais de 1.5 Gols no Jogo (@1.20)",
             "FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Imposição Europeia)",
       "type": "SAFE+",
-      "multiplier": 3.22,
-      "status": "PENDING",
+      "multiplier": 2.22,
+      "status": "HIT",
       "legs": [
         "AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.0 AH @1.45)",
         "Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)",
         "Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)"
-      ]
+      ],
+      "notes": "GREEN com proteção de Handicap: Real Madrid -1.0 AH (PUSH / Anulada por vitória por 1 gol), Arsenal ML (HIT @1.32), Dortmund ML (HIT @1.68) = @2.22!"
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca da Champions League)",
       "type": "ATTACK",
       "multiplier": 3.83,
-      "status": "PENDING",
+      "status": "HIT",
       "legs": [
         "Fenerbahçe x Liverpool: Ambos os Times Marcam (Sim @1.50)",
         "RB Leipzig x Manchester City: Ambos os Times Marcam (Sim @1.55)",
         "Borussia Dortmund x Real Betis: Mais de 2.5 Gols no Jogo (@1.65)"
-      ]
+      ],
+      "notes": "100% GREEN ESPETACULAR (3/3 CRAVADOS): Fenerbahçe x Liverpool BTTS (3x2 ✅), Leipzig x City BTTS (2x3 ✅), Dortmund x Betis Over 2.5 (2x1 ✅)!"
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
       "multiplier": 32.59,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.75)",
         "RB Leipzig x Manchester City: Manchester City Vence & Ambos Marcam (@3.10)",
@@ -121,7 +123,7 @@
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 11 Jogos)",
       "type": "IMPROVAVEL",
       "multiplier": 103.1,
-      "status": "PENDING",
+      "status": "MISS",
       "philosophy": "Arquitetura Horizontal: 11 jogos da Champions e do Brasileirão com seleções elementares e lógicas (V1/V2 e Mais de 1.5). Zero linhas artificiais extremas; máxima sobrevida e viabilidade de cashout.",
       "legs": [
         "AEK Atenas x Real Madrid: Real Madrid Vence (Moneyline @1.28)",
@@ -141,7 +143,7 @@
       "name": "BR MÚLTIPLA BRASILEIRÃO — SÉRIE A (Cobertura da 34ª Rodada)",
       "type": "BRASILEIRAO",
       "multiplier": 2.46,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)",
         "Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)",
@@ -162,6 +164,7 @@
       "Slavia Praga x Arsenal: Arsenal ou Empate (Dupla Chance X2 @1.10)",
       "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)"
     ],
-    "status": "PENDING"
+    "status": "HIT",
+    "actualReturn": 16.32
   }
 }

@@ -277,6 +277,15 @@
       "status": "HIT",
       "actualReturn": 16.32,
       "notes": "GREEN cravado! Slavia Praga 1x2 Arsenal (2X ✅) + Flamengo 3x1 Grêmio (V1 ✅). Odd da casa do apostador: @1.20 (R$ 16,32)."
+    },
+    {
+      "day": 3,
+      "date": "2026-11-05",
+      "stakeIn": 16.32,
+      "selection": "Benfica x Lech Poznań (Benfica Vence ML @1.14) + Bayer Leverkusen x Marseille (Leverkusen ou Empate 1X @1.12) + Palmeiras x Remo (Palmeiras ou Empate 1X @1.06)",
+      "odd": 1.35,
+      "potentialReturn": 22.03,
+      "status": "PENDING"
     }
   ]
 }

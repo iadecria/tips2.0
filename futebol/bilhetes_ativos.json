@@ -1,43 +1,43 @@
 {
-  "date": "2026-11-04",
-  "snapshotId": "FAS_FOOTBALL_2026-11-04_V1_CHAMPIONS_BRASILEIRAO",
-  "status": "SETTLED",
-  "notes": "CONFERE OFICIAL 04/11/2026: Noite vitoriosa! GREEN no Desafio Soros Dia 2 (R$ 13,60 -> R$ 16,32), GREEN histórico na MÚLTIPLA 3 SUPER ATAQUE (@3.83 com 3/3 acertos cravados), GREEN na MÚLTIPLA 2 SAFE+ (@2.22) e GREEN no Stop Point 1 da SAFE (@1.38)!",
+  "date": "2026-11-05",
+  "snapshotId": "FAS_FOOTBALL_2026-11-05_V1_EUROPA_CONFERENCE_BRASILEIRAO",
+  "status": "ACTIVE",
+  "notes": "RODADA 05/11/2026: UEFA Europa League (4ª Rodada) + UEFA Conference League (3ª Rodada) + Brasileirão Série A (34ª Rodada). Modelo SAFE Shield configurado: SAFE Stop 2 calibrada (@1.81) para cobrir integralmente os bilhetes secundários, bilhete Supremo Anti-Clone (@2.30) e Múltipla 5 no Super Bingo Horizontal de 12 jogos (@62.68).",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — SNIPER DE ELITE (Quarta 04/11 / 4 Seleções Independentes)",
+    "name": "⭐ BILHETE SUPREMO — SNIPER CONTINENTAL (Quinta 05/11 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 2.24,
-    "philosophy": "Seleções Ouro com desacoplamento total da SAFE: Arsenal ML, Manchester City X2, Flamengo ML e Athletico-PR 1X, distribuídos entre Champions e Brasileirão.",
-    "status": "MISS",
+    "multiplierGlobal": 2.3,
+    "philosophy": "Seleções Ouro com desacoplamento total da SAFE Stop 2: Benfica ML, Bayer Leverkusen ML, Palmeiras ML e Atalanta ML.",
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Slavia Praga x Arsenal (17:00 BRT)",
-        "competition": "UEFA Champions League",
-        "market": "Arsenal Vence (Moneyline)",
-        "odd": 1.32,
-        "status": "HIT"
+        "match": "Benfica x Lech Poznań (17:00 BRT)",
+        "competition": "UEFA Europa League",
+        "market": "Benfica Vence (Moneyline)",
+        "odd": 1.14,
+        "status": "PENDING"
       },
       {
-        "match": "RB Leipzig x Manchester City (17:00 BRT)",
-        "competition": "UEFA Champions League",
-        "market": "Manchester City ou Empate (Dupla Chance X2)",
-        "odd": 1.16,
-        "status": "HIT"
+        "match": "Bayer Leverkusen x Olympique de Marseille (17:00 BRT)",
+        "competition": "UEFA Europa League",
+        "market": "Bayer Leverkusen Vence (Moneyline)",
+        "odd": 1.38,
+        "status": "PENDING"
       },
       {
-        "match": "Flamengo x Grêmio (19:30 BRT)",
+        "match": "Palmeiras x Remo (19:30 BRT)",
         "competition": "Brasileirão Série A",
-        "market": "Flamengo Vence (Moneyline)",
-        "odd": 1.2,
-        "status": "HIT"
-      },
-      {
-        "match": "Athletico-PR x Vasco (19:30 BRT)",
-        "competition": "Brasileirão Série A",
-        "market": "Athletico-PR ou Empate (Dupla Chance 1X)",
+        "market": "Palmeiras Vence (Moneyline)",
         "odd": 1.22,
-        "status": "MISS"
+        "status": "PENDING"
+      },
+      {
+        "match": "Atalanta x Kairat Almaty (14:45 BRT)",
+        "competition": "UEFA Conference League",
+        "market": "Atalanta Vence (Moneyline)",
+        "odd": 1.2,
+        "status": "PENDING"
       }
     ]
   },
@@ -45,126 +45,116 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2)",
       "type": "SAFE",
-      "status": "PARTIAL_HIT",
+      "status": "PENDING",
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Tripla Blindada)",
-          "multiplier": 1.38,
+          "multiplier": 1.37,
           "legs": [
-            "AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)",
-            "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
-            "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)"
+            "AC Milan x Ferencváros: AC Milan ou Empate (Dupla Chance 1X @1.08)",
+            "Atalanta x Kairat Almaty: Atalanta Vence (Moneyline @1.20)",
+            "Palmeiras x Remo: Palmeiras ou Empate (Dupla Chance 1X @1.06)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 2 (A Blindagem Consagrada — 4 Duplas Chances)",
-          "multiplier": 1.72,
+          "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100%)",
+          "multiplier": 1.81,
           "legs": [
-            "AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)",
-            "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
-            "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)",
-            "PSV Eindhoven x Club Brugge: PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)"
+            "AC Milan x Ferencváros: AC Milan ou Empate (Dupla Chance 1X @1.08)",
+            "Atalanta x Kairat Almaty: Atalanta Vence (Moneyline @1.20)",
+            "Palmeiras x Remo: Palmeiras ou Empate (Dupla Chance 1X @1.06)",
+            "Bayer Leverkusen x Marseille: Bayer Leverkusen ou Empate (Dupla Chance 1X @1.12)",
+            "Cruzeiro x Bahia: Cruzeiro ou Empate (Dupla Chance 1X @1.18)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         },
         {
-          "level": "Stop Point 3 (Expansão Máxima com Gols)",
-          "multiplier": 2.52,
+          "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
+          "multiplier": 2.65,
           "legs": [
-            "AEK Atenas x Real Madrid: Real Madrid ou Empate (Dupla Chance X2 @1.08)",
-            "Flamengo x Grêmio: Flamengo ou Empate (Dupla Chance 1X @1.08)",
-            "Borussia Dortmund x Real Betis: Borussia Dortmund ou Empate (Dupla Chance 1X @1.18)",
-            "PSV Eindhoven x Club Brugge: PSV Eindhoven ou Empate (Dupla Chance 1X @1.25)",
-            "Fenerbahçe x Liverpool: Mais de 1.5 Gols no Jogo (@1.20)",
-            "FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.22)"
+            "AC Milan x Ferencváros: AC Milan ou Empate (Dupla Chance 1X @1.08)",
+            "Atalanta x Kairat Almaty: Atalanta Vence (Moneyline @1.20)",
+            "Palmeiras x Remo: Palmeiras ou Empate (Dupla Chance 1X @1.06)",
+            "Bayer Leverkusen x Marseille: Bayer Leverkusen ou Empate (Dupla Chance 1X @1.12)",
+            "Cruzeiro x Bahia: Cruzeiro ou Empate (Dupla Chance 1X @1.18)",
+            "Celtic x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Sparta Praga x Bournemouth: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Imposição Europeia)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps Europeus)",
       "type": "SAFE+",
-      "multiplier": 2.22,
-      "status": "HIT",
+      "multiplier": 3.2,
+      "status": "PENDING",
       "legs": [
-        "AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.0 AH @1.45)",
-        "Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)",
-        "Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)"
-      ],
-      "notes": "GREEN com proteção de Handicap: Real Madrid -1.0 AH (PUSH / Anulada por vitória por 1 gol), Arsenal ML (HIT @1.32), Dortmund ML (HIT @1.68) = @2.22!"
+        "Benfica x Lech Poznań: Benfica Vence por 2+ Gols (-1.5 AH @1.45)",
+        "Atalanta x Kairat Almaty: Atalanta Vence por 2+ Gols (-1.5 AH @1.60)",
+        "Bayer Leverkusen x Marseille: Bayer Leverkusen Vence (Moneyline @1.38)"
+      ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca da Champions League)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Gols)",
       "type": "ATTACK",
-      "multiplier": 3.83,
-      "status": "HIT",
+      "multiplier": 3.82,
+      "status": "PENDING",
       "legs": [
-        "Fenerbahçe x Liverpool: Ambos os Times Marcam (Sim @1.50)",
-        "RB Leipzig x Manchester City: Ambos os Times Marcam (Sim @1.55)",
-        "Borussia Dortmund x Real Betis: Mais de 2.5 Gols no Jogo (@1.65)"
-      ],
-      "notes": "100% GREEN ESPETACULAR (3/3 CRAVADOS): Fenerbahçe x Liverpool BTTS (3x2 ✅), Leipzig x City BTTS (2x3 ✅), Dortmund x Betis Over 2.5 (2x1 ✅)!"
+        "Celtic x Beşiktaş: Ambos os Times Marcam (Sim @1.55)",
+        "Anderlecht x Red Bull Salzburg: Ambos os Times Marcam (Sim @1.52)",
+        "Bayer Leverkusen x Marseille: Mais de 2.5 Gols no Jogo (@1.62)"
+      ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
-      "multiplier": 32.59,
-      "status": "MISS",
+      "multiplier": 42.9,
+      "status": "PENDING",
       "legs": [
-        "AEK Atenas x Real Madrid: Real Madrid Vence por 2+ Gols (-1.5 AH @1.75)",
-        "RB Leipzig x Manchester City: Manchester City Vence & Ambos Marcam (@3.10)",
-        "Borussia Dortmund x Real Betis: Borussia Dortmund Vence & Ambos Marcam (@3.25)",
-        "Flamengo x Grêmio: Flamengo Vence sem Sofrer Gols (@1.85)"
+        "Benfica x Lech Poznań: Benfica Vence sem Sofrer Gols (@1.85)",
+        "Atalanta x Kairat Almaty: Atalanta Vence por 3+ Gols (-2.5 AH @2.30)",
+        "Bayer Leverkusen x Marseille: Leverkusen Vence & Ambos Marcam (@2.95)",
+        "Palmeiras x Remo: Palmeiras Vence sem Sofrer Gols (@1.80)",
+        "Celtic x Beşiktaş: Ambos Marcam & Mais de 2.5 Gols (@1.90)"
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 11 Jogos)",
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 12 Jogos)",
       "type": "IMPROVAVEL",
-      "multiplier": 103.1,
-      "status": "MISS",
-      "philosophy": "Arquitetura Horizontal: 11 jogos da Champions e do Brasileirão com seleções elementares e lógicas (V1/V2 e Mais de 1.5). Zero linhas artificiais extremas; máxima sobrevida e viabilidade de cashout.",
+      "multiplier": 62.68,
+      "status": "PENDING",
+      "philosophy": "Arquitetura Horizontal: 12 jogos da Europa League, Conference e Brasileirão com mercados primários lógicos (V1/V2 e Mais de 1.5). Zero linhas forçadas; alta sobrevida e viabilidade de cashout.",
       "legs": [
-        "AEK Atenas x Real Madrid: Real Madrid Vence (Moneyline @1.28)",
-        "Fenerbahçe x Liverpool: Liverpool Vence (Moneyline @1.55)",
-        "Slavia Praga x Arsenal: Arsenal Vence (Moneyline @1.32)",
-        "Borussia Dortmund x Real Betis: Borussia Dortmund Vence (Moneyline @1.68)",
-        "RB Leipzig x Manchester City: Manchester City Vence (Moneyline @1.58)",
-        "PSV Eindhoven x Club Brugge: PSV Eindhoven Vence (Moneyline @1.95)",
-        "FC Porto x Napoli: Mais de 1.5 Gols no Jogo (@1.28)",
-        "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)",
-        "Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)",
-        "Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)",
-        "São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)"
-      ]
-    },
-    {
-      "name": "BR MÚLTIPLA BRASILEIRÃO — SÉRIE A (Cobertura da 34ª Rodada)",
-      "type": "BRASILEIRAO",
-      "multiplier": 2.46,
-      "status": "MISS",
-      "legs": [
-        "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)",
-        "Athletico-PR x Vasco: Athletico-PR ou Empate (Dupla Chance 1X @1.22)",
-        "Botafogo x Atlético-MG: Botafogo ou Empate (Dupla Chance 1X @1.20)",
-        "São Paulo x Corinthians: Mais de 1.5 Gols no Jogo (@1.40)"
+        "AC Milan x Ferencváros: AC Milan Vence (Moneyline @1.28)",
+        "Atalanta x Kairat Almaty: Atalanta Vence (Moneyline @1.20)",
+        "Sparta Praga x Bournemouth: Bournemouth Vence (Moneyline @1.85)",
+        "Anderlecht x Red Bull Salzburg: Mais de 1.5 Gols no Jogo (@1.20)",
+        "Midtjylland x Ajax: Mais de 1.5 Gols no Jogo (@1.20)",
+        "Trabzonspor x Freiburg: Mais de 1.5 Gols no Jogo (@1.25)",
+        "Benfica x Lech Poznań: Benfica Vence (Moneyline @1.14)",
+        "Bayer Leverkusen x Marseille: Bayer Leverkusen Vence (Moneyline @1.38)",
+        "AZ Alkmaar x Juventus: Juventus Vence (Moneyline @1.98)",
+        "Celtic x Beşiktaş: Celtic Vence (Moneyline @1.90)",
+        "Palmeiras x Remo: Palmeiras Vence (Moneyline @1.22)",
+        "Cruzeiro x Bahia: Cruzeiro Vence (Moneyline @1.70)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 2 DE 30",
-    "day": 2,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 3 DE 30",
+    "day": 3,
     "targetDays": 30,
-    "stake": 13.6,
-    "multiplier": 1.32,
-    "potentialReturn": 17.95,
-    "philosophy": "Princípio da Imunidade Absoluta V6: Arsenal Dupla Chance fora e Flamengo no Maracanã. Desacoplamento total da SAFE e do Supremo.",
+    "stake": 16.32,
+    "multiplier": 1.35,
+    "potentialReturn": 22.03,
+    "philosophy": "Princípio da Imunidade Absoluta V6: Benfica no Estádio da Luz, Leverkusen na BayArena e Palmeiras no Allianz Parque.",
     "legs": [
-      "Slavia Praga x Arsenal: Arsenal ou Empate (Dupla Chance X2 @1.10)",
-      "Flamengo x Grêmio: Flamengo Vence (Moneyline @1.20)"
+      "Benfica x Lech Poznań: Benfica Vence (Moneyline @1.14)",
+      "Bayer Leverkusen x Olympique de Marseille: Bayer Leverkusen ou Empate (Dupla Chance 1X @1.12)",
+      "Palmeiras x Remo: Palmeiras ou Empate (Dupla Chance 1X @1.06)"
     ],
-    "status": "HIT",
-    "actualReturn": 16.32
+    "status": "PENDING"
   }
 }

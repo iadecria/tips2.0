@@ -3622,3 +3622,151 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - O **Desafio Soros** avança com 100% de aproveitamento rumo ao Dia 3 (R$ 16,32).
   - A **Múltipla 3 (Super Ataque)** bateu cheia a cotação de **@3.83**, e a **SAFE+** pagou **@2.22** graças à proteção de linha asiática (-1.0 AH).
   - O resultado geral do dia gerou saldo positivo na banca que cobriu com folga as pernas recreativas.
+
+
+---
+
+### [2026-11-05] — RODADA DIÁRIA (SUPER QUINTA DE EUROPA LEAGUE, CONFERENCE & BRASILEIRÃO)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-05_V1_EUROPA_CONFERENCE_BRASILEIRAO
+- **Data do Registro:** 2026-11-05
+- **Cutoff:** 2026-11-05T13:30:00-03:00
+- **Contexto da Data:** A quinta-feira traz a 4ª rodada da UEFA Europa League e a 3ª rodada da UEFA Conference League, além de duas partidas isoladas da 34ª rodada do Brasileirão Série A. No San Siro, o AC Milan recebe o Ferencváros; em Bérgamo, a Atalanta recebe o Kairat Almaty; na Alemanha, o Bayer Leverkusen de Xabi Alonso enfrenta o Marseille; no Estádio da Luz, o líder 100% Benfica recebe o Lech Poznań; e no Brasil, o Palmeiras busca o topo contra o Remo no Allianz Parque, enquanto Cruzeiro e Bahia disputam vaga no G-4 no Mineirão.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+
+#### 1. Discovery e Cobertura
+- Analisados: 28 fixtures europeias e nacionais
+- Elegíveis: 12 fixtures de elite com liquidez máxima
+- Descartados no pente-fino: Confrontos da Conference com clima extremo no Leste Europeu ou gramados sintéticos imprevisíveis.
+- FAS Rodada (Brasileirão Série A): 2 partidas (< 3 jogos — sem bilhete exclusivo do Brasileirão; jogos integrados nas múltiplas gerais).
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Benfica × Lech Poznań** (17:00 BRT — UEFA Europa League)
+   - **Game State & Contexto:** Estádio da Luz em Lisboa. Benfica líder com 100% de aproveitamento sob comando de Marco Silva; Lech Poznań em situação delicada na tabela e frágil defensivamente fora da Polônia.
+   - **Tese (Bilhete Supremo / Sniper Soros Ciclo 2 - Dia 3 / IMPROVÁVEL):** Benfica Vence (Moneyline @1.14)
+   - **SAFE+:** Benfica Vence por 2+ Gols (-1.5 AH @1.45)
+   - **NETO:** Benfica Vence sem Sofrer Gols (@1.85)
+
+2. **Atalanta × Kairat Almaty** (14:45 BRT — UEFA Conference League)
+   - **Game State & Contexto:** Gewiss Stadium em Bérgamo. A Dea tem enorme disparidade técnica contra a equipe do Cazaquistão; força máxima em casa na Conference.
+   - **Tese (SAFE Stop 1 / Bilhete Supremo / IMPROVÁVEL):** Atalanta Vence (Moneyline @1.20)
+   - **SAFE+:** Atalanta Vence por 2+ Gols (-1.5 AH @1.60)
+   - **NETO:** Atalanta Vence por 3+ Gols (-2.5 AH @2.30)
+
+3. **AC Milan × Ferencváros** (14:45 BRT — UEFA Europa League)
+   - **Game State & Contexto:** San Siro em Milão. Milan precisa somar pontos em casa; Ferencváros joga recuado.
+   - **Tese (SAFE Stop 1):** AC Milan ou Empate (Dupla Chance 1X @1.08)
+   - **IMPROVÁVEL:** AC Milan Vence (Moneyline @1.28)
+
+4. **Bayer Leverkusen × Olympique de Marseille** (17:00 BRT — UEFA Europa League)
+   - **Game State & Contexto:** BayArena em Leverkusen. Jogo de muita posse de bola e transição dos alemães; Marseille sofre em jogos de alta intensidade fora da França.
+   - **Tese (SAFE Stop 2 / Sniper Soros Ciclo 2 - Dia 3):** Bayer Leverkusen ou Empate (Dupla Chance 1X @1.12)
+   - **Bilhete Supremo / SAFE+ / IMPROVÁVEL:** Bayer Leverkusen Vence (Moneyline @1.38)
+   - **ATTACK:** Mais de 2.5 Gols no Jogo (@1.62)
+   - **NETO:** Leverkusen Vence & Ambos Marcam (@2.95)
+
+5. **Palmeiras × Remo** (19:30 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Allianz Parque lotado. Verdão na caça do título nacional com mando avassalador; Remo luta contra a parte inferior.
+   - **Tese (SAFE Stop 1 / Sniper Soros Ciclo 2 - Dia 3):** Palmeiras ou Empate (Dupla Chance 1X @1.06)
+   - **Bilhete Supremo / IMPROVÁVEL:** Palmeiras Vence (Moneyline @1.22)
+   - **NETO:** Palmeiras Vence sem Sofrer Gols (@1.80)
+
+6. **Cruzeiro × Bahia** (21:30 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Mineirão em Belo Horizonte. Confronto direto pelo G-4 da Libertadores; Raposa forte diante de sua torcida.
+   - **Tese (SAFE Stop 2):** Cruzeiro ou Empate (Dupla Chance 1X @1.18)
+   - **IMPROVÁVEL:** Cruzeiro Vence (Moneyline @1.70)
+
+7. **AZ Alkmaar × Juventus** (17:00 BRT — UEFA Europa League)
+   - **Game State & Contexto:** AFAS Stadion na Holanda. Juventus com peso de camisa e organização tática para pontuar fora.
+   - **Tese (IMPROVÁVEL):** Juventus Vence (Moneyline @1.98)
+
+8. **Celtic × Beşiktaş** (17:00 BRT — UEFA Europa League)
+   - **Game State & Contexto:** Celtic Park em Glasgow. Atmosfera eletrizante; dois times que atacam muito e concedem chances.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.20)
+   - **ATTACK:** Ambos os Times Marcam (Sim @1.55)
+   - **IMPROVÁVEL:** Celtic Vence (Moneyline @1.90)
+
+9. **Sparta Praga × Bournemouth** (14:45 BRT — UEFA Europa League)
+   - **Game State & Contexto:** Praga. Jogo de transição veloz com Bournemouth da Premier League.
+   - **Tese (SAFE Stop 3):** Mais de 1.5 Gols no Jogo (@1.22)
+   - **IMPROVÁVEL:** Bournemouth Vence (Moneyline @1.85)
+
+10. **Anderlecht × Red Bull Salzburg** (14:45 BRT — UEFA Europa League)
+    - **Game State & Contexto:** Bélgica. Filosofia ofensiva austríaca do grupo Red Bull contra o jovem ataque belga.
+    - **Tese (ATTACK):** Ambos os Times Marcam (Sim @1.52)
+    - **IMPROVÁVEL:** Mais de 1.5 Gols no Jogo (@1.20)
+
+11. **Midtjylland × Ajax** (14:45 BRT — UEFA Conference League)
+    - **Tese (IMPROVÁVEL):** Mais de 1.5 Gols no Jogo (@1.20)
+
+12. **Trabzonspor × Freiburg** (14:45 BRT — UEFA Conference League)
+    - **Tese (IMPROVÁVEL):** Mais de 1.5 Gols no Jogo (@1.25)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 05/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 2 / DIA 3 DE 30:**
+  - Benfica x Lech Poznań: Benfica Vence (ML @1.14)
+  - Bayer Leverkusen x Marseille: Bayer Leverkusen ou Empate (1X @1.12)
+  - Palmeiras x Remo: Palmeiras ou Empate (1X @1.06)
+  - Odd: 1.35 | Stake: R$ 16,32 | Retorno Potencial: R$ 22,03
+  - *Filosofia:* Blindagem total de gigantes em seus domínios, com desacoplamento de risco da SAFE e do Supremo.
+
+- ⭐ **BILHETE SUPREMO — SNIPER CONTINENTAL (@2.30):**
+  - Atalanta x Kairat Almaty: Atalanta Vence (ML @1.20)
+  - Benfica x Lech Poznań: Benfica Vence (ML @1.14)
+  - Bayer Leverkusen x Marseille: Bayer Leverkusen Vence (ML @1.38)
+  - Palmeiras x Remo: Palmeiras Vence (ML @1.22)
+  - Odd: 2.30 | Stake Sugerida: 0.20u (R$ 3,00)
+  - *Regra Anti-Clone:* Totalmente independente das pernas da SAFE Stop 2!
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2):**
+  - **Stop Point 1 (A Âncora Continental — Tripla Blindada @1.37):**
+    - AC Milan x Ferencváros: AC Milan ou Empate (1X @1.08)
+    - Atalanta x Kairat Almaty: Atalanta Vence (ML @1.20)
+    - Palmeiras x Remo: Palmeiras ou Empate (1X @1.06)
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.81) — [SAÍDA DO USUÁRIO]:**
+    - + Bayer Leverkusen x Marseille: Bayer Leverkusen ou Empate (1X @1.12)
+    - + Cruzeiro x Bahia: Cruzeiro ou Empate (1X @1.18)
+    - *Odd @1.81:* Com stake de 1.00u (R$ 15,00), gera lucro de +0.81u (+R$ 12,15), cobrindo com folga os 0.59u (R$ 8,85) de todos os bilhetes secundários somados!
+  - **Stop Point 3 (Expansão Máxima com Gols Europeus @2.65):**
+    - + Celtic x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.20)
+    - + Sparta Praga x Bournemouth: Mais de 1.5 Gols no Jogo (@1.22)
+  - Stake Sugerida: 1.00u (R$ 15,00) com saída no Stop Point 2.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.20):**
+  - Benfica x Lech Poznań: Benfica Vence por 2+ Gols (-1.5 AH @1.45)
+  - Atalanta x Kairat Almaty: Atalanta Vence por 2+ Gols (-1.5 AH @1.60)
+  - Bayer Leverkusen x Marseille: Bayer Leverkusen Vence (ML @1.38)
+  - Odd: 3.20 | Stake Sugerida: 0.15u (R$ 2,25)
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.82):**
+  - Celtic x Beşiktaş: Ambos os Times Marcam (Sim @1.55)
+  - Anderlecht x Red Bull Salzburg: Ambos os Times Marcam (Sim @1.52)
+  - Bayer Leverkusen x Marseille: Mais de 2.5 Gols no Jogo (@1.62)
+  - Odd: 3.82 | Stake Sugerida: 0.10u (R$ 1,50)
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@42.90):**
+  - Benfica x Lech Poznań: Benfica Vence sem Sofrer Gols (@1.85)
+  - Atalanta x Kairat Almaty: Atalanta Vence por 3+ Gols (-2.5 AH @2.30)
+  - Bayer Leverkusen x Marseille: Leverkusen Vence & Ambos Marcam (@2.95)
+  - Palmeiras x Remo: Palmeiras Vence sem Sofrer Gols (@1.80)
+  - Celtic x Beşiktaş: Ambos Marcam & Mais de 2.5 Gols (@1.90)
+  - Odd: 42.90 | Stake Sugerida: 0.07u (R$ 1,00)
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 12 Jogos @62.68):**
+  - AC Milan Vence (@1.28)
+  - Atalanta Vence (@1.20)
+  - Bournemouth Vence (@1.85)
+  - Anderlecht x Salzburg Over 1.5 (@1.20)
+  - Midtjylland x Ajax Over 1.5 (@1.20)
+  - Trabzonspor x Freiburg Over 1.5 (@1.25)
+  - Benfica Vence (@1.14)
+  - Bayer Leverkusen Vence (@1.38)
+  - Juventus Vence (@1.98)
+  - Celtic Vence (@1.90)
+  - Palmeiras Vence (@1.22)
+  - Cruzeiro Vence (@1.70)
+  - Odd: 62.68 | Stake Sugerida: 0.07u (R$ 1,00)
+  - *Vantagem Tática:* Todos os mercados primários e lógicos. Máxima sobrevida e viabilidade de cashout antes do Brasileirão!

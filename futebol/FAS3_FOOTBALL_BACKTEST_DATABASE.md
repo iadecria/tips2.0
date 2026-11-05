@@ -3747,13 +3747,15 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Bayer Leverkusen x Marseille: Mais de 2.5 Gols no Jogo (@1.62)
   - Odd: 3.82 | Stake Sugerida: 0.10u (R$ 1,50)
 
-- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@42.90):**
-  - Benfica x Lech Poznań: Benfica Vence sem Sofrer Gols (@1.85)
-  - Atalanta x Kairat Almaty: Atalanta Vence por 3+ Gols (-2.5 AH @2.30)
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@58.58):**
+  - Benfica x Lech Poznań: Benfica Vence & Mais de 2.5 Gols no Jogo (@1.75)
+  - Atalanta x Kairat Almaty: Atalanta Vence & Mais de 2.5 Gols no Jogo (@1.75)
   - Bayer Leverkusen x Marseille: Leverkusen Vence & Ambos Marcam (@2.95)
-  - Palmeiras x Remo: Palmeiras Vence sem Sofrer Gols (@1.80)
-  - Celtic x Beşiktaş: Ambos Marcam & Mais de 2.5 Gols (@1.90)
-  - Odd: 42.90 | Stake Sugerida: 0.07u (R$ 1,00)
+  - Palmeiras x Remo: Palmeiras Vence por 2+ Gols (-1.5 AH @1.75)
+  - Celtic x Beşiktaş: Ambos os Times Marcam & Mais de 2.5 Gols (@1.95)
+  - Anderlecht x Red Bull Salzburg: Ambos os Times Marcam & Mais de 2.5 Gols (@1.90)
+  - Odd Combinada: **@58.58** | Stake Sugerida: 0.07u (R$ 1,00 buscando R$ 58,58!)
+  - *Lógica Aprimorada:* Eliminados o handicap extremo de 3 gols (-2.5 AH) e clean sheets frágeis. Foco em Vitórias com Gols (V1 & Over 2.5) e trocas francas (BTTS & Over 2.5), atingindo a faixa de R$ 50 a R$ 80 da calculadora com altíssima coerência!
 
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal @500+ / 12 Jogos @565.46):**
   - Benfica x Lech Poznań: Benfica Vence & Mais de 1.5 Gols no Jogo (@1.42)

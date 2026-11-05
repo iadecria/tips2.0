@@ -108,17 +108,19 @@
       ]
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica / R$ 50 a R$ 80)",
       "type": "NETO",
-      "multiplier": 42.9,
+      "multiplier": 58.58,
       "status": "PENDING",
       "legs": [
-        "Benfica x Lech Poznań: Benfica Vence sem Sofrer Gols (@1.85)",
-        "Atalanta x Kairat Almaty: Atalanta Vence por 3+ Gols (-2.5 AH @2.30)",
-        "Bayer Leverkusen x Marseille: Leverkusen Vence & Ambos Marcam (@2.95)",
-        "Palmeiras x Remo: Palmeiras Vence sem Sofrer Gols (@1.80)",
-        "Celtic x Beşiktaş: Ambos Marcam & Mais de 2.5 Gols (@1.90)"
-      ]
+        "Benfica x Lech Poznań: Benfica Vence & Mais de 2.5 Gols no Jogo (@1.75)",
+        "Atalanta x Kairat Almaty: Atalanta Vence & Mais de 2.5 Gols no Jogo (@1.75)",
+        "Bayer Leverkusen x Marseille: Bayer Leverkusen Vence & Ambos Marcam (@2.95)",
+        "Palmeiras x Remo: Palmeiras Vence por 2+ Gols (-1.5 AH @1.75)",
+        "Celtic x Beşiktaş: Ambos os Times Marcam & Mais de 2.5 Gols (@1.95)",
+        "Anderlecht x Red Bull Salzburg: Ambos os Times Marcam & Mais de 2.5 Gols (@1.90)"
+      ],
+      "notes": "Lógica revisada: Eliminado o handicap extremo -2.5 AH da Atalanta e Clean Sheets frágeis. Foco em Vitória & Over 2.5 e Vitórias com Ambos Marcam."
     },
     {
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal @500+ / 12 Jogos)",

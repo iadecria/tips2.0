@@ -210,25 +210,25 @@ def cmd_confere(args):
         # 1. Bilhete Supremo
         supremo = b_data.get("supremoTicket", {})
         s_status = supremo.get("status", "PENDING")
-        s_badge = "🟢 GREEN" if s_status == "GREEN" else ("🔴 RED" if s_status == "RED" else "🟡 PENDING")
+        s_badge = "🟢 GREEN" if s_status in ["GREEN", "HIT"] else ("🔴 RED" if s_status in ["RED", "MISS"] else "🟡 PENDING")
         print(f"⭐ {supremo.get('name')} ➔ {s_badge} (@{supremo.get('multiplierGlobal', 0):.2f})")
         for sel in supremo.get("selections", []):
             st = sel.get("status", "PENDING")
-            icon = "✅ HIT" if st == "HIT" else ("❌ MISS" if st == "MISS" else "⏳ PENDING")
+            icon = "✅ HIT" if st in ["HIT", "GREEN"] else ("❌ MISS" if st in ["MISS", "RED"] else "⏳ PENDING")
             print(f"   [{icon}] {sel.get('match')}: {sel.get('market')} (@{sel.get('odd')})")
             
         # 2. Bilhetes Estruturados
         print("\n🎫 Bilhetes Estruturados:")
         for t in b_data.get("structuredTickets", []):
             t_st = t.get("status", "PENDING")
-            t_badge = "🟢 GREEN" if t_st == "GREEN" else ("🔴 RED" if t_st == "RED" else "🟡 PENDING")
+            t_badge = "🟢 GREEN" if t_st in ["GREEN", "HIT"] else ("🔴 RED" if t_st in ["RED", "MISS"] else ("🟡 PARCIAL" if t_st in ["PARTIAL", "PARTIAL_HIT"] else "🟡 PENDING"))
             mult = f"@{t.get('multiplier')}" if t.get('multiplier') else ""
             print(f"\n   {t_badge} {t.get('name')} {mult}")
             
             if "stopPoints" in t:
                 for sp in t["stopPoints"]:
                     sp_st = sp.get("status", "PENDING")
-                    sp_icon = "🟢 GREEN" if sp_st == "GREEN" else ("🔴 RED" if sp_st == "RED" else "⚪")
+                    sp_icon = "🟢 GREEN" if sp_st in ["GREEN", "HIT"] else ("🔴 RED" if sp_st in ["RED", "MISS"] else "⚪")
                     print(f"      ▫️ [{sp_icon}] {sp.get('level')} (@{sp.get('multiplier')}):")
                     for leg in sp.get("legs", []):
                         print(f"         • {leg}")
@@ -239,7 +239,7 @@ def cmd_confere(args):
         # 3. Desafio Soros
         soros = b_data.get("sorosTicket", {})
         soros_st = soros.get("status", "PENDING")
-        soros_badge = "🟢 GREEN" if soros_st == "GREEN" else ("🔴 RED" if soros_st == "RED" else "🟡 PENDING")
+        soros_badge = "🟢 GREEN" if soros_st in ["GREEN", "HIT"] else ("🔴 RED" if soros_st in ["RED", "MISS"] else "🟡 PENDING")
         print(f"\n🔥 {soros.get('name')} ➔ {soros_badge}")
         print(f"   Stake: R$ {soros.get('stake', 0):.2f} | Multiplicador: @{soros.get('multiplier', 0):.2f} | Retorno: R$ {soros.get('potentialReturn', 0):.2f}")
         for leg in soros.get("legs", []):

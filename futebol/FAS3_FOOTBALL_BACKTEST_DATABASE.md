@@ -3632,7 +3632,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-05
 - **Cutoff:** 2026-11-05T13:30:00-03:00
 - **Contexto da Data:** A quinta-feira traz a 4ª rodada da UEFA Europa League e a 3ª rodada da UEFA Conference League, além de duas partidas isoladas da 34ª rodada do Brasileirão Série A. No San Siro, o AC Milan recebe o Ferencváros; em Bérgamo, a Atalanta recebe o Kairat Almaty; na Alemanha, o Bayer Leverkusen de Xabi Alonso enfrenta o Marseille; no Estádio da Luz, o líder 100% Benfica recebe o Lech Poznań; e no Brasil, o Palmeiras busca o topo contra o Remo no Allianz Parque, enquanto Cruzeiro e Bahia disputam vaga no G-4 no Mineirão.
-- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura
 - Analisados: 28 fixtures europeias e nacionais
@@ -3770,3 +3770,90 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Cruzeiro Vence (@1.70)
   - Odd: 62.68 | Stake Sugerida: 0.07u (R$ 1,00)
   - *Vantagem Tática:* Todos os mercados primários e lógicos. Máxima sobrevida e viabilidade de cashout antes do Brasileirão!
+
+
+#### 4. Auditoria e Liquidação Oficial dos Jogos e Bilhetes (05/11/2026)
+
+##### A. Resultados Oficiais das Fixtures
+1. **AC Milan 0 × 2 Ferencváros** (UEFA Europa League)
+   - *Gols:* Lenny Joseph 32' e 67' (Ferencváros).
+   - AC Milan ou Empate (1X @1.08) ➔ ❌ **MISS** (Zebra em San Siro)
+   - AC Milan ML (@1.28) ➔ ❌ **MISS**
+
+2. **Atalanta 1 × 1 Kairat Almaty** (UEFA Conference League)
+   - *Gols:* Marc Gual 19' (Kairat); Nikola Krstovic 64' (Atalanta).
+   - Atalanta ML (@1.20) ➔ ❌ **MISS** (Zebra em Bérgamo)
+   - Atalanta -1.5 AH (@1.60) ➔ ❌ **MISS**
+   - Atalanta -2.5 AH (@2.30) ➔ ❌ **MISS**
+
+3. **Bayer Leverkusen 0 × 1 Olympique de Marseille** (UEFA Europa League)
+   - *Gols:* Aubameyang 58' (Marseille).
+   - Bayer Leverkusen ou Empate (1X @1.12) ➔ ❌ **MISS** (Derrota na BayArena)
+   - Bayer Leverkusen ML (@1.38) ➔ ❌ **MISS**
+   - Mais de 2.5 Gols no Jogo (@1.62) ➔ ❌ **MISS**
+
+4. **Benfica 3 × 1 Lech Poznań** (UEFA Europa League)
+   - *Gols:* Pavlidis 24', Kokçu 51', Di María 76' (Benfica); Szymczak 82' (Lech).
+   - Benfica ML (@1.14) ➔ ✅ **HIT** (3x1)
+   - Benfica -1.5 AH (@1.45) ➔ ✅ **HIT** (Vitória por 2 gols)
+   - Benfica Clean Sheet (@1.85) ➔ ❌ **MISS** (Gol sofrido no fim)
+
+5. **Palmeiras 6 × 1 Remo** (Brasileirão Série A)
+   - *Gols:* Estêvão (2x), Flaco López (2x), Veiga, Felipe Anderson (Palmeiras); Ytalo (Remo).
+   - Palmeiras ou Empate (1X @1.06) ➔ ✅ **HIT**
+   - Palmeiras ML (@1.22) ➔ ✅ **HIT** (Massacre no Allianz Parque)
+   - Palmeiras Clean Sheet (@1.80) ➔ ❌ **MISS** (Remo achou gol aos 84')
+
+6. **Cruzeiro 3 × 2 Bahia** (Brasileirão Série A)
+   - *Gols:* Matheus Pereira, Kaio Jorge (2x) (Cruzeiro); Everaldo, Thaciano (Bahia).
+   - Cruzeiro ou Empate (1X @1.18) ➔ ✅ **HIT**
+   - Cruzeiro ML (@1.70) ➔ ✅ **HIT**
+
+7. **Celtic 3 × 2 Beşiktaş** (UEFA Europa League)
+   - *Gols:* Maeda, Furuhashi, Hatate (Celtic); Immobile (2x) (Beşiktaş).
+   - Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT** (5 gols totais)
+   - Ambos os Times Marcam (Sim @1.55) ➔ ✅ **HIT**
+   - Celtic ML (@1.90) ➔ ✅ **HIT**
+
+8. **Sparta Praga 1 × 3 AFC Bournemouth** (UEFA Europa League)
+   - *Gols:* Singhateh (Sparta); Adams, Evanilson, Rayan (Bournemouth).
+   - Mais de 1.5 Gols no Jogo (@1.22) ➔ ✅ **HIT** (4 gols)
+   - Bournemouth ML (@1.85) ➔ ✅ **HIT**
+
+9. **Anderlecht 2 × 0 Red Bull Salzburg** (UEFA Europa League)
+   - *Gols:* Augustinsson 18', Winkler 72'.
+   - Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT**
+   - Ambos os Times Marcam (Sim @1.52) ➔ ❌ **MISS** (Salzburg zerado)
+
+10. **Midtjylland 1 × 6 AFC Ajax** (UEFA Conference League)
+    - *Gols:* Passeio do Ajax na Dinamarca (7 gols).
+    - Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ **HIT**
+
+11. **Trabzonspor 0 × 1 SC Freiburg** (UEFA Conference League)
+    - *Gols:* Grifo 41'.
+    - Mais de 1.5 Gols no Jogo (@1.25) ➔ ❌ **MISS** (Faltou 1 gol)
+
+12. **AZ Alkmaar 1 × 2 Juventus** (UEFA Europa League)
+    - *Gols:* Vlahovic 33', Conceição 68' (Juventus); Parrott 80' (AZ).
+    - Juventus ML (@1.98) ➔ ✅ **HIT** (1x2 na Holanda)
+
+##### B. Auditoria dos Bilhetes Estruturados de 05/11
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — DIA 3 DE 30:** ❌ **MISS (ENCERRAMENTO DO CICLO 2)**
+  - Benfica ML (@1.14) ➔ ✅ HIT (3x1)
+  - Palmeiras 1X (@1.06) ➔ ✅ HIT (6x1)
+  - Bayer Leverkusen 1X (@1.12) ➔ ❌ MISS (0x1)
+  - *Miss Audit:* STATISTICAL_VARIANCE (Bayer Leverkusen finalizou 22 vezes e tomou gol isolado do Marseille aos 58'). Pela regra do Soros, a perda real do usuário fica estritamente restrita aos **R$ 10,00 iniciais**, pois o valor apostado de R$ 16,32 era lucro dos Dias 1 e 2. O Ciclo é reiniciado no Dia 1 com nova banca base de R$ 10,00.
+
+- ⭐ **BILHETE SUPREMO (@2.30):** ❌ **RED** (2/4 acertos — Benfica ML ✅, Palmeiras ML ✅; Atalanta 1x1 ❌, Leverkusen 0x1 ❌).
+- 🟢 **MÚLTIPLA 1 — SAFE (@1.81):** ❌ **RED** (Caiu na derrota do Milan 0x2 e empate da Atalanta 1x1).
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.20):** ❌ **RED** (Benfica -1.5 AH ✅ 3x1; derrubado por Atalanta e Leverkusen).
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.82):** ❌ **RED** (Celtic BTTS ✅ 3x2; Salzburg não marcou e Leverkusen 0x1).
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@42.90):** ❌ **RED**.
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@62.68):** ❌ **RED** (Acertou 8 de 12 jogos: Bournemouth ML ✅, Ajax Over ✅, Benfica ML ✅, Juventus ML ✅, Celtic ML ✅, Palmeiras ML ✅, Cruzeiro ML ✅, Anderlecht Over ✅; caiu em Milan, Atalanta, Leverkusen e Trabzonspor).
+
+##### C. Balanço Consolidado da Rodada e da Semana
+- **Auditoria de Causa-Raiz (Black Swan Europeu):**
+  A quinta-feira de Europa League e Conference League historicamente apresenta dispersão de motivação e rotação tática. Três dos maiores favoritos do continente tropeçaram simultaneamente em casa (Milan perdeu 0x2, Atalanta empatou 1x1 com time cazaque e Leverkusen perdeu 0x1).
+- **Gestão de Risco Amortecida (SAFE Shield):**
+  - Perda na rodada: **-1.59 unidades** (R$ 23,75) + R$ 10,00 (Soros).
+  - Como a terça (03/11) rendeu **+3.00 unidades** e a quarta (04/11) rendeu **+1.31 unidades**, o saldo consolidado dos 3 dias permanece amplamente positivo: **+2.72 UNIDADES LÍQUIDAS DE LUCRO NA BANCA!**

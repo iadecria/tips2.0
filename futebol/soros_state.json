@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 16.32,
-  "currentDay": 3,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -285,7 +285,8 @@
       "selection": "Benfica x Lech Poznań (Benfica Vence ML @1.14) + Bayer Leverkusen x Marseille (Leverkusen ou Empate 1X @1.12) + Palmeiras x Remo (Palmeiras ou Empate 1X @1.06)",
       "odd": 1.35,
       "potentialReturn": 22.03,
-      "status": "PENDING"
+      "status": "MISS",
+      "missReason": "Derrota do Bayer Leverkusen em casa por 0x1 para o Marseille."
     }
   ]
 }

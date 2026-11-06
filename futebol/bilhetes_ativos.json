@@ -1,43 +1,43 @@
 {
   "date": "2026-11-05",
   "snapshotId": "FAS_FOOTBALL_2026-11-05_V1_EUROPA_CONFERENCE_BRASILEIRAO",
-  "status": "ACTIVE",
-  "notes": "RODADA 05/11/2026: UEFA Europa League (4ª Rodada) + UEFA Conference League (3ª Rodada) + Brasileirão Série A (34ª Rodada). Modelo SAFE Shield configurado: SAFE Stop 2 calibrada (@1.81) para cobrir integralmente os bilhetes secundários, bilhete Supremo Anti-Clone (@2.30) e Múltipla 5 no Super Bingo Horizontal de 12 jogos (@62.68).",
+  "status": "SETTLED",
+  "notes": "CONFERE TOTAL OFICIAL 05/11/2026: Rodada severa de zebras atípicas na Europa League e Conference (Milan 0x2 Ferencváros, Atalanta 1x1 Kairat e Leverkusen 0x1 Marseille). A gestão de banca SAFE Shield amorteceu as perdas limitando a -1.59 unidades, preservando os pesados lucros da semana (+2.72 unidades líquidas acumuladas).",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — SNIPER CONTINENTAL (Quinta 05/11 / 4 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 2.3,
     "philosophy": "Seleções Ouro com desacoplamento total da SAFE Stop 2: Benfica ML, Bayer Leverkusen ML, Palmeiras ML e Atalanta ML.",
-    "status": "PENDING",
+    "status": "MISS",
     "selections": [
       {
         "match": "Benfica x Lech Poznań (17:00 BRT)",
         "competition": "UEFA Europa League",
         "market": "Benfica Vence (Moneyline)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Bayer Leverkusen x Olympique de Marseille (17:00 BRT)",
         "competition": "UEFA Europa League",
         "market": "Bayer Leverkusen Vence (Moneyline)",
         "odd": 1.38,
-        "status": "PENDING"
+        "status": "MISS"
       },
       {
         "match": "Palmeiras x Remo (19:30 BRT)",
         "competition": "Brasileirão Série A",
         "market": "Palmeiras Vence (Moneyline)",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Atalanta x Kairat Almaty (14:45 BRT)",
         "competition": "UEFA Conference League",
         "market": "Atalanta Vence (Moneyline)",
         "odd": 1.2,
-        "status": "PENDING"
+        "status": "MISS"
       }
     ]
   },
@@ -45,7 +45,7 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "MISS",
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Tripla Blindada)",
@@ -55,7 +55,7 @@
             "Atalanta x Kairat Almaty: Atalanta Vence (Moneyline @1.20)",
             "Palmeiras x Remo: Palmeiras ou Empate (Dupla Chance 1X @1.06)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100%)",
@@ -67,7 +67,7 @@
             "Bayer Leverkusen x Marseille: Bayer Leverkusen ou Empate (Dupla Chance 1X @1.12)",
             "Cruzeiro x Bahia: Cruzeiro ou Empate (Dupla Chance 1X @1.18)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         },
         {
           "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
@@ -81,7 +81,7 @@
             "Celtic x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.20)",
             "Sparta Praga x Bournemouth: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
-          "status": "PENDING"
+          "status": "MISS"
         }
       ]
     },
@@ -89,7 +89,7 @@
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Handicaps Europeus)",
       "type": "SAFE+",
       "multiplier": 3.2,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Benfica x Lech Poznań: Benfica Vence por 2+ Gols (-1.5 AH @1.45)",
         "Atalanta x Kairat Almaty: Atalanta Vence por 2+ Gols (-1.5 AH @1.60)",
@@ -100,7 +100,7 @@
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Gols)",
       "type": "ATTACK",
       "multiplier": 3.82,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Celtic x Beşiktaş: Ambos os Times Marcam (Sim @1.55)",
         "Anderlecht x Red Bull Salzburg: Ambos os Times Marcam (Sim @1.52)",
@@ -111,7 +111,7 @@
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Super Alavancagem Assimétrica)",
       "type": "NETO",
       "multiplier": 42.9,
-      "status": "PENDING",
+      "status": "MISS",
       "legs": [
         "Benfica x Lech Poznań: Benfica Vence sem Sofrer Gols (@1.85)",
         "Atalanta x Kairat Almaty: Atalanta Vence por 3+ Gols (-2.5 AH @2.30)",
@@ -124,7 +124,7 @@
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal da Rodada / 12 Jogos)",
       "type": "IMPROVAVEL",
       "multiplier": 62.68,
-      "status": "PENDING",
+      "status": "MISS",
       "philosophy": "Arquitetura Horizontal: 12 jogos da Europa League, Conference e Brasileirão com mercados primários lógicos (V1/V2 e Mais de 1.5). Zero linhas forçadas; alta sobrevida e viabilidade de cashout.",
       "legs": [
         "AC Milan x Ferencváros: AC Milan Vence (Moneyline @1.28)",
@@ -155,6 +155,6 @@
       "Bayer Leverkusen x Olympique de Marseille: Bayer Leverkusen ou Empate (Dupla Chance 1X @1.12)",
       "Palmeiras x Remo: Palmeiras ou Empate (Dupla Chance 1X @1.06)"
     ],
-    "status": "PENDING"
+    "status": "MISS"
   }
 }

@@ -287,6 +287,15 @@
       "potentialReturn": 22.03,
       "status": "MISS",
       "missReason": "Derrota do Bayer Leverkusen em casa por 0x1 para o Marseille."
+    },
+    {
+      "day": 1,
+      "date": "2026-11-06",
+      "stakeIn": 10.0,
+      "selection": "Everton x Coventry City (Everton ou Empate 1X @1.19) + Hamburger SV x Borussia Mönchengladbach (Mais de 1.5 Gols @1.20)",
+      "odd": 1.43,
+      "potentialReturn": 14.3,
+      "status": "ACTIVE"
     }
   ]
 }

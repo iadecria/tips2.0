@@ -3857,3 +3857,147 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Gestão de Risco Amortecida (SAFE Shield):**
   - Perda na rodada: **-1.59 unidades** (R$ 23,75) + R$ 10,00 (Soros).
   - Como a terça (03/11) rendeu **+3.00 unidades** e a quarta (04/11) rendeu **+1.31 unidades**, o saldo consolidado dos 3 dias permanece amplamente positivo: **+2.72 UNIDADES LÍQUIDAS DE LUCRO NA BANCA!**
+
+
+### [2026-11-06] — RODADA DIÁRIA (ABERTURA DOS CAMPEONATOS NACIONAIS: PREMIER LEAGUE, LA LIGA, BUNDESLIGA, LIGUE 1, BRASILEIRÃO & AMÉRICAS)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-06_V1_DOMESTIC_LEAGUES_RELOAD
+- **Data do Registro:** 2026-11-06
+- **Cutoff:** 2026-11-06T13:30:00-03:00
+- **Contexto da Data:** Abertura oficial das rodadas de fim de semana nos campeonatos nacionais. Banimento total de copas secundárias (Europa League e Conference League) dos bilhetes de segurança e Soros. Foco em partidas de alta intensidade por pontos corridos, fuga do rebaixamento e disputa de acesso e título na Europa e nas Américas.
+- **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 19 fixtures oficiais de ligas de pontos corridos (Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Liga Portugal, Eredivisie, EFL Championship, Brasileirão Séries A e B, Argentina Primera e Liga MX).
+- Elegíveis: 14 fixtures selecionadas com alta liquidez e sem rotação de elenco por copas.
+- FAS Rodada (Brasileirão Séries A e B): 2 jogos (Vitória x Fluminense e Operário-PR x Sport Recife).
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Everton × Coventry City** (17:00 BRT — Premier League)
+   - **Game State & Contexto:** Goodison Park em Liverpool. Everton sob forte apoio da torcida enfrenta o Coventry; equipe visitante com defesa frágil fora de casa.
+   - **Tese:** Everton Vence (Moneyline @1.70) | Everton ou Empate (Dupla Chance 1X @1.19)
+   - **Combo Ofensivo:** Everton Vence & Mais de 1.5 Gols (@2.15)
+
+2. **Sevilla × Deportivo Alavés** (17:00 BRT — La Liga)
+   - **Game State & Contexto:** Ramón Sánchez-Pizjuán em Sevilha. Sevilla muito estável em casa; Alavés joga em bloco baixo com baixíssimo poder de fogo forasteiro.
+   - **Tese:** Sevilla ou Empate (Dupla Chance 1X @1.22) | Empate Anula a Aposta (DNB @1.42)
+   - **Combo Ofensivo:** Sevilla Vence & Menos de 4.5 Gols (@2.15)
+
+3. **Hamburger SV × Borussia Mönchengladbach** (16:30 BRT — Bundesliga)
+   - **Game State & Contexto:** Volksparkstadion. O Gladbach tem transições ofensivas velozes e defesa permeável; partida clássica de trocação aberta na Alemanha.
+   - **Tese:** Mais de 1.5 Gols (@1.20) | Ambos os Times Marcam (Sim @1.55) | Ambas Marcam & Mais de 2.5 Gols (@1.92)
+
+4. **Toulouse × RC Strasbourg** (16:45 BRT — Ligue 1)
+   - **Game State & Contexto:** Stadium de Toulouse. Strasbourg pratica futebol vertical e de alta rotação ofensiva, concedendo muitos espaços defensivos.
+   - **Tese:** Mais de 1.5 Gols (@1.24) | Ambos os Times Marcam (Sim @1.65) | Mais de 2.5 Gols (@1.75)
+
+5. **FC Famalicão × FC Arouca** (17:45 BRT — Liga Portugal)
+   - **Game State & Contexto:** Vila Nova de Famalicão. Mandante muito sólido e defensivamente organizado; Arouca pontua muito pouco fora.
+   - **Tese:** Famalicão ou Empate (Dupla Chance 1X @1.21) | Famalicão 1X & Menos de 3.5 Gols (@1.50)
+
+6. **Independiente × Deportivo Riestra** (19:15 BRT — Argentina Primera División)
+   - **Game State & Contexto:** Estádio Libertadores de América em Avellaneda. O Rei de Copas pressiona forte em casa contra o limitado Deportivo Riestra.
+   - **Tese (Bilhete Supremo):** Independiente Vence (Moneyline @1.72)
+
+7. **Atlético San Luis × FC Juárez** (22:00 BRT — Liga MX)
+   - **Game State & Contexto:** Estádio Alfonso Lastras. San Luis tem aproveitamento superior a 70% em casa no México; Juárez vazado com frequência.
+   - **Tese:** Atlético San Luis Vence (Moneyline @1.61) | Dupla Chance 1X (@1.14) | V1 & Mais de 1.5 Gols (@1.95)
+
+8. **Vitória × Fluminense** (20:00 BRT — Brasileirão Série A 34ª Rodada)
+   - **Game State & Contexto:** Barradão em Salvador. Jogo tenso de reta final; Fluminense com bloco médio organizado e transições de contra-ataque.
+   - **Tese:** Fluminense ou Empate (Dupla Chance X2 @1.34) | Menos de 3.5 Gols (@1.22)
+
+9. **Operário-PR × Sport Recife** (19:30 BRT — Brasileirão Série B 37ª Rodada)
+   - **Game State & Contexto:** Germano Krüger em Ponta Grossa. Sport joga pela confirmação matemática do acesso à Série A; Operário muito combativo em gramado pesado.
+   - **Tese:** Sport Recife ou Empate (Dupla Chance X2 @1.38) | Menos de 3.5 Gols (@1.20)
+
+10. **Willem II × PEC Zwolle** (16:00 BRT — Eredivisie Holanda)
+    - **Tese:** Mais de 2.5 Gols no Jogo (@1.53)
+
+11. **Necaxa × Tijuana** (22:00 BRT — Liga MX)
+    - **Tese:** Mais de 2.5 Gols no Jogo (@1.54)
+
+12. **CA Tigre × Sarmiento de Junín** (22:00 BRT — Argentina Primera División)
+    - **Tese:** Tigre ou Empate (Dupla Chance 1X @1.21)
+
+13. **Derby County × Bolton Wanderers** (17:00 BRT — EFL Championship)
+    - **Tese:** Mais de 1.5 Gols no Jogo (@1.25)
+
+14. **Venezia × Udinese** (16:45 BRT — Serie A Itália)
+    - **Tese:** Mais de 1.5 Gols no Jogo (@1.28)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 06/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 1 DE 30:**
+  - Everton x Coventry City: Everton ou Empate (Dupla Chance 1X @1.19)
+  - Hamburger SV x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)
+  - Odd: 1.43 | Stake: R$ 10,00 | Retorno Potencial: R$ 14,30
+  - *Filosofia:* Reinício do ciclo com base de R$ 10,00, operando exclusivamente ligas de elite (Premier League e Bundesliga) sem contaminação por copas.
+
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@2.92 / Anti-Clone):**
+  - Everton x Coventry City: Everton Vence (Moneyline @1.70)
+  - Independiente x Deportivo Riestra: Independiente Vence (Moneyline @1.72)
+  - Odd: 2.92 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 8,76
+  - *Regra Anti-Clone:* 100% independente do Stop 2 da SAFE!
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Tripla Âncora Continental @1.39):**
+    - Sevilla x Deportivo Alavés: Sevilla ou Empate (1X @1.22)
+    - Atlético San Luis x FC Juárez: Atlético San Luis ou Empate (1X @1.14)
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @2.00) — [SAÍDA DO USUÁRIO]:**
+    - + FC Famalicão x FC Arouca: Famalicão ou Empate (1X @1.21)
+    - + Everton x Coventry City: Everton ou Empate (1X @1.19)
+    - *Retorno Stop 2:* R$ 30,00 (Lucro líquido: +R$ 15,00, cobrindo 146% de todos os bilhetes secundários).
+  - **Stop Point 3 (Expansão Máxima com Gols Europeus @2.97):**
+    - + Hamburger SV x Borussia Mönchengladbach: Mais de 1.5 Gols (@1.20)
+    - + Toulouse x Strasbourg: Mais de 1.5 Gols (@1.24)
+    - *Retorno Stop 3:* R$ 44,55.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.89):**
+  - Everton x Coventry City: Everton Vence (ML @1.70)
+  - Sevilla x Deportivo Alavés: Sevilla Empate Anula a Aposta (DNB @1.42)
+  - Atlético San Luis x FC Juárez: Atlético San Luis Vence (ML @1.61)
+  - Odd: 3.89 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 8,75
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.91):**
+  - Hamburger SV x Borussia Mönchengladbach: Ambos os Times Marcam (Sim @1.55)
+  - Toulouse x Strasbourg: Ambos os Times Marcam (Sim @1.65)
+  - Willem II x PEC Zwolle: Mais de 2.5 Gols no Jogo (@1.53)
+  - Odd: 3.91 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,87
+
+- 🇧🇷 **MÚLTIPLA BRASILEIRÃO (Séries A & B @2.71):**
+  - Vitória x Fluminense: Fluminense ou Empate (X2 @1.34)
+  - Vitória x Fluminense: Menos de 3.5 Gols (@1.22)
+  - Operário-PR x Sport Recife: Sport Recife ou Empate (X2 @1.38)
+  - Operário-PR x Sport Recife: Menos de 3.5 Gols (@1.20)
+  - Odd: 2.71 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,07
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@71.91 — Alavancagem Assimétrica Inteligente):**
+  - Everton x Coventry City: Everton Vence & Mais de 1.5 Gols (@2.15)
+  - Sevilla x Deportivo Alavés: Sevilla Vence & Menos de 4.5 Gols (@2.15)
+  - Hamburger SV x Borussia Mönchengladbach: Ambas Marcam & Mais de 2.5 Gols (@1.92)
+  - Toulouse x Strasbourg: Ambas Marcam & Mais de 2.5 Gols (@2.05)
+  - Atlético San Luis x FC Juárez: Atlético San Luis Vence & Mais de 1.5 Gols (@1.95)
+  - Odd: 71.91 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 71,91
+  - *Evolução V6.2:* Sem Clean Sheet frágil e sem Handicap -2.5 forçado.
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@606.35 — Super Bingo Horizontal Correlacionado):**
+  - Everton x Coventry City: Everton Vence & Mais de 1.5 Gols (@2.15)
+  - Sevilla x Deportivo Alavés: Sevilla Vence & Mais de 1.5 Gols (@2.45)
+  - Atlético San Luis x FC Juárez: Atlético San Luis Vence & Mais de 1.5 Gols (@1.95)
+  - Independiente x Deportivo Riestra: Independiente Vence (ML @1.72)
+  - Hamburger SV x Borussia Mönchengladbach: Ambas as Equipes Marcam (Sim @1.55)
+  - Toulouse x Strasbourg: Mais de 2.5 Gols no Jogo (@1.75)
+  - Willem II x PEC Zwolle: Mais de 2.5 Gols no Jogo (@1.53)
+  - Necaxa x Tijuana: Mais de 2.5 Gols no Jogo (@1.54)
+  - Vitória x Fluminense: Fluminense ou Empate (X2 @1.34)
+  - Operário-PR x Sport Recife: Sport Recife ou Empate (X2 @1.38)
+  - CA Tigre x Sarmiento de Junín: CA Tigre ou Empate (1X @1.21)
+  - FC Famalicão x FC Arouca: Famalicão 1X & Menos de 3.5 Gols (@1.50)
+  - Derby County x Bolton Wanderers: Mais de 1.5 Gols no Jogo (@1.25)
+  - Venezia x Udinese: Mais de 1.5 Gols no Jogo (@1.28)
+  - Odd: 606.35 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 606,35
+  - *Filosofia:* O super bingo com 14 seleções de alta sinergia e lógica correlacionada para buscar R$ 600+ com 1 real.

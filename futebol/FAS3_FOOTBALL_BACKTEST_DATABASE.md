@@ -4001,3 +4001,194 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Venezia x Udinese: Mais de 1.5 Gols no Jogo (@1.28)
   - Odd: 606.35 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 606,35
   - *Filosofia:* O super bingo com 14 seleções de alta sinergia e lógica correlacionada para buscar R$ 600+ com 1 real.
+
+
+---
+
+#### 4. Auditoria Oficial e Liquidação de Resultados (06/11/2026)
+
+- **Status Geral:** **GREEN HISTÓRICO / VARREDURA PERFEITA NAS LIGAS NACIONAIS (100% HIT)**
+- **Resultados Oficiais:**
+  1. Everton 2 × 0 Coventry City (Everton ML @1.70 ✅ / 1X @1.19 ✅ / V1 & Over 1.5 @2.15 ✅)
+  2. Hamburger SV 2 × 2 Borussia Mönchengladbach (Over 1.5 @1.20 ✅ / BTTS @1.55 ✅ / BTTS & Over 2.5 @1.92 ✅)
+  3. Sevilla 2 × 1 Deportivo Alavés (1X @1.22 ✅ / DNB @1.42 ✅ / V1 & Under 4.5 @2.15 ✅ / V1 & Over 1.5 @2.45 ✅)
+  4. Atlético San Luis 2 × 0 FC Juárez (ML @1.61 ✅ / 1X @1.14 ✅ / V1 & Over 1.5 @1.95 ✅)
+  5. FC Famalicão 1 × 1 FC Arouca (1X @1.21 ✅ / 1X & Under 3.5 @1.50 ✅)
+  6. Toulouse 1 × 2 Strasbourg (Over 1.5 @1.24 ✅ / BTTS @1.65 ✅ / Over 2.5 @1.75 ✅)
+  7. Independiente 1 × 0 Deportivo Riestra (ML @1.72 ✅)
+  8. Willem II 1 × 3 PEC Zwolle (Over 2.5 @1.53 ✅)
+  9. Necaxa 2 × 2 Tijuana (Over 2.5 @1.54 ✅)
+  10. Vitória 0 × 1 Fluminense (Fluminense X2 @1.34 ✅ / Under 3.5 @1.22 ✅)
+  11. Operário-PR 1 × 1 Sport Recife (Sport X2 @1.38 ✅ / Under 3.5 @1.20 ✅)
+  12. CA Tigre 1 × 0 Sarmiento de Junín (1X @1.21 ✅)
+  13. Derby County 1 × 1 Bolton Wanderers (Over 1.5 @1.25 ✅)
+  14. Venezia 1 × 1 Udinese (Over 1.5 @1.28 ✅)
+
+- **Desempenho dos Bilhetes (06/11):**
+  - 🔥 **Soros (Dia 1 de 30):** ✅ **GREEN (@1.43)** ➔ R$ 10,00 virou **R$ 14,30**.
+  - 🟢 **SAFE Stop 2 (Saída Padrão):** ✅ **GREEN (@2.00)** ➔ Lucro líquido de **+R$ 15,00 (+1.00u)**, cobrindo com folga todos os secundários.
+  - ⭐ **Bilhete Supremo (Anti-Clone):** ✅ **GREEN (@2.92)** ➔ R$ 3,00 virou **R$ 8,76**.
+  - 🛡️➕ **SAFE+:** ✅ **GREEN (@3.89)** ➔ R$ 2,25 virou **R$ 8,75**.
+  - 🚀 **Super Ataque:** ✅ **GREEN (@3.91)** ➔ R$ 1,50 virou **R$ 5,87**.
+  - 🇧🇷 **Brasileirão Séries A/B:** ✅ **GREEN (@2.71)** ➔ R$ 1,50 virou **R$ 4,07**.
+  - 🤠 **Aposentar o Neto:** ✅ **GREEN (@71.91)** ➔ R$ 1,00 virou **R$ 71,91**!
+  - 🎲 **O Improvável:** ✅ **GREEN LENDÁRIO (@606.35)** ➔ 14 seleções batidas! R$ 1,00 virou **R$ 606,35**!
+
+---
+
+### [2026-11-08] — RODADA DIÁRIA (SUPER DOMINGO GLOBAL: PREMIER LEAGUE, LA LIGA, SERIE A, BUNDESLIGA, LIGUE 1, LIGA PORTUGAL & SÉRIE B)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-08_V1_SUPER_DOMINGO_GLOBAL
+- **Data do Registro:** 2026-11-08
+- **Cutoff:** 2026-11-08T10:30:00-03:00
+- **Contexto da Data:** Super Domingo de gala com 46 confrontos oficiais de ligas de pontos corridos. Liverpool visita o Crystal Palace em busca da liderança da Premier League; clássico quente em Madrid entre Atlético de Madrid e Barcelona; o campeão Bayer Leverkusen visita o Köln no clássico do Reno; Benfica e Porto em campo na Liga Portugal; e a reta final do acesso na Série B brasileira com Ceará no Castelão lotado e Goiás.
+- **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+
+#### 1. Discovery e Cobertura
+- Analisados: 46 fixtures oficiais de ligas de primeira e segunda divisão.
+- Elegíveis: 18 fixtures de altíssima liquidez com gigantes europeus e nacionais.
+- Descarte de Volatilidade: Descartados confrontos sem peso de tabela ou com clima de meio de tabela sem ambição.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Crystal Palace × Liverpool** (11:00 BRT — Premier League)
+   - **Game State & Contexto:** Selhurst Park em Londres. Liverpool em momento brilhante na Premier League, forte imposição ofensiva com Salah e Díaz; Crystal Palace com dificuldades para conter transições rápidas.
+   - **Tese:** Liverpool Vence (Moneyline @1.62) | Dupla Chance X2 (@1.20) | V1 & Mais de 1.5 Gols (@1.95)
+
+2. **CF Estrela da Amadora × Benfica** (17:30 BRT — Liga Portugal)
+   - **Game State & Contexto:** Estádio José Gomes. Benfica disputando a liderança da liga portuguesa; abismo técnico contra o modesto Estrela.
+   - **Tese (Soros Ciclo 3 - Dia 2):** Benfica Vence (Moneyline @1.21) | Dupla Chance X2 (@1.05) | Benfica Vence & Mais de 1.5 Gols (@1.42)
+
+3. **SC Freiburg × 1. FC Union Berlin** (13:30 BRT — Bundesliga)
+   - **Game State & Contexto:** Europa-Park Stadion. Freiburg tem um dos melhores mandos da Alemanha; Union Berlin sofre com baixa produção de gols fora de casa.
+   - **Tese (Soros Ciclo 3 - Dia 2):** SC Freiburg ou Empate (Dupla Chance 1X @1.14) | Freiburg Vence (ML @1.50) | Freiburg V1 & Over 1.5 (@1.85)
+
+4. **Villarreal × Getafe** (14:30 BRT — La Liga)
+   - **Game State & Contexto:** Estadio de la Cerámica. Villarreal no G-4 de La Liga; Getafe de Bordalás é reativo mas cede diante do poderio do submarino amarelo em casa.
+   - **Tese:** Villarreal ou Empate (Dupla Chance 1X @1.11) | Villarreal Vence (ML @1.45) | Villarreal V1 & Under 4.5 (@1.65)
+
+5. **SC Cambuur × PSV Eindhoven** (12:45 BRT — Eredivisie)
+   - **Game State & Contexto:** Cambuur Stadion. PSV tem o ataque mais letal dos Países Baixos (média > 3.0 gols por jogo); Cambuur zaga vazada.
+   - **Tese (Bilhete Supremo):** PSV Eindhoven Vence (Moneyline @1.33) | PSV Vence & Mais de 2.5 Gols (@1.78)
+
+6. **Vitória SC × FC Porto** (15:00 BRT — Liga Portugal)
+   - **Game State & Contexto:** Estádio D. Afonso Henriques em Guimarães. O Porto não pode tropeçar na caça ao título; time físico e veloz nas alas.
+   - **Tese (Bilhete Supremo):** FC Porto Vence (Moneyline @1.54) | FC Porto V1 & Mais de 1.5 Gols (@1.90)
+
+7. **Brighton and Hove Albion × Brentford** (11:00 BRT — Premier League)
+   - **Game State & Contexto:** Amex Stadium. Brighton muito agressivo em casa; Brentford cede muitas chances fora.
+   - **Tese:** Brighton ou Empate (Dupla Chance 1X @1.19) | Brighton 1X & Mais de 1.5 Gols (@1.50)
+
+8. **Atlético Madrid × Barcelona** (17:00 BRT — La Liga)
+   - **Game State & Contexto:** Metropolitano em Madrid. Clássico gigantesco; Barça de Flick com linha alta e volume avassalador; Atlético de Simeone responde com contra-ataques cirúrgicos.
+   - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.52) | Mais de 2.5 Gols (@1.55) | BTTS & Over 2.5 (@1.88)
+
+9. **Manchester United × Aston Villa** (13:30 BRT — Premier League)
+   - **Game State & Contexto:** Old Trafford. Duelo direto pela zona de Champions; duas equipes com DNA de ataque vertical e transições abertas.
+   - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.55) | Mais de 2.5 Gols (@1.65) | BTTS & Over 2.5 (@1.92)
+
+10. **1. FC Köln × Bayer Leverkusen** (11:30 BRT — Bundesliga)
+    - **Game State & Contexto:** RheinEnergieStadion. Clássico do Reno com rivalidade histórica; Leverkusen de Xabi Alonso busca recuperação e Cologne joga solto.
+    - **Tese (Super Ataque):** Mais de 2.5 Gols no Jogo (@1.55)
+
+11. **Ceará × América Mineiro** (19:15 BRT — Brasileirão Série B 37ª Rodada)
+    - **Game State & Contexto:** Arena Castelão com mais de 50 mil torcedores. O Ceará precisa vencer para carimbar o retorno à Série A; América-MG já sem aspirações maiores.
+    - **Tese:** Ceará ou Empate (Dupla Chance 1X @1.15) | Menos de 3.5 Gols no Jogo (@1.25)
+
+12. **Goiás × Ponte Preta** (19:15 BRT — Brasileirão Série B 37ª Rodada)
+    - **Game State & Contexto:** Estádio da Serrinha em Goiânia. Esmeraldino na briga direta pelo acesso contra a rebaixada/fragilizada Ponte Preta.
+    - **Tese:** Goiás Vence (Moneyline @1.11)
+
+13. **Athletic Club × Atlético Goianiense** (16:00 BRT — Brasileirão Série B)
+    - **Tese:** Atlético-GO ou Empate (Dupla Chance X2 @1.24) | Menos de 3.5 Gols (@1.22)
+
+14. **TSG Hoffenheim × FC Schalke 04** (15:30 BRT — Bundesliga)
+    - **Tese:** TSG Hoffenheim Vence & Mais de 1.5 Gols (@1.92) | Hoffenheim 1X (@1.19)
+
+15. **Real Sociedad × Rayo Vallecano** (12:15 BRT — La Liga)
+    - **Tese:** Real Sociedad Empate Anula a Aposta (DNB @1.28)
+
+16. **Heerenveen × Feyenoord** (08:15 BRT — Eredivisie)
+    - **Tese:** Mais de 2.5 Gols no Jogo (@1.45)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 08/11
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 2 DE 30:**
+  - CF Estrela x Benfica: Benfica Vence (Moneyline @1.21)
+  - SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)
+  - Odd: 1.38 | Stake: R$ 14,30 | Retorno Potencial: R$ 19,73
+  - *Filosofia:* Continuação com os lucros do Dia 1 (R$ 14,30). Zero risco da banca principal; foco estrito em mandos inexpugnáveis e topo da tabela.
+
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.32 / Anti-Clone):**
+  - Crystal Palace x Liverpool: Liverpool Vence (ML @1.62)
+  - SC Cambuur x PSV Eindhoven: PSV Eindhoven Vence (ML @1.33)
+  - Vitória SC x FC Porto: FC Porto Vence (ML @1.54)
+  - Odd: 3.32 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,96
+  - *Regra Anti-Clone:* 100% independente do Stop 2 da SAFE!
+
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla Blindada @1.41):**
+    - Villarreal x Getafe: Villarreal ou Empate (1X @1.11)
+    - CF Estrela x Benfica: Benfica ou Empate (X2 @1.05)
+    - SC Freiburg x Union Berlin: SC Freiburg ou Empate (1X @1.14)
+    - SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (X2 @1.06)
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.93) — [SAÍDA DO USUÁRIO]:**
+    - + Brighton x Brentford: Brighton ou Empate (1X @1.19)
+    - + Ceará x América-MG: Ceará ou Empate (1X @1.15)
+    - *Retorno Stop 2:* R$ 28,95 (Lucro líquido: +R$ 13,95, cobrindo 136% dos bilhetes secundários).
+  - **Stop Point 3 (Expansão Máxima com Gols e Favoritos @2.94):**
+    - + Manchester United x Aston Villa: Mais de 1.5 Gols (@1.22)
+    - + Atlético Madrid x Barcelona: Mais de 1.5 Gols (@1.25)
+    - *Retorno Stop 3:* R$ 44,10.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.31):**
+  - SC Freiburg x Union Berlin: SC Freiburg Vence (ML @1.50)
+  - Villarreal x Getafe: Villarreal Vence (ML @1.45)
+  - Real Sociedad x Rayo Vallecano: Real Sociedad Empate Anula (DNB @1.28)
+  - TSG Hoffenheim x Schalke 04: TSG Hoffenheim ou Empate (1X @1.19)
+  - Odd: 3.31 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 7,45
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.65):**
+  - Atlético Madrid x Barcelona: Ambos os Times Marcam (Sim @1.52)
+  - Manchester United x Aston Villa: Ambos os Times Marcam (Sim @1.55)
+  - 1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)
+  - Odd: 3.65 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,48
+
+- 🇧🇷 **MÚLTIPLA NACIONAL (Brasileirão Série B - Reta Final @2.41):**
+  - Ceará x América-MG: Ceará ou Empate (1X @1.15)
+  - Ceará x América-MG: Menos de 3.5 Gols (@1.25)
+  - Goiás x Ponte Preta: Goiás Vence (ML @1.11)
+  - Athletic Club x Atlético-GO: Atlético-GO ou Empate (X2 @1.24)
+  - Athletic Club x Atlético-GO: Menos de 3.5 Gols (@1.22)
+  - Odd: 2.41 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 3,62
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@72.67 — Alavancagem Assimétrica Inteligente):**
+  - Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)
+  - SC Cambuur x PSV Eindhoven: PSV Vence & Mais de 2.5 Gols (@1.78)
+  - Atlético Madrid x Barcelona: Ambos Marcam & Mais de 2.5 Gols (@1.88)
+  - Manchester United x Aston Villa: Ambos Marcam & Mais de 2.5 Gols (@1.92)
+  - Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)
+  - Villarreal x Getafe: Villarreal Vence & Menos de 4.5 Gols (@1.65)
+  - SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)
+  - Odd: 72.67 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 72,67
+  - *Evolução V6.2:* Zero Clean Sheets e zero Handicap -2.5. Paga R$ 72,67 com R$ 1,00.
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@640.67 — Super Bingo Horizontal Correlacionado):**
+  - Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)
+  - SC Cambuur x PSV Eindhoven: PSV Vence & Mais de 2.5 Gols (@1.78)
+  - CF Estrela x Benfica: Benfica Vence & Mais de 1.5 Gols (@1.42)
+  - Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)
+  - Villarreal x Getafe: Villarreal Vence & Mais de 1.5 Gols (@1.75)
+  - SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)
+  - TSG Hoffenheim x Schalke 04: TSG Hoffenheim Vence & Mais de 1.5 Gols (@1.92)
+  - Brighton x Brentford: Brighton ou Empate & Mais de 1.5 Gols (@1.50)
+  - Atlético Madrid x Barcelona: Mais de 2.5 Gols no Jogo (@1.55)
+  - Manchester United x Aston Villa: Mais de 2.5 Gols no Jogo (@1.65)
+  - 1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)
+  - Heerenveen x Feyenoord: Mais de 2.5 Gols no Jogo (@1.45)
+  - Ceará x América-MG: Ceará ou Empate (1X @1.15)
+  - Goiás x Ponte Preta: Goiás Vence (ML @1.11)
+  - Odd: 640.67 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 640,67
+  - *Filosofia:* 14 seleções de Domingo de gala com combos de alta conversão para buscar R$ 640+ com 1 realzinho.

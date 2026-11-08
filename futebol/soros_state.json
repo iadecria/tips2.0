@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 10.0,
-  "currentDay": 1,
+  "currentStake": 14.3,
+  "currentDay": 2,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -295,6 +295,17 @@
       "selection": "Everton x Coventry City (Everton ou Empate 1X @1.19) + Hamburger SV x Borussia Mönchengladbach (Mais de 1.5 Gols @1.20)",
       "odd": 1.43,
       "potentialReturn": 14.3,
+      "status": "HIT",
+      "actualReturn": 14.3,
+      "notes": "GREEN cravado! Everton 2x0 Coventry (1X ✅) + Hamburgo 2x2 Borussia M gladbach (Over 1.5 ✅). Retorno: R$ 14,30."
+    },
+    {
+      "day": 2,
+      "date": "2026-11-08",
+      "stakeIn": 14.3,
+      "selection": "CF Estrela x Benfica (Benfica Vence ML @1.21) + SC Freiburg x Union Berlin (SC Freiburg ou Empate 1X @1.14)",
+      "odd": 1.38,
+      "potentialReturn": 19.73,
       "status": "ACTIVE"
     }
   ]

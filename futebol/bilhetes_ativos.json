@@ -1,31 +1,38 @@
 {
-  "date": "2026-11-06",
-  "snapshotId": "FAS_FOOTBALL_2026-11-06_V1_DOMESTIC_LEAGUES_RELOAD",
+  "date": "2026-11-08",
+  "snapshotId": "FAS_FOOTBALL_2026-11-08_V1_SUPER_DOMINGO_GLOBAL",
   "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 — SEXTA-FEIRA 06/11/2026: Rodada 100% de Ligas Nacionais (Premier League, La Liga, Bundesliga, Ligue 1, Liga Portugal, Brasileirão Série A/B, Argentina e Liga MX). Banimento absoluto de Copas Europeias secundárias em tickets estruturados, blindagem anti-clone, eliminação de clean sheets e alavancagem lógica V1+Over 1.5 no Improvável para buscar @500+.",
+  "notes": "GRADE OFICIAL FAS 3 — SUPER DOMINGO 08/11/2026: Card estelar dos Campeonatos Nacionais europeus e reta final da Série B. Blindagem SAFE Shield 100%, Anti-Clone Supremo, Aposentar o Neto @72 sem clean sheet e Super Bingo @640+.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Sexta 06/11 / Anti-Clone)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Domingo 08/11 / Anti-Clone)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 2.92,
+    "multiplierGlobal": 3.32,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 8.76,
-    "philosophy": "Desacoplamento total da SAFE Stop 2: Everton no caldeirão de Goodison Park e Independiente na fortaleza de Avellaneda contra o frágil Riestra.",
+    "potentialReturn": 9.96,
+    "philosophy": "Desacoplamento total da SAFE Stop 2: Liverpool na Premier League, PSV na Eredivisie e FC Porto na Liga Portugal.",
     "status": "ACTIVE",
     "selections": [
       {
-        "match": "Everton x Coventry City (17:00 BRT)",
+        "match": "Crystal Palace x Liverpool (11:00 BRT)",
         "competition": "Premier League (Inglaterra)",
-        "market": "Everton Vence (Moneyline)",
-        "odd": 1.7,
+        "market": "Liverpool Vence (Moneyline)",
+        "odd": 1.62,
         "status": "ACTIVE"
       },
       {
-        "match": "Independiente x Deportivo Riestra (19:15 BRT)",
-        "competition": "Argentina Primera División",
-        "market": "Independiente Vence (Moneyline)",
-        "odd": 1.72,
+        "match": "SC Cambuur x PSV Eindhoven (12:45 BRT)",
+        "competition": "Eredivisie (Holanda)",
+        "market": "PSV Eindhoven Vence (Moneyline)",
+        "odd": 1.33,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Vitória SC x FC Porto (15:00 BRT)",
+        "competition": "Liga Portugal",
+        "market": "FC Porto Vence (Moneyline)",
+        "odd": 1.54,
         "status": "ACTIVE"
       }
     ]
@@ -39,39 +46,45 @@
       "status": "ACTIVE",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Tripla Âncora Continental)",
-          "multiplier": 1.39,
-          "potentialReturn": 20.85,
+          "level": "Stop Point 1 (A Âncora Continental — Quádrupla Blindada)",
+          "multiplier": 1.41,
+          "potentialReturn": 21.15,
           "legs": [
-            "Sevilla x Deportivo Alavés: Sevilla ou Empate (Dupla Chance 1X @1.22)",
-            "Atlético San Luis x FC Juárez: Atlético San Luis ou Empate (Dupla Chance 1X @1.14)"
+            "Villarreal x Getafe: Villarreal ou Empate (Dupla Chance 1X @1.11)",
+            "CF Estrela x Benfica: Benfica ou Empate (Dupla Chance X2 @1.05)",
+            "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
+            "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 2.0,
-          "potentialReturn": 30.0,
-          "netProfit": 15.0,
+          "multiplier": 1.93,
+          "potentialReturn": 28.95,
+          "netProfit": 13.95,
           "legs": [
-            "Sevilla x Deportivo Alavés: Sevilla ou Empate (Dupla Chance 1X @1.22)",
-            "Atlético San Luis x FC Juárez: Atlético San Luis ou Empate (Dupla Chance 1X @1.14)",
-            "FC Famalicão x FC Arouca: Famalicão ou Empate (Dupla Chance 1X @1.21)",
-            "Everton x Coventry City: Everton ou Empate (Dupla Chance 1X @1.19)"
+            "Villarreal x Getafe: Villarreal ou Empate (Dupla Chance 1X @1.11)",
+            "CF Estrela x Benfica: Benfica ou Empate (Dupla Chance X2 @1.05)",
+            "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
+            "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)",
+            "Brighton x Brentford: Brighton ou Empate (Dupla Chance 1X @1.19)",
+            "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)"
           ],
           "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
-          "multiplier": 2.97,
-          "potentialReturn": 44.55,
+          "level": "Stop Point 3 (Expansão Máxima com Gols e Favoritos)",
+          "multiplier": 2.94,
+          "potentialReturn": 44.1,
           "legs": [
-            "Sevilla x Deportivo Alavés: Sevilla ou Empate (Dupla Chance 1X @1.22)",
-            "Atlético San Luis x FC Juárez: Atlético San Luis ou Empate (Dupla Chance 1X @1.14)",
-            "FC Famalicão x FC Arouca: Famalicão ou Empate (Dupla Chance 1X @1.21)",
-            "Everton x Coventry City: Everton ou Empate (Dupla Chance 1X @1.19)",
-            "Hamburger SV x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)",
-            "Toulouse x Strasbourg: Mais de 1.5 Gols no Jogo (@1.24)"
+            "Villarreal x Getafe: Villarreal ou Empate (Dupla Chance 1X @1.11)",
+            "CF Estrela x Benfica: Benfica ou Empate (Dupla Chance X2 @1.05)",
+            "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
+            "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)",
+            "Brighton x Brentford: Brighton ou Empate (Dupla Chance 1X @1.19)",
+            "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)",
+            "Manchester United x Aston Villa: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Atlético Madrid x Barcelona: Mais de 1.5 Gols no Jogo (@1.25)"
           ],
           "status": "ACTIVE"
         }
@@ -82,13 +95,14 @@
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.89,
-      "potentialReturn": 8.75,
+      "multiplier": 3.31,
+      "potentialReturn": 7.45,
       "status": "ACTIVE",
       "legs": [
-        "Everton x Coventry City: Everton Vence (Moneyline @1.70)",
-        "Sevilla x Deportivo Alavés: Sevilla Empate Anula a Aposta (DNB @1.42)",
-        "Atlético San Luis x FC Juárez: Atlético San Luis Vence (Moneyline @1.61)"
+        "SC Freiburg x Union Berlin: SC Freiburg Vence (Moneyline @1.50)",
+        "Villarreal x Getafe: Villarreal Vence (Moneyline @1.45)",
+        "Real Sociedad x Rayo Vallecano: Real Sociedad Empate Anula (DNB @1.28)",
+        "TSG Hoffenheim x Schalke 04: TSG Hoffenheim ou Empate (Dupla Chance 1X @1.19)"
       ]
     },
     {
@@ -96,28 +110,29 @@
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 3.91,
-      "potentialReturn": 5.87,
+      "multiplier": 3.65,
+      "potentialReturn": 5.48,
       "status": "ACTIVE",
       "legs": [
-        "Hamburger SV x Borussia Mönchengladbach: Ambos os Times Marcam (Sim @1.55)",
-        "Toulouse x Strasbourg: Ambos os Times Marcam (Sim @1.65)",
-        "Willem II x PEC Zwolle: Mais de 2.5 Gols no Jogo (@1.53)"
+        "Atlético Madrid x Barcelona: Ambos os Times Marcam (Sim @1.52)",
+        "Manchester United x Aston Villa: Ambos os Times Marcam (Sim @1.55)",
+        "1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)"
       ]
     },
     {
-      "name": "MÚLTIPLA BRASILEIRÃO (Reta Final Séries A & B)",
+      "name": "MÚLTIPLA NACIONAL (Brasileirão Série B - Reta Final)",
       "type": "BRASILEIRAO",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.71,
-      "potentialReturn": 4.07,
+      "multiplier": 2.41,
+      "potentialReturn": 3.62,
       "status": "ACTIVE",
       "legs": [
-        "Vitória x Fluminense (20:00 BRT): Fluminense ou Empate (Dupla Chance X2 @1.34)",
-        "Vitória x Fluminense (20:00 BRT): Menos de 3.5 Gols no Jogo (@1.22)",
-        "Operário-PR x Sport Recife (19:30 BRT): Sport Recife ou Empate (Dupla Chance X2 @1.38)",
-        "Operário-PR x Sport Recife (19:30 BRT): Menos de 3.5 Gols no Jogo (@1.20)"
+        "Ceará x América-MG (19:15 BRT): Ceará ou Empate (Dupla Chance 1X @1.15)",
+        "Ceará x América-MG (19:15 BRT): Menos de 3.5 Gols no Jogo (@1.25)",
+        "Goiás x Ponte Preta (19:15 BRT): Goiás Vence (Moneyline @1.11)",
+        "Athletic Club x Atlético-GO (16:00 BRT): Atlético-GO ou Empate (Dupla Chance X2 @1.24)",
+        "Athletic Club x Atlético-GO (16:00 BRT): Menos de 3.5 Gols no Jogo (@1.22)"
       ]
     },
     {
@@ -125,57 +140,59 @@
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 71.91,
-      "potentialReturn": 71.91,
+      "multiplier": 72.67,
+      "potentialReturn": 72.67,
       "status": "ACTIVE",
-      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Uso de combos lógicos de alta conversão (V1 & Over 1.5, BTTS & Over 2.5, V1 & Under 4.5) buscando alavancagem de R$ 50 a R$ 80.",
+      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Combos correlacionados de alta conversão buscando meta exata de R$ 50 a R$ 80.",
       "legs": [
-        "Everton x Coventry City: Everton Vence & Mais de 1.5 Gols (@2.15)",
-        "Sevilla x Deportivo Alavés: Sevilla Vence & Menos de 4.5 Gols (@2.15)",
-        "Hamburger SV x Borussia Mönchengladbach: Ambas as Equipes Marcam & Mais de 2.5 Gols (@1.92)",
-        "Toulouse x Strasbourg: Ambas as Equipes Marcam & Mais de 2.5 Gols (@2.05)",
-        "Atlético San Luis x FC Juárez: Atlético San Luis Vence & Mais de 1.5 Gols (@1.95)"
+        "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
+        "SC Cambuur x PSV Eindhoven: PSV Vence & Mais de 2.5 Gols (@1.78)",
+        "Atlético Madrid x Barcelona: Ambos Marcam & Mais de 2.5 Gols (@1.88)",
+        "Manchester United x Aston Villa: Ambos Marcam & Mais de 2.5 Gols (@1.92)",
+        "Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)",
+        "Villarreal x Getafe: Villarreal Vence & Menos de 4.5 Gols (@1.65)",
+        "SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)"
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @500+)",
+      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @600+)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 606.35,
-      "potentialReturn": 606.35,
+      "multiplier": 640.67,
+      "potentialReturn": 640.67,
       "status": "ACTIVE",
-      "philosophy": "Super Bingo da Rodada com sinergia estatística: 14 seleções de ligas nacionais com combos naturais de V1+Over 1.5, duplas chances e gols, gerando odd astronômica de @606.35 com 1 realzinho.",
+      "philosophy": "Super Bingo de Domingo: 14 seleções de gala com combos de V1+Over 1.5 e gols em campeonatos nacionais buscando odd @640+ com 1 real.",
       "legs": [
-        "Everton x Coventry City: Everton Vence & Mais de 1.5 Gols (@2.15)",
-        "Sevilla x Deportivo Alavés: Sevilla Vence & Mais de 1.5 Gols (@2.45)",
-        "Atlético San Luis x FC Juárez: Atlético San Luis Vence & Mais de 1.5 Gols (@1.95)",
-        "Independiente x Deportivo Riestra: Independiente Vence (Moneyline @1.72)",
-        "Hamburger SV x Borussia Mönchengladbach: Ambas as Equipes Marcam (Sim @1.55)",
-        "Toulouse x Strasbourg: Mais de 2.5 Gols no Jogo (@1.75)",
-        "Willem II x PEC Zwolle: Mais de 2.5 Gols no Jogo (@1.53)",
-        "Necaxa x Tijuana: Mais de 2.5 Gols no Jogo (@1.54)",
-        "Vitória x Fluminense: Fluminense ou Empate (Dupla Chance X2 @1.34)",
-        "Operário-PR x Sport Recife: Sport Recife ou Empate (Dupla Chance X2 @1.38)",
-        "CA Tigre x Sarmiento de Junín: CA Tigre ou Empate (Dupla Chance 1X @1.21)",
-        "FC Famalicão x FC Arouca: Famalicão ou Empate & Menos de 3.5 Gols (@1.50)",
-        "Derby County x Bolton Wanderers: Mais de 1.5 Gols no Jogo (@1.25)",
-        "Venezia x Udinese: Mais de 1.5 Gols no Jogo (@1.28)"
+        "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
+        "SC Cambuur x PSV Eindhoven: PSV Vence & Mais de 2.5 Gols (@1.78)",
+        "CF Estrela x Benfica: Benfica Vence & Mais de 1.5 Gols (@1.42)",
+        "Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)",
+        "Villarreal x Getafe: Villarreal Vence & Mais de 1.5 Gols (@1.75)",
+        "SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)",
+        "TSG Hoffenheim x Schalke 04: TSG Hoffenheim Vence & Mais de 1.5 Gols (@1.92)",
+        "Brighton x Brentford: Brighton ou Empate & Mais de 1.5 Gols (@1.50)",
+        "Atlético Madrid x Barcelona: Mais de 2.5 Gols no Jogo (@1.55)",
+        "Manchester United x Aston Villa: Mais de 2.5 Gols no Jogo (@1.65)",
+        "1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)",
+        "Heerenveen x Feyenoord: Mais de 2.5 Gols no Jogo (@1.45)",
+        "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)",
+        "Goiás x Ponte Preta: Goiás Vence (Moneyline @1.11)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 1 DE 30",
-    "day": 1,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 2 DE 30",
+    "day": 2,
     "targetDays": 30,
-    "stake": 10.0,
-    "multiplier": 1.43,
-    "potentialReturn": 14.3,
+    "stake": 14.3,
+    "multiplier": 1.38,
+    "potentialReturn": 19.73,
     "status": "ACTIVE",
-    "philosophy": "Princípio da Imunidade Absoluta V6: 100% Ligas Nacionais (Premier League + Bundesliga) em dia de abertura de rodada.",
+    "philosophy": "Princípio da Imunidade Absoluta V6: Benfica no topo português e Freiburg invicto no Europa-Park pela Bundesliga.",
     "legs": [
-      "Everton x Coventry City: Everton ou Empate (Dupla Chance 1X @1.19)",
-      "Hamburger SV x Borussia Mönchengladbach: Mais de 1.5 Gols no Jogo (@1.20)"
+      "CF Estrela x Benfica: Benfica Vence (Moneyline @1.21)",
+      "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)"
     ]
   }
 }

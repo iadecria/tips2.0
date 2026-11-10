@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 14.3,
-  "currentDay": 2,
+  "currentStake": 19.73,
+  "currentDay": 3,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -306,7 +306,9 @@
       "selection": "CF Estrela x Benfica (Benfica Vence ML @1.21) + SC Freiburg x Union Berlin (SC Freiburg ou Empate 1X @1.14)",
       "odd": 1.38,
       "potentialReturn": 19.73,
-      "status": "ACTIVE"
+      "status": "HIT",
+      "actualReturn": 19.73,
+      "notes": "GREEN cravado! Estrela 0x3 Benfica (Benfica ML ✅) + Freiburg 2x1 Union Berlin (Freiburg 1X ✅). Retorno: R$ 19,73."
     }
   ]
 }

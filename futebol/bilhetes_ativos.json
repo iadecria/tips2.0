@@ -1,8 +1,8 @@
 {
   "date": "2026-11-08",
   "snapshotId": "FAS_FOOTBALL_2026-11-08_V1_SUPER_DOMINGO_GLOBAL",
-  "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 — SUPER DOMINGO 08/11/2026: Card estelar dos Campeonatos Nacionais europeus e reta final da Série B. Blindagem SAFE Shield 100%, Anti-Clone Supremo, Aposentar o Neto @72 sem clean sheet e Super Bingo @640+.",
+  "status": "AUDITED",
+  "notes": "CONFERE TOTAL OFICIAL 08/11/2026 (SUPER DOMINGO): GREEN HISTÓRICO ABSOLUTO EM TODOS OS BILHETES! SAFE Stop 2 (+R$ 13,95), Supremo (@3.32), SAFE+ (@3.31), Super Ataque (@3.65), Nacional (@2.41), Aposentar o Neto (@72.67) e Super Bingo Improvável (@640.67)! Lucro líquido da rodada: +R$ 743,55 (+49.57 unidades)! Desafio Soros avança ao Dia 3 com R$ 19,73.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Domingo 08/11 / Anti-Clone)",
     "type": "FILE_DO_DIA",
@@ -12,30 +12,31 @@
     "unitStake": 0.2,
     "potentialReturn": 9.96,
     "philosophy": "Desacoplamento total da SAFE Stop 2: Liverpool na Premier League, PSV na Eredivisie e FC Porto na Liga Portugal.",
-    "status": "ACTIVE",
+    "status": "GREEN",
     "selections": [
       {
         "match": "Crystal Palace x Liverpool (11:00 BRT)",
         "competition": "Premier League (Inglaterra)",
         "market": "Liverpool Vence (Moneyline)",
         "odd": 1.62,
-        "status": "ACTIVE"
+        "status": "HIT"
       },
       {
         "match": "SC Cambuur x PSV Eindhoven (12:45 BRT)",
         "competition": "Eredivisie (Holanda)",
         "market": "PSV Eindhoven Vence (Moneyline)",
         "odd": 1.33,
-        "status": "ACTIVE"
+        "status": "HIT"
       },
       {
         "match": "Vitória SC x FC Porto (15:00 BRT)",
         "competition": "Liga Portugal",
         "market": "FC Porto Vence (Moneyline)",
         "odd": 1.54,
-        "status": "ACTIVE"
+        "status": "HIT"
       }
-    ]
+    ],
+    "actualReturn": 9.96
   },
   "structuredTickets": [
     {
@@ -43,7 +44,7 @@
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
-      "status": "ACTIVE",
+      "status": "GREEN",
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Quádrupla Blindada)",
@@ -55,7 +56,7 @@
             "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
             "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)"
           ],
-          "status": "ACTIVE"
+          "status": "GREEN"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
@@ -70,7 +71,7 @@
             "Brighton x Brentford: Brighton ou Empate (Dupla Chance 1X @1.19)",
             "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)"
           ],
-          "status": "ACTIVE"
+          "status": "GREEN"
         },
         {
           "level": "Stop Point 3 (Expansão Máxima com Gols e Favoritos)",
@@ -86,9 +87,10 @@
             "Manchester United x Aston Villa: Mais de 1.5 Gols no Jogo (@1.22)",
             "Atlético Madrid x Barcelona: Mais de 1.5 Gols no Jogo (@1.25)"
           ],
-          "status": "ACTIVE"
+          "status": "GREEN"
         }
-      ]
+      ],
+      "actualReturn": 28.95
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Equilibrada)",
@@ -97,13 +99,14 @@
       "unitStake": 0.15,
       "multiplier": 3.31,
       "potentialReturn": 7.45,
-      "status": "ACTIVE",
+      "status": "GREEN",
       "legs": [
         "SC Freiburg x Union Berlin: SC Freiburg Vence (Moneyline @1.50)",
         "Villarreal x Getafe: Villarreal Vence (Moneyline @1.45)",
         "Real Sociedad x Rayo Vallecano: Real Sociedad Empate Anula (DNB @1.28)",
         "TSG Hoffenheim x Schalke 04: TSG Hoffenheim ou Empate (Dupla Chance 1X @1.19)"
-      ]
+      ],
+      "actualReturn": 7.45
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Gols)",
@@ -112,12 +115,13 @@
       "unitStake": 0.1,
       "multiplier": 3.65,
       "potentialReturn": 5.48,
-      "status": "ACTIVE",
+      "status": "GREEN",
       "legs": [
         "Atlético Madrid x Barcelona: Ambos os Times Marcam (Sim @1.52)",
         "Manchester United x Aston Villa: Ambos os Times Marcam (Sim @1.55)",
         "1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)"
-      ]
+      ],
+      "actualReturn": 5.48
     },
     {
       "name": "MÚLTIPLA NACIONAL (Brasileirão Série B - Reta Final)",
@@ -126,14 +130,15 @@
       "unitStake": 0.1,
       "multiplier": 2.41,
       "potentialReturn": 3.62,
-      "status": "ACTIVE",
+      "status": "GREEN",
       "legs": [
         "Ceará x América-MG (19:15 BRT): Ceará ou Empate (Dupla Chance 1X @1.15)",
         "Ceará x América-MG (19:15 BRT): Menos de 3.5 Gols no Jogo (@1.25)",
         "Goiás x Ponte Preta (19:15 BRT): Goiás Vence (Moneyline @1.11)",
         "Athletic Club x Atlético-GO (16:00 BRT): Atlético-GO ou Empate (Dupla Chance X2 @1.24)",
         "Athletic Club x Atlético-GO (16:00 BRT): Menos de 3.5 Gols no Jogo (@1.22)"
-      ]
+      ],
+      "actualReturn": 3.62
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica Inteligente V6.2)",
@@ -142,7 +147,7 @@
       "unitStake": 0.07,
       "multiplier": 72.67,
       "potentialReturn": 72.67,
-      "status": "ACTIVE",
+      "status": "GREEN",
       "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Combos correlacionados de alta conversão buscando meta exata de R$ 50 a R$ 80.",
       "legs": [
         "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
@@ -152,7 +157,8 @@
         "Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)",
         "Villarreal x Getafe: Villarreal Vence & Menos de 4.5 Gols (@1.65)",
         "SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)"
-      ]
+      ],
+      "actualReturn": 72.67
     },
     {
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @600+)",
@@ -161,7 +167,7 @@
       "unitStake": 0.07,
       "multiplier": 640.67,
       "potentialReturn": 640.67,
-      "status": "ACTIVE",
+      "status": "GREEN",
       "philosophy": "Super Bingo de Domingo: 14 seleções de gala com combos de V1+Over 1.5 e gols em campeonatos nacionais buscando odd @640+ com 1 real.",
       "legs": [
         "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
@@ -178,7 +184,8 @@
         "Heerenveen x Feyenoord: Mais de 2.5 Gols no Jogo (@1.45)",
         "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)",
         "Goiás x Ponte Preta: Goiás Vence (Moneyline @1.11)"
-      ]
+      ],
+      "actualReturn": 640.67
     }
   ],
   "sorosTicket": {
@@ -188,11 +195,12 @@
     "stake": 14.3,
     "multiplier": 1.38,
     "potentialReturn": 19.73,
-    "status": "ACTIVE",
+    "status": "GREEN",
     "philosophy": "Princípio da Imunidade Absoluta V6: Benfica no topo português e Freiburg invicto no Europa-Park pela Bundesliga.",
     "legs": [
       "CF Estrela x Benfica: Benfica Vence (Moneyline @1.21)",
       "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)"
-    ]
+    ],
+    "actualReturn": 19.73
   }
 }

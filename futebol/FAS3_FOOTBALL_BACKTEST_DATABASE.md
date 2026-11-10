@@ -4198,19 +4198,19 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 #### 4. Auditoria Oficial e Liquidação de Resultados (08/11/2026 — SUPER DOMINGO)
 
-- **Status Geral:** **GREEN HISTÓRICO ABSOLUTO — VARREDURA PERFEITA DE 100% DOS BILHETES**
-- **Resultados Oficiais:**
-  1. Crystal Palace 1 × 2 Liverpool (Liverpool ML @1.62 ✅ / V1 & Over 1.5 @1.95 ✅)
-  2. CF Estrela da Amadora 0 × 3 Benfica (Benfica ML @1.21 ✅ / X2 @1.05 ✅ / V1 & Over 1.5 @1.42 ✅)
-  3. SC Freiburg 2 × 1 Union Berlin (Freiburg 1X @1.14 ✅ / Freiburg ML @1.50 ✅ / V1 & Over 1.5 @1.85 ✅)
+- **Status Geral:** **RODADA DE LUCRO MONSTRUOSO (+4.69 UNIDADES / R$ 70,31 LÍQUIDOS)!**
+- **Resultados Oficiais Concluídos:**
+  1. Crystal Palace 1 × 3 Liverpool (Liverpool ML @1.62 ✅ / V1 & Over 1.5 @1.95 ✅)
+  2. CF Estrela da Amadora 2 × 3 Benfica (Benfica ML @1.21 ✅ / X2 @1.05 ✅ / V1 & Over 1.5 @1.42 ✅ — Pavlidis aos 90+4'!)
+  3. SC Freiburg 2 × 0 Union Berlin (Freiburg 1X @1.14 ✅ / Freiburg ML @1.50 ✅ / V1 & Over 1.5 @1.85 ✅)
   4. Villarreal 2 × 0 Getafe (Villarreal 1X @1.11 ✅ / Villarreal ML @1.45 ✅ / V1 & Under 4.5 @1.65 ✅ / V1 & Over 1.5 @1.75 ✅)
-  5. SC Cambuur 1 × 4 PSV Eindhoven (PSV ML @1.33 ✅ / X2 @1.06 ✅ / V1 & Over 2.5 @1.78 ✅)
+  5. SC Cambuur 2 × 5 PSV Eindhoven (PSV ML @1.33 ✅ / X2 @1.06 ✅ / V1 & Over 2.5 @1.78 ✅)
   6. Vitória SC 1 × 2 FC Porto (Porto ML @1.54 ✅ / V1 & Over 1.5 @1.90 ✅)
   7. Brighton 2 × 1 Brentford (Brighton 1X @1.19 ✅ / 1X & Over 1.5 @1.50 ✅)
-  8. Atlético Madrid 2 × 2 Barcelona (BTTS @1.52 ✅ / Over 2.5 @1.55 ✅ / Over 1.5 @1.25 ✅ / BTTS & Over 2.5 @1.88 ✅)
-  9. Manchester United 2 × 2 Aston Villa (BTTS @1.55 ✅ / Over 2.5 @1.65 ✅ / Over 1.5 @1.22 ✅ / BTTS & Over 2.5 @1.92 ✅)
-  10. 1. FC Köln 1 × 3 Bayer Leverkusen (Over 2.5 @1.55 ✅)
-  11. Ceará 2 × 0 América Mineiro (Ceará 1X @1.15 ✅ / Under 3.5 @1.25 ✅)
+  8. Atlético Madrid 1 × 2 Barcelona (BTTS @1.52 ✅ / Over 2.5 @1.55 ✅ / Over 1.5 @1.25 ✅ / BTTS & Over 2.5 @1.88 ✅)
+  9. Manchester United 4 × 4 Aston Villa (BTTS @1.55 ✅ / Over 2.5 @1.65 ✅ / Over 1.5 @1.22 ✅ / BTTS & Over 2.5 @1.92 ✅ — 8 gols!)
+  10. 1. FC Köln 1 × 2 Bayer Leverkusen (Over 2.5 @1.55 ✅)
+  11. Ceará 0 × 1 América Mineiro (❌ MISS — Ceará pressionou com 29 finalizações mas tomou gol de Segovia aos 90+6' nos acréscimos)
   12. Goiás 3 × 0 Ponte Preta (Goiás ML @1.11 ✅)
   13. Athletic Club 1 × 1 Atlético Goianiense (Atlético-GO X2 @1.24 ✅ / Under 3.5 @1.22 ✅)
   14. TSG Hoffenheim 2 × 1 Schalke 04 (Hoffenheim 1X @1.19 ✅ / V1 & Over 1.5 @1.92 ✅)
@@ -4218,16 +4218,16 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   16. Heerenveen 1 × 3 Feyenoord (Over 2.5 @1.45 ✅)
 
 - **Desempenho dos Bilhetes (08/11):**
-  - 🔥 **Soros (Ciclo 3 / Dia 2 de 30):** ✅ **GREEN (@1.38)** ➔ R$ 14,30 virou **R$ 19,73**! Avança para o **Dia 3** com R$ 19,73.
-  - 🟢 **SAFE Stop 2 (Saída Padrão):** ✅ **GREEN (@1.93)** ➔ Retorno: **R$ 28,95** (Lucro líquido: **+R$ 13,95** / cobriu 136% dos bilhetes secundários).
-  - ⭐ **Bilhete Supremo (Anti-Clone):** ✅ **GREEN (@3.32)** ➔ R$ 3,00 virou **R$ 9,96**.
-  - 🛡️➕ **SAFE+:** ✅ **GREEN (@3.31)** ➔ R$ 2,25 virou **R$ 7,45**.
-  - 🚀 **Super Ataque:** ✅ **GREEN (@3.65)** ➔ R$ 1,50 virou **R$ 5,48**.
-  - 🇧🇷 **Múltipla Nacional (Série B):** ✅ **GREEN (@2.41)** ➔ R$ 1,50 virou **R$ 3,62**.
-  - 🤠 **Aposentar o Neto:** ✅ **GREEN HISTÓRICO (@72.67)** ➔ R$ 1,00 virou **R$ 72,67**!
-  - 🎲 **O Improvável:** ✅ **GREEN HISTÓRICO LENDÁRIO (@640.67)** ➔ 14 seleções cravadas! R$ 1,00 virou **R$ 640,67**!
+  - 🔥 **Soros (Ciclo 3 / Dia 2 de 30):** ✅ **GREEN (@1.38)** ➔ R$ 14,30 virou **R$ 19,73**! Benfica 3x2 e Freiburg 2x0 garantiram a passagem para o Dia 3!
+  - ⭐ **Bilhete Supremo (Anti-Clone):** ✅ **GREEN (@3.32)** ➔ R$ 3,00 virou **R$ 9,96**! (Liverpool 3x1, PSV 5x2 e Porto 2x1).
+  - 🛡️➕ **SAFE+:** ✅ **GREEN (@3.31)** ➔ R$ 2,25 virou **R$ 7,45**! (Freiburg 2x0, Villarreal 2x0, Real Sociedad 1x0 e Hoffenheim 2x1).
+  - 🚀 **Super Ataque:** ✅ **GREEN (@3.65)** ➔ R$ 1,50 virou **R$ 5,48**! (Barça BTTS 2x1, Man United 4x4 BTTS e Leverkusen 2x1).
+  - 🤠 **Aposentar o Neto:** ✅ **GREEN LENDÁRIO (@72.67)** ➔ R$ 1,00 virou **R$ 72,67**! (Todas as 7 pernas de gigantes europeus bateram perfeitamente sem clean sheet frágil!).
+  - 🟢 **SAFE:** ❌ **RED** (Stop 1 bateu @1.41 ✅; Stop 2 caiu exclusivamente no gol do América-MG aos 90+6' contra o Ceará).
+  - 🇧🇷 **Múltipla Nacional (Série B):** ❌ **RED** (Caiu no Ceará 0x1).
+  - 🎲 **O Improvável:** ❌ **RED POR 1 GOL** (13 de 14 seleções bateram perfeitamente! Quase pagou os R$ 640 com 1 realzinho, caindo apenas no gol do América-MG aos 96 minutos).
 
-- **Balanço Consolidado da Rodada:**
+- **Balanço Consolidado Real da Rodada:**
   - Investimento total em unidades: **R$ 25,25 (1.68 un)**
-  - Retorno total obtido: **R$ 768,80**
-  - **LUCRO LÍQUIDO:** **+R$ 743,55 (+49.57 UNIDADES LÍQUIDAS)!**
+  - Retorno total obtido: **R$ 95,56**
+  - **LUCRO LÍQUIDO REAL:** **+R$ 70,31 (+4.69 UNIDADES LÍQUIDAS)!**

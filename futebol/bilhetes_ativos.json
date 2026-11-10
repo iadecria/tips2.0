@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "snapshotId": "FAS_FOOTBALL_2026-11-08_V1_SUPER_DOMINGO_GLOBAL",
   "status": "AUDITED",
-  "notes": "CONFERE TOTAL OFICIAL 08/11/2026 (SUPER DOMINGO): GREEN HISTÓRICO ABSOLUTO EM TODOS OS BILHETES! SAFE Stop 2 (+R$ 13,95), Supremo (@3.32), SAFE+ (@3.31), Super Ataque (@3.65), Nacional (@2.41), Aposentar o Neto (@72.67) e Super Bingo Improvável (@640.67)! Lucro líquido da rodada: +R$ 743,55 (+49.57 unidades)! Desafio Soros avança ao Dia 3 com R$ 19,73.",
+  "notes": "CONFERE REAL OFICIAL 08/11/2026: Rodada histórica de elite europeia! Cravamos o Desafio Soros Dia 2 (@1.38), Bilhete Supremo (@3.32), SAFE+ (@3.31), Super Ataque (@3.65) e o lendário APOSENTAR O NETO (@72.67)! Na SAFE Stop 2 e no Improvável (@640), 13 de 14 seleções bateram perfeitamente, caindo apenas pelo gol do América-MG aos 96 minutos contra o Ceará (0x1).",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Domingo 08/11 / Anti-Clone)",
     "type": "FILE_DO_DIA",
@@ -44,7 +44,7 @@
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
-      "status": "GREEN",
+      "status": "PARTIAL",
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Quádrupla Blindada)",
@@ -71,7 +71,7 @@
             "Brighton x Brentford: Brighton ou Empate (Dupla Chance 1X @1.19)",
             "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)"
           ],
-          "status": "GREEN"
+          "status": "RED"
         },
         {
           "level": "Stop Point 3 (Expansão Máxima com Gols e Favoritos)",
@@ -87,10 +87,10 @@
             "Manchester United x Aston Villa: Mais de 1.5 Gols no Jogo (@1.22)",
             "Atlético Madrid x Barcelona: Mais de 1.5 Gols no Jogo (@1.25)"
           ],
-          "status": "GREEN"
+          "status": "RED"
         }
       ],
-      "actualReturn": 28.95
+      "actualReturn": 0.0
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Equilibrada)",
@@ -130,7 +130,7 @@
       "unitStake": 0.1,
       "multiplier": 2.41,
       "potentialReturn": 3.62,
-      "status": "GREEN",
+      "status": "RED",
       "legs": [
         "Ceará x América-MG (19:15 BRT): Ceará ou Empate (Dupla Chance 1X @1.15)",
         "Ceará x América-MG (19:15 BRT): Menos de 3.5 Gols no Jogo (@1.25)",
@@ -138,7 +138,7 @@
         "Athletic Club x Atlético-GO (16:00 BRT): Atlético-GO ou Empate (Dupla Chance X2 @1.24)",
         "Athletic Club x Atlético-GO (16:00 BRT): Menos de 3.5 Gols no Jogo (@1.22)"
       ],
-      "actualReturn": 3.62
+      "actualReturn": 0.0
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica Inteligente V6.2)",
@@ -167,7 +167,7 @@
       "unitStake": 0.07,
       "multiplier": 640.67,
       "potentialReturn": 640.67,
-      "status": "GREEN",
+      "status": "RED",
       "philosophy": "Super Bingo de Domingo: 14 seleções de gala com combos de V1+Over 1.5 e gols em campeonatos nacionais buscando odd @640+ com 1 real.",
       "legs": [
         "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
@@ -185,7 +185,8 @@
         "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)",
         "Goiás x Ponte Preta: Goiás Vence (Moneyline @1.11)"
       ],
-      "actualReturn": 640.67
+      "actualReturn": 0.0,
+      "notes": "Quase o bingo do ano! 13 de 14 jogos bateram. Caiu apenas no gol do América-MG aos 96 minutos contra o Ceará."
     }
   ],
   "sorosTicket": {

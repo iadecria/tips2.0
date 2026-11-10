@@ -1,19 +1,33 @@
 {
   "date": "2026-11-10",
-  "snapshotId": "FAS_FOOTBALL_2026-11-10_V1_UWCL_EFL_TROPHY",
+  "snapshotId": "FAS_FOOTBALL_2026-11-10_V2_COPA_DEL_REY_UWCL_EFL_INTEGRATED",
   "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 — TERÇA-FEIRA 10/11/2026: Rodada de meio de semana com a 4ª rodada da UEFA Women's Champions League e a fase decisiva do English EFL Trophy. Blindagem SAFE Shield 100%, Anti-Clone Supremo, Aposentar o Neto @70 sem clean sheet frágil e Super Bingo @608+.",
+  "notes": "GRADE OFICIAL FAS 3 V6.2 (UNIFICADA & CALIBRADA COM AVALIAÇÃO MUSE): Integração dos 3 confrontos da Copa del Rey (Alavés, Valencia no Mestalla e Eibar), recalibração factual do EFL Trophy com jogos 100% reais (Huddersfield, Bristol, Barnet, Grimsby, Mansfield) e Champions League Feminina com fontes de odds explicitadas.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Terça 10/11 / Anti-Clone)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.25,
+    "multiplierGlobal": 3.2,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 9.75,
-    "philosophy": "Desacoplamento total da SAFE Stop 2: Chelsea W e Roma W na Champions League com Huddersfield Town no EFL Trophy.",
+    "potentialReturn": 9.6,
+    "philosophy": "Desacoplamento total da SAFE Stop 2: Valencia no Mestalla, Eibar na Copa del Rey, Chelsea W na Champions e Huddersfield no EFL Trophy.",
     "status": "ACTIVE",
     "selections": [
+      {
+        "match": "UE Tavernes x Valencia CF (17:00 BRT)",
+        "competition": "Copa del Rey (Espanha)",
+        "market": "Valencia CF Vence por 2+ Gols (-1.5 AH)",
+        "odd": 1.28,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "CD Pamplona x SD Eibar (15:00 BRT)",
+        "competition": "Copa del Rey (Espanha)",
+        "market": "SD Eibar Vence (Moneyline)",
+        "odd": 1.25,
+        "status": "ACTIVE"
+      },
       {
         "match": "Häcken W x Chelsea W (14:45 BRT)",
         "competition": "UEFA Women's Champions League",
@@ -22,24 +36,10 @@
         "status": "ACTIVE"
       },
       {
-        "match": "AS Roma W x Servette Genéve W (17:00 BRT)",
-        "competition": "UEFA Women's Champions League",
-        "market": "AS Roma W Vence por 2+ Gols (-1.5 AH)",
-        "odd": 1.25,
-        "status": "ACTIVE"
-      },
-      {
         "match": "Huddersfield Town x Liverpool U21 (16:00 BRT)",
         "competition": "English EFL Trophy",
         "market": "Huddersfield Town Vence (Moneyline)",
         "odd": 1.45,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Inter W x Manchester City W (17:00 BRT)",
-        "competition": "UEFA Women's Champions League",
-        "market": "Manchester City W ou Empate (Dupla Chance X2)",
-        "odd": 1.3,
         "status": "ACTIVE"
       }
     ]
@@ -53,42 +53,47 @@
       "status": "ACTIVE",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (A Âncora Continental — Quádrupla Blindada)",
-          "multiplier": 1.42,
-          "potentialReturn": 21.3,
+          "level": "Stop Point 1 (A Âncora Continental — Quíntupla de Imunidade Absoluta)",
+          "multiplier": 1.35,
+          "potentialReturn": 20.25,
           "legs": [
+            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)",
+            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
             "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
-            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.12)"
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 1.86,
-          "potentialReturn": 27.9,
-          "netProfit": 12.9,
+          "multiplier": 1.95,
+          "potentialReturn": 29.25,
+          "netProfit": 14.25,
           "legs": [
+            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)",
+            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
             "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
             "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
+            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.12)",
             "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.12)",
-            "Wycombe Wanderers x Brighton U21: Wycombe ou Empate (Dupla Chance 1X @1.14)",
             "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
-          "multiplier": 2.84,
-          "potentialReturn": 42.6,
+          "multiplier": 2.97,
+          "potentialReturn": 44.55,
           "legs": [
+            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)",
+            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
             "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
             "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
+            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.12)",
             "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.12)",
-            "Wycombe Wanderers x Brighton U21: Wycombe ou Empate (Dupla Chance 1X @1.14)",
             "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)",
             "PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)",
             "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
@@ -98,18 +103,18 @@
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Equilibrada)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Copas & Favoritos)",
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.67,
-      "potentialReturn": 8.26,
+      "multiplier": 3.36,
+      "potentialReturn": 7.56,
       "status": "ACTIVE",
       "legs": [
-        "Real Madrid W x Paris FC W: Real Madrid W Vence (Moneyline @1.42)",
-        "Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)",
-        "Wycombe Wanderers x Brighton U21: Wycombe Wanderers Vence (Moneyline @1.55)",
-        "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
+        "UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.28)",
+        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)",
+        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.45)",
+        "Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)"
       ]
     },
     {
@@ -127,63 +132,65 @@
       ]
     },
     {
-      "name": "MÚLTIPLA COPAS (English EFL Trophy Decisivo)",
+      "name": "🏆 MÚLTIPLA COPAS (Copa del Rey & English EFL Trophy)",
       "type": "COPAS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.48,
-      "potentialReturn": 3.72,
+      "multiplier": 2.71,
+      "potentialReturn": 4.07,
       "status": "ACTIVE",
       "legs": [
+        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.25)",
+        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)",
+        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)",
         "Huddersfield Town x Liverpool U21: Mais de 1.5 Gols no Jogo (@1.22)",
-        "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)",
-        "Wycombe Wanderers x Brighton U21: Wycombe ou Empate (Dupla Chance 1X @1.14)",
-        "Chesterfield x Grimsby Town: Mais de 1.5 Gols no Jogo (@1.24)",
-        "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
+        "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
       ]
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica Inteligente V6.2)",
+      "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica V6.2)",
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 70.52,
-      "potentialReturn": 70.52,
+      "multiplier": 71.39,
+      "potentialReturn": 71.39,
       "status": "ACTIVE",
-      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Uso de combos correlacionados (V1 & Over 1.5 / BTTS & Over 2.5) buscando meta de R$ 50 a R$ 80.",
+      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Combos de alta conversão (V1 & Over 1.5 / BTTS & Over 2.5) pagando na meta exata de R$ 50 a R$ 80.",
       "legs": [
+        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)",
+        "CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.45)",
+        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)",
         "Häcken W x Chelsea W: Chelsea W Vence & Mais de 2.5 Gols (@1.75)",
-        "AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)",
         "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
         "PSG W x Bayern Munich W: Ambos Marcam & Mais de 2.5 Gols (@1.92)",
-        "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)",
-        "Wycombe Wanderers x Brighton U21: Wycombe Vence & Mais de 1.5 Gols (@1.90)",
         "Bristol Rovers x Reading: Ambos Marcam & Mais de 2.5 Gols (@1.95)"
       ]
     },
     {
-      "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @600+)",
+      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @600+)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 608.75,
-      "potentialReturn": 608.75,
+      "multiplier": 628.45,
+      "potentialReturn": 628.45,
       "status": "ACTIVE",
-      "philosophy": "Super Bingo de Terça-feira com 13 seleções de alta sinergia e combos correlacionados de V1+Over 1.5 e gols buscando R$ 608+ com 1 real.",
+      "philosophy": "Super Bingo com 13 seleções reais e calibradas de Copa del Rey, UWCL e EFL Trophy buscando R$ 628+ com 1 real.",
       "legs": [
+        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)",
+        "CD Anaitasuna x Deportivo Alavés: Alavés Vence & Mais de 1.5 Gols (@1.35)",
+        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)",
         "Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)",
         "AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)",
         "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
         "PSG W x Bayern Munich W: Mais de 2.5 Gols no Jogo (@1.65)",
         "Inter W x Manchester City W: Mais de 2.5 Gols no Jogo (@1.58)",
         "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)",
-        "Wycombe Wanderers x Brighton U21: Wycombe Vence & Mais de 1.5 Gols (@1.90)",
-        "Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)",
         "Bristol Rovers x Reading: Mais de 2.5 Gols no Jogo (@1.60)",
         "Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)",
-        "Chesterfield x Grimsby Town: Mais de 2.5 Gols no Jogo (@1.62)",
+        "Grimsby Town x Nottingham Forest U21: Mais de 2.5 Gols no Jogo (@1.55)",
+        "Mansfield Town x Chesterfield: Mais de 2.5 Gols no Jogo (@1.60)",
         "Inter W x Manchester City W: Ambos os Times Marcam (Sim @1.52)",
-        "PSG W x Bayern Munich W: Ambos os Times Marcam (Sim @1.55)"
+        "Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)"
       ]
     }
   ],
@@ -192,13 +199,13 @@
     "day": 3,
     "targetDays": 30,
     "stake": 19.73,
-    "multiplier": 1.32,
-    "potentialReturn": 26.04,
+    "multiplier": 1.35,
+    "potentialReturn": 26.64,
     "status": "ACTIVE",
-    "philosophy": "Princípio da Imunidade Absoluta V6: Chelsea Women potência europeia contra o Häcken e Real Madrid feminino no Di Stéfano.",
+    "philosophy": "Princípio da Imunidade Absoluta V6: Alavés contra time regional da 5ª divisão na Copa del Rey e Chelsea Women bicampeã contra o Häcken.",
     "legs": [
-      "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
-      "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)"
+      "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)",
+      "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)"
     ]
   }
 }

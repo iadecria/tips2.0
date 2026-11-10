@@ -4323,25 +4323,22 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Odd: 2.73 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 8,19
   - *Regra Anti-Clone:* 100% independente do Stop 2 da SAFE!
 
-- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.4 — Blindagem Anti-Série B):**
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5 — Filtro Anti-Inchamento):**
   - Stake: 1.00u (R$ 15,00)
-  - **Stop Point 1 (Quíntupla Continental Blindada @1.19):**
-    - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)
-    - UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)
-    - CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)
-    - Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)
-    - AS Roma W x Servette W: AS Roma W ou Empate (Dupla Chance 1X @1.05)
-    - *Retorno Stop 1:* R$ 17,85.
-  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @2.00) — [SAÍDA DO USUÁRIO]:**
+  - *Filosofia:* Banimento de micro-odds (1.01 e 1.02) que apenas agregam risco de 90 minutos sem remunerar. Grade reduzida de 8 para apenas 3 a 5 seleções de alto valor real.
+  - **Stop Point 1 (Tripla Enxuta de Imunidade @1.43):**
+    - Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)
+    - CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)
+    - Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)
+    - *Retorno Stop 1:* R$ 21,45.
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.85) — [SAÍDA DO USUÁRIO]:**
     - + AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)
-    - + Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.08)
-    - + Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)
-    - + Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)
-    - *Retorno Stop 2:* R$ 30,00 (Lucro líquido: +R$ 15,00 cobrindo 162% de todos os secundários combinados).
-  - **Stop Point 3 (Expansão Máxima com Gols Europeus @3.05):**
+    - + Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.08)
+    - *Retorno Stop 2:* **R$ 27,75** (Lucro líquido: +R$ 12,75 cobrindo 138% de todos os secundários de R$ 9,25 com apenas 5 seleções!).
+  - **Stop Point 3 (Expansão com Gols Europeus @2.82):**
     - + PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)
     - + Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)
-    - *Retorno Stop 3:* R$ 45,75.
+    - *Retorno Stop 3:* R$ 42,30.
 
 - 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.67 — Alavancagem de Copas & Favoritos):**
   - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.22)

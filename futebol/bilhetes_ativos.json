@@ -52,55 +52,48 @@
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.4 — Odds Reais)",
+      "name": "MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5 — Filtro Anti-Inchamento)",
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
       "status": "ACTIVE",
+      "philosophy": "Eliminação do 'lixo' de odds 1.01 e 1.02 que só adicionam risco operacional. Grade enxuta de 3 a 5 pernas sólidas para atingir a meta do SAFE Shield com o menor número possível de pontos de falha.",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (A Âncora Continental — Quíntupla de Imunidade Absoluta)",
-          "multiplier": 1.19,
-          "potentialReturn": 17.85,
+          "level": "Stop Point 1 (Tripla Enxuta de Imunidade Absoluta)",
+          "multiplier": 1.43,
+          "potentialReturn": 21.45,
           "legs": [
-            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)",
-            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)",
-            "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W ou Empate (Dupla Chance 1X @1.05)"
+            "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
+            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 2.0,
-          "potentialReturn": 30.0,
-          "netProfit": 15.0,
+          "multiplier": 1.85,
+          "potentialReturn": 27.75,
+          "netProfit": 12.75,
           "legs": [
-            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)",
-            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)",
-            "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
-            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.08)",
+            "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
             "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
+            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.08)"
           ],
           "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
-          "multiplier": 3.05,
-          "potentialReturn": 45.75,
+          "level": "Stop Point 3 (Expansão com Gols Europeus)",
+          "multiplier": 2.82,
+          "potentialReturn": 42.3,
           "legs": [
-            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)",
-            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)",
-            "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
-            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.08)",
+            "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
             "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)",
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
+            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.08)",
             "PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)",
             "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
           ],

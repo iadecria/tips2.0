@@ -1,42 +1,48 @@
 {
-  "date": "2026-11-08",
-  "snapshotId": "FAS_FOOTBALL_2026-11-08_V1_SUPER_DOMINGO_GLOBAL",
-  "status": "AUDITED",
-  "notes": "CONFERE REAL OFICIAL 08/11/2026: Rodada histórica de elite europeia! Cravamos o Desafio Soros Dia 2 (@1.38), Bilhete Supremo (@3.32), SAFE+ (@3.31), Super Ataque (@3.65) e o lendário APOSENTAR O NETO (@72.67)! Na SAFE Stop 2 e no Improvável (@640), 13 de 14 seleções bateram perfeitamente, caindo apenas pelo gol do América-MG aos 96 minutos contra o Ceará (0x1).",
+  "date": "2026-11-10",
+  "snapshotId": "FAS_FOOTBALL_2026-11-10_V1_UWCL_EFL_TROPHY",
+  "status": "ACTIVE",
+  "notes": "GRADE OFICIAL FAS 3 — TERÇA-FEIRA 10/11/2026: Rodada de meio de semana com a 4ª rodada da UEFA Women's Champions League e a fase decisiva do English EFL Trophy. Blindagem SAFE Shield 100%, Anti-Clone Supremo, Aposentar o Neto @70 sem clean sheet frágil e Super Bingo @608+.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Domingo 08/11 / Anti-Clone)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Terça 10/11 / Anti-Clone)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.32,
+    "multiplierGlobal": 3.25,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 9.96,
-    "philosophy": "Desacoplamento total da SAFE Stop 2: Liverpool na Premier League, PSV na Eredivisie e FC Porto na Liga Portugal.",
-    "status": "GREEN",
+    "potentialReturn": 9.75,
+    "philosophy": "Desacoplamento total da SAFE Stop 2: Chelsea W e Roma W na Champions League com Huddersfield Town no EFL Trophy.",
+    "status": "ACTIVE",
     "selections": [
       {
-        "match": "Crystal Palace x Liverpool (11:00 BRT)",
-        "competition": "Premier League (Inglaterra)",
-        "market": "Liverpool Vence (Moneyline)",
-        "odd": 1.62,
-        "status": "HIT"
+        "match": "Häcken W x Chelsea W (14:45 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "Chelsea W Vence & Mais de 1.5 Gols",
+        "odd": 1.38,
+        "status": "ACTIVE"
       },
       {
-        "match": "SC Cambuur x PSV Eindhoven (12:45 BRT)",
-        "competition": "Eredivisie (Holanda)",
-        "market": "PSV Eindhoven Vence (Moneyline)",
-        "odd": 1.33,
-        "status": "HIT"
+        "match": "AS Roma W x Servette Genéve W (17:00 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "AS Roma W Vence por 2+ Gols (-1.5 AH)",
+        "odd": 1.25,
+        "status": "ACTIVE"
       },
       {
-        "match": "Vitória SC x FC Porto (15:00 BRT)",
-        "competition": "Liga Portugal",
-        "market": "FC Porto Vence (Moneyline)",
-        "odd": 1.54,
-        "status": "HIT"
+        "match": "Huddersfield Town x Liverpool U21 (16:00 BRT)",
+        "competition": "English EFL Trophy",
+        "market": "Huddersfield Town Vence (Moneyline)",
+        "odd": 1.45,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Inter W x Manchester City W (17:00 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "Manchester City W ou Empate (Dupla Chance X2)",
+        "odd": 1.3,
+        "status": "ACTIVE"
       }
-    ],
-    "actualReturn": 9.96
+    ]
   },
   "structuredTickets": [
     {
@@ -44,164 +50,155 @@
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
-      "status": "PARTIAL",
+      "status": "ACTIVE",
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Quádrupla Blindada)",
-          "multiplier": 1.41,
-          "potentialReturn": 21.15,
+          "multiplier": 1.42,
+          "potentialReturn": 21.3,
           "legs": [
-            "Villarreal x Getafe: Villarreal ou Empate (Dupla Chance 1X @1.11)",
-            "CF Estrela x Benfica: Benfica ou Empate (Dupla Chance X2 @1.05)",
-            "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
-            "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)"
+            "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
+            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
+            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.12)"
           ],
-          "status": "GREEN"
+          "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 1.93,
-          "potentialReturn": 28.95,
-          "netProfit": 13.95,
+          "multiplier": 1.86,
+          "potentialReturn": 27.9,
+          "netProfit": 12.9,
           "legs": [
-            "Villarreal x Getafe: Villarreal ou Empate (Dupla Chance 1X @1.11)",
-            "CF Estrela x Benfica: Benfica ou Empate (Dupla Chance X2 @1.05)",
-            "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
-            "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)",
-            "Brighton x Brentford: Brighton ou Empate (Dupla Chance 1X @1.19)",
-            "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)"
+            "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
+            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
+            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.12)",
+            "Wycombe Wanderers x Brighton U21: Wycombe ou Empate (Dupla Chance 1X @1.14)",
+            "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
           ],
-          "status": "RED"
+          "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão Máxima com Gols e Favoritos)",
-          "multiplier": 2.94,
-          "potentialReturn": 44.1,
+          "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
+          "multiplier": 2.84,
+          "potentialReturn": 42.6,
           "legs": [
-            "Villarreal x Getafe: Villarreal ou Empate (Dupla Chance 1X @1.11)",
-            "CF Estrela x Benfica: Benfica ou Empate (Dupla Chance X2 @1.05)",
-            "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)",
-            "SC Cambuur x PSV Eindhoven: PSV Eindhoven ou Empate (Dupla Chance X2 @1.06)",
-            "Brighton x Brentford: Brighton ou Empate (Dupla Chance 1X @1.19)",
-            "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)",
-            "Manchester United x Aston Villa: Mais de 1.5 Gols no Jogo (@1.22)",
-            "Atlético Madrid x Barcelona: Mais de 1.5 Gols no Jogo (@1.25)"
+            "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
+            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
+            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.12)",
+            "Wycombe Wanderers x Brighton U21: Wycombe ou Empate (Dupla Chance 1X @1.14)",
+            "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)",
+            "PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
           ],
-          "status": "RED"
+          "status": "ACTIVE"
         }
-      ],
-      "actualReturn": 0.0
+      ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Equilibrada)",
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.31,
-      "potentialReturn": 7.45,
-      "status": "GREEN",
+      "multiplier": 3.67,
+      "potentialReturn": 8.26,
+      "status": "ACTIVE",
       "legs": [
-        "SC Freiburg x Union Berlin: SC Freiburg Vence (Moneyline @1.50)",
-        "Villarreal x Getafe: Villarreal Vence (Moneyline @1.45)",
-        "Real Sociedad x Rayo Vallecano: Real Sociedad Empate Anula (DNB @1.28)",
-        "TSG Hoffenheim x Schalke 04: TSG Hoffenheim ou Empate (Dupla Chance 1X @1.19)"
-      ],
-      "actualReturn": 7.45
+        "Real Madrid W x Paris FC W: Real Madrid W Vence (Moneyline @1.42)",
+        "Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)",
+        "Wycombe Wanderers x Brighton U21: Wycombe Wanderers Vence (Moneyline @1.55)",
+        "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
+      ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Trocação Franca de Gols)",
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 3.65,
-      "potentialReturn": 5.48,
-      "status": "GREEN",
+      "multiplier": 3.96,
+      "potentialReturn": 5.94,
+      "status": "ACTIVE",
       "legs": [
-        "Atlético Madrid x Barcelona: Ambos os Times Marcam (Sim @1.52)",
-        "Manchester United x Aston Villa: Ambos os Times Marcam (Sim @1.55)",
-        "1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)"
-      ],
-      "actualReturn": 5.48
+        "PSG W x Bayern Munich W (17:00 BRT): Ambos os Times Marcam (Sim @1.55)",
+        "Bristol Rovers x Reading (16:00 BRT): Ambos os Times Marcam (Sim @1.55)",
+        "Barnet x Leyton Orient (16:00 BRT): Mais de 2.5 Gols no Jogo (@1.65)"
+      ]
     },
     {
-      "name": "MÚLTIPLA NACIONAL (Brasileirão Série B - Reta Final)",
-      "type": "BRASILEIRAO",
+      "name": "MÚLTIPLA COPAS (English EFL Trophy Decisivo)",
+      "type": "COPAS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.41,
-      "potentialReturn": 3.62,
-      "status": "RED",
+      "multiplier": 2.48,
+      "potentialReturn": 3.72,
+      "status": "ACTIVE",
       "legs": [
-        "Ceará x América-MG (19:15 BRT): Ceará ou Empate (Dupla Chance 1X @1.15)",
-        "Ceará x América-MG (19:15 BRT): Menos de 3.5 Gols no Jogo (@1.25)",
-        "Goiás x Ponte Preta (19:15 BRT): Goiás Vence (Moneyline @1.11)",
-        "Athletic Club x Atlético-GO (16:00 BRT): Atlético-GO ou Empate (Dupla Chance X2 @1.24)",
-        "Athletic Club x Atlético-GO (16:00 BRT): Menos de 3.5 Gols no Jogo (@1.22)"
-      ],
-      "actualReturn": 0.0
+        "Huddersfield Town x Liverpool U21: Mais de 1.5 Gols no Jogo (@1.22)",
+        "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)",
+        "Wycombe Wanderers x Brighton U21: Wycombe ou Empate (Dupla Chance 1X @1.14)",
+        "Chesterfield x Grimsby Town: Mais de 1.5 Gols no Jogo (@1.24)",
+        "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
+      ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica Inteligente V6.2)",
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 72.67,
-      "potentialReturn": 72.67,
-      "status": "GREEN",
-      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Combos correlacionados de alta conversão buscando meta exata de R$ 50 a R$ 80.",
+      "multiplier": 70.52,
+      "potentialReturn": 70.52,
+      "status": "ACTIVE",
+      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Uso de combos correlacionados (V1 & Over 1.5 / BTTS & Over 2.5) buscando meta de R$ 50 a R$ 80.",
       "legs": [
-        "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
-        "SC Cambuur x PSV Eindhoven: PSV Vence & Mais de 2.5 Gols (@1.78)",
-        "Atlético Madrid x Barcelona: Ambos Marcam & Mais de 2.5 Gols (@1.88)",
-        "Manchester United x Aston Villa: Ambos Marcam & Mais de 2.5 Gols (@1.92)",
-        "Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)",
-        "Villarreal x Getafe: Villarreal Vence & Menos de 4.5 Gols (@1.65)",
-        "SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)"
-      ],
-      "actualReturn": 72.67
+        "Häcken W x Chelsea W: Chelsea W Vence & Mais de 2.5 Gols (@1.75)",
+        "AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)",
+        "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
+        "PSG W x Bayern Munich W: Ambos Marcam & Mais de 2.5 Gols (@1.92)",
+        "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)",
+        "Wycombe Wanderers x Brighton U21: Wycombe Vence & Mais de 1.5 Gols (@1.90)",
+        "Bristol Rovers x Reading: Ambos Marcam & Mais de 2.5 Gols (@1.95)"
+      ]
     },
     {
       "name": "MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @600+)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 640.67,
-      "potentialReturn": 640.67,
-      "status": "RED",
-      "philosophy": "Super Bingo de Domingo: 14 seleções de gala com combos de V1+Over 1.5 e gols em campeonatos nacionais buscando odd @640+ com 1 real.",
+      "multiplier": 608.75,
+      "potentialReturn": 608.75,
+      "status": "ACTIVE",
+      "philosophy": "Super Bingo de Terça-feira com 13 seleções de alta sinergia e combos correlacionados de V1+Over 1.5 e gols buscando R$ 608+ com 1 real.",
       "legs": [
-        "Crystal Palace x Liverpool: Liverpool Vence & Mais de 1.5 Gols (@1.95)",
-        "SC Cambuur x PSV Eindhoven: PSV Vence & Mais de 2.5 Gols (@1.78)",
-        "CF Estrela x Benfica: Benfica Vence & Mais de 1.5 Gols (@1.42)",
-        "Vitória SC x FC Porto: FC Porto Vence & Mais de 1.5 Gols (@1.90)",
-        "Villarreal x Getafe: Villarreal Vence & Mais de 1.5 Gols (@1.75)",
-        "SC Freiburg x Union Berlin: SC Freiburg Vence & Mais de 1.5 Gols (@1.85)",
-        "TSG Hoffenheim x Schalke 04: TSG Hoffenheim Vence & Mais de 1.5 Gols (@1.92)",
-        "Brighton x Brentford: Brighton ou Empate & Mais de 1.5 Gols (@1.50)",
-        "Atlético Madrid x Barcelona: Mais de 2.5 Gols no Jogo (@1.55)",
-        "Manchester United x Aston Villa: Mais de 2.5 Gols no Jogo (@1.65)",
-        "1. FC Köln x Bayer Leverkusen: Mais de 2.5 Gols no Jogo (@1.55)",
-        "Heerenveen x Feyenoord: Mais de 2.5 Gols no Jogo (@1.45)",
-        "Ceará x América-MG: Ceará ou Empate (Dupla Chance 1X @1.15)",
-        "Goiás x Ponte Preta: Goiás Vence (Moneyline @1.11)"
-      ],
-      "actualReturn": 0.0,
-      "notes": "Quase o bingo do ano! 13 de 14 jogos bateram. Caiu apenas no gol do América-MG aos 96 minutos contra o Ceará."
+        "Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)",
+        "AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)",
+        "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
+        "PSG W x Bayern Munich W: Mais de 2.5 Gols no Jogo (@1.65)",
+        "Inter W x Manchester City W: Mais de 2.5 Gols no Jogo (@1.58)",
+        "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)",
+        "Wycombe Wanderers x Brighton U21: Wycombe Vence & Mais de 1.5 Gols (@1.90)",
+        "Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)",
+        "Bristol Rovers x Reading: Mais de 2.5 Gols no Jogo (@1.60)",
+        "Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)",
+        "Chesterfield x Grimsby Town: Mais de 2.5 Gols no Jogo (@1.62)",
+        "Inter W x Manchester City W: Ambos os Times Marcam (Sim @1.52)",
+        "PSG W x Bayern Munich W: Ambos os Times Marcam (Sim @1.55)"
+      ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 2 DE 30",
-    "day": 2,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 3 DE 30",
+    "day": 3,
     "targetDays": 30,
-    "stake": 14.3,
-    "multiplier": 1.38,
-    "potentialReturn": 19.73,
-    "status": "GREEN",
-    "philosophy": "Princípio da Imunidade Absoluta V6: Benfica no topo português e Freiburg invicto no Europa-Park pela Bundesliga.",
+    "stake": 19.73,
+    "multiplier": 1.32,
+    "potentialReturn": 26.04,
+    "status": "ACTIVE",
+    "philosophy": "Princípio da Imunidade Absoluta V6: Chelsea Women potência europeia contra o Häcken e Real Madrid feminino no Di Stéfano.",
     "legs": [
-      "CF Estrela x Benfica: Benfica Vence (Moneyline @1.21)",
-      "SC Freiburg x Union Berlin: SC Freiburg ou Empate (Dupla Chance 1X @1.14)"
-    ],
-    "actualReturn": 19.73
+      "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
+      "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)"
+    ]
   }
 }

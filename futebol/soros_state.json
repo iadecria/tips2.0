@@ -309,6 +309,15 @@
       "status": "HIT",
       "actualReturn": 19.73,
       "notes": "GREEN cravado! Estrela 0x3 Benfica (Benfica ML ✅) + Freiburg 2x1 Union Berlin (Freiburg 1X ✅). Retorno: R$ 19,73."
+    },
+    {
+      "day": 3,
+      "date": "2026-11-10",
+      "stakeIn": 19.73,
+      "selection": "Häcken W x Chelsea W (Chelsea W Vence ML @1.18) + Real Madrid W x Paris FC W (Real Madrid W ou Empate 1X @1.12)",
+      "odd": 1.32,
+      "potentialReturn": 26.04,
+      "status": "ACTIVE"
     }
   ]
 }

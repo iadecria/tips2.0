@@ -205,18 +205,19 @@
     "day": 3,
     "targetDays": 30,
     "stake": 19.73,
-    "multiplier": 1.44,
-    "potentialReturn": 28.41,
+    "multiplier": 1.36,
+    "potentialReturn": 26.85,
     "status": "ACTIVE",
-    "philosophy": "Princípio da Imunidade Absoluta V6.4: Dupla com odds 100% reais de mercado (Chelsea Women ML @1.18 + SD Eibar ML @1.22) pagando @1.44 limpo.",
+    "bookmaker": "Melbet / Stake",
+    "philosophy": "Princípio da Imunidade Absoluta V6.4: Dupla ao vivo na Melbet (Chelsea W V2 @1.166 + SD Eibar V2 @1.167) gerando odd combinada de 1.36 cravada na meta do Soros.",
     "vaultPlan": {
       "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero)",
       "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
       "currentCycleNetRisk": "R$ 10,00 inicial (já alavancado a R$ 19,73)"
     },
     "legs": [
-      "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
-      "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)"
+      "Häcken W x Chelsea W: Chelsea W Vence (1X2: V2 @1.166)",
+      "CD Pamplona x SD Eibar: SD Eibar Vence (1X2: V2 @1.167)"
     ]
   }
 }

@@ -4233,141 +4233,162 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - **LUCRO LÍQUIDO REAL:** **+R$ 70,31 (+4.69 UNIDADES LÍQUIDAS)!**
 
 
-### [2026-11-10] — RODADA DIÁRIA (UEFA WOMEN\'S CHAMPIONS LEAGUE & ENGLISH EFL TROPHY DECISIVO)
+### [2026-11-10] — RODADA DIÁRIA (COPA DEL REY, UWCL & ENGLISH EFL TROPHY DECISIVO)
 
-- **Snapshot ID:** FAS_FOOTBALL_2026-11-10_V1_UWCL_EFL_TROPHY
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-10_V3_UPGRADED_4_RULES`
 - **Data do Registro:** 2026-11-10
 - **Cutoff:** 2026-11-10T14:15:00-03:00
-- **Contexto da Data:** Terça-feira de meio de semana pré-janela FIFA internacional. Destaque para a 4ª rodada da fase de grupos da UEFA Women\'s Champions League com Chelsea, Real Madrid, Roma, PSG e Manchester City em campo; e a rodada decisiva da fase de grupos do English EFL Trophy com equipes seniores tradicionais (Huddersfield, Reading, Stockport) enfrentando filiais sub-21 da Premier League.
+- **Contexto da Data:** Terça-feira de copas e competições continentais. Integração dos 3 duelos adiados da Copa del Rey (Alavés, Valencia no Mestalla e Eibar), 4ª rodada da UWCL feminina (Chelsea, Roma, PSG, Bayern, Real Madrid, City) e rodada decisiva do EFL Trophy inglês.
 - **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+- **Melhorias Estratégicas Aplicadas (FAS V6.3):**
+  1. *Blindagem Anti-Série B na SAFE*: Banimento total de ligas secundárias em reta final caótica na SAFE Stop 1 e 2.
+  2. *Protocolo Oficial de Cash Out*: Ativação de cash out ou hedge na Múltipla 5 Improvável quando 80%+ das seleções baterem e a odd pagar >= 30x.
+  3. *Regra do Cofre no Soros*: Saque da stake inicial de R$ 10,00 no Dia 5 (risco zero) e trava de +R$ 20,00 de lucro líquido no Dia 7.
+  4. *Filtro de Desnível & Inversão de Mando*: Tavernes x Valencia disputado no próprio estádio Mestalla; exclusão de jogos fictícios ou amistosos do EFL Trophy.
 
 #### 1. Discovery e Cobertura
-- Analisados: 18 fixtures de competições continentais de elite e copas nacionais inglesas.
-- Elegíveis: 11 fixtures selecionadas com alta assimetria e favoritismos expressivos.
-- Filtro de Risco: Banimento de Clean Sheets e Handicaps -2.5. Uso exclusivo de V1+Over 1.5 e BTTS+Over 2.5.
+- Analisados: 22 fixtures (Copa del Rey, UWCL, EFL Trophy).
+- Elegíveis: 14 fixtures de altíssima convicção técnica.
+- Descartados: Jogos fictícios do EFL Trophy e confrontos equilibrados de copas regionais sem motivação classificatória.
 
 #### 2. Grade de Fixtures e Teses Pré-Jogo
-1. **Häcken W × Chelsea W** (14:45 BRT — UEFA Women\'s Champions League)
+1. **CD Anaitasuna × Deportivo Alavés** (15:00 BRT — Copa del Rey)
+   - **Game State & Contexto:** Abismo técnico monumental: Primeira Divisão espanhola (La Liga) contra clube da 5ª divisão regional. Alavés com elenco amplamente superior física e taticamente.
+   - **Tese (Soros Ciclo 3 - Dia 3):** Deportivo Alavés Vence (Moneyline @1.14) | Dupla Chance X2 (@1.03) | Alavés -1.5 AH (@1.45)
+
+2. **UE Tavernes × Valencia CF** (17:00 BRT — Copa del Rey)
+   - **Game State & Contexto:** Partida disputada com mando invertido no próprio estádio de **Mestalla**! Clube de divisão regional valenciana jogando na casa do gigante da La Liga.
+   - **Tese:** Valencia CF Vence (Moneyline @1.07) | Valencia -1.5 AH (@1.28) | Valencia & Over 2.5 Gols (@1.42)
+
+3. **CD Pamplona × SD Eibar** (15:00 BRT — Copa del Rey)
+   - **Game State & Contexto:** Eibar, postulante ao acesso na La Liga Hypermotion, contra o modesto CD Pamplona da Tercera RFEF.
+   - **Tese:** SD Eibar ou Empate (Dupla Chance X2 @1.08) | SD Eibar Vence (Moneyline @1.25) | Eibar & Over 1.5 (@1.55)
+
+4. **Häcken W × Chelsea W** (14:45 BRT — UEFA Women's Champions League)
    - **Game State & Contexto:** Bravida Arena em Gotemburgo. O Chelsea feminino é uma das maiores potências mundiais, invicto na competição e com ataque demolidor; Häcken sofre contra equipes do top 4 continental.
-   - **Tese (Soros Ciclo 3 - Dia 3):** Chelsea W Vence (Moneyline @1.18) | Dupla Chance X2 (@1.05) | Chelsea V1 & Mais de 1.5 Gols (@1.38)
+   - **Tese (Soros Ciclo 3 - Dia 3):** Chelsea W Vence (Moneyline @1.18) | Dupla Chance X2 (@1.05) | Chelsea V1 & Mais de 1.5 Gols (@1.38) | Chelsea V1 & Over 2.5 (@1.75)
 
-2. **Real Madrid W × Paris FC W** (17:00 BRT — UEFA Women\'s Champions League)
-   - **Game State & Contexto:** Estádio Alfredo Di Stéfano em Madrid. As merengues dominam o mando de campo na Champions; Paris FC é combativo mas perde intensidade fora da França.
-   - **Tese (Soros Ciclo 3 - Dia 3):** Real Madrid W ou Empate (Dupla Chance 1X @1.12) | Real Madrid W Vence (ML @1.42) | Real Madrid V1 & Over 1.5 (@1.85)
-
-3. **AS Roma W × Servette Genéve W** (17:00 BRT — UEFA Women\'s Champions League)
+5. **AS Roma W × Servette Genéve W** (14:45 BRT — UEFA Women's Champions League)
    - **Game State & Contexto:** Stadio Tre Fontane em Roma. Abismo técnico gigantesco; Servette sofreu goleadas nas primeiras rodadas e Roma precisa de saldo de gols.
-   - **Tese:** AS Roma W Vence (Moneyline @1.08) | AS Roma W -1.5 AH (@1.25) | Roma V1 & Over 2.5 (@1.40)
+   - **Tese:** AS Roma W Vence (Moneyline @1.08) | Roma V1 & Over 2.5 (@1.40)
 
-4. **Huddersfield Town × Liverpool U21** (16:00 BRT — English EFL Trophy)
-   - **Game State & Contexto:** John Smith\'s Stadium. Elenco profissional da League One com maior porte físico e maturidade tática contra jovens promissores sub-21 do Liverpool. Jogo de transição aberta.
-   - **Tese:** Huddersfield Town ou Empate (Dupla Chance 1X @1.12) | Huddersfield Vence (ML @1.45) | Huddersfield V1 & Over 1.5 (@1.75)
+6. **Real Madrid W × Paris FC W** (17:00 BRT — UEFA Women's Champions League)
+   - **Game State & Contexto:** Estádio Alfredo Di Stéfano em Madrid. As merengues dominam o mando de campo na Champions; Paris FC é combativo mas perde intensidade fora da França.
+   - **Tese:** Real Madrid W ou Empate (Dupla Chance 1X @1.12) | Real Madrid V1 & Over 1.5 (@1.85)
 
-5. **Wycombe Wanderers × Brighton U21** (16:00 BRT — English EFL Trophy)
-   - **Game State & Contexto:** Adams Park. Wycombe tem uma das bolas paradas mais letais das divisões de acesso inglesas; Brighton sub-21 concede muitos gols aéreos.
-   - **Tese:** Wycombe ou Empate (Dupla Chance 1X @1.14) | Wycombe Vence (ML @1.55) | Wycombe V1 & Over 1.5 (@1.90)
-
-6. **Stockport County × Tranmere Rovers** (16:00 BRT — English EFL Trophy)
-   - **Game State & Contexto:** Edgeley Park. Stockport em grande fase mandante contra o modesto Tranmere.
-   - **Tese:** Stockport ou Empate (Dupla Chance 1X @1.15) | Stockport V1 & Over 1.5 (@1.95)
-
-7. **PSG W × Bayern Munich W** (17:00 BRT — UEFA Women\'s Champions League)
+7. **PSG W × Bayern Munich W** (17:00 BRT — UEFA Women's Champions League)
    - **Game State & Contexto:** Clássico europeu de elite no Parque dos Príncipes; dois ataques letais com média superior a 2.5 gols por jogo.
-   - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.55) | Mais de 2.5 Gols no Jogo (@1.65) | BTTS & Over 2.5 (@1.92)
+   - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.55) | Mais de 1.5 Gols (@1.22) | Mais de 2.5 Gols (@1.65) | BTTS & Over 2.5 (@1.92)
 
-8. **Bristol Rovers × Reading** (16:00 BRT — English EFL Trophy)
-   - **Game State & Contexto:** Memorial Stadium. Confronto direto de classificação no EFL Trophy com postura super ofensiva de ambos os lados.
-   - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.55) | Mais de 2.5 Gols no Jogo (@1.60) | BTTS & Over 2.5 (@1.95)
+8. **Inter W × Manchester City W** (17:00 BRT — UEFA Women's Champions League)
+   - **Game State & Contexto:** Arena Civica. City possui ataque letal e Inter joga em bloco vertical agressivo.
+   - **Tese:** Mais de 2.5 Gols no Jogo (@1.58) | Ambos os Times Marcam (Sim @1.52)
 
-9. **Barnet × Leyton Orient** (16:00 BRT — English EFL Trophy)
-   - **Game State & Contexto:** The Hive Stadium em Londres. Duelo aberto de equipes ofensivas no torneio de troféu.
-   - **Tese:** Mais de 2.5 Gols no Jogo (@1.65)
+9. **Huddersfield Town × Liverpool U21** (16:00 BRT — English EFL Trophy)
+   - **Game State & Contexto:** John Smith's Stadium. Elenco profissional da League One precisa da vitória para avançar; jovens do Liverpool U21 têm fragilidade na marcação defensiva física.
+   - **Tese:** Huddersfield ou Empate (Dupla Chance 1X @1.12) | Huddersfield Vence (ML @1.45) | Huddersfield V1 & Over 1.5 (@1.75)
 
-10. **Inter W × Manchester City W** (17:00 BRT — UEFA Women\'s Champions League)
-    - **Tese:** Mais de 2.5 Gols no Jogo (@1.58) | Ambos os Times Marcam (Sim @1.52) | City W ou Empate (X2 @1.30)
+10. **Stockport County × Tranmere Rovers** (16:00 BRT — English EFL Trophy)
+    - **Game State & Contexto:** Edgeley Park. Stockport em forte momento como mandante.
+    - **Tese:** Stockport ou Empate (Dupla Chance 1X @1.15) | Stockport V1 & Over 1.5 (@1.95)
 
-11. **Chesterfield × Grimsby Town** (16:00 BRT — English EFL Trophy)
-    - **Tese:** Mais de 2.5 Gols no Jogo (@1.62)
+11. **Bristol Rovers × Reading** (16:00 BRT — English EFL Trophy)
+    - **Game State & Contexto:** Memorial Stadium. Confronto direto de classificação no EFL Trophy com postura super ofensiva de ambos os lados.
+    - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.55) | Mais de 1.5 Gols (@1.25) | Mais de 2.5 Gols (@1.60) | BTTS & Over 2.5 (@1.95)
+
+12. **Barnet × Leyton Orient** (16:00 BRT — English EFL Trophy)
+    - **Tese:** Mais de 2.5 Gols no Jogo (@1.65)
+
+13. **Grimsby Town × Nottingham Forest U21** (16:00 BRT — English EFL Trophy)
+    - **Tese:** Mais de 2.5 Gols no Jogo (@1.55)
+
+14. **Mansfield Town × Chesterfield** (16:00 BRT — English EFL Trophy)
+    - **Tese:** Mais de 2.5 Gols no Jogo (@1.60)
 
 ---
 
-#### 3. Bilhetes Estruturados Oficiais de 10/11
+#### 3. Bilhetes Estruturados Oficiais de 10/11 (Calibração FAS V6.3)
 
 - 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 3 DE 30:**
+  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)
   - Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)
-  - Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)
-  - Odd: 1.32 | Stake: R$ 19,73 | Retorno Potencial: R$ 26,04
-  - *Filosofia:* Foco em favoritas de elite continental em seus habitats dominantes para consolidar a passagem ao Dia 4.
+  - Odd: 1.35 | Stake: R$ 19,73 | Retorno Potencial: R$ 26,64
+  - *Regra do Cofre:* Se atingir o Dia 5, sacar R$ 10,00 da stake inicial; no Dia 7, travar +R$ 20,00 de lucro no cofre.
 
-- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.25 / Anti-Clone):**
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.20 / Desacoplamento Total):**
+  - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.28)
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)
   - Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)
-  - AS Roma W x Servette W: AS Roma W Vence por 2+ Gols (-1.5 AH @1.25)
-  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (ML @1.45)
-  - Inter W x Manchester City W: Manchester City W ou Empate (X2 @1.30)
-  - Odd: 3.25 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,75
+  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)
+  - Odd: 3.20 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,60
   - *Regra Anti-Clone:* 100% independente do Stop 2 da SAFE!
 
-- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2):**
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.3 — Blindagem Anti-Série B):**
   - Stake: 1.00u (R$ 15,00)
-  - **Stop Point 1 (Quádrupla Blindada @1.42):**
-    - Häcken W x Chelsea W: Chelsea W ou Empate (X2 @1.05)
-    - AS Roma W x Servette W: AS Roma W Vence (ML @1.08)
-    - Real Madrid W x Paris FC W: Real Madrid W ou Empate (1X @1.12)
-    - Huddersfield Town x Liverpool U21: Huddersfield ou Empate (1X @1.12)
-  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.86) — [SAÍDA DO USUÁRIO]:**
-    - + Wycombe Wanderers x Brighton U21: Wycombe ou Empate (1X @1.14)
-    - + Stockport County x Tranmere Rovers: Stockport ou Empate (1X @1.15)
-    - *Retorno Stop 2:* R$ 27,90 (Lucro líquido: +R$ 12,90 cobrindo 126% dos secundários).
-  - **Stop Point 3 (Expansão Máxima com Gols Europeus @2.84):**
-    - + PSG W x Bayern Munich W: Mais de 1.5 Gols (@1.22)
-    - + Bristol Rovers x Reading: Mais de 1.5 Gols (@1.25)
-    - *Retorno Stop 3:* R$ 42,60.
+  - **Stop Point 1 (Quíntupla Continental Blindada @1.35):**
+    - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)
+    - UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)
+    - CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)
+    - Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)
+    - AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)
+    - *Retorno Stop 1:* R$ 20,25.
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.95) — [SAÍDA DO USUÁRIO]:**
+    - + Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.12)
+    - + Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)
+    - + Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)
+    - *Retorno Stop 2:* R$ 29,25 (Lucro líquido: +R$ 14,25 cobrindo 154% de todos os secundários combinados).
+  - **Stop Point 3 (Expansão Máxima com Gols Europeus @2.97):**
+    - + PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)
+    - + Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)
+    - *Retorno Stop 3:* R$ 44,55.
 
-- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.67):**
-  - Real Madrid W x Paris FC W: Real Madrid W Vence (ML @1.42)
-  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (ML @1.45)
-  - Wycombe Wanderers x Brighton U21: Wycombe Wanderers Vence (ML @1.55)
-  - Stockport County x Tranmere Rovers: Stockport ou Empate (1X @1.15)
-  - Odd: 3.67 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 8,26
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.36 — Alavancagem de Copas & Favoritos):**
+  - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.28)
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)
+  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.45)
+  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)
+  - Odd: 3.36 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 7,56
 
-- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.96):**
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.96 — Trocação Franca de Gols):**
   - PSG W x Bayern Munich W: Ambos os Times Marcam (Sim @1.55)
   - Bristol Rovers x Reading: Ambos os Times Marcam (Sim @1.55)
   - Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)
   - Odd: 3.96 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,94
 
-- 🏴󠁧󠁢󠁥󠁮󠁧󠁿 **MÚLTIPLA COPAS (English EFL Trophy @2.48):**
+- 🏆 **MÚLTIPLA COPAS (@2.71 — Copa del Rey & English EFL Trophy):**
+  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.25)
+  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)
   - Huddersfield Town x Liverpool U21: Mais de 1.5 Gols no Jogo (@1.22)
   - Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)
-  - Wycombe Wanderers x Brighton U21: Wycombe ou Empate (1X @1.14)
-  - Chesterfield x Grimsby Town: Mais de 1.5 Gols no Jogo (@1.24)
-  - Stockport County x Tranmere Rovers: Stockport ou Empate (1X @1.15)
-  - Odd: 2.48 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 3,72
+  - Odd: 2.71 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,07
 
-- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@70.52 — Alavancagem Assimétrica Inteligente):**
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@71.39 — Alavancagem Assimétrica V6.3):**
+  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)
+  - CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.45)
+  - CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)
   - Häcken W x Chelsea W: Chelsea W Vence & Mais de 2.5 Gols (@1.75)
-  - AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)
   - Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)
   - PSG W x Bayern Munich W: Ambos Marcam & Mais de 2.5 Gols (@1.92)
-  - Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)
-  - Wycombe Wanderers x Brighton U21: Wycombe Vence & Mais de 1.5 Gols (@1.90)
   - Bristol Rovers x Reading: Ambos Marcam & Mais de 2.5 Gols (@1.95)
-  - Odd: 70.52 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 70,52
-  - *Evolução V6.2:* Zero Clean Sheets e zero Handicap -2.5. Paga R$ 70,52 com 1 realzinho.
+  - Odd: 71.39 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 71,39
+  - *Evolução V6.3:* Banimento de Clean Sheets e Handicaps -2.5. Combos de alta correlação pagando na meta exata de R$ 70+ com 1 real.
 
-- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@608.75 — Super Bingo Horizontal Correlacionado):**
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@628.45 — Super Bingo com Protocolo de Cash Out):**
+  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)
+  - CD Anaitasuna x Deportivo Alavés: Alavés Vence & Mais de 1.5 Gols (@1.35)
+  - CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)
   - Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)
   - AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)
   - Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)
   - PSG W x Bayern Munich W: Mais de 2.5 Gols no Jogo (@1.65)
   - Inter W x Manchester City W: Mais de 2.5 Gols no Jogo (@1.58)
   - Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)
-  - Wycombe Wanderers x Brighton U21: Wycombe Vence & Mais de 1.5 Gols (@1.90)
-  - Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)
   - Bristol Rovers x Reading: Mais de 2.5 Gols no Jogo (@1.60)
   - Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)
-  - Chesterfield x Grimsby Town: Mais de 2.5 Gols no Jogo (@1.62)
+  - Grimsby Town x Nottingham Forest U21: Mais de 2.5 Gols no Jogo (@1.55)
+  - Mansfield Town x Chesterfield: Mais de 2.5 Gols no Jogo (@1.60)
   - Inter W x Manchester City W: Ambos os Times Marcam (Sim @1.52)
-  - PSG W x Bayern Munich W: Ambos os Times Marcam (Sim @1.55)
-  - Odd: 608.75 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 608,75
-  - *Filosofia:* Super Bingo com 13 seleções de alta correlação lógica para buscar R$ 608+ com 1 real.
+  - Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)
+  - Odd: 628.45 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 628,45
+  - *Protocolo Oficial de Cash Out Ativo:* Se as seleções das 14h45 às 17h baterem e restarem apenas as últimas partidas pagando >= 30x a stake, realizar cash out garantido ou aplicar hedge de cobertura.

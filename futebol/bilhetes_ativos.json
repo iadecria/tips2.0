@@ -2,7 +2,13 @@
   "date": "2026-11-10",
   "snapshotId": "FAS_FOOTBALL_2026-11-10_V2_COPA_DEL_REY_UWCL_EFL_INTEGRATED",
   "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 V6.2 (UNIFICADA & CALIBRADA COM AVALIAÇÃO MUSE): Integração dos 3 confrontos da Copa del Rey (Alavés, Valencia no Mestalla e Eibar), recalibração factual do EFL Trophy com jogos 100% reais (Huddersfield, Bristol, Barnet, Grimsby, Mansfield) e Champions League Feminina com fontes de odds explicitadas.",
+  "notes": "GRADE OFICIAL FAS 3 V6.3 (CALIBRADA COM AS 4 MELHORIAS ESTRATÉGICAS): 1) Blindagem Anti-Série B na SAFE (100% elite/desnível brutal); 2) Protocolo Oficial de Cash Out/Hedge no Improvável (@600+); 3) Regra do Cofre (Vault Rule) no Soros (saque D5/D7); 4) Validação factual de Copa del Rey (Alavés, Valencia no Mestalla, Eibar) e jogos decisivos do EFL Trophy.",
+  "strategicImprovementsApplied": {
+    "antiSerieBFilter": "Ativo: Banimento de divisões secundárias com alta volatilidade na SAFE Stop 1 e Stop 2.",
+    "cashOutProtocol": "Ativo: Se 80%+ das pernas baterem antes dos jogos finais e odd acumulada pagar >= 30x a stake, realizar cash out ou hedge na contra-odd.",
+    "sorosVaultRule": "Ativo: Dia 5 saque da stake inicial (R$ 10,00). Dia 7 trava de lucro de +R$ 20,00 no cofre.",
+    "cupMotivationCheck": "Ativo: Foco em desnível técnico comprovado (La Liga x Divisões Regionais) e mandos de campo favoráveis (Mestalla)."
+  },
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Terça 10/11 / Anti-Clone)",
     "type": "FILE_DO_DIA",
@@ -203,6 +209,11 @@
     "potentialReturn": 26.64,
     "status": "ACTIVE",
     "philosophy": "Princípio da Imunidade Absoluta V6: Alavés contra time regional da 5ª divisão na Copa del Rey e Chelsea Women bicampeã contra o Häcken.",
+    "vaultPlan": {
+      "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero)",
+      "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
+      "currentCycleNetRisk": "R$ 10,00 inicial (já alavancado a R$ 19,73)"
+    },
     "legs": [
       "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)",
       "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)"

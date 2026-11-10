@@ -7,6 +7,11 @@
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
+  "vaultRules": {
+    "day5Lock": 10.0,
+    "day7Lock": 20.0,
+    "description": "No Dia 5, saca a stake inicial de R$ 10,00 para neutralizar o risco. No Dia 7, saca +R$ 20,00 de lucro travado no cofre."
+  },
   "history": [
     {
       "day": 1,

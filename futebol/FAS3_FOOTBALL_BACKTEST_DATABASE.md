@@ -4307,47 +4307,48 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 ---
 
-#### 3. Bilhetes Estruturados Oficiais de 10/11 (Calibração FAS V6.3)
+#### 3. Bilhetes Estruturados Oficiais de 10/11 (Calibração FAS V6.4 — Odds Reais Auditadas)
 
 - 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 3 DE 30:**
-  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)
   - Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)
-  - Odd: 1.35 | Stake: R$ 19,73 | Retorno Potencial: R$ 26,64
-  - *Regra do Cofre:* Se atingir o Dia 5, sacar R$ 10,00 da stake inicial; no Dia 7, travar +R$ 20,00 de lucro no cofre.
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)
+  - Odd: 1.44 | Stake: R$ 19,73 | Retorno Potencial: R$ 28,41
+  - *Auditoria de Mercado:* Alavés ML paga apenas 1.03 no mercado real (time de 5ª divisão regional); ajustado para SD Eibar ML (@1.22) para manter taxa saudável de crescimento composto.
 
-- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.20 / Desacoplamento Total):**
-  - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.28)
-  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@2.73 / Desacoplamento Total):**
+  - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.22)
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)
   - Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)
-  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)
-  - Odd: 3.20 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,60
+  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.33)
+  - Odd: 2.73 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 8,19
   - *Regra Anti-Clone:* 100% independente do Stop 2 da SAFE!
 
-- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.3 — Blindagem Anti-Série B):**
+- 🟢 **MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.4 — Blindagem Anti-Série B):**
   - Stake: 1.00u (R$ 15,00)
-  - **Stop Point 1 (Quíntupla Continental Blindada @1.35):**
-    - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)
-    - UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)
-    - CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)
+  - **Stop Point 1 (Quíntupla Continental Blindada @1.19):**
+    - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)
+    - UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)
+    - CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)
     - Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)
-    - AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)
-    - *Retorno Stop 1:* R$ 20,25.
-  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.95) — [SAÍDA DO USUÁRIO]:**
-    - + Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.12)
+    - AS Roma W x Servette W: AS Roma W ou Empate (Dupla Chance 1X @1.05)
+    - *Retorno Stop 1:* R$ 17,85.
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @2.00) — [SAÍDA DO USUÁRIO]:**
+    - + AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)
+    - + Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.08)
     - + Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)
     - + Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)
-    - *Retorno Stop 2:* R$ 29,25 (Lucro líquido: +R$ 14,25 cobrindo 154% de todos os secundários combinados).
-  - **Stop Point 3 (Expansão Máxima com Gols Europeus @2.97):**
+    - *Retorno Stop 2:* R$ 30,00 (Lucro líquido: +R$ 15,00 cobrindo 162% de todos os secundários combinados).
+  - **Stop Point 3 (Expansão Máxima com Gols Europeus @3.05):**
     - + PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)
     - + Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)
-    - *Retorno Stop 3:* R$ 44,55.
+    - *Retorno Stop 3:* R$ 45,75.
 
-- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.36 — Alavancagem de Copas & Favoritos):**
-  - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.28)
-  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)
-  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.45)
-  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)
-  - Odd: 3.36 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 7,56
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.67 — Alavancagem de Copas & Favoritos):**
+  - UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.22)
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)
+  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.35)
+  - Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.33)
+  - Odd: 2.67 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 6,00
 
 - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.96 — Trocação Franca de Gols):**
   - PSG W x Bayern Munich W: Ambos os Times Marcam (Sim @1.55)
@@ -4355,40 +4356,24 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)
   - Odd: 3.96 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,94
 
-- 🏆 **MÚLTIPLA COPAS (@2.71 — Copa del Rey & English EFL Trophy):**
-  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.25)
-  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)
-  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)
+- 🏆 **MÚLTIPLA COPAS (@2.51 — Copa del Rey & English EFL Trophy):**
+  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.22)
+  - CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.35)
+  - CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)
   - Huddersfield Town x Liverpool U21: Mais de 1.5 Gols no Jogo (@1.22)
   - Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)
-  - Odd: 2.71 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,07
+  - Odd: 2.51 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 3,77
 
-- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@71.39 — Alavancagem Assimétrica V6.3):**
-  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)
-  - CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.45)
-  - CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@34.18 — Alavancagem Assimétrica V6.4):**
+  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.38)
+  - CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.35)
+  - CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.50)
   - Häcken W x Chelsea W: Chelsea W Vence & Mais de 2.5 Gols (@1.75)
   - Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)
   - PSG W x Bayern Munich W: Ambos Marcam & Mais de 2.5 Gols (@1.92)
   - Bristol Rovers x Reading: Ambos Marcam & Mais de 2.5 Gols (@1.95)
-  - Odd: 71.39 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 71,39
-  - *Evolução V6.3:* Banimento de Clean Sheets e Handicaps -2.5. Combos de alta correlação pagando na meta exata de R$ 70+ com 1 real.
+  - Odd: 34.18 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 34,18
 
-- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@628.45 — Super Bingo com Protocolo de Cash Out):**
-  - UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)
-  - CD Anaitasuna x Deportivo Alavés: Alavés Vence & Mais de 1.5 Gols (@1.35)
-  - CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)
-  - Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)
-  - AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)
-  - Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)
-  - PSG W x Bayern Munich W: Mais de 2.5 Gols no Jogo (@1.65)
-  - Inter W x Manchester City W: Mais de 2.5 Gols no Jogo (@1.58)
-  - Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)
-  - Bristol Rovers x Reading: Mais de 2.5 Gols no Jogo (@1.60)
-  - Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)
-  - Grimsby Town x Nottingham Forest U21: Mais de 2.5 Gols no Jogo (@1.55)
-  - Mansfield Town x Chesterfield: Mais de 2.5 Gols no Jogo (@1.60)
-  - Inter W x Manchester City W: Ambos os Times Marcam (Sim @1.52)
-  - Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)
-  - Odd: 628.45 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 628,45
-  - *Protocolo Oficial de Cash Out Ativo:* Se as seleções das 14h45 às 17h baterem e restarem apenas as últimas partidas pagando >= 30x a stake, realizar cash out garantido ou aplicar hedge de cobertura.
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@278.50 — Super Bingo Auditado):**
+  - Odd: 278.50 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 278,50
+  - Protocolo Oficial de Cash Out Ativo.

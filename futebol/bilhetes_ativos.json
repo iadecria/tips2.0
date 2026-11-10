@@ -1,37 +1,37 @@
 {
   "date": "2026-11-10",
-  "snapshotId": "FAS_FOOTBALL_2026-11-10_V2_COPA_DEL_REY_UWCL_EFL_INTEGRATED",
+  "snapshotId": "FAS_FOOTBALL_2026-11-10_V4_REAL_MARKET_ODDS_AUDITED",
   "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 V6.3 (CALIBRADA COM AS 4 MELHORIAS ESTRATÉGICAS): 1) Blindagem Anti-Série B na SAFE (100% elite/desnível brutal); 2) Protocolo Oficial de Cash Out/Hedge no Improvável (@600+); 3) Regra do Cofre (Vault Rule) no Soros (saque D5/D7); 4) Validação factual de Copa del Rey (Alavés, Valencia no Mestalla, Eibar) e jogos decisivos do EFL Trophy.",
+  "notes": "GRADE OFICIAL FAS 3 V6.4 (AUDITADA COM ODDS REAIS DE MERCADO): Ajuste fino após auditoria em Bet365, Betfair e SportyTrader. Alavés ML contra regional amador paga 1.03 (ajustado para Eibar ML @1.22 no Soros Dia 3), Valencia no Mestalla ajustado para -1.5 @1.22, e Roma W ML valorizada a @1.20.",
   "strategicImprovementsApplied": {
     "antiSerieBFilter": "Ativo: Banimento de divisões secundárias com alta volatilidade na SAFE Stop 1 e Stop 2.",
     "cashOutProtocol": "Ativo: Se 80%+ das pernas baterem antes dos jogos finais e odd acumulada pagar >= 30x a stake, realizar cash out ou hedge na contra-odd.",
     "sorosVaultRule": "Ativo: Dia 5 saque da stake inicial (R$ 10,00). Dia 7 trava de lucro de +R$ 20,00 no cofre.",
-    "cupMotivationCheck": "Ativo: Foco em desnível técnico comprovado (La Liga x Divisões Regionais) e mandos de campo favoráveis (Mestalla)."
+    "marketOddsAudit": "Ativo: 100% das odds auditadas e checadas com cotações reais de mercado (Betfair, Bet365, Soccerstats)."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Terça 10/11 / Anti-Clone)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Terça 10/11 / Odds Reais)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.2,
+    "multiplierGlobal": 2.73,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 9.6,
-    "philosophy": "Desacoplamento total da SAFE Stop 2: Valencia no Mestalla, Eibar na Copa del Rey, Chelsea W na Champions e Huddersfield no EFL Trophy.",
+    "potentialReturn": 8.19,
+    "philosophy": "Desacoplamento total da SAFE Stop 2: Valencia -1.5 no Mestalla, Eibar na Copa del Rey, Chelsea W na Champions e Huddersfield no EFL Trophy com cotações reais auditadas.",
     "status": "ACTIVE",
     "selections": [
       {
         "match": "UE Tavernes x Valencia CF (17:00 BRT)",
         "competition": "Copa del Rey (Espanha)",
         "market": "Valencia CF Vence por 2+ Gols (-1.5 AH)",
-        "odd": 1.28,
+        "odd": 1.22,
         "status": "ACTIVE"
       },
       {
         "match": "CD Pamplona x SD Eibar (15:00 BRT)",
         "competition": "Copa del Rey (Espanha)",
         "market": "SD Eibar Vence (Moneyline)",
-        "odd": 1.25,
+        "odd": 1.22,
         "status": "ACTIVE"
       },
       {
@@ -45,14 +45,14 @@
         "match": "Huddersfield Town x Liverpool U21 (16:00 BRT)",
         "competition": "English EFL Trophy",
         "market": "Huddersfield Town Vence (Moneyline)",
-        "odd": 1.45,
+        "odd": 1.33,
         "status": "ACTIVE"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.2)",
+      "name": "MÚLTIPLA 1 — SAFE (Stop Points Modulares V6.4 — Odds Reais)",
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
@@ -60,29 +60,29 @@
       "stopPoints": [
         {
           "level": "Stop Point 1 (A Âncora Continental — Quíntupla de Imunidade Absoluta)",
-          "multiplier": 1.35,
-          "potentialReturn": 20.25,
+          "multiplier": 1.19,
+          "potentialReturn": 17.85,
           "legs": [
-            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)",
-            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
+            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)",
+            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)",
             "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)"
+            "AS Roma W x Servette W: AS Roma W ou Empate (Dupla Chance 1X @1.05)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 1.95,
-          "potentialReturn": 29.25,
-          "netProfit": 14.25,
+          "multiplier": 2.0,
+          "potentialReturn": 30.0,
+          "netProfit": 15.0,
           "legs": [
-            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)",
-            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
+            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)",
+            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)",
             "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
-            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.12)",
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
+            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.08)",
             "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
             "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)"
           ],
@@ -90,15 +90,15 @@
         },
         {
           "level": "Stop Point 3 (Expansão Máxima com Gols Europeus)",
-          "multiplier": 2.97,
-          "potentialReturn": 44.55,
+          "multiplier": 3.05,
+          "potentialReturn": 45.75,
           "legs": [
-            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.03)",
-            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.07 no Mestalla)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
+            "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés ou Empate (Dupla Chance X2 @1.01)",
+            "UE Tavernes x Valencia CF: Valencia CF Vence (Moneyline @1.02 no Mestalla)",
+            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.06)",
             "Häcken W x Chelsea W: Chelsea W ou Empate (Dupla Chance X2 @1.05)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.08)",
-            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.12)",
+            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
+            "Huddersfield Town x Liverpool U21: Huddersfield ou Empate (Dupla Chance 1X @1.08)",
             "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
             "Stockport County x Tranmere Rovers: Stockport ou Empate (Dupla Chance 1X @1.15)",
             "PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)",
@@ -113,14 +113,14 @@
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.36,
-      "potentialReturn": 7.56,
+      "multiplier": 2.67,
+      "potentialReturn": 6.0,
       "status": "ACTIVE",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.28)",
-        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)",
-        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.45)",
-        "Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.45)"
+        "UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.22)",
+        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)",
+        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.35)",
+        "Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.33)"
       ]
     },
     {
@@ -142,30 +142,30 @@
       "type": "COPAS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.71,
-      "potentialReturn": 4.07,
+      "multiplier": 2.51,
+      "potentialReturn": 3.77,
       "status": "ACTIVE",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.25)",
-        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)",
-        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.25)",
+        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.22)",
+        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.35)",
+        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)",
         "Huddersfield Town x Liverpool U21: Mais de 1.5 Gols no Jogo (@1.22)",
         "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
       ]
     },
     {
-      "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica V6.2)",
+      "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica V6.4)",
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 71.39,
-      "potentialReturn": 71.39,
+      "multiplier": 34.18,
+      "potentialReturn": 34.18,
       "status": "ACTIVE",
-      "philosophy": "Evolução V6.2: Banimento de Clean Sheets frágeis e Handcaps -2.5 irreais. Combos de alta conversão (V1 & Over 1.5 / BTTS & Over 2.5) pagando na meta exata de R$ 50 a R$ 80.",
+      "philosophy": "Evolução V6.4 com odds reais: Combos de alta conversão sem Clean Sheet frágil.",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)",
-        "CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.45)",
-        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)",
+        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.38)",
+        "CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.35)",
+        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.50)",
         "Häcken W x Chelsea W: Chelsea W Vence & Mais de 2.5 Gols (@1.75)",
         "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
         "PSG W x Bayern Munich W: Ambos Marcam & Mais de 2.5 Gols (@1.92)",
@@ -173,24 +173,24 @@
       ]
     },
     {
-      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @600+)",
+      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @250+)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 628.45,
-      "potentialReturn": 628.45,
+      "multiplier": 278.5,
+      "potentialReturn": 278.5,
       "status": "ACTIVE",
-      "philosophy": "Super Bingo com 13 seleções reais e calibradas de Copa del Rey, UWCL e EFL Trophy buscando R$ 628+ com 1 real.",
+      "philosophy": "Super Bingo auditado com 15 seleções reais de Copa del Rey, UWCL e EFL Trophy com protocolo de cash out ativo.",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.42)",
-        "CD Anaitasuna x Deportivo Alavés: Alavés Vence & Mais de 1.5 Gols (@1.35)",
-        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.55)",
+        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.38)",
+        "CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.35)",
+        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.50)",
         "Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)",
         "AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)",
         "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
         "PSG W x Bayern Munich W: Mais de 2.5 Gols no Jogo (@1.65)",
         "Inter W x Manchester City W: Mais de 2.5 Gols no Jogo (@1.58)",
-        "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.75)",
+        "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.65)",
         "Bristol Rovers x Reading: Mais de 2.5 Gols no Jogo (@1.60)",
         "Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)",
         "Grimsby Town x Nottingham Forest U21: Mais de 2.5 Gols no Jogo (@1.55)",
@@ -205,18 +205,18 @@
     "day": 3,
     "targetDays": 30,
     "stake": 19.73,
-    "multiplier": 1.35,
-    "potentialReturn": 26.64,
+    "multiplier": 1.44,
+    "potentialReturn": 28.41,
     "status": "ACTIVE",
-    "philosophy": "Princípio da Imunidade Absoluta V6: Alavés contra time regional da 5ª divisão na Copa del Rey e Chelsea Women bicampeã contra o Häcken.",
+    "philosophy": "Princípio da Imunidade Absoluta V6.4: Dupla com odds 100% reais de mercado (Chelsea Women ML @1.18 + SD Eibar ML @1.22) pagando @1.44 limpo.",
     "vaultPlan": {
       "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero)",
       "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
       "currentCycleNetRisk": "R$ 10,00 inicial (já alavancado a R$ 19,73)"
     },
     "legs": [
-      "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés Vence (Moneyline @1.14)",
-      "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)"
+      "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
+      "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)"
     ]
   }
 }

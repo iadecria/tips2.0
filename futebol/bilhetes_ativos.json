@@ -1,8 +1,16 @@
 {
   "date": "2026-11-10",
   "snapshotId": "FAS_FOOTBALL_2026-11-10_V4_REAL_MARKET_ODDS_AUDITED",
-  "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 V6.4 (AUDITADA COM ODDS REAIS DE MERCADO): Ajuste fino após auditoria em Bet365, Betfair e SportyTrader. Alavés ML contra regional amador paga 1.03 (ajustado para Eibar ML @1.22 no Soros Dia 3), Valencia no Mestalla ajustado para -1.5 @1.22, e Roma W ML valorizada a @1.20.",
+  "status": "SETTLED",
+  "notes": "GRADE DE 10/11/2026 LIQUIDADA: Tríplice Green nos secundários (SAFE+ @2.67 ✅, Super Ataque @3.96 ✅ e Múltipla Copas @2.51 ✅ retornando R$ 15,71 com lucro de +53% nos secundários). O Chelsea W tropeçou no 0x0 com 31 finalizações diante da goleira sueca, derrubando a SAFE e o Soros Dia 3.",
+  "resultsSummary": {
+    "safePlus": "HIT (@2.67 -> R$ 6,00)",
+    "superAtaque": "HIT (@3.96 -> R$ 5,94)",
+    "copas": "HIT (@2.51 -> R$ 3,77)",
+    "totalReturnedSecundarios": 15.71,
+    "netProfitSecundarios": 5.46,
+    "sorosCycle3": "MISS no Dia 3 (Chelsea 0x0 Häcken)"
+  },
   "strategicImprovementsApplied": {
     "antiSerieBFilter": "Ativo: Banimento de divisões secundárias com alta volatilidade na SAFE Stop 1 e Stop 2.",
     "cashOutProtocol": "Ativo: Se 80%+ das pernas baterem antes dos jogos finais e odd acumulada pagar >= 30x a stake, realizar cash out ou hedge na contra-odd.",

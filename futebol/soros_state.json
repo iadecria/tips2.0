@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 19.73,
-  "currentDay": 3,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -322,6 +322,16 @@
       "selection": "Häcken W x Chelsea W (Chelsea W V2 @1.166) + CD Pamplona x SD Eibar (SD Eibar V2 @1.167) [Melbet / Stake]",
       "odd": 1.36,
       "potentialReturn": 26.85,
+      "status": "MISS",
+      "missReason": "Zebra estatística monumental: Häcken W 0x0 Chelsea W. Chelsea teve 31 finalizações e 2 bolas na trave, mas Jennifer Falk fez 14 defesas milagrosas."
+    },
+    {
+      "day": 1,
+      "date": "2026-11-11",
+      "stakeIn": 10.0,
+      "selection": "Aguardando grade diária do Ciclo 4",
+      "odd": 0.0,
+      "potentialReturn": 0.0,
       "status": "ACTIVE"
     }
   ]

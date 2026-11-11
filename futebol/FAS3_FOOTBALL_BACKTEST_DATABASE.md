@@ -4239,7 +4239,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-10
 - **Cutoff:** 2026-11-10T14:15:00-03:00
 - **Contexto da Data:** Terça-feira de copas e competições continentais. Integração dos 3 duelos adiados da Copa del Rey (Alavés, Valencia no Mestalla e Eibar), 4ª rodada da UWCL feminina (Chelsea, Roma, PSG, Bayern, Real Madrid, City) e rodada decisiva do EFL Trophy inglês.
-- **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (CONFERE REALIZADO)**
 - **Melhorias Estratégicas Aplicadas (FAS V6.3):**
   1. *Blindagem Anti-Série B na SAFE*: Banimento total de ligas secundárias em reta final caótica na SAFE Stop 1 e 2.
   2. *Protocolo Oficial de Cash Out*: Ativação de cash out ou hedge na Múltipla 5 Improvável quando 80%+ das seleções baterem e a odd pagar >= 30x.
@@ -4374,3 +4374,38 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@278.50 — Super Bingo Auditado):**
   - Odd: 278.50 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 278,50
   - Protocolo Oficial de Cash Out Ativo.
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 10/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *Häcken W 0 × 0 Chelsea W* (0x0 — Chelsea com 31 finalizações e 2 bolas na trave; goleira Falk faz 14 defesas)
+  2. *AS Roma W 2 × 1 Servette W* (Roma venceu 2x1)
+  3. *Real Madrid W 3 × 0 Paris FC W* (Real venceu 3x0)
+  4. *PSG W 1 × 2 Bayern Munich W* (Ambos Marcam Sim, 3 gols)
+  5. *Inter W 1 × 4 Manchester City W* (City venceu, Ambos Marcam Sim, 5 gols)
+  6. *CD Pamplona 0 × 3 SD Eibar* (Eibar venceu 0x3)
+  7. *CD Anaitasuna 1 × 6 Deportivo Alavés* (Alavés venceu 1x6)
+  8. *UE Tavernes 0 × 6 Valencia CF* (Valencia venceu 0x6 no Mestalla)
+  9. *Huddersfield Town 4 × 0 Liverpool U21* (Huddersfield venceu 4x0)
+  10. *Bristol Rovers 2 × 2 Reading* (Empate 2x2, Ambos Marcam Sim, 4 gols)
+  11. *Barnet 4 × 2 Leyton Orient* (6 gols, Over 2.5)
+  12. *Grimsby Town 0 × 3 Nottingham Forest U21* (3 gols, Over 2.5)
+  13. *Mansfield Town 3 × 5 Chesterfield* (8 gols, Over 2.5)
+  14. *Stockport County 0 × 0 Tranmere Rovers* (0x0 tempo normal)
+
+- **Liquidação dos Bilhetes:**
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.67):** ✅ **GREEN CRAVADO!** (Eibar ML ✅, Alavés -1.5 ✅, Huddersfield ML ✅, Valencia -1.5 ✅). Retorno: **R$ 6,00**
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.96):** ✅ **GREEN CRAVADO!** (PSG BTTS ✅, Bristol BTTS ✅, Barnet Over 2.5 ✅). Retorno: **R$ 5,94**
+  - 🏆 **MÚLTIPLA COPAS (@2.51):** ✅ **GREEN CRAVADO!** (Alavés -1.5 ✅, Eibar ML ✅, Huddersfield Over 1.5 ✅, Bristol Over 1.5 ✅, Valencia Over 1.5 ✅). Retorno: **R$ 3,77**
+  - ⭐ **BILHETE SUPREMO (@2.73):** ❌ MISS por 1 gol do Chelsea (Valencia ✅, Eibar ✅, Huddersfield ✅, Chelsea 0x0 ❌).
+  - 🟢 **MÚLTIPLA 1 — SAFE ENXUTA:** ❌ MISS por 1 perna (Chelsea 0x0 ❌; Eibar ✅, Real Madrid ✅, Roma ✅, Huddersfield ✅).
+  - 🔥 **DESAFIO SOROS (CICLO 3 / DIA 3):** ❌ MISS (Eibar ML ✅, Chelsea ML 0x0 ❌). Ciclo 3 encerra no Dia 3. Ciclo 4 inicia com R$ 10,00.
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO:** ❌ MISS por 1 perna (6 de 7 acertos — Valencia ✅, Alavés ✅, Eibar ✅, Bristol ✅, Real ✅, PSG ✅; Chelsea 0x0 ❌).
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL:** ❌ MISS (13 de 15 acertos!).
+
+- **Balanço Financeiro Consolidado:**
+  - Investimento Secundários: R$ 10,25 | Retorno Secundários: **R$ 15,71** (Lucro líquido secundários: **+R$ 5,46 / +53% ROI**)
+  - Investimento Total Grade: R$ 25,25 | Retorno Total Grade: **R$ 15,71**
+  - Amortecimento da SAFE: Os greens em SAFE+, Super Ataque e Copas devolveram 62% do capital mesmo com a zebra estatística no jogo do Chelsea.

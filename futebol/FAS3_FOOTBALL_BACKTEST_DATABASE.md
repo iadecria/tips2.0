@@ -4409,3 +4409,94 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Investimento Secundários: R$ 10,25 | Retorno Secundários: **R$ 15,71** (Lucro líquido secundários: **+R$ 5,46 / +53% ROI**)
   - Investimento Total Grade: R$ 25,25 | Retorno Total Grade: **R$ 15,71**
   - Amortecimento da SAFE: Os greens em SAFE+, Super Ataque e Copas devolveram 62% do capital mesmo com a zebra estatística no jogo do Chelsea.
+
+
+### [2026-11-11] — RODADA DIÁRIA (DATA FIFA, UWCL & FINAL COPA DO BRASIL)
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-11_V1_UWCL_FINALS_FIFA`
+- **Data do Registro:** 2026-11-11
+- **Cutoff:** 2026-11-11T08:45:00-03:00
+- **Contexto da Data:** Quarta-feira de abertura da janela internacional FIFA de novembro. Rodada da UWCL feminina (Lyon, Benfica, Køge), amistoso internacional preparatório (Vietnã) e jogo de ida da grande final da Copa do Brasil Feminina (Flamengo x Internacional).
+- **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+- **Melhorias Estratégicas Aplicadas (FAS V6.5):**
+  1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02 na SAFE. Stop 2 reduzido a 4 seleções de alto valor e solidez.
+  2. *Blindagem Anti-Série B:* Série B isolada em mercado de ritmo (Under 3.5) fora dos bilhetes âncora.
+  3. *Regra do Cofre:* Ciclo 4 do Desafio Soros iniciado no Dia 1 (R$ 10,00) com meta de saque de proteção no Dia 5.
+
+#### 1. Discovery e Cobertura
+- Analisados: 12 fixtures (UWCL, Amistoso FIFA, Copa do Brasil Feminina, Série B).
+- Elegíveis: 6 fixtures de altíssima convicção.
+- Descartados: Amistosos asiáticos sem liquidez ou com alta volatilidade técnica.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Vietnã × Taipé Chinesa (Taiwan)** (09:00 BRT — Amistoso Internacional FIFA)
+   - **Tese (Soros Ciclo 4 - Dia 1):** Vietnã Vence (Moneyline @1.25) | Vietnã V1 & Over 1.5 (@1.50)
+2. **Juventus W × Olympique Lyon W** (17:00 BRT — UEFA Women's Champions League)
+   - **Tese (Soros Ciclo 4 - Dia 1):** Olympique Lyon W Vence (Moneyline @1.14) | Lyon -1.5 AH (@1.45) | Over 2.5 (@1.50)
+3. **SL Benfica W × Austria Wien W** (17:00 BRT — UEFA Women's Champions League)
+   - **Tese:** Benfica W ou Empate (Dupla Chance 1X @1.14) | Benfica W Vence (Moneyline @1.52) | Benfica & Over 1.5 (@1.75)
+4. **OH Leuven W × HB Køge W** (14:45 BRT — UEFA Women's Champions League)
+   - **Tese (Super Ataque):** Ambos os Times Marcam (Sim @1.57) | Mais de 1.5 Gols (@1.22)
+5. **Flamengo × Internacional** (21:30 BRT — Final Copa do Brasil Feminina, Ida)
+   - **Tese (SAFE Shield):** Menos de 3.5 Gols no Jogo (@1.25) | Flamengo ou Empate & Under 3.5 (@1.55)
+6. **Londrina × Náutico** (19:00 BRT — Série B, Rodada Final)
+   - **Tese:** Menos de 3.5 Gols no Jogo (@1.22)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 11/11 (FAS V6.5)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 4 / DIA 1 DE 30:**
+  - Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)
+  - Juventus W x Olympique Lyon W: Olympique Lyon W Vence (Moneyline @1.14)
+  - Odd: 1.425 (~1.42) | Stake: R$ 10,00 | Retorno Potencial: R$ 14,25
+
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.30):**
+  - Juventus W x Olympique Lyon W: Lyon W Vence por 2+ Gols (-1.5 AH @1.45)
+  - SL Benfica W x Austria Wien W: Benfica W Vence (Moneyline @1.52)
+  - Vietnã x Taipé Chinesa: Vietnã Vence & Mais de 1.5 Gols (@1.50)
+  - Odd: 3.30 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,90
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Tripla de Convicção Europeia @1.62):**
+    - Juventus W x Lyon W: Lyon W Vence (Moneyline @1.14)
+    - SL Benfica W x Austria Wien W: Benfica W ou Empate (Dupla Chance 1X @1.14)
+    - Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)
+    - *Retorno Stop 1:* R$ 24,30.
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @2.02) — [SAÍDA DO USUÁRIO]:**
+    - + Flamengo x Internacional (Final Copa do Brasil): Menos de 3.5 Gols no Jogo (@1.25)
+    - *Retorno Stop 2:* **R$ 30,30** (Lucro líquido: +R$ 15,30 cobrindo 149% de todos os secundários de R$ 10,25 com apenas 4 jogos!).
+  - **Stop Point 3 (Expansão Continental com Gols @2.46):**
+    - + OH Leuven W x HB Køge W: Mais de 1.5 Gols no Jogo (@1.22)
+    - *Retorno Stop 3:* R$ 36,90.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.75):**
+  - Juventus W x Lyon W: Lyon W -1.5 AH (@1.45)
+  - SL Benfica W x Austria Wien W: Benfica W Vence (Moneyline @1.52)
+  - Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)
+  - Odd: 2.75 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 6,19
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@3.88):**
+  - OH Leuven W x HB Køge W: Ambos os Times Marcam (Sim @1.57)
+  - SL Benfica W x Austria Wien W: Mais de 2.5 Gols no Jogo (@1.65)
+  - Juventus W x Lyon W: Mais de 2.5 Gols no Jogo (@1.50)
+  - Odd: 3.88 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,82
+
+- 🏆 **MÚLTIPLA DECISÕES & CONTINENTAL (@2.90):**
+  - Juventus W x Lyon W: Lyon W Vence & Mais de 1.5 Gols (@1.33)
+  - SL Benfica W x Austria Wien W: Benfica W Vence & Mais de 1.5 Gols (@1.75)
+  - Flamengo x Internacional: Menos de 3.5 Gols no Jogo (@1.25)
+  - Odd: 2.90 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,35
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@34.60):**
+  - Juventus W x Lyon W: Lyon W Vence & Mais de 2.5 Gols (@1.72)
+  - SL Benfica W x Austria Wien W: Benfica W Vence & Ambos Marcam (@3.10)
+  - OH Leuven W x HB Køge W: Ambos Marcam & Mais de 2.5 Gols (@2.00)
+  - Vietnã x Taipé Chinesa: Vietnã Vence por 2+ Gols (-1.5 AH @1.75)
+  - Flamengo x Internacional: Flamengo ou Empate & Menos de 3.5 Gols (@1.55)
+  - Odd: 34.60 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 34,60
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@142.80 — Super Bingo com Cash Out):**
+  - Odd: 142.80 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 142,80
+  - Protocolo de Cash Out ativo após os jogos europeus das 17h.

@@ -1,127 +1,108 @@
 {
-  "date": "2026-11-10",
-  "snapshotId": "FAS_FOOTBALL_2026-11-10_V4_REAL_MARKET_ODDS_AUDITED",
-  "status": "SETTLED",
-  "notes": "GRADE DE 10/11/2026 LIQUIDADA: Tríplice Green nos secundários (SAFE+ @2.67 ✅, Super Ataque @3.96 ✅ e Múltipla Copas @2.51 ✅ retornando R$ 15,71 com lucro de +53% nos secundários). O Chelsea W tropeçou no 0x0 com 31 finalizações diante da goleira sueca, derrubando a SAFE e o Soros Dia 3.",
-  "resultsSummary": {
-    "safePlus": "HIT (@2.67 -> R$ 6,00)",
-    "superAtaque": "HIT (@3.96 -> R$ 5,94)",
-    "copas": "HIT (@2.51 -> R$ 3,77)",
-    "totalReturnedSecundarios": 15.71,
-    "netProfitSecundarios": 5.46,
-    "sorosCycle3": "MISS no Dia 3 (Chelsea 0x0 Häcken)"
-  },
+  "date": "2026-11-11",
+  "snapshotId": "FAS_FOOTBALL_2026-11-11_V1_UWCL_FINALS_FIFA",
+  "status": "ACTIVE",
+  "notes": "GRADE OFICIAL FAS 3 V6.5 (11/11/2026): Abertura da janela internacional FIFA, 4ª rodada da UWCL (Lyon, Benfica, Køge) e Final da Copa do Brasil Feminina (Flamengo x Inter). Filtro Anti-Inchamento 100% ativo: zero micro-odds e Stop 2 com apenas 4 jogos de alto valor.",
   "strategicImprovementsApplied": {
-    "antiSerieBFilter": "Ativo: Banimento de divisões secundárias com alta volatilidade na SAFE Stop 1 e Stop 2.",
-    "cashOutProtocol": "Ativo: Se 80%+ das pernas baterem antes dos jogos finais e odd acumulada pagar >= 30x a stake, realizar cash out ou hedge na contra-odd.",
-    "sorosVaultRule": "Ativo: Dia 5 saque da stake inicial (R$ 10,00). Dia 7 trava de lucro de +R$ 20,00 no cofre.",
-    "marketOddsAudit": "Ativo: 100% das odds auditadas e checadas com cotações reais de mercado (Betfair, Bet365, Soccerstats)."
+    "antiSerieBFilter": "Ativo: Série B isolada em mercado de ritmo (Under 3.5) fora dos bilhetes âncora.",
+    "antiBloatFilter": "Ativo: Zero odds de 1.01 ou 1.02. Grade da SAFE reduzida a 3 e 4 pernas sólidas.",
+    "cashOutProtocol": "Ativo: Múltipla 5 monitorada para saque garantido >= 30x após os jogos da tarde.",
+    "sorosVaultRule": "Ativo: Ciclo 4 reiniciado no Dia 1 (R$ 10,00). Saque de proteção programado para o Dia 5."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Terça 10/11 / Odds Reais)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Quarta 11/11)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 2.73,
+    "multiplierGlobal": 3.3,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 8.19,
-    "philosophy": "Desacoplamento total da SAFE Stop 2: Valencia -1.5 no Mestalla, Eibar na Copa del Rey, Chelsea W na Champions e Huddersfield no EFL Trophy com cotações reais auditadas.",
+    "potentialReturn": 9.9,
+    "philosophy": "Desacoplamento total da SAFE: Lyon -1.5 fora de casa, Benfica Vence no Seixal e Vietnã com handicap asiático.",
     "status": "ACTIVE",
     "selections": [
       {
-        "match": "UE Tavernes x Valencia CF (17:00 BRT)",
-        "competition": "Copa del Rey (Espanha)",
-        "market": "Valencia CF Vence por 2+ Gols (-1.5 AH)",
-        "odd": 1.22,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "CD Pamplona x SD Eibar (15:00 BRT)",
-        "competition": "Copa del Rey (Espanha)",
-        "market": "SD Eibar Vence (Moneyline)",
-        "odd": 1.22,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Häcken W x Chelsea W (14:45 BRT)",
+        "match": "Juventus W x Olympique Lyon W (17:00 BRT)",
         "competition": "UEFA Women's Champions League",
-        "market": "Chelsea W Vence & Mais de 1.5 Gols",
-        "odd": 1.38,
+        "market": "Olympique Lyon W Vence por 2+ Gols (-1.5 AH)",
+        "odd": 1.45,
         "status": "ACTIVE"
       },
       {
-        "match": "Huddersfield Town x Liverpool U21 (16:00 BRT)",
-        "competition": "English EFL Trophy",
-        "market": "Huddersfield Town Vence (Moneyline)",
-        "odd": 1.33,
+        "match": "SL Benfica W x Austria Wien W (17:00 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "SL Benfica W Vence (Moneyline)",
+        "odd": 1.52,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Vietnã x Taipé Chinesa (09:00 BRT)",
+        "competition": "Amistoso Internacional FIFA",
+        "market": "Vietnã Vence & Mais de 1.5 Gols",
+        "odd": 1.5,
         "status": "ACTIVE"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5 — Filtro Anti-Inchamento)",
+      "name": "MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5)",
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
       "status": "ACTIVE",
-      "philosophy": "Eliminação do 'lixo' de odds 1.01 e 1.02 que só adicionam risco operacional. Grade enxuta de 3 a 5 pernas sólidas para atingir a meta do SAFE Shield com o menor número possível de pontos de falha.",
+      "philosophy": "Grade enxuta sem micro-odds de 1.01. Apenas 3 a 4 seleções sólidas para blindar a banca com menor número de variáveis.",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Tripla Enxuta de Imunidade Absoluta)",
-          "multiplier": 1.43,
-          "potentialReturn": 21.45,
+          "level": "Stop Point 1 (Tripla de Convicção Europeia)",
+          "multiplier": 1.62,
+          "potentialReturn": 24.3,
           "legs": [
-            "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
-            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)"
+            "Juventus W x Olympique Lyon W: Olympique Lyon W Vence (Moneyline @1.14)",
+            "SL Benfica W x Austria Wien W: SL Benfica W ou Empate (Dupla Chance 1X @1.14)",
+            "Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 1.85,
-          "potentialReturn": 27.75,
-          "netProfit": 12.75,
+          "multiplier": 2.02,
+          "potentialReturn": 30.3,
+          "netProfit": 15.3,
           "legs": [
-            "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
-            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
-            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.08)"
+            "Juventus W x Olympique Lyon W: Olympique Lyon W Vence (Moneyline @1.14)",
+            "SL Benfica W x Austria Wien W: SL Benfica W ou Empate (Dupla Chance 1X @1.14)",
+            "Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)",
+            "Flamengo x Internacional (Final Copa do Brasil): Menos de 3.5 Gols no Jogo (@1.25)"
           ],
           "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão com Gols Europeus)",
-          "multiplier": 2.82,
-          "potentialReturn": 42.3,
+          "level": "Stop Point 3 (Expansão Continental com Gols)",
+          "multiplier": 2.46,
+          "potentialReturn": 36.9,
           "legs": [
-            "Häcken W x Chelsea W: Chelsea W Vence (Moneyline @1.18)",
-            "CD Pamplona x SD Eibar: SD Eibar ou Empate (Dupla Chance X2 @1.08)",
-            "Real Madrid W x Paris FC W: Real Madrid W ou Empate (Dupla Chance 1X @1.12)",
-            "AS Roma W x Servette W: AS Roma W Vence (Moneyline @1.20)",
-            "Huddersfield Town x Liverpool U21: Huddersfield Town ou Empate (Dupla Chance 1X @1.08)",
-            "PSG W x Bayern Munich W: Mais de 1.5 Gols no Jogo (@1.22)",
-            "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
+            "Juventus W x Olympique Lyon W: Olympique Lyon W Vence (Moneyline @1.14)",
+            "SL Benfica W x Austria Wien W: SL Benfica W ou Empate (Dupla Chance 1X @1.14)",
+            "Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)",
+            "Flamengo x Internacional (Final Copa do Brasil): Menos de 3.5 Gols no Jogo (@1.25)",
+            "OH Leuven W x HB Køge W: Mais de 1.5 Gols no Jogo (@1.22)"
           ],
           "status": "ACTIVE"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Copas & Favoritos)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem de Favoritos)",
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 2.67,
-      "potentialReturn": 6.0,
+      "multiplier": 2.75,
+      "potentialReturn": 6.19,
       "status": "ACTIVE",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia CF Vence por 2+ Gols (-1.5 AH @1.22)",
-        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)",
-        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.35)",
-        "Huddersfield Town x Liverpool U21: Huddersfield Town Vence (Moneyline @1.33)"
+        "Juventus W x Olympique Lyon W: Olympique Lyon W Vence por 2+ Gols (-1.5 AH @1.45)",
+        "SL Benfica W x Austria Wien W: SL Benfica W Vence (Moneyline @1.52)",
+        "Vietnã x Taipé Chinesa: Vietnã Vence (Moneyline @1.25)"
       ]
     },
     {
@@ -129,96 +110,85 @@
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 3.96,
-      "potentialReturn": 5.94,
+      "multiplier": 3.88,
+      "potentialReturn": 5.82,
       "status": "ACTIVE",
       "legs": [
-        "PSG W x Bayern Munich W (17:00 BRT): Ambos os Times Marcam (Sim @1.55)",
-        "Bristol Rovers x Reading (16:00 BRT): Ambos os Times Marcam (Sim @1.55)",
-        "Barnet x Leyton Orient (16:00 BRT): Mais de 2.5 Gols no Jogo (@1.65)"
+        "OH Leuven W x HB Køge W (14:45 BRT): Ambos os Times Marcam (Sim @1.57)",
+        "SL Benfica W x Austria Wien W (17:00 BRT): Mais de 2.5 Gols no Jogo (@1.65)",
+        "Juventus W x Olympique Lyon W (17:00 BRT): Mais de 2.5 Gols no Jogo (@1.50)"
       ]
     },
     {
-      "name": "🏆 MÚLTIPLA COPAS (Copa del Rey & English EFL Trophy)",
+      "name": "🏆 MÚLTIPLA DECISÕES & CONTINENTAL",
       "type": "COPAS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.51,
-      "potentialReturn": 3.77,
+      "multiplier": 2.9,
+      "potentialReturn": 4.35,
       "status": "ACTIVE",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 1.5 Gols (@1.22)",
-        "CD Anaitasuna x Deportivo Alavés: Deportivo Alavés por 2+ Gols (-1.5 AH @1.35)",
-        "CD Pamplona x SD Eibar: SD Eibar Vence (Moneyline @1.22)",
-        "Huddersfield Town x Liverpool U21: Mais de 1.5 Gols no Jogo (@1.22)",
-        "Bristol Rovers x Reading: Mais de 1.5 Gols no Jogo (@1.25)"
+        "Juventus W x Olympique Lyon W: Olympique Lyon W Vence & Mais de 1.5 Gols (@1.33)",
+        "SL Benfica W x Austria Wien W: SL Benfica W Vence & Mais de 1.5 Gols (@1.75)",
+        "Flamengo x Internacional: Menos de 3.5 Gols no Jogo (@1.25)"
       ]
     },
     {
-      "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica V6.4)",
+      "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Assimétrica V6.5)",
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 34.18,
-      "potentialReturn": 34.18,
+      "multiplier": 34.6,
+      "potentialReturn": 34.6,
       "status": "ACTIVE",
-      "philosophy": "Evolução V6.4 com odds reais: Combos de alta conversão sem Clean Sheet frágil.",
+      "philosophy": "Evolução V6.5: Combos ofensivos e handicap moderado com foco no desnível da UWCL e final da Copa do Brasil.",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.38)",
-        "CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.35)",
-        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.50)",
-        "Häcken W x Chelsea W: Chelsea W Vence & Mais de 2.5 Gols (@1.75)",
-        "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
-        "PSG W x Bayern Munich W: Ambos Marcam & Mais de 2.5 Gols (@1.92)",
-        "Bristol Rovers x Reading: Ambos Marcam & Mais de 2.5 Gols (@1.95)"
+        "Juventus W x Olympique Lyon W: Olympique Lyon W Vence & Mais de 2.5 Gols (@1.72)",
+        "SL Benfica W x Austria Wien W: SL Benfica W Vence & Ambos Marcam (@3.10)",
+        "OH Leuven W x HB Køge W: Ambos Marcam & Mais de 2.5 Gols (@2.00)",
+        "Vietnã x Taipé Chinesa: Vietnã Vence por 2+ Gols (-1.5 AH @1.75)",
+        "Flamengo x Internacional: Flamengo ou Empate & Menos de 3.5 Gols (@1.55)"
       ]
     },
     {
-      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal Correlacionado @250+)",
+      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL (Super Bingo Horizontal com Cash Out)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 278.5,
-      "potentialReturn": 278.5,
+      "multiplier": 142.8,
+      "potentialReturn": 142.8,
       "status": "ACTIVE",
-      "philosophy": "Super Bingo auditado com 15 seleções reais de Copa del Rey, UWCL e EFL Trophy com protocolo de cash out ativo.",
+      "philosophy": "Super Bingo correlacionado com protocolo de cash out ativo após os confrontos europeus da tarde.",
       "legs": [
-        "UE Tavernes x Valencia CF: Valencia Vence & Mais de 2.5 Gols (@1.38)",
-        "CD Anaitasuna x Deportivo Alavés: Alavés Vence por 2+ Gols (-1.5 AH @1.35)",
-        "CD Pamplona x SD Eibar: Eibar Vence & Mais de 1.5 Gols (@1.50)",
-        "Häcken W x Chelsea W: Chelsea W Vence & Mais de 1.5 Gols (@1.38)",
-        "AS Roma W x Servette W: AS Roma W Vence & Mais de 2.5 Gols (@1.40)",
-        "Real Madrid W x Paris FC W: Real Madrid W Vence & Mais de 1.5 Gols (@1.85)",
-        "PSG W x Bayern Munich W: Mais de 2.5 Gols no Jogo (@1.65)",
-        "Inter W x Manchester City W: Mais de 2.5 Gols no Jogo (@1.58)",
-        "Huddersfield Town x Liverpool U21: Huddersfield Vence & Mais de 1.5 Gols (@1.65)",
-        "Bristol Rovers x Reading: Mais de 2.5 Gols no Jogo (@1.60)",
-        "Barnet x Leyton Orient: Mais de 2.5 Gols no Jogo (@1.65)",
-        "Grimsby Town x Nottingham Forest U21: Mais de 2.5 Gols no Jogo (@1.55)",
-        "Mansfield Town x Chesterfield: Mais de 2.5 Gols no Jogo (@1.60)",
-        "Inter W x Manchester City W: Ambos os Times Marcam (Sim @1.52)",
-        "Stockport County x Tranmere Rovers: Stockport Vence & Mais de 1.5 Gols (@1.95)"
+        "Juventus W x Olympique Lyon W: Lyon W Vence & Mais de 2.5 Gols (@1.72)",
+        "SL Benfica W x Austria Wien W: Benfica W Vence & Mais de 1.5 Gols (@1.75)",
+        "OH Leuven W x HB Køge W: Ambos os Times Marcam (Sim @1.57)",
+        "Vietnã x Taipé Chinesa: Vietnã Vence & Mais de 1.5 Gols (@1.50)",
+        "Flamengo x Internacional: Menos de 2.5 Gols no Jogo (@1.65)",
+        "Londrina x Náutico: Menos de 3.5 Gols no Jogo (@1.22)",
+        "OH Leuven W x HB Køge W: Mais de 2.5 Gols no Jogo (@1.70)",
+        "SL Benfica W x Austria Wien W: Mais de 2.5 Gols no Jogo (@1.65)",
+        "Juventus W x Olympique Lyon W: Lyon W Vence por 2+ Gols (-1.5 AH @1.45)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 3 / DIA 3 DE 30",
-    "day": 3,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 4 / DIA 1 DE 30",
+    "day": 1,
     "targetDays": 30,
-    "stake": 19.73,
-    "multiplier": 1.36,
-    "potentialReturn": 26.85,
+    "stake": 10.0,
+    "multiplier": 1.42,
+    "potentialReturn": 14.25,
     "status": "ACTIVE",
-    "bookmaker": "Melbet / Stake",
-    "philosophy": "Princípio da Imunidade Absoluta V6.4: Dupla ao vivo na Melbet (Chelsea W V2 @1.166 + SD Eibar V2 @1.167) gerando odd combinada de 1.36 cravada na meta do Soros.",
+    "philosophy": "Reinício do Ciclo 4 com banca base de R$ 10,00. Dupla continental sólida com Vietnã favorito absoluto e Lyon feminino dominante.",
     "vaultPlan": {
       "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero)",
       "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
-      "currentCycleNetRisk": "R$ 10,00 inicial (já alavancado a R$ 19,73)"
+      "currentCycleNetRisk": "R$ 10,00 inicial"
     },
     "legs": [
-      "Häcken W x Chelsea W: Chelsea W Vence (1X2: V2 @1.166)",
-      "CD Pamplona x SD Eibar: SD Eibar Vence (1X2: V2 @1.167)"
+      "Vietnã x Taipé Chinesa (09:00 BRT): Vietnã Vence (Moneyline @1.25)",
+      "Juventus W x Olympique Lyon W (17:00 BRT): Olympique Lyon W Vence (Moneyline @1.14)"
     ]
   }
 }

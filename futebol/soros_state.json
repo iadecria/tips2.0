@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 14.25,
-  "currentDay": 2,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -343,6 +343,16 @@
       "selection": "Eslováquia x Ilhas Faroé (Eslováquia ML @1.33) + Salamanca CF UDS x RC Celta de Vigo (Celta de Vigo ou Empate X2 @1.08)",
       "odd": 1.44,
       "potentialReturn": 20.52,
+      "status": "MISS",
+      "missReason": "Zebra defensiva da Eslováquia: empate em 2x2 com as Ilhas Faroé após estar vencendo. Celta cumpriu fácil com 5x0."
+    },
+    {
+      "day": 1,
+      "date": "2026-11-14",
+      "stakeIn": 10.0,
+      "selection": "Aguardando definição da grade do Ciclo 5",
+      "odd": 0.0,
+      "potentialReturn": 0.0,
       "status": "ACTIVE"
     }
   ]

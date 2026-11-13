@@ -1,8 +1,17 @@
 {
   "date": "2026-11-13",
   "snapshotId": "FAS_FOOTBALL_2026-11-13_V1_NATIONS_LEAGUE_COPA_DEL_REY",
-  "status": "ACTIVE",
-  "notes": "GRADE OFICIAL FAS 3 V6.5 (13/11/2026): 5ª rodada decisiva da UEFA Nations League (Alemanha, Holanda, Eslováquia, Escócia) e eliminatória adiada da Copa del Rey (Salamanca x Celta de Vigo). Filtro Anti-Inchamento 100% ativo: zero micro-odds e Stop 2 enxuto com 5 seleções de altíssimo valor real.",
+  "status": "SETTLED",
+  "notes": "GRADE DE 13/11/2026 LIQUIDADA: Stop Point 1 da SAFE bateu 100% GREEN (@1.44 -> R$ 21,60) graças à proteção de Dupla Chance no empate da Eslováquia (2x2). Celta (5x0), Alemanha (3x1), Holanda (7x0) e Escócia (2x1) venceram com autoridade. O empate improvável das Ilhas Faroé derrubou o Stop 2 e o Soros Dia 2.",
+  "resultsSummary": {
+    "safeStop1": "HIT (@1.44 -> R$ 21,60)",
+    "safeStop2": "MISS por 1 perna (Eslováquia 2x2 Ilhas Faroé)",
+    "supremo": "MISS (2 de 3 acertos)",
+    "safePlus": "MISS (3 de 4 acertos)",
+    "superAtaque": "MISS (2 de 3 acertos)",
+    "improvavel": "MISS (6 de 8 acertos)",
+    "sorosCycle4": "MISS no Dia 2 (Eslováquia 2x2 Ilhas Faroé)"
+  },
   "strategicImprovementsApplied": {
     "antiSerieBFilter": "Ativo: Grade 100% ancorada na elite de seleções europeias e abismo de divisão da Copa del Rey.",
     "antiBloatFilter": "Ativo: Zero odds de 1.01 ou 1.02. Stop 2 reduzido a 5 pernas sólidas para atingir a meta da SAFE.",

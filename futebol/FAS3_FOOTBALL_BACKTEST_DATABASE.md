@@ -4508,7 +4508,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-13
 - **Cutoff:** 2026-11-13T16:15:00-03:00
 - **Contexto da Data:** Sexta-feira de 5ª rodada decisiva da UEFA Nations League (Alemanha, Países Baixos, Eslováquia, Escócia, Suíça) e confronto adiado da 1ª eliminatória da Copa del Rey (Salamanca x Celta de Vigo).
-- **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (CONFERE REALIZADO)**
 - **Melhorias Estratégicas Aplicadas (FAS V6.5):**
   1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02. A SAFE Stop 2 contém apenas 5 seleções sólidas para atingir @1.94.
   2. *Blindagem Anti-Série B:* 100% de foco em seleções da elite UEFA e confronto assimétrico da Copa del Rey.
@@ -4599,3 +4599,33 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@182.40 — Super Bingo com Cash Out):**
   - Odd: 182.40 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 182,40
   - Protocolo de Cash Out ativo.
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 13/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *Eslováquia 2 × 2 Ilhas Faroé* (Empate zebra 2x2; Eslováquia cedeu empate aos 73')
+  2. *Salamanca CF UDS 0 × 5 RC Celta de Vigo* (Celta passeou com 5x0, Swedberg e Jutglà bisaram)
+  3. *Sérvia 1 × 3 Alemanha* (Alemanha venceu com autoridade por 3x1 em Belgrado)
+  4. *Países Baixos 7 × 0 Grécia* (Massacre holandês na Johan Cruyff Arena com hat-trick de Reijnders)
+  5. *Escócia 2 × 1 Macedônia do Norte* (Escócia venceu no Hampden Park com 2 gols de McGinn)
+  6. *Eslovênia 0 × 0 Suíça* (Empate tático 0x0; Under 2.5 cravado)
+  7. *Moldávia 1 × 1 Cazaquistão* (Empate 1x1; Under 2.5 cravado)
+  8. *Bulgária 0 × 5 Islândia* (Goleada islandesa 0x5 fora de casa)
+
+- **Liquidação dos Bilhetes:**
+  - 🟢 **MÚLTIPLA 1 — SAFE ENXUTA (Stop Point 1 @1.44):** ✅ **GREEN CRAVADO!** (Eslováquia 1X ✅, Celta X2 ✅, Alemanha X2 ✅, Holanda 1X ✅). Retorno: **R$ 21,60**
+  - 🟢 **MÚLTIPLA 1 — SAFE (Stop Point 2 @1.94):** ❌ MISS por 1 perna (Eslováquia 2x2 Ilhas Faroé derrubou o ML seco; Celta X2 ✅, Alemanha X2 ✅, Holanda 1X ✅, Escócia 1X ✅).
+  - 🔥 **DESAFIO SOROS (CICLO 4 / DIA 2):** ❌ MISS (Celta X2 ✅, Eslováquia ML 2x2 ❌). O Ciclo 4 encerra no Dia 2. Como o Dia 1 bateu (R$ 10,00 -> R$ 14,25), o risco financeiro líquido acumulado do ciclo foi de R$ 10,00. Ciclo 5 inicia no Dia 1.
+  - ⭐ **BILHETE SUPREMO (@3.33):** ❌ MISS por 1 perna (Alemanha ML ✅, Holanda ML ✅; Eslováquia -1.5 ❌).
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.80):** ❌ MISS por 1 perna (Celta ML ✅, Escócia ML ✅, Alemanha X2 ✅; Eslováquia ML ❌).
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.76):** ❌ MISS por 1 perna (Alemanha Over 2.5 ✅, Celta Over 2.5 ✅; Holanda 7x0 não sofreu gol ❌).
+  - 🏆 **MÚLTIPLA COPAS & NATIONS (@2.67):** ❌ MISS por 1 perna (Celta V1 & Over 1.5 ✅; Eslováquia 2x2 ❌).
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@33.50):** ❌ MISS (3 acertos monstruosos: Alemanha V1 & Over 2.5 ✅, Celta V1 & Over 2.5 ✅, Escócia V1 & Over 1.5 ✅).
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@182.40):** ❌ MISS (6 DE 8 ACERTOS!).
+
+- **Balanço Financeiro Consolidado:**
+  - Resgate no Stop Point 1 da SAFE: **R$ 21,60**
+  - Investimento Total da Grade: R$ 25,25 (SAFE R$ 15,00 + Secundários R$ 10,25)
+  - Recuperação de Capital: **85,5% do total investido na rodada recuperado diretamente pelo Stop 1 da SAFE**, comprovando a eficiência das travas modulares do método.

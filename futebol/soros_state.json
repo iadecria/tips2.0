@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 10.0,
-  "currentDay": 1,
+  "currentStake": 14.25,
+  "currentDay": 2,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -332,6 +332,17 @@
       "selection": "Vietnã x Taipé Chinesa (Vietnã ML @1.25) + Juventus W x Olympique Lyon W (Lyon W ML @1.14)",
       "odd": 1.425,
       "potentialReturn": 14.25,
+      "status": "HIT",
+      "actualReturn": 14.25,
+      "notes": "GREEN cravado! Vietnã 2x0 Taipé Chinesa (Vietnã ML ✅) + Juventus 0x6 Lyon (Lyon ML ✅). Retorno: R$ 14,25."
+    },
+    {
+      "day": 2,
+      "date": "2026-11-13",
+      "stakeIn": 14.25,
+      "selection": "Eslováquia x Ilhas Faroé (Eslováquia ML @1.33) + Salamanca CF UDS x RC Celta de Vigo (Celta de Vigo ou Empate X2 @1.08)",
+      "odd": 1.44,
+      "potentialReturn": 20.52,
       "status": "ACTIVE"
     }
   ]

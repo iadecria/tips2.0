@@ -4500,3 +4500,102 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@142.80 — Super Bingo com Cash Out):**
   - Odd: 142.80 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 142,80
   - Protocolo de Cash Out ativo após os jogos europeus das 17h.
+
+
+### [2026-11-13] — RODADA DIÁRIA (UEFA NATIONS LEAGUE & COPA DEL REY)
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-13_V1_NATIONS_LEAGUE_COPA_DEL_REY`
+- **Data do Registro:** 2026-11-13
+- **Cutoff:** 2026-11-13T16:15:00-03:00
+- **Contexto da Data:** Sexta-feira de 5ª rodada decisiva da UEFA Nations League (Alemanha, Países Baixos, Eslováquia, Escócia, Suíça) e confronto adiado da 1ª eliminatória da Copa del Rey (Salamanca x Celta de Vigo).
+- **Status de Liquidação:** **AGUARDANDO RESULTADOS (PRÉ-JOGO)**
+- **Melhorias Estratégicas Aplicadas (FAS V6.5):**
+  1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02. A SAFE Stop 2 contém apenas 5 seleções sólidas para atingir @1.94.
+  2. *Blindagem Anti-Série B:* 100% de foco em seleções da elite UEFA e confronto assimétrico da Copa del Rey.
+  3. *Regra do Cofre:* Ciclo 4 do Desafio Soros no Dia 2 com stake de R$ 14,25 (autofinanciada pelo Green no Dia 1).
+
+#### 1. Discovery e Cobertura
+- Analisados: 16 fixtures da UEFA Nations League e Copa del Rey.
+- Elegíveis: 8 fixtures de alta relevância estatística.
+- Descartados: Amistosos sem contexto competitivo ou jogos com blocos ultrabaixos imprevisíveis.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Eslováquia × Ilhas Faroé** (16:45 BRT — UEFA Nations League)
+   - **Tese (Soros Ciclo 4 - Dia 2):** Eslováquia Vence (Moneyline @1.33) | Eslováquia -1.5 AH (@1.55) | Eslováquia V1 & Over 1.5 (@1.65)
+2. **Salamanca CF UDS × RC Celta de Vigo** (17:00 BRT — Copa del Rey)
+   - **Tese (Soros Ciclo 4 - Dia 2):** Celta de Vigo ou Empate (Dupla Chance X2 @1.08) | Celta de Vigo Vence (ML @1.36) | Celta V1 & Over 1.5 (@1.62)
+3. **Sérvia × Alemanha** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Alemanha ou Empate (Dupla Chance X2 @1.12) | Alemanha Vence (Moneyline @1.45) | Mais de 2.5 Gols (@1.70)
+4. **Países Baixos × Grécia** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Países Baixos ou Empate (Dupla Chance 1X @1.12) | Países Baixos Vence (Moneyline @1.48) | Ambos os Times Marcam (Sim @1.75)
+5. **Escócia × Macedônia do Norte** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Escócia ou Empate (Dupla Chance 1X @1.08) | Escócia Vence (Moneyline @1.38)
+6. **Eslovênia × Suíça** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Menos de 2.5 Gols no Jogo (@1.70)
+7. **Moldávia × Cazaquistão** (14:00 BRT — UEFA Nations League)
+   - **Tese:** Menos de 2.5 Gols no Jogo (@1.55)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 13/11 (FAS V6.5)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 4 / DIA 2 DE 30:**
+  - Eslováquia x Ilhas Faroé: Eslováquia Vence (Moneyline @1.33)
+  - Salamanca CF UDS x RC Celta de Vigo: Celta de Vigo ou Empate (Dupla Chance X2 @1.08)
+  - Odd: 1.44 | Stake: R$ 14,25 | Retorno Potencial: R$ 20,52
+
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.33):**
+  - Sérvia x Alemanha: Alemanha Vence (Moneyline @1.45)
+  - Países Baixos x Grécia: Países Baixos Vence (Moneyline @1.48)
+  - Eslováquia x Ilhas Faroé: Eslováquia Vence por 2+ Gols (-1.5 AH @1.55)
+  - Odd: 3.33 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 10,00
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla Continental de Imunidade @1.44):**
+    - Eslováquia x Ilhas Faroé: Eslováquia ou Empate (Dupla Chance 1X @1.06)
+    - Salamanca CF UDS x RC Celta de Vigo: RC Celta de Vigo ou Empate (Dupla Chance X2 @1.08)
+    - Sérvia x Alemanha: Alemanha ou Empate (Dupla Chance X2 @1.12)
+    - Países Baixos x Grécia: Países Baixos ou Empate (Dupla Chance 1X @1.12)
+    - *Retorno Stop 1:* R$ 21,60.
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.94) — [SAÍDA DO USUÁRIO]:**
+    - Salamanca x Celta: Celta ou Empate (X2 @1.08)
+    - Sérvia x Alemanha: Alemanha ou Empate (X2 @1.12)
+    - Países Baixos x Grécia: Países Baixos ou Empate (1X @1.12)
+    - Escócia x Macedônia do Norte: Escócia ou Empate (1X @1.08)
+    - Eslováquia x Ilhas Faroé: Eslováquia Vence (Moneyline @1.33)
+    - *Retorno Stop 2:* **R$ 29,10** (Lucro líquido: +R$ 14,10 cobrindo 138% de todos os secundários de R$ 10,25 com apenas 5 seleções!).
+  - **Stop Point 3 (Expansão Europeia com Gols @2.86):**
+    - + Sérvia x Alemanha: Mais de 1.5 Gols no Jogo (@1.22)
+    - + Países Baixos x Grécia: Mais de 1.5 Gols no Jogo (@1.21)
+    - *Retorno Stop 3:* R$ 42,90.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@2.80):**
+  - Eslováquia x Ilhas Faroé: Eslováquia Vence (Moneyline @1.33)
+  - Salamanca CF UDS x RC Celta de Vigo: RC Celta de Vigo Vence (Moneyline @1.36)
+  - Escócia x Macedônia do Norte: Escócia Vence (Moneyline @1.38)
+  - Sérvia x Alemanha: Alemanha ou Empate (Dupla Chance X2 @1.12)
+  - Odd: 2.80 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 6,30
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.76):**
+  - Países Baixos x Grécia: Ambos os Times Marcam (Sim @1.75)
+  - Sérvia x Alemanha: Mais de 2.5 Gols no Jogo (@1.70)
+  - Salamanca CF UDS x RC Celta de Vigo: Mais de 2.5 Gols no Jogo (@1.60)
+  - Odd: 4.76 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 7,14
+
+- 🏆 **MÚLTIPLA COPAS & NATIONS (@2.67):**
+  - Salamanca CF UDS x RC Celta de Vigo: Celta de Vigo Vence & Mais de 1.5 Gols (@1.62)
+  - Eslováquia x Ilhas Faroé: Eslováquia Vence & Mais de 1.5 Gols (@1.65)
+  - Odd: 2.67 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,00
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@33.50):**
+  - Países Baixos x Grécia: Países Baixos Vence & Ambos Marcam (@3.20)
+  - Sérvia x Alemanha: Alemanha Vence & Mais de 2.5 Gols (@2.10)
+  - Eslováquia x Ilhas Faroé: Eslováquia Vence por 2+ Gols (-1.5 AH @1.55)
+  - Salamanca CF UDS x RC Celta de Vigo: Celta de Vigo Vence & Mais de 2.5 Gols (@1.95)
+  - Escócia x Macedônia do Norte: Escócia Vence & Mais de 1.5 Gols (@1.65)
+  - Odd: 33.50 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 33,50
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@182.40 — Super Bingo com Cash Out):**
+  - Odd: 182.40 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 182,40
+  - Protocolo de Cash Out ativo.

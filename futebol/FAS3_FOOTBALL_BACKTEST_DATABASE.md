@@ -4629,3 +4629,111 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Resgate no Stop Point 1 da SAFE: **R$ 21,60**
   - Investimento Total da Grade: R$ 25,25 (SAFE R$ 15,00 + Secundários R$ 10,25)
   - Recuperação de Capital: **85,5% do total investido na rodada recuperado diretamente pelo Stop 1 da SAFE**, comprovando a eficiência das travas modulares do método.
+
+
+### [2026-11-14] — RODADA DIÁRIA (UEFA NATIONS LEAGUE & LA LIGA HYPERMOTION)
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-14_V1_NATIONS_LEAGUE_EUROPA`
+- **Data do Registro:** 2026-11-14
+- **Cutoff:** 2026-11-14T13:30:00-03:00
+- **Contexto da Data:** Sábado de 5ª rodada decisiva da UEFA Nations League (Portugal, Suécia, Áustria, Noruega, Polônia, Geórgia) e La Liga Hypermotion na Espanha.
+- **Status de Liquidação:** **ATIVO / AGUARDANDO JOGOS**
+- **Melhorias Estratégicas Aplicadas (FAS V6.5):**
+  1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02. A SAFE Stop 2 contém apenas 4 seleções sólidas para atingir @1.94.
+  2. *Blindagem Anti-Série B:* 100% de foco em seleções da elite UEFA e mandante com abismo técnico na Espanha (Almería).
+  3. *Regra do Cofre:* Ciclo 5 do Desafio Soros no Dia 1 com stake inicial de R$ 10,00.
+
+#### 1. Discovery e Cobertura
+- Analisados: 14 fixtures da UEFA Nations League e La Liga Hypermotion.
+- Elegíveis: 8 fixtures de alta liquidez e relevância estatística.
+- Descartados: Jogos matutinos já encerrados (Brasil 2x0 Japão, Kosovo 1x1 Israel) e confrontos sem assimetria matemática.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Noruega × País de Gales** (14:00 BRT — UEFA Nations League)
+   - **Tese:** Noruega ou Empate (Dupla Chance 1X @1.14) | Noruega Vence (Moneyline @1.55) | Noruega V1 & Over 1.5 (@1.85)
+2. **Geórgia × Hungria** (14:00 BRT — UEFA Nations League)
+   - **Tese:** Ambos os Times Marcam (Sim @1.72) | Ambos Marcam & Over 2.5 (@2.20)
+3. **UD Almería × FC Andorra** (14:30 BRT — La Liga Hypermotion)
+   - **Tese:** UD Almería ou Empate (Dupla Chance 1X @1.18) | Almería V1 & Over 1.5 (@2.10)
+4. **Portugal × Dinamarca** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Portugal ou Empate (Dupla Chance 1X @1.12) | Portugal Vence (Moneyline @1.52) | Ambos os Times Marcam (Sim @1.53) | Portugal V1 & Over 1.5 (@1.80)
+5. **Áustria × República da Irlanda** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Áustria ou Empate (Dupla Chance 1X @1.10) | Áustria Vence (Moneyline @1.42) | Áustria V1 & Over 1.5 (@1.72)
+6. **Suécia × Bósnia e Herzegovina** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Suécia ou Empate (Dupla Chance 1X @1.08) | Suécia Vence (Moneyline @1.38) | Suécia V1 & Over 1.5 (@1.65)
+7. **Romênia × Polônia** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Polônia ou Empate (Dupla Chance X2 @1.25) | Ambos os Times Marcam (Sim @1.72)
+8. **Irlanda do Norte × Ucrânia** (16:45 BRT — UEFA Nations League)
+   - **Tese:** Menos de 2.5 Gols no Jogo (@1.55)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 14/11 (FAS V6.5)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 1 DE 30:**
+  - Noruega x País de Gales (14:00 BRT): Noruega ou Empate (Dupla Chance 1X @1.14)
+  - Suécia x Bósnia e Herzegovina (16:45 BRT): Suécia Vence (Moneyline @1.38)
+  - Odd: 1.57 | Stake: R$ 10,00 | Retorno Potencial: R$ 15,73
+
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@3.56):**
+  - Portugal x Dinamarca: Portugal Vence (Moneyline @1.52)
+  - Áustria x República da Irlanda: Áustria Vence (Moneyline @1.42)
+  - Suécia x Bósnia e Herzegovina: Suécia Vence & Mais de 1.5 Gols (@1.65)
+  - Odd: 3.56 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 10,68
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla Continental de Imunidade @1.52):**
+    - Noruega x País de Gales: Noruega ou Empate (Dupla Chance 1X @1.14)
+    - Portugal x Dinamarca: Portugal ou Empate (Dupla Chance 1X @1.12)
+    - Áustria x República da Irlanda: Áustria ou Empate (Dupla Chance 1X @1.10)
+    - Suécia x Bósnia e Herzegovina: Suécia ou Empate (Dupla Chance 1X @1.08)
+    - *Retorno Stop 1:* R$ 22,80 (Lucro de +R$ 7,80, cobrindo 76% dos secundários com risco mínimo).
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @1.94) — [SAÍDA DO USUÁRIO]:**
+    - Noruega x País de Gales: Noruega ou Empate (Dupla Chance 1X @1.14)
+    - Portugal x Dinamarca: Portugal ou Empate (Dupla Chance 1X @1.12)
+    - Áustria x República da Irlanda: Áustria ou Empate (Dupla Chance 1X @1.10)
+    - Suécia x Bósnia e Herzegovina: Suécia Vence (Moneyline @1.38)
+    - *Retorno Stop 2:* **R$ 29,10** (Lucro líquido: +R$ 14,10 cobrindo 138% de todos os secundários de R$ 10,25 com apenas 4 seleções!).
+  - **Stop Point 3 (Expansão Europeia com Gols @2.95):**
+    - + Noruega x País de Gales: Mais de 1.5 Gols no Jogo (@1.25)
+    - + Portugal x Dinamarca: Mais de 1.5 Gols no Jogo (@1.22)
+    - *Retorno Stop 3:* R$ 44,25.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.40):**
+  - Noruega x País de Gales: Noruega Vence (Moneyline @1.55)
+  - Suécia x Bósnia e Herzegovina: Suécia Vence (Moneyline @1.38)
+  - Áustria x República da Irlanda: Áustria Vence (Moneyline @1.42)
+  - Portugal x Dinamarca: Portugal ou Empate (Dupla Chance 1X @1.12)
+  - Odd: 3.40 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 7,65
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.53):**
+  - Geórgia x Hungria: Ambos os Times Marcam (Sim @1.72)
+  - Romênia x Polônia: Ambos os Times Marcam (Sim @1.72)
+  - Portugal x Dinamarca: Ambos os Times Marcam (Sim @1.53)
+  - Odd: 4.53 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 6,80
+
+- 🏆 **MÚLTIPLA NATIONS LEAGUE (Dupla de Imposição @3.33):**
+  - Noruega x País de Gales: Noruega Vence & Mais de 1.5 Gols (@1.85)
+  - Portugal x Dinamarca: Portugal Vence & Mais de 1.5 Gols (@1.80)
+  - Odd: 3.33 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,00
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@58.00):**
+  - Portugal x Dinamarca: Portugal Vence & Ambos Marcam (@3.25)
+  - Noruega x País de Gales: Noruega Vence & Mais de 2.5 Gols (@2.30)
+  - Suécia x Bósnia e Herzegovina: Suécia Vence & Mais de 2.5 Gols (@2.05)
+  - Áustria x República da Irlanda: Áustria Vence & Mais de 1.5 Gols (@1.72)
+  - Geórgia x Hungria: Ambos Marcam & Mais de 2.5 Gols (@2.20)
+  - Odd: 58.00 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 58,00
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@150.15 — Super Bingo com Cash Out):**
+  - Noruega x País de Gales: Noruega Vence & Mais de 1.5 Gols (@1.85)
+  - Portugal x Dinamarca: Portugal Vence & Mais de 1.5 Gols (@1.80)
+  - Suécia x Bósnia e Herzegovina: Suécia Vence & Mais de 1.5 Gols (@1.65)
+  - Áustria x República da Irlanda: Áustria Vence & Mais de 1.5 Gols (@1.72)
+  - Geórgia x Hungria: Ambos os Times Marcam (Sim @1.72)
+  - Romênia x Polônia: Ambos os Times Marcam (Sim @1.72)
+  - Irlanda do Norte x Ucrânia: Menos de 2.5 Gols (@1.55)
+  - UD Almería x FC Andorra: UD Almería Vence & Mais de 1.5 Gols (@2.10)
+  - Odd: 150.15 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 150,15
+  - Protocolo de Cash Out ativo após os jogos das 14h.

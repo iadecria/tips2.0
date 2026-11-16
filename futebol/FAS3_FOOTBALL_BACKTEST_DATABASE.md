@@ -4637,7 +4637,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-14
 - **Cutoff:** 2026-11-14T13:30:00-03:00
 - **Contexto da Data:** Sábado de 5ª rodada decisiva da UEFA Nations League (Portugal, Suécia, Áustria, Noruega, Polônia, Geórgia) e La Liga Hypermotion na Espanha.
-- **Status de Liquidação:** **ATIVO / AGUARDANDO JOGOS**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (CONFERE REALIZADO)**
 - **Melhorias Estratégicas Aplicadas (FAS V6.5):**
   1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02. A SAFE Stop 2 contém apenas 4 seleções sólidas para atingir @1.94.
   2. *Blindagem Anti-Série B:* 100% de foco em seleções da elite UEFA e mandante com abismo técnico na Espanha (Almería).
@@ -4736,4 +4736,136 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Irlanda do Norte x Ucrânia: Menos de 2.5 Gols (@1.55)
   - UD Almería x FC Andorra: UD Almería Vence & Mais de 1.5 Gols (@2.10)
   - Odd: 150.15 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 150,15
+  - Protocolo de Cash Out ativo após os jogos das 14h.
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 14/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *Noruega 3 × 1 País de Gales* (Nusa 59', Schjelderup 68', Haaland 88'; Noruega V1 & Over 1.5 ✅)
+  2. *Geórgia 1 × 1 Hungria* (Empate com gols; BTTS Sim ✅)
+  3. *UD Almería 2 × 0 FC Andorra* (Almería venceu com autoridade; Almería V1 & Over 1.5 ✅)
+  4. *Portugal 1 × 4 Dinamarca* (Zebra histórica em Braga: Højbjerg 43' pen, Højlund 49', 57', Andersen 75'; Bernardo Silva 90+3'. BTTS Sim ✅, Portugal 1X/ML ❌)
+  5. *Áustria 1 × 0 República da Irlanda* (Kalajdžić 79'; Áustria V1 ✅)
+  6. *Suécia 3 × 2 Bósnia e Herzegovina* (Svensson 5', Gyökeres 11' pen, 45+2' pen; Suécia V1 & Over 1.5 ✅)
+  7. *Romênia 1 × 1 Polônia* (Empate 1x1; BTTS Sim ✅, Polônia X2 ✅)
+  8. *Irlanda do Norte 0 × 1 Ucrânia* (Vitória magra ucraniana; Under 2.5 ✅)
+
+- **Liquidação dos Bilhetes:**
+  - 🔥 **DESAFIO SOROS (CICLO 5 / DIA 1):** ✅ **GREEN CRAVADO!** (Noruega 1X @1.14 ✅ + Suécia ML @1.38 ✅ = @1.57). Retorno: **R$ 15,73**! Avança para o Dia 2 no Ciclo 5 com a stake gerada pelo Green.
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@4.53):** ✅ **GREEN CRAVADO (3 DE 3 ACERTOS)!** (Geórgia 1x1 Hungria BTTS ✅, Romênia 1x1 Polônia BTTS ✅, Portugal 1x4 Dinamarca BTTS ✅). Retorno: **R$ 6,80**!
+  - 🟢 **MÚLTIPLA 1 — SAFE (Stop 1 & 2):** ❌ MISS por 1 perna (derrubada pelo colapso de Portugal contra a Dinamarca por 1x4; Noruega 1X ✅, Áustria 1X ✅, Suécia ML ✅).
+  - ⭐ **BILHETE SUPREMO (@3.56):** ❌ MISS por 1 perna (Áustria ML ✅, Suécia V1 & Over 1.5 ✅; Portugal ML ❌).
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.40):** ❌ MISS por 1 perna (Noruega ML ✅, Suécia ML ✅, Áustria ML ✅; Portugal 1X ❌).
+  - 🏆 **MÚLTIPLA NATIONS LEAGUE (@3.33):** ❌ MISS por 1 perna (Noruega V1 & Over 1.5 ✅; Portugal V1 ❌).
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@58.00):** ❌ MISS (4 de 5 acertos monstruosos: Noruega V1 & Over 2.5 ✅, Suécia V1 & Over 2.5 ✅, Áustria V1 & Over 1.5 ❌ [1x0], Geórgia BTTS & Over 2.5 ❌ [1x1]).
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@150.15):** ❌ MISS (7 DE 8 ACERTOS! Apenas Portugal V1 não bateu).
+
+
+### [2026-11-16] — RODADA DIÁRIA (UEFA NATIONS LEAGUE - RODADA 6 FINAL)
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-16_V1_NATIONS_LEAGUE_FINALS`
+- **Data do Registro:** 2026-11-16
+- **Cutoff:** 2026-11-16T13:30:00-03:00
+- **Contexto da Data:** Segunda-feira de 6ª e decisiva rodada da fase de grupos da UEFA Nations League. Destaque para Alemanha x Holanda em Berlim, Suíça x Escócia em St. Gallen e Islândia x Luxemburgo em Reykjavík.
+- **Status de Liquidação:** **ATIVO / AGUARDANDO JOGOS**
+- **Melhorias Estratégicas Aplicadas (FAS V6.5):**
+  1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02. A SAFE Stop 2 contém 4 seleções sólidas para atingir @2.13.
+  2. *Blindagem Anti-Série B:* 100% de foco em seleções da elite UEFA em jogos decisivos da 6ª rodada.
+  3. *Regra do Cofre:* Ciclo 5 do Desafio Soros avançando ao Dia 2 com stake de R$ 15,73 (autofinanciada pelo Green no Dia 1).
+
+#### 1. Discovery e Cobertura
+- Analisados: 12 fixtures da UEFA Nations League (Ligas A, B, C e D).
+- Elegíveis: 8 fixtures de alta liquidez e relevância estatística.
+- Descartados: Amistosos sem contexto de tabela e partidas da Liga D com alta volatilidade tática.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **Islândia × Luxemburgo** (14:00 BRT — UEFA Nations League C)
+   - **Tese (Soros Ciclo 5 - Dia 2):** Islândia Vence (Moneyline @1.30) | Islândia ou Empate (1X @1.08) | Islândia V1 & Over 1.5 (@1.55)
+2. **Cazaquistão × Eslováquia** (14:00 BRT — UEFA Nations League C)
+   - **Tese:** Eslováquia ou Empate (Dupla Chance X2 @1.14) | Eslováquia Vence (Moneyline @1.83) | Ambos os Times Marcam (Sim @1.80)
+3. **Alemanha × Holanda** (16:45 BRT — UEFA Nations League A)
+   - **Tese:** Alemanha ou Empate (Dupla Chance 1X @1.25) | Alemanha Vence (Moneyline @1.90) | Ambos os Times Marcam (Sim @1.55) | Alemanha V1 & Ambos Marcam (@3.40)
+4. **Suíça × Escócia** (16:45 BRT — UEFA Nations League B)
+   - **Tese (Soros Ciclo 5 - Dia 2):** Suíça ou Empate (Dupla Chance 1X @1.15) | Suíça Vence (Moneyline @1.65) | Suíça V1 & Menos de 3.5 Gols (@2.15)
+5. **Grécia × Sérvia** (16:45 BRT — UEFA Nations League A)
+   - **Tese:** Sérvia ou Empate (Dupla Chance X2 @1.35) | Mais de 2.5 Gols no Jogo (@2.05)
+6. **Macedônia do Norte × Eslovênia** (16:45 BRT — UEFA Nations League B)
+   - **Tese:** Menos de 2.5 Gols no Jogo (@1.60) | Eslovênia ou Empate (Dupla Chance X2 @1.18)
+7. **Ilhas Faroé × Moldávia** (16:45 BRT — UEFA Nations League C)
+   - **Tese:** Menos de 2.5 Gols no Jogo (@1.55)
+8. **Estônia × Bulgária** (16:45 BRT — UEFA Nations League C)
+   - **Tese:** Menos de 2.5 Gols no Jogo (@1.50)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 16/11 (FAS V6.5)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 2 DE 30:**
+  - Islândia x Luxemburgo (14:00 BRT): Islândia Vence (Moneyline @1.30)
+  - Suíça x Escócia (16:45 BRT): Suíça ou Empate (Dupla Chance 1X @1.15)
+  - Odd: 1.50 | Stake: R$ 15,73 | Retorno Potencial: R$ 23,60
+
+- ⭐ **BILHETE SUPREMO — O FILÉ DOS TURNOS (@4.85):**
+  - Suíça x Escócia: Suíça Vence (Moneyline @1.65)
+  - Alemanha x Holanda: Alemanha Vence (Moneyline @1.90)
+  - Islândia x Luxemburgo: Islândia Vence & Mais de 1.5 Gols (@1.55)
+  - Odd: 4.85 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 14,55
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA (Stop Points Modulares V6.5):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla Continental de Imunidade @1.77):**
+    - Islândia x Luxemburgo: Islândia ou Empate (Dupla Chance 1X @1.08)
+    - Suíça x Escócia: Suíça ou Empate (Dupla Chance 1X @1.15)
+    - Alemanha x Holanda: Alemanha ou Empate (Dupla Chance 1X @1.25)
+    - Cazaquistão x Eslováquia: Eslováquia ou Empate (Dupla Chance X2 @1.14)
+    - *Retorno Stop 1:* R$ 26,55 (Lucro líquido: +R$ 11,55 cobrindo 112% dos secundários com risco mínimo).
+  - **Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% @2.13) — [SAÍDA DO USUÁRIO]:**
+    - Islândia x Luxemburgo: Islândia Vence (Moneyline @1.30)
+    - Suíça x Escócia: Suíça ou Empate (Dupla Chance 1X @1.15)
+    - Alemanha x Holanda: Alemanha ou Empate (Dupla Chance 1X @1.25)
+    - Cazaquistão x Eslováquia: Eslováquia ou Empate (Dupla Chance X2 @1.14)
+    - *Retorno Stop 2:* **R$ 31,95** (Lucro líquido: +R$ 16,95 cobrindo 165% de todos os secundários de R$ 10,25 com apenas 4 seleções!).
+  - **Stop Point 3 (Expansão Europeia com Gols @3.19):**
+    - + Alemanha x Holanda: Mais de 1.5 Gols no Jogo (@1.20)
+    - + Islândia x Luxemburgo: Mais de 1.5 Gols no Jogo (@1.25)
+    - *Retorno Stop 3:* R$ 47,85.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.05):**
+  - Islândia x Luxemburgo: Islândia Vence (Moneyline @1.30)
+  - Suíça x Escócia: Suíça Vence (Moneyline @1.65)
+  - Alemanha x Holanda: Alemanha ou Empate (Dupla Chance 1X @1.25)
+  - Cazaquistão x Eslováquia: Eslováquia ou Empate (Dupla Chance X2 @1.14)
+  - Odd: 3.05 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 6,86
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@5.72):**
+  - Alemanha x Holanda: Ambos os Times Marcam (Sim @1.55)
+  - Cazaquistão x Eslováquia: Ambos os Times Marcam (Sim @1.80)
+  - Grécia x Sérvia: Mais de 2.5 Gols no Jogo (@2.05)
+  - Odd: 5.72 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 8,58
+
+- 🏆 **MÚLTIPLA NATIONS LEAGUE (Dupla de Decisão @3.33):**
+  - Alemanha x Holanda: Alemanha Vence ou Empate & Mais de 1.5 Gols (@1.55)
+  - Suíça x Escócia: Suíça Vence & Menos de 3.5 Gols (@2.15)
+  - Odd: 3.33 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 5,00
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@104.00):**
+  - Alemanha x Holanda: Alemanha Vence & Ambos Marcam (@3.40)
+  - Suíça x Escócia: Suíça Vence por 2+ Gols (-1.5 AH @2.65)
+  - Islândia x Luxemburgo: Islândia Vence por 2+ Gols (-1.5 AH @1.90)
+  - Cazaquistão x Eslováquia: Eslováquia Vence & Ambos Marcam (@3.80)
+  - Macedônia do Norte x Eslovênia: Menos de 2.5 Gols no Jogo (@1.60)
+  - Odd: 104.00 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 104,00
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@155.00 — Super Bingo com Cash Out):**
+  - Islândia x Luxemburgo: Islândia Vence & Mais de 1.5 Gols (@1.55)
+  - Cazaquistão x Eslováquia: Eslováquia Vence (Moneyline @1.83)
+  - Alemanha x Holanda: Alemanha Vence & Ambos Marcam (@3.40)
+  - Suíça x Escócia: Suíça Vence & Menos de 3.5 Gols (@2.15)
+  - Grécia x Sérvia: Sérvia ou Empate (Dupla Chance X2 @1.35)
+  - Macedônia do Norte x Eslovênia: Menos de 2.5 Gols no Jogo (@1.60)
+  - Ilhas Faroé x Moldávia: Menos de 2.5 Gols no Jogo (@1.55)
+  - Estônia x Bulgária: Menos de 2.5 Gols no Jogo (@1.50)
+  - Odd: 155.00 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 155,00
   - Protocolo de Cash Out ativo após os jogos das 14h.

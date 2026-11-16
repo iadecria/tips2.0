@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 10.0,
-  "currentDay": 1,
+  "currentStake": 15.73,
+  "currentDay": 2,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -353,6 +353,17 @@
       "selection": "Noruega x País de Gales (Noruega ou Empate 1X @1.14) + Suécia x Bósnia e Herzegovina (Suécia Vence ML @1.38)",
       "odd": 1.57,
       "potentialReturn": 15.73,
+      "status": "HIT",
+      "actualReturn": 15.73,
+      "notes": "GREEN cravado! Noruega 3x1 Gales (1X ✅) + Suécia 3x2 Bósnia (Suécia ML ✅). Retorno: R$ 15,73."
+    },
+    {
+      "day": 2,
+      "date": "2026-11-16",
+      "stakeIn": 15.73,
+      "selection": "Islândia x Luxemburgo (Islândia Vence ML @1.30) + Suíça x Escócia (Suíça ou Empate 1X @1.15)",
+      "odd": 1.50,
+      "potentialReturn": 23.60,
       "status": "ACTIVE"
     }
   ]

@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-14",
-  "snapshotId": "FAS_FOOTBALL_2026-11-14_V1_NATIONS_LEAGUE_EUROPA",
+  "date": "2026-11-16",
+  "snapshotId": "FAS_FOOTBALL_2026-11-16_V1_NATIONS_LEAGUE_FINALS",
   "status": "ACTIVE",
-  "notes": "GRADE DE 14/11/2026 ATIVA: Sábado decisivo de UEFA Nations League (Ligas A e B) e La Liga Hypermotion. Metodologia FAS V6.5 em vigor: filtro anti-inchamento estrito (zero 1.01s), anti-Série B, Stop Points calculados matematicamente para quitação total e Ciclo 5 do Soros iniciado no Dia 1.",
+  "notes": "GRADE DE 16/11/2026 ATIVA: Segunda-feira decisiva da 6ª e última rodada da fase de grupos da UEFA Nations League. Destaque para o clássico europeu Alemanha x Holanda em Berlim, a confirmação do acesso da Suíça contra a Escócia, e a Islândia buscando a liderança definitiva contra Luxemburgo. Metodologia FAS V6.5 em vigor: filtro anti-inchamento estrito (zero 1.01s), anti-Série B, Stop Points calibrados matematicamente e Ciclo 5 do Soros avançando ao Dia 2 com R$ 15,73.",
   "strategicImprovementsApplied": {
-    "antiSerieBFilter": "Ativo: Grade 100% ancorada na elite de seleções europeias da UEFA Nations League e mandante com abismo técnico na Espanha.",
-    "antiBloatFilter": "Ativo: Zero odds de 1.01 ou 1.02. Stop 2 reduzido a apenas 4 seleções sólidas para atingir @1.94.",
-    "cashOutProtocol": "Ativo: Múltipla 5 monitorada para saque garantido >= 30x antes dos jogos das 16:45/17:00.",
-    "sorosVaultRule": "Ativo: Ciclo 5 iniciando no Dia 1 com stake inicial de R$ 10,00."
+    "antiSerieBFilter": "Ativo: Grade 100% ancorada na elite de seleções europeias da UEFA Nations League em jogos de alta responsabilidade competitiva.",
+    "antiBloatFilter": "Ativo: Zero odds de 1.01 ou 1.02. Stop 2 reduzido a apenas 4 seleções sólidas para atingir @2.13.",
+    "cashOutProtocol": "Ativo: Múltipla 5 monitorada para saque garantido >= 30x após os jogos das 14:00 BRT antes dos confrontos das 16:45 BRT.",
+    "sorosVaultRule": "Ativo: Ciclo 5 avançando ao Dia 2 com stake de R$ 15,73 (autofinanciada pelo Green no Dia 1)."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Sábado 14/11)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DOS TURNOS (Segunda 16/11)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.56,
+    "multiplierGlobal": 4.85,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 10.68,
-    "philosophy": "Desacoplamento total da SAFE: Portugal Vence em Lisboa contra a Dinamarca, Áustria Vence em Viena e Suécia V1 & Over 1.5 em Solna.",
+    "potentialReturn": 14.55,
+    "philosophy": "Desacoplamento total da SAFE: Suíça confirmando favoritismo em casa contra a Escócia, Alemanha de Klopp precisando da vitória no clássico contra a Holanda em Berlim e Islândia dominante contra Luxemburgo.",
     "status": "ACTIVE",
     "selections": [
       {
-        "match": "Portugal x Dinamarca (16:45 BRT)",
-        "competition": "UEFA Nations League (Liga A)",
-        "market": "Portugal Vence (Moneyline)",
-        "odd": 1.52,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Áustria x República da Irlanda (16:45 BRT)",
+        "match": "Suíça x Escócia (16:45 BRT)",
         "competition": "UEFA Nations League (Liga B)",
-        "market": "Áustria Vence (Moneyline)",
-        "odd": 1.42,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Suécia x Bósnia e Herzegovina (16:45 BRT)",
-        "competition": "UEFA Nations League (Liga B)",
-        "market": "Suécia Vence & Mais de 1.5 Gols",
+        "market": "Suíça Vence (Moneyline)",
         "odd": 1.65,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Alemanha x Holanda (16:45 BRT)",
+        "competition": "UEFA Nations League (Liga A)",
+        "market": "Alemanha Vence (Moneyline)",
+        "odd": 1.9,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Islândia x Luxemburgo (14:00 BRT)",
+        "competition": "UEFA Nations League (Liga C)",
+        "market": "Islândia Vence & Mais de 1.5 Gols",
+        "odd": 1.55,
         "status": "ACTIVE"
       }
     ]
@@ -54,40 +54,40 @@
       "stopPoints": [
         {
           "level": "Stop Point 1 (Quádrupla Continental de Imunidade)",
-          "multiplier": 1.52,
-          "potentialReturn": 22.8,
+          "multiplier": 1.77,
+          "potentialReturn": 26.55,
           "legs": [
-            "Noruega x País de Gales (14:00 BRT): Noruega ou Empate (Dupla Chance 1X @1.14)",
-            "Portugal x Dinamarca (16:45 BRT): Portugal ou Empate (Dupla Chance 1X @1.12)",
-            "Áustria x República da Irlanda (16:45 BRT): Áustria ou Empate (Dupla Chance 1X @1.10)",
-            "Suécia x Bósnia e Herzegovina (16:45 BRT): Suécia ou Empate (Dupla Chance 1X @1.08)"
+            "Islândia x Luxemburgo (14:00 BRT): Islândia ou Empate (Dupla Chance 1X @1.08)",
+            "Suíça x Escócia (16:45 BRT): Suíça ou Empate (Dupla Chance 1X @1.15)",
+            "Alemanha x Holanda (16:45 BRT): Alemanha ou Empate (Dupla Chance 1X @1.25)",
+            "Cazaquistão x Eslováquia (14:00 BRT): Eslováquia ou Empate (Dupla Chance X2 @1.14)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem Consagrada — SAFE Shield 100% / Ponto de Saída Padrão)",
-          "multiplier": 1.94,
-          "potentialReturn": 29.1,
-          "netProfit": 14.1,
+          "multiplier": 2.13,
+          "potentialReturn": 31.95,
+          "netProfit": 16.95,
           "legs": [
-            "Noruega x País de Gales: Noruega ou Empate (Dupla Chance 1X @1.14)",
-            "Portugal x Dinamarca: Portugal ou Empate (Dupla Chance 1X @1.12)",
-            "Áustria x República da Irlanda: Áustria ou Empate (Dupla Chance 1X @1.10)",
-            "Suécia x Bósnia e Herzegovina: Suécia Vence (Moneyline @1.38)"
+            "Islândia x Luxemburgo: Islândia Vence (Moneyline @1.30)",
+            "Suíça x Escócia: Suíça ou Empate (Dupla Chance 1X @1.15)",
+            "Alemanha x Holanda: Alemanha ou Empate (Dupla Chance 1X @1.25)",
+            "Cazaquistão x Eslováquia: Eslováquia ou Empate (Dupla Chance X2 @1.14)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 3 (Expansão Europeia com Gols)",
-          "multiplier": 2.95,
-          "potentialReturn": 44.25,
+          "multiplier": 3.19,
+          "potentialReturn": 47.85,
           "legs": [
-            "Noruega x País de Gales: Noruega ou Empate (Dupla Chance 1X @1.14)",
-            "Portugal x Dinamarca: Portugal ou Empate (Dupla Chance 1X @1.12)",
-            "Áustria x República da Irlanda: Áustria ou Empate (Dupla Chance 1X @1.10)",
-            "Suécia x Bósnia e Herzegovina: Suécia Vence (Moneyline @1.38)",
-            "Noruega x País de Gales: Mais de 1.5 Gols no Jogo (@1.25)",
-            "Portugal x Dinamarca: Mais de 1.5 Gols no Jogo (@1.22)"
+            "Islândia x Luxemburgo: Islândia Vence (Moneyline @1.30)",
+            "Suíça x Escócia: Suíça ou Empate (Dupla Chance 1X @1.15)",
+            "Alemanha x Holanda: Alemanha ou Empate (Dupla Chance 1X @1.25)",
+            "Cazaquistão x Eslováquia: Eslováquia ou Empate (Dupla Chance X2 @1.14)",
+            "Alemanha x Holanda: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Islândia x Luxemburgo: Mais de 1.5 Gols no Jogo (@1.25)"
           ],
           "status": "ACTIVE"
         }
@@ -98,14 +98,14 @@
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.4,
-      "potentialReturn": 7.65,
+      "multiplier": 3.05,
+      "potentialReturn": 6.86,
       "status": "ACTIVE",
       "legs": [
-        "Noruega x País de Gales (14:00 BRT): Noruega Vence (Moneyline @1.55)",
-        "Suécia x Bósnia e Herzegovina (16:45 BRT): Suécia Vence (Moneyline @1.38)",
-        "Áustria x República da Irlanda (16:45 BRT): Áustria Vence (Moneyline @1.42)",
-        "Portugal x Dinamarca (16:45 BRT): Portugal ou Empate (Dupla Chance 1X @1.12)"
+        "Islândia x Luxemburgo (14:00 BRT): Islândia Vence (Moneyline @1.30)",
+        "Suíça x Escócia (16:45 BRT): Suíça Vence (Moneyline @1.65)",
+        "Alemanha x Holanda (16:45 BRT): Alemanha ou Empate (Dupla Chance 1X @1.25)",
+        "Cazaquistão x Eslováquia (14:00 BRT): Eslováquia ou Empate (Dupla Chance X2 @1.14)"
       ]
     },
     {
@@ -113,17 +113,17 @@
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 4.53,
-      "potentialReturn": 6.8,
+      "multiplier": 5.72,
+      "potentialReturn": 8.58,
       "status": "ACTIVE",
       "legs": [
-        "Geórgia x Hungria (14:00 BRT): Ambos os Times Marcam (Sim @1.72)",
-        "Romênia x Polônia (16:45 BRT): Ambos os Times Marcam (Sim @1.72)",
-        "Portugal x Dinamarca (16:45 BRT): Ambos os Times Marcam (Sim @1.53)"
+        "Alemanha x Holanda (16:45 BRT): Ambos os Times Marcam (Sim @1.55)",
+        "Cazaquistão x Eslováquia (14:00 BRT): Ambos os Times Marcam (Sim @1.80)",
+        "Grécia x Sérvia (16:45 BRT): Mais de 2.5 Gols no Jogo (@2.05)"
       ]
     },
     {
-      "name": "🏆 MÚLTIPLA NATIONS LEAGUE (Dupla de Imposição)",
+      "name": "🏆 MÚLTIPLA NATIONS LEAGUE (Dupla de Decisão)",
       "type": "NATIONS",
       "stake": 1.5,
       "unitStake": 0.1,
@@ -131,8 +131,8 @@
       "potentialReturn": 5.0,
       "status": "ACTIVE",
       "legs": [
-        "Noruega x País de Gales (14:00 BRT): Noruega Vence & Mais de 1.5 Gols (@1.85)",
-        "Portugal x Dinamarca (16:45 BRT): Portugal Vence & Mais de 1.5 Gols (@1.80)"
+        "Alemanha x Holanda (16:45 BRT): Alemanha Vence ou Empate & Mais de 1.5 Gols (@1.55)",
+        "Suíça x Escócia (16:45 BRT): Suíça Vence & Menos de 3.5 Gols (@2.15)"
       ]
     },
     {
@@ -140,16 +140,16 @@
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 58.0,
-      "potentialReturn": 58.0,
+      "multiplier": 104.0,
+      "potentialReturn": 104.0,
       "status": "ACTIVE",
       "philosophy": "Evolução V6.5: Combos de alta conversão sem Clean Sheet frágil na Nations League.",
       "legs": [
-        "Portugal x Dinamarca (16:45 BRT): Portugal Vence & Ambos Marcam (@3.25)",
-        "Noruega x País de Gales (14:00 BRT): Noruega Vence & Mais de 2.5 Gols (@2.30)",
-        "Suécia x Bósnia e Herzegovina (16:45 BRT): Suécia Vence & Mais de 2.5 Gols (@2.05)",
-        "Áustria x República da Irlanda (16:45 BRT): Áustria Vence & Mais de 1.5 Gols (@1.72)",
-        "Geórgia x Hungria (14:00 BRT): Ambos Marcam & Mais de 2.5 Gols (@2.20)"
+        "Alemanha x Holanda (16:45 BRT): Alemanha Vence & Ambos Marcam (@3.40)",
+        "Suíça x Escócia (16:45 BRT): Suíça Vence por 2+ Gols (-1.5 AH @2.65)",
+        "Islândia x Luxemburgo (14:00 BRT): Islândia Vence por 2+ Gols (-1.5 AH @1.90)",
+        "Cazaquistão x Eslováquia (14:00 BRT): Eslováquia Vence & Ambos Marcam (@3.80)",
+        "Macedônia do Norte x Eslovênia (16:45 BRT): Menos de 2.5 Gols no Jogo (@1.60)"
       ]
     },
     {
@@ -157,39 +157,39 @@
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 150.15,
-      "potentialReturn": 150.15,
+      "multiplier": 155.0,
+      "potentialReturn": 155.0,
       "status": "ACTIVE",
-      "philosophy": "Super Bingo com 8 seleções de Nations League e La Liga 2 com protocolo de cash out ativo após os jogos das 14h.",
+      "philosophy": "Super Bingo com 8 seleções de Nations League com protocolo de cash out ativo após os jogos das 14h.",
       "legs": [
-        "Noruega x País de Gales (14:00 BRT): Noruega Vence & Mais de 1.5 Gols (@1.85)",
-        "Portugal x Dinamarca (16:45 BRT): Portugal Vence & Mais de 1.5 Gols (@1.80)",
-        "Suécia x Bósnia e Herzegovina (16:45 BRT): Suécia Vence & Mais de 1.5 Gols (@1.65)",
-        "Áustria x República da Irlanda (16:45 BRT): Áustria Vence & Mais de 1.5 Gols (@1.72)",
-        "Geórgia x Hungria (14:00 BRT): Ambos os Times Marcam (Sim @1.72)",
-        "Romênia x Polônia (16:45 BRT): Ambos os Times Marcam (Sim @1.72)",
-        "Irlanda do Norte x Ucrânia (16:45 BRT): Menos de 2.5 Gols (@1.55)",
-        "UD Almería x FC Andorra (14:30 BRT): UD Almería Vence & Mais de 1.5 Gols (@2.10)"
+        "Islândia x Luxemburgo (14:00 BRT): Islândia Vence & Mais de 1.5 Gols (@1.55)",
+        "Cazaquistão x Eslováquia (14:00 BRT): Eslováquia Vence (Moneyline @1.83)",
+        "Alemanha x Holanda (16:45 BRT): Alemanha Vence & Ambos Marcam (@3.40)",
+        "Suíça x Escócia (16:45 BRT): Suíça Vence & Menos de 3.5 Gols (@2.15)",
+        "Grécia x Sérvia (16:45 BRT): Sérvia ou Empate (Dupla Chance X2 @1.35)",
+        "Macedônia do Norte x Eslovênia (16:45 BRT): Menos de 2.5 Gols no Jogo (@1.60)",
+        "Ilhas Faroé x Moldávia (16:45 BRT): Menos de 2.5 Gols no Jogo (@1.55)",
+        "Estônia x Bulgária (16:45 BRT): Menos de 2.5 Gols no Jogo (@1.50)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 1 DE 30",
-    "day": 1,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 2 DE 30",
+    "day": 2,
     "targetDays": 30,
-    "stake": 10.0,
-    "multiplier": 1.57,
-    "potentialReturn": 15.73,
+    "stake": 15.73,
+    "multiplier": 1.5,
+    "potentialReturn": 23.6,
     "status": "ACTIVE",
-    "philosophy": "Reinício do Ciclo 5 no Dia 1 com stake inicial de R$ 10,00. Dupla europeia calibrada: Noruega invicta em casa e Suécia com poderio ofensivo máximo em Solna.",
+    "philosophy": "Passagem ao Dia 2 autofinanciada pelo Green cravado no Dia 1 (@1.57 com Noruega e Suécia). Dupla europeia calibrada: Islândia favorita absoluta em Reykjavík e Suíça com defesa impenetrável contra a Escócia.",
     "vaultPlan": {
       "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero)",
       "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
-      "currentCycleNetRisk": "R$ 10,00 (stake inicial controlada)"
+      "currentCycleNetRisk": "R$ 0,00 (jogando com o lucro gerado pelo Green de ontem!)"
     },
     "legs": [
-      "Noruega x País de Gales (14:00 BRT): Noruega ou Empate (Dupla Chance 1X @1.14)",
-      "Suécia x Bósnia e Herzegovina (16:45 BRT): Suécia Vence (Moneyline @1.38)"
+      "Islândia x Luxemburgo (14:00 BRT): Islândia Vence (Moneyline @1.30)",
+      "Suíça x Escócia (16:45 BRT): Suíça ou Empate (Dupla Chance 1X @1.15)"
     ]
   }
 }

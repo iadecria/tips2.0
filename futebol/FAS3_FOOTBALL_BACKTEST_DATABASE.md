@@ -4906,3 +4906,111 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 28,11** (ROI de **+111,3%** na rodada regular)!
   - *(Caso o apostador tenha executado o Stop 3 da SAFE: Retorno Total de **R$ 69,26**, gerando Lucro Líquido de **+R$ 44,01** / ROI de **+174,3%**!)*
   - **Desafio Soros Ciclo 5 (Banca Isolada):** R$ 15,73 ➔ **R$ 23,60** (+50% de ganho líquido no dia, rumo ao Dia 3)!
+
+
+### [2026-11-17] — RODADA DIÁRIA (UEFA NATIONS LEAGUE - FECHAMENTO DE GRUPOS) [FAS V7.0 MELBET]
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-17_V1_NATIONS_LEAGUE_MELBET_V7`
+- **Data do Registro:** 2026-11-17
+- **Cutoff:** 2026-11-17T16:00:00-03:00
+- **Contexto da Data:** Terça-feira de encerramento da fase de grupos da UEFA Nations League. Destaque para Dinamarca x Noruega (decisão nórdica de vaga), País de Gales x Portugal (busca da liderança lusa em Cardiff), Polônia x Suécia (Gyökeres vs Lewandowski) e Hungria x Irlanda do Norte.
+- **Status de Liquidação:** **ATIVO / AGUARDANDO JOGOS**
+- **Melhorias Estratégicas Aplicadas (FAS V7.0 Melbet Engine):**
+  1. *Blindagem DNB no Stop 2 da SAFE:* Substituição da vitória seca por Empate Anula Aposta (Handicap 0.0), garantindo reembolso (@1.00) caso ocorra empate.
+  2. *Anti-Trap BTTS no Super Ataque:* Foco exclusivo em Over Gols Totais (+2.5), imune a clean sheets de favoritos.
+  3. *Modo Sistema na Melbet:* Recomendação de aposta em formato Sistema 6/8 e 7/8 no carrinho da Melbet para a Múltipla 5.
+  4. *Regra do Cofre:* Ciclo 5 do Soros avançando ao Dia 3 com R$ 23,60 autofinanciados (risco líquido zero da banca inicial).
+
+#### 1. Discovery e Cobertura
+- Analisados: 10 fixtures da UEFA Nations League.
+- Elegíveis: 8 fixtures de alta liquidez e relevância estatística.
+- Descartados: Amistosos sem relevância de tabela.
+
+#### 2. Grade de Fixtures e Teses Pré-Jogo
+1. **País de Gales × Portugal** (16:45 BRT — UEFA Nations League A)
+   - **Tese:** Portugal ou Empate (Dupla Chance 2X @1.14) | Portugal Vence (Moneyline @1.55) | Portugal V1 & Over 1.5 (@1.85 na aba 'Resultado + Total')
+2. **Dinamarca × Noruega** (16:45 BRT — UEFA Nations League A)
+   - **Tese:** Total Mais de 1.5 Gols (@1.22) | Total Mais de 2.5 Gols (@1.68) | Ambos os Times Marcam (Sim @1.65)
+3. **Polônia × Suécia** (16:45 BRT — UEFA Nations League B)
+   - **Tese (Soros Ciclo 5 - Dia 3):** Total Mais de 1.5 Gols (@1.25) | Total Mais de 2.5 Gols (@1.65) | Suécia ou Empate (Dupla Chance 2X @1.45)
+4. **República da Irlanda × Kosovo** (16:45 BRT — UEFA Nations League B)
+   - **Tese:** Rep. Irlanda — Empate Anula Aposta (Handicap 1 (0) @1.45 na Melbet) | Rep. Irlanda ou Empate (1X @1.22) | Rep. Irlanda Vence (@2.10)
+5. **Hungria × Irlanda do Norte** (16:45 BRT — UEFA Nations League B)
+   - **Tese:** Total Menos de 2.5 Gols no Jogo (@1.50) [Irlanda do Norte sofreu 0 gols na Nations League!] | Hungria ou Empate (1X @1.25)
+6. **Bósnia e Herzegovina × Romênia** (16:45 BRT — UEFA Nations League B)
+   - **Tese:** Total Mais de 1.5 Gols (@1.30) | Total Mais de 2.0 / 2.5 (@1.85)
+7. **Ucrânia × Geórgia** (16:45 BRT — UEFA Nations League B)
+   - **Tese:** Total Menos de 2.5 Gols (@1.65)
+8. **Israel × Áustria** (16:45 BRT — UEFA Nations League B)
+   - **Tese:** Total Mais de 1.5 Gols (@1.22)
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 17/11 (FAS V7.0 Melbet Edition)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 3 DE 30:**
+  - País de Gales x Portugal (16:45 BRT): Portugal ou Empate (Dupla Chance 2X @1.14)
+  - Polônia x Suécia (16:45 BRT): Total Mais de 1.5 Gols no Jogo (@1.25)
+  - Odd: 1.43 | Stake: R$ 23,60 | Retorno Potencial: R$ 33,75
+
+- ⭐ **BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (@3.77):**
+  - País de Gales x Portugal: Portugal Vence (Moneyline @1.55) [Melbet: W2]
+  - Dinamarca x Noruega: Total Mais de 2.5 Gols no Jogo (@1.68)
+  - Polônia x Suécia: Suécia ou Empate (Dupla Chance 2X @1.45)
+  - Odd: 3.77 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 11,31
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA V7 (Stop Points com DNB na Melbet):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Tríplice Continental de Imunidade @1.74):**
+    - País de Gales x Portugal: Portugal ou Empate (Dupla Chance 2X @1.14)
+    - Dinamarca x Noruega: Total Mais de 1.5 Gols (@1.22)
+    - Polônia x Suécia: Total Mais de 1.5 Gols (@1.25)
+    - *Retorno Stop 1:* R$ 26,10 (Lucro líquido: +R$ 11,10 cobrindo 110% dos secundários).
+  - **Stop Point 2 (A Blindagem V7 com Empate Anula @2.52) — [SAÍDA RECOMENDADA]:**
+    - País de Gales x Portugal: Portugal ou Empate (Dupla Chance 2X @1.14)
+    - Dinamarca x Noruega: Total Mais de 1.5 Gols (@1.22)
+    - Polônia x Suécia: Total Mais de 1.5 Gols (@1.25)
+    - República da Irlanda x Kosovo: Rep. Irlanda — Empate Anula (Handicap 1 (0) @1.45 na Melbet)
+    - *Proteção V7:* Se a Irlanda empatar, perna anulada (@1.00) e paga Stop 1 (@1.74 -> R$ 26,10). Se vencer, paga **R$ 37,80** (Lucro líquido: +R$ 22,80 cobrindo 222% de todos os secundários de R$ 10,25!).
+  - **Stop Point 3 (Expansão Europeia com Trava Defensiva @3.78):**
+    - Stop 2 +
+    - Hungria x Irlanda do Norte: Total Menos de 2.5 Gols (@1.50)
+    - *Retorno Stop 3:* R$ 56,70.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@3.42):**
+  - País de Gales x Portugal: Portugal Vence (Moneyline @1.55)
+  - República da Irlanda x Kosovo: Rep. Irlanda — Empate Anula (Handicap 1 (0) @1.45)
+  - Dinamarca x Noruega: Total Mais de 1.5 Gols (@1.22)
+  - Polônia x Suécia: Total Mais de 1.5 Gols (@1.25)
+  - Odd: 3.42 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 7,70
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@5.13):**
+  - Dinamarca x Noruega: Total Mais de 2.5 Gols no Jogo (@1.68)
+  - Polônia x Suécia: Total Mais de 2.5 Gols no Jogo (@1.65)
+  - Bósnia e Herzegovina x Romênia: Total Mais de 2.0 / 2.5 Gols (@1.85)
+  - Odd: 5.13 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 7,70
+
+- 🏆 **MÚLTIPLA NATIONS LEAGUE V7 (Dupla de Decisão @3.10):**
+  - País de Gales x Portugal: Portugal Vence & Mais de 1.5 Gols (@1.85 na aba 'Resultado + Total')
+  - Dinamarca x Noruega: Total Mais de 2.5 Gols no Jogo (@1.68)
+  - Odd: 3.10 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,65
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@58.00):**
+  - País de Gales x Portugal: Portugal Vence & Mais de 2.5 Gols (@2.35)
+  - Dinamarca x Noruega: Ambos Marcam & Mais de 2.5 Gols (@2.05)
+  - Polônia x Suécia: Suécia Vence & Mais de 2.5 Gols (@3.80)
+  - República da Irlanda x Kosovo: República da Irlanda Vence (Moneyline @2.10)
+  - Hungria x Irlanda do Norte: Total Menos de 2.5 Gols (@1.50)
+  - Odd: 58.00 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 58,00
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet @65.00+):**
+  - País de Gales x Portugal: Portugal Vence & Mais de 1.5 Gols (@1.85)
+  - Dinamarca x Noruega: Total Mais de 2.5 Gols (@1.68)
+  - Polônia x Suécia: Total Mais de 2.5 Gols (@1.65)
+  - República da Irlanda x Kosovo: Rep. Irlanda — Empate Anula (Handicap 1 (0) @1.45)
+  - Hungria x Irlanda do Norte: Total Menos de 2.5 Gols (@1.50)
+  - Bósnia e Herzegovina x Romênia: Total Mais de 1.5 Gols (@1.30)
+  - Ucrânia x Geórgia: Total Menos de 2.5 Gols (@1.65)
+  - Israel x Áustria: Total Mais de 1.5 Gols (@1.22)
+  - Odd Acumulada: ~65.00+ | Stake: R$ 1,00
+  - *Dica Melbet:* Marcar no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'.

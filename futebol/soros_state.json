@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 15.73,
-  "currentDay": 2,
+  "currentStake": 23.60,
+  "currentDay": 3,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -364,6 +364,17 @@
       "selection": "Islândia x Luxemburgo (Islândia Vence ML @1.30) + Suíça x Escócia (Suíça ou Empate 1X @1.15)",
       "odd": 1.50,
       "potentialReturn": 23.60,
+      "status": "HIT",
+      "actualReturn": 23.60,
+      "notes": "GREEN cravado! Islândia 3x0 Luxemburgo (Islândia ML ✅) + Suíça 4x0 Escócia (Suíça 1X ✅). Retorno: R$ 23,60."
+    },
+    {
+      "day": 3,
+      "date": "2026-11-17",
+      "stakeIn": 23.60,
+      "selection": "Aguardando definição da grade do Dia 3",
+      "odd": 0.0,
+      "potentialReturn": 0.0,
       "status": "ACTIVE"
     }
   ]

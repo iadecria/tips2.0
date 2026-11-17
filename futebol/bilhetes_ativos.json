@@ -1,8 +1,19 @@
 {
   "date": "2026-11-16",
   "snapshotId": "FAS_FOOTBALL_2026-11-16_V1_NATIONS_LEAGUE_FINALS",
-  "status": "ACTIVE",
-  "notes": "GRADE DE 16/11/2026 ATIVA: Segunda-feira decisiva da 6ª e última rodada da fase de grupos da UEFA Nations League. Destaque para o clássico europeu Alemanha x Holanda em Berlim, a confirmação do acesso da Suíça contra a Escócia, e a Islândia buscando a liderança definitiva contra Luxemburgo. Metodologia FAS V6.5 em vigor: filtro anti-inchamento estrito (zero 1.01s), anti-Série B, Stop Points calibrados matematicamente e Ciclo 5 do Soros avançando ao Dia 2 com R$ 15,73.",
+  "status": "SETTLED",
+  "notes": "GRADE DE 16/11/2026 LIQUIDADA COM SUCESSO HISTÓRICO: 4 GREENS MONUMENTAIS! Bilhete Supremo 100% GREEN (@4.85 -> R$ 14,55), Múltipla 1 SAFE com Stop 1, Stop 2 e Stop 3 100% GREEN (@2.13 -> R$ 31,95 / @3.19 -> R$ 47,85), Múltipla 2 SAFE+ 100% GREEN (@3.05 -> R$ 6,86) e Desafio Soros Ciclo 5 / Dia 2 100% GREEN (@1.50 -> R$ 23,60). Resgate regular de R$ 53,36 sobre R$ 25,25 (+111,3% de lucro líquido).",
+  "resultsSummary": {
+    "safeStop1": "HIT (@1.77 -> R$ 26,55)",
+    "safeStop2": "HIT (@2.13 -> R$ 31,95)",
+    "safeStop3": "HIT (@3.19 -> R$ 47,85)",
+    "supremo": "HIT (@4.85 -> R$ 14,55)",
+    "safePlus": "HIT (@3.05 -> R$ 6,86)",
+    "superAtaque": "MISS (1 de 3 acertos)",
+    "copasNations": "MISS por 1 perna (Suíça 4x0 estourou Under 3.5)",
+    "improvavel": "MISS (4 de 8 acertos)",
+    "sorosCycle5": "HIT no Dia 2 (@1.50 -> R$ 23,60, avança ao Dia 3)"
+  },
   "strategicImprovementsApplied": {
     "antiSerieBFilter": "Ativo: Grade 100% ancorada na elite de seleções europeias da UEFA Nations League em jogos de alta responsabilidade competitiva.",
     "antiBloatFilter": "Ativo: Zero odds de 1.01 ou 1.02. Stop 2 reduzido a apenas 4 seleções sólidas para atingir @2.13.",

@@ -4769,7 +4769,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-16
 - **Cutoff:** 2026-11-16T13:30:00-03:00
 - **Contexto da Data:** Segunda-feira de 6ª e decisiva rodada da fase de grupos da UEFA Nations League. Destaque para Alemanha x Holanda em Berlim, Suíça x Escócia em St. Gallen e Islândia x Luxemburgo em Reykjavík.
-- **Status de Liquidação:** **ATIVO / AGUARDANDO JOGOS**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (CONFERE REALIZADO)**
 - **Melhorias Estratégicas Aplicadas (FAS V6.5):**
   1. *Filtro Anti-Inchamento Total:* Zero odds 1.01 ou 1.02. A SAFE Stop 2 contém 4 seleções sólidas para atingir @2.13.
   2. *Blindagem Anti-Série B:* 100% de foco em seleções da elite UEFA em jogos decisivos da 6ª rodada.
@@ -4869,3 +4869,40 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Estônia x Bulgária: Menos de 2.5 Gols no Jogo (@1.50)
   - Odd: 155.00 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 155,00
   - Protocolo de Cash Out ativo após os jogos das 14h.
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 16/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *Islândia 3 × 0 Luxemburgo* (Willumsson 25', A. Guðjohnsen 37' pen, Ellertsson 50'; Islândia V1 & Over 1.5 ✅)
+  2. *Cazaquistão 2 × 2 Eslováquia* (Chesnokov 29', Vorogovskiy 64'; Boženík 56', Kaprálik 90+5'; Eslováquia X2 ✅, BTTS Sim ✅)
+  3. *Alemanha 5 × 0 Holanda* (Scherhant 41', Wirtz 60', 71', Schlotterbeck 65', Gruda 77'; Alemanha V1 ✅, Over 1.5 ✅, 1X ✅)
+  4. *Suíça 4 × 0 Escócia* (Ferguson 22' contra, Boteli 47', Sanches 51', Amdouni 89'; Suíça V1 ✅, 1X ✅)
+  5. *Grécia 1 × 0 Sérvia* (Masouras 69'; Under 2.5 ✅, Sérvia X2 ❌)
+  6. *Macedônia do Norte 0 × 3 Eslovênia* (Sturm 29', 90+1', Zec 66'; Over 2.5 ❌)
+  7. *Ilhas Faroé 1 × 0 Moldávia* (Samuelsen 24'; Under 2.5 ✅)
+  8. *Estônia 2 × 1 Bulgária* (Kristal 8', Palumets 60'; Kovachev 45+1'; Over 2.5 ❌)
+
+- **Liquidação dos Bilhetes:**
+  - 🔥 **DESAFIO SOROS (CICLO 5 / DIA 2):** ✅ **GREEN CRAVADO!** (Islândia ML @1.30 ✅ + Suíça 1X @1.15 ✅ = @1.50). Retorno: **R$ 23,60**! Ciclo 5 avança 100% invicto para o Dia 3 com R$ 23,60 de banca autofinanciada!
+  - ⭐ **BILHETE SUPREMO (@4.85):** ✅ **GREEN HISTÓRICO CRAVADO (3 DE 3 ACERTOS)!** (Suíça ML @1.65 ✅ + Alemanha ML @1.90 ✅ + Islândia V1 & Over 1.5 @1.55 ✅). Retorno: **R$ 14,55**!
+  - 🟢 **MÚLTIPLA 1 — SAFE (Stop 1 @1.77):** ✅ **GREEN CRAVADO (4 DE 4 ACERTOS)!** (Islândia 1X ✅, Eslováquia X2 aos 95' ✅, Suíça 1X ✅, Alemanha 1X ✅). Retorno: **R$ 26,55**!
+  - 🟢 **MÚLTIPLA 1 — SAFE (Stop 2 @2.13 — SAÍDA DO USUÁRIO):** ✅ **GREEN HISTÓRICO CRAVADO (4 DE 4 ACERTOS)!** (Islândia ML ✅, Eslováquia X2 ✅, Suíça 1X ✅, Alemanha 1X ✅). Retorno: **R$ 31,95**! Lucro líquido de **+R$ 16,95**, cobrindo 165% de todos os secundários de R$ 10,25 com apenas 4 seleções!
+  - 🟢 **MÚLTIPLA 1 — SAFE (Stop 3 @3.19):** ✅ **GREEN TOTAL CRAVADO (6 DE 6 ACERTOS)!** (+ Alemanha Over 1.5 ✅, Islândia Over 1.5 ✅). Retorno: **R$ 47,85**!
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ (@3.05):** ✅ **GREEN TOTAL CRAVADO (4 DE 4 ACERTOS)!** (Islândia ML ✅, Suíça ML ✅, Alemanha 1X ✅, Eslováquia X2 ✅). Retorno: **R$ 6,86**!
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE (@5.72):** ❌ MISS (1 de 3 acertos: Cazaquistão x Eslováquia BTTS ✅; Alemanha 5x0 e Grécia 1x0 não bateram BTTS/Over).
+  - 🏆 **MÚLTIPLA NATIONS LEAGUE (@3.33):** ❌ MISS por 1 perna (Alemanha 1X & Over 1.5 ✅; Suíça 4x0 estourou Under 3.5 no final ❌).
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO (@104.00):** ❌ MISS (2 de 5 acertos: Suíça -1.5 AH ✅, Islândia -1.5 AH ✅).
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL (@155.00):** ❌ MISS (4 de 8 acertos).
+
+- **Balanço Financeiro Consolidado da Rodada:**
+  - Investimento Total da Grade Regular: **R$ 25,25**
+  - Retorno Resgatado (Saída Padrão no Stop 2 da SAFE):
+    - Stop 2 da SAFE: **R$ 31,95**
+    - Bilhete Supremo: **R$ 14,55**
+    - Múltipla 2 SAFE+: **R$ 6,86**
+    - **Total Resgatado:** **R$ 53,36**
+  - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 28,11** (ROI de **+111,3%** na rodada regular)!
+  - *(Caso o apostador tenha executado o Stop 3 da SAFE: Retorno Total de **R$ 69,26**, gerando Lucro Líquido de **+R$ 44,01** / ROI de **+174,3%**!)*
+  - **Desafio Soros Ciclo 5 (Banca Isolada):** R$ 15,73 ➔ **R$ 23,60** (+50% de ganho líquido no dia, rumo ao Dia 3)!

@@ -1,56 +1,44 @@
 {
-  "date": "2026-11-17",
-  "snapshotId": "FAS_FOOTBALL_2026-11-17_V1_NATIONS_LEAGUE_MELBET_V7",
-  "status": "SETTLED",
-  "notes": "GRADE DE 17/11/2026 LIQUIDADA COM SUCESSO ESPETACULAR: ESTREIA DE OURO DO FAS V7.0! 5 GREENS HISTÓRICOS! Bilhete Supremo 100% GREEN (@3.77 -> R$ 11,31), Múltipla 1 SAFE com Stop 1, Stop 2 e Stop 3 100% GREEN (@2.52 -> R$ 37,80 / @3.78 -> R$ 56,70), Múltipla 2 SAFE+ 100% GREEN (@3.42 -> R$ 7,70), Múltipla Nations League 100% GREEN (@3.10 -> R$ 4,65) e Desafio Soros Ciclo 5 / Dia 3 100% GREEN (@1.43 -> R$ 33,75). Além disso, Múltipla 5 cravou 7 DE 8 ACERTOS no modo Sistema 7/8! Resgate regular de R$ 61,46 sobre R$ 25,25 (+143,4% de lucro líquido).",
-  "resultsSummary": {
-    "safeStop1": "HIT (@1.74 -> R$ 26,10)",
-    "safeStop2": "HIT (@2.52 -> R$ 37,80)",
-    "safeStop3": "HIT (@3.78 -> R$ 56,70)",
-    "supremo": "HIT (@3.77 -> R$ 11,31)",
-    "safePlus": "HIT (@3.42 -> R$ 7,70)",
-    "nationsLeague": "HIT (@3.10 -> R$ 4,65)",
-    "superAtaque": "MISS por 1 gol (Polônia 1x1 Suécia)",
-    "aposentarNeto": "MISS (4 de 5 acertos)",
-    "improvavel": "7 DE 8 ACERTOS (GREEN no modo Sistema 7/8 da Melbet -> ~R$ 18,06)",
-    "sorosCycle5": "HIT no Dia 3 (@1.43 -> R$ 33,75, avança ao Dia 4)"
-  },
+  "date": "2026-11-18",
+  "snapshotId": "FAS_FOOTBALL_2026-11-18_V1_UWCL_BRASILEIRAO_MELBET_V7",
+  "status": "ACTIVE",
+  "notes": "GRADE DE 18/11/2026 ATIVA: Metodologia FAS V7.0 (Melbet Engine Edition). Combinação em dois turnos: Turno da Tarde com a elite da UEFA Women's Champions League (Real Madrid, Juventus e Chelsea) e Turno da Noite com a decisiva 35ª rodada do Brasileirão Série A (Flamengo isolado no topo, Cruzeiro x Palmeiras e Corinthians x Botafogo). Stop 2 da SAFE blindado com DNB (Empate Anula) e Soros avançando ao Dia 4 com R$ 33,75.",
   "strategicImprovementsApplied": {
-    "dnbSafeShieldV7": "Ativo: Stop 2 utilizou Empate Anula Aposta (Handicap 0.0) na República da Irlanda, batendo com folga (3x0).",
-    "antiTrapBttsV7": "Ativo: Múltipla 3 focada em Over Gols Totais (Over 2.5), acertando 2 de 3 pernas.",
-    "systemModeMelbetV7": "Ativo: Múltipla 5 marcou 7 de 8 acertos, monetizada com sucesso na Melbet no formato Sistema 7/8.",
-    "melbetUiMapping": "Ativo: Nomes de abas indicados exatamente como aparecem na Melbet (Resultado + Total, Handicap Asiático)."
+    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) na Juventus W contra o Leuven, blindando o bilhete contra empates tardios.",
+    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Total Individual do Flamengo (+1.5), eliminando o risco do adversário passar em branco.",
+    "systemModeMelbetV7": "Ativo: Múltipla 5 adaptada para o formato Sistema 6/8 ou 7/8 na Melbet.",
+    "melbetUiMapping": "Ativo: Mercados mapeados para as abas nativas da Melbet ('Resultado + Total', 'Handicap Asiático', 'Total Individual')."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Terça 17/11)",
+    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Quarta 18/11)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.77,
+    "multiplierGlobal": 3.15,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 11.31,
-    "philosophy": "Desacoplamento total da SAFE calibrado para a Melbet: Portugal buscando liderança isolada em Cardiff, clássico nórdico eletrizante com Haaland e Højlund e Suécia de Gyökeres contra a Polônia.",
+    "potentialReturn": 9.45,
+    "philosophy": "A trinca de maior solidez da quarta-feira na Melbet: Real Madrid W impondo favoritismo no Di Stéfano, Juventus W precisando da vitória contra o frágil Leuven e o Flamengo com o Maracanã lotado contra o desfalcado Athletico.",
     "status": "ACTIVE",
     "selections": [
       {
-        "match": "País de Gales x Portugal (16:45 BRT)",
-        "competition": "UEFA Nations League (Liga A)",
-        "market": "Portugal Vence (W2 na Melbet)",
-        "odd": 1.55,
+        "match": "Real Madrid W x Inter Milan W (14:45 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "Real Madrid W Vence (W1 na Melbet)",
+        "odd": 1.33,
         "status": "ACTIVE"
       },
       {
-        "match": "Dinamarca x Noruega (16:45 BRT)",
-        "competition": "UEFA Nations League (Liga A)",
-        "market": "Total Mais de 2.5 Gols",
-        "odd": 1.68,
+        "match": "Juventus W x OH Leuven W (17:00 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "Juventus W Vence & Mais de 1.5 Gols (Aba Resultado + Total)",
+        "odd": 1.6,
         "status": "ACTIVE"
       },
       {
-        "match": "Polônia x Suécia (16:45 BRT)",
-        "competition": "UEFA Nations League (Liga B)",
-        "market": "Suécia ou Empate (Dupla Chance 2X na Melbet)",
-        "odd": 1.45,
+        "match": "Flamengo x Athletico-PR (20:30 BRT)",
+        "competition": "Brasileirão Série A",
+        "market": "Flamengo Vence & Mais de 1.5 Gols (Aba Resultado + Total)",
+        "odd": 1.48,
         "status": "ACTIVE"
       }
     ]
@@ -62,43 +50,46 @@
       "stake": 15.0,
       "unitStake": 1.0,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Proteção DNB (Empate Anula) no Stop 2. Em caso de empate, a perna é reembolsada (@1.00) e a SAFE segue viva com lucro garantido.",
+      "philosophy": "Evolução V7: Stop 1 quita os secundários com 4 pernas de extrema imunidade. Stop 2 blinda a vitória da Juventus com Empate Anula.",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Tríplice Continental de Imunidade)",
-          "multiplier": 1.74,
-          "potentialReturn": 26.1,
+          "level": "Stop Point 1 (Quádrupla de Imunidade Cruzada Europa-Brasil)",
+          "multiplier": 1.81,
+          "potentialReturn": 27.15,
           "legs": [
-            "País de Gales x Portugal (16:45 BRT): Portugal ou Empate (Dupla Chance 2X @1.14)",
-            "Dinamarca x Noruega (16:45 BRT): Total Mais de 1.5 Gols no Jogo (@1.22)",
-            "Polônia x Suécia (16:45 BRT): Total Mais de 1.5 Gols no Jogo (@1.25)"
+            "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W ou Empate (Dupla Chance 1X @1.08)",
+            "Chelsea W x PSG W (17:00 BRT): Chelsea W ou Empate (Dupla Chance 1X @1.10)",
+            "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence (W1 @1.25)",
+            "Cruzeiro x Palmeiras (20:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem V7 com Empate Anula — SAÍDA RECOMENDADA)",
-          "multiplier": 2.52,
-          "potentialReturn": 37.8,
-          "netProfit": 22.8,
-          "notes": "Se a Rep. Irlanda empatar, a Melbet anula essa perna (@1.00) e o bilhete paga @1.74 (lucro líquido de +R$ 11,10). Se vencer, paga @2.52!",
+          "multiplier": 2.57,
+          "potentialReturn": 38.55,
+          "netProfit": 23.55,
+          "notes": "Se a Juventus W empatar com o Leuven, a Melbet reembolsa essa perna (@1.00) e você resgata o Stop 1 (R$ 27,15)! Se vencer, paga R$ 38,55 (+R$ 23,55 líquido cobrindo 230% dos secundários)!",
           "legs": [
-            "País de Gales x Portugal: Portugal ou Empate (Dupla Chance 2X @1.14)",
-            "Dinamarca x Noruega: Total Mais de 1.5 Gols no Jogo (@1.22)",
-            "Polônia x Suécia: Total Mais de 1.5 Gols no Jogo (@1.25)",
-            "República da Irlanda x Kosovo: República da Irlanda — Empate Anula Aposta (Handicap 1 (0) @1.45 na Melbet)"
+            "Real Madrid W x Inter Milan W: Real Madrid W ou Empate (Dupla Chance 1X @1.08)",
+            "Chelsea W x PSG W: Chelsea W ou Empate (Dupla Chance 1X @1.10)",
+            "Flamengo x Athletico-PR: Flamengo Vence (W1 @1.25)",
+            "Cruzeiro x Palmeiras: Total Menos de 3.5 Gols no Jogo (@1.22)",
+            "Juventus W x OH Leuven W (17:00 BRT): Juventus W — Empate Anula (Handicap 1 (0) @1.42 na Melbet)"
           ],
           "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão Europeia com Trava Defensiva)",
-          "multiplier": 3.78,
-          "potentialReturn": 56.7,
+          "level": "Stop Point 3 (Expansão Noturna com Trava Defensiva)",
+          "multiplier": 3.85,
+          "potentialReturn": 57.75,
           "legs": [
-            "País de Gales x Portugal: Portugal ou Empate (Dupla Chance 2X @1.14)",
-            "Dinamarca x Noruega: Total Mais de 1.5 Gols no Jogo (@1.22)",
-            "Polônia x Suécia: Total Mais de 1.5 Gols no Jogo (@1.25)",
-            "República da Irlanda x Kosovo: Rep. Irlanda — Empate Anula (Handicap 1 (0) @1.45)",
-            "Hungria x Irlanda do Norte (16:45 BRT): Total Menos de 2.5 Gols (@1.50)"
+            "Real Madrid W x Inter: Real Madrid 1X (@1.08)",
+            "Chelsea W x PSG W: Chelsea 1X (@1.10)",
+            "Flamengo x Athletico-PR: Flamengo Vence (@1.25)",
+            "Cruzeiro x Palmeiras: Total Menos de 3.5 Gols (@1.22)",
+            "Juventus W x OH Leuven W: Juventus W — Empate Anula (Handicap 1 (0) @1.42)",
+            "Corinthians x Botafogo (21:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.50)"
           ],
           "status": "ACTIVE"
         }
@@ -109,14 +100,14 @@
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.42,
-      "potentialReturn": 7.7,
+      "multiplier": 3.7,
+      "potentialReturn": 8.32,
       "status": "ACTIVE",
       "legs": [
-        "País de Gales x Portugal (16:45 BRT): Portugal Vence (W2 @1.55)",
-        "República da Irlanda x Kosovo (16:45 BRT): Irlanda — Empate Anula (Handicap 1 (0) @1.45)",
-        "Dinamarca x Noruega (16:45 BRT): Total Mais de 1.5 Gols (@1.22)",
-        "Polônia x Suécia (16:45 BRT): Total Mais de 1.5 Gols (@1.25)"
+        "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence (W1 @1.33)",
+        "Juventus W x OH Leuven W (17:00 BRT): Juventus W Vence (W1 @1.35)",
+        "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence (W1 @1.25)",
+        "Cruzeiro x Palmeiras (20:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.65)"
       ]
     },
     {
@@ -124,27 +115,28 @@
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 5.13,
-      "potentialReturn": 7.7,
+      "multiplier": 5.93,
+      "potentialReturn": 8.9,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Foco estrito em Mais de 2.5 Gols Totais, imune a clean sheets ou massacres unilaterais.",
+      "philosophy": "Evolução V7: Foco estrito em Mais de 2.5 Gols Totais na Europa e Total Individual do Flamengo no Maracanã.",
       "legs": [
-        "Dinamarca x Noruega (16:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.68)",
-        "Polônia x Suécia (16:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
-        "Bósnia e Herzegovina x Romênia (16:45 BRT): Total Mais de 2.0 Asiático / Mais de 2.5 Gols (@1.85)"
+        "Real Madrid W x Inter Milan W (14:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
+        "Juventus W x OH Leuven W (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.60)",
+        "BK Häcken W x Manchester City W (14:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.55)",
+        "Flamengo x Athletico-PR (20:30 BRT): Flamengo — Total Individual Mais de 1.5 Gols (@1.45 na Melbet)"
       ]
     },
     {
-      "name": "🏆 MÚLTIPLA NATIONS LEAGUE V7 (Dupla de Decisão)",
+      "name": "🏆 MÚLTIPLA BRASILEIRÃO & CHAMPIONS V7 (Dupla de Imposição)",
       "type": "NATIONS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 3.1,
-      "potentialReturn": 4.65,
+      "multiplier": 2.87,
+      "potentialReturn": 4.3,
       "status": "ACTIVE",
       "legs": [
-        "País de Gales x Portugal (16:45 BRT): Portugal Vence & Mais de 1.5 Gols (@1.85 na aba 'Resultado + Total')",
-        "Dinamarca x Noruega (16:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.68)"
+        "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence & Mais de 1.5 Gols (@1.55 na aba 'Resultado + Total')",
+        "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence por 2+ Gols (Handicap Asiático 1 (-1.5) @1.85)"
       ]
     },
     {
@@ -152,56 +144,56 @@
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 58.0,
-      "potentialReturn": 58.0,
+      "multiplier": 45.0,
+      "potentialReturn": 45.0,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Combos montados nas abas pré-definidas da Melbet para evitar travamento de cupom.",
+      "philosophy": "Combinações de abas pré-definidas na Melbet para impedir bloqueio de apostas dependentes.",
       "legs": [
-        "País de Gales x Portugal (16:45 BRT): Portugal Vence & Mais de 2.5 Gols (@2.35 na aba 'Resultado + Total')",
-        "Dinamarca x Noruega (16:45 BRT): Ambos Marcam & Mais de 2.5 Gols (@2.05)",
-        "Polônia x Suécia (16:45 BRT): Suécia Vence & Mais de 2.5 Gols (@3.80)",
-        "República da Irlanda x Kosovo (16:45 BRT): República da Irlanda Vence (W1 @2.10)",
-        "Hungria x Irlanda do Norte (16:45 BRT): Total Menos de 2.5 Gols (@1.50)"
+        "Real Madrid W x Inter Milan W: Real Madrid Vence por 2+ Gols (Handicap 1 (-1.5) @1.95)",
+        "Juventus W x OH Leuven W: Juventus Vence por 2+ Gols (Handicap 1 (-1.5) @2.00)",
+        "Chelsea W x PSG W: Chelsea Vence & Menos de 3.5 Gols (@2.10 na aba 'Resultado + Total')",
+        "Flamengo x Athletico-PR: Flamengo Vence & Ambos Marcam - Não (@1.80)",
+        "Cruzeiro x Palmeiras: Total Menos de 2.5 Gols (@1.65)"
       ]
     },
     {
-      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Aposta de Sistema 6/8 na Melbet)",
+      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 65.0,
-      "potentialReturn": 65.0,
+      "multiplier": 55.0,
+      "potentialReturn": 55.0,
       "status": "ACTIVE",
-      "philosophy": "Instrução Melbet: No carrinho, marque o formato 'Sistema 6/8' ou 'Sistema 7/8'. Se bater 6 ou 7 dos 8 jogos, você é pago com lucro garantido!",
+      "philosophy": "Dica Melbet: Marque no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'. Assim como no dia 17/11 (7 de 8 acertos), garante lucro mesmo com zebras!",
       "legs": [
-        "País de Gales x Portugal (16:45 BRT): Portugal Vence & Mais de 1.5 Gols (@1.85)",
-        "Dinamarca x Noruega (16:45 BRT): Total Mais de 2.5 Gols (@1.68)",
-        "Polônia x Suécia (16:45 BRT): Total Mais de 2.5 Gols (@1.65)",
-        "República da Irlanda x Kosovo (16:45 BRT): Irlanda — Empate Anula (Handicap 1 (0) @1.45)",
-        "Hungria x Irlanda do Norte (16:45 BRT): Total Menos de 2.5 Gols (@1.50)",
-        "Bósnia e Herzegovina x Romênia (16:45 BRT): Total Mais de 1.5 Gols (@1.30)",
-        "Ucrânia x Geórgia (16:45 BRT): Total Menos de 2.5 Gols (@1.65)",
-        "Israel x Áustria (16:45 BRT): Total Mais de 1.5 Gols (@1.22)"
+        "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence & Mais de 1.5 Gols (@1.55)",
+        "Juventus W x OH Leuven W (17:00 BRT): Juventus W Vence & Mais de 1.5 Gols (@1.60)",
+        "Chelsea W x PSG W (17:00 BRT): Chelsea W Vence (W1 @1.35)",
+        "BK Häcken W x Manchester City W (14:45 BRT): Manchester City W Vence (W2 @1.30)",
+        "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence por 2+ Gols (Handicap 1 (-1.5) @1.85)",
+        "Cruzeiro x Palmeiras (20:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.65)",
+        "Corinthians x Botafogo (21:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.60)",
+        "Grêmio x Bahia (21:30 BRT): Grêmio ou Empate (Dupla Chance 1X @1.28)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 3 DE 30",
-    "day": 3,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 4 DE 30",
+    "day": 4,
     "targetDays": 30,
-    "stake": 23.6,
-    "multiplier": 1.43,
-    "potentialReturn": 33.75,
+    "stake": 33.75,
+    "multiplier": 1.44,
+    "potentialReturn": 48.6,
     "status": "ACTIVE",
-    "philosophy": "Banca 100% autofinanciada pelos Greens dos Dias 1 e 2. Dupla continental na Melbet: Portugal precisando de 1 ponto contra Gales e média de 4 gols/jogo no confronto Suécia de Gyökeres vs Polônia de Lewandowski.",
+    "philosophy": "Banca 100% autofinanciada pelos 3 primeiros Greens consecutivos. A um passo do resgate de segurança de R$ 10,00 no Dia 5. Dupla blindada: Real Madrid W em casa contra Inter que tomou 4x1 do City e Flamengo de Arrascaeta precisando pontuar no Maracanã contra o Athletico desfalcado.",
     "vaultPlan": {
-      "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero absoluto)",
+      "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero absoluto amanhã)",
       "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
-      "currentCycleNetRisk": "R$ 0,00 (jogando exclusivamente com o lucro gerado pelos 2 primeiros Greens!)"
+      "currentCycleNetRisk": "R$ 0,00 (banca 100% bancada pelo lucro acumulado de +237,5%)"
     },
     "legs": [
-      "País de Gales x Portugal (16:45 BRT): Portugal ou Empate (Dupla Chance 2X @1.14)",
-      "Polônia x Suécia (16:45 BRT): Total Mais de 1.5 Gols no Jogo (@1.25)"
+      "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence (W1 @1.33 na Melbet)",
+      "Flamengo x Athletico-PR (20:30 BRT): Flamengo ou Empate (Dupla Chance 1X @1.08 na Melbet)"
     ]
   }
 }

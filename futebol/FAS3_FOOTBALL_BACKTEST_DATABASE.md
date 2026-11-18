@@ -5052,3 +5052,110 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 36,21** (ROI de **+143,4%** na rodada regular)!
   - *(Caso o apostador tenha executado o Stop 3 da SAFE: Retorno Total de **R$ 80,36**, gerando Lucro Líquido de **+R$ 55,11** / ROI de **+218,3%**!)*
   - **Desafio Soros Ciclo 5 (Banca Isolada):** R$ 23,60 ➔ **R$ 33,75** (+237,5% em 3 dias, avançando para o Dia 4)!
+
+
+---
+
+### [2026-11-18] — RODADA DIÁRIA (UWCL & BRASILEIRÃO SÉRIE A) [FAS V7.0 MELBET]
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-18_V1_UWCL_BRASILEIRAO_MELBET_V7`
+- **Cutoff:** 2026-11-18T00:30:00-03:00
+- **Contexto da Data:** Quarta-feira de rodada dupla sincronizada:
+  - **Turno da Tarde (UEFA Women's Champions League - 5ª Rodada):** Fase de grupos decisiva com Real Madrid W recebendo a Inter de Milão no Di Stéfano; Juventus W em Turim contra o OH Leuven precisando dos 3 pontos; BK Häcken recebendo o Manchester City W; e Chelsea recebendo o PSG W em Londres.
+  - **Turno da Noite (Brasileirão Série A - 35ª Rodada Reta Final):** Flamengo isolado na liderança (76 pts) recebendo o desfalcado Athletico-PR (sem Viveros, Arthur Dias, Dantas e Luiz Gustavo) no Maracanã lotado com o retorno de Arrascaeta; confronto direto de G-4 tenso no Mineirão entre Cruzeiro e Palmeiras (desfalcado de Gómez, Piquerez, Murilo e Mauricio); briga ferrenha contra o Z-4 em Corinthians x Botafogo na Neo Química Arena; e Grêmio recebendo o Bahia em Porto Alegre.
+- **Status de Liquidação:** **ATIVO / AGUARDANDO LIQUIDAÇÃO**
+
+#### 1. Discovery e Cobertura
+- Jogos Mapeados: 8 (4 UWCL + 4 Brasileirão Série A)
+- Jogos Selecionados: 8
+- Mercados Filtrados: 8 com conformidade total aos filtros FAS V7.0 (Melbet Engine Edition: Stop 2 com DNB, Super Ataque focado em Gols Totais sem armadilha de BTTS, abas nativas da Melbet 'Resultado + Total', 'Handicap Asiático' e 'Total Individual').
+
+#### 2. Fixtures Selecionadas e Teses Pré-Jogo
+1. **Real Madrid W × Inter Milan W** (14:45 BRT — UWCL)
+   - **Tese:** Real Madrid W Vence (W1 @1.33) | Real Madrid W ou Empate (1X @1.08) | Total Mais de 2.5 Gols (@1.65) | Real Madrid W Vence & Mais de 1.5 Gols (@1.55) | Handicap 1 (-1.5) @1.95.
+2. **BK Häcken W × Manchester City W** (14:45 BRT — UWCL)
+   - **Tese:** Manchester City W Vence (W2 @1.30) | Total Mais de 2.5 Gols (@1.55).
+3. **Juventus W × OH Leuven W** (17:00 BRT — UWCL)
+   - **Tese:** Juventus W Vence (W1 @1.35) | Juventus W — Empate Anula Aposta (Handicap 1 (0) @1.42 na Melbet) | Juventus W Vence & Mais de 1.5 Gols (@1.60) | Total Mais de 2.5 Gols (@1.60) | Handicap 1 (-1.5) @2.00.
+4. **Chelsea W × PSG W** (17:00 BRT — UWCL)
+   - **Tese:** Chelsea W ou Empate (1X @1.10) | Chelsea W Vence (W1 @1.35) | Chelsea W Vence & Menos de 3.5 Gols (@2.10).
+5. **Flamengo × Athletico-PR** (20:30 BRT — Brasileirão Série A)
+   - **Tese:** Flamengo Vence (W1 @1.25) | Flamengo ou Empate (1X @1.08) | Flamengo Total Individual Mais de 1.5 Gols (@1.45) | Flamengo Vence & Mais de 1.5 Gols (@1.48) | Flamengo Vence por 2+ Gols (Handicap 1 (-1.5) @1.85) | Flamengo Vence & Ambos Marcam - Não (@1.80).
+6. **Cruzeiro × Palmeiras** (20:30 BRT — Brasileirão Série A)
+   - **Tese:** Total Menos de 3.5 Gols no Jogo (@1.22) | Total Menos de 2.5 Gols no Jogo (@1.65).
+7. **Corinthians × Botafogo** (21:30 BRT — Brasileirão Série A)
+   - **Tese:** Total Menos de 2.5 Gols no Jogo (@1.50 / @1.60).
+8. **Grêmio × Bahia** (21:30 BRT — Brasileirão Série A)
+   - **Tese:** Grêmio ou Empate (1X @1.28).
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 18/11 (FAS V7.0 Melbet Edition)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 4 DE 30:**
+  - Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence (W1 @1.33 na Melbet)
+  - Flamengo x Athletico-PR (20:30 BRT): Flamengo ou Empate (Dupla Chance 1X @1.08 na Melbet)
+  - Odd: 1.44 | Stake: R$ 33,75 | Retorno Potencial: R$ 48,60
+  - *Status:* ATIVO (Banca 100% autofinanciada pelos greens dos Dias 1, 2 e 3).
+
+- ⭐ **BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (@3.15):**
+  - Real Madrid W x Inter Milan W: Real Madrid W Vence (W1 @1.33)
+  - Juventus W x OH Leuven W: Juventus W Vence & Mais de 1.5 Gols (@1.60)
+  - Flamengo x Athletico-PR: Flamengo Vence & Mais de 1.5 Gols (@1.48)
+  - Odd: 3.15 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,45
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA V7 (Stop Points com DNB na Melbet):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla de Imunidade Cruzada Europa-Brasil @1.81):**
+    - Real Madrid W x Inter Milan W: Real Madrid W ou Empate (Dupla Chance 1X @1.08)
+    - Chelsea W x PSG W: Chelsea W ou Empate (Dupla Chance 1X @1.10)
+    - Flamengo x Athletico-PR: Flamengo Vence (W1 @1.25)
+    - Cruzeiro x Palmeiras: Total Menos de 3.5 Gols no Jogo (@1.22)
+    - *Retorno Stop 1:* R$ 27,15 (Lucro líquido: +R$ 12,15 cobrindo 118% de todos os secundários de R$ 10,25).
+  - **Stop Point 2 (A Blindagem V7 com Empate Anula @2.57) — [SAÍDA RECOMENDADA]:**
+    - Stop 1 +
+    - Juventus W x OH Leuven W: Juventus W — Empate Anula (Handicap 1 (0) @1.42 na Melbet)
+    - *Proteção V7:* Se a Juventus empatar, perna anulada (@1.00) e paga Stop 1 (@1.81 -> R$ 27,15). Se vencer, paga **R$ 38,55** (Lucro líquido: +R$ 23,55 cobrindo 230% de todos os secundários de R$ 10,25!).
+  - **Stop Point 3 (Expansão Noturna com Trava Defensiva @3.85):**
+    - Stop 2 +
+    - Corinthians x Botafogo: Total Menos de 2.5 Gols no Jogo (@1.50)
+    - *Retorno Stop 3:* R$ 57,75.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@3.70):**
+  - Real Madrid W x Inter Milan W: Real Madrid W Vence (W1 @1.33)
+  - Juventus W x OH Leuven W: Juventus W Vence (W1 @1.35)
+  - Flamengo x Athletico-PR: Flamengo Vence (W1 @1.25)
+  - Cruzeiro x Palmeiras: Total Menos de 2.5 Gols no Jogo (@1.65)
+  - Odd: 3.70 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 8,32
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@5.93):**
+  - Real Madrid W x Inter Milan W: Total Mais de 2.5 Gols no Jogo (@1.65)
+  - Juventus W x OH Leuven W: Total Mais de 2.5 Gols no Jogo (@1.60)
+  - BK Häcken W x Manchester City W: Total Mais de 2.5 Gols no Jogo (@1.55)
+  - Flamengo x Athletico-PR: Flamengo — Total Individual Mais de 1.5 Gols (@1.45 na Melbet)
+  - Odd: 5.93 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 8,90
+
+- 🏆 **MÚLTIPLA BRASILEIRÃO & CHAMPIONS V7 (Dupla de Imposição @2.87):**
+  - Real Madrid W x Inter Milan W: Real Madrid W Vence & Mais de 1.5 Gols (@1.55 na aba 'Resultado + Total')
+  - Flamengo x Athletico-PR: Flamengo Vence por 2+ Gols (Handicap Asiático 1 (-1.5) @1.85)
+  - Odd: 2.87 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,30
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@45.00+):**
+  - Real Madrid W x Inter Milan W: Real Madrid Vence por 2+ Gols (Handicap 1 (-1.5) @1.95)
+  - Juventus W x OH Leuven W: Juventus Vence por 2+ Gols (Handicap 1 (-1.5) @2.00)
+  - Chelsea W x PSG W: Chelsea Vence & Menos de 3.5 Gols (@2.10 na aba 'Resultado + Total')
+  - Flamengo x Athletico-PR: Flamengo Vence & Ambos Marcam - Não (@1.80)
+  - Cruzeiro x Palmeiras: Total Menos de 2.5 Gols no Jogo (@1.65)
+  - Odd: ~45.00+ | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 45,00+
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet @55.00+):**
+  - Real Madrid W x Inter Milan W: Real Madrid W Vence & Mais de 1.5 Gols (@1.55)
+  - Juventus W x OH Leuven W: Juventus W Vence & Mais de 1.5 Gols (@1.60)
+  - Chelsea W x PSG W: Chelsea W Vence (W1 @1.35)
+  - BK Häcken W x Manchester City W: Manchester City W Vence (W2 @1.30)
+  - Flamengo x Athletico-PR: Flamengo Vence por 2+ Gols (Handicap 1 (-1.5) @1.85)
+  - Cruzeiro x Palmeiras: Total Menos de 2.5 Gols no Jogo (@1.65)
+  - Corinthians x Botafogo: Total Menos de 2.5 Gols no Jogo (@1.60)
+  - Grêmio x Bahia: Grêmio ou Empate (Dupla Chance 1X @1.28)
+  - Odd Acumulada: ~55.00+ | Stake: R$ 1,00
+  - *Dica Melbet:* Marque no carrinho como "Sistema 6/8" ou "Sistema 7/8".

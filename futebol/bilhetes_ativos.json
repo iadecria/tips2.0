@@ -1,12 +1,24 @@
 {
   "date": "2026-11-17",
   "snapshotId": "FAS_FOOTBALL_2026-11-17_V1_NATIONS_LEAGUE_MELBET_V7",
-  "status": "ACTIVE",
-  "notes": "GRADE DE 17/11/2026 ATIVA: Estreia da metodologia FAS V7.0 (Melbet Engine Edition). Blindagem do Stop 2 com Empate Anula (DNB), Super Ataque imune a clean sheets com Gols Totais e Múltipla 5 otimizada para o Modo Sistema (6/8 e 7/8) na Melbet. Desafio Soros Ciclo 5 avançando ao Dia 3 com banca autofinanciada de R$ 23,60.",
+  "status": "SETTLED",
+  "notes": "GRADE DE 17/11/2026 LIQUIDADA COM SUCESSO ESPETACULAR: ESTREIA DE OURO DO FAS V7.0! 5 GREENS HISTÓRICOS! Bilhete Supremo 100% GREEN (@3.77 -> R$ 11,31), Múltipla 1 SAFE com Stop 1, Stop 2 e Stop 3 100% GREEN (@2.52 -> R$ 37,80 / @3.78 -> R$ 56,70), Múltipla 2 SAFE+ 100% GREEN (@3.42 -> R$ 7,70), Múltipla Nations League 100% GREEN (@3.10 -> R$ 4,65) e Desafio Soros Ciclo 5 / Dia 3 100% GREEN (@1.43 -> R$ 33,75). Além disso, Múltipla 5 cravou 7 DE 8 ACERTOS no modo Sistema 7/8! Resgate regular de R$ 61,46 sobre R$ 25,25 (+143,4% de lucro líquido).",
+  "resultsSummary": {
+    "safeStop1": "HIT (@1.74 -> R$ 26,10)",
+    "safeStop2": "HIT (@2.52 -> R$ 37,80)",
+    "safeStop3": "HIT (@3.78 -> R$ 56,70)",
+    "supremo": "HIT (@3.77 -> R$ 11,31)",
+    "safePlus": "HIT (@3.42 -> R$ 7,70)",
+    "nationsLeague": "HIT (@3.10 -> R$ 4,65)",
+    "superAtaque": "MISS por 1 gol (Polônia 1x1 Suécia)",
+    "aposentarNeto": "MISS (4 de 5 acertos)",
+    "improvavel": "7 DE 8 ACERTOS (GREEN no modo Sistema 7/8 da Melbet -> ~R$ 18,06)",
+    "sorosCycle5": "HIT no Dia 3 (@1.43 -> R$ 33,75, avança ao Dia 4)"
+  },
   "strategicImprovementsApplied": {
-    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) na República da Irlanda, garantindo reembolso em caso de empate.",
-    "antiTrapBttsV7": "Ativo: Múltipla 3 focada em Over Gols Totais (Over 2.5), eliminando o risco do adversário passar em branco.",
-    "systemModeMelbetV7": "Ativo: Múltipla 5 adaptada para Sistema 6/8 ou 7/8 na Melbet para monetizar dias de 6 e 7 acertos.",
+    "dnbSafeShieldV7": "Ativo: Stop 2 utilizou Empate Anula Aposta (Handicap 0.0) na República da Irlanda, batendo com folga (3x0).",
+    "antiTrapBttsV7": "Ativo: Múltipla 3 focada em Over Gols Totais (Over 2.5), acertando 2 de 3 pernas.",
+    "systemModeMelbetV7": "Ativo: Múltipla 5 marcou 7 de 8 acertos, monetizada com sucesso na Melbet no formato Sistema 7/8.",
     "melbetUiMapping": "Ativo: Nomes de abas indicados exatamente como aparecem na Melbet (Resultado + Total, Handicap Asiático)."
   },
   "supremoTicket": {

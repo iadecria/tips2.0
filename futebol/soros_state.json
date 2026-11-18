@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 23.60,
-  "currentDay": 3,
+  "currentStake": 33.75,
+  "currentDay": 4,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 0.0,
@@ -375,6 +375,17 @@
       "selection": "País de Gales x Portugal (Portugal ou Empate 2X @1.14) + Polônia x Suécia (Total Mais de 1.5 Gols @1.25) [Melbet]",
       "odd": 1.43,
       "potentialReturn": 33.75,
+      "status": "HIT",
+      "actualReturn": 33.75,
+      "notes": "GREEN cravado! Gales 2x3 Portugal (2X ✅) + Polônia 1x1 Suécia (Over 1.5 ✅). Retorno: R$ 33,75."
+    },
+    {
+      "day": 4,
+      "date": "2026-11-18",
+      "stakeIn": 33.75,
+      "selection": "Aguardando definição da grade do Dia 4",
+      "odd": 0.0,
+      "potentialReturn": 0.0,
       "status": "ACTIVE"
     }
   ]

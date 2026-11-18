@@ -4914,7 +4914,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Data do Registro:** 2026-11-17
 - **Cutoff:** 2026-11-17T16:00:00-03:00
 - **Contexto da Data:** Terça-feira de encerramento da fase de grupos da UEFA Nations League. Destaque para Dinamarca x Noruega (decisão nórdica de vaga), País de Gales x Portugal (busca da liderança lusa em Cardiff), Polônia x Suécia (Gyökeres vs Lewandowski) e Hungria x Irlanda do Norte.
-- **Status de Liquidação:** **ATIVO / AGUARDANDO JOGOS**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (CONFERE REALIZADO)**
 - **Melhorias Estratégicas Aplicadas (FAS V7.0 Melbet Engine):**
   1. *Blindagem DNB no Stop 2 da SAFE:* Substituição da vitória seca por Empate Anula Aposta (Handicap 0.0), garantindo reembolso (@1.00) caso ocorra empate.
   2. *Anti-Trap BTTS no Super Ataque:* Foco exclusivo em Over Gols Totais (+2.5), imune a clean sheets de favoritos.
@@ -5014,3 +5014,41 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Israel x Áustria: Total Mais de 1.5 Gols (@1.22)
   - Odd Acumulada: ~65.00+ | Stake: R$ 1,00
   - *Dica Melbet:* Marcar no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'.
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 17/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *País de Gales 2 × 3 Portugal* (Brooks 13', Thomas 40'; B. Fernandes 11', Neto 43', Forbs 70'; Portugal V1 ✅, 2X ✅, Over 1.5 ✅, Over 2.5 ✅)
+  2. *Dinamarca 2 × 3 Noruega* (Højlund 8', Højbjerg 14'; Haaland 37', 96' pen, Ødegaard 83'; Over 2.5 ✅, Over 1.5 ✅, BTTS Sim ✅)
+  3. *Polônia 1 × 1 Suécia* (Benedyczak 16'; H. Larsson 24'; Over 1.5 ✅, Suécia 2X ✅, Under 2.5 ✅)
+  4. *República da Irlanda 3 × 0 Kosovo* (Parrott 28' pen, 50' pen, Moylan 75'; Irlanda DNB ✅, Irlanda V1 ✅)
+  5. *Hungria 1 × 1 Irlanda do Norte* (Varga 35'; Devenny 65'; Under 2.5 ✅)
+  6. *Bósnia e Herzegovina 2 × 1 Romênia* (Tahirović 44', Bajraktarević 82'; Bîrligea 6'; Over 1.5 ✅, Over 2.5 ✅)
+  7. *Ucrânia 1 × 0 Geórgia* (Sikan 1'; Under 2.5 ✅)
+  8. *Israel 1 × 1 Áustria* (Peretz 36'; Kalajdžić 62'; Over 1.5 ✅)
+
+- **Liquidação dos Bilhetes:**
+  - 🔥 **DESAFIO SOROS (CICLO 5 / DIA 3):** ✅ **GREEN CRAVADO!** (Gales x Portugal 2X @1.14 ✅ + Polônia x Suécia Over 1.5 @1.25 ✅ = @1.43). Retorno: **R$ 33,75**! Ciclo 5 avança 100% invicto para o Dia 4 com R$ 33,75 (+237,5% em 3 dias!).
+  - ⭐ **BILHETE SUPREMO V7 (@3.77):** ✅ **GREEN HISTÓRICO CRAVADO (3 DE 3 ACERTOS)!** (Portugal ML @1.55 ✅, Dinamarca x Noruega Over 2.5 @1.68 ✅, Suécia 2X @1.45 ✅). Retorno: **R$ 11,31**! Segundo dia consecutivo de Green no Supremo!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 1 @1.74):** ✅ **GREEN CRAVADO (3 DE 3 ACERTOS)!** (Portugal 2X ✅, Dinamarca Over 1.5 ✅, Polônia Over 1.5 ✅). Retorno: **R$ 26,10**!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 2 @2.52 — SAÍDA RECOMENDADA COM DNB):** ✅ **GREEN CRAVADO (4 DE 4 ACERTOS)!** (+ Rep. Irlanda DNB @1.45 ➔ Irlanda 3x0 ✅). Retorno: **R$ 37,80**! Lucro líquido de **+R$ 22,80**, cobrindo 222% de todos os secundários de R$ 10,25 com apenas 4 jogos!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 3 @3.78):** ✅ **GREEN TOTAL CRAVADO (5 DE 5 ACERTOS)!** (+ Hungria x Irlanda do Norte Under 2.5 @1.50 ➔ 1x1 ✅). Retorno: **R$ 56,70**!
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@3.42):** ✅ **GREEN TOTAL CRAVADO (4 DE 4 ACERTOS)!** (Portugal ML ✅, Irlanda DNB ✅, Dinamarca Over 1.5 ✅, Polônia Over 1.5 ✅). Retorno: **R$ 7,70**!
+  - 🏆 **MÚLTIPLA NATIONS LEAGUE V7 (@3.10):** ✅ **GREEN TOTAL CRAVADO (2 DE 2 ACERTOS)!** (Portugal V1 & Over 1.5 ✅, Dinamarca Over 2.5 ✅). Retorno: **R$ 4,65**!
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@5.13):** ❌ MISS por 1 gol (Dinamarca x Noruega Over 2.5 ✅, Bósnia x Romênia Over 2.5 ✅; Polônia 1x1 Suécia faltou 1 gol ❌).
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@58.00):** ❌ MISS (4 de 5 acertos: Portugal V1 & Over 2.5 ✅, Dinamarca BTTS & Over 2.5 ✅, Irlanda ML ✅, Hungria Under 2.5 ✅; Suécia empatou 1x1 ❌).
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7:** ✅ **7 DE 8 ACERTOS! GREEN NO MODO SISTEMA 7/8 DA MELBET!** (Retorno estimado de ~R$ 18,06 no cupom de Sistema!).
+
+- **Balanço Financeiro Consolidado da Rodada:**
+  - Investimento Total da Grade Regular: **R$ 25,25**
+  - Retorno Resgatado na Grade Regular (Saída Padrão no Stop 2 da SAFE, sem contar Sistema da Múltipla 5):
+    - Stop 2 da SAFE: **R$ 37,80**
+    - Bilhete Supremo: **R$ 11,31**
+    - Múltipla 2 SAFE+: **R$ 7,70**
+    - Múltipla Nations League: **R$ 4,65**
+    - **Total Resgatado:** **R$ 61,46**
+  - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 36,21** (ROI de **+143,4%** na rodada regular)!
+  - *(Caso o apostador tenha executado o Stop 3 da SAFE: Retorno Total de **R$ 80,36**, gerando Lucro Líquido de **+R$ 55,11** / ROI de **+218,3%**!)*
+  - **Desafio Soros Ciclo 5 (Banca Isolada):** R$ 23,60 ➔ **R$ 33,75** (+237,5% em 3 dias, avançando para o Dia 4)!

@@ -21,3 +21,4 @@
 
 ### 4. Nomenclatura e Preenchimento Nativo Melbet (Anti-Eventos Dependentes)
 * **Regra:** Mercados combinados (ex: *Vitória & Mais de 1.5 Gols*) devem ser informados indicando a aba exata da Melbet: **"Tempo Regulamentar + Total"** (ex: `V1 e Total Mais de 1.5 - Sim`), impedindo o travamento do cupom.
+

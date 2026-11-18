@@ -47,3 +47,4 @@ Este arquivo preserva a formulação oficial do **Football Analysis System (FAS 
    - Erros de "eventos dependentes" ao adicionar mercados correlatos sem usar a aba pré-configurada "Resultado + Total".
 
 *Estes 4 pontos motivaram o upgrade para o **FAS V7.0 (Melbet Engine Edition)** em 17/11/2026.*
+

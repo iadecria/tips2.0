@@ -5195,3 +5195,111 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
     - **Total Resgatado:** **R$ 48,00**
   - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 22,75** (ROI de **+90,1%** na rodada regular)!
   - **Desafio Soros Ciclo 5 (Banca Isolada):** R$ 33,75 ➔ **R$ 48,60** (+R$ 14,85 no dia; avança para o Dia 5 com R$ 10,00 no cofre e R$ 38,60 de banca de lucro)!
+
+
+---
+
+### [2026-11-19] — RODADA DIÁRIA (UWCL & BRASILEIRÃO SÉRIE A) [FAS V7.0 MELBET]
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-19_V1_UWCL_BRASILEIRAO_MELBET_V7`
+- **Cutoff:** 2026-11-19T00:15:00-03:00
+- **Contexto da Data:** Quinta-feira de rodada dupla sincronizada:
+  - **Turno da Tarde (UEFA Women's Champions League - 5ª Rodada):** Fase de grupos decisiva com Bayern de Munique visitando o Austria Viena; Paris FC recebendo o HB Køge precisando vencer; Barcelona recebendo o Servette; Arsenal recebendo o invicto Lyon em Londres; e Benfica recebendo a Roma em Lisboa.
+  - **Turno da Noite (Brasileirão Série A - 35ª Rodada Reta Final):** Vasco em São Januário com ingressos esgotados buscando vaga continental contra o Internacional em crise fora de casa (16º colocado); confronto direto contra o rebaixamento no Barradão em Vitória x RB Bragantino; e o clássico São Paulo x Fluminense no MorumBIS (São Paulo desfalcado de Luciano, Ferreirinha e Newton).
+- **Status de Liquidação:** **ATIVO / AGUARDANDO LIQUIDAÇÃO**
+
+#### 1. Discovery e Cobertura
+- Jogos Mapeados: 8 (5 UWCL + 3 Brasileirão Série A)
+- Jogos Selecionados: 8
+- Mercados Filtrados: 8 com conformidade total aos filtros FAS V7.0 (Melbet Engine Edition: Stop 2 com DNB no Lyon, Super Ataque focado em Gols Totais sem armadilha de BTTS, abas nativas da Melbet 'Resultado + Total', 'Handicap Asiático' e 'Total Individual').
+
+#### 2. Fixtures Selecionadas e Teses Pré-Jogo
+1. **Austria Viena W × Bayern de Munique W** (14:45 BRT — UWCL)
+   - **Tese:** Bayern de Munique W Vence (W2 @1.08) | Bayern de Munique W Vence & Mais de 1.5 Gols (@1.22) | Total Mais de 2.5 Gols (@1.50) | Handicap 2 (-2.5) @2.10.
+2. **Paris FC W × HB Køge W** (14:45 BRT — UWCL)
+   - **Tese:** Paris FC W Vence (W1 @1.38) | Paris FC W ou Empate (1X @1.10) | Paris FC W Vence & Mais de 1.5 Gols (@1.65) | Handicap 1 (-1.5) @2.05.
+3. **Barcelona W × Servette Chênois W** (17:00 BRT — UWCL)
+   - **Tese:** Barcelona W — Total Individual Mais de 2.5 Gols (@1.25) | Barcelona W — Total Individual Mais de 3.5 Gols (@1.65).
+4. **Arsenal W × Olympique Lyon W** (17:00 BRT — UWCL)
+   - **Tese:** Olympique Lyon W ou Empate (2X @1.28) | Lyon — Empate Anula Aposta (Handicap 2 (0) @1.45 na Melbet) | Total Mais de 2.5 Gols (@1.75) | Lyon Vence & Mais de 2.5 Gols (@2.80).
+5. **Benfica W × AS Roma W** (17:00 BRT — UWCL)
+   - **Tese:** Total Mais de 1.5 Gols no Jogo (@1.22) | Total Mais de 2.5 Gols no Jogo (@1.70).
+6. **Vasco × Internacional** (19:30 BRT — Brasileirão Série A)
+   - **Tese:** Vasco Vence (W1 @1.65) | Vasco ou Empate (Dupla Chance 1X @1.18) | Vasco Vence & Menos de 3.5 Gols (@2.20 na aba 'Resultado + Total').
+7. **Vitória × RB Bragantino** (19:30 BRT — Brasileirão Série A)
+   - **Tese:** Total Menos de 3.5 Gols no Jogo (@1.25).
+8. **São Paulo × Fluminense** (21:30 BRT — Brasileirão Série A)
+   - **Tese:** Fluminense ou Empate (Dupla Chance X2 @1.55) | Fluminense Vence (W2 @3.00).
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 19/11 (FAS V7.0 Melbet Edition)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 5 DE 30 [RISCO ZERO]:**
+  - Austria Viena W x Bayern de Munique W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22 na Melbet)
+  - Vasco x Internacional (19:30 BRT): Vasco ou Empate (Dupla Chance 1X @1.18 na Melbet)
+  - Odd: 1.44 | Stake: R$ 38,60 (100% bancada pelo lucro acumulado; R$ 10,00 da stake inicial já protegidos no cofre!) | Retorno Potencial: R$ 55,58
+  - *Status:* ATIVO.
+
+- ⭐ **BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (@3.64):**
+  - Paris FC W x HB Køge W: Paris FC W Vence (W1 @1.38)
+  - Arsenal W x Olympique Lyon W: Olympique Lyon W ou Empate (Dupla Chance 2X @1.28)
+  - Barcelona W x Servette W: Barcelona W — Total Individual Mais de 2.5 Gols (@1.25)
+  - Vasco x Internacional: Vasco Vence (W1 @1.65)
+  - Odd: 3.64 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 10,92
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA V7 (Stop Points com DNB na Melbet):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla de Imunidade Cruzada Europa-Brasil @1.75):**
+    - Austria Viena W x Bayern W: Bayern W Vence (W2 @1.08)
+    - Paris FC W x HB Køge W: Paris FC 1X (@1.10)
+    - Vasco x Internacional: Vasco 1X (@1.18)
+    - Vitória x RB Bragantino: Total Menos de 3.5 Gols (@1.25)
+    - *Retorno Stop 1:* R$ 26,25 (Lucro líquido: +R$ 11,25 cobrindo 110% de todos os secundários de R$ 10,25).
+  - **Stop Point 2 (A Blindagem V7 com Empate Anula @2.54) — [SAÍDA RECOMENDADA]:**
+    - Stop 1 +
+    - Arsenal W x Olympique Lyon W: Lyon — Empate Anula (Handicap 2 (0) @1.45 na Melbet)
+    - *Proteção V7:* Se o Lyon empatar no Meadow Park, a perna é anulada (@1.00) e paga Stop 1 (@1.75 -> R$ 26,25). Se vencer, paga **R$ 38,10** (Lucro líquido: +R$ 23,10 cobrindo 225% de todos os secundários de R$ 10,25!).
+  - **Stop Point 3 (Expansão Noturna no MorumBIS @3.93):**
+    - Stop 2 +
+    - São Paulo x Fluminense: Fluminense ou Empate (Dupla Chance X2 @1.55)
+    - *Retorno Stop 3:* R$ 58,95.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@4.30):**
+  - Austria Viena W x Bayern W: Bayern W Vence & Mais de 1.5 Gols (@1.22)
+  - Paris FC W x HB Køge W: Paris FC W Vence (W1 @1.38)
+  - Vasco x Internacional: Vasco Vence (W1 @1.65)
+  - São Paulo x Fluminense: Fluminense ou Empate (Dupla Chance X2 @1.55)
+  - Odd: 4.30 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 9,67
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@7.36):**
+  - Austria Viena W x Bayern W: Total Mais de 2.5 Gols no Jogo (@1.50)
+  - Barcelona W x Servette W: Barcelona — Total Individual Mais de 3.5 Gols (@1.65 na Melbet)
+  - Arsenal W x Olympique Lyon W: Total Mais de 2.5 Gols no Jogo (@1.75)
+  - Benfica W x AS Roma W: Total Mais de 2.5 Gols no Jogo (@1.70)
+  - Odd: 7.36 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 11,04
+
+- 🏆 **MÚLTIPLA BRASILEIRÃO & CHAMPIONS V7 (Dupla de Imposição @2.72):**
+  - Paris FC W x HB Køge W: Paris FC W Vence & Mais de 1.5 Gols (@1.65 na aba 'Resultado + Total')
+  - Vasco x Internacional: Vasco Vence (W1 @1.65 na Melbet)
+  - Odd: 2.72 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,08
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@79.52):**
+  - Austria Viena W x Bayern W: Bayern Vence por 3+ Gols (Handicap 2 (-2.5) @2.10)
+  - Paris FC W x HB Køge W: Paris FC Vence por 2+ Gols (Handicap 1 (-1.5) @2.05)
+  - Arsenal W x Olympique Lyon W: Lyon Vence & Mais de 2.5 Gols (@2.80)
+  - Vasco x Internacional: Vasco Vence & Menos de 3.5 Gols (@2.20 na aba 'Resultado + Total')
+  - São Paulo x Fluminense: Fluminense Vence (W2 @3.00)
+  - Odd: 79.52 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 79,52
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet @25.00+):**
+  - Austria Viena W x Bayern W: Bayern W Vence & Mais de 1.5 Gols (@1.22)
+  - Paris FC W x HB Køge W: Paris FC W Vence (W1 @1.38)
+  - Barcelona W x Servette W: Barcelona W — Total Individual Mais de 2.5 Gols (@1.25)
+  - Arsenal W x Olympique Lyon W: Lyon — Empate Anula (Handicap 2 (0) @1.45)
+  - Benfica W x AS Roma W: Total Mais de 1.5 Gols no Jogo (@1.22)
+  - Vasco x Internacional: Vasco Vence (W1 @1.65)
+  - Vitória x RB Bragantino: Total Menos de 3.5 Gols no Jogo (@1.25)
+  - São Paulo x Fluminense: Fluminense ou Empate (Dupla Chance X2 @1.55)
+  - Odd Acumulada: ~25.00+ | Stake: R$ 1,00
+  - *Dica Melbet:* Marque no carrinho como "Sistema 6/8" ou "Sistema 7/8".

@@ -1,57 +1,51 @@
 {
-  "date": "2026-11-18",
-  "snapshotId": "FAS_FOOTBALL_2026-11-18_V1_UWCL_BRASILEIRAO_MELBET_V7",
-  "status": "AUDITED",
-  "auditSummary": {
-    "roundResult": "LUCRO TOTAL (+90.1% ROI)",
-    "invested": 25.25,
-    "returned": 48.00,
-    "netProfit": 22.75,
-    "supremoStatus": "GREEN_CRAVADO_3_DE_3 (@3.15 -> R$ 9,45)",
-    "safeStop1Status": "GREEN_CRAVADO_4_DE_4 (@1.81 -> R$ 27,15)",
-    "safeStop2Status": "GREEN_CRAVADO_5_DE_5 (@2.57 -> R$ 38,55)",
-    "sorosDay4Status": "GREEN_CRAVADO_2_DE_2 (@1.44 -> R$ 48,60)",
-    "sorosNextDay": 5,
-    "sorosNextStake": 38.60,
-    "sorosVaultProfit": 10.00
-  },
-  "notes": "GRADE DE 18/11/2026 AUDITADA: Metodologia FAS V7.0 (Melbet Engine Edition). Sessão concluída com Lucro Líquido de +R$ 22,75 (+90,1% ROI) na grade regular, 3º Green consecutivo no Supremo (@3.15 -> R$ 9,45), Stop 2 da SAFE 100% Green com proteção DNB (@2.57 -> R$ 38,55) e 4º Green seguido no Desafio Soros Ciclo 5 (@1.44 -> R$ 48,60).",
+  "date": "2026-11-19",
+  "snapshotId": "FAS_FOOTBALL_2026-11-19_V1_UWCL_BRASILEIRAO_MELBET_V7",
+  "status": "ACTIVE",
+  "notes": "GRADE DE 19/11/2026 ATIVA: Metodologia FAS V7.0 (Melbet Engine Edition). Combinação em dois turnos: Turno da Tarde com a conclusão da 5ª rodada da UEFA Women's Champions League (Bayern de Munique, Barcelona, Paris FC e Arsenal x Lyon) e Turno da Noite com a conclusão da 35ª rodada do Brasileirão Série A (Vasco recebendo o Inter em São Januário, Vitória x Bragantino no Barradão e São Paulo x Fluminense no MorumBIS). Stop 2 da SAFE blindado com DNB (Empate Anula) no Lyon e Soros no Dia 5 operando em Risco Zero absoluto após saque de R$ 10,00 para o cofre.",
   "strategicImprovementsApplied": {
-    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) na Juventus W contra o Leuven, blindando o bilhete contra empates tardios.",
-    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Total Individual do Flamengo (+1.5), eliminando o risco do adversário passar em branco.",
+    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) no Lyon contra o Arsenal, blindando o bilhete contra empates em Londres.",
+    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Total Individual do Barcelona (+3.5), eliminando o risco do adversário passar em branco.",
     "systemModeMelbetV7": "Ativo: Múltipla 5 adaptada para o formato Sistema 6/8 ou 7/8 na Melbet.",
     "melbetUiMapping": "Ativo: Mercados mapeados para as abas nativas da Melbet ('Resultado + Total', 'Handicap Asiático', 'Total Individual')."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Quarta 18/11)",
+    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Quinta 19/11)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.15,
+    "multiplierGlobal": 3.64,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 9.45,
-    "philosophy": "A trinca de maior solidez da quarta-feira na Melbet: Real Madrid W impondo favoritismo no Di Stéfano, Juventus W precisando da vitória contra o frágil Leuven e o Flamengo com o Maracanã lotado contra o desfalcado Athletico.",
+    "potentialReturn": 10.92,
+    "philosophy": "A trinca-ouro técnica de quinta-feira na Melbet: Paris FC precisando vencer em casa o modesto Køge, Lyon fazendo valer sua superioridade continental na Inglaterra, Vasco forte em São Januário contra o instável Inter e o rolo compressor do Barcelona Feminino.",
     "status": "ACTIVE",
     "selections": [
       {
-        "match": "Real Madrid W x Inter Milan W (14:45 BRT)",
+        "match": "Paris FC W x HB Køge W (14:45 BRT)",
         "competition": "UEFA Women's Champions League",
-        "market": "Real Madrid W Vence (W1 na Melbet)",
-        "odd": 1.33,
+        "market": "Paris FC W Vence (W1 na Melbet)",
+        "odd": 1.38,
         "status": "ACTIVE"
       },
       {
-        "match": "Juventus W x OH Leuven W (17:00 BRT)",
+        "match": "Arsenal W x Olympique Lyon W (17:00 BRT)",
         "competition": "UEFA Women's Champions League",
-        "market": "Juventus W Vence & Mais de 1.5 Gols (Aba Resultado + Total)",
-        "odd": 1.6,
+        "market": "Olympique Lyon W ou Empate (Dupla Chance 2X)",
+        "odd": 1.28,
         "status": "ACTIVE"
       },
       {
-        "match": "Flamengo x Athletico-PR (20:30 BRT)",
+        "match": "Barcelona W x Servette W (17:00 BRT)",
+        "competition": "UEFA Women's Champions League",
+        "market": "Barcelona W — Total Individual Mais de 2.5 Gols (Aba Total Individual)",
+        "odd": 1.25,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Vasco x Internacional (19:30 BRT)",
         "competition": "Brasileirão Série A",
-        "market": "Flamengo Vence & Mais de 1.5 Gols (Aba Resultado + Total)",
-        "odd": 1.48,
+        "market": "Vasco Vence (W1 na Melbet)",
+        "odd": 1.65,
         "status": "ACTIVE"
       }
     ]
@@ -63,64 +57,64 @@
       "stake": 15.0,
       "unitStake": 1.0,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Stop 1 quita os secundários com 4 pernas de extrema imunidade. Stop 2 blinda a vitória da Juventus com Empate Anula.",
+      "philosophy": "Evolução V7: Stop 1 quita os secundários com 4 pernas de extrema imunidade. Stop 2 blinda o clássico europeu com Empate Anula no Lyon.",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Quádrupla de Imunidade Cruzada Europa-Brasil)",
-          "multiplier": 1.81,
-          "potentialReturn": 27.15,
+          "multiplier": 1.75,
+          "potentialReturn": 26.25,
           "legs": [
-            "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W ou Empate (Dupla Chance 1X @1.08)",
-            "Chelsea W x PSG W (17:00 BRT): Chelsea W ou Empate (Dupla Chance 1X @1.10)",
-            "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence (W1 @1.25)",
-            "Cruzeiro x Palmeiras (20:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)"
+            "Austria Viena W x Bayern W (14:45 BRT): Bayern de Munique W Vence (W2 @1.08)",
+            "Paris FC W x HB Køge W (14:45 BRT): Paris FC W ou Empate (Dupla Chance 1X @1.10)",
+            "Vasco x Internacional (19:30 BRT): Vasco ou Empate (Dupla Chance 1X @1.18)",
+            "Vitória x RB Bragantino (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem V7 com Empate Anula — SAÍDA RECOMENDADA)",
-          "multiplier": 2.57,
-          "potentialReturn": 38.55,
-          "netProfit": 23.55,
-          "notes": "Se a Juventus W empatar com o Leuven, a Melbet reembolsa essa perna (@1.00) e você resgata o Stop 1 (R$ 27,15)! Se vencer, paga R$ 38,55 (+R$ 23,55 líquido cobrindo 230% dos secundários)!",
+          "multiplier": 2.54,
+          "potentialReturn": 38.10,
+          "netProfit": 23.10,
+          "notes": "Se o Lyon empatar com o Arsenal no Meadow Park, a Melbet reembolsa essa perna (@1.00) e você resgata o Stop 1 (R$ 26,25)! Se vencer, paga R$ 38,10 (+R$ 23,10 líquido cobrindo 225% dos secundários)!",
           "legs": [
-            "Real Madrid W x Inter Milan W: Real Madrid W ou Empate (Dupla Chance 1X @1.08)",
-            "Chelsea W x PSG W: Chelsea W ou Empate (Dupla Chance 1X @1.10)",
-            "Flamengo x Athletico-PR: Flamengo Vence (W1 @1.25)",
-            "Cruzeiro x Palmeiras: Total Menos de 3.5 Gols no Jogo (@1.22)",
-            "Juventus W x OH Leuven W (17:00 BRT): Juventus W — Empate Anula (Handicap 1 (0) @1.42 na Melbet)"
+            "Austria Viena W x Bayern W: Bayern W Vence (W2 @1.08)",
+            "Paris FC W x HB Køge W: Paris FC 1X (@1.10)",
+            "Vasco x Internacional: Vasco 1X (@1.18)",
+            "Vitória x RB Bragantino: Total Menos de 3.5 Gols (@1.25)",
+            "Arsenal W x Olympique Lyon W (17:00 BRT): Lyon — Empate Anula (Handicap 2 (0) @1.45 na Melbet)"
           ],
           "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão Noturna com Trava Defensiva)",
-          "multiplier": 3.85,
-          "potentialReturn": 57.75,
+          "level": "Stop Point 3 (Expansão Noturna no MorumBIS)",
+          "multiplier": 3.93,
+          "potentialReturn": 58.95,
           "legs": [
-            "Real Madrid W x Inter: Real Madrid 1X (@1.08)",
-            "Chelsea W x PSG W: Chelsea 1X (@1.10)",
-            "Flamengo x Athletico-PR: Flamengo Vence (@1.25)",
-            "Cruzeiro x Palmeiras: Total Menos de 3.5 Gols (@1.22)",
-            "Juventus W x OH Leuven W: Juventus W — Empate Anula (Handicap 1 (0) @1.42)",
-            "Corinthians x Botafogo (21:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.50)"
+            "Austria Viena W x Bayern W: Bayern W Vence (@1.08)",
+            "Paris FC W x HB Køge W: Paris FC 1X (@1.10)",
+            "Vasco x Internacional: Vasco 1X (@1.18)",
+            "Vitória x RB Bragantino: Total Menos de 3.5 Gols (@1.25)",
+            "Arsenal W x Olympique Lyon W: Lyon — Empate Anula (Handicap 2 (0) @1.45)",
+            "São Paulo x Fluminense (21:30 BRT): Fluminense ou Empate (Dupla Chance X2 @1.55)"
           ],
           "status": "ACTIVE"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ V7 (Alavancagem de Favoritos com DNB)",
+      "name": "MÚLTIPLA 2 — SAFE+ V7 (Alavancagem de Favoritos com Gols)",
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 3.7,
-      "potentialReturn": 8.32,
+      "multiplier": 4.30,
+      "potentialReturn": 9.67,
       "status": "ACTIVE",
       "legs": [
-        "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence (W1 @1.33)",
-        "Juventus W x OH Leuven W (17:00 BRT): Juventus W Vence (W1 @1.35)",
-        "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence (W1 @1.25)",
-        "Cruzeiro x Palmeiras (20:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.65)"
+        "Austria Viena W x Bayern W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22 na aba 'Resultado + Total')",
+        "Paris FC W x HB Køge W (14:45 BRT): Paris FC W Vence (W1 @1.38)",
+        "Vasco x Internacional (19:30 BRT): Vasco Vence (W1 @1.65)",
+        "São Paulo x Fluminense (21:30 BRT): Fluminense ou Empate (Dupla Chance X2 @1.55)"
       ]
     },
     {
@@ -128,15 +122,15 @@
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 5.93,
-      "potentialReturn": 8.9,
+      "multiplier": 7.36,
+      "potentialReturn": 11.04,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Foco estrito em Mais de 2.5 Gols Totais na Europa e Total Individual do Flamengo no Maracanã.",
+      "philosophy": "Evolução V7: Foco estrito em Mais de 2.5 Gols Totais na Europa e Total Individual de potências ofensivas.",
       "legs": [
-        "Real Madrid W x Inter Milan W (14:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
-        "Juventus W x OH Leuven W (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.60)",
-        "BK Häcken W x Manchester City W (14:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.55)",
-        "Flamengo x Athletico-PR (20:30 BRT): Flamengo — Total Individual Mais de 1.5 Gols (@1.45 na Melbet)"
+        "Austria Viena W x Bayern W (14:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.50)",
+        "Barcelona W x Servette W (17:00 BRT): Barcelona — Total Individual Mais de 3.5 Gols (@1.65 na Melbet)",
+        "Arsenal W x Olympique Lyon W (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.75)",
+        "Benfica W x AS Roma W (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.70)"
       ]
     },
     {
@@ -144,12 +138,12 @@
       "type": "NATIONS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.87,
-      "potentialReturn": 4.3,
+      "multiplier": 2.72,
+      "potentialReturn": 4.08,
       "status": "ACTIVE",
       "legs": [
-        "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence & Mais de 1.5 Gols (@1.55 na aba 'Resultado + Total')",
-        "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence por 2+ Gols (Handicap Asiático 1 (-1.5) @1.85)"
+        "Paris FC W x HB Køge W (14:45 BRT): Paris FC W Vence & Mais de 1.5 Gols (@1.65 na aba 'Resultado + Total')",
+        "Vasco x Internacional (19:30 BRT): Vasco Vence (W1 @1.65 na Melbet)"
       ]
     },
     {
@@ -157,16 +151,16 @@
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 45.0,
-      "potentialReturn": 45.0,
+      "multiplier": 79.52,
+      "potentialReturn": 79.52,
       "status": "ACTIVE",
       "philosophy": "Combinações de abas pré-definidas na Melbet para impedir bloqueio de apostas dependentes.",
       "legs": [
-        "Real Madrid W x Inter Milan W: Real Madrid Vence por 2+ Gols (Handicap 1 (-1.5) @1.95)",
-        "Juventus W x OH Leuven W: Juventus Vence por 2+ Gols (Handicap 1 (-1.5) @2.00)",
-        "Chelsea W x PSG W: Chelsea Vence & Menos de 3.5 Gols (@2.10 na aba 'Resultado + Total')",
-        "Flamengo x Athletico-PR: Flamengo Vence & Ambos Marcam - Não (@1.80)",
-        "Cruzeiro x Palmeiras: Total Menos de 2.5 Gols (@1.65)"
+        "Austria Viena W x Bayern W: Bayern Vence por 3+ Gols (Handicap 2 (-2.5) @2.10)",
+        "Paris FC W x HB Køge W: Paris FC Vence por 2+ Gols (Handicap 1 (-1.5) @2.05)",
+        "Arsenal W x Olympique Lyon W: Lyon Vence & Mais de 2.5 Gols (@2.80)",
+        "Vasco x Internacional: Vasco Vence & Menos de 3.5 Gols (@2.20 na aba 'Resultado + Total')",
+        "São Paulo x Fluminense: Fluminense Vence (W2 @3.00)"
       ]
     },
     {
@@ -174,39 +168,39 @@
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 55.0,
-      "potentialReturn": 55.0,
+      "multiplier": 25.0,
+      "potentialReturn": 25.0,
       "status": "ACTIVE",
-      "philosophy": "Dica Melbet: Marque no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'. Assim como no dia 17/11 (7 de 8 acertos), garante lucro mesmo com zebras!",
+      "philosophy": "Dica Melbet: Marque no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'. Permite lucrar proporcionalmente mesmo com zebras isoladas!",
       "legs": [
-        "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence & Mais de 1.5 Gols (@1.55)",
-        "Juventus W x OH Leuven W (17:00 BRT): Juventus W Vence & Mais de 1.5 Gols (@1.60)",
-        "Chelsea W x PSG W (17:00 BRT): Chelsea W Vence (W1 @1.35)",
-        "BK Häcken W x Manchester City W (14:45 BRT): Manchester City W Vence (W2 @1.30)",
-        "Flamengo x Athletico-PR (20:30 BRT): Flamengo Vence por 2+ Gols (Handicap 1 (-1.5) @1.85)",
-        "Cruzeiro x Palmeiras (20:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.65)",
-        "Corinthians x Botafogo (21:30 BRT): Total Menos de 2.5 Gols no Jogo (@1.60)",
-        "Grêmio x Bahia (21:30 BRT): Grêmio ou Empate (Dupla Chance 1X @1.28)"
+        "Austria Viena W x Bayern W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22)",
+        "Paris FC W x HB Køge W (14:45 BRT): Paris FC W Vence (W1 @1.38)",
+        "Barcelona W x Servette W (17:00 BRT): Barcelona W — Total Individual Mais de 2.5 Gols (@1.25)",
+        "Arsenal W x Olympique Lyon W (17:00 BRT): Lyon — Empate Anula (Handicap 2 (0) @1.45)",
+        "Benfica W x AS Roma W (17:00 BRT): Total Mais de 1.5 Gols no Jogo (@1.22)",
+        "Vasco x Internacional (19:30 BRT): Vasco Vence (W1 @1.65)",
+        "Vitória x RB Bragantino (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)",
+        "São Paulo x Fluminense (21:30 BRT): Fluminense ou Empate (Dupla Chance X2 @1.55)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 4 DE 30",
-    "day": 4,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 5 DE 30",
+    "day": 5,
     "targetDays": 30,
-    "stake": 33.75,
+    "stake": 38.60,
     "multiplier": 1.44,
-    "potentialReturn": 48.6,
+    "potentialReturn": 55.58,
     "status": "ACTIVE",
-    "philosophy": "Banca 100% autofinanciada pelos 3 primeiros Greens consecutivos. A um passo do resgate de segurança de R$ 10,00 no Dia 5. Dupla blindada: Real Madrid W em casa contra Inter que tomou 4x1 do City e Flamengo de Arrascaeta precisando pontuar no Maracanã contra o Athletico desfalcado.",
+    "philosophy": "MARCO HISTÓRICO DE RISCO ZERO: Stake inicial de R$ 10,00 sacada para o cofre. A banca agora joga 100% com o lucro acumulado das 4 vitórias seguidas. Dupla blindada: Bayern de Munique com Pernille Harder e Klara Bühl impondo favoritismo e mais de 1.5 gols em Viena, somado à muralha de São Januário com o Vasco invicto em casa contra o Inter que só venceu 3 de 17 jogos fora de casa.",
     "vaultPlan": {
-      "day5Milestone": "Saque da stake inicial de R$ 10,00 (Risco Zero absoluto amanhã)",
-      "day7Milestone": "Trava de lucro líquido de +R$ 20,00 no cofre",
-      "currentCycleNetRisk": "R$ 0,00 (banca 100% bancada pelo lucro acumulado de +237,5%)"
+      "day5Milestone": "CONCLUÍDO: R$ 10,00 sacados para o cofre (Risco Zero absoluto)",
+      "day7Milestone": "Próxima meta: Trava de mais R$ 20,00 de lucro travado no cofre",
+      "currentCycleNetRisk": "R$ 0,00 (banca 100% bancada pelo lucro acumulado de +386%)"
     },
     "legs": [
-      "Real Madrid W x Inter Milan W (14:45 BRT): Real Madrid W Vence (W1 @1.33 na Melbet)",
-      "Flamengo x Athletico-PR (20:30 BRT): Flamengo ou Empate (Dupla Chance 1X @1.08 na Melbet)"
+      "Austria Viena W x Bayern de Munique W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22 na aba 'Resultado + Total')",
+      "Vasco x Internacional (19:30 BRT): Vasco ou Empate (Dupla Chance 1X @1.18 na Melbet)"
     ]
   }
 }

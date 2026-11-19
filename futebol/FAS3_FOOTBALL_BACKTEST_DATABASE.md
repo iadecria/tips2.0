@@ -5063,7 +5063,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Contexto da Data:** Quarta-feira de rodada dupla sincronizada:
   - **Turno da Tarde (UEFA Women's Champions League - 5ª Rodada):** Fase de grupos decisiva com Real Madrid W recebendo a Inter de Milão no Di Stéfano; Juventus W em Turim contra o OH Leuven precisando dos 3 pontos; BK Häcken recebendo o Manchester City W; e Chelsea recebendo o PSG W em Londres.
   - **Turno da Noite (Brasileirão Série A - 35ª Rodada Reta Final):** Flamengo isolado na liderança (76 pts) recebendo o desfalcado Athletico-PR (sem Viveros, Arthur Dias, Dantas e Luiz Gustavo) no Maracanã lotado com o retorno de Arrascaeta; confronto direto de G-4 tenso no Mineirão entre Cruzeiro e Palmeiras (desfalcado de Gómez, Piquerez, Murilo e Mauricio); briga ferrenha contra o Z-4 em Corinthians x Botafogo na Neo Química Arena; e Grêmio recebendo o Bahia em Porto Alegre.
-- **Status de Liquidação:** **ATIVO / AGUARDANDO LIQUIDAÇÃO**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura
 - Jogos Mapeados: 8 (4 UWCL + 4 Brasileirão Série A)
@@ -5159,3 +5159,39 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Grêmio x Bahia: Grêmio ou Empate (Dupla Chance 1X @1.28)
   - Odd Acumulada: ~55.00+ | Stake: R$ 1,00
   - *Dica Melbet:* Marque no carrinho como "Sistema 6/8" ou "Sistema 7/8".
+
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 18/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *Real Madrid W 3 × 1 Inter Milan W* (Beerensteyn 28', Bruun 40', 91' pen; Cambiaghi 45'; Real W1 ✅, 1X ✅, V1 & Over 1.5 ✅, Over 2.5 ✅, -1.5 AH ✅)
+  2. *BK Häcken W 0 × 2 Manchester City W* (Lauren Hemp 55', Bunny Shaw 77'; City W2 ✅; Häcken perdeu pênalti aos 89')
+  3. *Juventus W 2 × 0 OH Leuven W* (Serturini 86', Pavan 93'; Juve W1 ✅, Juve DNB ✅, V1 & Over 1.5 ✅, -1.5 AH ✅)
+  4. *Chelsea W 1 × 0 PSG W* (Veerle Buurman 87'; Chelsea 1X ✅, W1 ✅, V1 & Under 3.5 ✅)
+  5. *Flamengo 2 × 1 Athletico-PR* (Carrascal 16', Jorginho 26' pen; Vargas 10'; Fla W1 ✅, 1X ✅, V1 & Over 1.5 ✅, Fla Individual Over 1.5 ✅)
+  6. *Cruzeiro 2 × 1 Palmeiras* (Matheus Pereira 62', Khellven 78' contra; Sosa 48'; Menos de 3.5 Gols ✅)
+  7. *Corinthians 4 × 0 Botafogo* (Kaio César 12', 38', 55', Arthur Chaves 71' contra)
+  8. *Grêmio 0 × 0 Bahia* (Grêmio 1X ✅; gol anulado do Grêmio aos 35' 2T)
+
+- **Liquidação dos Bilhetes:**
+  - 🔥 **DESAFIO SOROS (CICLO 5 / DIA 4):** ✅ **GREEN CRAVADO!** (Real Madrid W ML @1.33 ✅ + Flamengo 1X @1.08 ✅ = @1.44). Retorno: **R$ 48,60**! 4º Green consecutivo no ciclo (+386% de lucro acumulado). Meta de segurança ativada para o Dia 5: R$ 10,00 resgatados para o cofre (Risco Zero definitivo) e **R$ 38,60** jogam o Dia 5!
+  - ⭐ **BILHETE SUPREMO V7 (@3.15):** ✅ **GREEN TOTAL HISTÓRICO (3 DE 3 ACERTOS)!** (Real Madrid W ML @1.33 ✅, Juventus W V1 & Over 1.5 @1.60 ✅, Flamengo V1 & Over 1.5 @1.48 ✅). Retorno: **R$ 9,45**! Terceiro dia seguido de 100% Green no Supremo!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 1 @1.81):** ✅ **GREEN CRAVADO (4 DE 4 ACERTOS)!** (Real Madrid 1X ✅, Chelsea 1X ✅, Flamengo V1 ✅, Cruzeiro x Palmeiras Under 3.5 ✅). Retorno: **R$ 27,15**!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 2 @2.57 — SAÍDA RECOMENDADA COM DNB):** ✅ **GREEN TOTAL CRAVADO (5 DE 5 ACERTOS)!** (+ Juventus W DNB / Handicap 1 (0) @1.42 ➔ Juve 2x0 Leuven ✅). Retorno: **R$ 38,55**! Lucro líquido de **+R$ 23,55**, cobrindo 230% de todos os secundários de R$ 10,25 com folga!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 3 @3.85):** ❌ MISS (4x0 Corinthians quebrou o Under 2.5). Saída protegida no Stop 2 executada com perfeição.
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@3.70):** ❌ MISS por 1 gol (Cruzeiro 2x1 Palmeiras).
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@5.93):** ❌ MISS (2 de 4 acertos; Total Individual Flamengo Over 1.5 bateu limpo).
+  - 🏆 **MÚLTIPLA BRASILEIRÃO & CHAMPIONS V7 (@2.87):** ❌ MISS por 1 gol de margem do Flamengo.
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@45.00+):** ❌ MISS (3 acertos monstruosos: Real -1.5 @1.95 ✅, Juve -1.5 @2.00 ✅, Chelsea V1 & Under 3.5 @2.10 ✅).
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7:** ❌ MISS (5 de 8 acertos).
+
+- **Balanço Financeiro Consolidado da Rodada:**
+  - Investimento Total da Grade Regular: **R$ 25,25**
+  - Retorno Resgatado na Grade Regular (Saída Padrão no Stop 2 da SAFE + Supremo):
+    - Stop 2 da SAFE: **R$ 38,55**
+    - Bilhete Supremo: **R$ 9,45**
+    - **Total Resgatado:** **R$ 48,00**
+  - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 22,75** (ROI de **+90,1%** na rodada regular)!
+  - **Desafio Soros Ciclo 5 (Banca Isolada):** R$ 33,75 ➔ **R$ 48,60** (+R$ 14,85 no dia; avança para o Dia 5 com R$ 10,00 no cofre e R$ 38,60 de banca de lucro)!

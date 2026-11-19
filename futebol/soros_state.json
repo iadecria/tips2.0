@@ -2,11 +2,11 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 33.75,
-  "currentDay": 4,
+  "currentStake": 38.60,
+  "currentDay": 5,
   "targetDays": 30,
   "status": "ACTIVE",
-  "vaultProfit": 0.0,
+  "vaultProfit": 10.0,
   "vaultRules": {
     "day5Lock": 10.0,
     "day7Lock": 20.0,
@@ -386,7 +386,9 @@
       "selection": "Real Madrid W x Inter Milan W (Real Madrid W Vence W1 @1.33) + Flamengo x Athletico-PR (Flamengo ou Empate 1X @1.08) [Melbet]",
       "odd": 1.44,
       "potentialReturn": 48.60,
-      "status": "ACTIVE"
+      "status": "HIT",
+      "actualReturn": 48.60,
+      "notes": "GREEN cravado! Real Madrid W 3x1 Inter (W1 ✅) + Flamengo 2x1 Athletico-PR (1X ✅). Retorno: R$ 48,60. Meta de Segurança atingida: R$ 10,00 sacados para o cofre (Risco Zero absoluto) e R$ 38,60 avançam para o Dia 5!"
     }
   ]
 }

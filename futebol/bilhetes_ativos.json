@@ -1,8 +1,21 @@
 {
   "date": "2026-11-18",
   "snapshotId": "FAS_FOOTBALL_2026-11-18_V1_UWCL_BRASILEIRAO_MELBET_V7",
-  "status": "ACTIVE",
-  "notes": "GRADE DE 18/11/2026 ATIVA: Metodologia FAS V7.0 (Melbet Engine Edition). Combinação em dois turnos: Turno da Tarde com a elite da UEFA Women's Champions League (Real Madrid, Juventus e Chelsea) e Turno da Noite com a decisiva 35ª rodada do Brasileirão Série A (Flamengo isolado no topo, Cruzeiro x Palmeiras e Corinthians x Botafogo). Stop 2 da SAFE blindado com DNB (Empate Anula) e Soros avançando ao Dia 4 com R$ 33,75.",
+  "status": "AUDITED",
+  "auditSummary": {
+    "roundResult": "LUCRO TOTAL (+90.1% ROI)",
+    "invested": 25.25,
+    "returned": 48.00,
+    "netProfit": 22.75,
+    "supremoStatus": "GREEN_CRAVADO_3_DE_3 (@3.15 -> R$ 9,45)",
+    "safeStop1Status": "GREEN_CRAVADO_4_DE_4 (@1.81 -> R$ 27,15)",
+    "safeStop2Status": "GREEN_CRAVADO_5_DE_5 (@2.57 -> R$ 38,55)",
+    "sorosDay4Status": "GREEN_CRAVADO_2_DE_2 (@1.44 -> R$ 48,60)",
+    "sorosNextDay": 5,
+    "sorosNextStake": 38.60,
+    "sorosVaultProfit": 10.00
+  },
+  "notes": "GRADE DE 18/11/2026 AUDITADA: Metodologia FAS V7.0 (Melbet Engine Edition). Sessão concluída com Lucro Líquido de +R$ 22,75 (+90,1% ROI) na grade regular, 3º Green consecutivo no Supremo (@3.15 -> R$ 9,45), Stop 2 da SAFE 100% Green com proteção DNB (@2.57 -> R$ 38,55) e 4º Green seguido no Desafio Soros Ciclo 5 (@1.44 -> R$ 48,60).",
   "strategicImprovementsApplied": {
     "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) na Juventus W contra o Leuven, blindando o bilhete contra empates tardios.",
     "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Total Individual do Flamengo (+1.5), eliminando o risco do adversário passar em branco.",

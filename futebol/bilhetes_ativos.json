@@ -1,68 +1,51 @@
 {
-  "date": "2026-11-19",
-  "snapshotId": "FAS_FOOTBALL_2026-11-19_V1_UWCL_BRASILEIRAO_MELBET_V7",
-  "status": "AUDITED",
-  "auditSummary": {
-    "roundResult": "LUCRO HISTÓRICO (+248.0% ROI / +330.6% Stop 3)",
-    "invested": 25.25,
-    "returnedStandard": 87.87,
-    "netProfitStandard": 62.62,
-    "supremoStatus": "GREEN_CRAVADO_4_DE_4 (@3.64 -> R$ 10,92)",
-    "safeStop1Status": "GREEN_CRAVADO_4_DE_4 (@1.75 -> R$ 26,25)",
-    "safeStop2Status": "GREEN_CRAVADO_5_DE_5 (@2.54 -> R$ 38,10)",
-    "safeStop3Status": "GREEN_CRAVADO_6_DE_6 (@3.93 -> R$ 58,95)",
-    "safePlusStatus": "GREEN_CRAVADO_4_DE_4 (@4.30 -> R$ 9,67)",
-    "nationsStatus": "GREEN_CRAVADO_2_DE_2 (@2.72 -> R$ 4,08)",
-    "improvavelStatus": "GREEN_HISTORICO_8_DE_8 (@25.10 -> R$ 25,10)",
-    "sorosDay5Status": "GREEN_CRAVADO_2_DE_2 (@1.44 -> R$ 55,58)",
-    "sorosNextDay": 6,
-    "sorosNextStake": 55.58,
-    "sorosVaultProfit": 10.00
-  },
-  "notes": "GRADE DE 19/11/2026 AUDITADA: Metodologia FAS V7.0 (Melbet Engine Edition). Sessão histórica com 5 GREENS (Supremo @3.64, SAFE Stop 1/2/3 100%, SAFE+ @4.30, Dupla @2.72 e O Improvável 8 de 8 acertos @25.10). Lucro líquido de +R$ 62,62 (+248,0% ROI) na saída padrão e Soros Dia 5 com R$ 55,58 em Risco Zero absoluto.",
+  "date": "2026-11-20",
+  "snapshotId": "FAS_FOOTBALL_2026-11-20_V1_EURO_FRIDAY_MELBET_V7",
+  "status": "ACTIVE",
+  "notes": "GRADE DE 20/11/2026 ATIVA: Metodologia FAS V7.0 (Melbet Engine Edition). Combinação de Sexta-feira Europeia: Turno de Abertura com a 2. Bundesliga alemã (Arminia Bielefeld x Magdeburg e Darmstadt x Heidenheim) e Turno Principal com Bayern de Munique x Colônia na Allianz Arena, Athletic Bilbao x Espanyol em San Mamés, Troyes x Le Havre na Ligue 1 e FC Porto na Taça de Portugal. Stop 2 da SAFE blindado com DNB (Empate Anula) no Troyes e Desafio Soros no Dia 6 com R$ 55,58 em Risco Zero absoluto rumo aos R$ 80,03.",
   "strategicImprovementsApplied": {
-    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) no Lyon contra o Arsenal, blindando o bilhete contra empates em Londres.",
-    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Total Individual do Barcelona (+3.5), eliminando o risco do adversário passar em branco.",
+    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) no Troyes contra o Le Havre, blindando o bilhete contra empates em Troyes.",
+    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Totais Individuais do Bayern e Porto, sem depender de gol de azarão.",
     "systemModeMelbetV7": "Ativo: Múltipla 5 adaptada para o formato Sistema 6/8 ou 7/8 na Melbet.",
     "melbetUiMapping": "Ativo: Mercados mapeados para as abas nativas da Melbet ('Resultado + Total', 'Handicap Asiático', 'Total Individual')."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Quinta 19/11)",
+    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Sexta 20/11)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.64,
+    "multiplierGlobal": 3.24,
     "stake": 3.0,
     "unitStake": 0.2,
-    "potentialReturn": 10.92,
-    "philosophy": "A trinca-ouro técnica de quinta-feira na Melbet: Paris FC precisando vencer em casa o modesto Køge, Lyon fazendo valer sua superioridade continental na Inglaterra, Vasco forte em São Januário contra o instável Inter e o rolo compressor do Barcelona Feminino.",
+    "potentialReturn": 9.72,
+    "philosophy": "Em busca do 5º GREEN SEGUIDO no bilhete principal! Quádrupla de elite da sexta-feira europeia: Bayern impondo handicap na Allianz Arena, Athletic Bilbao absoluto em San Mamés, jogo aberto de gols em Bielefeld e o Troyes aproveitando a crise profunda do Le Havre.",
     "status": "ACTIVE",
     "selections": [
       {
-        "match": "Paris FC W x HB Køge W (14:45 BRT)",
-        "competition": "UEFA Women's Champions League",
-        "market": "Paris FC W Vence (W1 na Melbet)",
-        "odd": 1.38,
+        "match": "Bayern de Munique x 1. FC Köln (16:30 BRT)",
+        "competition": "Bundesliga (Alemanha)",
+        "market": "Bayern de Munique Vence por 2+ Gols (Handicap Asiático 1 (-1.5))",
+        "odd": 1.42,
         "status": "ACTIVE"
       },
       {
-        "match": "Arsenal W x Olympique Lyon W (17:00 BRT)",
-        "competition": "UEFA Women's Champions League",
-        "market": "Olympique Lyon W ou Empate (Dupla Chance 2X)",
-        "odd": 1.28,
+        "match": "Athletic Bilbao x Espanyol (17:00 BRT)",
+        "competition": "La Liga (Espanha)",
+        "market": "Athletic Bilbao Vence (W1 na Melbet)",
+        "odd": 1.52,
         "status": "ACTIVE"
       },
       {
-        "match": "Barcelona W x Servette W (17:00 BRT)",
-        "competition": "UEFA Women's Champions League",
-        "market": "Barcelona W — Total Individual Mais de 2.5 Gols (Aba Total Individual)",
+        "match": "Arminia Bielefeld x Magdeburg (14:30 BRT)",
+        "competition": "2. Bundesliga (Alemanha)",
+        "market": "Total Mais de 1.5 Gols no Jogo",
+        "odd": 1.2,
+        "status": "ACTIVE"
+      },
+      {
+        "match": "Troyes x Le Havre (16:45 BRT)",
+        "competition": "Ligue 1 (França)",
+        "market": "Troyes ou Empate (Dupla Chance 1X)",
         "odd": 1.25,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Vasco x Internacional (19:30 BRT)",
-        "competition": "Brasileirão Série A",
-        "market": "Vasco Vence (W1 na Melbet)",
-        "odd": 1.65,
         "status": "ACTIVE"
       }
     ]
@@ -74,46 +57,46 @@
       "stake": 15.0,
       "unitStake": 1.0,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Stop 1 quita os secundários com 4 pernas de extrema imunidade. Stop 2 blinda o clássico europeu com Empate Anula no Lyon.",
+      "philosophy": "Evolução V7: Stop 1 quita os secundários com 4 pernas de extrema blindagem estatística. Stop 2 protege o Troyes com Empate Anula contra o lanterna da França.",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Quádrupla de Imunidade Cruzada Europa-Brasil)",
-          "multiplier": 1.75,
-          "potentialReturn": 26.25,
+          "level": "Stop Point 1 (Quádrupla Continental de Imunidade)",
+          "multiplier": 1.83,
+          "potentialReturn": 27.45,
           "legs": [
-            "Austria Viena W x Bayern W (14:45 BRT): Bayern de Munique W Vence (W2 @1.08)",
-            "Paris FC W x HB Køge W (14:45 BRT): Paris FC W ou Empate (Dupla Chance 1X @1.10)",
-            "Vasco x Internacional (19:30 BRT): Vasco ou Empate (Dupla Chance 1X @1.18)",
-            "Vitória x RB Bragantino (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)"
+            "Bayern de Munique x Colônia (16:30 BRT): Bayern de Munique Vence (W1 @1.12)",
+            "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao ou Empate (Dupla Chance 1X @1.12)",
+            "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 1.5 Gols no Jogo (@1.20)",
+            "Troyes x Le Havre (16:45 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)"
           ],
           "status": "ACTIVE"
         },
         {
           "level": "Stop Point 2 (A Blindagem V7 com Empate Anula — SAÍDA RECOMENDADA)",
-          "multiplier": 2.54,
-          "potentialReturn": 38.10,
-          "netProfit": 23.10,
-          "notes": "Se o Lyon empatar com o Arsenal no Meadow Park, a Melbet reembolsa essa perna (@1.00) e você resgata o Stop 1 (R$ 26,25)! Se vencer, paga R$ 38,10 (+R$ 23,10 líquido cobrindo 225% dos secundários)!",
+          "multiplier": 2.56,
+          "potentialReturn": 38.40,
+          "netProfit": 23.40,
+          "notes": "Se o Troyes empatar com o Le Havre, a Melbet reembolsa essa perna (@1.00) e você resgata o Stop 1 (R$ 27,45)! Se vencer, paga R$ 38,40 (+R$ 23,40 líquido cobrindo 228% dos secundários)!",
           "legs": [
-            "Austria Viena W x Bayern W: Bayern W Vence (W2 @1.08)",
-            "Paris FC W x HB Køge W: Paris FC 1X (@1.10)",
-            "Vasco x Internacional: Vasco 1X (@1.18)",
-            "Vitória x RB Bragantino: Total Menos de 3.5 Gols (@1.25)",
-            "Arsenal W x Olympique Lyon W (17:00 BRT): Lyon — Empate Anula (Handicap 2 (0) @1.45 na Melbet)"
+            "Bayern de Munique x Colônia: Bayern Vence (W1 @1.12)",
+            "Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12)",
+            "Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20)",
+            "Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22)",
+            "Troyes x Le Havre (16:45 BRT): Troyes — Empate Anula (Handicap 1 (0) @1.40 na Melbet)"
           ],
           "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 3 (Expansão Noturna no MorumBIS)",
-          "multiplier": 3.93,
-          "potentialReturn": 58.95,
+          "level": "Stop Point 3 (Expansão no San Mamés)",
+          "multiplier": 3.89,
+          "potentialReturn": 58.35,
           "legs": [
-            "Austria Viena W x Bayern W: Bayern W Vence (@1.08)",
-            "Paris FC W x HB Køge W: Paris FC 1X (@1.10)",
-            "Vasco x Internacional: Vasco 1X (@1.18)",
-            "Vitória x RB Bragantino: Total Menos de 3.5 Gols (@1.25)",
-            "Arsenal W x Olympique Lyon W: Lyon — Empate Anula (Handicap 2 (0) @1.45)",
-            "São Paulo x Fluminense (21:30 BRT): Fluminense ou Empate (Dupla Chance X2 @1.55)"
+            "Bayern de Munique x Colônia: Bayern Vence (W1 @1.12)",
+            "Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12)",
+            "Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20)",
+            "Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22)",
+            "Troyes x Le Havre: Troyes — Empate Anula (Handicap 1 (0) @1.40)",
+            "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence (W1 @1.52)"
           ],
           "status": "ACTIVE"
         }
@@ -124,14 +107,15 @@
       "type": "SAFE+",
       "stake": 2.25,
       "unitStake": 0.15,
-      "multiplier": 4.30,
-      "potentialReturn": 9.67,
+      "multiplier": 4.18,
+      "potentialReturn": 9.40,
       "status": "ACTIVE",
       "legs": [
-        "Austria Viena W x Bayern W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22 na aba 'Resultado + Total')",
-        "Paris FC W x HB Køge W (14:45 BRT): Paris FC W Vence (W1 @1.38)",
-        "Vasco x Internacional (19:30 BRT): Vasco Vence (W1 @1.65)",
-        "São Paulo x Fluminense (21:30 BRT): Fluminense ou Empate (Dupla Chance X2 @1.55)"
+        "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)",
+        "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence (W1 @1.52)",
+        "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 2.0 Gols (@1.35 na Melbet)",
+        "Troyes x Le Havre (16:45 BRT): Troyes ou Empate (Dupla Chance 1X @1.25)",
+        "FC Porto x União Paredes (17:45 BRT): Porto Vence & Mais de 1.5 Gols (@1.15 na aba 'Resultado + Total')"
       ]
     },
     {
@@ -139,28 +123,28 @@
       "type": "ATTACK",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 7.36,
-      "potentialReturn": 11.04,
+      "multiplier": 5.49,
+      "potentialReturn": 8.23,
       "status": "ACTIVE",
-      "philosophy": "Evolução V7: Foco estrito em Mais de 2.5 Gols Totais na Europa e Total Individual de potências ofensivas.",
+      "philosophy": "Evolução V7: Foco em Mais de 2.5 Gols e Totais Individuais em jogos francos sem depender de gols dos times visitantes fracos.",
       "legs": [
-        "Austria Viena W x Bayern W (14:45 BRT): Total Mais de 2.5 Gols no Jogo (@1.50)",
-        "Barcelona W x Servette W (17:00 BRT): Barcelona — Total Individual Mais de 3.5 Gols (@1.65 na Melbet)",
-        "Arsenal W x Olympique Lyon W (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.75)",
-        "Benfica W x AS Roma W (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.70)"
+        "Bayern de Munique x Colônia (16:30 BRT): Bayern — Total Individual Mais de 2.5 Gols (@1.45 na Melbet)",
+        "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
+        "Darmstadt x Heidenheim (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.70)",
+        "FC Porto x União Paredes (17:45 BRT): Porto — Total Individual Mais de 2.5 Gols (@1.35)"
       ]
     },
     {
-      "name": "🏆 MÚLTIPLA BRASILEIRÃO & CHAMPIONS V7 (Dupla de Imposição)",
+      "name": "🏆 MÚLTIPLA DUPLA DE IMPOSIÇÃO V7 (Europa Elite)",
       "type": "NATIONS",
       "stake": 1.5,
       "unitStake": 0.1,
-      "multiplier": 2.72,
-      "potentialReturn": 4.08,
+      "multiplier": 2.73,
+      "potentialReturn": 4.10,
       "status": "ACTIVE",
       "legs": [
-        "Paris FC W x HB Køge W (14:45 BRT): Paris FC W Vence & Mais de 1.5 Gols (@1.65 na aba 'Resultado + Total')",
-        "Vasco x Internacional (19:30 BRT): Vasco Vence (W1 @1.65 na Melbet)"
+        "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)",
+        "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence & Menos de 3.5 Gols (@1.92 na aba 'Resultado + Total')"
       ]
     },
     {
@@ -168,16 +152,15 @@
       "type": "NETO",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 79.52,
-      "potentialReturn": 79.52,
+      "multiplier": 58.65,
+      "potentialReturn": 58.65,
       "status": "ACTIVE",
       "philosophy": "Combinações de abas pré-definidas na Melbet para impedir bloqueio de apostas dependentes.",
       "legs": [
-        "Austria Viena W x Bayern W: Bayern Vence por 3+ Gols (Handicap 2 (-2.5) @2.10)",
-        "Paris FC W x HB Køge W: Paris FC Vence por 2+ Gols (Handicap 1 (-1.5) @2.05)",
-        "Arsenal W x Olympique Lyon W: Lyon Vence & Mais de 2.5 Gols (@2.80)",
-        "Vasco x Internacional: Vasco Vence & Menos de 3.5 Gols (@2.20 na aba 'Resultado + Total')",
-        "São Paulo x Fluminense: Fluminense Vence (W2 @3.00)"
+        "Bayern de Munique x Colônia: Bayern Vence por 3+ Gols (Handicap 1 (-2.5) @2.10)",
+        "Athletic Bilbao x Espanyol: Athletic Bilbao Vence & Menos de 2.5 Gols (@3.10 na aba 'Resultado + Total')",
+        "Arminia Bielefeld x Magdeburg: Total Mais de 3.5 Gols no Jogo (@2.65)",
+        "Troyes x Le Havre: Troyes Vence & Menos de 2.5 Gols (@3.40 na aba 'Resultado + Total')"
       ]
     },
     {
@@ -185,39 +168,39 @@
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "unitStake": 0.07,
-      "multiplier": 25.0,
-      "potentialReturn": 25.0,
+      "multiplier": 26.5,
+      "potentialReturn": 26.5,
       "status": "ACTIVE",
-      "philosophy": "Dica Melbet: Marque no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'. Permite lucrar proporcionalmente mesmo com zebras isoladas!",
+      "philosophy": "Dica Melbet: Marque no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'. Assim como no dia 19/11 (8 de 8 acertos cravados @25.10), garante premiação proporcional mesmo com zebras!",
       "legs": [
-        "Austria Viena W x Bayern W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22)",
-        "Paris FC W x HB Køge W (14:45 BRT): Paris FC W Vence (W1 @1.38)",
-        "Barcelona W x Servette W (17:00 BRT): Barcelona W — Total Individual Mais de 2.5 Gols (@1.25)",
-        "Arsenal W x Olympique Lyon W (17:00 BRT): Lyon — Empate Anula (Handicap 2 (0) @1.45)",
-        "Benfica W x AS Roma W (17:00 BRT): Total Mais de 1.5 Gols no Jogo (@1.22)",
-        "Vasco x Internacional (19:30 BRT): Vasco Vence (W1 @1.65)",
-        "Vitória x RB Bragantino (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)",
-        "São Paulo x Fluminense (21:30 BRT): Fluminense ou Empate (Dupla Chance X2 @1.55)"
+        "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)",
+        "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence (W1 @1.52)",
+        "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
+        "Darmstadt x Heidenheim (14:30 BRT): Total Mais de 1.5 Gols no Jogo (@1.22)",
+        "Troyes x Le Havre (16:45 BRT): Troyes ou Empate (Dupla Chance 1X @1.25)",
+        "FC Porto x União Paredes (17:45 BRT): FC Porto Vence & Mais de 2.5 Gols (@1.30)",
+        "Troyes x Le Havre (16:45 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)",
+        "Athletic Bilbao x Espanyol (17:00 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 5 DE 30",
-    "day": 5,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 6 DE 30",
+    "day": 6,
     "targetDays": 30,
-    "stake": 38.60,
+    "stake": 55.58,
     "multiplier": 1.44,
-    "potentialReturn": 55.58,
+    "potentialReturn": 80.03,
     "status": "ACTIVE",
-    "philosophy": "MARCO HISTÓRICO DE RISCO ZERO: Stake inicial de R$ 10,00 sacada para o cofre. A banca agora joga 100% com o lucro acumulado das 4 vitórias seguidas. Dupla blindada: Bayern de Munique com Pernille Harder e Klara Bühl impondo favoritismo e mais de 1.5 gols em Viena, somado à muralha de São Januário com o Vasco invicto em casa contra o Inter que só venceu 3 de 17 jogos fora de casa.",
+    "philosophy": "RISCO ZERO ABSOLUTO: 5 vitórias consecutivas no ciclo. R$ 10,00 da stake original já estão travados no cofre. A banca de R$ 55,58 joga 100% bancada pelo lucro acumulado de +555,8%. Dupla rochosa de sexta-feira: Bayern de Vincent Kompany e Harry Kane na Allianz Arena vencendo e superando 1.5 gols contra o 15º colocado, somado à fortaleza de San Mamés com o Athletic Bilbao blindado com Empate Anula contra o frágil Espanyol.",
     "vaultPlan": {
-      "day5Milestone": "CONCLUÍDO: R$ 10,00 sacados para o cofre (Risco Zero absoluto)",
-      "day7Milestone": "Próxima meta: Trava de mais R$ 20,00 de lucro travado no cofre",
-      "currentCycleNetRisk": "R$ 0,00 (banca 100% bancada pelo lucro acumulado de +386%)"
+      "day5Milestone": "CONCLUÍDO: R$ 10,00 da stake inicial no cofre (Risco Zero absoluto)",
+      "day7Milestone": "Próxima meta amanhã: Trava de mais R$ 20,00 de lucro travado no cofre ao atingir R$ 80,00+",
+      "currentCycleNetRisk": "R$ 0,00"
     },
     "legs": [
-      "Austria Viena W x Bayern de Munique W (14:45 BRT): Bayern W Vence & Mais de 1.5 Gols (@1.22 na aba 'Resultado + Total')",
-      "Vasco x Internacional (19:30 BRT): Vasco ou Empate (Dupla Chance 1X @1.18 na Melbet)"
+      "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence & Mais de 1.5 Gols (@1.22 na aba 'Resultado + Total' da Melbet)",
+      "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao — Empate Anula Aposta (Handicap 1 (0) @1.18 na Melbet)"
     ]
   }
 }

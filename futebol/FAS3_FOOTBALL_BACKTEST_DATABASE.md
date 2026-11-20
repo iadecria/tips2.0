@@ -5343,3 +5343,107 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 62,62** (ROI de **+248,0%** na rodada regular)!
   - *(Com Stop 3: Retorno de **R$ 108,72** / Lucro Líquido de **+R$ 83,47** / ROI de **+330,6%**)*
   - **Desafio Soros Ciclo 5 (Banca Isolada em Risco Zero):** R$ 38,60 ➔ **R$ 55,58** (+R$ 16,98 no dia; patrimônio acumulado de R$ 65,58 / +555,8%)!
+
+
+---
+
+### [2026-11-20] — RODADA DIÁRIA (SEXTA-FEIRA EUROPEIA) [FAS V7.0 MELBET]
+
+- **Snapshot ID:** `FAS_FOOTBALL_2026-11-20_V1_EURO_FRIDAY_MELBET_V7`
+- **Cutoff:** 2026-11-20T00:40:00-03:00
+- **Contexto da Data:** Sexta-feira de abertura das principais ligas europeias pós-Data FIFA:
+  - **Turno de Abertura (14:30 BRT — 2. Bundesliga Alemã):** Duelo franco de gols na SchücoArena (Arminia Bielefeld x Magdeburg) e Merck-Stadion (Darmstadt x Heidenheim).
+  - **Turno Principal Europeu (16:30 às 17:45 BRT):** Bayern de Munique de Vincent Kompany e Harry Kane recebendo o 1. FC Köln na Allianz Arena; Athletic Bilbao de Nico Williams buscando o G-4 diante do Espanyol em San Mamés; Troyes recebendo o desesperado lanterna Le Havre na Ligue 1 francesa; e o FC Porto recebendo o União Paredes no Estádio do Dragão pela Taça de Portugal.
+- **Status de Liquidação:** **ATIVO / AGUARDANDO LIQUIDAÇÃO**
+
+#### 1. Discovery e Cobertura
+- Jogos Mapeados: 6 (Alemanha Bundesliga, 2. Bundesliga, Espanha La Liga, França Ligue 1 e Portugal Taça)
+- Jogos Selecionados: 6
+- Mercados Filtrados: 8 com conformidade total aos filtros FAS V7.0 (Melbet Engine Edition: Stop 2 com DNB no Troyes, Super Ataque focado em Gols Totais sem armadilha de BTTS, abas nativas da Melbet 'Resultado + Total', 'Handicap Asiático' e 'Total Individual').
+
+#### 2. Fixtures Selecionadas e Teses Pré-Jogo
+1. **Bayern de Munique × 1. FC Köln** (16:30 BRT — Bundesliga)
+   - **Tese:** Bayern de Munique Vence (W1 @1.12) | Bayern Vence & Mais de 1.5 Gols (@1.22) | Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42) | Bayern — Total Individual Mais de 2.5 Gols (@1.45) | Handicap 1 (-2.5) @2.10.
+2. **Athletic Bilbao × Espanyol** (17:00 BRT — La Liga)
+   - **Tese:** Athletic Bilbao Vence (W1 @1.52) | Athletic Bilbao ou Empate (Dupla Chance 1X @1.12) | Athletic Bilbao — Empate Anula Aposta (Handicap 1 (0) @1.18) | Total Menos de 3.5 Gols (@1.25) | Athletic Vence & Menos de 3.5 Gols (@1.92).
+3. **Arminia Bielefeld × 1. FC Magdeburg** (14:30 BRT — 2. Bundesliga)
+   - **Tese:** Total Mais de 1.5 Gols no Jogo (@1.20) | Total Mais de 2.0 Gols (@1.35) | Total Mais de 2.5 Gols no Jogo (@1.65).
+4. **Darmstadt 98 × 1. FC Heidenheim** (14:30 BRT — 2. Bundesliga)
+   - **Tese:** Total Mais de 1.5 Gols no Jogo (@1.22) | Total Mais de 2.5 Gols no Jogo (@1.70).
+5. **Troyes × Le Havre** (16:45 BRT — Ligue 1)
+   - **Tese:** Troyes ou Empate (Dupla Chance 1X @1.25) | Troyes — Empate Anula Aposta (Handicap 1 (0) @1.40 na Melbet) | Total Menos de 3.5 Gols no Jogo (@1.22).
+6. **FC Porto × União Paredes** (17:45 BRT — Taça de Portugal)
+   - **Tese:** FC Porto Vence & Mais de 1.5 Gols (@1.15) | FC Porto Vence & Mais de 2.5 Gols (@1.30) | FC Porto — Total Individual Mais de 2.5 Gols (@1.35).
+
+---
+
+#### 3. Bilhetes Estruturados Oficiais de 20/11 (FAS V7.0 Melbet Edition)
+
+- 🔥 **DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 6 DE 30 [RISCO ZERO]:**
+  - Bayern de Munique x Colônia (16:30 BRT): Bayern Vence & Mais de 1.5 Gols (@1.22 na Melbet)
+  - Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao — Empate Anula Aposta (Handicap 1 (0) @1.18 na Melbet)
+  - Odd: 1.44 | Stake: R$ 55,58 (100% bancada pelo lucro acumulado; R$ 10,00 da stake inicial já no cofre!) | Retorno Potencial: R$ 80,03
+  - *Status:* ATIVO.
+
+- ⭐ **BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (@3.24):**
+  - Bayern de Munique x Colônia: Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)
+  - Athletic Bilbao x Espanyol: Athletic Bilbao Vence (W1 @1.52)
+  - Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols no Jogo (@1.20)
+  - Troyes x Le Havre: Troyes ou Empate (Dupla Chance 1X @1.25)
+  - Odd: 3.24 | Stake Sugerida: 0.20u (R$ 3,00) | Retorno Potencial: R$ 9,72
+
+- 🟢 **MÚLTIPLA 1 — SAFE ENXUTA V7 (Stop Points com DNB na Melbet):**
+  - Stake: 1.00u (R$ 15,00)
+  - **Stop Point 1 (Quádrupla Continental de Imunidade @1.83):**
+    - Bayern de Munique x Colônia: Bayern Vence (W1 @1.12)
+    - Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12)
+    - Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20)
+    - Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22)
+    - *Retorno Stop 1:* R$ 27,45 (Lucro líquido: +R$ 12,45 cobrindo 121% de todos os secundários de R$ 10,25).
+  - **Stop Point 2 (A Blindagem V7 com Empate Anula @2.56) — [SAÍDA RECOMENDADA]:**
+    - Stop 1 +
+    - Troyes x Le Havre: Troyes — Empate Anula (Handicap 1 (0) @1.40 na Melbet)
+    - *Proteção V7:* Se o Troyes empatar com o lanterna Le Havre, a perna é anulada (@1.00) e paga Stop 1 (@1.83 -> R$ 27,45). Se vencer, paga **R$ 38,40** (Lucro líquido: +R$ 23,40 cobrindo 228% de todos os secundários de R$ 10,25!).
+  - **Stop Point 3 (Expansão no San Mamés @3.89):**
+    - Stop 2 +
+    - Athletic Bilbao x Espanyol: Athletic Bilbao Vence (W1 @1.52)
+    - *Retorno Stop 3:* R$ 58,35.
+
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@4.18):**
+  - Bayern de Munique x Colônia: Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)
+  - Athletic Bilbao x Espanyol: Athletic Bilbao Vence (W1 @1.52)
+  - Arminia Bielefeld x Magdeburg: Total Mais de 2.0 Gols (@1.35)
+  - Troyes x Le Havre: Troyes ou Empate (Dupla Chance 1X @1.25)
+  - FC Porto x União Paredes: FC Porto Vence & Mais de 1.5 Gols (@1.15)
+  - Odd: 4.18 | Stake Sugerida: 0.15u (R$ 2,25) | Retorno Potencial: R$ 9,40
+
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@5.49):**
+  - Bayern de Munique x Colônia: Bayern — Total Individual Mais de 2.5 Gols (@1.45 na Melbet)
+  - Arminia Bielefeld x Magdeburg: Total Mais de 2.5 Gols no Jogo (@1.65)
+  - Darmstadt x Heidenheim: Total Mais de 2.5 Gols no Jogo (@1.70)
+  - FC Porto x União Paredes: FC Porto — Total Individual Mais de 2.5 Gols (@1.35)
+  - Odd: 5.49 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 8,23
+
+- 🏆 **MÚLTIPLA DUPLA DE IMPOSIÇÃO V7 (Europa Elite @2.73):**
+  - Bayern de Munique x Colônia: Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)
+  - Athletic Bilbao x Espanyol: Athletic Bilbao Vence & Menos de 3.5 Gols (@1.92 na aba 'Resultado + Total')
+  - Odd: 2.73 | Stake Sugerida: 0.10u (R$ 1,50) | Retorno Potencial: R$ 4,10
+
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@58.65):**
+  - Bayern de Munique x Colônia: Bayern Vence por 3+ Gols (Handicap 1 (-2.5) @2.10)
+  - Athletic Bilbao x Espanyol: Athletic Bilbao Vence & Menos de 2.5 Gols (@3.10 na aba 'Resultado + Total')
+  - Arminia Bielefeld x Magdeburg: Total Mais de 3.5 Gols no Jogo (@2.65)
+  - Troyes x Le Havre: Troyes Vence & Menos de 2.5 Gols (@3.40 na aba 'Resultado + Total')
+  - Odd: 58.65 | Stake Sugerida: 0.07u (R$ 1,00) | Retorno Potencial: R$ 58,65
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet @26.50+):**
+  - Bayern de Munique x Colônia: Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)
+  - Athletic Bilbao x Espanyol: Athletic Bilbao Vence (W1 @1.52)
+  - Arminia Bielefeld x Magdeburg: Total Mais de 2.5 Gols no Jogo (@1.65)
+  - Darmstadt x Heidenheim: Total Mais de 1.5 Gols no Jogo (@1.22)
+  - Troyes x Le Havre: Troyes ou Empate (Dupla Chance 1X @1.25)
+  - FC Porto x União Paredes: FC Porto Vence & Mais de 2.5 Gols (@1.30)
+  - Troyes x Le Havre: Total Menos de 3.5 Gols no Jogo (@1.22)
+  - Athletic Bilbao x Espanyol: Total Menos de 3.5 Gols no Jogo (@1.25)
+  - Odd Acumulada: ~26.50+ | Stake: R$ 1,00
+  - *Dica Melbet:* Marque no carrinho como "Sistema 6/8" ou "Sistema 7/8".

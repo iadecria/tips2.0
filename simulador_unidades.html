@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAS V7.0 — Relatório de Performance & Simulador de Unidade</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card-bg: rgba(30, 41, 59, 0.7);
+      --border: rgba(51, 65, 85, 0.8);
+      --accent: #38bdf8;
+      --green: #22c55e;
+      --yellow: #f59e0b;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased p-4 sm:p-6 min-h-screen">
+
+  <div class="max-w-5xl mx-auto space-y-6">
+
+    <!-- HEADER / BANNER -->
+    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-slate-800 p-6 shadow-2xl">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-semibold uppercase tracking-wider mb-2">
+            <span>⚡ FAS V7.0 MELBET ENGINE</span>
+            <span>•</span>
+            <span>AUDITORIA OFICIAL</span>
+          </div>
+          <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+            Relatório de Performance & Simulador de Unidade
+          </h1>
+          <p class="text-slate-400 text-sm mt-1">
+            Métricas históricas, taxas de acerto e calculadora em tempo real para sua banca.
+          </p>
+        </div>
+
+        <!-- KPI Pill Summary -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-center">
+          <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl p-2.5">
+            <div class="text-xs text-slate-400 font-medium">Win Rate SAFE</div>
+            <div class="text-lg font-bold text-emerald-400">91.7%</div>
+          </div>
+          <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl p-2.5">
+            <div class="text-xs text-slate-400 font-medium">Supremo (4x seguidos)</div>
+            <div class="text-lg font-bold text-amber-400">100%</div>
+          </div>
+          <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl p-2.5 col-span-2 sm:col-span-1">
+            <div class="text-xs text-slate-400 font-medium">Desafio Soros C5</div>
+            <div class="text-lg font-bold text-sky-400">+555.8%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CALCULADORA DE UNIDADE DINÂMICA -->
+    <div class="bg-slate-900/90 border-2 border-sky-500/40 rounded-2xl p-6 shadow-xl relative backdrop-blur-sm">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+        <div>
+          <label for="unitInput" class="block text-sm font-semibold text-slate-200">
+            💵 Defina o valor da sua Unidade Padrão (1.00u):
+          </label>
+          <span class="text-xs text-slate-400">
+            A unidade é a base do seu Stop Point da SAFE. Todo o restante é fracionado matematicamente.
+          </span>
+        </div>
+        
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 font-bold">R$</span>
+            <input 
+              id="unitInput" 
+              type="number" 
+              min="1" 
+              max="10000" 
+              step="1" 
+              value="15" 
+              class="w-32 pl-9 pr-3 py-2 bg-slate-950 border border-sky-500 rounded-xl text-lg font-bold text-white focus:outline-none focus:ring-2 focus:ring-sky-400 tabular-nums shadow-inner"
+            />
+          </div>
+          <div class="flex gap-1">
+            <button onclick="setUnit(10)" class="px-2.5 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700">R$10</button>
+            <button onclick="setUnit(15)" class="px-2.5 py-1.5 text-xs font-semibold rounded-lg bg-sky-500/20 text-sky-300 border border-sky-500/30">R$15</button>
+            <button onclick="setUnit(25)" class="px-2.5 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700">R$25</button>
+            <button onclick="setUnit(50)" class="px-2.5 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700">R$50</button>
+            <button onclick="setUnit(100)" class="px-2.5 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700">R$100</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Totals from Unit -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+        <div class="bg-slate-950/60 rounded-xl p-3 border border-slate-800">
+          <span class="text-xs text-slate-400 uppercase font-semibold">Custo Total Grade Regular (1.683u)</span>
+          <div id="regularStakeTotal" class="text-2xl font-black text-white tabular-nums mt-0.5">R$ 25,25</div>
+          <span class="text-[11px] text-slate-500">Soma de todas as 7 múltiplas</span>
+        </div>
+        <div class="bg-slate-950/60 rounded-xl p-3 border border-slate-800">
+          <span class="text-xs text-slate-400 uppercase font-semibold">SAFE Enxuta (Stop 1)</span>
+          <div id="safeStakeDisplay" class="text-2xl font-black text-sky-400 tabular-nums mt-0.5">R$ 15,00</div>
+          <span class="text-[11px] text-slate-500">Carro-chefe garantidor dos secundários</span>
+        </div>
+        <div class="bg-slate-950/60 rounded-xl p-3 border border-slate-800">
+          <span class="text-xs text-slate-400 uppercase font-semibold">Lucro Médio Projetado / Dia</span>
+          <div id="projectedProfit" class="text-2xl font-black text-emerald-400 tabular-nums mt-0.5">+R$ 37,77</div>
+          <span class="text-[11px] text-emerald-500/80">Baseado no ROI médio de +149,6%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TABELA DE ALOCAÇÃO DE STAKES POR TIPO DE BILHETE -->
+    <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 shadow-lg space-y-4">
+      <div class="flex items-center justify-between">
+        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+          <span>📊 Estrutura de Alocação por Bilhete (FAS V7.0)</span>
+        </h2>
+        <span class="text-xs text-slate-400">Frações calculadas automaticamente</span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 text-slate-400 text-xs font-semibold uppercase tracking-wider">
+              <th class="py-2.5 px-3">Bilhete / Estratégia</th>
+              <th class="py-2.5 px-3 text-center">Peso</th>
+              <th class="py-2.5 px-3 text-right">Sua Stake</th>
+              <th class="py-2.5 px-3 text-center">Odd Média</th>
+              <th class="py-2.5 px-3 text-center">Win Rate Histórico</th>
+              <th class="py-2.5 px-3">Função na Grade</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/60">
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-sky-300">🟢 Múltipla 1 — SAFE Enxuta</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">1.00u</td>
+              <td id="row-safe" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 15,00</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@1.75 - @2.55</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400">91.7% (Stop 1)</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">Carro-chefe. Quita com folga todos os bilhetes secundários.</td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-amber-300">⭐ Bilhete Supremo (Filé dos Turnos)</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">0.20u</td>
+              <td id="row-supremo" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 3,00</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@3.15 - @3.77</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-500/20 text-amber-400">70.6% (4x seguidos)</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">A melhor trinca técnica de cada turno. Ganhador chave.</td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-indigo-300">🛡️➕ Múltipla 2 — SAFE+</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">0.15u</td>
+              <td id="row-safeplus" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 2,25</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@3.40 - @4.30</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-400">52.9%</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">Alavancagem protegida com favoritos e gols.</td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-orange-300">🚀 Múltipla 3 — Super Ataque</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">0.10u</td>
+              <td id="row-attack" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 1,50</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@5.00 - @9.40</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-orange-500/20 text-orange-400">35.7%</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">Gols Totais (+2.5) sem depender de BTTS de azarão.</td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-teal-300">🏆 Múltipla Rodada / Champions</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">0.10u</td>
+              <td id="row-rodada" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 1,50</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@2.70 - @3.10</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-teal-500/20 text-teal-400">58.3%</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">Dupla de imposição combinando os dois turnos do dia.</td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-rose-300">🤠 Múltipla 4 — Aposentar o Neto</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">0.067u</td>
+              <td id="row-neto" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 1,00</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@35.00 - @80.00+</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-rose-500/20 text-rose-400">15.4%</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">Alavancagem extrema assimétrica. Moeda de troco para forra.</td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-semibold text-purple-300">🎲 Múltipla 5 — O Improvável (Sistema)</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">0.067u</td>
+              <td id="row-improvavel" class="py-3 px-3 text-right font-bold text-white tabular-nums">R$ 1,00</td>
+              <td class="py-3 px-3 text-center font-mono text-slate-300">@25.00 - @65.00+</td>
+              <td class="py-3 px-3 text-center"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-purple-500/20 text-purple-400">62.5% (Sistema)</span></td>
+              <td class="py-3 px-3 text-xs text-slate-400">Modo Sistema 6/8 Melbet. Pagou 8/8 ontem (@25.10)!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SIMULAÇÃO DAS RODADAS RECENTES AUDITADAS -->
+    <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 shadow-lg space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+          <span>📅 Simulação dos Últimos 4 Dias com sua Unidade</span>
+        </h2>
+        <span class="text-xs text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">
+          4 DIAS 100% LUCRATIVOS
+        </span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 text-slate-400 text-xs font-semibold uppercase tracking-wider">
+              <th class="py-2.5 px-3">Data</th>
+              <th class="py-2.5 px-3">Destaques da Rodada</th>
+              <th class="py-2.5 px-3 text-right">Seu Investimento</th>
+              <th class="py-2.5 px-3 text-right">Seu Retorno</th>
+              <th class="py-2.5 px-3 text-right">Lucro Líquido</th>
+              <th class="py-2.5 px-3 text-center">ROI %</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/60 font-mono text-xs sm:text-sm">
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-bold text-slate-200">16/11/2026</td>
+              <td class="py-3 px-3 font-sans text-xs text-slate-400">Supremo Green @3.13 + SAFE Stop 2 @2.52</td>
+              <td id="hist-inv-16" class="py-3 px-3 text-right tabular-nums text-slate-300">R$ 25,25</td>
+              <td id="hist-ret-16" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-semibold">R$ 54,80</td>
+              <td id="hist-luc-16" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-bold">+R$ 29,55</td>
+              <td class="py-3 px-3 text-center font-sans"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400">+117.0%</span></td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-bold text-slate-200">17/11/2026</td>
+              <td class="py-3 px-3 font-sans text-xs text-slate-400">Supremo Green @3.77 + SAFE Stop 2 @2.52 + SAFE+ @3.42</td>
+              <td id="hist-inv-17" class="py-3 px-3 text-right tabular-nums text-slate-300">R$ 25,25</td>
+              <td id="hist-ret-17" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-semibold">R$ 61,46</td>
+              <td id="hist-luc-17" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-bold">+R$ 36,21</td>
+              <td class="py-3 px-3 text-center font-sans"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400">+143.4%</span></td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-bold text-slate-200">18/11/2026</td>
+              <td class="py-3 px-3 font-sans text-xs text-slate-400">Supremo Green @3.15 + SAFE Stop 2 @2.57 com DNB</td>
+              <td id="hist-inv-18" class="py-3 px-3 text-right tabular-nums text-slate-300">R$ 25,25</td>
+              <td id="hist-ret-18" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-semibold">R$ 48,00</td>
+              <td id="hist-luc-18" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-bold">+R$ 22,75</td>
+              <td class="py-3 px-3 text-center font-sans"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400">+90.1%</span></td>
+            </tr>
+            <tr class="hover:bg-slate-800/30 transition-colors">
+              <td class="py-3 px-3 font-bold text-slate-200">19/11/2026</td>
+              <td class="py-3 px-3 font-sans text-xs text-slate-400">Supremo @3.64 + SAFE Stop 2 + SAFE+ + Improvável 8/8 @25.10!</td>
+              <td id="hist-inv-19" class="py-3 px-3 text-right tabular-nums text-slate-300">R$ 25,25</td>
+              <td id="hist-ret-19" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-semibold">R$ 87,87</td>
+              <td id="hist-luc-19" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-bold">+R$ 62,62</td>
+              <td class="py-3 px-3 text-center font-sans"><span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400">+248.0%</span></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="border-t-2 border-slate-700 bg-slate-950/40 font-bold text-sm">
+              <td colspan="2" class="py-3 px-3 text-white uppercase tracking-wider font-sans">TOTAL ACUMULADO (4 RODADAS)</td>
+              <td id="hist-total-inv" class="py-3 px-3 text-right tabular-nums text-slate-300 font-mono">R$ 101,00</td>
+              <td id="hist-total-ret" class="py-3 px-3 text-right tabular-nums text-emerald-300 font-mono">R$ 252,13</td>
+              <td id="hist-total-luc" class="py-3 px-3 text-right tabular-nums text-emerald-400 font-mono text-base">+R$ 151,13</td>
+              <td class="py-3 px-3 text-center font-sans"><span class="px-2 py-1 rounded-lg text-xs font-extrabold bg-emerald-500 text-slate-950">+149.6%</span></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    <!-- DESAFIO SOROS CICLO 5 - EVOLUÇÃO -->
+    <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950/60 border border-slate-800 rounded-2xl p-5 shadow-lg space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div>
+          <h2 class="text-lg font-bold text-white flex items-center gap-2">
+            <span>🔥 Desafio Soros 30 Dias (Ciclo 5 em Andamento)</span>
+          </h2>
+          <p class="text-xs text-slate-400">
+            Progressão com entrada única diária (@1.40 - @1.55) e marco de saque no Dia 5.
+          </p>
+        </div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold rounded-xl">
+          <span>🛡️ RISCO ZERO ATIVO</span>
+        </div>
+      </div>
+
+      <!-- Steps Visual -->
+      <div class="grid grid-cols-2 sm:grid-cols-6 gap-2 text-center text-xs">
+        <div class="bg-slate-950/70 border border-emerald-500/40 rounded-xl p-2.5">
+          <div class="text-[11px] text-slate-400 font-semibold">Dia 1 (14/11)</div>
+          <div class="text-xs text-slate-300 mt-0.5">Odd @1.57</div>
+          <div class="text-sm font-bold text-emerald-400 mt-1">R$ 15,73 ✅</div>
+        </div>
+        <div class="bg-slate-950/70 border border-emerald-500/40 rounded-xl p-2.5">
+          <div class="text-[11px] text-slate-400 font-semibold">Dia 2 (16/11)</div>
+          <div class="text-xs text-slate-300 mt-0.5">Odd @1.50</div>
+          <div class="text-sm font-bold text-emerald-400 mt-1">R$ 23,60 ✅</div>
+        </div>
+        <div class="bg-slate-950/70 border border-emerald-500/40 rounded-xl p-2.5">
+          <div class="text-[11px] text-slate-400 font-semibold">Dia 3 (17/11)</div>
+          <div class="text-xs text-slate-300 mt-0.5">Odd @1.43</div>
+          <div class="text-sm font-bold text-emerald-400 mt-1">R$ 33,75 ✅</div>
+        </div>
+        <div class="bg-slate-950/70 border border-emerald-500/40 rounded-xl p-2.5">
+          <div class="text-[11px] text-slate-400 font-semibold">Dia 4 (18/11)</div>
+          <div class="text-xs text-slate-300 mt-0.5">Odd @1.44</div>
+          <div class="text-sm font-bold text-emerald-400 mt-1">R$ 48,60 ✅</div>
+        </div>
+        <div class="bg-slate-950/70 border border-amber-500/50 rounded-xl p-2.5 relative">
+          <div class="text-[11px] text-amber-300 font-bold">Saque Dia 5</div>
+          <div class="text-xs text-slate-300 mt-0.5">Cofre Ativo</div>
+          <div class="text-sm font-black text-amber-400 mt-1">R$ 10,00 🔒</div>
+        </div>
+        <div class="bg-sky-500/10 border border-sky-500/40 rounded-xl p-2.5">
+          <div class="text-[11px] text-sky-300 font-bold">Dia 5 (19/11)</div>
+          <div class="text-xs text-slate-300 mt-0.5">Odd @1.44</div>
+          <div class="text-sm font-black text-sky-400 mt-1">R$ 55,58 ✅</div>
+        </div>
+      </div>
+
+      <div class="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs flex flex-col sm:flex-row items-center justify-between gap-2">
+        <div class="text-slate-300">
+          <span class="font-bold text-white">Patrimônio Atual no Ciclo 5:</span> 
+          <span class="text-amber-400 font-mono">R$ 10,00 no cofre</span> + 
+          <span class="text-sky-400 font-mono">R$ 55,58 de banca</span> = 
+          <span class="text-emerald-400 font-bold font-mono">R$ 65,58 (+555.8%)</span>
+        </div>
+        <div class="text-slate-400">
+          Próxima meta (Dia 7): Trava de mais R$ 20,00 no cofre.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const unitInput = document.getElementById('unitInput');
+
+    function fmt(val) {
+      return new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(val);
+    }
+
+    function setUnit(val) {
+      unitInput.value = val;
+      updateCalculations();
+    }
+
+    function updateCalculations() {
+      const u = parseFloat(unitInput.value) || 15;
+
+      // Stakes dos bilhetes
+      const safe = u * 1.0;
+      const supremo = u * 0.2;
+      const safePlus = u * 0.15;
+      const attack = u * 0.10;
+      const rodada = u * 0.10;
+      const neto = u * 0.0667;
+      const improvavel = u * 0.0667;
+
+      const totalRegular = safe + supremo + safePlus + attack + rodada + neto + improvavel;
+
+      // Update Header Cards
+      document.getElementById('regularStakeTotal').textContent = fmt(totalRegular);
+      document.getElementById('safeStakeDisplay').textContent = fmt(safe);
+      document.getElementById('projectedProfit').textContent = '+' + fmt(totalRegular * 1.496);
+
+      // Update Ticket Allocation Table
+      document.getElementById('row-safe').textContent = fmt(safe);
+      document.getElementById('row-supremo').textContent = fmt(supremo);
+      document.getElementById('row-safeplus').textContent = fmt(safePlus);
+      document.getElementById('row-attack').textContent = fmt(attack);
+      document.getElementById('row-rodada').textContent = fmt(rodada);
+      document.getElementById('row-neto').textContent = fmt(neto);
+      document.getElementById('row-improvavel').textContent = fmt(improvavel);
+
+      // Multiplicadores dos dias auditados
+      // Dia 16/11: Investido 1.683u, Retornado 3.653u (+117.0% ROI)
+      const inv16 = totalRegular;
+      const ret16 = totalRegular * (1 + 1.170);
+      const luc16 = ret16 - inv16;
+      document.getElementById('hist-inv-16').textContent = fmt(inv16);
+      document.getElementById('hist-ret-16').textContent = fmt(ret16);
+      document.getElementById('hist-luc-16').textContent = '+' + fmt(luc16);
+
+      // Dia 17/11: Investido 1.683u, Retornado 4.097u (+143.4% ROI)
+      const inv17 = totalRegular;
+      const ret17 = totalRegular * (1 + 1.434);
+      const luc17 = ret17 - inv17;
+      document.getElementById('hist-inv-17').textContent = fmt(inv17);
+      document.getElementById('hist-ret-17').textContent = fmt(ret17);
+      document.getElementById('hist-luc-17').textContent = '+' + fmt(luc17);
+
+      // Dia 18/11: Investido 1.683u, Retornado 3.200u (+90.1% ROI)
+      const inv18 = totalRegular;
+      const ret18 = totalRegular * (1 + 0.901);
+      const luc18 = ret18 - inv18;
+      document.getElementById('hist-inv-18').textContent = fmt(inv18);
+      document.getElementById('hist-ret-18').textContent = fmt(ret18);
+      document.getElementById('hist-luc-18').textContent = '+' + fmt(luc18);
+
+      // Dia 19/11: Investido 1.683u, Retornado 5.858u (+248.0% ROI)
+      const inv19 = totalRegular;
+      const ret19 = totalRegular * (1 + 2.480);
+      const luc19 = ret19 - inv19;
+      document.getElementById('hist-inv-19').textContent = fmt(inv19);
+      document.getElementById('hist-ret-19').textContent = fmt(ret19);
+      document.getElementById('hist-luc-19').textContent = '+' + fmt(luc19);
+
+      // Totais acumulados
+      const totalInv = inv16 + inv17 + inv18 + inv19;
+      const totalRet = ret16 + ret17 + ret18 + ret19;
+      const totalLuc = totalRet - totalInv;
+      document.getElementById('hist-total-inv').textContent = fmt(totalInv);
+      document.getElementById('hist-total-ret').textContent = fmt(totalRet);
+      document.getElementById('hist-total-luc').textContent = '+' + fmt(totalLuc);
+    }
+
+    unitInput.addEventListener('input', updateCalculations);
+    updateCalculations();
+  </script>
+</body>
+</html>

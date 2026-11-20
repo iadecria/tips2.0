@@ -1,0 +1,67 @@
+name: FAS V7.0 Pipeline Autônomo (Nuvem)
+
+on:
+  schedule:
+    # 13:00 UTC = 10:00 BRT (Geração Matinal dos Bilhetes)
+    - cron: '0 13 * * *'
+    # 03:30 UTC = 00:30 BRT (Auditoria e Confere Noturno)
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Qual rotina deseja disparar?'
+        required: true
+        default: 'matinal'
+        type: choice
+        options:
+          - 'matinal'
+          - 'confere'
+
+permissions:
+  contents: write
+
+jobs:
+  execute-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout do Repositório tips
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: ⚙️ Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: 🌅 Executar FAS Matinal (10:00 BRT)
+        if: github.event.inputs.action == 'matinal' || (github.event_name == 'schedule' && github.event.schedule == '0 13 * * *')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python futebol/fas_engine.py
+
+      - name: 🌙 Executar FAS Confere (00:30 BRT)
+        if: github.event.inputs.action == 'confere' || (github.event_name == 'schedule' && github.event.schedule == '30 3 * * *')
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python futebol/confere_engine.py
+
+      - name: 💾 Commit e Push das Atualizações
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add futebol/ bilhetes_ativos.json soros_state.json *.md || true
+          if git diff-index --quiet HEAD --; then
+            echo "Nenhuma alteração para comitar."
+          else
+            git commit -m "chore(auto): pipeline autônomo executado na nuvem [skip ci]"
+            git push origin main
+          fi

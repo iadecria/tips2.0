@@ -5447,3 +5447,65 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - Athletic Bilbao x Espanyol: Total Menos de 3.5 Gols no Jogo (@1.25)
   - Odd Acumulada: ~26.50+ | Stake: R$ 1,00
   - *Dica Melbet:* Marque no carrinho como "Sistema 6/8" ou "Sistema 7/8".
+
+
+---
+
+### [2026-11-20] — CONFERE OFICIAL E LIQUIDAÇÃO DIÁRIA (HECATOMBE DE ZEBRAS EUROPEIAS)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-20_V1_EURO_FRIDAY_MELBET_V7
+- **Data do Registro:** 2026-11-20
+- **Cutoff:** 2026-11-20T14:00:00-03:00
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (RED GLOBAL DA GRADE POR ZEBRAS ANÔMALAS)**
+- **Contexto da Data:** Sexta-feira Europeia marcada por uma sequência de zebras pesadas e lesões em gigantes (Allianz Arena e San Mamés).
+
+#### 1. Resultados Oficiais e Auditoria de Miss
+
+1. **Bayern de Munique 1 × 1 Colônia** (Allianz Arena — Bundesliga)
+   - *Mercado:* Bayern Handicap (-1.5) @1.42 / Bayern Vence W1 @1.12 ➔ ❌ **MISS**
+   - *Placar:* 1 × 1 (Mikey Moore 12', Brown 37')
+   - *Miss Audit:* `LINEUP_CHANGE / INJURY_EVENT` — Harry Kane e Michael Olise sofreram lesões durante a partida e precisaram sair. Sem a principal referência ofensiva, o Bayern perdeu contundência e não conseguiu a virada.
+
+2. **Athletic Bilbao 0 × 1 Espanyol** (San Mamés — La Liga)
+   - *Mercado:* Athletic Bilbao Vence W1 @1.52 / Bilbao 1X @1.12 ➔ ❌ **MISS**
+   - *Placar:* 0 × 1 (Gol de Roberto Fernández aos 66')
+   - *Miss Audit:* `STATISTICAL_VARIANCE / UPSET` — O Bilbao dominou com mais de 65% de posse e 17 finalizações, mas parou no goleiro do Espanyol e tomou o gol da derrota em transição rápida.
+
+3. **Troyes 3 × 1 Le Havre** (Stade de l'Aube — Ligue 1)
+   - *Mercado:* Troyes ou Empate 1X @1.25 ➔ ✅ **HIT** (Troyes venceu por 3x1!)
+   - *Mercado:* Menos de 3.5 Gols @1.22 ➔ ❌ **MISS** (Gol de pênalti de Ripart aos 98' fechou o placar em 3x1 e 4 gols totais).
+
+4. **Arminia Bielefeld 1 × 2 Magdeburg** (SchücoArena — 2. Bundesliga)
+   - *Mercado:* Total Mais de 1.5 Gols @1.20 ➔ ✅ **HIT** (1x2 = 3 gols)
+   - *Mercado:* Total Mais de 2.0 Gols @1.35 ➔ ✅ **HIT**
+
+5. **Darmstadt 3 × 1 Heidenheim** (Merck-Stadion — 2. Bundesliga)
+   - *Mercado:* Total Mais de 1.5 Gols @1.22 ➔ ✅ **HIT** (4 gols)
+   - *Mercado:* Total Mais de 2.5 Gols @1.70 ➔ ✅ **HIT**
+
+6. **FC Porto 1 × 1 União Paredes** (Taça de Portugal)
+   - *Mercado:* Porto Vence & Mais de 1.5 Gols @1.15 ➔ ❌ **MISS** (1x1 no tempo regulamentar; Porto avançou nos pênaltis)
+   - *Miss Audit:* `CUP_UNDERPERFORMANCE / ROTATION` — Jogo de copa com elenco misto e gol contra que travou o resultado.
+
+#### 2. Liquidação Financeira dos Bilhetes
+
+- ⭐ **BILHETE SUPREMO V7:** ❌ **RED** (Investido: R$ 3,00 | Retorno: R$ 0,00)
+- 🛡️ **MÚLTIPLA 1 — SAFE ENXUTA V7:** ❌ **RED** (Investido: R$ 15,00 | Retorno: R$ 0,00)
+- 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7:** ❌ **RED** (Investido: R$ 2,25 | Retorno: R$ 0,00)
+- 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7:** ❌ **RED** (Investido: R$ 1,50 | Retorno: R$ 0,00)
+- 🏆 **DUPLA DE IMPOSIÇÃO V7:** ❌ **RED** (Investido: R$ 1,50 | Retorno: R$ 0,00)
+- 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7:** ❌ **RED** (Investido: R$ 1,00 | Retorno: R$ 0,00)
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7:** ❌ **RED** (Investido: R$ 1,00 | Retorno: R$ 0,00)
+
+- 🔥 **DESAFIO SOROS — DIA 6 DE 30:** ❌ **MISS NO DIA 6**
+  - *Stake do Dia:* R$ 55,58 (100% bancada pelo lucro da casa).
+  - **A REGRA DE OURO DO COFRE SALVOU A BANCA:**
+    - No Dia 5, o sistema sacou e travou os **R$ 10,00 da stake inicial no cofre**.
+    - **Prejuízo de capital próprio do usuário:** **R$ 0,00 (ZERO)**!
+    - O Ciclo 6 reinicia amanhã com os mesmos R$ 10,00 preservados.
+
+#### 3. Balanço Geral Consolidado da Rodada (20/11)
+- **Investimento Total da Grade:** R$ 25,25
+- **Retorno Total:** R$ 0,00
+- **Lucro Líquido:** **-R$ 25,25**
+- *Contexto Semanal:* No dia anterior (19/11), o FAS conquistou **+R$ 62,62 (+248% ROI)** com o Supremo @3.64 e o Improvável @25.10. Mesmo com a zebra histórica de hoje, o saldo semanal segue com **lucro líquido de +R$ 37,37**!

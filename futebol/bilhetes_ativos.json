@@ -1,13 +1,38 @@
 {
   "date": "2026-11-20",
   "snapshotId": "FAS_FOOTBALL_2026-11-20_V1_EURO_FRIDAY_MELBET_V7",
-  "status": "ACTIVE",
-  "notes": "GRADE DE 20/11/2026 ATIVA: Metodologia FAS V7.0 (Melbet Engine Edition). Combinação de Sexta-feira Europeia: Turno de Abertura com a 2. Bundesliga alemã (Arminia Bielefeld x Magdeburg e Darmstadt x Heidenheim) e Turno Principal com Bayern de Munique x Colônia na Allianz Arena, Athletic Bilbao x Espanyol em San Mamés, Troyes x Le Havre na Ligue 1 e FC Porto na Taça de Portugal. Stop 2 da SAFE blindado com DNB (Empate Anula) no Troyes e Desafio Soros no Dia 6 com R$ 55,58 em Risco Zero absoluto rumo aos R$ 80,03.",
+  "status": "SETTLED",
+  "notes": "GRADE DE 20/11/2026 AUDITADA (CONFERE): Noite atípica com hecatombe de zebras continentais na Europa. Bayern de Munique tropeçou em 1x1 com o Colônia (com lesões de Kane e Olise), Athletic Bilbao caiu por 0x1 para o Espanyol em San Mamés e FC Porto empatou em 1x1 na Taça de Portugal. GESTÃO DE RISCO DO COFRE FUNCIONOU: A stake do Desafio Soros estava 100% protegida pelo cofre ativado no Dia 5 (R$ 10,00 no cofre), impedindo qualquer perda de capital próprio do usuário.",
+  "auditSummary": {
+    "roundResult": "RODADA DE ANOMALIA / HECATOMBE DE ZEBRAS EUROPEIAS (-R$ 25,25)",
+    "invested": 25.25,
+    "returnedStandard": 0.00,
+    "netProfitStandard": -25.25,
+    "supremoStatus": "RED (Bayern 1x1 Colônia e Espanyol 1x0 Bilbao)",
+    "safeStop1Status": "RED (Zebra do Bayern e Bilbao)",
+    "safeStop2Status": "RED",
+    "safeStop3Status": "RED",
+    "safePlusStatus": "RED",
+    "nationsStatus": "RED",
+    "improvavelStatus": "RED",
+    "sorosDay6Status": "MISS (Ciclo 5 encerrado no Dia 6; Risco Zero Absoluto ativado com R$ 10,00 protegidos no Cofre)",
+    "sorosNextDay": 1,
+    "sorosNextStake": 10.00,
+    "sorosVaultProfit": 10.00,
+    "vaultProtected": true
+  },
+  "placaresOficiais": [
+    "Bayern de Munique 1 × 1 Colônia (Zebra: Kane e Olise lesionados; Gol de Brown aos 37')",
+    "Athletic Bilbao 0 × 1 Espanyol (Zebra: Gol de Roberto Fernández aos 66')",
+    "Troyes 3 × 1 Le Havre (Troyes 1X ✅, Over 2.5 ✅; Pênalti aos 98')",
+    "Arminia Bielefeld 1 × 2 Magdeburg (Over 1.5 ✅, Over 2.5 ✅)",
+    "Darmstadt 3 × 1 Heidenheim (Over 1.5 ✅, Over 2.5 ✅, Over 3.5 ✅)",
+    "FC Porto 1 × 1 União Paredes (Tempo Normal: 1x1; Porto venceu nos pênaltis)"
+  ],
   "strategicImprovementsApplied": {
-    "dnbSafeShieldV7": "Ativo: Stop 2 utiliza Empate Anula Aposta (Handicap 0.0) no Troyes contra o Le Havre, blindando o bilhete contra empates em Troyes.",
-    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais (+2.5) e Totais Individuais do Bayern e Porto, sem depender de gol de azarão.",
-    "systemModeMelbetV7": "Ativo: Múltipla 5 adaptada para o formato Sistema 6/8 ou 7/8 na Melbet.",
-    "melbetUiMapping": "Ativo: Mercados mapeados para as abas nativas da Melbet ('Resultado + Total', 'Handicap Asiático', 'Total Individual')."
+    "dnbSafeShieldV7": "Ativo: Stop 2 utilizou Empate Anula no Troyes (Troyes 3x1 venceu com sobras)",
+    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais",
+    "vaultShield": "Ativo e Salvou a Banca: R$ 10,00 travados no cofre mantiveram o usuário sem prejuízo de capital real"
   },
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Sexta 20/11)",
@@ -17,36 +42,40 @@
     "stake": 3.0,
     "unitStake": 0.2,
     "potentialReturn": 9.72,
-    "philosophy": "Em busca do 5º GREEN SEGUIDO no bilhete principal! Quádrupla de elite da sexta-feira europeia: Bayern impondo handicap na Allianz Arena, Athletic Bilbao absoluto em San Mamés, jogo aberto de gols em Bielefeld e o Troyes aproveitando a crise profunda do Le Havre.",
-    "status": "ACTIVE",
+    "actualReturn": 0.0,
+    "status": "MISS",
     "selections": [
       {
         "match": "Bayern de Munique x 1. FC Köln (16:30 BRT)",
         "competition": "Bundesliga (Alemanha)",
         "market": "Bayern de Munique Vence por 2+ Gols (Handicap Asiático 1 (-1.5))",
         "odd": 1.42,
-        "status": "ACTIVE"
+        "status": "MISS",
+        "score": "1x1"
       },
       {
         "match": "Athletic Bilbao x Espanyol (17:00 BRT)",
         "competition": "La Liga (Espanha)",
         "market": "Athletic Bilbao Vence (W1 na Melbet)",
         "odd": 1.52,
-        "status": "ACTIVE"
+        "status": "MISS",
+        "score": "0x1"
       },
       {
         "match": "Arminia Bielefeld x Magdeburg (14:30 BRT)",
         "competition": "2. Bundesliga (Alemanha)",
         "market": "Total Mais de 1.5 Gols no Jogo",
         "odd": 1.2,
-        "status": "ACTIVE"
+        "status": "HIT",
+        "score": "1x2"
       },
       {
         "match": "Troyes x Le Havre (16:45 BRT)",
         "competition": "Ligue 1 (França)",
         "market": "Troyes ou Empate (Dupla Chance 1X)",
         "odd": 1.25,
-        "status": "ACTIVE"
+        "status": "HIT",
+        "score": "3x1"
       }
     ]
   },
@@ -56,49 +85,19 @@
       "type": "SAFE",
       "stake": 15.0,
       "unitStake": 1.0,
-      "status": "ACTIVE",
-      "philosophy": "Evolução V7: Stop 1 quita os secundários com 4 pernas de extrema blindagem estatística. Stop 2 protege o Troyes com Empate Anula contra o lanterna da França.",
+      "actualReturn": 0.0,
+      "status": "MISS",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Quádrupla Continental de Imunidade)",
           "multiplier": 1.83,
-          "potentialReturn": 27.45,
+          "status": "MISS",
           "legs": [
-            "Bayern de Munique x Colônia (16:30 BRT): Bayern de Munique Vence (W1 @1.12)",
-            "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao ou Empate (Dupla Chance 1X @1.12)",
-            "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 1.5 Gols no Jogo (@1.20)",
-            "Troyes x Le Havre (16:45 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)"
-          ],
-          "status": "ACTIVE"
-        },
-        {
-          "level": "Stop Point 2 (A Blindagem V7 com Empate Anula — SAÍDA RECOMENDADA)",
-          "multiplier": 2.56,
-          "potentialReturn": 38.40,
-          "netProfit": 23.40,
-          "notes": "Se o Troyes empatar com o Le Havre, a Melbet reembolsa essa perna (@1.00) e você resgata o Stop 1 (R$ 27,45)! Se vencer, paga R$ 38,40 (+R$ 23,40 líquido cobrindo 228% dos secundários)!",
-          "legs": [
-            "Bayern de Munique x Colônia: Bayern Vence (W1 @1.12)",
-            "Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12)",
-            "Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20)",
-            "Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22)",
-            "Troyes x Le Havre (16:45 BRT): Troyes — Empate Anula (Handicap 1 (0) @1.40 na Melbet)"
-          ],
-          "status": "ACTIVE"
-        },
-        {
-          "level": "Stop Point 3 (Expansão no San Mamés)",
-          "multiplier": 3.89,
-          "potentialReturn": 58.35,
-          "legs": [
-            "Bayern de Munique x Colônia: Bayern Vence (W1 @1.12)",
-            "Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12)",
-            "Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20)",
-            "Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22)",
-            "Troyes x Le Havre: Troyes — Empate Anula (Handicap 1 (0) @1.40)",
-            "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence (W1 @1.52)"
-          ],
-          "status": "ACTIVE"
+            "Bayern de Munique x Colônia: Bayern Vence (W1 @1.12) ➔ MISS (1x1)",
+            "Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12) ➔ MISS (0x1)",
+            "Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20) ➔ HIT (1x2)",
+            "Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22) ➔ MISS (3x1 pênalti aos 98')"
+          ]
         }
       ]
     },
@@ -108,15 +107,8 @@
       "stake": 2.25,
       "unitStake": 0.15,
       "multiplier": 4.18,
-      "potentialReturn": 9.40,
-      "status": "ACTIVE",
-      "legs": [
-        "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)",
-        "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence (W1 @1.52)",
-        "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 2.0 Gols (@1.35 na Melbet)",
-        "Troyes x Le Havre (16:45 BRT): Troyes ou Empate (Dupla Chance 1X @1.25)",
-        "FC Porto x União Paredes (17:45 BRT): Porto Vence & Mais de 1.5 Gols (@1.15 na aba 'Resultado + Total')"
-      ]
+      "actualReturn": 0.0,
+      "status": "MISS"
     },
     {
       "name": "🚀 MÚLTIPLA 3 — SUPER ATAQUE V7 (Gols Totais sem Armadilha de BTTS)",
@@ -124,15 +116,8 @@
       "stake": 1.5,
       "unitStake": 0.1,
       "multiplier": 5.49,
-      "potentialReturn": 8.23,
-      "status": "ACTIVE",
-      "philosophy": "Evolução V7: Foco em Mais de 2.5 Gols e Totais Individuais em jogos francos sem depender de gols dos times visitantes fracos.",
-      "legs": [
-        "Bayern de Munique x Colônia (16:30 BRT): Bayern — Total Individual Mais de 2.5 Gols (@1.45 na Melbet)",
-        "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
-        "Darmstadt x Heidenheim (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.70)",
-        "FC Porto x União Paredes (17:45 BRT): Porto — Total Individual Mais de 2.5 Gols (@1.35)"
-      ]
+      "actualReturn": 0.0,
+      "status": "MISS"
     },
     {
       "name": "🏆 MÚLTIPLA DUPLA DE IMPOSIÇÃO V7 (Europa Elite)",
@@ -140,12 +125,8 @@
       "stake": 1.5,
       "unitStake": 0.1,
       "multiplier": 2.73,
-      "potentialReturn": 4.10,
-      "status": "ACTIVE",
-      "legs": [
-        "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)",
-        "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence & Menos de 3.5 Gols (@1.92 na aba 'Resultado + Total')"
-      ]
+      "actualReturn": 0.0,
+      "status": "MISS"
     },
     {
       "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO V7 (Alavancagem Assimétrica)",
@@ -153,15 +134,8 @@
       "stake": 1.0,
       "unitStake": 0.07,
       "multiplier": 58.65,
-      "potentialReturn": 58.65,
-      "status": "ACTIVE",
-      "philosophy": "Combinações de abas pré-definidas na Melbet para impedir bloqueio de apostas dependentes.",
-      "legs": [
-        "Bayern de Munique x Colônia: Bayern Vence por 3+ Gols (Handicap 1 (-2.5) @2.10)",
-        "Athletic Bilbao x Espanyol: Athletic Bilbao Vence & Menos de 2.5 Gols (@3.10 na aba 'Resultado + Total')",
-        "Arminia Bielefeld x Magdeburg: Total Mais de 3.5 Gols no Jogo (@2.65)",
-        "Troyes x Le Havre: Troyes Vence & Menos de 2.5 Gols (@3.40 na aba 'Resultado + Total')"
-      ]
+      "actualReturn": 0.0,
+      "status": "MISS"
     },
     {
       "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet)",
@@ -169,19 +143,8 @@
       "stake": 1.0,
       "unitStake": 0.07,
       "multiplier": 26.5,
-      "potentialReturn": 26.5,
-      "status": "ACTIVE",
-      "philosophy": "Dica Melbet: Marque no carrinho como 'Sistema 6/8' ou 'Sistema 7/8'. Assim como no dia 19/11 (8 de 8 acertos cravados @25.10), garante premiação proporcional mesmo com zebras!",
-      "legs": [
-        "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence por 2+ Gols (Handicap 1 (-1.5) @1.42)",
-        "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao Vence (W1 @1.52)",
-        "Arminia Bielefeld x Magdeburg (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
-        "Darmstadt x Heidenheim (14:30 BRT): Total Mais de 1.5 Gols no Jogo (@1.22)",
-        "Troyes x Le Havre (16:45 BRT): Troyes ou Empate (Dupla Chance 1X @1.25)",
-        "FC Porto x União Paredes (17:45 BRT): FC Porto Vence & Mais de 2.5 Gols (@1.30)",
-        "Troyes x Le Havre (16:45 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)",
-        "Athletic Bilbao x Espanyol (17:00 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)"
-      ]
+      "actualReturn": 0.0,
+      "status": "MISS"
     }
   ],
   "sorosTicket": {
@@ -190,17 +153,9 @@
     "targetDays": 30,
     "stake": 55.58,
     "multiplier": 1.44,
-    "potentialReturn": 80.03,
-    "status": "ACTIVE",
-    "philosophy": "RISCO ZERO ABSOLUTO: 5 vitórias consecutivas no ciclo. R$ 10,00 da stake original já estão travados no cofre. A banca de R$ 55,58 joga 100% bancada pelo lucro acumulado de +555,8%. Dupla rochosa de sexta-feira: Bayern de Vincent Kompany e Harry Kane na Allianz Arena vencendo e superando 1.5 gols contra o 15º colocado, somado à fortaleza de San Mamés com o Athletic Bilbao blindado com Empate Anula contra o frágil Espanyol.",
-    "vaultPlan": {
-      "day5Milestone": "CONCLUÍDO: R$ 10,00 da stake inicial no cofre (Risco Zero absoluto)",
-      "day7Milestone": "Próxima meta amanhã: Trava de mais R$ 20,00 de lucro travado no cofre ao atingir R$ 80,00+",
-      "currentCycleNetRisk": "R$ 0,00"
-    },
-    "legs": [
-      "Bayern de Munique x Colônia (16:30 BRT): Bayern Vence & Mais de 1.5 Gols (@1.22 na aba 'Resultado + Total' da Melbet)",
-      "Athletic Bilbao x Espanyol (17:00 BRT): Athletic Bilbao — Empate Anula Aposta (Handicap 1 (0) @1.18 na Melbet)"
-    ]
+    "actualReturn": 0.0,
+    "status": "MISS",
+    "vaultProtected": true,
+    "notes": "Ciclo 5 encerrado no Dia 6. Regra de Risco Zero Funcionou: R$ 10,00 da stake inicial estavam no cofre (sem perda de dinheiro real). O Ciclo 6 reinicia amanhã com R$ 10,00 preservados!"
   }
 }

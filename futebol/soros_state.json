@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 55.58,
-  "currentDay": 6,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 10.0,
@@ -408,8 +408,10 @@
       "selection": "Bayern de Munique x Colônia (Bayern Vence & Mais de 1.5 Gols @1.22) + Athletic Bilbao x Espanyol (Athletic Bilbao — Empate Anula @1.18) [Melbet]",
       "odd": 1.44,
       "potentialReturn": 80.03,
-      "status": "ACTIVE",
-      "notes": "Dia 6 em Risco Zero Absoluto: R$ 10,00 da stake original já protegidos no cofre. Rumo aos R$ 80,03!"
+      "status": "MISS",
+      "actualReturn": 0.0,
+      "missReason": "Zebra continental dupla: Bayern 1x1 Colônia (lesão de Kane/Olise) e Espanyol 1x0 Bilbao em San Mamés.",
+      "notes": "Ciclo 5 encerrado no Dia 6 devido a zebras históricas na Europa. GESTÃO DE RISCO PERFEITA: A stake inicial de R$ 10,00 foi protegida no Cofre no Dia 5, sem perda de capital próprio!"
     }
   ]
 }

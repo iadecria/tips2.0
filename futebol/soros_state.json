@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 38.60,
-  "currentDay": 5,
+  "currentStake": 55.58,
+  "currentDay": 6,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 10.0,
@@ -397,8 +397,9 @@
       "selection": "Austria Viena W x Bayern de Munique W (Bayern W Vence & Mais de 1.5 Gols @1.22) + Vasco x Internacional (Vasco ou Empate 1X @1.18) [Melbet]",
       "odd": 1.44,
       "potentialReturn": 55.58,
-      "status": "ACTIVE",
-      "notes": "Dia 5 em Risco Zero Absoluto: R$ 10,00 da stake original já protegidos no cofre!"
+      "status": "HIT",
+      "actualReturn": 55.58,
+      "notes": "GREEN cravado! Bayern 4x0 (V1 & Over 1.5 ✅) + Vasco 2x1 (1X ✅). Retorno: R$ 55,58. Risco Zero absoluto: R$ 10,00 no cofre e avança para o Dia 6 com R$ 55,58!"
     }
   ]
 }

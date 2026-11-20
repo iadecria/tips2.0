@@ -5206,7 +5206,7 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Contexto da Data:** Quinta-feira de rodada dupla sincronizada:
   - **Turno da Tarde (UEFA Women's Champions League - 5ª Rodada):** Fase de grupos decisiva com Bayern de Munique visitando o Austria Viena; Paris FC recebendo o HB Køge precisando vencer; Barcelona recebendo o Servette; Arsenal recebendo o invicto Lyon em Londres; e Benfica recebendo a Roma em Lisboa.
   - **Turno da Noite (Brasileirão Série A - 35ª Rodada Reta Final):** Vasco em São Januário com ingressos esgotados buscando vaga continental contra o Internacional em crise fora de casa (16º colocado); confronto direto contra o rebaixamento no Barradão em Vitória x RB Bragantino; e o clássico São Paulo x Fluminense no MorumBIS (São Paulo desfalcado de Luciano, Ferreirinha e Newton).
-- **Status de Liquidação:** **ATIVO / AGUARDANDO LIQUIDAÇÃO**
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO**
 
 #### 1. Discovery e Cobertura
 - Jogos Mapeados: 8 (5 UWCL + 3 Brasileirão Série A)
@@ -5303,3 +5303,43 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - São Paulo x Fluminense: Fluminense ou Empate (Dupla Chance X2 @1.55)
   - Odd Acumulada: ~25.00+ | Stake: R$ 1,00
   - *Dica Melbet:* Marque no carrinho como "Sistema 6/8" ou "Sistema 7/8".
+
+
+---
+
+#### 4. Liquidação e Relatório do Confere (Pós-Rodada 19/11)
+
+- **Resultados Fáticos dos Jogos:**
+  1. *Austria Viena W 0 × 4 Bayern de Munique W* (Bühl 27', Harder 45'+1, Şehitler 75', Proost 92'; Bayern W2 ✅, V1 & +1.5 ✅, Over 2.5 ✅, -2.5 AH ✅)
+  2. *Paris FC W 2 × 1 HB Køge W* (Scott 35', Hocine 94'; Paulson 12'; Paris FC W1 ✅, 1X ✅, V1 & +1.5 ✅, Over 2.5 ✅)
+  3. *Barcelona W 6 × 0 Servette W* (Bonmatí 19', Pina 26', Brugts 31', Hansen 62' pen; Barça Individual Over 2.5 ✅, Over 3.5 ✅)
+  4. *Arsenal W 0 × 2 Olympique Lyon W* (Jule Brand 24', Dumornay 57'; Lyon 2X ✅, Lyon DNB ✅, Lyon W2 ✅)
+  5. *Benfica W 2 × 3 AS Roma W* (Møller 40', Sabastine 66'; van Dooren 17', 54', Jahnukainen 93'; Over 1.5 ✅, Over 2.5 ✅)
+  6. *Vasco 2 × 1 Internacional* (Thiago Mendes 26', Colidio 62'; Juninho 50'; Vasco W1 ✅, Vasco 1X ✅, V1 & Under 3.5 ✅)
+  7. *Vitória 2 × 1 RB Bragantino* (Brítez 3', Renê Sousa 23'; Gean 72' contra; Menos de 3.5 Gols ✅)
+  8. *São Paulo 0 × 1 Fluminense* (Hércules 31'; Fluminense 2X ✅, Fluminense W2 ✅)
+
+- **Liquidação dos Bilhetes:**
+  - 🔥 **DESAFIO SOROS (CICLO 5 / DIA 5 — RISCO ZERO):** ✅ **GREEN CRAVADO!** (Bayern W V1 & Over 1.5 @1.22 ✅ + Vasco 1X @1.18 ✅ = @1.44). Retorno: **R$ 55,58**! 5º Green consecutivo no Ciclo 5. Total no ciclo: R$ 10,00 no cofre + R$ 55,58 de banca = **R$ 65,58 (+555,8%)**! Avança para o Dia 6 com R$ 55,58!
+  - ⭐ **BILHETE SUPREMO V7 (@3.64):** ✅ **GREEN TOTAL HISTÓRICO CRAVADO (4 DE 4 ACERTOS)!** (Paris FC ML @1.38 ✅, Lyon 2X @1.28 ✅, Barça Over 2.5 Individual @1.25 ✅, Vasco ML @1.65 ✅). Retorno: **R$ 10,92**! 4º dia seguido de Green no Supremo!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 1 @1.75):** ✅ **GREEN CRAVADO (4 DE 4 ACERTOS)!** Retorno: **R$ 26,25**!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 2 @2.54 — SAÍDA RECOMENDADA COM DNB):** ✅ **GREEN TOTAL CRAVADO (5 DE 5 ACERTOS)!** (+ Lyon DNB @1.45 ➔ 0x2 ✅). Retorno: **R$ 38,10**! Lucro líquido de **+R$ 23,10**, cobrindo 225% de todos os secundários de R$ 10,25 com folga!
+  - 🟢 **MÚLTIPLA 1 — SAFE V7 (Stop 3 @3.93):** ✅ **GREEN TOTAL MÁXIMO CRAVADO (6 DE 6 ACERTOS)!** (+ Flu 2X @1.55 ➔ 0x1 ✅). Retorno: **R$ 58,95**!
+  - 🛡️➕ **MÚLTIPLA 2 — SAFE+ V7 (@4.30):** ✅ **GREEN TOTAL CRAVADO (4 DE 4 ACERTOS)!** (Bayern V1 & +1.5 ✅, Paris FC ML ✅, Vasco ML ✅, Flu 2X ✅). Retorno: **R$ 9,67**!
+  - 🏆 **MÚLTIPLA BRASILEIRÃO & CHAMPIONS V7 (@2.72):** ✅ **GREEN TOTAL CRAVADO (2 DE 2 ACERTOS)!** (Paris FC V1 & Over 1.5 ✅ + Vasco ML ✅). Retorno: **R$ 4,08**!
+  - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7 (@25.10):** 💥💥💥 **GREEN ABSOLUTO CRAVADO (8 DE 8 ACERTOS)!** Retorno: **R$ 25,10**!
+  - 🚀 **MÚLTIPLA 3 — SUPER ATAQUE V7 (@7.36):** ❌ MISS por 1 gol no clássico inglês (3 de 4 acertos).
+  - 🤠 **MÚLTIPLA 4 — APOSENTAR O NETO V7 (@79.52):** ❌ MISS (3 acertos pesados: Bayern -2.5 @2.10 ✅, Vasco V1 & Under 3.5 @2.20 ✅, Fluminense Vence @3.00 seca ✅).
+
+- **Balanço Financeiro Consolidado da Rodada:**
+  - Investimento Total da Grade Regular: **R$ 25,25**
+  - Retornos Resgatados na Grade Regular (Saída Padrão no Stop 2 da SAFE):
+    - Stop 2 da SAFE: **R$ 38,10**
+    - Bilhete Supremo: **R$ 10,92**
+    - Múltipla 2 SAFE+: **R$ 9,67**
+    - Múltipla Brasileirão & Champions: **R$ 4,08**
+    - Múltipla 5 O Improvável (8/8): **R$ 25,10**
+    - **Total Resgatado:** **R$ 87,87**
+  - **LUCRO LÍQUIDO ABSOLUTO:** **+R$ 62,62** (ROI de **+248,0%** na rodada regular)!
+  - *(Com Stop 3: Retorno de **R$ 108,72** / Lucro Líquido de **+R$ 83,47** / ROI de **+330,6%**)*
+  - **Desafio Soros Ciclo 5 (Banca Isolada em Risco Zero):** R$ 38,60 ➔ **R$ 55,58** (+R$ 16,98 no dia; patrimônio acumulado de R$ 65,58 / +555,8%)!

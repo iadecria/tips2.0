@@ -672,3 +672,56 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
   11. Utah Jazz @ San Antonio Spurs: Spurs Vence (ML @1.42 / 69.0%)
   12. Portland Trail Blazers @ Denver Nuggets: Nuggets Vence (ML @1.15 / 86.0%)
 - **Multiplicador Global Acumulado:** **@153.11**
+
+
+---
+
+### [2026-11-20] — RODADA OFICIAL EMIRATES NBA CUP (FAS BASKETBALL V2.0 ASIAN & ELASTIC ENGINE)
+
+- **Snapshot ID:** FAS_BASKETBALL_2026-11-20_V2_ASIAN_ENGINE
+- **Data do Registro:** 2026-11-20
+- **Cutoff:** 2026-11-20T20:30:00-03:00
+- **Modo Operacional:** **PRODUÇÃO OFICIAL (V2.0 MELBET / ASIAN ENGINE)**
+- **Contexto da Data:** Sexta-feira de Copa da NBA (Emirates NBA Cup) com 9 confrontos. Regra de saldo de pontos ativa nos grupos, reduzindo garbage time. Implementação das 5 melhorias: Spreads elásticos positivos/curtos, colchão de 10-14 pts em totais, Stop Points modulares e reinício do Desafio Soros Basquete.
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING (GRADE ATIVA)**
+
+#### 1. Discovery e Seleções Analisadas
+1. **Charlotte Hornets @ Atlanta Hawks** (21:00 BRT): Hawks Vence (ML @1.30) / Hawks -5.5 (@1.62)
+2. **Toronto Raptors @ Detroit Pistons** (21:30 BRT): Pistons Vence (ML @1.32) / Under 222.5
+3. **Indiana Pacers @ Cleveland Cavaliers** (21:30 BRT): Cavaliers Vence (ML @1.40)
+4. **Orlando Magic @ Brooklyn Nets** (21:30 BRT): Magic Vence (ML @1.40)
+5. **Washington Wizards @ Chicago Bulls** (22:00 BRT): Bulls Vence (ML @1.72) / Mais de 222.5 Pontos (@1.50)
+6. **New Orleans Pelicans @ Oklahoma City Thunder** (22:00 BRT): Thunder Vence (ML @1.22) / Thunder -4.5 (@1.36)
+7. **Phoenix Suns @ Utah Jazz** (23:30 BRT): Suns Vence (ML @1.44) / Suns +2.5 Spread Protegido (@1.28)
+8. **Houston Rockets @ Denver Nuggets** (00:00 BRT): Nuggets Vence (ML @1.78) / Mais de 216.5 Pontos (@1.34)
+9. **Sacramento Kings @ Los Angeles Lakers** (00:00 BRT): Lakers Vence (ML @1.12) / Lakers -4.5 Spread Alternativo (@1.29)
+
+#### 2. Bilhetes Oficiais Estruturados
+
+- ⭐ **BILHETE SUPREMO BASQUETE (@2.05):**
+  - Atlanta Hawks Vence (ML @1.30)
+  - Oklahoma City Thunder Vence (ML @1.22)
+  - Los Angeles Lakers -4.5 Spread Alternativo (@1.29)
+  - *Status:* ⏳ **PENDENTE**
+
+- 🛡️ **MÚLTIPLA 1 — SAFE BASQUETE (Stop Points Modulares @3.17):**
+  - **Stop Point 1 (Turno Costa Leste 21:30 BRT - Subtotal @1.85):**
+    - Detroit Pistons Vence (ML @1.32)
+    - Orlando Magic Vence (ML @1.40)
+  - **Stop Point 2 (Turno Costa Oeste 23:30/00:00 BRT):**
+    - Phoenix Suns +2.5 Spread Elástico (@1.28)
+    - Houston Rockets @ Denver Nuggets: Mais de 216.5 Pontos Totais (@1.34)
+  - *Status:* ⏳ **PENDENTE**
+
+- 🎯 **DESAFIO SOROS BASQUETE — DIA 1 DE 30 (@1.37):**
+  - OKC Thunder Vence (ML @1.22) + Lakers Vence (ML @1.12)
+  - *Stake:* R$ 10,00 | *Retorno Projetado:* R$ 13,70
+  - *Status:* ⏳ **PENDENTE**
+
+- ⚡ **MÚLTIPLA 2 — SUPER ATAQUE BASQUETE (@4.20):**
+  - Hawks -5.5 (@1.62) + Wizards x Bulls Over 222.5 (@1.50) + Suns -3.5 (@1.73)
+  - *Status:* ⏳ **PENDENTE**
+
+- 🎲 **MÚLTIPLA 5 — O BINGO DA COPA NBA (Round Sweep 9 Jogos @41.80):**
+  - 100% dos 9 vencedores da noite em Moneyline: Hawks + Pistons + Cavaliers + Magic + Bulls + Thunder + Suns + Nuggets + Lakers.
+  - *Status:* ⏳ **PENDENTE**

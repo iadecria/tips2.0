@@ -15,6 +15,7 @@ on:
         type: choice
         options:
           - 'matinal'
+          - 'basquete'
           - 'confere'
 
 permissions:
@@ -45,6 +46,14 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python futebol/fas_engine.py
+
+      - name: 🏀 Executar FAS Basquete NBA (19:30 BRT / Noturno)
+        if: github.event.inputs.action == 'basquete'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python basquete/fas_engine.py
 
       - name: 🌙 Executar FAS Confere (00:30 BRT)
         if: github.event.inputs.action == 'confere' || (github.event_name == 'schedule' && github.event.schedule == '30 3 * * *')

@@ -1,0 +1,26 @@
+{
+  "project": "FAS BASKETBALL - DESAFIO SOROS 30 DIAS",
+  "startDate": "2026-11-20",
+  "initialStake": 10.0,
+  "currentStake": 10.0,
+  "currentDay": 1,
+  "targetDays": 30,
+  "status": "ACTIVE",
+  "vaultProfit": 0.0,
+  "vaultRules": {
+    "day5Lock": 10.0,
+    "day7Lock": 20.0,
+    "description": "No Dia 5, saca a stake inicial de R$ 10,00 para neutralizar o risco. No Dia 7, saca +R$ 20,00 de lucro travado no cofre."
+  },
+  "history": [
+    {
+      "day": 1,
+      "date": "2026-11-20",
+      "stakeIn": 10.0,
+      "selection": "Pelicans @ Thunder (Thunder ML @1.22) + Kings @ Lakers (Lakers ML @1.12)",
+      "odd": 1.37,
+      "potentialReturn": 13.70,
+      "status": "PENDING"
+    }
+  ]
+}

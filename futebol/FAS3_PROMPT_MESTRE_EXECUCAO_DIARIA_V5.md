@@ -288,10 +288,15 @@ INVESTIGATED / SUPPORTED / REJECTED / INSUFFICIENT_DATA.
   Sinal   Status   Mercado investigado   Conclusão
   ------- -------- --------------------- -----------
 
-# 14. CORRELATION ENGINE
+# 14. CORRELATION ENGINE & EXPOSURE CAP
 
 Não trate mercados correlacionados como confirmações independentes.
 Classifique LOW/MEDIUM/MED-HIGH/HIGH.
+
+### 🛡️ Regra Anti-Hecatombe (Teto de Exposição e Grade Curta - V7.5)
+1. **Limite de Exposição por Ativo/Time:** Nenhum time ou partida individual pode constar em mais de 2 bilhetes na grade diária.
+2. **Isolamento Estrito do Desafio Soros:** A seleção do Desafio Soros NUNCA pode ser a mesma partida do Bilhete Supremo nem a âncora da SAFE. O Soros deve operar em isolamento temporal ou de confronto.
+3. **Protocolo de Grade Curta (Short Slate):** Se a rodada tiver menos de 8 a 10 jogos no radar de alta qualidade (segundas ou sextas de rodada reduzida), é expressamente proibido inflar bilhetes secundários repetindo os mesmos times. A grade opera no Modo Compacto: apenas 1 Supremo, 1 SAFE (com jogos distintos) e 1 Soros (independente).
 
 ## 🔗 CORRELATION ENGINE
 

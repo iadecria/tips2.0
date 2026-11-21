@@ -5509,3 +5509,54 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - **Retorno Total:** R$ 0,00
 - **Lucro Líquido:** **-R$ 25,25**
 - *Contexto Semanal:* No dia anterior (19/11), o FAS conquistou **+R$ 62,62 (+248% ROI)** com o Supremo @3.64 e o Improvável @25.10. Mesmo com a zebra histórica de hoje, o saldo semanal segue com **lucro líquido de +R$ 37,37**!
+
+
+---
+
+### [2026-11-21] — RODADA OFICIAL DE SÁBADO (FAS V7.5 ANTI-CORRELATION ENGINE)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-21_V1_SATURDAY_ANTI_CORRELATION_V7_5
+- **Data do Registro:** 2026-11-21
+- **Cutoff:** 2026-11-21T14:00:00-03:00
+- **Modo Operacional:** **PRODUÇÃO OFICIAL (V7.5 MELBET ANTI-CORRELATION)**
+- **Contexto da Data:** Sábado de Supergrade Europeia e Brasileirão. Implementação estrita da Regra Anti-Hecatombe (Cap de Exposição e Isolamento do Soros).
+- **Status de Liquidação:** **PRE-MATCH CONGELADO / PENDING (GRADE ATIVA)**
+
+#### 1. Discovery e Seleções Analisadas
+1. **Newcastle United × Arsenal** (14:30 BRT — Premier League): Arsenal ou Empate X2 (@1.18)
+2. **FC Schalke 04 × VfB Stuttgart** (14:30 BRT — Bundesliga): Total Mais de 1.5 Gols (@1.22) / Over 2.5 (@1.72)
+3. **Sevilla × Real Betis** (14:30 BRT — La Liga): Total Menos de 3.5 Gols (@1.25)
+4. **Palmeiras × Flamengo** (16:30 BRT — Brasileirão Série A): Total Mais de 1.5 Gols (@1.38) / BTTS Sim (@1.85)
+5. **Napoli × Torino** (16:45 BRT — Serie A): Napoli ou Empate 1X (@1.15) / Napoli DNB (@1.22)
+6. **Real Madrid × Celta de Vigo** (17:00 BRT — La Liga): Real Madrid Vence W1 (@1.40) / Real Madrid Over 1.5 (@1.30)
+7. **Bahia × Coritiba** (17:30 BRT — Brasileirão Série A): Bahia ou Empate 1X (@1.14)
+
+#### 2. Bilhetes Estruturados (Regra Anti-Hecatombe / Zero Intersecção)
+
+- ⭐ **BILHETE SUPREMO V7.5 (@2.02):**
+  - Newcastle x Arsenal: Arsenal X2 (@1.18)
+  - Schalke 04 x Stuttgart: Total Mais de 1.5 Gols (@1.22)
+  - Real Madrid x Celta de Vigo: Real Madrid Vence W1 (@1.40)
+  - *Status:* ⏳ **PENDENTE**
+
+- 🛡️ **MÚLTIPLA 1 — SAFE ENXUTA V7.5 (Stop Points @2.72):**
+  - **Stop Point 1 (Subtotal @1.76):**
+    - Sevilla x Betis: Total Menos de 3.5 Gols (@1.25)
+    - Napoli x Torino: Napoli 1X (@1.15)
+    - Bahia x Coritiba: Bahia 1X (@1.14)
+  - **Stop Point 2 (Blindagem DNB @2.72):**
+    - Sevilla x Betis Under 3.5 + Bahia 1X + Napoli Empate Anula (@1.22)
+  - *Status:* ⏳ **PENDENTE**
+
+- 🔥 **DESAFIO SOROS FAS — CICLO 6 / DIA 1 DE 30 (@1.38):**
+  - Palmeiras x Flamengo: Total Mais de 1.5 Gols no Jogo (@1.38)
+  - *Stake:* R$ 10,00 | *Retorno Projetado:* R$ 13,80
+  - *Status:* ⏳ **PENDENTE**
+
+- 🚀 **MÚLTIPLA 2 — SUPER ATAQUE V7.5 (@4.14):**
+  - Schalke x Stuttgart Over 2.5 (@1.72) + Palmeiras x Flamengo BTTS Sim (@1.85) + Real Madrid Over 1.5 (@1.30)
+  - *Status:* ⏳ **PENDENTE**
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 @22.40):**
+  - 8 seleções horizontais no formato Sistema 6/8.
+  - *Status:* ⏳ **PENDENTE**

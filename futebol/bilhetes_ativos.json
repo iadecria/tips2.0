@@ -1,161 +1,130 @@
 {
-  "date": "2026-11-20",
-  "snapshotId": "FAS_FOOTBALL_2026-11-20_V1_EURO_FRIDAY_MELBET_V7",
-  "status": "SETTLED",
-  "notes": "GRADE DE 20/11/2026 AUDITADA (CONFERE): Noite atípica com hecatombe de zebras continentais na Europa. Bayern de Munique tropeçou em 1x1 com o Colônia (com lesões de Kane e Olise), Athletic Bilbao caiu por 0x1 para o Espanyol em San Mamés e FC Porto empatou em 1x1 na Taça de Portugal. GESTÃO DE RISCO DO COFRE FUNCIONOU: A stake do Desafio Soros estava 100% protegida pelo cofre ativado no Dia 5 (R$ 10,00 no cofre), impedindo qualquer perda de capital próprio do usuário.",
-  "auditSummary": {
-    "roundResult": "RODADA DE ANOMALIA / HECATOMBE DE ZEBRAS EUROPEIAS (-R$ 25,25)",
-    "invested": 25.25,
-    "returnedStandard": 0.00,
-    "netProfitStandard": -25.25,
-    "supremoStatus": "RED (Bayern 1x1 Colônia e Espanyol 1x0 Bilbao)",
-    "safeStop1Status": "RED (Zebra do Bayern e Bilbao)",
-    "safeStop2Status": "RED",
-    "safeStop3Status": "RED",
-    "safePlusStatus": "RED",
-    "nationsStatus": "RED",
-    "improvavelStatus": "RED",
-    "sorosDay6Status": "MISS (Ciclo 5 encerrado no Dia 6; Risco Zero Absoluto ativado com R$ 10,00 protegidos no Cofre)",
-    "sorosNextDay": 1,
-    "sorosNextStake": 10.00,
-    "sorosVaultProfit": 10.00,
-    "vaultProtected": true
-  },
-  "placaresOficiais": [
-    "Bayern de Munique 1 × 1 Colônia (Zebra: Kane e Olise lesionados; Gol de Brown aos 37')",
-    "Athletic Bilbao 0 × 1 Espanyol (Zebra: Gol de Roberto Fernández aos 66')",
-    "Troyes 3 × 1 Le Havre (Troyes 1X ✅, Over 2.5 ✅; Pênalti aos 98')",
-    "Arminia Bielefeld 1 × 2 Magdeburg (Over 1.5 ✅, Over 2.5 ✅)",
-    "Darmstadt 3 × 1 Heidenheim (Over 1.5 ✅, Over 2.5 ✅, Over 3.5 ✅)",
-    "FC Porto 1 × 1 União Paredes (Tempo Normal: 1x1; Porto venceu nos pênaltis)"
-  ],
+  "date": "2026-11-21",
+  "snapshotId": "FAS_FOOTBALL_2026-11-21_V1_SATURDAY_ANTI_CORRELATION_V7_5",
+  "status": "ACTIVE",
+  "notes": "GRADE DE 21/11/2026 ATIVA: Metodologia FAS V7.5 (Anti-Correlation & Exposure Cap Engine). Super Sábado Europeu e Brasileirão com ZERO intersecção de times entre Supremo, SAFE e Soros! Aplicação estrita da Regra Anti-Hecatombe: se houver zebra no Supremo, a SAFE e o Soros permanecem 100% blindados. Desafio Soros Ciclo 6 (Dia 1) com R$ 10,00 protegidos do cofre na grande final do Brasileirão.",
   "strategicImprovementsApplied": {
-    "dnbSafeShieldV7": "Ativo: Stop 2 utilizou Empate Anula no Troyes (Troyes 3x1 venceu com sobras)",
-    "antiTrapBttsV7": "Ativo: Super Ataque focado em Gols Totais",
-    "vaultShield": "Ativo e Salvou a Banca: R$ 10,00 travados no cofre mantiveram o usuário sem prejuízo de capital real"
+    "antiCorrelationCapV75": "Ativo: ZERO sobreposição de times entre Bilhete Supremo, Múltipla SAFE e Desafio Soros.",
+    "sorosStrictIsolationV75": "Ativo: O Desafio Soros corre em raia 100% isolada e independente da grade regular.",
+    "dnbSafeShieldV75": "Ativo: Stop 2 da SAFE com Empate Anula no Napoli contra o Torino.",
+    "comfortableWindow": "Ativo: Todos os jogos iniciam a partir das 14:30 BRT, garantindo tempo tranquilo de execução."
   },
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO V7 — O FILÉ DOS TURNOS (Sexta 20/11)",
+    "name": "⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE EUROPEIA",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.24,
-    "stake": 3.0,
-    "unitStake": 0.2,
-    "potentialReturn": 9.72,
-    "actualReturn": 0.0,
-    "status": "MISS",
+    "multiplierGlobal": 2.02,
+    "stake": 25.0,
+    "potentialReturn": 50.50,
+    "philosophy": "Três forças continentais com ampla superioridade estatística e sem risco de dependência com outros bilhetes: Arsenal líder contra Newcastle desfalcado, chuva de gols em Schalke x Stuttgart e o Real Madrid dominante no Bernabéu.",
+    "status": "ACTIVE",
     "selections": [
       {
-        "match": "Bayern de Munique x 1. FC Köln (16:30 BRT)",
+        "match": "Newcastle United x Arsenal (14:30 BRT)",
+        "competition": "Premier League (Inglaterra)",
+        "market": "Arsenal ou Empate (Dupla Chance X2)",
+        "odd": 1.18,
+        "status": "ACTIVE",
+        "notes": "Arsenal é o líder da Premier League (9 vitórias em 10 jogos e apenas 5 gols sofridos); Newcastle em 12º sem Joelinton."
+      },
+      {
+        "match": "FC Schalke 04 x VfB Stuttgart (14:30 BRT)",
         "competition": "Bundesliga (Alemanha)",
-        "market": "Bayern de Munique Vence por 2+ Gols (Handicap Asiático 1 (-1.5))",
-        "odd": 1.42,
-        "status": "MISS",
-        "score": "1x1"
-      },
-      {
-        "match": "Athletic Bilbao x Espanyol (17:00 BRT)",
-        "competition": "La Liga (Espanha)",
-        "market": "Athletic Bilbao Vence (W1 na Melbet)",
-        "odd": 1.52,
-        "status": "MISS",
-        "score": "0x1"
-      },
-      {
-        "match": "Arminia Bielefeld x Magdeburg (14:30 BRT)",
-        "competition": "2. Bundesliga (Alemanha)",
         "market": "Total Mais de 1.5 Gols no Jogo",
-        "odd": 1.2,
-        "status": "HIT",
-        "score": "1x2"
+        "odd": 1.22,
+        "status": "ACTIVE",
+        "notes": "Stuttgart com ataque vertical de alto volume e Schalke com média superior a 1.8 gols sofridos por jogo."
       },
       {
-        "match": "Troyes x Le Havre (16:45 BRT)",
-        "competition": "Ligue 1 (França)",
-        "market": "Troyes ou Empate (Dupla Chance 1X)",
-        "odd": 1.25,
-        "status": "HIT",
-        "score": "3x1"
+        "match": "Real Madrid x Celta de Vigo (17:00 BRT)",
+        "competition": "La Liga (Espanha)",
+        "market": "Real Madrid Vence (W1 na Melbet)",
+        "odd": 1.40,
+        "status": "ACTIVE",
+        "notes": "Real Madrid com 8 vitórias consecutivas no Santiago Bernabéu; Mbappé e Vinicius Jr contra o Celta que não venceu fora de casa."
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE ENXUTA V7 (Stop Points com Proteção DNB Melbet)",
+      "name": "MÚLTIPLA 1 — SAFE ENXUTA V7.5 (Stop Points com DNB / Zero Sobreposição)",
       "type": "SAFE",
       "stake": 15.0,
-      "unitStake": 1.0,
-      "actualReturn": 0.0,
-      "status": "MISS",
+      "multiplier": 2.72,
+      "potentialReturn": 40.80,
+      "status": "ACTIVE",
+      "philosophy": "Arquitetura 100% descorrelacionada do Supremo. Foco em equilíbrio defensivo na Itália e Espanha e força do Bahia na Fonte Nova.",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Quádrupla Continental de Imunidade)",
-          "multiplier": 1.83,
-          "status": "MISS",
+          "level": "Stop Point 1 (Tripla Continental de Imunidade)",
+          "multiplier": 1.76,
+          "potentialReturn": 26.40,
           "legs": [
-            "Bayern de Munique x Colônia: Bayern Vence (W1 @1.12) ➔ MISS (1x1)",
-            "Athletic Bilbao x Espanyol: Athletic Bilbao 1X (@1.12) ➔ MISS (0x1)",
-            "Arminia Bielefeld x Magdeburg: Total Mais de 1.5 Gols (@1.20) ➔ HIT (1x2)",
-            "Troyes x Le Havre: Total Menos de 3.5 Gols (@1.22) ➔ MISS (3x1 pênalti aos 98')"
-          ]
+            "Sevilla x Real Betis (14:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.25)",
+            "Napoli x Torino (16:45 BRT): Napoli ou Empate (Dupla Chance 1X @1.15)",
+            "Bahia x Coritiba (17:30 BRT): Bahia ou Empate (Dupla Chance 1X @1.14)"
+          ],
+          "status": "ACTIVE"
+        },
+        {
+          "level": "Stop Point 2 (Blindagem DNB Melbet no Diego Maradona)",
+          "multiplier": 2.72,
+          "potentialReturn": 40.80,
+          "netProfit": 25.80,
+          "notes": "Se o Napoli empatar com o Torino, a Melbet reembolsa a perna (@1.00) e você resgata o Stop 1 garantido!",
+          "legs": [
+            "Sevilla x Real Betis: Total Menos de 3.5 Gols (@1.25)",
+            "Bahia x Coritiba: Bahia 1X (@1.14)",
+            "Napoli x Torino (16:45 BRT): Napoli — Empate Anula Aposta (Handicap 1 (0) @1.22 na Melbet)"
+          ],
+          "status": "ACTIVE"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ V7 (Alavancagem de Favoritos com Gols)",
-      "type": "SAFE+",
-      "stake": 2.25,
-      "unitStake": 0.15,
-      "multiplier": 4.18,
-      "actualReturn": 0.0,
-      "status": "MISS"
-    },
-    {
-      "name": "🚀 MÚLTIPLA 3 — SUPER ATAQUE V7 (Gols Totais sem Armadilha de BTTS)",
+      "name": "🚀 MÚLTIPLA 2 — SUPER ATAQUE V7.5 (Gols & Trocação)",
       "type": "ATTACK",
-      "stake": 1.5,
-      "unitStake": 0.1,
-      "multiplier": 5.49,
-      "actualReturn": 0.0,
-      "status": "MISS"
+      "stake": 3.0,
+      "multiplier": 4.14,
+      "potentialReturn": 12.42,
+      "status": "ACTIVE",
+      "legs": [
+        "Schalke 04 x VfB Stuttgart (14:30 BRT): Total Mais de 2.5 Gols no Jogo (@1.72)",
+        "Palmeiras x Flamengo (16:30 BRT): Ambas as Equipes Marcam — Sim (@1.85)",
+        "Real Madrid x Celta de Vigo (17:00 BRT): Real Madrid — Total Individual Mais de 1.5 Gols (@1.30)"
+      ]
     },
     {
-      "name": "🏆 MÚLTIPLA DUPLA DE IMPOSIÇÃO V7 (Europa Elite)",
-      "type": "NATIONS",
-      "stake": 1.5,
-      "unitStake": 0.1,
-      "multiplier": 2.73,
-      "actualReturn": 0.0,
-      "status": "MISS"
-    },
-    {
-      "name": "🤠 MÚLTIPLA 4 — APOSENTAR O NETO V7 (Alavancagem Assimétrica)",
-      "type": "NETO",
-      "stake": 1.0,
-      "unitStake": 0.07,
-      "multiplier": 58.65,
-      "actualReturn": 0.0,
-      "status": "MISS"
-    },
-    {
-      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7 (Modo Sistema 6/8 na Melbet)",
+      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 na Melbet)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
-      "unitStake": 0.07,
-      "multiplier": 26.5,
-      "actualReturn": 0.0,
-      "status": "MISS"
+      "multiplier": 22.40,
+      "potentialReturn": 22.40,
+      "status": "ACTIVE",
+      "philosophy": "Cobertura das 8 melhores teses do sábado no formato Aposta de Sistema 6/8 na Melbet.",
+      "legs": [
+        "Newcastle x Arsenal: Arsenal X2 (@1.18)",
+        "Schalke 04 x Stuttgart: Total Mais de 1.5 Gols (@1.22)",
+        "Sevilla x Betis: Total Menos de 3.5 Gols (@1.25)",
+        "Napoli x Torino: Napoli 1X (@1.15)",
+        "Palmeiras x Flamengo: Total Mais de 1.5 Gols (@1.38)",
+        "Real Madrid x Celta Vigo: Real Madrid Vence (W1 @1.40)",
+        "Bahia x Coritiba: Bahia 1X (@1.14)",
+        "Real Madrid x Celta Vigo: Real Madrid Total Mais de 1.5 Gols (@1.30)"
+      ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 5 / DIA 6 DE 30",
-    "day": 6,
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 6 / DIA 1 DE 30",
+    "day": 1,
     "targetDays": 30,
-    "stake": 55.58,
-    "multiplier": 1.44,
-    "actualReturn": 0.0,
-    "status": "MISS",
-    "vaultProtected": true,
-    "notes": "Ciclo 5 encerrado no Dia 6. Regra de Risco Zero Funcionou: R$ 10,00 da stake inicial estavam no cofre (sem perda de dinheiro real). O Ciclo 6 reinicia amanhã com R$ 10,00 preservados!"
+    "stake": 10.0,
+    "multiplier": 1.38,
+    "potentialReturn": 13.80,
+    "status": "ACTIVE",
+    "philosophy": "ISOLAMENTO ABSOLUTO: Entrada no confronto do título brasileiro com Palmeiras e Flamengo. Cenário de jogo ultra-franco com previsão mínima de 2 gols. R$ 10,00 da stake preservados pelo cofre.",
+    "legs": [
+      "Palmeiras x Flamengo (16:30 BRT): Total Mais de 1.5 Gols no Jogo (@1.38 na aba 'Total' da Melbet)"
+    ]
   }
 }

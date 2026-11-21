@@ -725,3 +725,37 @@ Este arquivo preserva snapshots imutáveis, decisões pré-jogo, liquidações p
 - 🎲 **MÚLTIPLA 5 — O BINGO DA COPA NBA (Round Sweep 9 Jogos @41.80):**
   - 100% dos 9 vencedores da noite em Moneyline: Hawks + Pistons + Cavaliers + Magic + Bulls + Thunder + Suns + Nuggets + Lakers.
   - *Status:* ⏳ **PENDENTE**
+
+
+#### 3. Auditoria Pós-Jogo e Liquidação Oficial (Confere 20/11)
+
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (DESTAQUE: GREEN CRAVADO NO DESAFIO SOROS DIA 1)**
+- **Placares Oficiais dos 9 Jogos da Copa da NBA:**
+  1. *Charlotte Hornets 97 @ 111 Atlanta Hawks:* Hawks ML ✅, Hawks -5.5 ✅ (+14 pts)
+  2. *Toronto Raptors 105 @ 102 Detroit Pistons:* Zebra (Raptors venceram) ➔ Pistons ML ❌
+  3. *Indiana Pacers 119 @ 128 Cleveland Cavaliers:* Cavaliers ML ✅ (Harden 51 pts)
+  4. *Orlando Magic 113 @ 111 Brooklyn Nets:* Magic ML ✅
+  5. *Washington Wizards 98 @ 94 Chicago Bulls:* Wizards venceram ➔ Bulls ML ❌, Over 222.5 ❌ (192 pts)
+  6. *New Orleans Pelicans 120 @ 126 Oklahoma City Thunder:* Thunder ML ✅ (+6 pts)
+  7. *Phoenix Suns 111 @ 101 Utah Jazz:* Suns ML ✅, Suns +2.5 ✅, Suns -3.5 ✅ (+10 pts)
+  8. *Houston Rockets 124 @ 133 Denver Nuggets:* Nuggets ML ✅, Over 216.5 ✅ (257 pts totais!)
+  9. *Sacramento Kings 104 @ 106 Los Angeles Lakers:* Lakers ML ✅ (Lakers -4.5 ❌ venceu por 2 pontos)
+
+#### 4. Liquidação dos Bilhetes
+
+- 🎯 **DESAFIO SOROS BASQUETE — DIA 1 DE 30 (@1.37):** 🟢 **100% GREEN IMPECÁVEL!**
+  - OKC Thunder Vence (ML @1.22 ✅ 126x120) + Lakers Vence (ML @1.12 ✅ 106x104)
+  - *Retorno Realizado:* **R$ 13,70**! A banca inicial de R$ 10,00 salta para **R$ 13,70** e avança para o **DIA 2 DE 30**!
+
+- ⭐ **BILHETE SUPREMO BASQUETE (@2.05):** ❌ **MISS POR 2 PONTOS**
+  - Hawks ML ✅ + Thunder ML ✅ + Lakers -4.5 ❌ (Lakers venceu por 106x104; o Kings cortou para 2 pontos no último segundo).
+  - *Miss Audit:* `STATISTICAL_VARIANCE` — Tese de vitória cravada com perfeição, faltou apenas 1 cesta para cobrir o spread elástico.
+
+- 🛡️ **MÚLTIPLA 1 — SAFE BASQUETE (@3.17):** ❌ **RED**
+  - Stop Point 1: Magic ML ✅, Pistons ML ❌ (102x105). Stop Point 2: Suns +2.5 ✅, Rockets x Nuggets Over 216.5 ✅ (257 pts).
+
+- ⚡ **MÚLTIPLA 2 — SUPER ATAQUE (@4.20):** ❌ **RED (2 de 3 acertos)**
+  - Hawks -5.5 ✅ + Suns -3.5 ✅ + Wizards x Bulls Over 222.5 ❌.
+
+- 🎲 **MÚLTIPLA 5 — O BINGO DA COPA NBA (@41.80):** ❌ **RED (7 DE 9 ACERTOS / 77.8% ASSERTIVIDADE)**
+  - 7 acertos cravados em 9 jogos! Uma taxa de acerto pre-match altíssima para rodada completa da NBA.

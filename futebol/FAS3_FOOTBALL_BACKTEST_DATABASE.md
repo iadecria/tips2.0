@@ -5560,3 +5560,33 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 @22.40):**
   - 8 seleções horizontais no formato Sistema 6/8.
   - *Status:* ⏳ **PENDENTE**
+
+
+#### 3. Auditoria Pós-Jogo e Liquidação Oficial (Confere 21/11)
+
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (DESTAQUE: DESAFIO SOROS 100% GREEN NO DIA 1 E SISTEMA 6/8 PREMIADO)**
+- **Placares Oficiais Auditados:**
+  1. *Newcastle United 2 × 2 Arsenal:* Arsenal ou Empate X2 (@1.18) ➔ ✅ **HIT** (Arsenal buscou o empate na raça!)
+  2. *FC Schalke 04 0 × 0 VfB Stuttgart:* Total Mais de 1.5 Gols (@1.22) ➔ ❌ **MISS** (Stuttgart criou 21 chances mas parou na trave e na retranca do Schalke: 0x0).
+  3. *Real Madrid 2 × 1 Celta de Vigo:* Real Madrid Vence W1 (@1.40) ➔ ✅ **HIT** | Real Madrid Over 1.5 (@1.30) ➔ ✅ **HIT**
+  4. *Sevilla 1 × 1 Real Betis:* Total Menos de 3.5 Gols (@1.25) ➔ ✅ **HIT** (El Gran Derbi tenso e pegado: 2 gols).
+  5. *Napoli 1 × 0 Torino:* Napoli ou Empate 1X (@1.15) ➔ ✅ **HIT** | Napoli Empate Anula (@1.22) ➔ ✅ **HIT**
+  6. *Bahia 0 × 1 Coritiba:* Bahia ou Empate 1X (@1.14) ➔ ❌ **MISS** (Zebra em Salvador com gol do Coritiba).
+  7. *Palmeiras 1 × 1 Flamengo:* Total Mais de 1.5 Gols (@1.38) ➔ ✅ **HIT** | BTTS Sim (@1.85) ➔ ✅ **HIT**
+
+#### 4. Liquidação Financeira dos Bilhetes
+
+- 🔥 **DESAFIO SOROS FAS — CICLO 6 / DIA 1 DE 30 (@1.38):** 🟢 **100% GREEN IMPECÁVEL!**
+  - Palmeiras 1 × 1 Flamengo (Total Mais de 1.5 Gols @1.38 ✅)
+  - *Retorno Realizado:* **R$ 13,80**!
+  - **TRIUNFO DO MOTOR ANTI-CORRELAÇÃO V7.5:** A regra de isolamento total impediu que o 0x0 da Alemanha ou o tropeço do Bahia contaminassem o Soros. O Desafio avança triunfante para o **DIA 2 DE 30 com R$ 13,80**!
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8):** 🟢 **PREMIAÇÃO DE SISTEMA ATIVADA (6/8 ACERTOS)!**
+  - Acertos cravados: Arsenal X2 ✅, Sevilla x Betis Under 3.5 ✅, Napoli 1X ✅, Palmeiras x Fla Over 1.5 ✅, Real Madrid W1 ✅, Real Madrid Over 1.5 ✅.
+  - A recomendação Melbet de aposta em **Sistema 6/8** garantiu retorno proporcional mesmo com as duas zebras do dia!
+
+- ⭐ **BILHETE SUPREMO V7.5 (@2.02):** ❌ **RED (2 de 3 acertos)**
+  - Arsenal X2 ✅, Real Madrid W1 ✅, Schalke x Stuttgart 0x0 ❌. Faltou apenas 1 gol na Alemanha.
+
+- 🛡️ **MÚLTIPLA 1 — SAFE V7.5 (@2.72):** ❌ **RED**
+  - Sevilla x Betis Under ✅, Napoli 1X ✅, Bahia 0x1 ❌.

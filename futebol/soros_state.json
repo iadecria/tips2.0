@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 10.0,
-  "currentDay": 1,
+  "currentStake": 13.80,
+  "currentDay": 2,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 10.0,
@@ -420,8 +420,9 @@
       "selection": "Palmeiras x Flamengo (Total Mais de 1.5 Gols no Jogo @1.38 na Melbet)",
       "odd": 1.38,
       "potentialReturn": 13.80,
-      "status": "ACTIVE",
-      "notes": "Ciclo 6 / Dia 1: R$ 10,00 preservados pelo cofre. ISOLAMENTO ABSOLUTO FAS V7.5: Jogo exclusivo do Brasileirão, sem intersecção com o Supremo ou SAFE."
+      "actualReturn": 13.80,
+      "status": "HIT",
+      "notes": "100% GREEN no Dia 1! Palmeiras 1x1 Flamengo (Over 1.5 ✅). Retorno: R$ 13,80. ISOLAMENTO FAS V7.5 VITORIOSO: A regra anti-correlação funcionou com precisão cirúrgica e blindou o Soros! Avança para o Dia 2 com R$ 13,80!"
     }
   ]
 }

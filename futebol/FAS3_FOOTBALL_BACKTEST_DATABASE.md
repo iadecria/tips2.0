@@ -5590,3 +5590,43 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 
 - 🛡️ **MÚLTIPLA 1 — SAFE V7.5 (@2.72):** ❌ **RED**
   - Sevilla x Betis Under ✅, Napoli 1X ✅, Bahia 0x1 ❌.
+
+
+---
+
+### [2026-11-23] — RODADA DIÁRIA (PREMIER LEAGUE, SERIE A, LA LIGA, BRASILEIRÃO SÉRIE A & AFC CHAMPIONS LEAGUE)
+
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-23_V1_MONDAY_ANTI_CORRELATION_V7_5
+- **Data da Rodada:** 23/11/2026 (Segunda-feira)
+- **Horário de Fechamento:** 11:15 BRT
+- **Metodologia:** FAS V7.5 (Melbet Engine, Anti-Correlation Architecture & Short Slate Protocol)
+
+#### 1. Resumo Executivo e Grade do Dia
+- **Status:** 🟡 **ATIVO (PRE-MATCH)**
+- **Regras V7.5 em Vigor:** Teto estrito de exposição por partida (Cap ≤ 2 bilhetes), isolamento absoluto do Desafio Soros Ciclo 6 / Dia 2 na Champions Asiática, Stop 2 da SAFE com proteção DNB e protocolo de grade curta sem inflar bilhetes secundários.
+
+#### 2. Bilhetes Ativos Registrados
+- ⭐ **BILHETE SUPREMO V7.5 (@2.00):**
+  - Monza x Fiorentina: Fiorentina ou Empate (X2 @1.22)
+  - Brentford x Everton: Total Menos de 3.5 Gols no Jogo (@1.28)
+  - Levante x Elche: Levante ou Empate (1X @1.28)
+  - *Stake:* R$ 25,00 | *Retorno Projetado:* R$ 50,00 | *Status:* ⏳ **PENDENTE**
+
+- 🛡️ **MÚLTIPLA 1 — SAFE V7.5 (Stop Points com DNB / Zero Sobreposição):**
+  - *Stop Point 1 (@1.44):* Bayern de Munique W Vence (@1.18) + Internacional x Vitória Menos de 3.5 Gols (@1.22)
+  - *Stop Point 2 (@1.76):* Stop 1 + Botafogo DNB / Handicap 1 (0) (@1.22)
+  - *Stake:* R$ 15,00 | *Retorno Projetado:* R$ 26,40 | *Status:* ⏳ **PENDENTE**
+
+- 🇧🇷 **MÚLTIPLA 2 — FAS RODADA: BRASILEIRÃO SÉRIE A (@2.02):**
+  - Internacional x Vitória: Internacional ou Empate (1X @1.20)
+  - Botafogo x São Paulo: Botafogo DNB / Handicap 1 (0) (@1.38)
+  - Santos x Grêmio: Santos ou Empate (1X @1.22)
+  - *Stake:* R$ 10,00 | *Retorno Projetado:* R$ 20,20 | *Status:* ⏳ **PENDENTE**
+
+- 🔥 **DESAFIO SOROS FAS — CICLO 6 / DIA 2 DE 30 (@1.30):**
+  - Al-Ittihad x Pakhtakor Tashkent: Al-Ittihad Vence (W1 na Melbet @1.30)
+  - *Stake:* R$ 13,80 | *Retorno Projetado:* R$ 17,94 | *Status:* ⏳ **PENDENTE**
+
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 @62.40):**
+  - 8 seleções horizontais no formato Sistema 6/8 na Melbet.
+  - *Stake:* R$ 1,00 | *Retorno Projetado:* R$ 62,40 | *Status:* ⏳ **PENDENTE**

@@ -1,127 +1,112 @@
 {
-  "date": "2026-11-21",
-  "snapshotId": "FAS_FOOTBALL_2026-11-21_V1_SATURDAY_ANTI_CORRELATION_V7_5",
-  "status": "SETTLED",
-  "notes": "GRADE DE 21/11/2026 AUDITADA (CONFERE): O novo motor FAS V7.5 Anti-Correlation & Exposure Cap Engine funcionou com perfeição cirúrgica! O isolamento total do DESAFIO SOROS garantiu 100% GREEN no Dia 1 (@1.38) com Palmeiras 1x1 Flamengo, sem sofrer contágio do futebol europeu. A banca inicial de R$ 10,00 salta para R$ 13,80 rumo ao Dia 2! No Improvável (Sistema 6/8 na Melbet), tivemos 6 de 8 acertos (Arsenal X2 ✅, Sevilla x Betis Under ✅, Napoli 1X ✅, Palmeiras x Fla Over ✅, Real Madrid W1 ✅, Real Madrid Over 1.5 ✅).",
-  "auditSummary": {
-    "roundResult": "DESAFIO SOROS 100% GREEN (DIA 1) | SISTEMA 6/8 PREMIADO",
-    "sorosDay1Status": "GREEN_CRAVADO_1_DE_1 (@1.38 -> R$ 13,80)",
-    "sorosNextDay": 2,
-    "sorosNextStake": 13.80,
-    "supremoStatus": "MISS (Arsenal X2 ✅, Real Madrid W1 ✅, Schalke x Stuttgart 0x0 ❌)",
-    "safeStatus": "MISS (Sevilla x Betis Under ✅, Napoli 1X ✅, Bahia 0x1 Coritiba ❌)",
-    "attackStatus": "MISS (2 de 3: Palmeiras x Fla BTTS ✅, Real Madrid Over 1.5 ✅)",
-    "improvavelStatus": "SISTEMA_6_DE_8_PREMIADO (6 de 8 acertos na Melbet)"
-  },
-  "placaresOficiais": [
-    "Newcastle United 2 × 2 Arsenal (Arsenal X2 ✅)",
-    "FC Schalke 04 0 × 0 VfB Stuttgart (Over 1.5 ❌)",
-    "Real Madrid 2 × 1 Celta de Vigo (Real Madrid W1 ✅, Real Madrid Over 1.5 ✅)",
-    "Sevilla 1 × 1 Real Betis (Total Menos de 3.5 ✅)",
-    "Napoli 1 × 0 Torino (Napoli 1X ✅, Napoli DNB ✅)",
-    "Bahia 0 × 1 Coritiba (Zebra: Coritiba venceu por 0x1)",
-    "Palmeiras 1 × 1 Flamengo (Total Mais de 1.5 ✅, BTTS Sim ✅)"
-  ],
+  "date": "2026-11-23",
+  "snapshotId": "FAS_FOOTBALL_2026-11-23_V1_MONDAY_ANTI_CORRELATION_V7_5",
+  "status": "ACTIVE",
+  "notes": "GRADE DE 23/11/2026 (SEGUNDA-FEIRA) ATIVA: Operação sob a metodologia FAS V7.5 (Melbet Engine & Anti-Correlation Architecture). Grade compacta (Short Slate Protocol) com teto estrito de exposição (Cap <= 2) e isolamento total do Desafio Soros Ciclo 6 / Dia 2 na Champions Asiática (Al-Ittihad @1.30). Stop 2 da SAFE blindado com proteção DNB e zero sobreposição com o Bilhete Supremo da Europa.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE EUROPEIA",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 2.02,
+    "multiplierGlobal": 2.00,
     "stake": 25.0,
-    "actualReturn": 0.0,
-    "status": "MISS",
+    "potentialReturn": 50.00,
+    "status": "PENDING",
     "selections": [
       {
-        "match": "Newcastle United x Arsenal (14:30 BRT)",
-        "competition": "Premier League (Inglaterra)",
-        "market": "Arsenal ou Empate (Dupla Chance X2)",
-        "odd": 1.18,
-        "status": "HIT",
-        "score": "2x2"
-      },
-      {
-        "match": "FC Schalke 04 x VfB Stuttgart (14:30 BRT)",
-        "competition": "Bundesliga (Alemanha)",
-        "market": "Total Mais de 1.5 Gols no Jogo",
+        "match": "Monza x Fiorentina (16:45 BRT)",
+        "competition": "Serie A (Itália)",
+        "market": "Fiorentina ou Empate (Dupla Chance X2)",
         "odd": 1.22,
-        "status": "MISS",
-        "score": "0x0"
+        "status": "PENDING"
       },
       {
-        "match": "Real Madrid x Celta de Vigo (17:00 BRT)",
+        "match": "Brentford x Everton (17:00 BRT)",
+        "competition": "Premier League (Inglaterra)",
+        "market": "Total Menos de 3.5 Gols no Jogo",
+        "odd": 1.28,
+        "status": "PENDING"
+      },
+      {
+        "match": "Levante x Elche (17:00 BRT)",
         "competition": "La Liga (Espanha)",
-        "market": "Real Madrid Vence (W1 na Melbet)",
-        "odd": 1.40,
-        "status": "HIT",
-        "score": "2x1"
+        "market": "Levante ou Empate (Dupla Chance 1X)",
+        "odd": 1.28,
+        "status": "PENDING"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE ENXUTA V7.5 (Stop Points com DNB / Zero Sobreposição)",
+      "name": "🛡️ MÚLTIPLA 1 — SAFE V7.5 (Stop Points com DNB / Zero Sobreposição)",
       "type": "SAFE",
       "stake": 15.0,
-      "actualReturn": 0.0,
-      "status": "MISS",
+      "multiplier": 1.76,
+      "potentialReturn": 26.40,
+      "status": "PENDING",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Tripla Continental de Imunidade)",
-          "multiplier": 1.76,
-          "status": "MISS",
+          "level": "Stop Point 1 (Âncora Máxima — Odd @1.44)",
+          "multiplier": 1.44,
+          "status": "PENDING",
           "legs": [
-            "Sevilla x Real Betis: Total Menos de 3.5 Gols (@1.25) ➔ HIT (1x1)",
-            "Napoli x Torino: Napoli ou Empate (1X @1.15) ➔ HIT (1x0)",
-            "Bahia x Coritiba: Bahia ou Empate (1X @1.14) ➔ MISS (0x1)"
+            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18)",
+            "Internacional x Vitória: Total Menos de 3.5 Gols (@1.22)"
+          ]
+        },
+        {
+          "level": "Stop Point 2 (Blindagem Consagrada com Proteção DNB — Odd @1.76)",
+          "multiplier": 1.76,
+          "status": "PENDING",
+          "legs": [
+            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18)",
+            "Internacional x Vitória: Total Menos de 3.5 Gols (@1.22)",
+            "Botafogo x São Paulo: Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.22)"
           ]
         }
       ]
     },
     {
-      "name": "🚀 MÚLTIPLA 2 — SUPER ATAQUE V7.5 (Gols & Trocação)",
-      "type": "ATTACK",
-      "stake": 3.0,
-      "multiplier": 4.14,
-      "actualReturn": 0.0,
-      "status": "MISS",
+      "name": "🇧🇷 MÚLTIPLA 2 — FAS RODADA: BRASILEIRÃO SÉRIE A (36ª RODADA)",
+      "type": "RODADA",
+      "stake": 10.0,
+      "multiplier": 2.02,
+      "potentialReturn": 20.20,
+      "status": "PENDING",
       "legs": [
-        "Schalke 04 x VfB Stuttgart: Total Mais de 2.5 Gols (@1.72) ➔ MISS (0x0)",
-        "Palmeiras x Flamengo: Ambas as Equipes Marcam — Sim (@1.85) ➔ HIT (1x1)",
-        "Real Madrid x Celta de Vigo: Real Madrid — Total Individual Mais de 1.5 Gols (@1.30) ➔ HIT (2x1)"
+        "Internacional x Vitória: Internacional ou Empate (1X @1.20)",
+        "Botafogo x São Paulo: Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.38)",
+        "Santos x Grêmio: Santos ou Empate (1X @1.22)"
       ]
     },
     {
       "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 na Melbet)",
       "type": "IMPROVAVEL",
       "stake": 1.0,
-      "multiplier": 22.40,
-      "actualReturn": 6.80,
-      "status": "PARTIAL_WIN_SYSTEM",
-      "notes": "6 de 8 ACERTOS CRAVADOS! Premiação de Sistema ativada na Melbet.",
+      "multiplier": 62.40,
+      "potentialReturn": 62.40,
+      "status": "PENDING",
+      "notes": "Aposta recomendada no formato 'Aposta de Sistema 6/8' na Melbet para premiação a partir de 6 acertos.",
       "legs": [
-        "Newcastle x Arsenal: Arsenal X2 (@1.18) ➔ HIT (2x2)",
-        "Schalke 04 x Stuttgart: Total Mais de 1.5 Gols (@1.22) ➔ MISS (0x0)",
-        "Sevilla x Betis: Total Menos de 3.5 Gols (@1.25) ➔ HIT (1x1)",
-        "Napoli x Torino: Napoli 1X (@1.15) ➔ HIT (1x0)",
-        "Palmeiras x Flamengo: Total Mais de 1.5 Gols (@1.38) ➔ HIT (1x1)",
-        "Real Madrid x Celta Vigo: Real Madrid Vence (W1 @1.40) ➔ HIT (2x1)",
-        "Bahia x Coritiba: Bahia 1X (@1.14) ➔ MISS (0x1)",
-        "Real Madrid x Celta Vigo: Real Madrid Total Mais de 1.5 Gols (@1.30) ➔ HIT (2x1)"
+        "Al-Ittihad x Pakhtakor: Al-Ittihad Vence & Total Mais de 1.5 Gols (@1.50)",
+        "Bayern de Munique W x Hoffenheim W: Bayern W Vence & Total Mais de 2.5 Gols (@1.45)",
+        "Monza x Fiorentina: Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62)",
+        "Brentford x Everton: Everton ou Empate (Dupla Chance X2 @1.55)",
+        "Levante x Elche: Levante Vence (W1 @2.18)",
+        "Brøndby x Midtjylland: FC Midtjylland ou Empate (Dupla Chance X2 @1.44)",
+        "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35)",
+        "Santos x Grêmio: Santos ou Empate & Total Mais de 1.5 Gols (@1.65)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 6 / DIA 1 DE 30",
-    "day": 1,
-    "targetDays": 30,
-    "stake": 10.0,
-    "multiplier": 1.38,
-    "potentialReturn": 13.80,
-    "actualReturn": 13.80,
-    "status": "HIT",
-    "philosophy": "ISOLAMENTO ABSOLUTO FAS V7.5: A entrada no Brasileirão bateu 100% GREEN (Palmeiras 1x1 Flamengo, Over 1.5 ✅). R$ 13,80 no bolso rumo ao Dia 2!",
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 6 / DIA 2 DE 30",
+    "type": "SOROS",
+    "stake": 13.80,
+    "multiplier": 1.30,
+    "potentialReturn": 17.94,
+    "status": "PENDING",
     "legs": [
-      "Palmeiras x Flamengo: Total Mais de 1.5 Gols no Jogo (@1.38) ➔ HIT (1x1 = 2 gols)"
+      "Al-Ittihad x Pakhtakor Tashkent (15:15 BRT — AFC Champions League Elite): Al-Ittihad Vence (W1 na Melbet @1.30)"
     ]
   }
 }

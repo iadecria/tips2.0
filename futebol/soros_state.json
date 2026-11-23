@@ -423,6 +423,16 @@
       "actualReturn": 13.80,
       "status": "HIT",
       "notes": "100% GREEN no Dia 1! Palmeiras 1x1 Flamengo (Over 1.5 ✅). Retorno: R$ 13,80. ISOLAMENTO FAS V7.5 VITORIOSO: A regra anti-correlação funcionou com precisão cirúrgica e blindou o Soros! Avança para o Dia 2 com R$ 13,80!"
+    },
+    {
+      "day": 2,
+      "date": "2026-11-23",
+      "stakeIn": 13.80,
+      "selection": "Al-Ittihad x Pakhtakor Tashkent (Al-Ittihad Vence W1 @1.30 na Melbet)",
+      "odd": 1.30,
+      "potentialReturn": 17.94,
+      "status": "PENDING",
+      "notes": "Dia 2 do Ciclo 6 com isolamento absoluto FAS V7.5: Confronto na Arábia Saudita pela AFC Champions League Elite. Al-Ittihad fortíssimo em casa contra o Pakhtakor frágil como visitante."
     }
   ]
 }

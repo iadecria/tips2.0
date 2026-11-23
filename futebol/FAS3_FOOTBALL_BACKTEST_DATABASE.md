@@ -5630,3 +5630,14 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
 - 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 @62.40):**
   - 8 seleções horizontais no formato Sistema 6/8 na Melbet.
   - *Stake:* R$ 1,00 | *Retorno Projetado:* R$ 62,40 | *Status:* ⏳ **PENDENTE**
+
+
+#### 3. Revalidação Operacional em Paralelo (Dual Track — 16:00 BRT)
+- **Snapshot ID:** FAS_FOOTBALL_2026-11-23_V2_REVALIDACAO_16H_MELBET_V7_5
+- **Motivo:** Apostador perdeu o início dos jogos matinais (Bayern W 14:00 finalizado em 1x0 e Al-Ittihad 15:15 com gol aos 7'). A grade foi revalidada para manter o dia operacionalmente ativo sem perder o tracking da Trilha A original.
+- **Trilha B (Operacional Ativa):**
+  - ⭐ **Bilhete Supremo Europeu (@2.00):** Idêntico (16:45 e 17:00 BRT) ➔ *Pendente*
+  - 🛡️ **Múltipla 1 — SAFE Noturna (@1.82):** Inter x Vitória Under 3.5 (@1.22) + Botafogo 1X (@1.22) + LAFC X2 (@1.35) ➔ *Pendente*
+  - 🇧🇷 **Múltipla 2 — Brasileirão Série A (@2.02):** Inter 1X (@1.20) + Botafogo DNB (@1.38) + Santos 1X (@1.22) ➔ *Pendente*
+  - 🔥 **Desafio Soros Dia 2 (@1.36):** Santos x Grêmio — Santos DNB (@1.36) [Stake: R$ 13,80 | Retorno: R$ 18,77] ➔ *Pendente*
+  - 🎲 **Múltipla 5 — O Improvável (Sistema 5/7 @42.80):** 7 seleções limpas ➔ *Pendente*

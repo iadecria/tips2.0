@@ -427,12 +427,24 @@
     {
       "day": 2,
       "date": "2026-11-23",
+      "track": "TRILHA_A_MATINAL_MODELO",
       "stakeIn": 13.80,
-      "selection": "Santos x Grêmio (Santos — Empate Anula Aposta / DNB / Handicap 1 (0) @1.36 na Melbet)",
+      "selection": "Al-Ittihad x Pakhtakor Tashkent (Al-Ittihad Vence W1 @1.30 na Melbet) [Trilha A - Modelo Original]",
+      "odd": 1.30,
+      "potentialReturn": 17.94,
+      "status": "PENDING",
+      "notes": "Trilha A (Estatística Pura do Modelo): Confronto na Arábia Saudita às 15:15 BRT. Gol aos 7' do 1ºT (1x0)."
+    },
+    {
+      "day": 2,
+      "date": "2026-11-23",
+      "track": "TRILHA_B_OPERACIONAL_REVALIDADA",
+      "stakeIn": 13.80,
+      "selection": "Santos x Grêmio (Santos — Empate Anula Aposta / DNB / Handicap 1 (0) @1.36 na Melbet) [Trilha B - Execução Real]",
       "odd": 1.36,
       "potentialReturn": 18.77,
       "status": "PENDING",
-      "notes": "Revalidação das 16h (usuário perdeu kickoff de Al-Ittihad). Seleção noturna (21:00 BRT) no Morumbis com Neymar, Coutinho e Gabigol diante de Grêmio sem João Pedro e Enamorado. Proteção DNB garante reembolso total em caso de empate!"
+      "notes": "Trilha B (Operacional Revalidada): Para execução real do apostador às 21:00 BRT no Morumbis. Proteção DNB garante reembolso total em caso de empate!"
     }
   ]
 }

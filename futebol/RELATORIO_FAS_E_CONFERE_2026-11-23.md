@@ -1,45 +1,50 @@
 # RELATÓRIO OFICIAL DE EXECUÇÃO FAS V7.5 — 23/11/2026 (SEGUNDA-FEIRA)
 
-**Snapshot ID:** `FAS_FOOTBALL_2026-11-23_V2_REVALIDACAO_16H_MELBET_V7_5`  
+**Snapshot ID:** `FAS_FOOTBALL_2026-11-23_V3_DUAL_TRACK_MATINAL_E_REVALIDADA`  
 **Data da Rodada:** 23/11/2026  
 **Horário de Emissão Original:** 11:15 BRT  
-**Horário de Revalidação de Grade:** 16:00 BRT  
-**Competições:** Premier League, Serie A, La Liga, Brasileirão Série A (36ª Rodada), MLS Cup Playoffs  
-**Metodologia:** FAS V7.5 (Melbet Engine, Anti-Correlation Architecture & Short Slate Protocol)
+**Horário de Revalidação Operacional:** 16:00 BRT  
+**Competições:** Premier League, Serie A, La Liga, Brasileirão Série A (36ª Rodada), MLS Cup Playoffs, Frauen-Bundesliga, AFC Champions League Elite  
+**Metodologia:** FAS V7.5 (Melbet Engine, Anti-Correlation Architecture & Dual-Track Tracking Protocol)
 
 ---
 
-## ⚡ NOTA DE REVALIDAÇÃO OPERACIONAL (16:00 BRT)
+## 🏛️ ARQUITETURA DUAL OFICIAL: RASTREAMENTO ESTATÍSTICO & OPERACIONAL
 
-1. **Jogos Encerrados / Iniciados com Gols:**
-   - *Bayern de Munique W 1 × 0 Hoffenheim W (14:00 BRT):* Encerrado (Gol de Edna Imade aos 8'). A aposta pré-jogo expirou.
-   - *Al-Ittihad × Pakhtakor (15:15 BRT):* Jogo em andamento. Al-Ittihad abriu o placar aos 7 minutos com Muhannad Al-Shanqeeti (1x0), não restando janela de 0x0 para entrada.
-2. **Preservação Integral do Bilhete Supremo:**
-   - O **Bilhete Supremo Europeu (@2.00)** é composto por jogos que **AINDA NÃO COMEÇARAM** (*Monza x Fiorentina às 16:45 BRT, Brentford x Everton às 17:00 BRT e Levante x Elche às 17:00 BRT*). Está 100% elegível e pronto para ser registrado imediatamente!
-3. **Reconfiguração da SAFE e do Desafio Soros:**
-   - A Múltipla SAFE foi ajustada para o bloco noturno (Internacional x Vitória 19:30 + Botafogo 20:00 + LAFC 20:00).
-   - O **Desafio Soros Dia 2** foi revalidado para a partida isolada das 21:00 BRT: **Santos × Grêmio com proteção Empate Anula Aposta (DNB @1.36)**, garantindo reembolso de 100% da stake caso ocorra empate!
+Para preservar a integridade matemática do modelo analítico e, simultaneamente, garantir a operabilidade diária do apostador que entrou após as 16h, o FAS 3 opera nesta data com **Dois Trilhos Paralelos Auditados**:
 
----
+* 📊 **TRILHA A (Estatística Pura do Modelo / Grade Matinal 11:15 BRT):**
+  - Mantém o registro histórico inalterado gerado antes de qualquer bola rolar no mundo.
+  - *Auditoria Parcial ao Vivo:*
+    - **Bayern de Munique W 1 × 0 Hoffenheim W:** ✅ **HIT (GREEN CRAVADO)** em Bayern W Vence (@1.18).
+    - **Al-Ittihad × Pakhtakor:** ✅ **HIT PROVISÓRIO** (Al-Ittihad vence com gol aos 7' de Muhannad Shanqeeti).
 
-## 🎯 Desafio Soros 30 Dias — Ciclo 6 / Dia 2 de 30 (Revalidado)
-
-- **Banca Atual:** R$ 13,80 (Conquistada com 100% Green no Dia 1 @1.38 com Palmeiras 1x1 Flamengo)
-- **Confronto Selecionado:** Santos × Grêmio (21:00 BRT — Estádio do Morumbis / Brasileirão Série A)
-- **Mercado:** **Santos — Empate Anula Aposta (DNB / Handicap 1 (0) na Melbet)**
-- **Cotação:** **@1.36**
-- **Stake:** R$ 13,80
-- **Retorno Projetado:** **R$ 18,77** *(Se vencer: Green de R$ 18,77; Se empatar: Stake de R$ 13,80 100% reembolsada!)*
-- **Tese Qualitativa:** O Santos joga em casa diante de sua torcida na capital paulista com seu quarteto estelar completo: Neymar, Gabigol, Philippe Coutinho e Everton Cebolinha. O Grêmio chega a São Paulo severamente desfalcado de dois titulares absolutos por suspensão (o lateral João Pedro e o ponta José Enamorado) e o volante Juan Nardoni lesionado. A linha DNB anula o empate e blinda a banca contra zebras.
+* 🎯 **TRILHA B (Execução Real do Apostador / Grade Revalidada 16:00 BRT):**
+  - Remove os confrontos das 14:00 e 15:15 BRT (já expirados para entrada pré-jogo e fora de 0x0).
+  - Preserva **100% o Bilhete Supremo Europeu (@2.00)** que inicia às 16:45 BRT.
+  - Reconfigura a SAFE para o turno da noite (19:30 às 20:00 BRT).
+  - Direciona o **Desafio Soros Dia 2** para **Santos × Grêmio (21:00 BRT com proteção Empate Anula Aposta DNB @1.36)**, com reembolso total garantido em caso de empate.
 
 ---
 
-## 🎫 Grade Oficial de Bilhetes Ativos Revalidados (Pós-16h00 BRT)
+## 🎯 Desafio Soros 30 Dias — Ciclo 6 / Dia 2 de 30
 
-### 1. ⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE EUROPEIA (ENTRADA IMEDIATA)
-* **Status:** ⏳ **PRONTO PARA APOSTAR (Jogos iniciam às 16:45 e 17:00 BRT)**
+| Trilha | Confronto | Horário | Mercado | Cotação | Stake | Retorno Projetado | Status |
+| :--- | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
+| **Trilha A (Modelo)** | Al-Ittihad × Pakhtakor | 15:15 BRT | Al-Ittihad Vence (W1) | @1.30 | R$ 13,80 | R$ 17,94 | ⏳ Ao vivo (1x0) |
+| **Trilha B (Operacional)** | Santos × Grêmio | 21:00 BRT | Santos Empate Anula (DNB) | @1.36 | R$ 13,80 | R$ 18,77 | ⏳ Pré-jogo (Morumbis) |
+
+*Nota Trilha B:* A linha DNB (Draw No Bet) anula completamente o risco do empate, reembolsando a totalidade dos R$ 13,80 caso a partida termine empatada.
+
+---
+
+## 🎫 Comparativo das Grades por Bilhete
+
+### 1. ⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE EUROPEIA (@2.00)
+> **STATUS:** **IDÊNTICO E 100% VÁLIDO NAS DUAS TRILHAS (Jogos iniciam a partir das 16:45 BRT).**
+
 * **Cotação Combinada:** **@2.00**
-* **Stake Recomendada:** 0.75u (R$ 25,00) | **Retorno Projetado:** **R$ 50,00**
+* **Stake Sugerida:** 0.75u (R$ 25,00) | **Retorno Projetado:** **R$ 50,00**
 * **Seleções:**
   1. *Monza × Fiorentina (16:45 BRT):* **Fiorentina ou Empate (Dupla Chance X2 @1.22)**
   2. *Brentford × Everton (17:00 BRT):* **Total Menos de 3.5 Gols no Jogo (@1.28)**
@@ -47,23 +52,22 @@
 
 ---
 
-### 2. 🛡️ MÚLTIPLA 1 — SAFE V7.5 REVALIDADA (STOP POINTS COM DNB)
-* **Status:** ⏳ **TURNO DA NOITE (Início às 19:30 BRT)**
-* **Stake Recomendada:** 1.00u (R$ 15,00) | **Cotação Stop 2:** **@1.82** | **Retorno Projetado:** **R$ 27,30**
-* **Estrutura por Stop Points:**
-  - 🟢 **Stop Point 1 (Âncora Noturna — Odd @1.49):**
-    1. *Internacional × Vitória (19:30 BRT):* **Total Menos de 3.5 Gols no Jogo (@1.22)**
-    2. *Botafogo × São Paulo (20:00 BRT):* **Botafogo ou Empate (Dupla Chance 1X @1.22)**
-  - 🟡 **Stop Point 2 (Blindagem Consagrada com Proteção DNB — Odd @1.82):**
-    3. *St. Louis City × Los Angeles FC (20:00 BRT):* **Los Angeles FC ou Empate (Dupla Chance X2 @1.35)**
-    *(Cobre o duelo de playoffs da MLS onde o LAFC tem elenco muito superior).*
+### 2. 🛡️ MÚLTIPLA 1 — SAFE V7.5
+
+* **Trilha A (Matinal Oficial — @1.76):**
+  - *Stop Point 1 (@1.44):* Bayern de Munique W Vence (@1.18 ➔ **GREEN 1x0 ✅**) + Internacional x Vitória Menos de 3.5 (@1.22).
+  - *Stop Point 2 (@1.76):* Stop 1 + Botafogo DNB (@1.22).
+* **Trilha B (Operacional Noturna Revalidada — @1.82):**
+  - *Stop Point 1 (@1.49):* Internacional x Vitória Menos de 3.5 (@1.22) + Botafogo ou Empate 1X (@1.22).
+  - *Stop Point 2 (@1.82):* Stop 1 + St. Louis City x Los Angeles FC X2 (@1.35).
 
 ---
 
-### 3. 🇧🇷 MÚLTIPLA 2 — FAS RODADA: BRASILEIRÃO SÉRIE A (36ª RODADA)
-* **Status:** ⏳ **TURNO DA NOITE (Início às 19:30 BRT)**
+### 3. 🇧🇷 MÚLTIPLA 2 — FAS RODADA: BRASILEIRÃO SÉRIE A (@2.02)
+> **STATUS:** **COMUM A AMBAS AS TRILHAS (100% JOGOS NOTURNOS).**
+
 * **Cotação Combinada:** **@2.02**
-* **Stake Recomendada:** 0.50u (R$ 10,00) | **Retorno Projetado:** **R$ 20,20**
+* **Stake Sugerida:** 0.50u (R$ 10,00) | **Retorno Projetado:** **R$ 20,20**
 * **Seleções:**
   1. *Internacional × Vitória (19:30 BRT):* **Internacional ou Empate (1X @1.20)**
   2. *Botafogo × São Paulo (20:00 BRT):* **Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.38)**
@@ -71,15 +75,7 @@
 
 ---
 
-### 4. 🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (SISTEMA 5/7 NA MELBET)
-* **Status:** ⏳ **APOSTA DE SISTEMA (Início às 16:45 BRT)**
-* **Cotação Composta:** **@42.80**
-* **Stake Recomendada:** 0.07u (R$ 1,00 a R$ 2,00)
-* **Seleções Restantes:**
-  1. *Monza × Fiorentina (16:45 BRT):* Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62)
-  2. *Brentford × Everton (17:00 BRT):* Everton ou Empate (Dupla Chance X2 @1.55)
-  3. *Levante × Elche (17:00 BRT):* Levante Vence (W1 @2.18)
-  4. *Internacional × Vitória (19:30 BRT):* Internacional Vence (W1 @1.75)
-  5. *Botafogo × São Paulo (20:00 BRT):* Botafogo Vence (W1 @1.85)
-  6. *St. Louis City × Los Angeles FC (20:00 BRT):* Los Angeles FC ou Empate (Dupla Chance X2 @1.35)
-  7. *Santos × Grêmio (21:00 BRT):* Santos ou Empate & Total Mais de 1.5 Gols (@1.65)
+### 4. 🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5
+
+* **Trilha A (Sistema 6/8 Original — @62.40):** 8 seleções horizontais. A seleção esticada de Bayern W +2.5 gols oscilou para MISS (1x0), mas a mecânica de Aposta de Sistema 6/8 mantém a aposta **100% viva** para retorno financeiro proporcional caso as 7 pernas restantes confirmem.
+* **Trilha B (Sistema 5/7 Revalidado — @42.80):** 7 seleções limpas com início a partir das 16:45 BRT para apostar imediatamente.

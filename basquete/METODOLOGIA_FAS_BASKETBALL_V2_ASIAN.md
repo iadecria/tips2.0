@@ -30,15 +30,15 @@ A auditoria forense do banco de dados histórico (`basquete/FAS_BASKETBALL_BACKT
 
 ### Pilar 4: Arquitetura Modular em Turnos (Stop Points)
 - **Turno 1 (Costa Leste — 20:30 a 22:00 BRT):** Permite fechar um subtotal de odd @1.80 a @2.00.
-- **Turno 2 (Costa Oeste — 23:00 a 00:30 BRT):** Jogos noturnos que podem ser aguardados para retorno máximo ou encerrados via Cashout se o Turno 1 já garantiu lucro substancial.
+- **Turno 2 (Costa Oeste — 23:00 a 00:30 BRT):** Jogos noturnos para decisão posterior; cashout e lucro não são garantidos.
 
-### Pilar 5: Desafio Soros Basquete (30 Dias / Risco Zero)
+### Pilar 5: Desafio Soros Basquete (30 Dias / reserva planejada; risco permanece)
 - Stake inicial única de R$ 10,00.
 - Odds controladas entre `@1.30` e `@1.45` em seleções de confiança máxima (duplas de mandantes fortes ou spreads estendidos).
 - **Regra de Blindagem do Cofre:**
-  - **Dia 5:** Saque de **R$ 10,00** (neutraliza 100% do risco).
-  - **Dia 7:** Saque de **+R$ 20,00** (lucro líquido travado no cofre).
-  - Do Dia 8 ao Dia 30: Risco zero absoluto operando apenas com o lucro acumulado da casa.
+  - **Dia 5:** retirada planejada de até **R$ 10,00**, apenas se o saldo disponível permitir; isso não elimina o risco das entradas restantes.
+  - **Dia 7:** retirada planejada de até **R$ 20,00**, somente se houver saldo disponível e execução confirmada.
+  - Do Dia 8 ao Dia 30: o plano pretende limitar o capital exposto ao lucro acumulado, mas o risco não é zero e depende do saldo e das retiradas confirmadas.
 
 ---
 

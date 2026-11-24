@@ -16,6 +16,8 @@ sys.path.append(current_dir)
 sys.path.append(parent_dir)
 
 import notifier
+from conformity_validator import validate_grade
+from snapshot_store import SnapshotError, save_snapshot
 
 def run_morning_pipeline():
     print("="*60)
@@ -29,6 +31,26 @@ def run_morning_pipeline():
 
     with open(bilhetes_file, "r", encoding="utf-8") as f:
         data = json.load(f)
+
+    conformity = validate_grade(data)
+    data["conformity"] = conformity
+    print(f"🛡️ Conformidade FAS V7.5: {conformity['status']}")
+    for item in conformity.get("violations", []):
+        print(f"   ❌ [{item['track']}] {item['rule']}: {item.get('message', '')}")
+    for item in conformity.get("review", []):
+        print(f"   ⚠️ Revisão: {item}")
+    if not conformity["canPublish"]:
+        print("❌ Divulgação bloqueada: corrigir as violações antes de notificar ou sincronizar.")
+        return False
+
+    # Freeze the grade before notification or any downstream publication.
+    try:
+        snapshot, created = save_snapshot(data, os.path.join(current_dir, "snapshots"))
+    except SnapshotError as exc:
+        print(f"❌ Snapshot pré-jogo não foi salvo: {exc}")
+        return False
+    action = "criado" if created else "já registrado (replay idempotente)"
+    print(f"📸 Snapshot {action}: {snapshot['metadata']['snapshotId']}")
 
     date_str = data.get("date", datetime.date.today().isoformat())
     status = data.get("status", "ACTIVE")

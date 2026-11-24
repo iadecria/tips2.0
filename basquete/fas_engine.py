@@ -16,6 +16,7 @@ sys.path.append(parent_dir)
 sys.path.append(os.path.join(parent_dir, "futebol"))
 
 import notifier
+from notifier import display_ticket_label
 
 def format_nba_message(data: dict) -> str:
     date = data.get("date", "Hoje")
@@ -44,7 +45,7 @@ def format_nba_message(data: dict) -> str:
     # Supremo
     if supremo:
         mult = supremo.get("multiplierGlobal", 2.05)
-        lines.append(f"⭐ <b>BILHETE SUPREMO BASQUETE (@{mult:.2f})</b>")
+        lines.append(f"💎 <b>{display_ticket_label('SUPREMO', 'SUPREMO BASQUETE')} (@{mult:.2f})</b>")
         lines.append("<i>Tripla de Elite com Spreads Elásticos e Mando de Quadra</i>")
         for sel in supremo.get("selections", []):
             lines.append(f"  • <b>{sel.get('match')}</b>: {sel.get('market')} (@{sel.get('odd')})")
@@ -53,7 +54,7 @@ def format_nba_message(data: dict) -> str:
     # Safe
     if safe:
         mult = safe.get("multiplier", 3.17)
-        lines.append(f"🛡️ <b>MÚLTIPLA 1 — SAFE BASQUETE (Stop Points @{mult:.2f})</b>")
+        lines.append(f"👑 <b>{display_ticket_label('SAFE', 'MÚLTIPLA 1 — SAFE BASQUETE')} (Stop Points @{mult:.2f})</b>")
         for sp in safe.get("stopPoints", []):
             stop_name = sp.get("stop", "")
             s_mult = sp.get("subtotalOdd", 0.0)
@@ -66,7 +67,7 @@ def format_nba_message(data: dict) -> str:
     for exp in experimental:
         name = exp.get("name", "")
         e_mult = exp.get("multiplier", 0.0)
-        lines.append(f"⚡ <b>{name} (@{e_mult:.2f})</b>")
+        lines.append(f"⚔️ <b>{display_ticket_label(exp.get('type', 'ATTACK'), name)} (@{e_mult:.2f})</b>")
         for leg in exp.get("legs", []):
             lines.append(f"  • {leg}")
         lines.append("")
@@ -75,7 +76,7 @@ def format_nba_message(data: dict) -> str:
     if round_sweep:
         r_name = round_sweep.get("name", "")
         r_mult = round_sweep.get("multiplier", 41.80)
-        lines.append(f"🎲 <b>{r_name}</b>")
+        lines.append(f"🥉 <b>{display_ticket_label(round_sweep.get('type', 'IMPROVAVEL'), r_name)}</b>")
         lines.append(f"🏆 Cotação Acumulada: <b>@{r_mult:.2f}</b> (Previsão dos 9 jogos da Copa da NBA)")
         for sel in round_sweep.get("selections", []):
             lines.append(f"  • {sel.get('match').split('(')[0].strip()}: <b>{sel.get('market')}</b> (@{sel.get('odd')})")

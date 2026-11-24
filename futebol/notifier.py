@@ -6,6 +6,7 @@ Módulo universal para envio de notificações automáticas da Grade FAS V7.0 e 
 import os
 import sys
 import json
+import html
 import urllib.request
 import urllib.parse
 from typing import Optional, Dict, Any
@@ -23,6 +24,24 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 # WhatsApp via CallMeBot (Opcional)
 CALLMEBOT_PHONE = os.environ.get("CALLMEBOT_PHONE", "")
 CALLMEBOT_API_KEY = os.environ.get("CALLMEBOT_API_KEY", "")
+
+
+def display_ticket_label(ticket_type: Any, fallback_name: str = "Bilhete") -> str:
+    """Return the FAS Elo presentation label without changing internal ticket IDs."""
+    normalized = str(ticket_type or "").strip().upper().replace("Á", "A")
+    if "SAFE_PLUS" in normalized or "SAFE+" in normalized or "SAFEPLUS" in normalized:
+        elo = "OURO"
+    elif normalized == "SAFE" or normalized.startswith("SAFE_") or normalized == "MODULAR_STOP_POINTS":
+        elo = "MESTRE"
+    elif "SUPREMO" in normalized or "SUPREMA" in normalized:
+        elo = "DIAMANTE"
+    elif "ATTACK" in normalized or "PRA CIMA" in normalized:
+        elo = "PRATA"
+    elif "IMPROV" in normalized or "ROUND_SWEEP" in normalized:
+        elo = "BRONZE"
+    else:
+        return str(fallback_name)
+    return f"{elo} — {fallback_name}"
 
 
 def send_telegram(message: str, bot_token: Optional[str] = None, chat_id: Optional[str] = None) -> bool:
@@ -114,8 +133,17 @@ def format_grade_message(data: Dict[str, Any]) -> str:
     multiplas = data.get("structuredTickets", [])
 
     lines = []
-    lines.append(f"📋 <b>FAS V7.0 — GRADE OFICIAL ({date})</b>")
-    lines.append("⚡ <i>Melbet Engine Edition • DNB Shield Ativo</i>\n")
+    lines.append(f"📋 <b>FAS V7.5 — GRADE OFICIAL ({date})</b>")
+    lines.append("⚡ <i>Melbet Engine Edition • Regras FAS V7.5</i>\n")
+
+    conformity = data.get("conformity", {})
+    conformity_status = conformity.get("status")
+    if conformity_status == "REVIEW":
+        lines.append("⚠️ <b>Conformidade em revisão; selo não emitido.</b> Consulte o relatório local antes de tratar as regras como verificadas.\n")
+    elif conformity_status == "COMPLIANT":
+        lines.append("✅ <b>Grade aprovada pelas regras operacionais V7.5.</b>\n")
+    elif conformity_status == "NO_BET":
+        lines.append("📭 <b>Dia sem bilhetes (NO BET).</b>\n")
 
     # Soros
     if soros:
@@ -134,7 +162,7 @@ def format_grade_message(data: Dict[str, Any]) -> str:
         sup_odd = supremo.get("multiplierGlobal", 3.0)
         sup_stake = supremo.get("stake", 3.0)
         sup_ret = supremo.get("potentialReturn", 0.0)
-        lines.append(f"⭐ <b>BILHETE SUPREMO V7 (@{sup_odd:.2f})</b>")
+        lines.append(f"💎 <b>DIAMANTE — BILHETE SUPREMO V7 (@{sup_odd:.2f})</b>")
         lines.append(f"💵 Stake sugerida: <b>R$ {sup_stake:.2f}</b> ➔ Retorno: <b>R$ {sup_ret:.2f}</b>")
         for sel in supremo.get("selections", []):
             lines.append(f"  • <b>{sel.get('match')}</b>: {sel.get('market')} (@{sel.get('odd')})")
@@ -143,7 +171,7 @@ def format_grade_message(data: Dict[str, Any]) -> str:
     # SAFE
     safe_ticket = next((t for t in multiplas if t.get("type") == "SAFE"), None)
     if safe_ticket:
-        lines.append("🟢 <b>MÚLTIPLA 1 — SAFE ENXUTA V7 (Stop Points)</b>")
+        lines.append("👑 <b>MESTRE — MÚLTIPLA 1 (SAFE) V7 (Stop Points)</b>")
         lines.append(f"💵 Stake: <b>R$ {safe_ticket.get('stake', 15.0):.2f}</b>")
         for sp in safe_ticket.get("stopPoints", []):
             lvl = sp.get("level", "")
@@ -159,7 +187,7 @@ def format_grade_message(data: Dict[str, Any]) -> str:
     for m in multiplas:
         if m.get("type") == "SAFE":
             continue
-        name = m.get("name", "")
+        name = display_ticket_label(m.get("type"), m.get("name", "Bilhete"))
         mult = m.get("multiplier", 0.0)
         stk = m.get("stake", 1.0)
         ret = m.get("potentialReturn", 0.0)
@@ -178,13 +206,41 @@ def format_confere_message(date: str, summary: Dict[str, Any], placares: list) -
     lines.append(f"📊 <b>CONFERE OFICIAL FAS — {date}</b>")
     lines.append(f"🏆 Resultado: <b>{summary.get('roundResult', 'CONFERE CONCLUÍDO')}</b>\n")
 
-    inv = summary.get("invested", 25.25)
-    ret = summary.get("returnedStandard", summary.get("returned", 0.0))
-    luc = summary.get("netProfitStandard", summary.get("netProfit", 0.0))
-    lines.append("💵 <b>BALANÇO FINANCEIRO (GRADE REGULAR):</b>")
-    lines.append(f"• Investimento: <b>R$ {inv:.2f}</b>")
-    lines.append(f"• Retorno Resgatado: <b>R$ {ret:.2f}</b>")
-    lines.append(f"• Lucro Líquido: <b>+R$ {luc:.2f}</b>")
+    financial = summary.get("financialSettlements", [])
+    if financial:
+        inv = summary.get("invested", 0.0)
+        ret = summary.get("returned", 0.0)
+        luc = summary.get("netProfit", 0.0)
+        lines.append("💵 <b>LIQUIDAÇÃO FINANCEIRA DO SNAPSHOT:</b>")
+        lines.append(f"• Stake declarada: <b>R$ {inv:.2f}</b>")
+        ret_text = f"R$ {ret:.2f}" if isinstance(ret, (int, float)) else "pendente (há combinações/bilhetes sem resultado)"
+        luc_text = f"R$ {luc:.2f}" if isinstance(luc, (int, float)) else "pendente (há combinações/bilhetes sem resultado)"
+        lines.append(f"• Retorno bruto calculado: <b>{ret_text}</b>")
+        lines.append(f"• Resultado líquido calculado: <b>{luc_text}</b>")
+        for item in financial:
+            result = item.get("result", {})
+            gross = result.get("grossReturn")
+            net = result.get("netResult")
+            gross_text = f"R$ {gross:.2f}" if isinstance(gross, (int, float)) else "pendente"
+            net_text = f"R$ {net:.2f}" if isinstance(net, (int, float)) else "pendente"
+            evidence = "recibo confirmado" if result.get("calculationBasis") == "VERIFIED_RECEIPT" else "estimativa"
+            ticket_name = display_ticket_label(item.get("ticketType"), item.get("ticketName", item.get("ticketId", "Bilhete")))
+            label = html.escape(ticket_name)
+            status = html.escape(str(result.get("status", "PENDING")))
+            lines.append(f"  • {label}: <b>{status}</b> | bruto {gross_text} | líquido {net_text} | {evidence}")
+            divergence = item.get("divergence")
+            if divergence:
+                lines.append("    ⚠️ <b>DIVERGÊNCIA:</b> " + html.escape(json.dumps(divergence, ensure_ascii=False, sort_keys=True)))
+            for proof in item.get("selectionEvidence", []):
+                fixture = html.escape(str(proof.get("fixture", "partida desconhecida")))
+                period = html.escape(str(proof.get("period", "período desconhecido")))
+                source = html.escape(str(proof.get("source", "fonte desconhecida")))
+                retrieved = html.escape(str(proof.get("retrievedAt", "horário desconhecido")))
+                score = html.escape(str(proof.get("score", "placar não informado")))
+                lines.append(f"    • {fixture} | {period} | {score} | fonte: {source} | consulta: {retrieved}")
+    else:
+        lines.append("💵 <b>LIQUIDAÇÃO FINANCEIRA:</b>")
+        lines.append("• Sem evidência estruturada verificável; nenhum retorno foi apresentado como realizado.")
     lines.append("")
 
     lines.append("⚽ <b>RESULTADOS DOS JOGOS AUDITADOS:</b>")

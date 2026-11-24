@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Local baseline replay for the first FAS improvement stage; no wagering or external calls.",
+  "sources": {
+    "backtest": "../FAS3_FOOTBALL_BACKTEST_DATABASE.md",
+    "activeTickets": "../bilhetes_ativos.json",
+    "report2026-11-21": "../RELATORIO_FAS_E_CONFERE_2026-11-21.md",
+    "report2026-11-23": "../RELATORIO_FAS_E_CONFERE_2026-11-23.md"
+  },
+  "cases": {
+    "2026-11-21": {
+      "snapshotId": "FAS_FOOTBALL_2026-11-21_V1_SATURDAY_ANTI_CORRELATION_V7_5",
+      "provenance": {
+        "snapshotId": "backtest section [2026-11-21], Snapshot ID",
+        "sorosStakeDeclared": "backtest section [2026-11-21], Soros financial ticket",
+        "sorosReturnDeclared": "backtest section [2026-11-21], Soros financial ticket; report 2026-11-21 summary is corroborating project text, not a receipt",
+        "improvavelRecord": "backtest section [2026-11-21], MÚLTIPLA 5; eight selections and six hits explicitly listed in settlement",
+        "receipt": "not present in the indicated source files"
+      },
+      "soros": {
+        "stakeDeclaredBRL": 10.0,
+        "returnDeclaredBRL": 13.8,
+        "returnConfirmedByReceiptBRL": null
+      },
+      "improvavel": {
+        "selections": 8,
+        "hits": 6,
+        "system": "6/8",
+        "sourceSaysSystemPrizeActivated": true
+      }
+    },
+    "2026-11-23": {
+      "snapshotIds": {
+        "trackA": "FAS_FOOTBALL_2026-11-23_V1_MONDAY_ANTI_CORRELATION_V7_5",
+        "trackB": "FAS_FOOTBALL_2026-11-23_V2_REVALIDACAO_16H_MELBET_V7_5",
+        "activeCombinedRecord": "FAS_FOOTBALL_2026-11-23_V3_DUAL_TRACK_MATINAL_E_REVALIDADA"
+      },
+      "provenance": {
+        "trackA": "backtest section [2026-11-23], initial active tickets and Trilha A settlement; report 2026-11-23",
+        "trackB": "backtest section [2026-11-23], Trilha B revalidation and operational settlement; activeTickets structuredTickets and sorosTicket corroborate the settled operational amounts",
+        "stakeDeclared": "ticket-level Stake lines in backtest; activeTickets stake fields corroborate four values",
+        "returnDeclared": "ticket-level projected return lines in backtest; activeTickets actualReturn fields are zero after settlement",
+        "receipt": "not present in the indicated source files; project-declared returns are not receipt-confirmed"
+      },
+      "trackA": {
+        "soros": {
+          "stakeDeclaredBRL": 13.8,
+          "returnDeclaredBRL": 17.94,
+          "returnConfirmedByReceiptBRL": null
+        },
+        "improvavel": { "selections": 8, "hits": 2, "system": "6/8" }
+      },
+      "trackB": {
+        "operationalTicketCount": 5,
+        "operationalStakeDeclaredBRL": 64.8,
+        "operationalReturnDeclaredBRL": 0.0,
+        "operationalReturnConfirmedByReceiptBRL": null,
+        "tickets": [
+          { "id": "supremo", "stakeDeclaredBRL": 25.0, "returnDeclaredBRL": 0.0 },
+          { "id": "safe", "stakeDeclaredBRL": 15.0, "returnDeclaredBRL": 0.0 },
+          { "id": "brasileirao", "stakeDeclaredBRL": 10.0, "returnDeclaredBRL": 0.0 },
+          { "id": "soros", "stakeDeclaredBRL": 13.8, "returnDeclaredBRL": 0.0 },
+          { "id": "improvavel", "stakeDeclaredBRL": 1.0, "returnDeclaredBRL": 0.0 }
+        ],
+        "improvavel": { "selections": 7, "hits": 0, "system": "5/7" }
+      }
+    }
+  }
+}

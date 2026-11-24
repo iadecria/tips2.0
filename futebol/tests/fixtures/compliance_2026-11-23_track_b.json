@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-23",
+  "snapshotId": "FAS_FOOTBALL_2026-11-23_V2_REVALIDACAO_16H_MELBET_V7_5",
+  "status": "ACTIVE",
+  "methodologyVersion": "FAS V7.5",
+  "track": "TRILHA_B_OPERACIONAL",
+  "shortSlateDeclared": true,
+  "qualityFixtureCount": null,
+  "provenance": {
+    "ticketsAndDeclaredStakes": "FAS3_FOOTBALL_BACKTEST_DATABASE.md, 2026-11-23 Trilha B revalidation",
+    "shortSlateDeclared": "FAS3_FOOTBALL_BACKTEST_DATABASE.md, 2026-11-23 V7.5 rules and short-slate protocol; exact count of quality fixtures is not recorded",
+    "qualityFixtureCount": "unknown; no pre-match fixture-quality inventory is present in the cited records"
+  },
+  "supremoTicket": {
+    "name": "Bilhete Supremo Europeu",
+    "type": "FILE_DO_DIA",
+    "stake": 25.0,
+    "selections": [
+      { "match": "Monza x Fiorentina", "market": "Fiorentina ou Empate X2", "odd": 1.22 },
+      { "match": "Brentford x Everton", "market": "Menos de 3.5 gols", "odd": 1.28 },
+      { "match": "Levante x Elche", "market": "Levante 1X", "odd": 1.28 }
+    ]
+  },
+  "structuredTickets": [
+    {
+      "name": "Múltipla 1 SAFE — Trilha B",
+      "type": "SAFE",
+      "track": "TRILHA_B_OPERACIONAL",
+      "stake": 15.0,
+      "stopPoints": [
+        { "level": "Stop Point 1", "legs": [
+          "Internacional x Vitória: Menos de 3.5 gols",
+          "Botafogo x São Paulo: Botafogo 1X"
+        ] },
+        { "level": "Stop Point 2", "legs": [
+          "Internacional x Vitória: Menos de 3.5 gols",
+          "Botafogo x São Paulo: Botafogo 1X",
+          "St. Louis City x Los Angeles FC: LAFC X2"
+        ] }
+      ]
+    },
+    {
+      "name": "Múltipla 2 Brasileirão Série A",
+      "type": "RODADA",
+      "track": "COMUM_A_E_B",
+      "stake": 10.0,
+      "legs": [
+        "Internacional x Vitória: Internacional 1X",
+        "Botafogo x São Paulo: Botafogo DNB / Handicap 1 (0)",
+        "Santos x Grêmio: Santos 1X"
+      ]
+    },
+    {
+      "name": "Múltipla 5 O Improvável — Trilha B Sistema 5/7",
+      "type": "IMPROVAVEL",
+      "track": "TRILHA_B_OPERACIONAL",
+      "stake": 1.0,
+      "system": "5/7",
+      "legs": [
+        "Monza x Fiorentina: Fiorentina X2 e Mais de 1.5 gols",
+        "Brentford x Everton: Everton X2",
+        "Levante x Elche: Levante vence",
+        "Internacional x Vitória: Internacional vence",
+        "Botafogo x São Paulo: Botafogo vence",
+        "St. Louis City x Los Angeles FC: LAFC X2",
+        "Santos x Grêmio: Santos 1X e Mais de 1.5 gols"
+      ]
+    }
+  ],
+  "sorosTicket": {
+    "name": "Desafio Soros Ciclo 6 Dia 2",
+    "type": "SOROS",
+    "stake": 13.8,
+    "legs": [
+      "Trilha B (Operacional Revalidada): Santos x Grêmio — Santos DNB @1.36"
+    ]
+  }
+}

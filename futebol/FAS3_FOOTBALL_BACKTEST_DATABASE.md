@@ -5641,3 +5641,34 @@ Nesta modalidade, cada categoria forma um bilhete único (múltipla/parlay) comb
   - 🇧🇷 **Múltipla 2 — Brasileirão Série A (@2.02):** Inter 1X (@1.20) + Botafogo DNB (@1.38) + Santos 1X (@1.22) ➔ *Pendente*
   - 🔥 **Desafio Soros Dia 2 (@1.36):** Santos x Grêmio — Santos DNB (@1.36) [Stake: R$ 13,80 | Retorno: R$ 18,77] ➔ *Pendente*
   - 🎲 **Múltipla 5 — O Improvável (Sistema 5/7 @42.80):** 7 seleções limpas ➔ *Pendente*
+
+
+#### 4. Auditoria Pós-Jogo e Liquidação Oficial (Confere 23/11)
+
+- **Status de Liquidação:** **LIQUIDADO / AUDITADO (HECATOMBE DE ZEBRAS CONTINENTAIS)**
+- **Placares Oficiais Auditados:**
+  1. *Bayern de Munique W 1 × 0 Hoffenheim W:* Bayern W Vence (W1 @1.18) ➔ ✅ **HIT**
+  2. *Al-Ittihad 2 × 0 Pakhtakor Tashkent:* Al-Ittihad Vence (W1 @1.30) ➔ ✅ **HIT**
+  3. *Brøndby 0 × 2 FC Midtjylland:* FC Midtjylland X2 (@1.44) ➔ ✅ **HIT**
+  4. *Levante 1 × 1 Elche:* Levante 1X (@1.28) ➔ ✅ **HIT** (Daniel Requena aos 88')
+  5. *Botafogo 1 × 1 São Paulo:* Botafogo 1X (@1.22) ➔ ✅ **HIT** | Botafogo DNB (@1.38) ➔ ⚪ **VOID (Reembolso)**
+  6. *Monza 3 × 0 Fiorentina:* Fiorentina X2 (@1.22) ➔ ❌ **MISS** (Monza venceu com 2 gols de Varela).
+  7. *Brentford 4 × 0 Everton:* Menos de 3.5 Gols (@1.28) ➔ ❌ **MISS** (Tarkowski expulso aos 23' do 1ºT; goleada do Brentford).
+  8. *Internacional 2 × 5 Vitória:* Menos de 3.5 Gols (@1.22) / Inter 1X (@1.20) ➔ ❌ **MISS** (Gol aos 12s; 7 gols no Beira-Rio).
+  9. *Santos 0 × 2 Grêmio:* Santos 1X (@1.22) / Santos DNB (@1.36) ➔ ❌ **MISS** (Zebra no Morumbis; Grêmio venceu com Amuzu e Braithwaite).
+  10. *St. Louis City 3 × 2 Los Angeles FC:* LAFC X2 (@1.35) ➔ ❌ **MISS** (St. Louis venceu o Jogo 1 dos playoffs).
+
+#### 5. Liquidação Financeira dos Bilhetes
+
+- 🔥 **DESAFIO SOROS FAS — CICLO 6 / DIA 2 DE 30:**
+  - *Trilha A (Matinal Oficial):* Al-Ittihad 2 × 0 Pakhtakor (@1.30) ➔ 🟢 **GREEN CRAVADO!** Retorno: **R$ 17,94**.
+  - *Trilha B (Operacional Revalidada):* Santos 0 × 2 Grêmio (@1.36) ➔ 🔴 **RED (MISS)**. Derrota seca do Santos encerra o Ciclo 6 no Dia 2. Ciclo 7 reinicia com R$ 10,00.
+- ⭐ **BILHETE SUPREMO V7.5 (@2.00):** 🔴 **RED (1 de 3 acertos)**
+  - Levante 1X ✅, Monza 3x0 ❌, Brentford 4x0 ❌.
+- 🛡️ **MÚLTIPLA 1 — SAFE V7.5:** 🔴 **RED**
+  - Trilha A: Bayern W ✅, Botafogo DNB ⚪, Inter 2x5 ❌.
+  - Trilha B: Botafogo 1X ✅, Inter 2x5 ❌, LAFC 2x3 ❌.
+- 🇧🇷 **MÚLTIPLA 2 — BRASILEIRÃO SÉRIE A (@2.02):** 🔴 **RED**
+  - Botafogo DNB ⚪, Inter 2x5 ❌, Santos 0x2 ❌.
+- 🎲 **MÚLTIPLA 5 — O IMPROVÁVEL V7.5:** 🔴 **RED**
+  - Apenas 2 acertos de 8 (Al-Ittihad 2x0 e Midtjylland 2x0).

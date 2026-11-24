@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 13.80,
-  "currentDay": 2,
+  "currentStake": 10.0,
+  "currentDay": 1,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 10.0,
@@ -432,8 +432,9 @@
       "selection": "Al-Ittihad x Pakhtakor Tashkent (Al-Ittihad Vence W1 @1.30 na Melbet) [Trilha A - Modelo Original]",
       "odd": 1.30,
       "potentialReturn": 17.94,
-      "status": "PENDING",
-      "notes": "Trilha A (Estatística Pura do Modelo): Confronto na Arábia Saudita às 15:15 BRT. Gol aos 7' do 1ºT (1x0)."
+      "actualReturn": 17.94,
+      "status": "HIT",
+      "notes": "GREEN CRAVADO NO MODELO! Al-Ittihad 2x0 Pakhtakor (W1 @1.30 ✅). Previsão matinal confirmada com autoridade em Jidá."
     },
     {
       "day": 2,
@@ -443,8 +444,10 @@
       "selection": "Santos x Grêmio (Santos — Empate Anula Aposta / DNB / Handicap 1 (0) @1.36 na Melbet) [Trilha B - Execução Real]",
       "odd": 1.36,
       "potentialReturn": 18.77,
-      "status": "PENDING",
-      "notes": "Trilha B (Operacional Revalidada): Para execução real do apostador às 21:00 BRT no Morumbis. Proteção DNB garante reembolso total em caso de empate!"
+      "actualReturn": 0.0,
+      "status": "MISS",
+      "missReason": "Zebra no Morumbis: derrota do Santos por 0x2 para o Grêmio. O DNB não cobriu pois houve derrota seca (não empate).",
+      "notes": "Ciclo 6 encerrado no Dia 2 na execução operacional revalidada. Reinicia no Dia 1 com stake inicial de R$ 10,00."
     }
   ]
 }

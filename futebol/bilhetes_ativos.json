@@ -1,38 +1,64 @@
 {
   "date": "2026-11-23",
   "snapshotId": "FAS_FOOTBALL_2026-11-23_V3_DUAL_TRACK_MATINAL_E_REVALIDADA",
-  "status": "ACTIVE",
-  "notes": "ARQUITETURA DE REGISTRO DUAL FAS V7.5: Ambas as trilhas estão salvas e auditadas em paralelo para máxima fidelidade estatística. TRILHA A (Matinal Completa 11:15 BRT): Mede a precisão analítica do modelo pré-jogo (Bayern W 1x0 GREEN ✅, Al-Ittihad 1x0 em andamento). TRILHA B (Operacional Revalidada 16:00 BRT): Grade em execução real para o apostador que entrou após as 16h, concentrada no Bilhete Supremo Europeu e nos duelos noturnos da Série A com proteção DNB.",
+  "status": "SETTLED",
+  "notes": "GRADE DE 23/11/2026 AUDITADA (CONFERE): Noite atípica e histórica de zebras continentais no futebol. A hecatombe de 2x5 do Internacional diante do Vitória no Beira-Rio (com gol aos 12 segundos) e a derrota do Santos por 0x2 para o Grêmio no Morumbis derrubaram as múltiplas da Série A. Na Europa, a expulsão precoce de Tarkowski aos 23' abriu caminho para a goleada de 4x0 do Brentford sobre o Everton (quebrando o Under) e o Monza bateu a Fiorentina por 3x0. Na Trilha A matinal, o Desafio Soros cravou 100% Green com Al-Ittihad 2x0 Pakhtakor (@1.30) e o Bayern W venceu (1x0). Na Trilha B operacional executada pelo usuário, o Santos perdeu por 0x2, encerrando o Ciclo 6 no Dia 2.",
+  "auditSummary": {
+    "roundResult": "ZEBRAS HISTÓRICAS / RED GERAL NA OPERAÇÃO NOTURNA (COM GREEN NO SOROS DA TRILHA A)",
+    "sorosTrackAStatus": "GREEN_CRAVADO_100% (Al-Ittihad 2x0 Pakhtakor @1.30 -> R$ 17,94)",
+    "sorosTrackBStatus": "RED (Santos 0x2 Grêmio)",
+    "sorosNextDay": 1,
+    "sorosNextStake": 10.0,
+    "supremoStatus": "RED (Levante 1X ✅, Monza 3x0 ❌, Brentford 4x0 ❌)",
+    "safeTrackAStatus": "RED (Bayern W1 ✅, Botafogo DNB ⚪, Inter 2x5 ❌)",
+    "safeTrackBStatus": "RED (Botafogo 1X ✅, Inter 2x5 ❌, LAFC 2x3 ❌)",
+    "brasileiraoStatus": "RED (Botafogo DNB ⚪, Inter 2x5 ❌, Santos 0x2 ❌)",
+    "improvavelStatus": "RED (Acertos em Al-Ittihad ✅, Midtjylland ✅)"
+  },
+  "placaresOficiais": [
+    "Bayern de Munique W 1 × 0 Hoffenheim W (Bayern W1 ✅, Over 2.5 ❌)",
+    "Al-Ittihad 2 × 0 Pakhtakor Tashkent (Al-Ittihad W1 ✅, V1 & +1.5 ✅)",
+    "Brøndby 0 × 2 FC Midtjylland (Midtjylland X2 ✅)",
+    "Levante 1 × 1 Elche (Levante 1X ✅, Levante W1 ❌)",
+    "Botafogo 1 × 1 São Paulo (Botafogo 1X ✅, Botafogo DNB ⚪ Reembolso)",
+    "Monza 3 × 0 Fiorentina (Zebra: Monza 3x0, Fiorentina X2 ❌)",
+    "Brentford 4 × 0 Everton (Tarkowski expulso aos 23' do 1ºT, Menos de 3.5 ❌)",
+    "Internacional 2 × 5 Vitória (Gol com 12s, 7 gols totais, Inter 1X ❌, Menos de 3.5 ❌)",
+    "Santos 0 × 2 Grêmio (Zebra no Morumbis: Santos 1X ❌, Santos DNB ❌)",
+    "St. Louis City 3 × 2 Los Angeles FC (LAFC X2 ❌)"
+  ],
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE EUROPEIA",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 2.00,
     "stake": 25.0,
-    "potentialReturn": 50.00,
-    "status": "PENDING",
-    "notes": "Comum a ambas as trilhas (Trilha A e B). Partidas com início a partir das 16:45 BRT.",
+    "actualReturn": 0.0,
+    "status": "MISS",
     "selections": [
       {
         "match": "Monza x Fiorentina (16:45 BRT)",
         "competition": "Serie A (Itália)",
         "market": "Fiorentina ou Empate (Dupla Chance X2)",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "MISS",
+        "score": "3x0"
       },
       {
         "match": "Brentford x Everton (17:00 BRT)",
         "competition": "Premier League (Inglaterra)",
         "market": "Total Menos de 3.5 Gols no Jogo",
         "odd": 1.28,
-        "status": "PENDING"
+        "status": "MISS",
+        "score": "4x0"
       },
       {
         "match": "Levante x Elche (17:00 BRT)",
         "competition": "La Liga (Espanha)",
         "market": "Levante ou Empate (Dupla Chance 1X)",
         "odd": 1.28,
-        "status": "PENDING"
+        "status": "HIT",
+        "score": "1x1"
       }
     ]
   },
@@ -43,26 +69,26 @@
       "track": "TRILHA_A_MATINAL",
       "stake": 15.0,
       "multiplier": 1.76,
-      "potentialReturn": 26.40,
-      "status": "PENDING",
+      "actualReturn": 0.0,
+      "status": "MISS",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Âncora Máxima — Odd @1.44)",
           "multiplier": 1.44,
-          "status": "PENDING",
+          "status": "MISS",
           "legs": [
-            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18) ➔ GREEN CRAVADO (1x0 ✅)",
-            "Internacional x Vitória (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.22) ➔ PENDENTE"
+            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18) ➔ GREEN (1x0 ✅)",
+            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)"
           ]
         },
         {
           "level": "Stop Point 2 (Blindagem Consagrada com DNB — Odd @1.76)",
           "multiplier": 1.76,
-          "status": "PENDING",
+          "status": "MISS",
           "legs": [
-            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18) ➔ GREEN CRAVADO (1x0 ✅)",
-            "Internacional x Vitória (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.22) ➔ PENDENTE",
-            "Botafogo x São Paulo (20:00 BRT): Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.22) ➔ PENDENTE"
+            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18) ➔ GREEN (1x0 ✅)",
+            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)",
+            "Botafogo x São Paulo: Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.22) ➔ REEMBOLSO (1x1 ⚪)"
           ]
         }
       ]
@@ -73,26 +99,26 @@
       "track": "TRILHA_B_OPERACIONAL",
       "stake": 15.0,
       "multiplier": 1.82,
-      "potentialReturn": 27.30,
-      "status": "PENDING",
+      "actualReturn": 0.0,
+      "status": "MISS",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Âncora Noturna — Odd @1.49)",
           "multiplier": 1.49,
-          "status": "PENDING",
+          "status": "MISS",
           "legs": [
-            "Internacional x Vitória (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)",
-            "Botafogo x São Paulo (20:00 BRT): Botafogo ou Empate (Dupla Chance 1X @1.22)"
+            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)",
+            "Botafogo x São Paulo: Botafogo ou Empate (Dupla Chance 1X @1.22) ➔ HIT (1x1 ✅)"
           ]
         },
         {
           "level": "Stop Point 2 (Blindagem com Proteção DNB — Odd @1.82)",
           "multiplier": 1.82,
-          "status": "PENDING",
+          "status": "MISS",
           "legs": [
-            "Internacional x Vitória (19:30 BRT): Total Menos de 3.5 Gols no Jogo (@1.22)",
-            "Botafogo x São Paulo (20:00 BRT): Botafogo ou Empate (Dupla Chance 1X @1.22)",
-            "St. Louis City x Los Angeles FC (20:00 BRT): Los Angeles FC ou Empate (Dupla Chance X2 @1.35)"
+            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)",
+            "Botafogo x São Paulo: Botafogo ou Empate (Dupla Chance 1X @1.22) ➔ HIT (1x1 ✅)",
+            "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35) ➔ MISS (3x2 ❌)"
           ]
         }
       ]
@@ -103,12 +129,12 @@
       "track": "COMUM_A_E_B",
       "stake": 10.0,
       "multiplier": 2.02,
-      "potentialReturn": 20.20,
-      "status": "PENDING",
+      "actualReturn": 0.0,
+      "status": "MISS",
       "legs": [
-        "Internacional x Vitória (19:30 BRT): Internacional ou Empate (1X @1.20)",
-        "Botafogo x São Paulo (20:00 BRT): Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.38)",
-        "Santos x Grêmio (21:00 BRT): Santos ou Empate (1X @1.22)"
+        "Internacional x Vitória: Internacional ou Empate (1X @1.20) ➔ MISS (2x5 ❌)",
+        "Botafogo x São Paulo: Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.38) ➔ REEMBOLSO (1x1 ⚪)",
+        "Santos x Grêmio: Santos ou Empate (1X @1.22) ➔ MISS (0x2 ❌)"
       ]
     },
     {
@@ -117,18 +143,17 @@
       "track": "TRILHA_A_MATINAL",
       "stake": 1.0,
       "multiplier": 62.40,
-      "potentialReturn": 62.40,
-      "status": "PENDING",
-      "notes": "Sistema 6/8 original. Bayern W (+2.5) oscilou para MISS (1x0), mas aposta de sistema permanece 100% viva para premiação com as 7 pernas restantes.",
+      "actualReturn": 0.0,
+      "status": "MISS",
       "legs": [
-        "Al-Ittihad x Pakhtakor: Al-Ittihad Vence & Total Mais de 1.5 Gols (@1.50) [Em andamento 1x0]",
-        "Bayern de Munique W x Hoffenheim W: Bayern W Vence & Total Mais de 2.5 Gols (@1.45) ➔ MISS (1x0)",
-        "Monza x Fiorentina (16:45 BRT): Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62)",
-        "Brentford x Everton (17:00 BRT): Everton ou Empate (Dupla Chance X2 @1.55)",
-        "Levante x Elche (17:00 BRT): Levante Vence (W1 @2.18)",
-        "Brøndby x Midtjylland (15:00 BRT): FC Midtjylland ou Empate (Dupla Chance X2 @1.44)",
-        "St. Louis City x Los Angeles FC (20:00 BRT): Los Angeles FC ou Empate (Dupla Chance X2 @1.35)",
-        "Santos x Grêmio (21:00 BRT): Santos ou Empate & Total Mais de 1.5 Gols (@1.65)"
+        "Al-Ittihad x Pakhtakor: Al-Ittihad Vence & Total Mais de 1.5 Gols (@1.50) ➔ HIT (2x0 ✅)",
+        "Bayern de Munique W x Hoffenheim W: Bayern W Vence & Total Mais de 2.5 Gols (@1.45) ➔ MISS (1x0 ❌)",
+        "Monza x Fiorentina: Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62) ➔ MISS (3x0 ❌)",
+        "Brentford x Everton: Everton ou Empate (Dupla Chance X2 @1.55) ➔ MISS (4x0 ❌)",
+        "Levante x Elche: Levante Vence (W1 @2.18) ➔ MISS (1x1 ❌)",
+        "Brøndby x Midtjylland: FC Midtjylland ou Empate (Dupla Chance X2 @1.44) ➔ HIT (0x2 ✅)",
+        "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35) ➔ MISS (3x2 ❌)",
+        "Santos x Grêmio: Santos ou Empate & Total Mais de 1.5 Gols (@1.65) ➔ MISS (0x2 ❌)"
       ]
     },
     {
@@ -137,17 +162,16 @@
       "track": "TRILHA_B_OPERACIONAL",
       "stake": 1.0,
       "multiplier": 42.80,
-      "potentialReturn": 42.80,
-      "status": "PENDING",
-      "notes": "Sistema 5/7 limpo com os 7 jogos restantes pós-16h45 para execução real do apostador.",
+      "actualReturn": 0.0,
+      "status": "MISS",
       "legs": [
-        "Monza x Fiorentina (16:45 BRT): Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62)",
-        "Brentford x Everton (17:00 BRT): Everton ou Empate (Dupla Chance X2 @1.55)",
-        "Levante x Elche (17:00 BRT): Levante Vence (W1 @2.18)",
-        "Internacional x Vitória (19:30 BRT): Internacional Vence (W1 @1.75)",
-        "Botafogo x São Paulo (20:00 BRT): Botafogo Vence (W1 @1.85)",
-        "St. Louis City x Los Angeles FC (20:00 BRT): Los Angeles FC ou Empate (Dupla Chance X2 @1.35)",
-        "Santos x Grêmio (21:00 BRT): Santos ou Empate & Total Mais de 1.5 Gols (@1.65)"
+        "Monza x Fiorentina: Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62) ➔ MISS (3x0 ❌)",
+        "Brentford x Everton: Everton ou Empate (Dupla Chance X2 @1.55) ➔ MISS (4x0 ❌)",
+        "Levante x Elche: Levante Vence (W1 @2.18) ➔ MISS (1x1 ❌)",
+        "Internacional x Vitória: Internacional Vence (W1 @1.75) ➔ MISS (2x5 ❌)",
+        "Botafogo x São Paulo: Botafogo Vence (W1 @1.85) ➔ MISS (1x1 ❌)",
+        "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35) ➔ MISS (3x2 ❌)",
+        "Santos x Grêmio: Santos ou Empate & Total Mais de 1.5 Gols (@1.65) ➔ MISS (0x2 ❌)"
       ]
     }
   ],
@@ -155,12 +179,11 @@
     "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 6 / DIA 2 DE 30 (TRACKING DUAL)",
     "type": "SOROS",
     "stake": 13.80,
-    "multiplier": 1.36,
-    "potentialReturn": 18.77,
-    "status": "PENDING",
+    "actualReturn": 0.0,
+    "status": "MISS",
     "legs": [
-      "Trilha A (Matinal Oficial): Al-Ittihad x Pakhtakor — Al-Ittihad Vence (W1 @1.30 na Melbet) [Em andamento / Gol aos 7']",
-      "Trilha B (Operacional Revalidada): Santos x Grêmio (21:00 BRT) — Santos Empate Anula Aposta (DNB @1.36 na Melbet) [Proteção Reembolso 100%]"
+      "Trilha A (Matinal Oficial): Al-Ittihad 2x0 Pakhtakor — W1 @1.30 ➔ HIT ✅ (Green de R$ 17,94)",
+      "Trilha B (Operacional Revalidada): Santos 0x2 Grêmio — DNB @1.36 ➔ MISS ❌ (Ciclo 6 encerrado no Dia 2)"
     ]
   }
 }
